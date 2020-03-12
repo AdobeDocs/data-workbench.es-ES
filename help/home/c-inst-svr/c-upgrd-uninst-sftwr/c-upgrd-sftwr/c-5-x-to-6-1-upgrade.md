@@ -180,8 +180,7 @@ La instalación del servidor de informes ya se ha completado.
    >
    >Por ejemplo, para iniciar Chino simplificado, cree un acceso directo que pase en la configuración de la línea de comandos.
    >
-   >
-   ```
+   >```
    >Insight.exe -zh-cn
    >```
    >
