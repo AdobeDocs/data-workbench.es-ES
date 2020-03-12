@@ -53,8 +53,7 @@ Para establecer la configuración de exportación, se agregaron dos nuevos archi
    >
    >Ejemplo para generar claves SSH mediante keygen:
    >
-   >
-   ```
+   >```
    >ssh-keygen -t rsa -b 4096 -C "<label>"
    >```
 
