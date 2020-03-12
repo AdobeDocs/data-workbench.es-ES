@@ -16,9 +16,9 @@ Para empezar a utilizar el tablero del área de trabajo de datos de Adobe, siga 
 
 1. Instale el navegador compatible.
 
-       El tablero es una aplicación basada en la Web que funciona con la tecnología de navegador Web más reciente. Puede utilizarse en cualquier sistema operativo siempre que el sistema operativo esté equipado con un navegador web compatible. Dado que el tablero aprovecha las funciones no admitidas en versiones anteriores de exploradores web, se necesitan navegadores más recientes para disfrutar de una experiencia óptima al utilizar la aplicación.
+   El tablero es una aplicación basada en la Web que funciona con la tecnología de navegador Web más reciente. Puede utilizarse en cualquier sistema operativo siempre que el sistema operativo esté equipado con un navegador web compatible. Dado que el tablero aprovecha las funciones no admitidas en versiones anteriores de exploradores web, se necesitan navegadores más recientes para disfrutar de una experiencia óptima al utilizar la aplicación.
        
- Aunque     pueden funcionar muchas variaciones de navegadores, solo se admiten oficialmente los siguientes exploradores web:
+   Aunque pueden funcionar muchas variaciones de navegadores, solo se admiten oficialmente los siguientes exploradores web:
    
    * Google Chrome 15 y versiones posteriores (disponible en [https://www.google.com/chrome/](https://www.google.com/chrome/))
    * Microsoft Internet Explorer 9 y posterior (disponible en [http://www.microsoft.com/windows/ie/](http://www.microsoft.com/windows/ie/))
