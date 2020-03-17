@@ -3,7 +3,7 @@ description: Actualización de componentes de servidor para Área de trabajo de 
 title: Actualización del servidor DWB 6.2 a 6.3
 uuid: e12b6cc1-070e-4bc7-bc64-203d11cfeae9
 translation-type: tm+mt
-source-git-commit: 25366087936dfa5e31c5921aac400535ec259f2e
+source-git-commit: 79d5a2f44ade88f25f7621a4738d14c43777fc9f
 
 ---
 
@@ -22,26 +22,27 @@ Si tiene perfiles personalizados que tienen prioridad sobre los archivos predete
    1. Cambie el tipo de datos para **[!UICONTROL Proxy Password]** de &quot; [!DNL string"] a &quot; [!DNL EncryptedString]&quot; en la sección Configuración *de* estación de trabajo.
 
       ```
-      Proxy User Name = string: 
-      Proxy Password = EncryptedString:   ( 
-      
-<i>from Proxy Password = String</i>)Usar archivo de dirección = bool: true&quot;
+        Proxy User Name = string: 
+        Proxy Password = EncryptedString:   ( 
+        from Proxy Password = String) 
+        Use Address File = bool: true
+      ```
 
-    1. Agregue nuevas entradas para habilitar las nuevas transformaciones del par de valores de nombre: *BuildNameValuePair* y *ExtractNameValuePairs*.
-    
-    Abra un espacio de trabajo y haga clic con el botón secundario en **Administración** > **Administrador de perfiles**.
-    
-    En **Contexto**, haga clic en el archivo **meta.cfg*** de la columna **Base** y, a continuación, haga clic en **Convertir en local**. En la columna de la tabla Usuario, haga clic con el botón derecho y seleccione **Abrir** > **En estación de trabajo**.
-    
-    ![](assets/meta_cfg.png)
-    
-    * En la nueva ventana, haga clic en **metadata** y agregue plantillas secundarias aceptables.
-    
-    ![](assets/meta_cfg_child.png)
-    
-    * Abra **transformación** y agregue nuevas plantillas.
-    
-    ![](assets/meta_cfg_template.png)
+   1. Agregue nuevas entradas para habilitar las nuevas transformaciones del par de valores de nombre: *BuildNameValuePair* y *ExtractNameValuePairs*.
+
+      Abra un espacio de trabajo y haga clic con el botón secundario en **Administración** > Administrador **de perfiles**.
+
+      En **Contexto**, haga clic en el archivo **meta.cfg** en la columna **Base** y, a continuación, haga clic en **Convertir en local**. En la columna de la tabla Usuario, haga clic con el botón derecho y seleccione **Abrir** > **en Estación de trabajo**.
+
+      ![](assets/meta_cfg.png)
+
+      * En la nueva ventana, haga clic en **metadatos** y agregue plantillas secundarias aceptables.
+
+         ![](assets/meta_cfg_child.png)
+
+      * Abra **la transformación** y agregue nuevas plantillas.
+
+         ![](assets/meta_cfg_template.png)
 
 * **Actualización para mejoras** de combinación rápida. Agregue parámetros o cambie valores a los siguientes archivos de configuración para aprovechar las mejoras de velocidad en el área de trabajo de datos durante una transformación.
 
