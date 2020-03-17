@@ -5,7 +5,7 @@ title: Instalación de Área de trabajo de datos geográfica
 topic: Data workbench
 uuid: 2c3d2e4a-97a7-4afc-b72d-c012db77e535
 translation-type: tm+mt
-source-git-commit: 27600561841db3705f4eee6ff0aeb8890444bbc9
+source-git-commit: fd3afa80250d5ae20b7758ba840fd4d436545cf2
 
 ---
 
@@ -16,7 +16,7 @@ Este capítulo proporciona los pasos para instalar Área de trabajo de datosGeog
 
 Para completar estos pasos, debe tener acceso a los archivos del servidor del área de trabajo de datos.
 
-Si se ha suscrito a uno de los dos servicios de datos opcionales, también debe instalar el perfil de servicio de datos y sus archivos de búsqueda. Para obtener más información sobre estos servicios, consulte [Uso de los servicios](../../../home/c-geo-oview/c-wk-data-svcs/c-wk-data-svcs.md)de datos.
+Si se ha suscrito a uno de los dos servicios de datos opcionales, también debe instalar el perfil de servicio de datos y sus archivos de búsqueda.
 
 Para obtener información sobre los requisitos del sistema para instalar, configurar y utilizar el área de trabajo de datos [!DNL Geography], consulte el documento Requisitos ** mínimos del sistema.
 
