@@ -5,7 +5,7 @@ title: Guardar y cargar filtros
 topic: Data workbench
 uuid: 5312b9c4-0193-4d45-af54-e8f6d2706bf2
 translation-type: tm+mt
-source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
+source-git-commit: 3e8f2c01b913afb25fe5f6bde1c7ec5145059266
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
 
 Pasos para guardar y cargar filtros.
 
-1. Haga clic con el botón secundario en el nombre del filtro (o **[!UICONTROL[nombredentivo]]** si el filtro es nuevo) y haga clic en **[!UICONTROL Save Filter]**.
+1. Haga clic con el botón secundario en el nombre del filtro (o **\[[!UICONTROL noname]\]** si el filtro es nuevo) y haga clic en **[!UICONTROL Save Filter]**.
 1. Escriba el nombre que desee para el filtro en la **[!UICONTROL Save As]** etiqueta.
 
    ![Información sobre los pasos](assets/vis_FilterEditor_SaveFilter.png)
@@ -25,7 +25,7 @@ Pasos para guardar y cargar filtros.
 
    >[!NOTE]
    >
-   >Si desea que todos los usuarios de un perfil utilicen los filtros guardados, debe cargarlos al perfil adecuado mediante el [!DNL Profile Manager]. Consulte [Publicación de archivos en el perfil](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9)de trabajo.
+   >Si desea que todos los usuarios de un perfil utilicen los filtros guardados, debe cargarlos en el perfil correspondiente mediante el [!DNL Profile Manager]. Consulte [Publicación de archivos en el Perfil](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9)de trabajo.
 
 **Para cargar un filtro existente**
 
