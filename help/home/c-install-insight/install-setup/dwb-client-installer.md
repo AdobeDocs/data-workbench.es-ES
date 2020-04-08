@@ -3,7 +3,7 @@ description: Área de trabajo de datos proporciona un asistente de configuració
 title: Asistente para configuración de estaciones de trabajo
 uuid: e2bf6606-e7ba-439f-b50c-118706ab5b7d
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: b5a22e7a050d7c01570286dcb54e368f7ecdbcd8
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 ## Instalación de la estación de trabajo mediante el Asistente para instalación {#section-58da9bb6196c46eab3b54146913fdcb8}
 
-Inicie el archivo ejecutable del asistente de instalación y siga cada paso para instalar el programa cliente de estación de trabajo. Tras la instalación de la estación de trabajo, puede conectarse a servidores y perfiles.
+Inicie el archivo ejecutable del asistente de instalación y siga cada paso para instalar el programa de cliente de la estación de trabajo. Tras la instalación de la estación de trabajo, puede conectarse a servidores y perfiles.
 
-1. Haga doble clic en el archivo ejecutable del instalador de la estación de trabajo.
+1. Haga clic con el Doble en el archivo ejecutable del instalador de la estación de trabajo.
 1. Haga clic en **Sí** para permitir que el programa se instale en Windows.
 1. Seleccione un **idioma** para el asistente de configuración.
 
@@ -36,7 +36,7 @@ Inicie el archivo ejecutable del asistente de instalación y siga cada paso para
 
    **Normalmente** se instala en una carpeta y una ubicación predeterminadas.
 
-   * Los archivos de programa se guardan de forma predeterminada en:
+   * Los archivos Programa se guardan de forma predeterminada en:
 
       ```
       C:\Program Files\Adobe\Adobe Analytics\Data Workbench
@@ -52,12 +52,12 @@ Inicie el archivo ejecutable del asistente de instalación y siga cada paso para
       >
       >Inicialmente se instalará un archivo ***Insight.cfg*** genérico sin detalles del servidor. Se recomienda utilizar el archivo ***Insight.cfg*** recién instalado y personalizarlo en lugar de mover un archivo de una instalación anterior. Debido a que la ruta de instalación de la estación de trabajo ha cambiado, se recomienda la adición de fuentes, la eliminación de la carpeta *de* usuario y la eliminación de *TraceFileComponent *.
 
-1. (opcional) Seleccione*** Personalizado** para elegir el paquete de idioma y la ubicación del programa y los archivos de datos.
+1. (opcional) Seleccione **Personalizado** para elegir el paquete de idioma y la ubicación del programa y los archivos de datos.
 1. Seleccione la ubicación de **los accesos directos en el menú** Inicio.
 
    ![](assets/6_4_workstation_wizard_folder.png)
 
-   Haga clic en **No crear una carpeta** del menú Inicio para no instalar un acceso directo en el menú Inicio de Windows.
+   Haga clic en **No crear una carpeta** de menú Inicio para no instalar un acceso directo en el menú Inicio de Windows.
 
 1. Haga clic en **Siguiente.** Se mostrará un resumen de las rutas y los idiomas de ubicación de archivos seleccionados. Haga clic en **Instalar.**
 
@@ -77,7 +77,7 @@ Inicie el archivo ejecutable del asistente de instalación y siga cada paso para
 
 1. **Configurar conexiones** a servidores en **[!DNL Insight.cfg]** archivos.
 
-   Tras la instalación de la estación de trabajo, se abrirá el espacio de trabajo Experiencia de configuración de estación de trabajo mejorada con información adicional sobre la [introducción de información](/help/home/c-get-started/c-insght-config-param.md) de conexión del servidor en el archivo *Insight.cfg* y una opción para seleccionar un perfil en la lista desplegable. También puede ver el estado de la conexión a los servidores.
+   Tras la instalación de la estación de trabajo, se abrirá el espacio de trabajo Experiencia de configuración de estación de trabajo mejorada con información adicional sobre la [introducción de información](/help/home/c-get-started/c-insght-config-param.md) de conexión del servidor en el archivo *Insight.cfg* y una opción para seleccionar un perfil en la lista desplegable. También puede vista el estado de la conexión a los servidores.
 
    ![](assets/6_4_workstation_install_conf_conn.png)
 
@@ -85,7 +85,7 @@ Inicie el archivo ejecutable del asistente de instalación y siga cada paso para
 
 La estructura de carpetas de Área de trabajo de datos tiene dos ubicaciones de instalación:
 
-* **Archivos** de programa El archivo **Insight.exe** y los archivos de cliente compatibles (**Insight.ini**) ahora se encuentran de forma predeterminada en
+* **Archivos** de Programa El archivo **Insight.exe** y los archivos de cliente compatibles (**Insight.ini**) se encuentran ahora de forma predeterminada en
 
    ```
    C:\Program Files\Adobe\Analytics\DataWorkbench
@@ -93,7 +93,7 @@ La estructura de carpetas de Área de trabajo de datos tiene dos ubicaciones de 
 
 * Carpeta **Appdata** .
 
-   **Insight.cfg**, perfiles, certificados, registros de seguimiento y archivos de usuario ahora se encuentran de forma predeterminada en
+   **Insight.cfg**, perfiles, certificados, registros de seguimiento y archivos de usuario se encuentran ahora de forma predeterminada en
 
    ```
    C:\Users\<Winuser>\AppData\Adobe\Analytics\DataWorkbench\ 
