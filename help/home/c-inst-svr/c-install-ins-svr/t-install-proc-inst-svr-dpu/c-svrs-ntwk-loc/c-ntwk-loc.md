@@ -1,17 +1,17 @@
 ---
-description: Conceptualmente, el archivo de dirección tiene el mismo propósito que el archivo ETC\HOSTS de un equipo en red.
+description: Conceptualmente, el archivo de dirección tiene el mismo propósito que el archivo ETC&bsol;HOSTS de un equipo en red.
 solution: Insight
 title: Ubicaciones de red
 uuid: a2097eca-dd75-4d43-b8a8-fb4c768df38d
 translation-type: tm+mt
-source-git-commit: f6ec885266de6b6d99615d73fad2a1c22897424b
+source-git-commit: e8612fab1c13ca5262816dde7deaa6fd8bedbc62
 
 ---
 
 
 # Ubicaciones de red{#network-locations}
 
-Conceptualmente, el archivo de dirección tiene el mismo propósito que el archivo ETC\HOSTS de un equipo en red.
+Conceptualmente, el archivo de dirección tiene el mismo propósito que el archivo ETC&amp;bsol;HOSTS de un equipo en red.
 
 Sin embargo, a diferencia del archivo HOSTS, que describe una única colección de nombres, el archivo de dirección contiene varias colecciones de nombres denominadas ubicaciones de red.
 
