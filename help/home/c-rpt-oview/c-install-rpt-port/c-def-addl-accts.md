@@ -5,12 +5,12 @@ title: Definir cuentas adicionales
 topic: Data workbench
 uuid: 5ad98b52-267c-4c36-b43a-ae6ad415de8e
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: e4f2c653c00c21180b14bf67cc116d832bddd028
 
 ---
 
 
-# Definir cuentas adicionales{#define-additional-accounts}
+# Definir cuentas adicionales
 
 Los usuarios deben tener una cuenta válida y proporcionar un nombre de cuenta y una contraseña cuando accedan al portal de informes.
 
