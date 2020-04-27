@@ -3,16 +3,12 @@ description: Nuevas funciones y correcciones en Área de trabajo de datos 6.73.
 title: Notas de la versión de Área de trabajo de datos 6.73
 uuid: bba63a8c-9cb7-4334-b66a-22db92153066
 translation-type: tm+mt
-source-git-commit: 2cba66a160fec9154796f093d04a422a5b0da265
+source-git-commit: 9552a2f9fe4e450b1e212b38a09f77252a009419
 
 ---
 
 
 # Data Workbench 6.73 Release Notes{#data-workbench-release-notes}
-
-Nuevas funciones y correcciones en Área de trabajo de datos 6.73.
-
-## Data Workbench 6.73 Release Notes {#topic-7655534554ac4a4b816af1bd73b06aad56757}
 
 Nuevas funciones y correcciones en Área de trabajo de datos 6.73.
 
@@ -37,7 +33,7 @@ Nuevas funciones y correcciones en Área de trabajo de datos 6.73.
 
 * La estación de trabajo de área de trabajo de datos versión 6.73 no se conecta a los servidores de área de trabajo de datos versión 6.61 o posterior. El motivo es que las versiones anteriores del servidor utilizan una forma débil de cifrado no admitida en la versión 6.73. Para habilitar la compatibilidad con versiones anteriores
 
-   1. Anule la lista de filtros SSL predeterminados en el servidor con una lista de cifrado fuerte admitida por OpenSSL versión 1.0.1h. Para omitir, agregue la clave &quot;Cifradores SSL&quot; en los archivos &quot;Communications.cfg&quot; disponibles en los directorios &quot;Componentes&quot; y &quot;Componentes para servidores de procesamiento&quot;. Por ejemplo: `SSL Ciphers = string: !aNULL:AESGCM`
+   1. Anule la lista predeterminada de los cifrados SSL en el servidor con una lista de cifrado fuerte admitida por OpenSSL versión 1.0.1h. Para omitir, agregue la clave &quot;Cifradores SSL&quot; en los archivos &quot;Communications.cfg&quot; disponibles en los directorios &quot;Componentes&quot; y &quot;Componentes para servidores de procesamiento&quot;. Por ejemplo: `SSL Ciphers = string: !aNULL:AESGCM`
 
       >[!NOTE]
       >
