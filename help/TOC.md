@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: analytics
 audience: end-user
-user-guide-title: Data Workbench Help
+user-guide-title: Ayuda de Área de trabajo de datos
 translation-type: tm+mt
-source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
+source-git-commit: 89a17210bb6f941309b283e54aa8485c5e823595
 
 ---
 
@@ -20,17 +20,17 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + [Portal de informes de Área de trabajo de datos 2.1](home/c-release-notes-insight/reportserver-2-1.md)
    + [Notas de la versión de Área de trabajo de datos 6.61](home/c-release-notes-insight/c-6-6-1.md)
    + [Notas de la versión de Área de trabajo de datos 6.6](home/c-release-notes-insight/c-6-6.md)
-   + [Actualización de Área de trabajo de datos 6.52](home/c-release-notes-insight/c-6-52.md)
-   + [Actualización de Área de trabajo de datos 6.51](home/c-release-notes-insight/c-6-51.md)
+   + [Actualización de Data Workbench 6.52](home/c-release-notes-insight/c-6-52.md)
+   + [Actualización de Data Workbench 6.51](home/c-release-notes-insight/c-6-51.md)
    + [Notas de la versión de Área de trabajo de datos 6.5](home/c-release-notes-insight/c-6-5.md)
    + [Notas de la versión de Área de trabajo de datos 6.4](home/c-release-notes-insight/c-6-4/c-6-4.md)
-   + [Actualización de Área de trabajo de datos 6.31](home/c-release-notes-insight/c-6-3-1.md)
+   + [Actualización de Data Workbench 6.31](home/c-release-notes-insight/c-6-3-1.md)
    + [Notas de la versión de Área de trabajo de datos 6.3](home/c-release-notes-insight/c-6-3/c-6-3.md)
-   + [Actualización de Área de trabajo de datos 6.21](home/c-release-notes-insight/c-6-2-1.md)
+   + [Actualización de Data Workbench 6.21](home/c-release-notes-insight/c-6-2-1.md)
    + [Notas de la versión de Área de trabajo de datos 6.2](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
-   + [Actualización de Área de trabajo de datos 6.11](home/c-release-notes-insight/c-6-1-1.md)
+   + [Actualización de Data Workbench 6.11](home/c-release-notes-insight/c-6-1-1.md)
    + [Actualización de fuentes de datos para abril de 2014](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
-   + [Notas de la versión de Área de trabajo de datos 6.1](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
+   + [Notas de la versión de Área de trabajo de datos 6.2](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
    + [Notas de la versión de Área de trabajo de datos 6.0 y 6.0.4](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
 + Instalación {#install}
    + [Requisitos de estación de trabajo](home/c-install-insight/c-data-workbench-client-install.md)
@@ -71,7 +71,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Guardar un espacio de trabajo](home/c-get-started/c-work-worksp/c-save-wksp.md)
       + [Exportación de un espacio de trabajo](home/c-get-started/c-work-worksp/c-ex-wksp.md)
       + [Importación de un espacio de trabajo](home/c-get-started/c-work-worksp/c-importing-workspace.md)
-      + [Agregar una descripción a un área de trabajo](home/c-get-started/c-work-worksp/t-add-wksp-desc.md)
+      + [Añadir una descripción en un espacio de trabajo](home/c-get-started/c-work-worksp/t-add-wksp-desc.md)
       + [Desbloqueo de un espacio de trabajo](home/c-get-started/c-work-worksp/c-unlock-wksp.md)
       + [Eliminación de áreas de trabajo](home/c-get-started/c-work-worksp/c-del-wksp.md)
       + [Uso del menú Ventana del espacio de trabajo](home/c-get-started/c-work-worksp/c-wksp-win-menu.md)
@@ -89,16 +89,16 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Configurar segmentos para exportar](home/c-get-started/c-exp-data-seg-exp/t-config-sgts-expt.md)
       + [Crear dimensiones para usarlas con la exportación de segmentos](home/c-get-started/c-exp-data-seg-exp/c-dim-sgmt-expt.md)
       + [Exportación de segmentos con encabezados personalizados](home/c-get-started/c-exp-data-seg-exp/c-segment-export.md)
-      + [Exportación de segmentos mediante envío S/FTP](home/c-get-started/c-exp-data-seg-exp/exporting-data.md)
-      + [Exportación de perfiles y audiencias](home/c-get-started/c-exp-data-seg-exp/c-mmp-integration.md)
+      + [Exportación de un segmento mediante el envío S/FTP](home/c-get-started/c-exp-data-seg-exp/exporting-data.md)
+      + [Exportación de Perfiles y Audiencias](home/c-get-started/c-exp-data-seg-exp/c-mmp-integration.md)
       + [Exportación a los servicios principales de Analytics](home/c-release-notes-insight/c-6-4/dwb-crs-integration.md)
-      + [Exportar a Adobe Target](home/c-get-started/c-exp-data-seg-exp/dwb-target-export.md)
-      + [Asistente para exportación de segmentos](home/c-get-started/c-exp-data-seg-exp/segment-export.md)
+      + [Exportar a Adobe Destinatario](home/c-get-started/c-exp-data-seg-exp/dwb-target-export.md)
+      + [asistente de exportación de segmentos](home/c-get-started/c-exp-data-seg-exp/segment-export.md)
    + [Informes de Analytics](home/c-get-started/c-template-report-types.md)
    + Informes de atribución {#attribution-reports}
       + [Uso de informes de atribución](home/c-get-started/c-attribution-profiles/c-attribution-profiles.md)
-      + [Información general del perfil de atribución](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-rules-attrib.md)
-      + [Implementación del perfil de atribución](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-attrib-profile-deploy.md)
+      + [Información general del Perfil de atribución](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-rules-attrib.md)
+      + [Implementación del Perfil de atribución](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-attrib-profile-deploy.md)
       + [Modelos de atribución](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-attrib-models.md)
       + [Atribución de mejor ajuste](home/c-get-started/c-attribution-profiles/c-attrib-algorithmic/c-attrib-algorithmic.md)
       + [Generar un modelo de atribución de mejor ajuste](home/c-get-started/c-attribution-profiles/c-attrib-algorithmic/c-attrib-building.md)
@@ -110,7 +110,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Realizar selecciones en visualizaciones](home/c-get-started/c-vis/c-sel-vis/c-sel-vis.md)
          + [Explicación de cómo una selección afecta a otras visualizaciones](home/c-get-started/c-vis/c-sel-vis/c-sel-aff-vis.md)
          + [Selección de datos mediante otros métodos](home/c-get-started/c-vis/c-sel-vis/c-sel-data-other-mthd.md)
-         + [Zoom para ver visualizaciones](home/c-get-started/c-vis/c-sel-vis/dwb-zoom-regression-view.md)
+         + [Zoom a visualizaciones de Vista](home/c-get-started/c-vis/c-sel-vis/dwb-zoom-regression-view.md)
       + [Prueba comparativa](home/c-get-started/c-vis/c-ustd-benchmks.md)
       + [Menús de métricas y dimensiones](home/c-get-started/c-vis/c-met-dim-menus.md)
       + Subconjuntos {#subsets}
@@ -120,13 +120,13 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Creación de subconjuntos](home/c-get-started/c-vis/c-wk-subsets/c-create-subsets.md)
          + [Eliminar un subconjunto](home/c-get-started/c-vis/c-wk-subsets/c-rem-subsets.md)
       + [Acercar o alejar una visualización](home/c-get-started/c-vis/c-zoom-vis.md)
-      + [Adición de llamadas a un espacio de trabajo](home/c-get-started/c-vis/c-call-wkspc.md)
+      + [Añadir llamadas a un espacio de trabajo](home/c-get-started/c-vis/c-call-wkspc.md)
       + [Anotación de visualizaciones](home/c-get-started/c-vis/c-present-layer.md)
-      + [Agregar un marcador](home/c-get-started/c-vis/c-bookmark-about.md)
+      + [Añadir un marcador](home/c-get-started/c-vis/c-bookmark-about.md)
       + [Asistente para atenuación de métricas](home/c-get-started/c-vis/dwb-create-metricdim/dwb-create-metricdim.md)
       + [Edición de la atenuación de métricas](home/c-get-started/c-vis/dwb-create-metricdim/dwb-6-4-metric-dim-edit.md)
-   + Visualizaciones de análisis {#analysis-visualizations}
-      + [Información general sobre visualizaciones de análisis](home/c-get-started/c-analysis-vis/c-analysis-vis.md)
+   + Visualizaciones de Análisis {#analysis-visualizations}
+      + [Visión general de las visualizaciones de Análisis](home/c-get-started/c-analysis-vis/c-analysis-vis.md)
       + [Diagrama de puntos 2D](home/c-get-started/c-analysis-vis/c-scat-plots.md)
       + [Diagrama de puntos 3D](home/c-get-started/c-analysis-vis/c-3d-scatterplots.md)
       + Annotations {#annotations}
@@ -137,7 +137,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Visualización de Association Chord](home/c-get-started/c-analysis-vis/associations-chord.md)
       + [Visualización de tabla de asociación](home/c-get-started/c-analysis-vis/associations-visualization.md)
       + Clúster de visitantes {#visitor-cluster}
-         + [Información general sobre los clústeres de visitantes](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-visitor-cluster.md)
+         + [Información general sobre clústeres de Visitante](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-visitor-cluster.md)
          + [Clustering 2.0](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-clustering-2.md)
          + [Generación de clústeres](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-defining-clusters.md)
          + [Exploración de clústeres](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-exploring-clusters.md)
@@ -145,7 +145,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + Matriz de correlación {#correlation-analysis}
          + [Información general de la matriz de correlación](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-analysis.md)
          + [Acerca del coeficiente de correlación de Pearson](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-pearsons.md)
-         + [Casos de uso de análisis de correlación](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-use-cases.md)
+         + [Casos de uso de Análisis de correlación](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-use-cases.md)
          + [Filtro binario en la matriz de correlación](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-binary-filter.md)
       + Generador de árboles de decisiones {#decision-trees}
          + [Información general del generador de árboles de decisiones](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees.md)
@@ -160,11 +160,11 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Guardar y cargar filtros](home/c-get-started/c-analysis-vis/c-filter-editors/t-save-filters.md)
          + [Editar archivos de filtro manualmente](home/c-get-started/c-analysis-vis/c-filter-editors/c-edit-filter-files.md)
          + [Aplicar un filtro a un espacio de trabajo](home/c-get-started/c-analysis-vis/c-filter-editors/c-app-filters-wksps.md)
-      + Visualización de canales {#funnel-visualization}
+      + Visualización de embudo {#funnel-visualization}
          + [Información general sobre la visualización de canales](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization.md)
          + [Funciones de canal](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-features.md)
          + [Creación de un canal](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-steps.md)
-         + [Adición de un explorador de rutas](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-path-browser-funnel.md)
+         + [Añadir un explorador de rutas](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-path-browser-funnel.md)
       + Globos {#globes}
          + [Información general sobre los globales](home/c-get-started/c-analysis-vis/c-globes/c-globes.md)
          + [Uso de globos](home/c-get-started/c-analysis-vis/c-globes/c-work-globes.md)
@@ -172,15 +172,15 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Realizar selecciones en un globo](home/c-get-started/c-analysis-vis/c-globes/c-sel-globe.md)
       + Gráficos {#graphs}
          + [Información general sobre gráficos](home/c-get-started/c-analysis-vis/c-graphs/c-graphs.md)
-         + [Agregar y cambiar métricas](home/c-get-started/c-analysis-vis/c-graphs/c-add-chg-metrics.md)
+         + [Añadir y cambiar una métrica](home/c-get-started/c-analysis-vis/c-graphs/c-add-chg-metrics.md)
          + [Cambiar una dimensión](home/c-get-started/c-analysis-vis/c-graphs/c-chg-dim.md)
          + [Cambio de la visualización de un gráfico](home/c-get-started/c-analysis-vis/c-graphs/c-chg-graph-disp.md)
          + [Cambiar una serie](home/c-get-started/c-analysis-vis/c-graphs/c-chg-series.md)
-         + [Gráfico de análisis de regresión](home/c-get-started/c-analysis-vis/c-graphs/c-regression-analysis.md)
+         + [Gráfico de Análisis de regresión](home/c-get-started/c-analysis-vis/c-graphs/c-regression-analysis.md)
          + [Líneas de tendencia](home/c-get-started/c-analysis-vis/c-graphs/c-trend-lines.md)
          + [Gráficos 2D](home/c-get-started/c-analysis-vis/c-graphs/c-2d-graphs.md)
-      + Análisis guiado {#guided-analysis}
-         + [Información general de análisis guiado](home/c-get-started/c-analysis-vis/c-guided-analysis/c-guided-analysis.md)
+      + análisis guiada {#guided-analysis}
+         + [Información general sobre la análisis guiada](home/c-get-started/c-analysis-vis/c-guided-analysis/c-guided-analysis.md)
          + [Medidas estadísticas](home/c-get-started/c-analysis-vis/c-guided-analysis/c-stat-measures.md)
          + [Mostrar el menú Dimensión](home/c-get-started/c-analysis-vis/c-guided-analysis/t-disp-menu.md)
       + [Análisis de latencia](home/c-get-started/c-analysis-vis/c-latency.md)
@@ -199,7 +199,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Mostrar el inicio y el final de las rutas](home/c-get-started/c-analysis-vis/c-path-browsers/c-disp-starts-.md)
          + [Cambiar la raíz del explorador de rutas](home/c-get-started/c-analysis-vis/c-path-browsers/c-chg-root.md)
          + [Seleccionar una ruta](home/c-get-started/c-analysis-vis/c-path-browsers/t-sel-paths.md)
-         + [Ver más elementos en las rutas](home/c-get-started/c-analysis-vis/c-path-browsers/c-el-paths.md)
+         + [Vista de más elementos en las rutas](home/c-get-started/c-analysis-vis/c-path-browsers/c-el-paths.md)
       + [Gráfico circular](home/c-get-started/c-analysis-vis/c-pie-chart.md)
       + Mapa de procesos {#process-maps}
          + [Descripción general del mapa de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/c-proc-maps.md)
@@ -215,7 +215,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Creación de una visualización a partir de un mapa de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/c-vis-proc-maps.md)
          + [Activar un vínculo de color](home/c-get-started/c-analysis-vis/c-proc-maps/c-act-color-lnks.md)
          + [Mostrar una cantidad de métrica](home/c-get-started/c-analysis-vis/c-proc-maps/c-disp-metric-quantities.md)
-         + [Agregar una llamada](home/c-get-started/c-analysis-vis/c-proc-maps/c-add-callouts.md)
+         + [Añadir una llamada](home/c-get-started/c-analysis-vis/c-proc-maps/c-add-callouts.md)
       + Puntuación de tendencia {#visitor-propensity}
          + [Información general de puntuación de tendencia](home/c-get-started/c-analysis-vis/c-visitor-propensity/c-visitor-propensity.md)
          + [Configuración de la puntuación de tendencia](home/c-get-started/c-analysis-vis/c-visitor-propensity/t-propensity-steps.md)
@@ -231,8 +231,8 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Reutilización de una visualización de segmentos](home/c-get-started/c-analysis-vis/c-seg/c-reuse-seg-vis.md)
       + Tablas {#tables}
          + [Información general sobre tablas](home/c-get-started/c-analysis-vis/c-tables/c-tables.md)
-         + [Agregar y cambiar una métrica](home/c-get-started/c-analysis-vis/c-tables/c-add-metrics.md)
-         + [Agregar, cambiar y mover una dimensión](home/c-get-started/c-analysis-vis/c-tables/c-add-chg-dim.md)
+         + [Añadir y cambiar una métrica](home/c-get-started/c-analysis-vis/c-tables/c-add-metrics.md)
+         + [Añadir, cambiar y mover una dimensión](home/c-get-started/c-analysis-vis/c-tables/c-add-chg-dim.md)
          + [Ajustar datos a una ventana](home/c-get-started/c-analysis-vis/c-tables/c-fit-data-win.md)
          + [Cambiar la visualización de la tabla](home/c-get-started/c-analysis-vis/c-tables/c-chg-tbl-disp.md)
          + [Ordenar datos en una tabla](home/c-get-started/c-analysis-vis/c-tables/c-sort-data.md)
@@ -245,7 +245,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Trabajar con datos en hojas de cálculo](home/c-get-started/c-analysis-vis/c-data-wksts.md)
       + Hojas de cálculo {#worksheets}
          + [Visión general de las hojas de cálculo](home/c-get-started/c-analysis-vis/c-wksts/c-wksts.md)
-         + [Expresiones de hoja de cálculo](home/c-get-started/c-analysis-vis/c-wksts/c-wkst-exp.md)
+         + [expresiones de hojas de cálculo](home/c-get-started/c-analysis-vis/c-wksts/c-wkst-exp.md)
          + [Crear un indicador de métrica](home/c-get-started/c-analysis-vis/c-wksts/c-metric-ind.md)
          + [Creación de una celda de entrada](home/c-get-started/c-analysis-vis/c-wksts/c-input-cells.md)
          + [Usar llamadas con hojas de cálculo](home/c-get-started/c-analysis-vis/c-wksts/c-callouts-wksts.md)
@@ -269,34 +269,34 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + Interfaces administrativas {#admin-ui}
       + [Interfaces administrativas](home/c-get-started/c-admin-intrf/c-admin-intrf.md)
       + [Abrir interfaces administrativas](home/c-get-started/c-admin-intrf/c-op-admin-intrf.md)
-      + [Interfaz de esquema de conjunto de datos](home/c-get-started/c-admin-intrf/c-dtst-sch-intrf.md)
-      + [Leyenda de estado de consulta](home/c-get-started/c-admin-intrf/c-query-stat-lgnd.md)
-      + Cola de consultas {#query-que}
-         + [Información general de la cola de consultas](home/c-get-started/c-admin-intrf/c-query-que/c-query-que.md)
-         + [Grupos de usuarios de la cola de consultas](home/c-get-started/c-admin-intrf/c-query-que/c-query-que-user-grps.md)
-         + [Monitores de recursos de cola de consultas](home/c-get-started/c-admin-intrf/c-query-que/c-query-que-res-mon.md)
+      + [Interfaz de Esquema de conjunto de datos](home/c-get-started/c-admin-intrf/c-dtst-sch-intrf.md)
+      + [Leyenda de estado de Consulta](home/c-get-started/c-admin-intrf/c-query-stat-lgnd.md)
+      + Cola de Consultas {#query-que}
+         + [Información general de la cola de Consulta](home/c-get-started/c-admin-intrf/c-query-que/c-query-que.md)
+         + [Grupos de usuarios de la cola de Consultas](home/c-get-started/c-admin-intrf/c-query-que/c-query-que-user-grps.md)
+         + [Monitores de recursos de cola de Consulta](home/c-get-started/c-admin-intrf/c-query-que/c-query-que-res-mon.md)
          + [Agrupación de cadenas de consulta](home/c-get-started/c-admin-intrf/c-query-que/c-query-string-grouping.md)
       + [Leyenda de procesamiento](home/c-get-started/c-admin-intrf/c-pro-lgd.md)
       + [Interfaz de estado detallada](home/c-get-started/c-admin-intrf/c-det-stat-interf.md)
-      + Administrador de perfiles {#profile-mgr}
+      + Administrador de Perfiles {#profile-mgr}
          + [Crear carpetas en el perfil de usuario](home/c-get-started/c-admin-intrf/c-prof-mgr/t-fldrs-user-prof.md)
-         + [Modificación de archivos locales en el perfil de usuario](home/c-get-started/c-admin-intrf/c-prof-mgr/c-mod-files-user-prof.md)
-         + [Publicación de archivos en su perfil de trabajo](home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md)
-         + [Eliminar archivos de su perfil de trabajo](home/c-get-started/c-admin-intrf/c-prof-mgr/t-del-files-wkg-prof.md)
+         + [Modificación de archivos locales en el perfil del usuario](home/c-get-started/c-admin-intrf/c-prof-mgr/c-mod-files-user-prof.md)
+         + [Publicación de archivos en el perfil de trabajo](home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md)
+         + [Eliminar archivos del perfil de trabajo](home/c-get-started/c-admin-intrf/c-prof-mgr/t-del-files-wkg-prof.md)
          + [Ocultar un archivo vaciándolo (byte cero)](home/c-get-started/c-admin-intrf/c-prof-mgr/c-empty-files.md)
          + [Copiar y pegar un archivo como archivo adjunto](home/c-get-started/c-admin-intrf/c-prof-mgr/c-cpy-pastet.md)
          + [Trabajar con métricas derivadas](home/c-get-started/c-admin-intrf/c-prof-mgr/c-drvd-mtrcs.md)
          + [Trabajar con dimensiones derivadas](home/c-get-started/c-admin-intrf/c-prof-mgr/c-dvrd-dim.md)
-         + [Bloqueo de perfiles en la estación de trabajo](home/c-get-started/c-admin-intrf/c-prof-mgr/dwb-profile-lock.md)
+         + [Bloqueo de Perfiles en la estación de trabajo](home/c-get-started/c-admin-intrf/c-prof-mgr/dwb-profile-lock.md)
       + Administradores de conjuntos de datos {#dataset-mgrs}
          + [Administradores de conjuntos de datos](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dataset-mgrs.md)
          + Mapas de dependencia {#dep-maps}
             + [Mapas de dependencia](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dep-maps.md)
             + [Mostrar componentes de perfil](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-prof-comp.md)
             + [Componentes de conjunto de datos](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-dataset-comp.md)
-            + [Componentes del modelo de consulta](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-qry-mod-comp.md)
+            + [Componentes del modelo de Consulta](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-qry-mod-comp.md)
             + [Espacios de trabajo y visualizaciones](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-wksps-vis.md)
-            + [Ver detalles del nodo](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-view-node-dtls.md)
+            + [Detalles del nodo de Vista](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-view-node-dtls.md)
             + [Mostrar un nodo resaltado](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-hltd-nodes.md)
             + [Buscar dentro de un mapa](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-srch-map.md)
             + [Editar componentes de perfil](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-edit-prof-comp.md)
@@ -312,8 +312,8 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Administrador de archivos del servidor](home/c-get-started/c-admin-intrf/c-svr-files-mgr.md)
       + [Interfaz de monitor de servidor](home/c-get-started/c-admin-intrf/c-svr-mtr-intfc.md)
       + [Opción Configuración](home/c-get-started/c-admin-intrf/c-config-opt.md)
-   + Características de interfaz y análisis {#ui-analysis-features}
-      + [Características de interfaz y análisis](home/c-get-started/c-intf-anlys-ftrs/c-intf-anlys-ftrs.md)
+   + Funciones de interfaz y análisis {#ui-analysis-features}
+      + [Funciones de interfaz y análisis](home/c-get-started/c-intf-anlys-ftrs/c-intf-anlys-ftrs.md)
       + [Personalizar el área de trabajo de datos localmente](home/c-get-started/c-intf-anlys-ftrs/c-cstm-lcl.md)
       + Customize menus {#custom-menus}
          + [Personalización de un menú](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md)
@@ -321,11 +321,11 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Personalización de un menú mediante archivos order.txt](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/t-cstm-menus-ordr-files.md)
       + Personalización del administrador de perfiles y del administrador de archivos del servidor {#cstm-prof-files-mgrs}
          + [Personalización del administrador de perfiles y del administrador de archivos del servidor](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-cstm-prof-files-mgrs.md)
-         + [Crear un administrador de perfiles](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-new-prof-mgrs.md)
+         + [Creación de un administrador de Perfiles](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-new-prof-mgrs.md)
          + [Crear un Administrador de archivos de servidor](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-new-svr-files-mgrs.md)
       + Personalización de una ficha de superficie de trabajo {#cstm-wktp-tabs}
          + [Personalización de una ficha de superficie de trabajo](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-cstm-wktp-tabs.md)
-         + [Agregar una ficha a la superficie de trabajo](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-add-tabs.md)
+         + [Añadir una ficha a la superficie de trabajo](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-add-tabs.md)
          + [Cambiar el orden de tabulación](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-chg-ordr-tabs.md)
          + [Mostrar subcarpetas como subfichas](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-sbfldrs-sbtabs.md)
          + [Ocultar o quitar una ficha](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-hide-rmv-tabs.md)
@@ -342,22 +342,23 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Configurar una superposición de página](home/c-get-started/c-intf-anlys-ftrs/c-config-pg-ovlys.md)
       + [Configuración de un explorador de rutas](home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md)
       + [Configurar un mapa de proceso](home/c-get-started/c-intf-anlys-ftrs/t-config-proc-maps.md)
-      + [Configuración de la interfaz de esquema de conjunto de datos](home/c-get-started/c-intf-anlys-ftrs/t-dataset-schema-intf.md)
+      + [Configuración de la interfaz de Esquema del conjunto de datos](home/c-get-started/c-intf-anlys-ftrs/t-dataset-schema-intf.md)
       + [Localización de dimensiones de tiempo](home/c-get-started/c-intf-anlys-ftrs/dwb-format-time-dimensions.md)
    + [Parámetros de configuración](home/c-get-started/c-insght-config-param.md)
-   + Sintaxis del lenguaje de consulta {#qry-lang-syntx}
-      + [Sintaxis del lenguaje de consulta](home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md)
+   + Sintaxis del lenguaje de Consulta {#qry-lang-syntx}
+      + [Sintaxis del lenguaje de Consulta](home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md)
       + [Sintaxis de cualquier expresión](home/c-get-started/c-qry-lang-syntx/c-syntx-exp.md)
       + [Sintaxis para identificadores](home/c-get-started/c-qry-lang-syntx/c-syntx-id.md)
-      + [Sintaxis para expresiones de métricas](home/c-get-started/c-qry-lang-syntx/c-syntx-mtrc-exp.md)
+      + [Sintaxis de las expresiones de métricas](home/c-get-started/c-qry-lang-syntx/c-syntx-mtrc-exp.md)
       + [Sintaxis para expresiones de dimensión](home/c-get-started/c-qry-lang-syntx/c-syntx-dim-exp.md)
       + [Sintaxis para expresiones de filtro](home/c-get-started/c-qry-lang-syntx/c-syntx-fltr-exp.md)
       + [Sintaxis para expresiones matemáticas](home/c-get-started/c-qry-lang-syntx/c-math-expressions.md)
       + [Llamadas estadísticas](home/c-get-started/c-qry-lang-syntx/c-statistical-callouts.md)
-      + [Expresiones regulares](home/c-get-started/c-qry-lang-syntx/c-search-regex.md)
+      + [expresiones regulares](home/c-get-started/c-qry-lang-syntx/c-search-regex.md)
 + Dataset configuration {#dataset}
    + [Explicación de la construcción de conjuntos de datos](home/c-dataset-const-proc/c-dataset-constr.md)
    + [Explicación de la configuración del conjunto de datos](home/c-dataset-const-proc/c-dataset-config.md)
+   + [Compatibilidad del área de trabajo de datos con GDPR](home/c-dataset-const-proc/dwb-gdpr.md)
    + Archivo de configuración de procesamiento de registros {#log-proc-config-file}
       + [Acerca del archivo de configuración de procesamiento de registros](home/c-dataset-const-proc/c-log-proc-config-file/c-abt-log-proc-config-file.md)
       + [Edición del archivo de configuración de procesamiento de registros](home/c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md)
@@ -371,7 +372,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Edición del archivo de configuración de transformación](home/c-dataset-const-proc/c-trans-config-file/t-edit-trans-config-file.md)
       + Parámetros de transformación específicos {#specific-trans-param}
          + [Información sobre parámetros de transformación específicos](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-spec-trans-param.md)
-         + [Nueva condición de visitante](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-new-vstr-con.md)
+         + [Nueva condición de Visitante](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-new-vstr-con.md)
          + [Zonas horarias](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-time-zones.md)
       + [Consideraciones para el archivo de configuración de transformación](home/c-dataset-const-proc/c-trans-config-file/c-con-tran-config-file.md)
       + [Distribución de DeviceAtlas](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
@@ -477,7 +478,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Tipos de pruebas para operaciones de prueba](home/c-dataset-const-proc/c-conditions/c-test-ops/c-test-types.md)
          + [Operaciones booleanas](home/c-dataset-const-proc/c-conditions/c-test-ops/c-boolean-ops.md)
    + [Expresiones regulares](home/c-dataset-const-proc/c-reg-exp.md)
-   + [Campos de registro de datos del evento](home/c-dataset-const-proc/c-ev-data-rec-fields.md)
+   + [Campos de registro de datos de Evento](home/c-dataset-const-proc/c-ev-data-rec-fields.md)
    + Configuración para datos web {#config-web-data}
       + [Configuración para datos web](home/c-dataset-const-proc/c-config-web-data/c-config-web-data.md)
       + [Configuración específica de Web para el procesamiento de registros](home/c-dataset-const-proc/c-config-web-data/c-web-spec-log-proc.md)
@@ -512,7 +513,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Instalación del servidor de informes](home/c-rpt-oview/c-inst-rpt/c-inst-rpt.md)
       + [Antes de empezar](home/c-rpt-oview/c-inst-rpt/c-before-begin.md)
       + [Información general de instalación](home/c-rpt-oview/c-inst-rpt/t-install-oview.md)
-      + [Instalación de los archivos del programa de informes](home/c-rpt-oview/c-inst-rpt/t-install-rpt-prg-files.md)
+      + [Instalación de los archivos de Programa de informes](home/c-rpt-oview/c-inst-rpt/t-install-rpt-prg-files.md)
       + Certificados digitales {#digital-certs}
          + [Descarga e instalación del certificado digital](home/c-rpt-oview/c-inst-rpt/c-install-dig-cert/c-install-dig-cert.md)
          + [Explicación de los certificados digitales](home/c-rpt-oview/c-inst-rpt/c-install-dig-cert/c-underst-dig-cert.md)
@@ -534,7 +535,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + Cuentas {#accounts}
          + [Uso de cuentas](home/c-rpt-oview/c-admin-rpt/c-work-accts/c-work-accts.md)
          + [Visualización de cuentas](home/c-rpt-oview/c-admin-rpt/c-work-accts/c-view-accts.md)
-         + [Adición de cuentas nuevas](home/c-rpt-oview/c-admin-rpt/c-work-accts/t-add-new-accts.md)
+         + [Añadir nuevas cuentas](home/c-rpt-oview/c-admin-rpt/c-work-accts/t-add-new-accts.md)
          + [Edición de usuarios existentes](home/c-rpt-oview/c-admin-rpt/c-work-accts/t-edit-ex-users.md)
    + Instalación del portal de informes {#install-report-portal}
       + [Instalación del portal de informes](home/c-rpt-oview/c-install-rpt-port/c-install-rpt-port.md)
@@ -546,7 +547,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Asignación del portal de informes a un directorio virtual (IIS 5.0)](home/c-rpt-oview/c-install-rpt-port/c-virtual-dir/c-map-rpt-port-vdir-5.md)
       + [Editar el archivo de configuración de sesión](home/c-rpt-oview/c-install-rpt-port/t-edit-sess-config-file.md)
       + [Editar el archivo Email.asp](home/c-rpt-oview/c-install-rpt-port/t-email-file.md)
-      + [Editar el archivo Profiles.xml](home/c-rpt-oview/c-install-rpt-port/t-edit-prof-file.md)
+      + [Editar el archivo Perfiles.xml](home/c-rpt-oview/c-install-rpt-port/t-edit-prof-file.md)
       + [Personalización de la interfaz de usuario del portal de informes](home/c-rpt-oview/c-install-rpt-port/c-rpt-port-user-inter.md)
       + [Definir permisos para la base de datos](home/c-rpt-oview/c-install-rpt-port/t-set-data-perm.md)
       + [Probar el portal de informes](home/c-rpt-oview/c-install-rpt-port/t-test-rpt-port.md)
@@ -565,13 +566,13 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + Implementación de etiquetas de página de referencia {#implement-ref-page-tags}
       + [Implementación de etiquetas de página de referencia](home/c-undst-pg-tag/c-imp-ref-pg-tags/c-imp-ref-pg-tags.md)
       + [Edición del script de ejecución de etiquetas de página de referencia](home/c-undst-pg-tag/c-imp-ref-pg-tags/t-edit-ref-pg-tag-ex-scrpt.md)
-      + [Adición de llamadas de ejecución de etiquetas de página de referencia](home/c-undst-pg-tag/c-imp-ref-pg-tags/c-ref-pg-tag-ex-calls.md)
+      + [Añadir llamadas de ejecución de etiquetas de página de referencia](home/c-undst-pg-tag/c-imp-ref-pg-tags/c-ref-pg-tag-ex-calls.md)
       + [Explicación de la cookie v1st](home/c-undst-pg-tag/c-imp-ref-pg-tags/c-undst-v1st-ck.md)
    + Adquirir mediciones de línea de base {#acquire-base-measures}
       + [Información general sobre las mediciones de línea de base de adquisición](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-bsln-msmts.md)
       + Adquisición de datos de solicitud de página {#acquire-page-request}
          + [Adquisición de información general de datos de solicitudes de página](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-acq-pg-req-data.md)
-         + [Explicación de la cadena de consulta](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-undst-qry-strg.md)
+         + [Explicación de la cadena de Consulta](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-undst-qry-strg.md)
          + [Filtrado por tipo de contenido](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-fltr-cnt-type.md)
          + [Realización de experimentos controlados](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-perf-ctrl-exp.md)
       + [Adquisición de solicitudes de objetos incrustados (etiquetas de página)](home/c-undst-pg-tag/c-acq-bsln-msmts/c-embed-obj-req.md)
@@ -580,7 +581,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Adquisición de mediciones extendidas](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-ext-msmt.md)
       + [Adquisición de nombres de páginas dinámicos](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-dyn-pg-names.md)
       + [Adquisición de información adicional](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-add-info.md)
-      + [Adquisición de objetos de documento](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-doc-obj.md)
+      + [Adquisición de objetos Documento](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-doc-obj.md)
       + [Medición de la impresión de publicidad](home/c-undst-pg-tag/c-acq-ext-msmt/c-msr-adv-imp.md)
       + [Rastreo de clics en vínculos](home/c-undst-pg-tag/c-acq-ext-msmt/c-trk-lnk-clicks.md)
       + [Seguimiento de salidas a vínculos externos](home/c-undst-pg-tag/c-acq-ext-msmt/c-trk-ex-ext-links.md)
@@ -588,31 +589,31 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
          + [Adquirir entrada de campo de formulario](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-acq-frm-fld-inpt.md)
          + [Información general](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-gen-info.md)
          + [Información específica de ASP](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-asp.md)
-   + [Seguimiento de la actividad de los visitantes dentro del contenido multimedia Flash](home/c-undst-pg-tag/t-trk-vstr-act.md)
+   + [Seguimiento de la Actividad de Visitante dentro del contenido Flash Rich Media](home/c-undst-pg-tag/t-trk-vstr-act.md)
    + [Consideraciones P3P para el etiquetado de páginas de terceros](home/c-undst-pg-tag/c-cons-thrd-pty-pg-tag.md)
    + [Hoja de cálculo de asignación de variables de etiquetas de página](home/c-undst-pg-tag/c-pg-tag-wkst.md)
 + Metrics, dimensions, and filters {#metrics}
-   + [Acerca de las métricas, dimensiones y filtros del área de trabajo de datos](home/c-about/c-about.md)
-   + [Expansión de métricas, dimensiones y filtros](home/c-about/c-expand-capabilities.md)
+   + [Acerca de las métricas, dimensiones y Filtros del área de trabajo de datos](home/c-about/c-about.md)
+   + [Expansión de métricas, dimensiones y Filtros](home/c-about/c-expand-capabilities.md)
    + [Tipos de dimensiones](home/c-about/c-dimension-types.md)
    + [Asistente para atenuación de métricas](home/c-about/metric-dim.md)
    + Built-in Metrics, Dimensions, and Filters {#built-in-metrics}
-      + [Acerca de las métricas, dimensiones y filtros integrados](home/c-about/c-builtin-metrics-dims/c-builtin-metrics-dims.md)
+      + [Métricas, dimensiones y Filtros integrados](home/c-about/c-builtin-metrics-dims/c-builtin-metrics-dims.md)
       + [Métricas integradas](home/c-about/c-builtin-metrics-dims/c-builtin-metrics.md)
       + [Dimensiones integradas](home/c-about/c-builtin-metrics-dims/c-builtin-dims.md)
-      + [Filtros de perfil integrados](home/c-about/c-builtin-metrics-dims/c-builtin-filters.md)
+      + [Filtros de Perfil integrados](home/c-about/c-builtin-metrics-dims/c-builtin-filters.md)
    + Perfiles de línea base {#baseline-profiles}
-      + [Información general de perfiles de línea base](home/c-about/c-about-baseline-profiles/c-about-baseline-profiles.md)
-      + [Métricas de perfil de tráfico](home/c-about/c-about-baseline-profiles/c-traffic-profile.md)
-      + [Dimensiones de perfil de tráfico](home/c-about/c-about-baseline-profiles/c-traffic-profile-dims.md)
-      + [Métricas de perfil de valor](home/c-about/c-about-baseline-profiles/c-value-profile-metrics.md)
-      + [Dimensiones de perfil de valor](home/c-about/c-about-baseline-profiles/c-value-profile-dims.md)
-      + [Dimensiones del perfil de marketing](home/c-about/c-about-baseline-profiles/c-marketing-profile.md)
+      + [Información general de Perfiles de línea base](home/c-about/c-about-baseline-profiles/c-about-baseline-profiles.md)
+      + [Métricas de Perfil de tráfico](home/c-about/c-about-baseline-profiles/c-traffic-profile.md)
+      + [Dimensiones del Perfil de tráfico](home/c-about/c-about-baseline-profiles/c-traffic-profile-dims.md)
+      + [Métricas de Perfil de valores](home/c-about/c-about-baseline-profiles/c-value-profile-metrics.md)
+      + [Dimensiones de Perfil de valores](home/c-about/c-about-baseline-profiles/c-value-profile-dims.md)
+      + [Dimensiones de Perfil de mercadotecnia](home/c-about/c-about-baseline-profiles/c-marketing-profile.md)
 + Geography {#geography}
    + [Acerca de la geografía del área de trabajo de datos](home/c-geo-oview/c-geo-oview.md)
    + Instalación de Área de trabajo de datos geográfica {#install-geography}
       + [Instalación de Área de trabajo de datos geográfica](home/c-geo-oview/c-inst-geo/c-inst-geo.md)
-      + [Instalación del perfil geográfico](home/c-geo-oview/c-inst-geo/t-inst-geo-prof.md)
+      + [Instalación del Perfil de geografía](home/c-geo-oview/c-inst-geo/t-inst-geo-prof.md)
       + [Instalación de los archivos de búsqueda geográfica](home/c-geo-oview/c-inst-geo/t-inst-lkp-files.md)
       + [Instalación del archivo Earth Images.cfg](home/c-geo-oview/c-inst-geo/t-inst-trn-imgs-file.md)
    + Capas de imágenes {#imagery-layers}
@@ -640,7 +641,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Acerca de los servicios de datos](home/c-geo-oview/c-wk-data-svcs/c-abt-data-svcs.md)
       + Instalación de un servicio de datos {#install-data-service}
          + [Instalación de un servicio de datos en un servidor de Área de trabajo de datos](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-install-data-svc.md)
-         + [Instalación del perfil del servicio de datos](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-inst-data-svc-prof.md)
+         + [Instalación del Perfil del servicio de datos](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-inst-data-svc-prof.md)
          + [Instalación de los archivos de búsqueda del servicio de datos](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/t-inst-data-svc-lkp-files.md)
       + [Actualización de archivos del servicio de datos](home/c-geo-oview/c-wk-data-svcs/c-updt-data-svc-files.md)
    + Actualización y desinstalación de área geográfica del área de trabajo de datos {#upgrade-uninstall-geo}
@@ -648,7 +649,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Desinstalación de Área geográfica de Área de trabajo de datos](home/c-geo-oview/c-upgrd-uninst-geo/t-uninst-geo.md)
 + Controlled experiments {#experiments}
    + [Acerca de los experimentos controlados por el área de trabajo de datos](home/c-undst-ctrld-exp/c-undst-ctrld-exp.md)
-   + [¿Cómo identifica el sitio a los visitantes?](home/c-undst-ctrld-exp/c-id-vstrs.md)
+   + [¿Cómo identifica el sitio los Visitantes?](home/c-undst-ctrld-exp/c-id-vstrs.md)
    + [¿Cómo funcionan los experimentos controlados?](home/c-undst-ctrld-exp/c-ctrld-exp-wk.md)
    + [¿Qué debo probar?](home/c-undst-ctrld-exp/c-wht-test-.md)
    + [¿Cuáles son los requisitos?](home/c-undst-ctrld-exp/c-reqs-.md)
@@ -660,8 +661,8 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + Creación de un experimento controlado {#create-controlled-experiment}
       + [Creación de un experimento controlado](home/c-undst-ctrld-exp/t-crt-ctrld-exp/t-crt-ctrld-exp.md)
       + [Definición del objetivo](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-dfn-obj.md)
-      + [Formación de una hipótesis](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-frm-hyp.md)
-      + [Determinación del número de visitantes necesario](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-nmbr-vstrs-nd.md)
+      + [Formación de una Hipótesis](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-frm-hyp.md)
+      + [Determinación del número de Visitantes necesarios](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-nmbr-vstrs-nd.md)
       + [Creación del contenido de la prueba](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-crt-test-cnt.md)
       + [Configuración e implementación del experimento](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-cnfg-dply-exp.md)
    + [Validación del experimento](home/c-undst-ctrld-exp/c-val-exp.md)
@@ -679,21 +680,21 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Acerca de las unidades de licencia de Insight Server](home/c-inst-svr/c-install-ins-svr/c-abt-inst-svr-lic-units.md)
       + DPU de Insight Server {#insight-server-dpu}
          + [Procedimientos de instalación para una DPU de Insight Server](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-proc-inst-svr-dpu.md)
-         + [Instalación de los archivos de programa de Insight Server](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-prgm-files.md)
+         + [Instalación de los archivos de Programa de Insight Server](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-prgm-files.md)
          + Certificados digitales {#dig-certs}
             + [Descarga e instalación de certificados digitales](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/c-dnld-dgtl-cert.md)
             + [Cifrado de cadenas](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/string-encryption.md)
             + [Uso de certificados personalizados en el área de trabajo de datos](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/using-custom-certificates-dwb.md)
             + [Almacén de certificados de Windows](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/crypto-api.md)
          + [Comprobación de la configuración del puerto](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-chk-pt-stgs.md)
-         + [Actualización del archivo de control de acceso](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-updt-accss-ctrl-file.md)
+         + [Actualización del archivo Control de acceso](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-updt-accss-ctrl-file.md)
          + Ubicación de red del servidor {#server-network-location}
             + [Definición de la ubicación de red del servidor](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-svrs-ntwk-loc.md)
             + [Ubicaciones de red](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-ntwk-loc.md)
             + [Varias direcciones IP para un servidor de Insight](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-mltpl-ip-addr.md)
             + [El archivo de direcciones instalado en el servidor de Insight](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-addr-file-inst.md)
          + [Configuración de la ubicación del conjunto de datos (temp.db)](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-cfg-loc-dtst.md)
-         + [Instalación de perfiles y archivos de búsqueda](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-install-prof-lkup-files.md)
+         + [Instalación de Perfiles y archivos de búsqueda](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-install-prof-lkup-files.md)
          + [Registro de Insight Server como un servicio de Windows](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-reg-wdws-svc.md)
       + [Procedimientos de instalación de una FSU de Insight Server](home/c-inst-svr/c-install-ins-svr/t-inst-proc-fsu.md)
       + [Pasos siguientes](home/c-inst-svr/c-install-ins-svr/c-nxt-stps.md)
@@ -705,28 +706,28 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
             + [Instalación de Master Insight Server](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-ins-mstr-ins-svr.md)
             + [Configuración del servidor maestro de perspectiva para la agrupación en clúster](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md)
             + [Instalación y configuración de los servidores de perspectiva de procesamiento](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-inst-proc-ins-svrs.md)
-            + [Configuración de un perfil para ejecutar en un clúster](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md)
-         + Adición de servidores de Insight a un clúster existente {#add-server-cluster}
-            + [Adición de servidores de Insight a un clúster existente](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-ins-svrs-ex-clstr.md)
-            + [Adición de una DPU de Insight Server a un clúster existente](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-dpu-ex-clstr.md)
-            + [Adición de una FSU de Insight Server a un clúster existente](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-fsu-ex-clstr.md)
+            + [Configuración de un Perfil para ejecutar en un clúster](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md)
+         + Añadir servidores de Insight en un clúster existente {#add-server-cluster}
+            + [Añadir servidores de Insight en un clúster existente](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-ins-svrs-ex-clstr.md)
+            + [Añadir una DPU de Insight Server a un clúster existente](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-dpu-ex-clstr.md)
+            + [Añadir una FSU de Insight Server a un clúster existente](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-fsu-ex-clstr.md)
    + Administración del servidor de Área de trabajo de datos {#admin-dwb-server}
       + [Administración del servidor de Área de trabajo de datos](home/c-inst-svr/c-admin-inst-svr/c-admin-inst-svr.md)
       + [Volver a validar el certificado digital](home/c-inst-svr/c-admin-inst-svr/c-reval-dgtl-cert.md)
       + [Confirmación de que el servicio se está ejecutando](home/c-inst-svr/c-admin-inst-svr/c-cfrm-svc-rng.md)
       + Control de acceso {#access-control}
-         + [Configuración del control de acceso](home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-config-acs-ctrl.md)
-         + [Explicación de los grupos de control de acceso](home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-undst-acc-ctrl-grps.md)
+         + [Configuración del Control de acceso](home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-config-acs-ctrl.md)
+         + [Explicación de los grupos de Controles de acceso](home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-undst-acc-ctrl-grps.md)
          + [Explicación de los niveles de acceso](home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-undst-acc-lvls.md)
          + [Administración de usuarios de acceso de miembros del grupo](home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/dwb-self-admin-member-access.md)
       + Monitoreo del espacio en disco {#monitor-disk-space}
          + [Monitoreo del espacio en disco](home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/c-mntr-disk-spc.md)
          + [Monitoreo del espacio de datos del conjunto de datos](home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/t-mntr-dtst-data-spc.md)
-         + [Monitoreo del espacio de datos del evento](home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/t-mntr-evt-data-spc.md)
-         + [Copia de seguridad de datos de eventos](home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/c-bk-up-evt-data.md)
+         + [Monitoreo del espacio de datos de Evento](home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/t-mntr-evt-data-spc.md)
+         + [Copia de seguridad de datos de Evento](home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/c-bk-up-evt-data.md)
       + [Monitoreo del uso de la memoria](home/c-inst-svr/c-admin-inst-svr/t-mntr-mry-usg.md)
       + [Configuración de alertas administrativas](home/c-inst-svr/c-admin-inst-svr/t-config-adm-alrts.md)
-      + [Monitoreo de eventos administrativos](home/c-inst-svr/c-admin-inst-svr/t-mntr-adm-evts.md)
+      + [Supervisión de los Eventos administrativos](home/c-inst-svr/c-admin-inst-svr/t-mntr-adm-evts.md)
       + [Supervisión de registros de auditoría](home/c-inst-svr/c-admin-inst-svr/t-mntr-adt-lgs.md)
       + [Configuración de comunicaciones](home/c-inst-svr/c-admin-inst-svr/t-config-com.md)
       + [Configuración de DPU.cfg](home/c-inst-svr/c-admin-inst-svr/t-config-dpu.md)
@@ -745,14 +746,14 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + Configurar {#configure}
          + [Configuración de la funcionalidad del repetidor](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/c-cnfg-rptr-fntly.md)
          + [Configuración de una FSU de Insight Server para Repetidor](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-fsu-rptr.md)
-         + [Configuración del control de acceso para equipos de destino](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-acc-ctrll-tgt-mach.md)
+         + [Configuración de Control de acceso para equipos de Destinatario](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-acc-ctrll-tgt-mach.md)
          + [Creación de una conexión entre Insight y Repeater](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-crt-conn-ins-rptr.md)
          + [Pasos siguientes](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/c-nxt-stps-reptr.md)
       + [Repetidor de administración](home/c-inst-svr/c-rptr-fntly/c-admin-rptr.md)
    + Administración general de sistemas {#general-syst-admin}
       + [Administración general de sistemas](home/c-inst-svr/c-gen-syst-admin/c-gen-syst-admin.md)
       + [Confirmación de que sus sistemas son saludables](home/c-inst-svr/c-gen-syst-admin/c-cnfm-syst-hlthy.md)
-      + [Monitoreo de eventos para detectar errores](home/c-inst-svr/c-gen-syst-admin/c-mntr-errs.md)
+      + [Supervisión de Eventos para detectar errores](home/c-inst-svr/c-gen-syst-admin/c-mntr-errs.md)
       + [Monitoreo de puertos y aplicaciones](home/c-inst-svr/c-gen-syst-admin/t-mntr-prts-apps.md)
    + Actualización y desinstalación {#upgrade-uninstall}
       + [Actualización y desinstalación del software de Adobe](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-uninst-sftwr.md)
@@ -779,7 +780,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
 + Sensor {#sensor}
    + [¿Cómo funciona el proceso de recopilación de datos?](home/c-snsr-ovrvw/c-data-col-proc.md)
    + [¿Qué son los componentes básicos?](home/c-snsr-ovrvw/c-basic-comp.md)
-   + [¿Cómo identifica el sensor a los visitantes y las sesiones?](home/c-snsr-ovrvw/c-id-vstrs-sess.md)
+   + [¿Cómo identifica el sensor los Visitantes y las sesiones?](home/c-snsr-ovrvw/c-id-vstrs-sess.md)
    + Instalación {#install}
       + [Instalación del sensor](home/c-snsr-ovrvw/c-inst-snsr/c-inst-snsr.md)
       + [Microsoft IIS en Windows Server 2000 o posterior](home/c-snsr-ovrvw/c-inst-snsr/c-install-iis.md)
@@ -803,8 +804,8 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Modificación de la ruta de biblioteca Java](home/c-snsr-ovrvw/admin-sensor/modify-java-lib-path.md)
       + [Confirmación de la ejecución del recopilador de datos](home/c-snsr-ovrvw/admin-sensor/c-data-cltr-rng.md)
       + [Confirmación de la ejecución del transmisor de datos](home/c-snsr-ovrvw/admin-sensor/c-data-trmtr-rng.md)
-      + [Monitoreo de eventos administrativos](home/c-snsr-ovrvw/admin-sensor/c-mntr-admin-evts.md)
-      + [Cambio del servidor de Área de trabajo de datos de Target](home/c-snsr-ovrvw/admin-sensor/t-trgt-ins-svr.md)
+      + [Supervisión de los Eventos administrativos](home/c-snsr-ovrvw/admin-sensor/c-mntr-admin-evts.md)
+      + [Cambio del servidor de Destinatario Data Workbench](home/c-snsr-ovrvw/admin-sensor/t-trgt-ins-svr.md)
       + Sensores sin conexión {#offline}
          + [Cómo tratar con sensores sin conexión](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-ofln-snsrs.md)
          + [Explicación del tiempo &quot;Con fecha&quot;](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-as-of-tm.md)
@@ -815,34 +816,34 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Parámetros del archivo Txlogd.conf del sensor](home/c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md)
       + [Parámetros requeridos](home/c-snsr-ovrvw/sensor-txlogd-params/c-rqrd-prmtrs.md)
       + [Parámetros opcionales](home/c-snsr-ovrvw/sensor-txlogd-params/c-opt-pmtrs.md)
-   + Campos de registro de datos del evento {#event-data-record}
-      + [Campos de registro de datos del evento](home/c-snsr-ovrvw/c-evnt-data-rcd-flds/c-evnt-data-rcd-flds.md)
-      + [Campos de registro de datos del evento previsto](home/c-snsr-ovrvw/c-evnt-data-rcd-flds/c-bsln-evnt-data.md)
+   + Campos de registro de datos de Evento {#event-data-record}
+      + [Campos de registro de datos de Evento](home/c-snsr-ovrvw/c-evnt-data-rcd-flds/c-evnt-data-rcd-flds.md)
+      + [Campos de registro de datos de Evento base](home/c-snsr-ovrvw/c-evnt-data-rcd-flds/c-bsln-evnt-data.md)
       + [Campos ampliables](home/c-snsr-ovrvw/c-evnt-data-rcd-flds/c-ex-flds.md)
    + Archivos de configuración de muestra {#sample-configs}
       + [Archivos de configuración de muestra](home/c-snsr-ovrvw/sensor-sample-configs/sensor-sample-configs.md)
       + [Ejemplos de archivos Txlogd.conf](home/c-snsr-ovrvw/sensor-sample-configs/txlogd-conf-samples.md)
    + [Opciones de la línea de comandos del transmisor de sensores](home/c-snsr-ovrvw/sensor-transmitter-options.md)
    + [Permisos del archivo UNIX de sensor](home/c-snsr-ovrvw/sensor-unix-permissions.md)
-+ Instalación del perfil de supervisión {#monitor}
-   + [Instalación del perfil de supervisión](home/monitoring-installation/monitoring-installation.md)
++ Instalación del Perfil de supervisión {#monitor}
+   + [Instalación del Perfil de supervisión](home/monitoring-installation/monitoring-installation.md)
    + Espacios de trabajo {#workspace}
       + [Espacios de trabajo para monitorear el servidor de Área de trabajo de datos](home/monitoring-installation/monitoring-profiles/monitoring-profiles.md)
       + [Área de trabajo de datos Espacio de trabajo histórico](home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md)
-      + [Espacio de trabajo Estado del perfil del área de trabajo de datos](home/monitoring-installation/monitoring-profiles/monitoring-profile-using.md)
+      + [Área de trabajo Estado del Perfil del área de trabajo de datos](home/monitoring-installation/monitoring-profiles/monitoring-profile-using.md)
       + [Espacio de trabajo Estado del servidor de Área de trabajo de datos](home/monitoring-installation/monitoring-profiles/monitoring-server-using.md)
-   + Métricas y dimensiones de perfil del área de trabajo de datos {#monitoring-appendix}
-      + [Métricas y dimensiones de perfil del área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-appendix.md)
+   + Métricas y dimensiones de Perfil del área de trabajo de datos {#monitoring-appendix}
+      + [Métricas y dimensiones de Perfil del área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-appendix.md)
       + [Dimensiones en el perfil histórico del área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-historical.md)
-      + [Dimensiones en el perfil Estado del perfil del área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md)
+      + [Dimensiones en el perfil Estado del Perfil del área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md)
       + [Dimensiones en el perfil de estado del servidor de Área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-servers-profile.md)
       + [Métricas en el perfil de supervisión histórica del área de trabajo de datos](home/monitoring-installation/monitoring-appendix/monitoring-hist-metrics.md)
-+ Tablero {#dashboard}
++ Panel {#dashboard}
    + [Oportunidades comerciales](home/c-adobe-data-workbench-dashboard/c-business-opportunities.md)
    + [Funciones ](home/c-adobe-data-workbench-dashboard/c-features.md)
    + [Glosario](home/c-adobe-data-workbench-dashboard/c-glossary.md)
    + [Introducción](home/c-adobe-data-workbench-dashboard/t-getting-started/t-getting-started.md)
-   + [Interfaz de usuario del tablero](home/c-adobe-data-workbench-dashboard/t-getting-started/c-dashboard-user-interface.md)
+   + [Interfaz de usuario de Panel](home/c-adobe-data-workbench-dashboard/t-getting-started/c-dashboard-user-interface.md)
    + Visualizaciones {#visualizations}
       + [Visualizaciones](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualizations.md)
       + Tipos de visualización {#visualization-types}
@@ -869,32 +870,32 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + Tableros {#dashboards}
       + [Tableros](home/c-adobe-data-workbench-dashboard/c-dashboards/c-dashboards.md)
       + Visualización de tableros {#viewing-dashboards}
-         + [Apertura y visualización de tableros](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-opening-and-viewing-dashboards.md)
+         + [Apertura y visualización de Paneles](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-opening-and-viewing-dashboards.md)
          + [Menú de acceso rápido](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-quick-access-menu.md)
-         + Explorador de tableros] {#dashboard-browser}
-            + [Explorador de tableros](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser.md)
-            + [Vistas del explorador del tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser-views.md)
-            + [Búsqueda dentro del explorador de tableros](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-searching-within-the-dashboard-browser.md)
-         + [Hipervínculo de tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-hyperling.md)
-      + [Parámetro de consulta a](home/c-adobe-data-workbench-dashboard/c-dashboards/c-query-to-parameter.md)
+         + Explorador de Panel] {#dashboard-browser}
+            + [Explorador de Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser.md)
+            + [Vistas del explorador Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser-views.md)
+            + [Búsqueda dentro del navegador de Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-searching-within-the-dashboard-browser.md)
+         + [Hipervínculo de Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-hyperling.md)
+      + [Parámetro de Consulta a](home/c-adobe-data-workbench-dashboard/c-dashboards/c-query-to-parameter.md)
       + [Creación de un tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/c-creating-a-dashboard.md)
-      + [Guardar un tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/t-saving-a-dashboard.md)
-      + [Edición o actualización de un tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/t-editing-updating-a-dashboard.md)
-      + [Realización de una copia de un tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/t-making-a-copy-of-a-dashboard.md)
-      + [Otras funciones de tablero](home/c-adobe-data-workbench-dashboard/c-dashboards/c-other-dashboard-functions.md)
-      + [Controles de acceso y uso compartido de tableros](home/c-adobe-data-workbench-dashboard/c-dashboards/c-dashboard-sharing-and-access-controls.md)
+      + [Guardar un Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/t-saving-a-dashboard.md)
+      + [Edición o actualización de un Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/t-editing-updating-a-dashboard.md)
+      + [Creación de una copia de un Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/t-making-a-copy-of-a-dashboard.md)
+      + [Otras funciones de Panel](home/c-adobe-data-workbench-dashboard/c-dashboards/c-other-dashboard-functions.md)
+      + [Uso compartido de Paneles y Controles de acceso](home/c-adobe-data-workbench-dashboard/c-dashboards/c-dashboard-sharing-and-access-controls.md)
    + Seleccionar {#select}
-      + [Realizar selecciones dentro del tablero](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-making-selections-within-the-dashboard.md)
+      + [Realizar selecciones dentro del Panel](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-making-selections-within-the-dashboard.md)
       + [Selecciones bloqueadas](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-locked-selections.md)
       + [Aplicación de selecciones](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/t-applying-selections.md)
       + [Eliminación de selecciones](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-removing-selections.md)
       + [Determinación de los elementos seleccionados](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-determining-whats-selected.md)
-      + [Selecciones entre perfiles](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-cross-profile-selections.md)
+      + [Selecciones entre Perfiles](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-cross-profile-selections.md)
    + [Exportación de datos](home/c-adobe-data-workbench-dashboard/c-exporting-data.md)
-   + [Controles de acceso a tableros](home/c-adobe-data-workbench-dashboard/c-dashboard-access-controls.md)
+   + [Controles de acceso Panel](home/c-adobe-data-workbench-dashboard/c-dashboard-access-controls.md)
    + [Administración de cuentas de usuario](home/c-adobe-data-workbench-dashboard/c-user-account-functions.md)
    + [Menú Ayuda](home/c-adobe-data-workbench-dashboard/c-help-menu.md)
-+ Administrador de tableros {#admin}
++ Administrador de Panel {#admin}
    + [Requisitos mínimos del sistema](home/c-preparing-for-dashboard-installation/c-minimum-system-requirements.md)
    + [Descargar componentes opcionales y requeridos](home/c-preparing-for-dashboard-installation/c-download-required-and-optional-components.md)
    + [Exploradores admitidos](home/c-preparing-for-dashboard-installation/c-supported-browsers.md)
@@ -903,30 +904,30 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Habilitación de IIS](home/c-preparing-for-dashboard-installation/c-installation-prerequisites/t-enabling-iis.md)
       + [Instalación de componentes necesarios](home/c-preparing-for-dashboard-installation/c-installation-prerequisites/t-installing-required-components.md)
    + Comunicación del servidor {#servers-communication}
-      + [Comunicación entre el tablero y los servidores del área de trabajo de datos](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/c-dashboard-to-data-workbench-servers-communication.md)
-      + [Verificación de la habilitación de la API de consulta](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-verifying-qurey-api-enablement.md)
-      + [Configuración del control de acceso](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-configuring-access-control.md)
-   + Implementación de tableros {#dashboard-deployment}
-      + [Implementación de tableros](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/c-dashboard-deployment.md)
-      + [Implementación del tablero](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-deploying-the-dashboard.md)
+      + [Comunicación Panel a servidores de Área de trabajo de datos](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/c-dashboard-to-data-workbench-servers-communication.md)
+      + [Verificación de la habilitación de la API de Consulta](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-verifying-qurey-api-enablement.md)
+      + [Configuración del Control de acceso](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-configuring-access-control.md)
+   + Implementación de Panel {#dashboard-deployment}
+      + [Implementación de Panel](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/c-dashboard-deployment.md)
+      + [Implementación del Panel](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-deploying-the-dashboard.md)
       + [Configuración de SQL Server](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-configuring-the-sql-server.md)
-      + [Inicialización del tablero](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-initializing-the-dashboard.md)
-      + [Agregar clave de licencia del tablero](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-add-dashboard-license-key.md)
+      + [Inicialización del Panel](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-initializing-the-dashboard.md)
+      + [Añadir clave de licencia de Panel](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-add-dashboard-license-key.md)
    + [Administración desde la Consola de administración](home/c-preparing-for-dashboard-installation/c-managing-from-the-administration-console.md)
-   + Conexiones de perfil {#profile-connections}
-      + [Administración de conexiones de perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/c-managing-profile-connections.md)
-      + [Adición de una conexión de perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/t-adding-a-profile-connection.md)
-      + [Edición de una conexión de perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/t-editing-a-profile.md)
-      + [Eliminación de una conexión de perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/t-removing-a-profile-connection.md)
+   + Conexiones de Perfil {#profile-connections}
+      + [Administración de conexiones de Perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/c-managing-profile-connections.md)
+      + [Añadir una conexión de Perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/t-adding-a-profile-connection.md)
+      + [Edición de una conexión de Perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/t-editing-a-profile.md)
+      + [Eliminación de una conexión de Perfil](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/t-removing-a-profile-connection.md)
    + Esquema {#schema}
-      + [Administración del esquema](home/c-preparing-for-dashboard-installation/c-managing-the-schema/c-managing-the-schema.md)
-      + [Inicialización y actualización de la definición de esquema de un perfil](home/c-preparing-for-dashboard-installation/c-managing-the-schema/t-initializing-and-updating-a-profiles-schema-definition.md)
+      + [Administración del Esquema](home/c-preparing-for-dashboard-installation/c-managing-the-schema/c-managing-the-schema.md)
+      + [Inicialización y actualización de la definición de Esquema de un Perfil](home/c-preparing-for-dashboard-installation/c-managing-the-schema/t-initializing-and-updating-a-profiles-schema-definition.md)
    + Carpetas {#folders}
       + [Administración de carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/c-managing-folders.md)
-      + [Adición de carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/t-adding-folders.md)
+      + [Añadir carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/t-adding-folders.md)
       + [Cambio de nombre de carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/t-renaming-folders.md)
       + [Eliminación de carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/t-deleting-folders.md)
-      + [Desplazamiento de tableros y carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/t-moving-dashboards-and-folders.md)
+      + [Desplazamiento de Paneles y carpetas](home/c-preparing-for-dashboard-installation/c-managing-folders/t-moving-dashboards-and-folders.md)
    + Cuentas de usuario {#user-accounts}
       + [Administración de cuentas de usuario](home/c-preparing-for-dashboard-installation/t-managing-user-accounts/t-managing-user-accounts.md)
       + [Adición de una cuenta de usuario](home/c-preparing-for-dashboard-installation/t-managing-user-accounts/t-adding-a-user-account.md)
@@ -945,11 +946,11 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + [Instalación y aprovisionamiento de Área de trabajo de datos](home/dwb-implement-overview/dwb-implement-provision/dwb-implement-provision.md)
    + [Instrucciones básicas de integración para los servicios administrados de DWB](home/dwb-implement-overview/dwb-implement-provision/dwb-implement-onboarding.md)
    + [Arquitectura de Área de trabajo de datos](home/dwb-implement-overview/dwb-implement-architecture/dwb-implement-architecture.md)
-   + [Estructuras contables de diseño de esquema](home/dwb-implement-overview/dwb-implement-architecture/dwb-implement-arch-countable.md)
+   + [Estructuras contables de diseño de Esquema](home/dwb-implement-overview/dwb-implement-architecture/dwb-implement-arch-countable.md)
    + [Administración de Área de trabajo de datos](home/dwb-implement-overview/dwb-implement-admin.md)
    + Configuración e implementación {#implement-configure}
       + [Configuración e implementación de Área de trabajo de datos](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-configure.md)
-      + [Configuración del tiempo de evento](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-event-time.md)
+      + [Configuración del tiempo de Evento](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-event-time.md)
       + [Configuración de dimensión](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-dim-setup.md)
       + [Configuración de métricas](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-metric-setup.md)
       + [Validación de servidores FTP internos y externos](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-validation-ftp.md)
@@ -957,13 +958,13 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
       + [Secuencia de comandos para reprocesamiento semanal](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-reprocess-scripting.md)
       + [Secuencia de comandos para la barra de desplazamiento SAINT](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-saint-scripting.md)
       + [Administración de transferencia de archivos](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-file-transfer.md)
-      + [Configuración de API de consulta](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-query-api.md)
+      + [Configuración de API de Consulta](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-query-api.md)
       + [Procesamiento de datos: Generación de clave principal](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-primary-key.md)
    + Implementación de funciones {#feature-implemenatation}
       + [Implementación de funciones de Área de trabajo de datos](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-deliver.md)
-      + [Cambios de configuración para nuevo esquema](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
+      + [Cambios en la configuración para nuevo Esquema](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [Configuración de dimensiones derivadas](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
 + [Insight](https://www.adobe.io/)
 + [Área de trabajo de datos con la fuente de datos de Analytics](https://marketing.adobe.com/resources/help/en_US/insight/insight_sc_implementation.pdf)
-+ [Integración del área de trabajo de datos con Adobe Target](home/dwb-adobe-target.md)
++ [Integración de Área de trabajo de datos con Adobe Destinatario](home/dwb-adobe-target.md)
 + [Glosario del área de trabajo de datos](dwb-glossary.md)
