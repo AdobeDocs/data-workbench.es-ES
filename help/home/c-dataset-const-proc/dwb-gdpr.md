@@ -4,7 +4,7 @@ solution: Analytics
 title: Compatibilidad del área de trabajo de datos con GDPR
 topic: Data workbench
 translation-type: tm+mt
-source-git-commit: 89a17210bb6f941309b283e54aa8485c5e823595
+source-git-commit: 4002d01c4c9aaa7d8833415aba3fa5105cb7ac1f
 
 ---
 
@@ -21,7 +21,7 @@ El reglamento del RGPD identifica las funciones y obligaciones de las diferentes
 * Adobe actúa como procesador **de** datos para proporcionar el software y los servicios necesarios para implementar los requisitos de RGPD según su acuerdo con Adobe.
 * Tras la integración de Área de trabajo de datos con el servicio de RGPD y según los estándares de RGPD, los visitantes a un sitio (los sujetos **de** datos) pueden ejercer su &quot;derecho al olvido&quot; por parte de Adobe, el procesador de datos. Para lograr el derecho al olvido, usted como controlador de datos puede cargar ID de visitante cuestionados a Adobe desde una interfaz de usuario o API. Consulte la documentación del flujo de trabajo [de GDPR de](https://docs.adobe.com/help/en/analytics/admin/data-governance/an-gdpr-workflow.html) Adobe Analytics para obtener más información, incluida la sección [enviar solicitudes](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-submit-access-delete.html) de acceso y eliminación.
 
->[!Note]
+>[!NOTE]
 >
 >Para otras fuentes de datos, su organización será responsable de limpiar los ID de visitante cuestionados de otras fuentes de registro, como CRM, POS, IVR y otras fuentes de datos sin procesar. Los paquetes de servicios personalizados estarán disponibles para proporcionar soporte a las organizaciones _proporcionando un conjunto completo de archivos de reemplazo para cada origen_ de datos u otras opciones personalizadas.
 
