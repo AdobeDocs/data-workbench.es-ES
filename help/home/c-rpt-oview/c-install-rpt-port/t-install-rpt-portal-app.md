@@ -2,10 +2,9 @@
 description: El portal de informes está formado por un conjunto de páginas de servidor de aplicaciones (ASP) y archivos auxiliares.
 solution: Analytics
 title: Instalación de los archivos de la aplicación de Report Portal
-topic: Data workbench
 uuid: 483a7401-1bb4-4a71-b8c7-e70ff1b129e7
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 7521fe7f5fabe8e1be26e140ffff577a42fce88b
 
 ---
 
@@ -24,7 +23,7 @@ Para instalar el [!DNL Report Portal], debe extraer estos archivos del archivo d
    | Carpeta o archivo | Descripción |
    |---|---|
    | [!DNL \data\users.mdb] | Base de datos que contiene la lista de [!DNL Report Portal] usuarios autorizados. |
-   | [!DNL \PortalASP\] | Carpeta que contiene los archivos ASP que componen [!DNL Report Portal]. |
+   | [!DNL \PortalASP\] | Carpeta que contiene los archivos ASP que conforman [!DNL Report Portal]. |
    | [!DNL \PortalFiles\] | Carpeta que contiene cinco subcarpetas (Core, CSS, HTC, Images y Output) que contienen archivos de soporte utilizados por [!DNL Report Portal]. |
    | [!DNL ReportPortalSetup.xml] | Archivo de configuración que se utiliza para definir los directorios virtuales asociados con [!DNL Report Portal] (solo se utiliza con IIS 6.0). |
 
