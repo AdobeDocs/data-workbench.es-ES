@@ -4,7 +4,7 @@ product: analytics
 audience: end-user
 user-guide-title: Ayuda de Área de trabajo de datos
 translation-type: tm+mt
-source-git-commit: 888aeff0052ab7261885b3047eae6e91f1e90b03
+source-git-commit: 6098c4fcb14d7fd2444832aaaf0f5b7cc1811dac
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 888aeff0052ab7261885b3047eae6e91f1e90b03
    + [Notas de la versión de Área de trabajo de datos 6.2](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
    + [Actualización de Data Workbench 6.11](home/c-release-notes-insight/c-6-1-1.md)
    + [Actualización de fuentes de datos para abril de 2014](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
-   + [Notas de la versión de Área de trabajo de datos 6.2](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
+   + [Notas de la versión de Área de trabajo de datos 6.1](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
    + [Notas de la versión de Área de trabajo de datos 6.0 y 6.0.4](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
 + Instalación {#install}
    + [Requisitos de estación de trabajo](home/c-install-insight/c-data-workbench-client-install.md)
@@ -966,6 +966,6 @@ source-git-commit: 888aeff0052ab7261885b3047eae6e91f1e90b03
       + [Cambios en la configuración para nuevo Esquema](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [Configuración de dimensiones derivadas](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
 + [Insight](https://www.adobe.io/)
-+ [Área de trabajo de datos con la fuente de datos de Analytics](https://marketing.adobe.com/resources/help/en_US/insight/insight_sc_implementation.pdf)
++ [Área de trabajo de datos con la fuente de datos de Analytics](home/assets/insight_sc_implementation.pdf)
 + [Integración de Área de trabajo de datos con Adobe Destinatario](home/dwb-adobe-target.md)
 + [Glosario del área de trabajo de datos](dwb-glossary.md)
