@@ -4,7 +4,7 @@ product: analytics
 audience: end-user
 user-guide-title: Ayuda de Área de trabajo de datos
 translation-type: tm+mt
-source-git-commit: b3fb1e355cc42f96b2daaee9e58c22fa20a5a005
+source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
 
 ---
 
@@ -966,6 +966,5 @@ source-git-commit: b3fb1e355cc42f96b2daaee9e58c22fa20a5a005
       + [Cambios en la configuración para nuevo Esquema](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [Configuración de dimensiones derivadas](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
 + [Insight](https://www.adobe.io/)
-+ [Área de trabajo de datos con la fuente de datos de Analytics](home/assets/dwb-analytics-implementation.pdf)
 + [Integración de Área de trabajo de datos con Adobe Destinatario](home/dwb-adobe-target.md)
 + [Glosario del área de trabajo de datos](dwb-glossary.md)
