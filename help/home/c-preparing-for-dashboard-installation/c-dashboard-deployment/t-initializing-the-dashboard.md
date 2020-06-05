@@ -7,8 +7,8 @@ uuid: 847ba63e-29d8-4950-aa74-22d825388e2b
 translation-type: tm+mt
 source-git-commit: 4b39a42285c39e26f097b91309c269c05a9475bd
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ El paso final es ejecutar el panel por primera vez para permitirle inicializarlo
    * **[!UICONTROL Username]**: admin
    * **[!UICONTROL Password]**: password
 
-1. En el primer inicio de sesión, vaya a **[!UICONTROL User]** > **[!UICONTROL Account Settings]** y seleccione **[!UICONTROL Change Password]** para cambiar la contraseña de administrador.
+1. En el primer inicio de sesión, vaya a **[!UICONTROL User]** > **[!UICONTROL Account Settings]** y seleccione **[!UICONTROL Change Password]** para cambiar la contraseña del administrador.
 
 La instalación del panel ya ha finalizado. Si aún no lo ha hecho, utilice las instrucciones detalladas en la sección Preparación del área de trabajo de datos de esta guía para configurar la comunicación con los servidores del área de trabajo de datos y administrar usuarios y grupos.
 
