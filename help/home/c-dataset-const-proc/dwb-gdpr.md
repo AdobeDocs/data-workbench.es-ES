@@ -4,7 +4,10 @@ solution: Analytics
 title: Compatibilidad del área de trabajo de datos con GDPR
 topic: Data workbench
 translation-type: tm+mt
-source-git-commit: 4002d01c4c9aaa7d8833415aba3fa5105cb7ac1f
+source-git-commit: 279e71f3da3f0ebc29091e88b87666a22a36a8d6
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,7 @@ El reglamento del RGPD identifica las funciones y obligaciones de las diferentes
 
 >[!NOTE]
 >
->Para otras fuentes de datos, su organización será responsable de limpiar los ID de visitante cuestionados de otras fuentes de registro, como CRM, POS, IVR y otras fuentes de datos sin procesar. Los paquetes de servicios personalizados estarán disponibles para proporcionar soporte a las organizaciones _proporcionando un conjunto completo de archivos de reemplazo para cada origen_ de datos u otras opciones personalizadas.
+>Para otras fuentes de datos, su organización será responsable de limpiar los ID de visitante cuestionados de otras fuentes de registro, como CRM, POS, IVR y otras fuentes de datos sin procesar. Se dispondrá de paquetes de servicios con ámbito personalizado para proporcionar asistencia a las organizaciones _proporcionando un conjunto completo de archivos de reemplazo para cada fuente_ de datos que los retenedores de servicios en curso deben admitir o mantener.
 
 ## Actualización de la implementación de DWB para GDPR
 
@@ -31,7 +34,7 @@ El consultor le asesorará sobre el paquete de servicios adecuado para lograr qu
 
 Si es necesario:
 
-* [Actualice a la versión](https://docs.adobe.com/content/help/en/data-workbench/using/release-notes/release-notes.html) más reciente de Área de trabajo de datos. Para lograr la máxima seguridad, se agregaron nuevos certificados y funciones de seguridad en las versiones de DWB 6.7 necesarias para la integración de GDPR.
+* [Actualice a la versión](https://docs.adobe.com/content/help/es-ES/data-workbench/using/release-notes/release-notes.html) más reciente de Área de trabajo de datos. Para lograr la máxima seguridad, se agregaron nuevos certificados y funciones de seguridad en las versiones de DWB 6.7 necesarias para la integración de GDPR.
 * Si utiliza registros de evento heredados de análisis de TSV, actualice a la fuente [de datos de](https://docs.adobe.com/content/help/en/data-workbench/using/dataset/log-proc-config-file/c-log-sources.html#section-9a824b4c3d5549e7952a7111232035b2)Avro.
 * Si utiliza un UCP heredado (proceso de cliente unificado) con Transform para actualizar los registros existentes, actualice al proceso actual. El proceso actualizado genera directamente un archivo de búsqueda maestro para asignar los ID de visitante entre fuentes.
 * Estandarizar el flujo de datos para dar cabida al servicio de RGPD.
