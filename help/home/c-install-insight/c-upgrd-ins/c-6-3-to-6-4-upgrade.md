@@ -3,7 +3,10 @@ description: Siga estos pasos para actualizar a Área de trabajo de datos v6.4.
 title: Actualización de 6.3 a 6.4
 uuid: 2461c1ab-cf99-4fb5-b431-d7062df7a53d
 translation-type: tm+mt
-source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
+source-git-commit: 2930bd3ae06e700e75144221fc993efdd6bd1e85
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 0%
 
 ---
 
@@ -20,19 +23,19 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
 >
 >Se recomienda utilizar los archivos de configuración predeterminados recién instalados y personalizarlos, en lugar de mover archivos de una instalación anterior, con las siguientes excepciones:
 
-* **Agregar** procesos ****** excluidos para la protección de extremo de System Center de *MS en servidores* Windows 2012 para los siguientes ejecutables:
+* **Añadir** procesos ****** excluidos para la protección de extremo de System Center de *MS en servidores* Windows 2012 para los siguientes ejecutables:
 
    * **[!DNL InsightServer64.exe]**
    * **[!DNL ReportServer.exe]**
    * **[!DNL ExportIntegration.exe]**
-   Esto permitirá derechos de &quot;lista blanca&quot; para estos ejecutables de interfaz.
+   Esto habilitará los derechos de lista permitida para estos ejecutables de interfaz.
 
 * **Actualice el certificado *Trust_ca_cert.pem*en los servidores**.
-* **Reorganización de perfiles** de atribución.
+* **Reorganización de los Perfiles** de atribución.
 
    * Se cambió el nombre de la carpeta *Atribución* a ***Atribución - Premium*** (se encuentra en la instalación predeterminada en *Perfiles*\*Atribución - Premium*).
 
-   * Se eliminó el perfil de *Premium* y el espacio de trabajo se movió a la nueva carpeta ***Atribución - Premium*** .
+   * Se eliminó el perfil *Premium* y el espacio de trabajo se movió a la nueva carpeta ***Atribución - Premium*** .
 
 * **Actualice la configuración *de Atribución-Premium***. Si tiene perfiles personalizados con parámetros que anulan el perfil predeterminado de *Adobe SC* , deberá actualizar los campos personalizados en estos archivos de configuración:
 
@@ -113,7 +116,7 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
 
    1. Asigne &quot;SYSTEM&quot; como propietario de estas carpetas.
 
-* **Agregue fuentes al servidor de informes.** En el archivo **[!DNL ReportServer.cfg]***, agregue estas fuentes (para todos los idiomas):
+* **Añada las fuentes al servidor de informes.** En el archivo **[!DNL ReportServer.cfg]***, agregue estas fuentes (para todos los idiomas):
 
    ```
    Fonts = vector: 3 items 
@@ -131,7 +134,7 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
 
    Instale la nueva versión de la estación de trabajo (cliente) descargando e iniciando ***InsightSetup.exe*** y siguiendo las instrucciones de configuración. El asistente de configuración instalará los archivos en una nueva ubicación de forma predeterminada:
 
-   Los archivos de programa ahora se guardan de forma predeterminada en:
+   Los archivos Programa ahora se guardan de forma predeterminada en:
 
    ```
    C:\Program Files\Adobe\Adobe Analytics\Data Workbench
@@ -143,7 +146,7 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
    C:\Users\<username>\AppData\Local\Adobe\Adobe Analytics\Data Workbench\
    ```
 
-* **Agregue fuentes a la estación de trabajo**.
+* **Añada las fuentes a la estación de trabajo**.
 
    En el **[!DNL Insight.cfg]** archivo, agregue estas fuentes (para todos los idiomas):
 
