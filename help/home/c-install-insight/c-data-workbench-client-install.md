@@ -5,7 +5,10 @@ title: Requisitos de estación de trabajo
 topic: Data workbench
 uuid: 3c4ba2e8-efbc-45fe-8ac1-923d070bc710
 translation-type: tm+mt
-source-git-commit: 2e4991206394ca0c463210990ea44dfb700341a5
+source-git-commit: 2930bd3ae06e700e75144221fc993efdd6bd1e85
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -22,16 +25,16 @@ Consulte Requisitos [del sistema del](https://docs.adobe.com/help/en/data-workbe
 
 **Antes de empezar**
 
-Antes de instalar la estación de trabajo del área de trabajo de datos (cliente), asegúrese de que las tareas se han completado:
+Antes de instalar la estación de trabajo del área de trabajo de datos (cliente), asegúrese de que se han completado las siguientes tareas:
 
-* **Agregar** procesos ****** excluidos para la protección de extremo de System Center de *MS en servidores* Windows 2012 para los siguientes ejecutables:
+* **Añadir** procesos ****** excluidos para la protección de extremo de System Center de *MS en servidores* Windows 2012 para los siguientes ejecutables:
 
    * **[!DNL InsightServer64.exe]**
    * **[!DNL ReportServer.exe]**
    * **[!DNL ExportIntegration.exe]**
-   Esto permitirá derechos de &quot;lista blanca&quot; para estos ejecutables de interfaz.
+   Esto habilitará los derechos de lista permitida para estos ejecutables de interfaz.
 
-* **Instale Microsoft Excel para exportar datos de análisis.** Para exportar datos desde espacios de trabajo como archivos de Microsoft Excel ( [!DNL .xls] o [!DNL .xlsx]), el equipo en el que instale Área de trabajo de datos debe tener Excel instalado y registrado. Si no se ha registrado Excel y Área de trabajo de datos intenta acceder a él por primera vez, Excel muestra un cuadro de diálogo de registro. Si no está seguro de si la copia está registrada, inicie Excel manualmente y, si aparece un cuadro de diálogo de registro, complete el proceso de registro.
+* **Instale Microsoft Excel para exportar datos de análisis.** Para exportar datos desde espacios de trabajo como archivos de Microsoft Excel ( [!DNL .xls] o [!DNL .xlsx]), el equipo en el que instale Área de trabajo de datos debe tener Excel instalado y registrado. Si no se ha registrado Excel y Área de trabajo de datos intenta acceder a él por primera vez, Excel muestra un cuadro de diálogo de registro. Si no está seguro de si la copia está registrada, inicio Excel manualmente y si aparece un cuadro de diálogo de registro, complete el proceso de registro.
 
    >[!NOTE]
    >
@@ -40,7 +43,7 @@ Antes de instalar la estación de trabajo del área de trabajo de datos (cliente
 * **Instalación de Adobe[!DNL Acrobat]para imprimir espacios de trabajo escalados en PDF.** Para imprimir espacios de trabajo escalados en formato Adobe PDF, el equipo en el que haya instalado Área de trabajo de datos debe tener Adobe [!DNL Acrobat] instalado.
 
 * **Acceso a una impresora para imprimir espacios de trabajo.** Para imprimir espacios de trabajo desde Área de trabajo de datos, el equipo en el que instale Área de trabajo de datos debe tener acceso a una impresora. Área de trabajo de datos puede imprimir espacios de trabajo en impresoras en color o monocromas y no requiere postscript u otras características avanzadas de la impresora. Para obtener resultados óptimos, Adobe recomienda imprimir espacios de trabajo en color.
-* **Aplicar medidas de seguridad.** Debe seguir las directivas de seguridad empresarial normales de su empresa para equipos del área de trabajo de datos. Para cumplir sus objetivos principales, el Área de trabajo de datos sólo requiere la capacidad de conectarse a un servidor (a través de los puertos 80 y 443) y a cualquier servidor que recopile datos. Puede utilizar el hardware de Área de trabajo de datos para cualquier otro fin siempre que mantenga el software de Área de trabajo de datos y asigne al menos 10 GB de espacio de almacenamiento para Área de trabajo de datos.
+* **Aplicar medidas de seguridad.** Debe seguir las directivas de seguridad empresarial normales de su compañía para equipos del área de trabajo de datos. Para cumplir sus objetivos principales, el Área de trabajo de datos sólo requiere la capacidad de conectarse a un servidor (a través de los puertos 80 y 443) y a cualquier servidor que recopile datos. Puede utilizar el hardware de Área de trabajo de datos para cualquier otro fin siempre que mantenga el software de Área de trabajo de datos y asigne al menos 10 GB de espacio en almacenamiento para Área de trabajo de datos.
 * Para representar visualizaciones con precisión, el equipo en el que instale el área de trabajo debe tener instalado un adaptador **de** gráficos adecuado (consulte los requisitos del adaptador de gráficos más adelante).
 
 **Requisitos del cliente de Área de trabajo de datos**
@@ -84,7 +87,7 @@ Antes de instalar la estación de trabajo del área de trabajo de datos (cliente
 
 NTFS
 
-**Almacenamiento en disco**
+**Almacenamiento de discos**
 
 Al menos diez (10) GB o bueno espacio libre en la unidad de disco duro
 
@@ -95,6 +98,6 @@ Acceso a la impresora (impresoras de color o escala gris) para imprimir espacios
 **Otro**
 
 * Ratón dedicado
-* Entorno de trabajo de bajo brillo
+* entorno de trabajo de bajo brillo
 * Monitor con superficie mate
 
