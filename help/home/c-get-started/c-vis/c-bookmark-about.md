@@ -1,16 +1,19 @@
 ---
 description: Puede marcar espacios de trabajo significativos para moverse rápidamente entre visualizaciones e informes empleados en el flujo de trabajo.
 solution: Analytics
-title: Agregar marcadores
+title: Añadir marcadores
 topic: Data workbench
 uuid: 8b7fd6ac-9bab-4e7a-8f52-8568413052e8
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 2c1b2adfe8bf479c2a8cbd150ed006be2336022c
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
 
-# Agregar marcadores{#add-a-bookmarks}
+# Añadir marcadores{#add-a-bookmarks}
 
 Puede marcar espacios de trabajo significativos para moverse rápidamente entre visualizaciones e informes empleados en el flujo de trabajo.
 
@@ -18,7 +21,7 @@ Puede marcar espacios de trabajo significativos para moverse rápidamente entre 
 
    Antes de que tenga un espacio de trabajo marcado, este icono aparece como un libro. El icono de marcador cambia a un libro con una página marcada una vez que se ha marcado un espacio de trabajo.
 
-1. Haga clic en **[!UICONTROL Add]** > **[!UICONTROL Bookmarks Panel]** en el panel izquierdo para abrir una lista de marcadores.
+1. Haga clic **[!UICONTROL Add]** > **[!UICONTROL Bookmarks Panel]** en el panel izquierdo para abrir una lista de marcadores.
 
    ![](assets/bookmarks_panel.png)
 
@@ -32,13 +35,10 @@ Puede marcar espacios de trabajo significativos para moverse rápidamente entre 
 
 * En el panel Marcador, haga clic con el botón derecho y seleccione **[!UICONTROL Eliminar<bookmark title>]**para eliminar un marcador seleccionado o **[!UICONTROL Clear All Bookmarks]**para eliminar todos los marcadores.
 
-* También puede hacer clic con el botón derecho en el espacio de trabajo en la vista de miniaturas dentro de la superficie de trabajo y seleccionar **[!UICONTROL Clear Bookmark]**.
+* También puede hacer clic con el botón derecho en el espacio de trabajo de la vista en miniatura dentro de la superficie de trabajo y seleccionar **[!UICONTROL Clear Bookmark]**.
 
 >[!IMPORTANT]
 >
 >* Se pueden guardar 25 marcadores.
 >* Si agrega un marcador y luego mueve la ubicación del área de trabajo, el marcador no será válido y debe eliminarse del panel Marcador y restablecerse.
->
-
-
 
