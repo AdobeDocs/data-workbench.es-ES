@@ -1,16 +1,19 @@
 ---
 description: Las métricas se pueden editar con el Editor de métricas y guardar en el directorio Métricas de un perfil.
 solution: Analytics
-title: Sintaxis para expresiones de métricas
+title: Sintaxis de las expresiones de métricas
 topic: Data workbench
 uuid: 801e265d-d7e4-4f0f-9698-d0b50dd00995
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: a276b16565634fea9b693206c8a55b528fada977
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 1%
 
 ---
 
 
-# Sintaxis para expresiones de métricas{#syntax-for-metric-expressions}
+# Sintaxis de las expresiones de métricas{#syntax-for-metric-expressions}
 
 Las métricas se pueden editar con el Editor de métricas y guardar en el directorio Métricas de un perfil.
 
@@ -19,10 +22,10 @@ Para obtener más información, consulte [Creación y edición de métricas deri
 Notas:
 
 1. Las palabras subrayadas deben escribirse literalmente en el texto de la expresión.
-1. ¿El formulario {TEXT}? representa texto opcional.
-1. El formulario {TEXT}* representa texto que puede aparecer cero o más veces.
-1. El formulario {A}| B| C|..} representa el texto que consta exactamente de una de las opciones dadas, como A, B o C....
-1. El formulario [A,B] representa un rango de números, desde A hasta B, pero no incluido.
+1. El formulario `{TEXT}?` representa texto opcional.
+1. El formulario `{TEXT}*` representa texto que puede aparecer cero o más veces.
+1. El formulario `{A | B | C |...}` representa texto que consta exactamente de una de las opciones dadas, como A, B o C....
+1. El formulario `[A,B)` representa un rango de números, desde A hasta B, pero no incluido.
 
 <table id="table_A6CA9C9F396448209398AA2A369E63FA"> 
  <tbody> 
@@ -75,8 +78,8 @@ Notas:
    <td colname="col2"> <p>"Métrica donde filtro": Una nueva métrica filtrada por el filtro dado. </p> <p>Ejemplo: Jan_Sessions = Sesiones[ Month="Jan" ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Métrica por dimensión </p> </td> 
-   <td colname="col2"> <p>Una métrica evaluada en el "nivel" de la dimensión. El resultado de (M por X)[F] (el resultado de la métrica "M por X" evaluada con el filtro "F") es el resultado de M[F por X] (el resultado de la métrica "M" evaluada con el filtro "F por X"). </p> <p>Ejemplo: AB_Visitors = </p> <p>(Visitantes por sesión)[Página="A" y Página="B"] = </p> <p>Visitantes[(Página="A" y Página="B") por sesión] = </p> <p>El número de visitantes que visitaron la página A y la página B en la misma sesión. </p> </td> 
+   <td colname="col1"> <p>Métrica por Dimension </p> </td> 
+   <td colname="col2"> <p>Una métrica evaluada en el "nivel" de la dimensión. El resultado de (M por X)[F] (el resultado de la métrica "M por X" evaluada con el filtro "F") es el resultado de M[F por X] (el resultado de la métrica "M" evaluada con el filtro "F por X"). </p> <p>Ejemplo: AB_Visitantes = </p> <p>(Visitantes por sesión)[Página="A" y Página="B"] = </p> <p>Visitantes[(Página="A" y Página="B") por sesión] = </p> <p>El número de Visitantes que visitaron la página A y la página B en la misma sesión. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>entero </p> </td> 
@@ -84,7 +87,7 @@ Notas:
   </tr> 
   <tr> 
    <td colname="col1"> <p>total(Métrica) </p> </td> 
-   <td colname="col2"> <p>Omite cualquier dimensión sobre la cual se evalúe la métrica. La métrica tiene el mismo valor para cada elemento de esa dimensión. </p> <p>Ejemplo: Pct_of_Visitors = Visitantes / total (Visitantes) </p> </td> 
+   <td colname="col2"> <p>Omite cualquier dimensión sobre la cual se evalúe la métrica. La métrica tiene el mismo valor para cada elemento de esa dimensión. </p> <p>Ejemplo: Pct_of_Visitantes = Visitantes / total(Visitantes) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>all(Métrica) </p> </td> 
@@ -92,11 +95,11 @@ Notas:
   </tr> 
   <tr> 
    <td colname="col1"> <p>total(todas(métricas)) </p> </td> 
-   <td colname="col2"> <p>Omite todos los filtros y dimensiones. Tiene el mismo valor en un perfil determinado independientemente de los filtros o dimensiones que se apliquen. </p> <p>Ejemplo: Dataset_Visitors = total(todos(visitantes)) </p> </td> 
+   <td colname="col2"> <p>Omite todos los filtros y dimensiones. Tiene el mismo valor a lo largo de un determinado perfil, independientemente de los filtros o dimensiones que se apliquen. </p> <p>Ejemplo: Dataset_Visitantes = total(todos(Visitantes)) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>sum(One,Countable_Dimension) </p> </td> 
-   <td colname="col2"> <p>Métrica que proporciona el recuento de una dimensión contable como Visitante o Sesión. </p> <p>Ejemplo: Visitantes = suma(Uno,Visitante) </p> </td> 
+   <td colname="col2"> <p>Métrica que proporciona el recuento de una dimensión contable, como Visitante o Sesión. </p> <p>Ejemplo: Visitantes = sum(Uno,Visitante) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>sum(Numeric_ Dimension, Countable_ Dimension) </p> </td> 
