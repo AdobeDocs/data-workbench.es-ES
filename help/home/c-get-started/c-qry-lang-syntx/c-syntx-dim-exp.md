@@ -1,24 +1,27 @@
 ---
-description: Las expresiones de dimensión nunca se utilizan solas, sino que se pueden utilizar en cualquier lugar en el que se llame a una dimensión en una métrica o expresión de filtro.
+description: Las expresiones de Dimension nunca se utilizan solas, sino que se pueden utilizar en cualquier lugar donde se llame a una dimensión en una métrica o expresión de filtro.
 solution: Analytics
 title: Sintaxis para expresiones de dimensión
 topic: Data workbench
 uuid: c437cc52-4eb3-4202-a0b4-e23889f9c8a2
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: a276b16565634fea9b693206c8a55b528fada977
+workflow-type: tm+mt
+source-wordcount: '1855'
+ht-degree: 0%
 
 ---
 
 
 # Sintaxis para expresiones de dimensión{#syntax-for-dimension-expressions}
 
-Las expresiones de dimensión nunca se utilizan solas, sino que se pueden utilizar en cualquier lugar en el que se llame a una dimensión en una métrica o expresión de filtro.
+Las expresiones de Dimension nunca se utilizan solas, sino que se pueden utilizar en cualquier lugar donde se llame a una dimensión en una métrica o expresión de filtro.
 
 1. Las palabras subrayadas deben escribirse literalmente en el texto de la expresión.
-1. ¿El formulario {TEXT}? representa texto opcional.
-1. El formulario {TEXT}* representa texto que puede aparecer cero o más veces.
-1. El formulario {A}| B| C|..} representa el texto que consta exactamente de una de las opciones dadas, como A, B o C....
-1. El formulario [A,B] representa un rango de números, desde A hasta B, pero no incluido.
+1. El formulario `{TEXT}?` representa texto opcional.
+1. El formulario `{TEXT}*` representa texto que puede aparecer cero o más veces.
+1. El formulario `{A | B | C |...}` representa texto que consta exactamente de una de las opciones dadas, como A, B o C....
+1. El formulario `[A,B)` representa un rango de números, desde A hasta B, pero no incluido.
 
 <table id="table_2D9AE1E2397843C284E838330370A1EE"> 
  <tbody> 
@@ -28,15 +31,15 @@ Las expresiones de dimensión nunca se utilizan solas, sino que se pueden utiliz
   </tr> 
   <tr> 
    <td colname="col1"> <p>(Dimensión) </p> </td> 
-   <td colname="col2"> <p>El resultado de (Dimensión) es el mismo que el resultado de Dimensión. Los paréntesis especifican el orden de las operaciones en una expresión. </p> <p>Ejemplo: Sesiones[ (página) = "/inicio" ] es el número de Sesiones que visitan la página "/inicio". </p> </td> 
+   <td colname="col2"> <p>El resultado de (Dimension) es el mismo que el resultado del Dimension. Los paréntesis especifican el orden de las operaciones en una expresión. </p> <p>Ejemplo: Sesiones[ (página) = "/inicio" ] es el número de Sesiones que visitan la página "/inicio". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atenuar por nivel </p> </td> 
-   <td colname="col2"> <p>Define una dimensión que tiene los mismos elementos que la dimensión Dim, pero que se relaciona con otras dimensiones a través del nivel de dimensión. </p> <p>Concretamente, un elemento de la nueva dimensión se refiere a los mismos elementos de nivel que el mismo elemento de Dim y se refiere a los elementos de cualquier otra dimensión que se relacionen con cualquiera de esos elementos de nivel. </p> <p>Ejemplo: Sesiones[ (página por visitante)="/inicio" ] es el número de Sesiones de visitantes que visitaron la página "/inicio". </p> </td> 
+   <td colname="col2"> <p>Define una dimensión que tiene los mismos elementos que la dimensión Dim, pero que se relaciona con otras dimensiones a través del nivel de dimensión. </p> <p>Concretamente, un elemento de la nueva dimensión se refiere a los mismos elementos de nivel que el mismo elemento de Dim y se refiere a los elementos de cualquier otra dimensión que se relacionen con cualquiera de esos elementos de nivel. </p> <p>Ejemplo: Sesiones[ (página por Visitante)="/inicio" ] es el número de Sesiones de Visitantes que visitaron la página "/inicio". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>shift(Dim,Level,Group,N) </p> </td> 
-   <td colname="col2"> <p>Define una dimensión que tiene los mismos elementos que la dimensión Dim. El elemento eth del nivel de dimensión se refiere al mismo elemento de la nueva dimensión que el elemento Dim relacionado con el elemento e+Nth del nivel, siempre que los elementos eth y e+Nth del nivel se refieran al mismo elemento del grupo de dimensiones. </p> <p>Ejemplo: Page_Views[ shift(Page, Page_View, Session, 1)="/home" ] es el número de vistas de página para las que la siguiente página vista en la misma sesión es "/home". </p> </td> 
+   <td colname="col2"> <p>Define una dimensión que tiene los mismos elementos que la dimensión Dim. El elemento eth del nivel de dimensión se refiere al mismo elemento de la nueva dimensión que el elemento Dim relacionado con el elemento e+Nth del nivel, siempre que los elementos eth y e+Nth del nivel se refieran al mismo elemento del grupo de dimensiones. </p> <p>Ejemplo: Page_Vistas[ shift(Page, Page_Vista, Session, 1)="/home" ] es el número de Vistas de página para las que la siguiente página vista en la misma sesión es "/home". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>next(Dim,Level,Group,N) </p> </td> 
@@ -44,11 +47,11 @@ Las expresiones de dimensión nunca se utilizan solas, sino que se pueden utiliz
   </tr> 
   <tr> 
    <td colname="col1"> <p>segment(Level {,String-&gt;Filter}*) </p> </td> 
-   <td colname="col2"> <p> Define una dimensión que clasifica los elementos de Nivel en función de una lista de filtros. Los elementos de la nueva dimensión son las cadenas dadas como argumentos. Cada elemento de Nivel se relaciona con el primer elemento de la dimensión de segmento cuyo filtro admite el elemento de Nivel. Es similar a la visualización de segmentos. </p> <p>Ejemplo: segment(Visitante, "Visitantes únicos" -&gt; Visitor_Sessions = 1, "Visitantes muy fieles" -&gt; Visitor_Sessions &gt; 10, "Todos los demás" -&gt; True) crea una dimensión que clasifica a los visitantes en tres grupos: los visitantes únicos son aquellos con una sola sesión, los visitantes fieles son aquellos con más de diez sesiones y todos los demás visitantes tienen el valor de "Visitantes únicos" Todos Los Demás". </p> </td> 
+   <td colname="col2"> <p> Define una dimensión que clasifica los elementos de Nivel en función de una lista de filtros. Los elementos de la nueva dimensión son las cadenas dadas como argumentos. Cada elemento de Nivel se relaciona con el primer elemento de la dimensión de segmento cuyo filtro admite el elemento de Nivel. Es similar a la visualización de segmentos. </p> <p>Ejemplo: segment(Visitante, "Visitantes únicos" -&gt; Visitante_Sessions = 1, "Visitantes muy fieles" -&gt; Visitante_Sessions &gt; 10, "Todos los demás" -&gt; True) crea una dimensión que clasifica los Visitantes en tres grupos: los Visitantes únicos son los que tienen una sola sesión, los Visitantes muy fieles son los que tienen más de diez sesiones y todos los demás Visitante tienen el valor "solo" Todos Los Demás". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>bucket(Level, Metric, Count, Format {, Start {, Size}? }?) </p> </td> 
-   <td colname="col2"> <p>Define una dimensión cuyos elementos son rangos de números (de tamaño fijo, por ejemplo: [0-9], [10-19],...). Los elementos de Nivel se relacionan con el elemento del dim del bloque cuyo rango contiene el valor de Métrica para ese elemento de nivel. Formato es la cadena de formato printf que se utiliza para dar formato a los elementos de Métrica. </p> <p>Ejemplo: Si Page_Duration_Minutes es una dimensión de nivel de vista de página que representa el número de minutos empleados en cada página, luego bucket(Session, sum(Page_Duration_Minutes, Page_View), 100, "%0.0f minutos", 0, 5) es una dimensión de nivel de sesión que representa el número de minutos empleados en cada sesión; sus elementos son intervalos de 5 minutos {[0-5), [5-10),...,[495-500)}. </p> <p>Start es el valor inicial del primer intervalo (predeterminado: 0) y Tamaño es el tamaño del intervalo (predeterminado: 1). </p> </td> 
+   <td colname="col1"> <p>bucket(Level, Metric, Count, Format {, Inicio {, Size}? }?) </p> </td> 
+   <td colname="col2"> <p>Define una dimensión cuyos elementos son rangos de números (de tamaño fijo, por ejemplo: [0-9], [10-19],...). Los elementos de Nivel se relacionan con el elemento del dim del bloque cuyo rango contiene el valor de Métrica para ese elemento de nivel. Formato es la cadena de formato printf que se utiliza para dar formato a los elementos de Métrica. </p> <p>Ejemplo: Si Page_Duration_Minutes es una dimensión de nivel de Vista de página que representa el número de minutos empleados en cada página, luego bucket(Session, sum(Page_Duration_Minutes, Page_Vista), 100, "%0.0f minutos", 0, 5) es una dimensión de nivel de sesión que representa el número de minutos empleados en cada sesión; sus elementos son intervalos de 5 minutos <code>{[0-5), [5-10),...,[495-500)}</code>. </p> <p>Inicio es el valor inicial del primer intervalo (predeterminado: 0) y Tamaño es el tamaño del intervalo (predeterminado: 1). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prefix(Level {,ElementName-&gt;(Prefix{,Prefix}* )}* ) </p> </td> 
@@ -56,15 +59,15 @@ Las expresiones de dimensión nunca se utilizan solas, sino que se pueden utiliz
   </tr> 
   <tr> 
    <td colname="col1"> <p>latency(Level, Clip, Dim, Filter, MaxBefore, MaxAfter, FormatString) </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../../home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/t-create-ltncy-dims.md#task-6d46ea8c89a047318d9c71bf105ef64a"> Creación de dimensiones de latencia </a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="../../../home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/t-create-ltncy-dims.md#task-6d46ea8c89a047318d9c71bf105ef64a"> Creación de Dimension de latencia </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cartsian_product(Separator {,Dim}*) </p> </td> 
-   <td colname="col2"> <p>Define una dimensión cuyos elementos son todas las combinaciones ("el producto cartesiano") de los elementos de las dimensiones dadas. El nombre de cada elemento está hecho a partir de la concatenación de los elementos correspondientes en las dimensiones de entrada, separados por la cadena de separador dada. </p> <p>Por ejemplo, si la dimensión D1 tiene elementos {"a", "b"} y la dimensión D2 tiene los elementos {"x", "y"}, entonces product("-", D1, D2) tiene los elementos {"a-x", "a-y", "b-x", "b-y"}. </p> <p>Tenga en cuenta que, internamente, cada una de las dimensiones de entrada se trata como si el número de sus elementos fuera la siguiente potencia superior de dos. Esto hace que el producto cartesiano tenga algunos elementos ficticios. Al utilizar la API de Área de trabajo de datos, según el formato de salida, estos elementos pueden omitirse o mostrarse como "#nnn", donde nnn es el ordinal del elemento (y el cliente debe ignorarlo). </p> <p>Por ejemplo, en el ejemplo anterior, si D2 tuviera los tres elementos {"x", "y", "z"}, se trataría como si tuviera cuatro elementos y el producto cartesiano tendría los elementos {"a-x", "a-y", "a-z", "#3", "b-x", "b-y", "b-z", "#7"}. </p> <p>Si no se dan dimensiones, el resultado es una dimensión con un elemento, "#0", que equivale a la dimensión Ninguno. </p> </td> 
+   <td colname="col2"> <p>Define una dimensión cuyos elementos son todas las combinaciones ("el producto cartesiano") de los elementos de las dimensiones dadas. El nombre de cada elemento está hecho a partir de la concatenación de los elementos correspondientes en las dimensiones de entrada, separados por la cadena de separador dada. </p> <p>Por ejemplo, si la dimensión D1 tiene elementos {"a", "b"} y la dimensión D2 tiene los elementos {"x", "y"}, entonces product("-", D1, D2) tiene los elementos {"a-x", "a-y", "b-x", "b-y"}. </p> <p>Tenga en cuenta que, internamente, cada una de las dimensiones de entrada se trata como si el número de sus elementos fuera la siguiente potencia superior de dos. Esto hace que el producto cartesiano tenga algunos elementos ficticios. Al utilizar la API de Data Workbench, según el formato de salida, estos elementos pueden omitirse o mostrarse como "#nnn", donde nnn es el ordinal del elemento (y el cliente debe ignorarlo). </p> <p>Por ejemplo, en el ejemplo anterior, si D2 tuviera los tres elementos {"x", "y", "z"}, se trataría como si tuviera cuatro elementos y el producto cartesiano tendría los elementos {"a-x", "a-y", "a-z", "#3", "b-x", "b-y", "b-z", "#7"}. </p> <p>Si no se dan dimensiones, el resultado es una dimensión con un elemento, "#0", que equivale a la dimensión Ninguno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>most_countable(Dim) </p> </td> 
-   <td colname="col2"> <p>Se refiere a una dimensión ya existente: el antecesor contable más cercano de Dim en el esquema. Por ejemplo, el contador (URI) más cercano es idéntico a Page_View. </p> </td> 
+   <td colname="col2"> <p>Se refiere a una dimensión ya existente: el antecesor contable más cercano de Dim en el esquema. Por ejemplo, el contador (URI) más cercano es idéntico a Page_Vista. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>normalized(Dim,Count) </p> </td> 
