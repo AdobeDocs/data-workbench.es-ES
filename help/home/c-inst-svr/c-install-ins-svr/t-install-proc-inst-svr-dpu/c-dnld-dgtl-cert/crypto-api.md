@@ -3,7 +3,10 @@ description: El almacén de certificados de Windows le permite almacenar el cert
 title: Almacén de certificados de Windows
 uuid: a8021295-375a-460b-8686-acf3bc43cd17
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: a766b64ef809e2223fed869d8d63b75f270a3d39
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ Al [usar certificados](../../../../../home/c-inst-svr/c-install-ins-svr/t-instal
 </filepath>>\Certificates\
 ```
 
-El nombre del certificado es `<Common Name>.pem` (por ejemplo, [!DNL Analytics Server 1.pem](no el [!DNL trust_ca_cert.pem] archivo).
+El nombre del certificado es `<Common Name>.pem` (por ejemplo, [!DNL Analytics Server 1.pem] (no el [!DNL trust_ca_cert.pem] archivo).
 
 Para poder importar el certificado y la clave privada, deben convertirse desde . [!DNL pem] a un [!DNL .pfx] formato, como [!DNL pkcs12.pfx] ).
 
@@ -58,12 +61,12 @@ Para poder importar el certificado y la clave privada, deben convertirse desde .
 
    Si se le solicita, pulse **Intro** para omitir la introducción de una contraseña de exportación.
 
-1. Ejecute [!DNL certmgr.msc] desde el símbolo del sistema, el menú de inicio o la línea de comandos.
+1. Ejecute [!DNL certmgr.msc] desde la línea de comandos, el menú de inicio o el símbolo del sistema.
 1. Abra el almacén de certificados **personales** para el usuario actual.
 
    ![](assets/6_5_crypto_api_0.png)
 
-1. Haga clic con el botón secundario en **Certificados** y, a continuación, haga clic en **Todas las tareas** > **Importar**.
+1. Haga clic con el botón secundario en **Certificados** y, a continuación, haga clic en **Todas las Tareas** > **Importar**.
 
    Asegúrese de que la opción Usuario **** actual está seleccionada y haga clic en **Siguiente**.
 
@@ -89,12 +92,12 @@ Para poder importar el certificado y la clave privada, deben convertirse desde .
 
 **Paso 2: Edite el archivo Insight.cfg.**
 
-El [!DNL Insight.cfg] archivo debe editarse para dirigir el Área de trabajo de datos a fin de utilizar la función Almacén de certificados de Windows. Cada entrada de servidor de este archivo debe tener algunos parámetros adicionales especificados. Si se omiten los parámetros, la estación de trabajo utilizará de forma predeterminada la configuración de certificado existente. Si los parámetros están especificados pero tienen valores incorrectos, la estación de trabajo introducirá un estado de error y deberá consultar el archivo de registro para obtener información sobre el error.
+El [!DNL Insight.cfg] archivo debe editarse para dirigir la Data Workbench a la función Almacén de certificados de Windows. Cada entrada de servidor de este archivo debe tener algunos parámetros adicionales especificados. Si se omiten los parámetros, la estación de trabajo utilizará de forma predeterminada la configuración de certificado existente. Si los parámetros están especificados pero tienen valores incorrectos, la estación de trabajo introducirá un estado de error y deberá consultar el archivo de registro para obtener información sobre el error.
 
 1. Abra el archivo **Insight.cfg** (ubicado en el directorio de instalación de **Insight** ).
 
 1. Desplácese hacia abajo hasta la entrada de servidor que desee configurar. Si desea utilizar el almacén de certificados de Windows para cada servidor, debe realizar estas modificaciones en cada entrada del vector de [!DNL serverInfo] objetos.
-1. Agregue estos parámetros a su [!DNL Insight.cfg] archivo. Puede hacerlo desde la estación de trabajo o manualmente agregando los siguientes parámetros al [!DNL serverInfo] objeto. (Asegúrese de utilizar espacios en lugar de caracteres de tabulación y no cometa otros errores tipográficos o de sintaxis en este archivo. )
+1. Añada estos parámetros a su [!DNL Insight.cfg] archivo. Puede hacerlo desde la estación de trabajo o manualmente agregando los siguientes parámetros al [!DNL serverInfo] objeto. (Asegúrese de utilizar espacios en lugar de caracteres de tabulación y no cometa otros errores tipográficos o de sintaxis en este archivo. )
 
    ```
    SSL Use CryptoAPI = bool: true  
@@ -109,11 +112,11 @@ El [!DNL Insight.cfg] archivo debe editarse para dirigir el Área de trabajo de 
    >
    >El nombre &quot;Personal&quot; en el Administrador de certificados (certmgr.msc) hace referencia al almacén de certificados denominado **My.** En consecuencia, si importa el certificado de comunicación SSL y la clave (.PFX) en el almacén de certificados **personales** como se recomienda, debe establecer la cadena **SSL CryptoAPI Cert Store Name** en &quot;My&quot;. No funcionará establecer este parámetro en &quot;Personal&quot;. Es una característica del almacén de certificados de Windows.
 
-   Puede obtener una lista completa de los almacenes de sistemas predefinidos aquí: [https://msdn.microsoft.com/en-us/library/windows/desktop/aa388136(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa388136%28v=vs.85%29.aspx). Es posible que el sistema tenga almacenes de certificados adicionales. Si desea utilizar una tienda que no sea &quot;Personal&quot; (como **Mi**), debe obtener el nombre canónico del almacén de certificados y proporcionarlo en el [!DNL Insight.cfg] archivo. (El nombre del almacén de sistemas &quot;Mi&quot; se denomina incoherentemente &quot;Mi&quot; y &quot;MI&quot; en la documentación de Windows. El parámetro no parece distinguir entre mayúsculas y minúsculas).
+   Aquí puede obtener una lista completa de los almacenes de sistemas predefinidos: [https://msdn.microsoft.com/en-us/library/windows/desktop/aa388136(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa388136%28v=vs.85%29.aspx). Es posible que el sistema tenga almacenes de certificados adicionales. Si desea utilizar una tienda que no sea &quot;Personal&quot; (como **Mi**), debe obtener el nombre canónico del almacén de certificados y proporcionarlo en el [!DNL Insight.cfg] archivo. (El nombre del almacén de sistemas &quot;Mi&quot; se denomina incoherentemente &quot;Mi&quot; y &quot;MI&quot; en la documentación de Windows. El parámetro no parece distinguir entre mayúsculas y minúsculas).
 
 1. Después de agregar estos parámetros y comprobar que los valores coinciden con la lista en el Administrador de certificados de Windows, guarde el [!DNL Insight.cfg] archivo.
 
-Ahora puede iniciar la estación de trabajo (o desconectar/volver a conectar con el servidor). El Área de trabajo de datos debe cargar el certificado y la clave desde el almacén de certificados y conectarse normalmente.
+Ahora puede realizar el inicio en la estación de trabajo (o desconectar/reconectar con el servidor). La Data Workbench debe cargar el certificado y la clave desde el almacén de certificados y conectarse normalmente.
 
 ## Salida de registro {#section-a7ef8c9e90ef4bbabaa3cd51a2aca3ab}
 
