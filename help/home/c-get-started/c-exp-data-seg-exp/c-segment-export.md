@@ -3,7 +3,10 @@ description: Cree encabezados de exportación de columnas personalizados para lo
 title: Exportación de segmentos con encabezados personalizados
 uuid: 186e7868-13b2-42e1-b83f-5a752ee9b407
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 8f5c69541bdd97aefbad3840f75f06846615f222
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 4%
 
 ---
 
@@ -39,11 +42,11 @@ Puede crear encabezados de columna para los archivos de exportación.
 
    Se abrirá una ventana de exportación.
 
-1. Haga clic con el botón secundario en el nombre de exportación y haga clic en **[!UICONTROL Guardar como<export filename>]**.
+1. Haga clic con el botón secundario en el nombre de exportación y haga clic en **Guardar como`<export filename>`**.
 
    ![](assets/segment_export_headers_7.png)
 
-1. Haga clic con el botón secundario [!DNL Admin] > [!DNL Profile Manager] > [!DNL Expand Export]. Busque el archivo de exportación que acaba de crear y guárdelo en un perfil existente.
+1. Right-click [!DNL Admin] > [!DNL Profile Manager] > [!DNL Expand Export]. Busque el archivo de exportación que acaba de crear y guárdelo en un perfil existente.
 
    ![](assets/segment_export_headers_8.png)
 
