@@ -1,15 +1,18 @@
 ---
 description: Instrucciones para configurar comunicaciones para Insight Server o Repeater.
 solution: Insight
-title: Configuración de comunicaciones
+title: Configuración de ajustes de comunicaciones
 uuid: 03297cf0-eb55-4db0-b692-eba24fcf947c
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 2ed16fa0d447426c4de863e502792bfb292765cc
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 5%
 
 ---
 
 
-# Configuración de comunicaciones{#communications-configuration-settings}
+# Configuración de ajustes de comunicaciones{#communications-configuration-settings}
 
 Instrucciones para configurar comunicaciones para Insight Server o Repeater.
 
@@ -30,12 +33,12 @@ Complete los parámetros del siguiente archivo:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Archivo de control de acceso </td> 
-   <td colname="col2"> <p>Ubicación del <span class="filepath"> archivo Control.cfg </span> . La ubicación predeterminada es la <span class="filepath"> carpeta Control de acceso </span> dentro del directorio de instalación de <span class="keyword"> Insight Server </span> o <span class="wintitle"> Repeater </span> . </p> <p>Ejemplo: <filepath></filepath> </p> </td> 
+   <td colname="col1"> Archivo control de acceso </td> 
+   <td colname="col2"> <p>Ubicación del <span class="filepath"> archivo Control de acceso.cfg </span> . La ubicación predeterminada es la <span class="filepath"> carpeta Control de acceso </span> del directorio de instalación de <span class="keyword"> Insight Server </span> o <span class="wintitle"> Repeater </span> . </p> <p>Ejemplo: <filepath></filepath> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Directorio de registro de acceso </td> 
-   <td colname="col2"> <p>Carpeta a la que desea asignar los registros de auditoría. </p> <p>Ejemplo: <filepath></filepath> </p> <p> <p>Nota:  Puede asignar registros de auditoría a otra unidad local (ejemplo: <span class="filepath"> cadena: P:\\Audit\\ </span>), pero no asigne registros de auditoría a una unidad de red. </p> </p> </td> 
+   <td colname="col2"> <p>Carpeta a la que desea asignar los registros de auditoría. </p> <p>Ejemplo: <filepath></filepath> </p> <p> <p>Nota:  Puede asignar registros de auditoría a otra unidad local (ejemplo: <span class="filepath"> string: P:\\Audit\\ </span>), pero no asigne registros de auditoría a una unidad de red. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registro de acceso detallado </td> 
@@ -51,7 +54,7 @@ Complete los parámetros del siguiente archivo:
   </tr> 
   <tr> 
    <td colname="col1"> Cifrados SSL </td> 
-   <td colname="col2"> Algunos entornos requieren una mayor seguridad de las comunicaciones que otros. Si desea utilizar un grupo de cifrado SSL específico, puede especificarlo con este parámetro. <p>Ejemplo: <filepath></filepath> </p> </td> 
+   <td colname="col2"> Algunos entornos requieren una mayor seguridad de la comunicación que otros. Si desea utilizar un grupo de cifrado SSL específico, puede especificarlo con este parámetro. <p>Ejemplo: <filepath></filepath> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Puerto SSL </td> 
@@ -74,7 +77,7 @@ Complete los parámetros del siguiente archivo:
   <tr> 
    <td colname="col1"> <p> <i>n=</i>FileServer: </p> <p> Ruta local = cadena: Auditoría\\ </p> </td> 
    <td colname="col2"> <p>Carpeta a la que desea asignar los registros de auditoría. </p> <p>Ejemplo: </p> <code> 5&nbsp;=&nbsp;FileServer:&nbsp; 
-     &nbsp;&nbsp;Local&nbsp;Path&nbsp;=&nbsp;string:&nbsp;Audit\\ </code> <p>Nota:  <p>Puede asignar registros de auditoría a otra unidad local (ejemplo: <span class="filepath"> cadena: P:\\Audit\\ </span>), pero no asigne registros de auditoría a una unidad de red. </p> <p>Para poder acceder a esta carpeta desde el Administrador de archivos del <span class="wintitle"> servidor </span>, la ubicación especificada en este parámetro debe coincidir con la ubicación que se encuentra en el parámetro Directorio de registros de acceso de este archivo. </p> </p> </td> 
+     &nbsp;&nbsp;Local&nbsp;Path&nbsp;=&nbsp;string:&nbsp;Audit\\ </code> <p>Nota:  <p>Puede asignar registros de auditoría a otra unidad local (ejemplo: <span class="filepath"> string: P:\\Audit\\ </span>), pero no asigne registros de auditoría a una unidad de red. </p> <p>Para poder acceder a esta carpeta desde el Administrador de archivos del <span class="wintitle"> servidor </span>, la ubicación especificada en este parámetro debe coincidir con la ubicación que se encuentra en el parámetro Directorio de registros de acceso de este archivo. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>n=</i>NormalizeServer: </td> 
@@ -82,8 +85,7 @@ Complete los parámetros del siguiente archivo:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <i>n=</i>ReportStatusServer: </p> <p> URI = string: /ReportStatus.vsp </p> </td> 
-   <td colname="col2"> <p>Este parámetro solo se aplica a <span class="keyword"> Insight Server </span>. </p> <p>Permite ver el estado <span class="keyword"> del </span> informe en la interfaz Estado detallado para <span class="keyword"> Insight Server </span>. </p> </td> 
+   <td colname="col2"> <p>Este parámetro solo se aplica a <span class="keyword"> Insight Server </span>. </p> <p>Le permite vista del <span class="keyword"> estado del </span> informe en la interfaz Estado detallado para <span class="keyword"> Insight Server </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
