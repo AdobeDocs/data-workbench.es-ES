@@ -4,9 +4,9 @@ solution: Insight
 title: Configuración de ajustes de comunicaciones
 uuid: 03297cf0-eb55-4db0-b692-eba24fcf947c
 translation-type: tm+mt
-source-git-commit: 2ed16fa0d447426c4de863e502792bfb292765cc
+source-git-commit: 638eca495223fc9d5326bf9462a9c289d6fe2d9e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '508'
 ht-degree: 5%
 
 ---
@@ -34,11 +34,11 @@ Complete los parámetros del siguiente archivo:
  <tbody> 
   <tr> 
    <td colname="col1"> Archivo control de acceso </td> 
-   <td colname="col2"> <p>Ubicación del <span class="filepath"> archivo Control de acceso.cfg </span> . La ubicación predeterminada es la <span class="filepath"> carpeta Control de acceso </span> del directorio de instalación de <span class="keyword"> Insight Server </span> o <span class="wintitle"> Repeater </span> . </p> <p>Ejemplo: <filepath></filepath> </p> </td> 
+   <td colname="col2"> <p>Ubicación del <span class="filepath"> archivo Control de acceso.cfg </span> . La ubicación predeterminada es la <span class="filepath"> carpeta Control de acceso </span> del directorio de instalación de <span class="keyword"> Insight Server </span> o <span class="wintitle"> Repeater </span> . </p> <p>Ejemplo: <code>Access Control File = Path: Access Control\\Access Control.cfg</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Directorio de registro de acceso </td> 
-   <td colname="col2"> <p>Carpeta a la que desea asignar los registros de auditoría. </p> <p>Ejemplo: <filepath></filepath> </p> <p> <p>Nota:  Puede asignar registros de auditoría a otra unidad local (ejemplo: <span class="filepath"> string: P:\\Audit\\ </span>), pero no asigne registros de auditoría a una unidad de red. </p> </p> </td> 
+   <td colname="col2"> <p>Carpeta a la que desea asignar los registros de auditoría. </p> <p>Ejemplo: <code>Access Log Directory = string: Audit\\</code> </p> <p> <p>Nota:  Puede asignar registros de auditoría a otra unidad local (ejemplo: <span class="filepath"> string: P:\\Audit\\ </span>), pero no asigne registros de auditoría a una unidad de red. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registro de acceso detallado </td> 
@@ -46,19 +46,19 @@ Complete los parámetros del siguiente archivo:
   </tr> 
   <tr> 
    <td colname="col1"> Interfaz IP </td> 
-   <td colname="col2"> <p>Dirección IP que se utilizará cuando haya dos tarjetas de red disponibles para acceder a dos redes diferentes. </p> <p>Ejemplo: I <filepath></filepath><i>&lt; <span class="filepath"> Dirección IP </span>&gt;</i> </p> </td> 
+   <td colname="col2"> <p>Dirección IP que se utilizará cuando haya dos tarjetas de red disponibles para acceder a dos redes diferentes. </p> <p>Ejemplo: <code>IP Interface = string: &lt; IP Address &gt;</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Puerto </td> 
-   <td colname="col2"> <p>Puerto no seguro (HTTP) en el que escucha <span class="keyword"> Insight Server </span> o <span class="wintitle"> Repeater </span> . El puerto predeterminado es 80. Si se introduce un valor de 0, se desactivan las conexiones no seguras. </p> <p>Ejemplo: <filepath></filepath> </p> </td> 
+   <td colname="col2"> <p>Puerto no seguro (HTTP) en el que escucha <span class="keyword"> Insight Server </span> o <span class="wintitle"> Repeater </span> . El puerto predeterminado es 80. Si se introduce un valor de 0, se desactivan las conexiones no seguras. </p> <p>Ejemplo: <code>Port = int: 80</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cifrados SSL </td> 
-   <td colname="col2"> Algunos entornos requieren una mayor seguridad de la comunicación que otros. Si desea utilizar un grupo de cifrado SSL específico, puede especificarlo con este parámetro. <p>Ejemplo: <filepath></filepath> </p> </td> 
+   <td colname="col2"> Algunos entornos requieren una mayor seguridad de la comunicación que otros. Si desea utilizar un grupo de cifrado SSL específico, puede especificarlo con este parámetro. <p>Ejemplo: <code>SSL Ciphers = string: AES256-SHA256</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Puerto SSL </td> 
-   <td colname="col2"> <p>Puerto seguro (mediante SSL) en el que escucha el servidor de <span class="keyword"> Insight </span> o el <span class="wintitle"> repetidor </span> . El puerto predeterminado es 443. Si se introduce un valor de 0, se desactivan las conexiones seguras. </p> <p>Ejemplo: <span class="filepath"></span> </p> <filepath></filepath> </td> 
+   <td colname="col2"> <p>Puerto seguro (mediante SSL) en el que escucha el servidor de <span class="keyword"> Insight </span> o el <span class="wintitle"> repetidor </span> . El puerto predeterminado es 443. Si se introduce un valor de 0, se desactivan las conexiones seguras. </p> <p>Ejemplo: <span class="filepath"></span> </p> <code>SSL Port = int: 443</code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>n=</i>LoggingServer: </td> 
