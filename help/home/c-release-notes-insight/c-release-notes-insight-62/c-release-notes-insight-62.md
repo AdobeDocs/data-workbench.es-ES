@@ -3,7 +3,7 @@ description: Las notas de la versión de Data Workbench 6.2 incluyen nuevas func
 title: Notas de la versión Data Workbench 6.2
 uuid: 8631c936-d53b-493d-9f58-72f541c3ddce
 translation-type: tm+mt
-source-git-commit: a276b16565634fea9b693206c8a55b528fada977
+source-git-commit: 8f5c69541bdd97aefbad3840f75f06846615f222
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 5%
@@ -52,7 +52,7 @@ Ahora puede marcar espacios de trabajo significativos para moverse rápidamente 
 
 **Para eliminar un marcador:**
 
-* En el panel Marcador, haga clic con el botón derecho y seleccione **[!UICONTROL Eliminar<bookmark title>]**para eliminar un marcador seleccionado o **[!UICONTROL Clear All Bookmarks]**para eliminar todos los marcadores.
+* En el panel Marcador, haga clic con el botón derecho y seleccione **Eliminar`<bookmark title>`** para eliminar un marcador seleccionado o seleccione **[!UICONTROL Clear All Bookmarks]** eliminar todos los marcadores.
 
 * También puede hacer clic con el botón derecho en el espacio de trabajo de la vista en miniatura dentro de la superficie de trabajo y seleccionar **[!UICONTROL Clear Bookmark]**.
 
@@ -150,7 +150,7 @@ Las nuevas teclas rápidas le permiten cambiar el tamaño y volver a configurar 
 * Se corrigió el mensaje de error inexacto &quot;Error al importar espacio de trabajo&quot; al importar un espacio de trabajo en la estación de trabajo cliente aunque la importación se haya realizado correctamente.
 * El error de conexión de estación de trabajo que muestra el mensaje &quot;Conflicto de configuración 412&quot; ahora se reemplaza por un mensaje práctico que identifica la acción del sistema.
 * El comando &quot;post&quot; ahora se puede ejecutar en el Servidor de informes.
-* Se corrigieron los errores de interfaz de usuario en la interfaz de usuario del cliente para chino simplificado.
+* Se han corregido errores de interfaz de usuario en la interfaz de usuario del cliente para chino simplificado.
 * Adobe Analytics ha actualizado la fuente de datos que alimenta la Data Workbench para aprovechar los Perfiles y Audiencias que se integran con Adobe Experience Cloud. Todos los usuarios de la Data Workbench debían preparar su entorno para esta transición para el 21 de abril de 2014.
 
    Se han introducido perfiles y Audiencias para proporcionar una vista completa de los clientes en todo Adobe Analytics. Este nuevo servicio está disponible en Adobe Experience Cloud para aumentar el valor entre las herramientas de análisis a fin de crear inicios sobre la base de estas funciones en Analytics. El nuevo identificador de visitante de Experience Cloud se agregará a la fuente de datos, junto con otras mejoras y mejoras para adaptarse a la nueva fuente de datos y al identificador de visitante global.
