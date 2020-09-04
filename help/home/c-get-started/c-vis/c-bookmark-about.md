@@ -5,7 +5,7 @@ title: Añadir marcadores
 topic: Data workbench
 uuid: 8b7fd6ac-9bab-4e7a-8f52-8568413052e8
 translation-type: tm+mt
-source-git-commit: 2c1b2adfe8bf479c2a8cbd150ed006be2336022c
+source-git-commit: 8f5c69541bdd97aefbad3840f75f06846615f222
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Puede marcar espacios de trabajo significativos para moverse rápidamente entre 
 
 **Para eliminar un marcador:**
 
-* En el panel Marcador, haga clic con el botón derecho y seleccione **[!UICONTROL Eliminar<bookmark title>]**para eliminar un marcador seleccionado o **[!UICONTROL Clear All Bookmarks]**para eliminar todos los marcadores.
+* En el panel Marcador, haga clic con el botón derecho y seleccione **Eliminar`<bookmark title>`** para eliminar un marcador seleccionado o seleccione **[!UICONTROL Clear All Bookmarks]** eliminar todos los marcadores.
 
 * También puede hacer clic con el botón derecho en el espacio de trabajo de la vista en miniatura dentro de la superficie de trabajo y seleccionar **[!UICONTROL Clear Bookmark]**.
 
