@@ -1,10 +1,13 @@
 ---
 description: Conceptualmente, el archivo de dirección tiene el mismo propósito que el archivo ETC&bsol;HOSTS de un equipo en red.
-solution: Insight
+solution: Analytics
 title: Ubicaciones de red
 uuid: a2097eca-dd75-4d43-b8a8-fb4c768df38d
 translation-type: tm+mt
-source-git-commit: e8612fab1c13ca5262816dde7deaa6fd8bedbc62
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 2%
 
 ---
 
