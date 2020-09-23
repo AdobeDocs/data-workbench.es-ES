@@ -1,15 +1,18 @@
 ---
 description: Es posible que desee agregar una FSU de Insight Server a un clúster existente si desea almacenar datos de origen en un servidor de archivos adicional o si desea configurar una copia de seguridad para el servidor maestro de Insight Server.
-solution: Insight
-title: Adición de una FSU de Insight Server a un clúster existente
+solution: Analytics
+title: Añadir una FSU de Insight Server a un clúster existente
 uuid: 57d6ef52-eef9-4425-943a-331e4c9c4207
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 2%
 
 ---
 
 
-# Adición de una FSU de Insight Server a un clúster existente{#adding-an-insight-server-fsu-to-an-existing-cluster}
+# Añadir una FSU de Insight Server a un clúster existente{#adding-an-insight-server-fsu-to-an-existing-cluster}
 
 Es posible que desee agregar una FSU de Insight Server a un clúster existente si desea almacenar datos de origen en un servidor de archivos adicional o si desea configurar una copia de seguridad para el servidor maestro de Insight Server.
 
@@ -23,9 +26,9 @@ Para agregar un [!DNL Insight Server] FSU a un clúster existente, debe realizar
 
 En [!DNL Insight], abra el [!DNL Server Files Manager] para el maestro [!DNL Insight Server] (generalmente un [!DNL Insight Server] FSU) y haga lo siguiente para cada FSU que desee agregar al clúster:
 
-1. Edite el archivo de direcciones en el archivo maestro [!DNL Insight Server] para incluir el nombre y la dirección del nuevo FSU, tal como se describe en [Adición de los servidores de perspectiva de procesamiento al archivo](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-2fe5298180164e8dbaa59ea6b6ff682d)de direcciones. Agregue el nombre y la dirección de la nueva FSU al grupo en el que [!DNL Insight Servers] se muestra la lista actual del clúster.
+1. Edite el archivo de dirección en el archivo maestro [!DNL Insight Server] para incluir el nombre y la dirección del nuevo FSU tal como se describe al [Añadir los servidores de perspectiva de procesamiento en el archivo](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-2fe5298180164e8dbaa59ea6b6ff682d)de dirección. Añada el nombre y la dirección de la nueva FSU en el grupo en el que [!DNL Insight Servers] aparece la lista actual del clúster.
 
-1. Edite el archivo de control de acceso en el maestro [!DNL Insight Server] para incluir la dirección IP del nuevo FSU como se describe en [Actualización del archivo de control de acceso para un clúster](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-fce1367d92a445168c35e9ca506e7d6b).
+1. Edite el archivo control de acceso en el archivo maestro [!DNL Insight Server] para incluir la dirección IP del nuevo FSU, tal como se describe en [Actualización del archivo Control de acceso de un clúster](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-fce1367d92a445168c35e9ca506e7d6b).
 
 ## Instalación de la nueva FSU de Insight Server {#section-dddad299dd8642aa91cbe19a395ef3f4}
 
@@ -61,7 +64,7 @@ Si desea hacer de la nueva FSU la copia de seguridad para el maestro [!DNL Insig
 
 1. Abra el [!DNL Synchronize.cfg] archivo (en la [!DNL Components] carpeta) en [!DNL Insight].
 
-1. Busque el objeto SynchronizeDir que especifica la ubicación del directorio Components. Puede haber varios directorios de sincronización en Directorios, por lo que es posible que tenga que ver el contenido de muchos de ellos (haciendo clic en el número de servidor) para encontrar el servidor deseado).
+1. Busque el objeto SynchronizeDir que especifica la ubicación del directorio Components. Es posible que haya varios directorios de sincronización en Directorios, por lo que puede que tenga que realizar la vista del contenido de muchos de ellos (haciendo clic en el número de servidor) para encontrar el servidor deseado).
 1. Edite la entrada SynchronizeDir y agregue una segunda entrada SynchronizeDir como se muestra en el ejemplo siguiente.
 
    ![](assets/cfg_cluster_SynchronizeDirEditComponents.png)
