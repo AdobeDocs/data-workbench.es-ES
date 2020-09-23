@@ -1,10 +1,10 @@
 ---
-description: Los equipos Destinatario Insight Server que ejecutan el servicio de replicación de Insight Server deben poder leer los archivos de registro en este servidor repetidor.
-solution: Insight
+description: Los equipos destinatario Insight Server que ejecutan el servicio de replicación de Insight Server deben poder leer los archivos de registro en este servidor repetidor.
+solution: Analytics
 title: Configuración del control de acceso para equipos de destino
 uuid: 35e032cf-6c1d-4348-88ce-4f4a6a30b16f
 translation-type: tm+mt
-source-git-commit: 0276701151d1403926ce184069526ebdf3e28e36
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Configuración del control de acceso para equipos de destino{#configuring-access-control-for-target-machines}
 
-Los equipos Destinatario Insight Server que ejecutan el servicio de replicación de Insight Server deben poder leer los archivos de registro en este servidor repetidor.
+Los equipos destinatario Insight Server que ejecutan el servicio de replicación de Insight Server deben poder leer los archivos de registro en este servidor repetidor.
 
 El acceso a los equipos de destinatario se concede mediante el [!DNL Access Control.cfg] archivo.
 
