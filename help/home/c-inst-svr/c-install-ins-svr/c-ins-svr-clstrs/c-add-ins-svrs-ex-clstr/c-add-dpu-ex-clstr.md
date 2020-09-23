@@ -1,15 +1,18 @@
 ---
 description: Normalmente, desea agregar una DPU de Insight Server a un clúster existente cuando la cantidad de datos que desea procesar y hacer accesible para los usuarios de Insight e Report exceda la capacidad de la configuración actual del clúster.
-solution: Insight
-title: Adición de una DPU de Insight Server a un clúster existente
+solution: Analytics
+title: Añadir una DPU de Insight Server a un clúster existente
 uuid: 1977a90e-bd51-4838-9498-f7692891109f
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 4%
 
 ---
 
 
-# Adición de una DPU de Insight Server a un clúster existente{#adding-an-insight-server-dpu-to-an-existing-cluster}
+# Añadir una DPU de Insight Server a un clúster existente{#adding-an-insight-server-dpu-to-an-existing-cluster}
 
 Normalmente, desea agregar una DPU de Insight Server a un clúster existente cuando la cantidad de datos que desea procesar y hacer accesible para los usuarios de Insight e Report exceda la capacidad de la configuración actual del clúster.
 
@@ -17,9 +20,9 @@ Normalmente, desea agregar una DPU de Insight Server a un clúster existente cua
 
 En [!DNL Insight], abra el [!DNL Server Files Manager] para el maestro [!DNL Insight Server] (generalmente un [!DNL Insight Server] FSU) y haga lo siguiente para cada DPU que desee agregar al clúster:
 
-1. Edite el archivo de dirección en el archivo maestro [!DNL Insight Server] para incluir el nombre y la dirección del nuevo DPU, tal como se describe en [Adición de los servidores de perspectiva de procesamiento al archivo](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-2fe5298180164e8dbaa59ea6b6ff682d)de direcciones. Agregue el nombre y la dirección del nuevo DPU al grupo en el que [!DNL Insight Servers] se muestra la lista actual del clúster.
+1. Edite el archivo de dirección en el archivo maestro [!DNL Insight Server] para incluir el nombre y la dirección del nuevo DPU, tal como se describe al [Añadir los servidores de perspectiva de procesamiento en el archivo](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-2fe5298180164e8dbaa59ea6b6ff682d)de dirección. Añada el nombre y la dirección del nuevo DPU en el grupo en el que [!DNL Insight Servers] se muestran los valores actuales del clúster.
 
-1. Edite el archivo de control de acceso en el maestro [!DNL Insight Server] para incluir la dirección IP del nuevo DPU, tal como se describe en [Actualización del archivo de control de acceso para un clúster](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-fce1367d92a445168c35e9ca506e7d6b).
+1. Edite el archivo control de acceso en el archivo maestro [!DNL Insight Server] para incluir la dirección IP del nuevo DPU, tal como se describe en [Actualización del archivo Control de acceso de un clúster](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-fce1367d92a445168c35e9ca506e7d6b).
 
 ## Instalación de la nueva DPU de Insight Server {#section-8ce9a5957db24f94b3a3250caaccc7ba}
 
@@ -38,6 +41,6 @@ Esta tarea solo se aplica a Windows de 32 bits.
 1. Compruebe los registros de seguimiento para asegurarse de que el DPU se está sincronizando con el maestro [!DNL Insight Server].
 1. Repita los pasos del 1 al 6 para cada DPU adicional que agregue al clúster.
 
-## Adición de la nueva DPU de Insight Server a los servidores de procesamiento del perfil de dataset {#section-cdc6c3913b9f4010b5e17cc7ec85e849}
+## Añadir la nueva DPU de Insight Server en los servidores de procesamiento del Perfil de DataSet {#section-cdc6c3913b9f4010b5e17cc7ec85e849}
 
-Si el nuevo DPU procesa el mismo conjunto de datos que los demás DPU del clúster, agregue el nombre común del nuevo DPU al [!DNL profile.cfg] archivo principal [!DNL Insight Server] como se describe en [Especificación de los servidores de procesamiento en Profile.cfg](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-99664e072c21462f91fbafb6d893fcf9).
+Si el nuevo DPU procesa el mismo conjunto de datos que los demás DPU del clúster, agregue el nombre común del nuevo DPU al [!DNL profile.cfg] archivo principal [!DNL Insight Server] como se describe en [Especificación de los servidores de procesamiento en Perfil.cfg](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-99664e072c21462f91fbafb6d893fcf9).
