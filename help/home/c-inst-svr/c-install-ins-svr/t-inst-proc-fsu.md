@@ -1,10 +1,13 @@
 ---
 description: Las instrucciones para instalar una FSU de Insight Server y configurarla para uso administrativo son muy similares a las para instalar y configurar una DPU de Insight Server.
-solution: Insight
+solution: Analytics
 title: Procedimientos de instalación de una FSU de Insight Server
 uuid: ffed5095-f83c-4641-9ccc-4b94f51c3f95
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +24,7 @@ Para *MS System Center Endpoint Protection* en servidores Windows 2012, estos ej
 
 Para instalar y configurar una [!DNL Insight Server] FSU, debe completar las siguientes tareas:
 
-1. Instale los archivos del [!DNL Insight Server] programa.
+1. Instale los archivos de [!DNL Insight Server] programa.
 1. Instale el certificado [!DNL Insight Server] digital.
 1. Compruebe la configuración del puerto en el [!DNL Communications.cfg] archivo.
 1. Modifique el [!DNL Access Control.cfg] archivo para permitir el acceso administrativo a [!DNL the Server] desde [!DNL the Client].
