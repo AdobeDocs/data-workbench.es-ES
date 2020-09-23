@@ -1,47 +1,50 @@
 ---
 description: Cuando configura un perfil de conjunto de datos para que se ejecute en un clúster de Insight Server, todos los equipos del clúster comparten todos los archivos de configuración de conjunto de datos para ese perfil.
-solution: Insight
-title: Configuración de un perfil para ejecutar en un clúster
+solution: Analytics
+title: Configuración de un Perfil para ejecutar en un clúster
 uuid: e181d069-fb2f-4a71-a86f-bb9a48cfe059
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 3%
 
 ---
 
 
-# Configuración de un perfil para ejecutar en un clúster{#configuring-a-profile-to-run-on-a-cluster}
+# Configuración de un Perfil para ejecutar en un clúster{#configuring-a-profile-to-run-on-a-cluster}
 
 Cuando configura un perfil de conjunto de datos para que se ejecute en un clúster de Insight Server, todos los equipos del clúster comparten todos los archivos de configuración de conjunto de datos para ese perfil.
 
-Por lo tanto, las entradas para los parámetros de estos archivos deben ser aplicables a todos [!DNL Insight Servers] los del clúster. Por ejemplo: las ubicaciones de los archivos de registro que se van a leer, los archivos de búsqueda que se van a utilizar [!DNL Insight Server], y la ubicación de la salida de datos por parte de [!DNL Insight Server] deben ser las mismas en todos los equipos del clúster.
+Por lo tanto, las entradas para los parámetros de estos archivos deben ser aplicables a todos [!DNL Insight Servers] los del clúster. Por ejemplo, las ubicaciones de los archivos de registro que se van a leer, los archivos de búsqueda que se van a utilizar [!DNL Insight Server]y la ubicación de la salida de datos por [!DNL Insight Server] deben ser las mismas en todos los equipos del clúster.
 
 Se realizan todas las tareas de configuración en el maestro del clúster [!DNL Insight Server], que es el [!DNL Insight Server] que se utiliza para editar los archivos de configuración. Todos los cambios guardados en el archivo de configuración realizados en el maestro [!DNL Insight Server] se sincronizan automáticamente con los archivos del procesamiento [!DNL Insight Servers] en el clúster.
 
 Para ejecutar un perfil de conjunto de datos en un [!DNL Insight Server] clúster, debe realizar los siguientes procesos en el orden indicado:
 
-1. [Determinación de los servidores de perspectiva que procesan los datos de eventos](../../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-59b8e3f2b34f49739d544c8740a62fba)
-1. [Especificación de los servidores de procesamiento en Profile.cfg](../../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-99664e072c21462f91fbafb6d893fcf9)
-1. (Si es necesario) [Modificación de los archivos de configuración del conjunto de datos para el perfil](../../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-99bf9248e4e5483cb518f453b0a2f278)
+1. [Determinación de los servidores de perspectiva que procesan los datos de Evento](../../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-59b8e3f2b34f49739d544c8740a62fba)
+1. [Especificación de los servidores de procesamiento en Perfil.cfg](../../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-99664e072c21462f91fbafb6d893fcf9)
+1. (Si es necesario) [Modificación de los archivos de configuración del conjunto de datos para el Perfil](../../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md#section-99bf9248e4e5483cb518f453b0a2f278)
 
-## Determinación de los servidores de perspectiva que procesan los datos de eventos {#section-59b8e3f2b34f49739d544c8740a62fba}
+## Determinación de los servidores de perspectiva que procesan los datos de Evento {#section-59b8e3f2b34f49739d544c8740a62fba}
 
-No es necesario que todos [!DNL Insight Servers] los datos de eventos de proceso de clúster. Puede designar uno [!DNL Insight Server] del clúster como una unidad de servidor de archivos que almacene los archivos de origen (VSL y archivos de registro) y sirva los archivos a todas las unidades de procesamiento de datos (servidores de procesamiento) del clúster. Esta configuración proporciona las ventajas de un único repositorio de datos de evento y aprovecha la potencia de procesamiento de todos los servidores de procesamiento del clúster. Los servidores de procesamiento dividen los archivos de datos entre ellos y garantizan que el mismo archivo no se procesa más de una vez.
+No es necesario que todos los datos [!DNL Insight Servers] del evento de procesos del clúster. Puede designar uno [!DNL Insight Server] en el clúster como una unidad de servidor de archivos que almacene los archivos de origen (archivos de registro y VSL) y sirva los archivos a todas las unidades de procesamiento de datos (servidores de procesamiento) del clúster. Esta configuración proporciona las ventajas de un único repositorio de datos de evento y aprovecha la potencia de procesamiento de todos los servidores de procesamiento del clúster. Los servidores de procesamiento dividen los archivos de datos entre ellos y garantizan que el mismo archivo no se procesa más de una vez.
 
 Para obtener más información sobre cómo designar un [!DNL Insight Server] para que se ejecute como una unidad de servidor de archivos, consulte el capítulo Archivo de configuración de procesamiento de registros de la Guía *de configuración de* conjuntos de datos.
 
 Si decide almacenar los archivos de datos de origen en cada uno de los servidores de procesamiento en lugar de en una sola unidad de servidor de archivos, debe dividir los archivos de forma equitativa entre los servidores de procesamiento. No almacene todos los archivos de origen del conjunto de datos en cada uno de los servidores de procesamiento. Si hay varias copias del mismo archivo disponibles para varios servidores de procesamiento, los datos se leen varias veces (una por cada equipo) y distorsionan los datos.
 
-Para obtener ayuda para determinar qué archivos de registro [!DNL Insight Servers] deben procesarse, póngase en contacto con el consultor de Adobe.
+Para obtener ayuda para determinar qué archivos de registro [!DNL Insight Servers] deben procesarse, póngase en contacto con Adobe Consulting.
 
-## Especificación de los servidores de procesamiento en Profile.cfg {#section-99664e072c21462f91fbafb6d893fcf9}
+## Especificación de los servidores de procesamiento en Perfil.cfg {#section-99664e072c21462f91fbafb6d893fcf9}
 
 En el [!DNL profile.cfg] archivo, especifique los servidores de procesamiento que procesan los datos del perfil.
 
-**Para acceder al archivo profile.cfg**
+**Para acceder al archivo perfil.cfg**
 
 Puede acceder al archivo de configuración de perfil mediante la [!DNL Profile Manager] parte [!DNL Insight].
 
-1. Mientras trabaja en su perfil de conjunto de datos, abra el [!DNL Profile Manager] haciendo clic con el botón derecho en un espacio de trabajo y haciendo clic en **[!UICONTROL Admin]** > **[!UICONTROL Profile]** > **[!UICONTROL Profile Manager]**, o bien abriendo el espacio de trabajo Administración de perfiles en la [!DNL Admin] ficha.
+1. Mientras trabaja en el perfil del conjunto de datos, abra el  haciendo clic con el botón secundario en un espacio de trabajo y haciendo clic en [!DNL Profile Manager] > **[!UICONTROL Admin]** > **[!UICONTROL Profile]** , o bien abriendo el espacio de trabajo de Administración de Perfiles en la **[!UICONTROL Profile Manager]**[!DNL Admin] ficha.
 
 1. En la [!DNL Profile Manager], haga clic con el botón secundario en la marca de verificación situada junto a [!DNL profile.cfg] y haga clic en **[!UICONTROL Make Local]**. En la [!DNL User] columna aparece una marca de verificación para este archivo.
 
@@ -64,7 +67,7 @@ Puede acceder al archivo de configuración de perfil mediante la [!DNL Profile M
 
 1. Haga clic con el botón secundario en la marca de verificación de la [!DNL User] columna situada junto a [!DNL profile.cfg]. Haga clic **[!UICONTROL Save to]** > *&lt;**[!UICONTROL dataset profile name]**>*.
 
-## Modificación de los archivos de configuración del conjunto de datos para el perfil {#section-99bf9248e4e5483cb518f453b0a2f278}
+## Modificación de los archivos de configuración del conjunto de datos para el Perfil {#section-99bf9248e4e5483cb518f453b0a2f278}
 
 **Para modificar los archivos de configuración del conjunto de datos**
 
@@ -83,6 +86,6 @@ Si necesita realizar cambios en los archivos de configuración del conjunto de d
 
 >[!NOTE]
 >
->[!DNL Insight] los usuarios que acceden a un perfil de conjunto de datos que se ejecuta en un clúster solo identifican al maestro [!DNL Insight Server] en el archivo de configuración [!DNL Insight] ( [!DNL insight.cfg]). Desde el punto de vista del [!DNL Insight] usuario, el perfil solo es accesible en uno [!DNL Insight Server] (el maestro [!DNL Insight Server]); sin embargo, las solicitudes de consulta de los analistas se pueden dirigir a cualquiera de los [!DNL Insight Servers] del clúster.
+>[!DNL Insight] los usuarios que acceden a un perfil de conjunto de datos que se ejecuta en un clúster identifican únicamente al maestro [!DNL Insight Server] en el archivo de [!DNL Insight] configuración ( [!DNL insight.cfg]). Desde el punto de vista del [!DNL Insight] usuario, el perfil sólo puede accederse a uno [!DNL Insight Server] (el maestro [!DNL Insight Server]); sin embargo, las solicitudes de consulta de los analistas se pueden dirigir a cualquiera de los [!DNL Insight Servers] del clúster.
 
-Un [!DNL Insight Server] clúster permite el almacenamiento centralizado de archivos de [!DNL .vsl] registro (desde [!DNL Sensor]) en un solo [!DNL Insight Server] equipo denominado File Server Unit (FSU). Para obtener información sobre la instalación de una FSU, consulte Procedimientos [de instalación de una FSU](../../../../../../home/c-inst-svr/c-install-ins-svr/t-inst-proc-fsu.md#task-e4a4a791b6694119ba45b36f3e573016)de Insight Server. Para obtener información sobre la configuración de una FSU, consulte la Guía *de configuración de* Dataset.
+Un [!DNL Insight Server] clúster permite el almacenamiento centralizado de archivos de [!DNL .vsl] registro (desde [!DNL Sensor]) en un solo [!DNL Insight Server] equipo llamado File Server Unit (FSU). Para obtener información sobre la instalación de una FSU, consulte Procedimientos [de instalación de una FSU](../../../../../../home/c-inst-svr/c-install-ins-svr/t-inst-proc-fsu.md#task-e4a4a791b6694119ba45b36f3e573016)de Insight Server. Para obtener información sobre la configuración de una FSU, consulte la Guía *de configuración de* Dataset.
