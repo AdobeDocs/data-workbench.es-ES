@@ -1,17 +1,20 @@
 ---
-description: Cuando un servidor web se desconecta debido a un error, la solución es una solución sencilla que requiere un usuario del Área de trabajo de datos con los privilegios adecuados para abrir el archivo Log Processing Mode.cfg y agregar el ID del sensor (en nuestro ejemplo, WEB2) a la sección "Fuentes sin conexión".
-solution: Insight
+description: Cuando un servidor web se desconecta debido a un error, la solución es sencilla y requiere un usuario de Data Workbench con los privilegios adecuados para abrir el archivo Log Processing Mode.cfg y agregar el ID del sensor (en nuestro ejemplo, WEB2) a la sección "Offline Sources".
+solution: Analytics
 title: Solución del problema
 uuid: 19d47b06-be12-4adf-9eac-b16cf7131834
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
 
 # Solución del problema{#solving-the-problem}
 
-Cuando un servidor web se desconecta debido a un error, la solución es una solución sencilla que requiere un usuario del Área de trabajo de datos con los privilegios adecuados para abrir el archivo Log Processing Mode.cfg y agregar el ID del sensor (en nuestro ejemplo, WEB2) a la sección &quot;Fuentes sin conexión&quot;.
+Cuando un servidor web se desconecta debido a un error, la solución es sencilla y requiere un usuario de Data Workbench con los privilegios adecuados para abrir el archivo Log Processing Mode.cfg y agregar el ID del sensor (en nuestro ejemplo, WEB2) a la sección &quot;Offline Sources&quot;.
 
 Esta sección del archivo indica [!DNL data workbench server] que ya no debe esperar ningún dato de esta fuente porque, de hecho, está sin conexión.
 
