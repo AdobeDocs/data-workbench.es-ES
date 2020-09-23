@@ -1,10 +1,13 @@
 ---
 description: Si los clientes pueden llegar a un servidor de Insight a través de varias redes (por ejemplo, a través de la intranet corporativa y a través de Internet), el archivo de dirección debe definir una ubicación de red independiente para cada una de las direcciones IP del servidor.
-solution: Insight
+solution: Analytics
 title: Varias direcciones IP para un servidor de Insight
 uuid: 6ed00b47-8ba3-4127-a5db-7e684e573d9c
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
