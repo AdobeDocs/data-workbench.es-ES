@@ -1,17 +1,20 @@
 ---
-description: Información sobre los campos del registro de datos de eventos de línea de base registrados por Sensor.
-solution: Insight
-title: Campos de registro de datos del evento previsto
+description: Información sobre los campos de registro de datos de evento de línea base registrados por Sensor.
+solution: Analytics
+title: Campos de registro de datos de evento de línea de base
 uuid: aa36d332-089c-4ae2-98e2-a93d2fa023b7
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
 
-# Campos de registro de datos del evento previsto{#baseline-event-data-record-fields}
+# Campos de registro de datos de evento de línea de base{#baseline-event-data-record-fields}
 
-Información sobre los campos del registro de datos de eventos de línea de base registrados por Sensor.
+Información sobre los campos de registro de datos de evento de línea base registrados por Sensor.
 
 <table id="table_E29606BB010E4DB48C463979B7BEC769"> 
  <thead> 
@@ -30,8 +33,8 @@ Información sobre los campos del registro de datos de eventos de línea de base
    <td colname="col2"> <p>Las cookies enviadas por el cliente con la solicitud. </p> <p>Ejemplo: v1st=42FDF66DE610CF36; ASPSESSIONIDQCATDAQC=GPIBKEIBFBFIPLOJMKCAAEPM; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> cs(referrer) </td> 
-   <td colname="col2"> <p>La cadena de referente HTTP que el cliente envía al servidor con la solicitud. </p> <p>Ejemplo: http://www.mysite.net/cgi-bin/websearch?qry </p> <p>Si utiliza etiquetas de página, cs(referrer) es la dirección URL completa del documento que contiene la imagen de etiqueta, incluidos HTTP o HTTP. </p> <p>Además, puede configurar los sensores Apache (1.3, 2.0 y 2.2) e IIS para capturar el puerto que se utiliza para la solicitud, lo que puede identificar las solicitudes HTTP vs. HTTPS. </p> </td> 
+   <td colname="col1"> cs(remitente del reenvío) </td> 
+   <td colname="col2"> <p>La cadena de remitente del reenvío HTTP que el cliente envía al servidor con la solicitud. </p> <p>Ejemplo: http://www.mysite.net/cgi-bin/websearch?qry </p> <p>Si utiliza etiquetas de página, cs(remitente del reenvío) es la dirección URL completa del documento que contiene la imagen de etiqueta, incluidos HTTP o HTTP. </p> <p>Además, puede configurar los sensores Apache (1.3, 2.0 y 2.2) e IIS para capturar el puerto que se utiliza para la solicitud, lo que puede identificar las solicitudes HTTP vs. HTTPS. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> cs(user-agent) </td> 
@@ -39,11 +42,11 @@ Información sobre los campos del registro de datos de eventos de línea de base
   </tr> 
   <tr> 
    <td colname="col1"> cs-method </td> 
-   <td colname="col2"> <p>El tipo de método de la solicitud HTTP </p> <p>Ejemplo: OBTENER </p> <p>Referencia: http://www.w3.org/TR/2000/NOTE-shoplogfileformat-20001115/#field_method </p> </td> 
+   <td colname="col2"> <p>El tipo de método de la solicitud HTTP </p> <p>Ejemplo: GET </p> <p>Referencia: http://www.w3.org/TR/2000/NOTE-shoplogfileformat-20001115/#field_method </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> cs-uri-query </td> 
-   <td colname="col2"> <p>La porción de cadena de consulta de URI (raíz + cadena de consulta = URI) </p> <p>Esto va precedido de un signo de interrogación (?) y puede contener uno o más pares de nombre-valor separados por signos de interrogación (&amp;). </p> <p>Ejemplo: page=homepage </p> </td> 
+   <td colname="col1"> cs-uri-consulta </td> 
+   <td colname="col2"> <p>La parte de cadena de consulta de URI (raíz + cadena de consulta = URI) </p> <p>Esto va precedido de un signo de interrogación (?) y puede contener uno o más pares de nombre-valor separados por signos de interrogación (&amp;). </p> <p>Ejemplo: page=homepage </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> cs-uri-stem </td> 
@@ -67,7 +70,7 @@ Información sobre los campos del registro de datos de eventos de línea de base
   </tr> 
   <tr> 
    <td colname="col1"> x-experience </td> 
-   <td colname="col2"> <p>Lista de todos los nombres y grupos de experimentos controlados a los que pertenece el cliente en el momento de la solicitud. </p> <p>Ejemplo: Home_Exp.Group_1,Registration_Exp.Group_2 </p> </td> 
+   <td colname="col2"> <p>Lista de todos los nombres y grupos de experimentos controlados de los que el cliente es miembro en el momento de la solicitud. </p> <p>Ejemplo: Home_Exp.Group_1,Registration_Exp.Group_2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> x-timestamp </td> 
@@ -80,4 +83,4 @@ Información sobre los campos del registro de datos de eventos de línea de base
  </tbody> 
 </table>
 
-El [!DNL data workbench server] puede derivar una serie de variables de los campos del registro de datos de eventos de línea de base. For more information, see the *Dataset Configuration Guide*.
+El [!DNL data workbench server] puede derivar una serie de variables de los campos de registro de datos de evento base. For more information, see the *Dataset Configuration Guide*.
