@@ -1,15 +1,18 @@
 ---
 description: Información sobre la configuración general del sensor con una instancia de servidor web ejecutándose en un servidor web.
-solution: Insight
-title: Uso de varias instancias de un servidor Web
+solution: Analytics
+title: Uso de varias instancias de un servidor web
 uuid: 778ea95f-e0f2-4c2a-b7ed-7e323fea1e48
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 5%
 
 ---
 
 
-# Uso de varias instancias de un servidor Web{#working-with-multiple-instances-of-a-web-server}
+# Uso de varias instancias de un servidor web{#working-with-multiple-instances-of-a-web-server}
 
 Información sobre la configuración general del sensor con una instancia de servidor web ejecutándose en un servidor web.
 
@@ -27,9 +30,9 @@ Cuando [!DNL Sensor] se instala en un servidor web que ejecuta varias instancias
 
    Esto le permite identificar cada una de las instancias del servidor web de forma única. En otras palabras, la identificación del servidor web (y el correspondiente SensorID en la configuración) es una función de esta configuración. [!DNL Sensor]
 
-En cualquier caso, los datos siguen teniendo toda la información del nombre del host para que pueda distinguir entre [!DNL www.client.com], [!DNL www2.client.com], etc. La configuración correcta está determinada por los objetivos de análisis y si los analistas necesitan segmentar los datos en función de una instancia específica que se ejecuta en un servidor web.
+En cualquier caso, los datos siguen teniendo toda la información del nombre del host para que pueda distinguir entre [!DNL www.client.com], [!DNL www2.client.com], etc. La configuración correcta está determinada por los objetivos de análisis y si los analistas deben segmentar los datos en función de una instancia específica que se ejecute en un servidor web.
 
 >[!NOTE]
 >
->Este tipo de segmentación generalmente se utiliza solamente en el análisis operativo y no proporciona mucho uso práctico fuera de esa área.
+>Este tipo de segmentación generalmente se utiliza solamente en la análisis operacional y no proporciona mucho uso práctico fuera de esa área.
 
