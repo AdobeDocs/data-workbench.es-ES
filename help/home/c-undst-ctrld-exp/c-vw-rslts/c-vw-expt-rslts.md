@@ -1,22 +1,25 @@
 ---
-description: Después de agregar el nuevo campo a Log Processing.cfg y crear la nueva transformación Dividir y la dimensión ampliada, puede ver la nueva dimensión ampliada que ha creado en cuanto la etapa de entrada rápida del reprocesamiento de datos haya finalizado.
-solution: Insight,Analytics
+description: Después de agregar el nuevo campo a Log Processing.cfg y crear la nueva transformación Dividir y la dimensión ampliada, puede realizar la vista de la nueva dimensión ampliada que ha creado en cuanto termine la etapa de Introducción rápida del reprocesamiento de datos.
+solution: Analytics,Analytics
 title: Visualización de los resultados del experimento
 topic: Data workbench
 uuid: c0468cad-fb8d-4ecf-8912-bf80b44b0a65
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 4%
 
 ---
 
 
 # Visualización de los resultados del experimento{#viewing-the-experiment-results}
 
-Después de agregar el nuevo campo a Log Processing.cfg y crear la nueva transformación Dividir y la dimensión ampliada, puede ver la nueva dimensión ampliada que ha creado en cuanto la etapa de entrada rápida del reprocesamiento de datos haya finalizado.
+Después de agregar el nuevo campo a Log Processing.cfg y crear la nueva transformación Dividir y la dimensión ampliada, puede realizar la vista de la nueva dimensión ampliada que ha creado en cuanto termine la etapa de Introducción rápida del reprocesamiento de datos.
 
 De forma predeterminada, esta dimensión muestra el número de sesiones para cada uno de los grupos de experimentos.
 
-**Para ver la dimensión del experimento**
+**Vista de la dimensión del experimento**
 
 * En cualquier espacio de trabajo de [!DNL Insight], abra una tabla con la dimensión de experimento que ha creado.
 
