@@ -1,20 +1,23 @@
 ---
 description: Los resultados de las pruebas deben ser claros y significativos para que pueda sentirse seguro de tomar decisiones importantes en dólares basadas en esos resultados.
-solution: Insight,Analytics
-title: ¿Qué debo probar?
+solution: Analytics,Analytics
+title: ¿Qué debería probar?
 topic: Data workbench
 uuid: 9dfe3685-885e-4098-ab1d-ac891ccc5199
 translation-type: tm+mt
-source-git-commit: 25366087936dfa5e31c5921aac400535ec259f2e
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
 
-# What Should I Test?{#what-should-i-test}
+# ¿Qué debería probar?{#what-should-i-test}
 
 Los resultados de las pruebas deben ser claros y significativos para que pueda sentirse seguro de tomar decisiones importantes en dólares basadas en esos resultados.
 
-Aunque puede probar varios diseños de página con [!DNL Sensor] y sitio, Adobe sugiere que se centre en probar iniciativas empresariales estratégicas de alto valor o en la funcionalidad de sitios web nuevos o rediseñados que aborden los objetivos establecidos para su sitio web, así como para su negocio. Puede probar problemas como las mejores garantías de precios, la funcionalidad de personalización, las ofertas de mercado (por ejemplo, paquetes o paquetes), el diseño creativo y los procesos de aplicación.
+Aunque puede probar varios diseños de página con [!DNL Sensor] y sitio, Adobe sugiere que se centre en probar las iniciativas comerciales estratégicas de alto valor o las funcionalidades de sitios web nuevos o rediseñados que se dirijan a los objetivos establecidos para el sitio web y para su negocio. Puede probar problemas como las mejores garantías de precios, la funcionalidad de personalización, las ofertas de mercado (por ejemplo, paquetes o paquetes), el diseño creativo y los procesos de aplicación.
 
 Los siguientes conceptos son los más importantes al desarrollar el experimento controlado:
 
@@ -23,9 +26,9 @@ Los siguientes conceptos son los más importantes al desarrollar el experimento 
 
 ## Metodologías admitidas {#section-1071adaf54c64ba9bc5ef228c4a23635}
 
-Se pueden realizar muchos tipos de experimentos con muchos objetivos diferentes mediante el uso del sitio. La siguiente lista contiene algunos ejemplos:
+Se pueden realizar muchos tipos de experimentos con muchos objetivos diferentes mediante el uso del sitio. La siguiente lista proporciona algunos ejemplos:
 
-* Alterar los procesos de páginas, contenido y sitios web para mejorar las tasas de conversión.
+* Modificar los procesos de páginas, contenido y sitios web para mejorar las tasas de conversión.
 * Cambiar las campañas de mercadotecnia, las promociones, las ventas cruzadas y las ventas ascendentes para aumentar los ingresos.
 * Variación de los tiempos de carga de la página para comprender la calidad del servicio del cliente y el valor real del rendimiento de la infraestructura.
 
@@ -43,4 +46,4 @@ Para alcanzar estos objetivos, el sitio admite los siguientes tipos de metodolog
 >
 >`http://www.omniture.com/index.asp?id=1`
 >
->Por ejemplo, en el experimento controlado puede especificar que el URI del grupo de control [!DNL index.asp] se reemplace por el URI del grupo de prueba [!DNL index2.asp] para determinar qué diseño de página resultaría en más valor.
+>Por ejemplo, en el experimento controlado puede especificar que el URI de grupo de control [!DNL index.asp] se reemplace por el URI de grupo de prueba [!DNL index2.asp] para determinar qué diseño de página resultaría en más valor.
