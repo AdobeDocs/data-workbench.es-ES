@@ -1,10 +1,13 @@
 ---
 description: Los niveles de acceso describen los URI del equipo en los que se permite leer o modificar a un grupo de usuarios.
-solution: Insight
+solution: Analytics
 title: Explicación de los niveles de acceso
 uuid: e9091ae1-9a34-4e00-a928-20d04119ee9e
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
@@ -17,8 +20,8 @@ Siga estas directrices para definir los niveles de acceso deseados para los usua
 
 * Los URI específicos sin carácter de barra diagonal final solo restringen el acceso a ese URI. Por ejemplo, [!DNL /Components/Communications.cfg] proporciona acceso sólo al [!DNL Communications.cfg]archivo.
 
-* Una barra diagonal final (/), que especifica un directorio, proporciona a los miembros del grupo acceso a cualquier URI que comience con esa cadena. Por ejemplo, /Profiles/ proporciona acceso a todo el directorio Profiles.
-* Un símbolo de signo de dólar final ($) restringe el acceso al URI exacto solo, aunque sea un directorio. Por ejemplo, /Profiles/$ proporciona acceso para leer el directorio principal Profiles, pero no para leer ningún archivo dentro de ese directorio.
+* Una barra diagonal final (/), que especifica un directorio, proporciona a los miembros del grupo acceso a cualquier URI que comience con esa cadena. Por ejemplo, /Perfiles/ proporciona acceso a todo el directorio de Perfiles.
+* Un símbolo de signo de dólar final ($) restringe el acceso al URI exacto solo, aunque sea un directorio. Por ejemplo, /Perfiles/$ proporciona acceso para leer el directorio principal de Perfiles, pero no para leer ningún archivo dentro de ese directorio.
 
    Para acceder a archivos específicos, no necesita utilizar un $ final.
 
@@ -26,7 +29,7 @@ Siga estas directrices para definir los niveles de acceso deseados para los usua
 
 * Se puede utilizar un símbolo de porcentaje (%) con CN (Nombre común) para permitir el acceso. Por ejemplo, /Users/%CN%/ permite el acceso al directorio Usuario que coincide con el nombre común del certificado SSL del [!DNL Insight] usuario. Tenga en cuenta que esta sintaxis solo se puede usar una vez en un URI.
 
-Los URI de los grupos de control de acceso predefinidos se han configurado de la siguiente manera:
+Los URI de los grupos de controles de acceso predefinidos se han configurado de la siguiente manera:
 
 <table id="table_8E6FDD741BF24E2DAD96A2919FAE6C7F"> 
  <thead> 
@@ -52,34 +55,34 @@ Los URI de los grupos de control de acceso predefinidos se han configurado de la
   </tr> 
   <tr> 
    <td colname="col1"> <p>Usuarios </p> </td> 
-   <td colname="col2"> <p>/Profiles/ </p> <p>/Estado/ </p> <p>/Software/ </p> <p>/Direcciones/ </p> <p>/Usuarios/$ </p> </td> 
+   <td colname="col2"> <p>/Perfiles/ </p> <p>/Estado/ </p> <p>/Software/ </p> <p>/Direcciones/ </p> <p>/Usuarios/$ </p> </td> 
    <td colname="col3"> /Usuarios/%CN%/ </td> 
    <td colname="col4"> <p>Acceso de lectura y escritura al directorio Usuario que coincide con el nombre común del certificado SSL del usuario de <span class="keyword"> Insight</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Usuarios avanzados </p> </td> 
-   <td colname="col2"> <p>/Profiles/$ </p> <p>/Estado/ </p> <p>/Software/ </p> <p>/Direcciones/ </p> <p>/Usuarios/$ </p> </td> 
-   <td colname="col3"> <p>/Profiles/ </p> <p>/Usuarios/%CN%/ </p> </td> 
-   <td colname="col4"> <p>Los usuarios avanzados tienen el mismo acceso que los usuarios, con la capacidad añadida de escribir en el directorio Perfiles. Estos usuarios pueden editar perfiles y permitir que los cambios se actualicen automáticamente para otros usuarios de <span class="keyword"> Insight</span> , como al distribuir espacios de trabajo recién definidos. </p> </td> 
+   <td colname="col2"> <p>/Perfiles/$ </p> <p>/Estado/ </p> <p>/Software/ </p> <p>/Direcciones/ </p> <p>/Usuarios/$ </p> </td> 
+   <td colname="col3"> <p>/Perfiles/ </p> <p>/Usuarios/%CN%/ </p> </td> 
+   <td colname="col4"> <p>Los usuarios avanzados tienen el mismo acceso que los usuarios, con la capacidad añadida de escribir en el directorio de Perfiles. Estos usuarios pueden editar perfiles y permitir que los cambios se actualicen automáticamente para otros usuarios de <span class="keyword"> Insight</span> , como al distribuir espacios de trabajo recién definidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores de clúster </p> </td> 
-   <td colname="col2"> <p>/Componentes para servidores de procesamiento/ </p> <p>/Direcciones/ </p> <p>/Profiles/ </p> <p>/Lookups/ </p> <p>/Access Control/ </p> <p>/Bin/ </p> <p>/Registros/ </p> </td> 
+   <td colname="col2"> <p>/Componentes para servidores de procesamiento/ </p> <p>/Direcciones/ </p> <p>/Perfiles/ </p> <p>/Lookups/ </p> <p>/Control de acceso/ </p> <p>/Bin/ </p> <p>/Registros/ </p> </td> 
    <td colname="col3"> <p>/Cluster/ </p> </td> 
    <td colname="col4"> <p>Acceso de lectura y escritura al directorio Cluster. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores de informes </p> </td> 
-   <td colname="col2"> <p>/Profiles/$ </p> <p>/Estado/ </p> <p>/Software/ </p> <p>/Direcciones/ </p> <p>/Usuarios/$ </p> </td> 
-   <td colname="col3"> <p>/Profiles/ </p> <p>/Usuarios/%CN%/ </p> <p>/ReportStatus.vsp </p> </td> 
+   <td colname="col2"> <p>/Perfiles/$ </p> <p>/Estado/ </p> <p>/Software/ </p> <p>/Direcciones/ </p> <p>/Usuarios/$ </p> </td> 
+   <td colname="col3"> <p>/Perfiles/ </p> <p>/Usuarios/%CN%/ </p> <p>/ReportStatus.vsp </p> </td> 
    <td colname="col4"> <p>Los equipos de informes tienen el mismo acceso que los usuarios avanzados, con la capacidad adicional de escribir en el archivo <span class="filepath"> ReportStatus.vsp</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Para configurar el control de acceso**
+**Para configurar el Control de acceso**
 
-Al definir los grupos de control de acceso, debe incluir a todos los administradores de sistema, usuarios, servidores de clúster y usuarios del servidor de informes que requieran acceso a este [!DNL Insight Server] equipo. Puede otorgar acceso mediante la dirección IP o la información del certificado SSL, como el nombre común o la organización.
+Al definir grupos de controles de acceso, debe incluir a todos los administradores de sistemas, usuarios, servidores de clúster y usuarios del servidor de informes que necesiten acceder a este [!DNL Insight Server] equipo. Puede otorgar acceso mediante la dirección IP o la información del certificado SSL, como el nombre común o la organización.
 
 >[!NOTE]
 >
@@ -89,17 +92,17 @@ Al definir los grupos de control de acceso, debe incluir a todos los administrad
 
 1. Haga clic con el botón secundario en el icono del [!DNL Insight Server] que desee configurar y haga clic en **[!UICONTROL Files]**.
 
-1. En el [!DNL Server Files Manager], haga clic **[!UICONTROL Access Control]** para ver su contenido. El [!DNL Access Control.cfg] archivo se encuentra dentro de este directorio.
+1. En el [!DNL Server Files Manager], haga clic en **[!UICONTROL Access Control]** para vista de su contenido. El [!DNL Access Control.cfg] archivo se encuentra dentro de este directorio.
 
 1. Haga clic con el botón secundario en la marca de verificación de la columna del nombre *del* servidor [!DNL Access Control.cfg] y haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la [!DNL Temp] columna para [!DNL Access Control.cfg].
 
 1. Haga clic con el botón secundario en la marca de verificación recién creada en la [!DNL Temp] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Workstation]**.
 
-1. En la [!DNL Access Control.cfg] ventana, haga clic en **[!UICONTROL Access Control Groups]** para ver su contenido.
+1. En la [!DNL Access Control.cfg] ventana, haga clic en **[!UICONTROL Access Control Groups]** para vista de su contenido.
 
    ![](assets/access_ctrl_cfg.png)
 
-1. Para agregar un nuevo grupo de control de acceso:
+1. Para agregar un nuevo grupo de controles de acceso:
 
    1. Haga clic con el botón derecho **[!UICONTROL Access Control Groups]** y haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Group]**.
 
@@ -109,9 +112,9 @@ Al definir los grupos de control de acceso, debe incluir a todos los administrad
 
    1. Complete los parámetros.
 
-1. Para agregar nuevos miembros a un grupo de control de acceso existente:
+1. Para agregar nuevos miembros a un grupo de controles de acceso existente:
 
-   1. Haga clic con el botón secundario **[!UICONTROL Members]** en el grupo de control de acceso correspondiente y haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Member]**.
+   1. Haga clic con el botón secundario **[!UICONTROL Members]** en el grupo de controles de acceso correspondiente y haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Member]**.
 
 1. Guarde el archivo haciendo clic con el botón secundario **[!UICONTROL (modified)]** en la parte superior de la ventana y luego haciendo clic en **[!UICONTROL Save]**.
 
