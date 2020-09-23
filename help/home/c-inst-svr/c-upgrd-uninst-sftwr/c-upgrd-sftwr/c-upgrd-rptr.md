@@ -1,15 +1,18 @@
 ---
 description: Instrucciones para actualizar Repeater mediante Insight o para actualizar copiando archivos.
-solution: Insight
-title: Actualizando repetidor
+solution: Analytics
+title: Actualización del repetidor
 uuid: 2027ed9e-9dd9-40f5-b7e9-2709f8745b5c
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
 
-# Actualizando repetidor{#upgrading-repeater}
+# Actualización del repetidor{#upgrading-repeater}
 
 Instrucciones para actualizar Repeater mediante Insight o para actualizar copiando archivos.
 
@@ -24,7 +27,7 @@ Puede utilizar uno de los siguientes métodos para actualizar [!DNL Repeater] de
 ## Actualización del repetidor con Insight {#section-59c24448fd0f45c08abd0245ad746764}
 
 1. En el [!DNL Insight] equipo, copie la [!DNL bin] carpeta del paquete de [!DNL Insight Server] actualización en la [!DNL Temp] carpeta del directorio donde [!DNL Insight] está instalado.
-1. Start [!DNL Insight].
+1. Inicio [!DNL Insight].
 1. En [!DNL Insight], en la ficha [!DNL Admin] > [!DNL Dataset and Profile] , haga clic en la **[!UICONTROL Servers Manager]** miniatura para abrir el espacio de trabajo del Administrador de servidores.
 1. Haga clic con el botón secundario en el icono del [!DNL Repeater] que desea actualizar y haga clic en **[!UICONTROL Server Files]**.
 1. En el [!DNL Server Files Manager], haga lo siguiente para cargar los archivos de actualización en el servidor:
