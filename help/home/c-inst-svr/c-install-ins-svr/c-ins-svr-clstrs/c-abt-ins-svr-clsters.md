@@ -1,13 +1,13 @@
 ---
 description: Se requiere un clúster de Insight Server cuando la cantidad de datos que desea procesar y hacer accesible a los usuarios de Insight e Report supera la capacidad de un solo servidor de Insight.
-solution: Insight
+solution: Analytics
 title: Acerca de los clústeres de Insight Server
 uuid: d65e0fe5-f87d-4d8e-a208-9192e9d62fb5
 translation-type: tm+mt
-source-git-commit: 2c1b2adfe8bf479c2a8cbd150ed006be2336022c
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,13 @@ El primer paso en la implementación de un [!DNL Insight Server] clúster es asi
 
 >[!NOTE]
 >
->Si utiliza una unidad de servidor de [!DNL Insight Server] archivos (FSU), Adobe recomienda configurar la FSU como la unidad maestra [!DNL Insight Server]. Para obtener información sobre la configuración de una FSU, consulte la Guía *de configuración de* Dataset.
+>Si utiliza una unidad de servidor de [!DNL Insight Server] archivos (FSU), Adobe recomienda que configure la FSU como la unidad maestra [!DNL Insight Server]. Para obtener información sobre la configuración de una FSU, consulte la Guía *de configuración de* Dataset.
 
 El maestro [!DNL Insight Server] administra la comunicación entre el otro [!DNL Insight Servers] en el clúster (llamados servidores de procesamiento o, a veces, servidores de consulta) y las instancias de [!DNL Insight] y [!DNL Report]. Para un conjunto de datos determinado, el procesamiento del archivo de registro se produce en el (uno o más) designado [!DNL Insight Servers] (maestro o procesamiento) como se especifica en los archivos de [!DNL Insight Server] configuración. Cuando se trabaja en un entorno agrupado, [!DNL Insight] las instalaciones se configuran para acceder al maestro [!DNL Insight Server], pero cualquiera de las consultas puede gestionarlas [!DNL Insight Servers] dentro del clúster.
 
 >[!NOTE]
 >
->Archivo **PAServer.cfg** . Si desea enviar trabajos de clustering predictivo de Analytics a los servidores de Insight, deberá configurar el [!DNL PAServer.cfg] archivo para administrar los envíos de clustering del lado del servidor. El perfil personalizado debe heredar el [!DNL PAServer.cfg] del perfil de Analytics predictivo ([!DNL Server\Profiles\Predictive Analytics\Dataset]). Establezca un *servidor* maestro en este archivo y guarde el [!DNL PAServer.cfg] en el sitio de implementación.
+>Archivo **PAServer.cfg** . Si desea enviar trabajos de clúster de Predictive Analytics a los servidores de Insight, deberá configurar el [!DNL PAServer.cfg] archivo para gestionar los envíos de clúster del lado del servidor. El perfil personalizado debe heredar el [!DNL PAServer.cfg] del perfil de análisis predictivo ([!DNL Server\Profiles\Predictive Analytics\Dataset]). Establezca un *servidor* maestro en este archivo y guarde el [!DNL PAServer.cfg] en el sitio de implementación.
 >
 >
 ```
