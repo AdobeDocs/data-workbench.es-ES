@@ -1,16 +1,19 @@
 ---
 description: Debe agregar el campo x-experience al archivo Log Processing.cfg, que se utiliza para crear una dimensión ampliada.
-solution: Insight,Analytics
-title: Modificación del procesamiento de registros.cfg
+solution: Analytics,Analytics
+title: Modificación de Log Processing.cfg
 topic: Data workbench
 uuid: 9105b09b-e3d5-4922-a205-b459553a4bec
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
 
-# Modificación del procesamiento de registros.cfg{#modifying-log-processing-cfg}
+# Modificación de Log Processing.cfg{#modifying-log-processing-cfg}
 
 Debe agregar el campo x-experience al archivo Log Processing.cfg, que se utiliza para crear una dimensión ampliada.
 
@@ -18,7 +21,7 @@ Consulte [Modificación de Transformation.cfg](../../../home/c-undst-ctrld-exp/c
 
 **Para modificar Log Processing.cfg**
 
-1. En [!DNL Insight], abra la [!DNL Profile Manager] ficha haciendo clic con el botón secundario en un espacio de trabajo y haciendo clic en **[!UICONTROL Admin]** > **[!UICONTROL Profile Manager]**, o bien, abriendo el espacio de trabajo Administración de perfiles en la [!DNL Admin] ficha.
+1. En [!DNL Insight], abra la [!DNL Profile Manager] ficha haciendo clic con el botón derecho en un espacio de trabajo y haciendo clic en **[!UICONTROL Admin]** > **[!UICONTROL Profile Manager]**, o bien, abriendo el espacio de trabajo de administración de Perfiles en la [!DNL Admin] ficha.
 1. En el [!DNL Profile Manager], haga clic **[!UICONTROL Dataset]** para mostrar su contenido.
 1. Haga clic con el botón secundario en la marca de verificación situada junto a [!DNL Log Processing.cfg] y haga clic en **[!UICONTROL Make Local]**. En la [!DNL User] columna aparece una marca de verificación para este archivo.
 1. Haga clic con el botón secundario en la marca de verificación recién creada y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Insight]**. Aparecerá la [!DNL Log Processing.cfg] ventana.
