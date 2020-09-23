@@ -1,11 +1,14 @@
 ---
 description: Después de implementar el experimento, debe validar que el experimento funciona correctamente.
-solution: Insight,Analytics
+solution: Analytics,Analytics
 title: Validación del experimento
 topic: Data workbench
 uuid: 59769f5b-4175-479e-ad7d-7226e9c666af
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 2%
 
 ---
 
@@ -34,11 +37,11 @@ Por ejemplo:
 
 Cuando la solicitud de URL virtual se envía al servidor, [!DNL Sensor] lo identifica como miembro del grupo especificado dentro del experimento especificado y, a continuación, lo redirige a la raíz del sitio web. Ahora puede desplazarse a la ubicación adecuada en el sitio web para validar si se muestra el contenido correcto para ese experimento y grupo.
 
-Si escribiera lo siguiente en el explorador, éste mostrará la página principal del sitio web y lo colocará en el grupo index2 dentro del experimento New_Homepage:
+Si escribiera lo siguiente en el explorador, éste mostrará la página de inicio del sitio web y lo colocará en el grupo index2 dentro del experimento New_Homepage:
 
 [!DNL http://www.omniture.com/setcookie.htm?New_Homepage=index2]
 
-Cuando los visitantes del grupo index2 solicitan la página principal, el vínculo gráfico &quot;Solicitar una demostración&quot; aparece más arriba en la página, como en el siguiente gráfico:
+Cuando los visitantes del grupo index2 solicitan la página de inicio, el vínculo gráfico &quot;Solicitar una demostración&quot; aparece más arriba en la página, como en el siguiente gráfico:
 
 ![](assets/TestPage.png)
 
