@@ -1,33 +1,36 @@
 ---
-description: Para detectar los errores del sensor lo antes posible y repararlos antes de que causen problemas o interrupciones importantes, debe supervisar regularmente los registros de eventos.
-solution: Insight
-title: Monitoreo de eventos administrativos
+description: Para detectar los errores del sensor lo antes posible y repararlos antes de que causen problemas o interrupciones importantes, debe supervisar regularmente los registros del Evento.
+solution: Analytics
+title: Supervisión de los eventos administrativos
 uuid: c43d6509-6950-4436-8d6c-be7b00664f05
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
 
-# Monitoreo de eventos administrativos{#monitoring-administrative-events}
+# Supervisión de los eventos administrativos{#monitoring-administrative-events}
 
-Para detectar los errores del sensor lo antes posible y repararlos antes de que causen problemas o interrupciones importantes, debe supervisar regularmente los registros de eventos.
+Para detectar los errores del sensor lo antes posible y repararlos antes de que causen problemas o interrupciones importantes, debe supervisar regularmente los registros del Evento.
 
 **Frecuencia recomendada:** Al menos por hora
 
-Puede controlar estos eventos mediante el visor de eventos de Windows o el archivo syslog Unix y los [!DNL *.sensor-log] archivos ubicados de forma predeterminada en la [!DNL Logs] carpeta dentro del directorio de [!DNL Sensor] instalación. Estos archivos indican la presencia de errores durante la recopilación de datos, especialmente si un [!DNL Sensor] usuario no puede conectarse al destino [!DNL data workbench server] y comienza a poner en cola los datos.
+Puede supervisar estos eventos con el archivo de Windows Evento Viewer o Unix Syslog y los [!DNL *.sensor-log] archivos ubicados de forma predeterminada en la [!DNL Logs] carpeta del directorio de [!DNL Sensor] instalación. Estos archivos indican la presencia de errores durante la recopilación de datos, especialmente si un usuario [!DNL Sensor] no puede conectarse a los datos de cola de destinatarios [!DNL data workbench server] y inicios.
 
-## Monitoreo de eventos en Windows {#section-7c0443a356af4381bf22259654f5cd17}
+## Monitoreo de Eventos en Windows {#section-7c0443a356af4381bf22259654f5cd17}
 
-El sensor registra errores en el registro de aplicaciones del visor de eventos de Windows con una fuente de &quot;Adobe&quot;.
+El sensor registra errores en el registro de aplicaciones del visor de Evento de Windows con una fuente de &quot;Adobe&quot;.
 
 Los mensajes se registran como &quot;Información&quot;, &quot;Advertencia&quot; o &quot;Error&quot; según su gravedad.
 
-**Para abrir el Visor** de eventos de Windows:
+**Para abrir el visor** de Evento de Windows:
 
-* Haga clic en **Inicio > Panel de control > Herramientas administrativas > Visor** de eventos.
+* Haga clic en **Inicio > Panel de control de Campaign > Herramientas administrativas > Visor** de Evento.
 
-## Monitoreo de eventos en Unix {#section-5de3947891fb47ac88b7c855e545d54a}
+## Monitoreo de Eventos en Unix {#section-5de3947891fb47ac88b7c855e545d54a}
 
 El sensor registra errores en el [!DNL syslog] demonio.
 
@@ -55,15 +58,15 @@ Todos los mensajes del sensor contienen la cadena &quot;Sensor&quot; y están nu
 >
 >Las advertencias (2xxx) no están en uso actualmente. Estos números están reservados para uso futuro.
 
-La herramienta de administración de red se puede configurar para que supervise sus mensajes cada 5-10 minutos en busca de errores con la fuente &quot;Sensor&quot; y para que avise al personal apropiado sobre los problemas que puedan requerir la intervención. Puede elegir supervisar el sistema solo para determinados tipos de mensajes de evento, como la cadena &quot;Error de sensor&quot;. De forma alternativa, puede aplicar distintas reglas a los eventos con las cadenas &quot;Sensor Info&quot;, &quot;Sensor Warning&quot; y &quot;Sensor Error&quot;.
+La herramienta de administración de red se puede configurar para que supervise sus mensajes cada 5-10 minutos en busca de errores con la fuente &quot;Sensor&quot; y para que avise al personal apropiado sobre los problemas que puedan requerir la intervención. Puede elegir supervisar el sistema solo para determinados tipos de mensajes de Evento, como la cadena &quot;Error de sensor&quot;. De forma alternativa, puede aplicar diferentes reglas a los eventos con las cadenas &quot;Sensor Info&quot;, &quot;Sensor Warning&quot; y &quot;Sensor Error&quot;.
 
 ## Identificación de mensajes importantes {#section-5a20f5dc18ca4012931d194db855e54e}
 
-Dentro de los registros de eventos, debe prestar especial atención a cualquier mensaje relacionado con el tamaño de la cola y enviarlo inmediatamente.
+Dentro de los registros de evento, debe prestar especial atención a cualquier mensaje relacionado con el tamaño de la cola y enviarlo inmediatamente.
 
 Por ejemplo, mensajes como &quot; [!DNL Sensor Info 1012: Adobe disk queue is #% full]&quot; necesitan atención.
 
-## Respuesta a los mensajes de eventos de sensor {#section-0004c4a169dc4a8882d9bd87dd326ad4}
+## Respuesta a los mensajes de Evento del sensor {#section-0004c4a169dc4a8882d9bd87dd326ad4}
 
 Tablas que describen eventos de sensor y acciones sugeridas para las plataformas de servidor web admitidas.
 
@@ -72,7 +75,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
 <table id="table_F8835AC0AD8F43E2B4494D8D35EBC0FD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Mensaje del evento </th> 
+   <th colname="col1" class="entry"> Mensaje de evento </th> 
    <th colname="col2" class="entry"> Acción sugerida </th> 
   </tr>
  </thead>
@@ -86,7 +89,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
    <td colname="col2"> No se requiere ninguna acción. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Información de sensor 1012: La cola de disco de Adobe está #% llena </td> 
+   <td colname="col1"> Información de sensor 1012: La cola de Adobe está #% llena </td> 
    <td colname="col2"> Este mensaje se registra cada vez que la utilización de la cola de discos supera un umbral del 10 %. Si este porcentaje sigue creciendo, se debe realizar una acción antes de que la cola esté llena y se pierdan los datos. El problema más probable es que el sensor haya dejado de comunicarse con el servidor de Insight. Póngase en contacto con Adobe ClientCare. </td> 
   </tr> 
   <tr> 
@@ -114,7 +117,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
    <td colname="col2"> <p>Confirme que el archivo de experimento controlado especificado en txlogd.conf existe y que el proceso txlogd tiene los permisos necesarios para leer el archivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Error de sensor 3018: No se pueden analizar las listas de filtros de contenido. Comprobar archivo de configuración txlogd </td> 
+   <td colname="col1"> Error de sensor 3018: No se pueden analizar las listas del filtro de contenido. Comprobar archivo de configuración txlogd </td> 
    <td colname="col2"> Compruebe la sintaxis de las entradas ContentFilterInclude y ContentFilterExclude en txlogd.conf. </td> 
   </tr> 
   <tr> 
@@ -182,7 +185,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
 
 **Servidor HTTP Apache/IBM**
 
-| Mensaje del evento | Acción sugerida |
+| Mensaje de evento | Acción sugerida |
 |---|---|
 | Error de sensor 3015: Falta la directiva VisualSciencesConfig en httpd.conf. | Se trata de un error de configuración. La directiva VisualSciencesConfig debe estar en httpd.conf con un parámetro que sea la ubicación de txlogd.conf. |
 | Error de sensor 3019: no se llamó a vys-cookie antes de vys-log. Comuníquese con la asistencia técnica. | Póngase en contacto con Adobe ClientCare. |
@@ -190,7 +193,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
 
 **Servidor AOL**
 
-| Mensaje del evento | Acción sugerida |
+| Mensaje de evento | Acción sugerida |
 |---|---|
 | Error de sensor 3015: Falta la sección ns/server/[server]/module/[module] en el archivo de configuración de AOLServer. | Se trata de un error de configuración. Corregir como se indica en el error. |
 | Error de sensor 3019: no se llamó a vys-cookie antes de vys-log. Comuníquese con la asistencia técnica. Póngase en contacto con Adobe ClientCare. | Comuníquese con la asistencia técnica. Póngase en contacto con Adobe ClientCare. |
@@ -199,7 +202,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
 
 **Servidores Web de sistemas iPlanet y Java**
 
-| Mensaje del evento | Acción sugerida |
+| Mensaje de evento | Acción sugerida |
 |---|---|
 | Error de sensor 3011: Se requiere la directiva Init. Como Init fn=vys-init config-file=&quot;/mypath/myfile&quot; | Se trata de un error de configuración. Falta la directiva iPlanet init. |
 | Error de sensor 3015: config-file no está especificado en la directiva iPlanet Init | Se trata de un error de configuración. La ruta de acceso al archivo de configuración no se proporcionó en la directiva iPlanet Init. |
