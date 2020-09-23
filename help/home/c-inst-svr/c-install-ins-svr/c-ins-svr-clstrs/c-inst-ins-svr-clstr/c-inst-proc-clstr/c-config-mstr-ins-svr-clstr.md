@@ -1,15 +1,18 @@
 ---
 description: Información sobre la configuración del clúster en el servidor de Master Insight Server, la actualización del archivo control de acceso para un clúster y mucho más.
-solution: Insight
-title: Configuración del servidor maestro de perspectiva para la agrupación en clúster
+solution: Analytics
+title: Configuración de Master Insight Server para la agrupación en clúster
 uuid: c3ac38e3-79c5-4863-9156-194589a6bcbd
 translation-type: tm+mt
-source-git-commit: b5a22e7a050d7c01570286dcb54e368f7ecdbcd8
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '1244'
+ht-degree: 1%
 
 ---
 
 
-# Configuración del servidor maestro de perspectiva para la agrupación en clúster{#configuring-the-master-insight-server-for-clustering}
+# Configuración de Master Insight Server para la agrupación en clúster{#configuring-the-master-insight-server-for-clustering}
 
 Información sobre la configuración del clúster en el servidor de Master Insight Server, la actualización del archivo control de acceso para un clúster y mucho más.
 
@@ -26,7 +29,7 @@ Para completar estos pasos, debe conocer los nombres comunes (según se especifi
 
 >[!NOTE]
 >
->Los procedimientos descritos en esta sección requieren [!DNL Insight]. Si no ha instalado [!DNL Insight], siga las instrucciones de la **[!DNL Insight]Guía **del usuario antes de continuar.
+>Los procedimientos descritos en esta sección requieren [!DNL Insight]. Si no ha instalado [!DNL Insight], siga las instrucciones de la **[!DNL Insight]Guía** del usuario antes de continuar.
 
 ## Añadir los servidores de perspectiva de procesamiento en el archivo de direcciones {#section-2fe5298180164e8dbaa59ea6b6ff682d}
 
@@ -36,7 +39,7 @@ Utilice el procedimiento siguiente para agregar los nombres [!DNL Insight Server
 >
 >Lo siguiente supone que el archivo de dirección ya se ha configurado para el maestro [!DNL Insight Server]. Si aún no ha agregado las direcciones [!DNL Insight Server’s] IP maestras al archivo de direcciones, complete el procedimiento descrito en [Definición de la ubicación](../../../../../../home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-svrs-ntwk-loc.md#concept-87dd2aa3448c415ca1285bc445a8c649) de red del servidor antes de comenzar.
 
-**Para agregar el procesamiento[!DNL Insight Servers]al archivo de dirección**
+**Para agregar el procesamiento[!DNL Insight Servers]al archivo de direcciones**
 
 1. Inicio [!DNL Insight] y cargue el perfil de configuración (si aún no está abierto) haciendo clic con el botón secundario en la barra de título y haciendo clic en **[!UICONTROL Switch Profile]** > **[!UICONTROL Configuration]**.
 
@@ -58,7 +61,7 @@ Utilice el procedimiento siguiente para agregar los nombres [!DNL Insight Server
    1. En el parámetro Name, especifique el nombre [!DNL Insight Server’s] común de procesamiento.
    1. En el parámetro Address, especifique la dirección [!DNL Insight Server’s] IP de procesamiento.
 
-      Puede utilizar un asterisco como comodín en el campo Dirección, como 10.10.116.*, para simplificar la agrupación en clúster. Consulte [Explicación de los niveles](../../../../../../home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-undst-acc-lvls.md#concept-6b292edf79214750a8d0525097b8795a)de acceso.
+      Puede utilizar un asterisco como comodín en el campo Dirección, como 10.10.116.*, para simplificar la agrupación en clúster. See [Understanding Access Levels](../../../../../../home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-undst-acc-lvls.md#concept-6b292edf79214750a8d0525097b8795a).
 
       El ejemplo siguiente define un clúster que contiene dos [!DNL Insight Servers]:
 
