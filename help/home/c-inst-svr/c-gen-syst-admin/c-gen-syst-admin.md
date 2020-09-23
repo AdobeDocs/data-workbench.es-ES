@@ -1,10 +1,13 @@
 ---
 description: Adobe recomienda que administre y supervise periódicamente el estado general de cada servidor en el que se instale un producto de software de Adobe.
-solution: Insight
+solution: Analytics
 title: Administración general de sistemas
 uuid: 36f87f65-3791-41fd-a4fb-b94f7fa32fac
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 5%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 Adobe recomienda que administre y supervise periódicamente el estado general de cada servidor en el que se instale un producto de software de Adobe.
 
-Se proporcionan recomendaciones e instrucciones generales para supervisar y administrar todos los equipos de Adobe.
+Se proporcionan recomendaciones generales e instrucciones para la monitorización y administración de todos los equipos de Adobe.
 
-Para obtener información sobre la administración de productos de software específicos de Adobe, consulte los capítulos individuales de esta guía.
+Para obtener información sobre la administración de productos de software de Adobe específicos, consulte los capítulos individuales de esta guía.
 
 >[!NOTE]
 >
