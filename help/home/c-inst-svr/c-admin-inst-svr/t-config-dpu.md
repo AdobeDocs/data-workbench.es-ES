@@ -1,10 +1,13 @@
 ---
 description: El archivo de configuración DPU, DPU.cfg, especifica varios parámetros de rendimiento para Insight Server.
-solution: Insight
+solution: Analytics
 title: Configuración de DPU.cfg
 uuid: c348622b-7d4b-4cfa-a8f8-a07d91e440d5
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
@@ -21,10 +24,10 @@ La manera de configurar estos parámetros depende del tamaño del conjunto de da
 
 1. En [!DNL Insight], en la ficha [!DNL Admin] > [!DNL Dataset and Profile] , haga clic en la **[!UICONTROL Servers Manager]** miniatura para abrir el espacio de trabajo del Administrador de servidores.
 1. Haga clic con el botón secundario en el icono del [!DNL Insight Server] que desee configurar y haga clic en **[!UICONTROL Server Files]**.
-1. En el [!DNL Server Files Manager], haga clic **[!UICONTROL Components]** para ver su contenido. El [!DNL DPU.cfg] archivo se encuentra dentro de este directorio.
+1. En el [!DNL Server Files Manager], haga clic en **[!UICONTROL Components]** para vista de su contenido. El [!DNL DPU.cfg] archivo se encuentra dentro de este directorio.
 1. Haga clic con el botón secundario en la marca de verificación de la columna del nombre *del* servidor [!DNL DPU.cfg] y haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la [!DNL Temp] columna para [!DNL DPU.cfg].
 1. Haga clic con el botón secundario en la marca de verificación recién creada en la [!DNL Temp] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Insight]**.
-1. En la [!DNL DPU.cfg] ventana, haga clic en el componente para ver su contenido.
+1. En la [!DNL DPU.cfg] ventana, haga clic en el componente para vista de su contenido.
 1. Cambie el rendimiento y la configuración de ruta, según sea necesario. Para obtener una lista de los parámetros disponibles en este archivo, consulte Configuración [de rendimiento de](../../../home/c-inst-svr/c-cfg-stgs-ref/c-dpu-perf-stgs.md#concept-477c4c526de44bda84176e62266c3df1)DPU.
 
    >[!NOTE]
