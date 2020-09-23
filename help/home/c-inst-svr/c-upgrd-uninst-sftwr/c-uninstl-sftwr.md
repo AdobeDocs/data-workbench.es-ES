@@ -1,10 +1,13 @@
 ---
 description: Instrucciones para desinstalar Insight Server, Transform o Repeater.
-solution: Insight
+solution: Analytics
 title: Desinstalación del software
 uuid: 79cf0db6-0f99-40fa-a7b0-38dd8d7246bd
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 4%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 Instrucciones para desinstalar Insight Server, Transform o Repeater.
 
-## Desinstalación de Insight Server Adobe {#section-7d7befe672854df79bb6c28ec02f6670}
+## Desinstalación del Adobe de Insight Server {#section-7d7befe672854df79bb6c28ec02f6670}
 
 1. Cancele el registro del servicio [!DNL Insight Server] Windows.
 
@@ -31,14 +34,14 @@ Instrucciones para desinstalar Insight Server, Transform o Repeater.
 
 ## Desinstalación de Transform {#section-5e6a604dadb5477ba4dc9f93c9be0897}
 
-1. Siga estos pasos para actualizar el [!DNL profile.cfg] archivo de cada perfil con el que estaba utilizando [!DNL Transform].
+1. Siga los pasos siguientes para actualizar el [!DNL profile.cfg] archivo de cada perfil con el que estaba utilizando [!DNL Transform].
 
    1. Abra el [!DNL Profile Manager].
    1. Haga clic con el botón secundario en la marca de verificación situada junto a [!DNL profile.cfg] y haga clic en **[!UICONTROL Make Local]**. En la [!DNL User] columna aparece una marca de verificación para este archivo.
 
    1. Haga clic con el botón secundario en la marca de verificación recién creada y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Insight]**. Aparecerá la [!DNL profile.cfg] ventana.
 
-   1. En la [!DNL profile.cfg] ventana, elimine la entrada del [!DNL Transform] perfil del vector Directorios.
+   1. En la [!DNL profile.cfg] ventana, elimine la entrada de [!DNL Transform] perfil del vector Directorios.
 
    1. Haga clic con el botón secundario **[!UICONTROL (modified)]** en la parte superior de la ventana y haga clic en **[!UICONTROL Save]**.
 
