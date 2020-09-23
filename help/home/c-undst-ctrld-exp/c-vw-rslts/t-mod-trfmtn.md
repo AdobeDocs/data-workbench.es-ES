@@ -1,18 +1,21 @@
 ---
-description: Ahora que el campo x-experience está disponible, debe crear una dimensión ampliada para incluir el campo x-experience en el conjunto de datos, lo que le permite ver los resultados en Insight.
-solution: Insight,Analytics
+description: Ahora que el campo x-experience está disponible, debe crear una dimensión extendida para incluir el campo x-experience en el conjunto de datos, lo que le permite vista de los resultados en Insight.
+solution: Analytics,Analytics
 title: Modificación de Transformation.cfg
 topic: Data workbench
 uuid: c17e48db-8fd9-4640-b621-6963bb8223d7
 translation-type: tm+mt
-source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 2%
 
 ---
 
 
 # Modificación de Transformation.cfg{#modifying-transformation-cfg}
 
-Ahora que el campo x-experience está disponible, debe crear una dimensión ampliada para incluir el campo x-experience en el conjunto de datos, lo que le permite ver los resultados en Insight.
+Ahora que el campo x-experience está disponible, debe crear una dimensión extendida para incluir el campo x-experience en el conjunto de datos, lo que le permite vista de los resultados en Insight.
 
 Para ello, debe agregar una nueva dimensión al [!DNL Transformation.cfg] archivo.
 
@@ -22,7 +25,7 @@ El siguiente procedimiento incluye la creación de la nueva transformación Spli
 
 **Para modificar Transformation.cfg**
 
-1. En [!DNL Insight], abra la [!DNL Profile Manager] ficha haciendo clic con el botón secundario en un espacio de trabajo y haciendo clic en **[!UICONTROL Admin]** > **[!UICONTROL Profile Manager]**, o bien, abriendo el espacio de trabajo Administración de perfiles en la [!DNL Admin] ficha.
+1. En [!DNL Insight], abra la [!DNL Profile Manager] ficha haciendo clic con el botón derecho en un espacio de trabajo y haciendo clic en **[!UICONTROL Admin]** > **[!UICONTROL Profile Manager]**, o bien, abriendo el espacio de trabajo de administración de Perfiles en la [!DNL Admin] ficha.
 1. En el [!DNL Profile Manager], haga clic **[!UICONTROL Dataset]** para mostrar su contenido.
 1. Haga clic con el botón secundario en la marca de verificación situada junto a [!DNL Transformation.cfg] y haga clic en **[!UICONTROL Make Local]**. En la [!DNL User] columna aparece una marca de verificación para este archivo.
 1. Haga clic con el botón secundario en la marca de verificación recién creada y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Insight]**. Aparecerá la [!DNL Transformation.cfg] ventana.
