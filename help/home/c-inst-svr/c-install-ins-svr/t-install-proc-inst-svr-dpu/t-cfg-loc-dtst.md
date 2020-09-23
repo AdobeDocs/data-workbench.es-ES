@@ -1,17 +1,20 @@
 ---
-description: De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos de programa de Insight Server.
-solution: Insight
+description: De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos programa de Insight Server.
+solution: Analytics
 title: Configuración de la ubicación del conjunto de datos (temp.db)
 uuid: a6884cad-70ed-4bc6-853c-700d301fb178
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 5%
 
 ---
 
 
 # Configuración de la ubicación del conjunto de datos (temp.db){#configuring-the-location-of-the-dataset-temp-db}
 
-De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos de programa de Insight Server.
+De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos programa de Insight Server.
 
 Por ejemplo, si instala [!DNL Insight Server] en la unidad C, escribe el conjunto de datos en la unidad C.
 
@@ -47,5 +50,5 @@ Si desea [!DNL Insight Server] mantener el conjunto de datos en una unidad difer
 
    >[!NOTE]
    >
-   >Tenga en cuenta el uso de las barras invertidas dobles en los nombres de archivo anteriores. En los archivos [!DNL Insight Server] de configuración, el carácter de barra invertida es un carácter de escape. Se utiliza para expresar secuencias de control especiales (por ejemplo, \t para un carácter de tabulación) en el texto. Para representar un carácter de barra invertida real, debe escribir la barra invertida dos veces (por ejemplo, \\) para anular la función de escape. Esto solo se aplica cuando se editan archivos de configuración en un editor de texto como Bloc de notas.
+   >Tenga en cuenta el uso de las barras invertidas de doble en los nombres de archivo anteriores. En los archivos [!DNL Insight Server] de configuración, el carácter de barra invertida es un carácter de escape. Se utiliza para expresar secuencias de control especiales (por ejemplo, \t para un carácter de tabulación) en el texto. Para representar un carácter de barra invertida real, debe escribir la barra invertida dos veces (por ejemplo, \\) para anular la función de escape. Esto solo se aplica cuando se editan archivos de configuración en un editor de texto como Bloc de notas.
 
