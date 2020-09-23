@@ -1,10 +1,13 @@
 ---
 description: El archivo de dirección instalado en Insight Server contiene cuatro ubicaciones de red predefinidas.
-solution: Insight
+solution: Analytics
 title: El archivo de direcciones instalado en el servidor de Insight
 uuid: a58d36d8-e1a3-43e7-91c5-c57351e1be49
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 2%
 
 ---
 
@@ -90,7 +93,7 @@ El siguiente procedimiento describe cómo configurar el archivo de dirección pa
  </tbody> 
 </table>
 
-1. Si [!DNL Insight Server] tiene direcciones IP adicionales, cree una NetworkLocation adicional para cada dirección. (Una manera fácil de hacerlo es hacer una copia de NetworkLocation que creó anteriormente y actualizar la dirección IP en la copia).
+1. Si [!DNL Insight Server] tiene direcciones IP adicionales, cree una NetworkLocation adicional para cada dirección. (Una manera sencilla de hacerlo es hacer una copia de NetworkLocation que creó anteriormente y actualizar la dirección IP en la copia).
 
    Puede agregar el nuevo NetworkLocation al final del archivo de dirección o insertarlo entre las definiciones de NetworkLocation existentes. (La posición de un NetworkLocation dentro del archivo de dirección no es significativa; sin embargo, [!DNL Insight]las ubicaciones de red, [!DNL Insight Server]y [!DNL Report] servidor generalmente se colocan al final del archivo).
 
