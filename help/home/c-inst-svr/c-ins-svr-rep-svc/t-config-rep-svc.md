@@ -1,28 +1,31 @@
 ---
-description: Debe configurar los servidores de Insight de destino para recuperar datos del repetidor en el que se almacenan los datos del evento original.
-solution: Insight
+description: Debe configurar los servidores de destinatario Insight para recuperar datos del repetidor en el que se almacenan los datos del evento original.
+solution: Analytics
 title: Configuración del servicio de replicación
 uuid: 93931b1d-d1fd-4e98-aa88-f7962eea92a2
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 1%
 
 ---
 
 
 # Configuración del servicio de replicación{#configuring-the-replication-service}
 
-Debe configurar los servidores de Insight de destino para recuperar datos del repetidor en el que se almacenan los datos del evento original.
+Debe configurar los servidores de destinatario Insight para recuperar datos del repetidor en el que se almacenan los datos del evento original.
 
-Para configurar la recuperación de datos de un destino [!DNL Repeater] a un destino [!DNL Insight Server], debe editar el [!DNL Replicate.cfg] archivo proporcionado en la [!DNL Components] carpeta del destino [!DNL Insight Server(s)] como se describe en el siguiente procedimiento:
+Para configurar la recuperación de datos de un [!DNL Repeater] a un destinatario [!DNL Insight Server], debe editar el [!DNL Replicate.cfg] archivo proporcionado en la [!DNL Components] carpeta del destinatario [!DNL Insight Server(s)] como se describe en el siguiente procedimiento:
 
-**Para configurar el[!DNL Replication Service]en el equipo de destino**
+**Para configurar el[!DNL Replication Service]en el equipo de destinatario**
 
 1. En [!DNL Insight], en la ficha [!DNL Admin] > [!DNL Dataset and Profile] , haga clic en la **[!UICONTROL Servers Manager]** miniatura para abrir el espacio de trabajo del Administrador de servidores.
-1. Haga clic con el botón secundario en el icono del destino [!DNL Insight Server] que desee configurar y haga clic en **[!UICONTROL Server Files]**.
-1. En el [!DNL Server Files Manager], haga clic **[!UICONTROL Components]** para ver su contenido. El [!DNL Replicate.cfg] archivo se encuentra dentro de este directorio.
+1. Haga clic con el botón secundario en el icono del destinatario [!DNL Insight Server] que desee configurar y haga clic en **[!UICONTROL Server Files]**.
+1. En el [!DNL Server Files Manager], haga clic en **[!UICONTROL Components]** para vista de su contenido. El [!DNL Replicate.cfg] archivo se encuentra dentro de este directorio.
 1. Haga clic con el botón secundario en la marca de verificación de la columna del nombre *del* servidor [!DNL Replicate.cfg] y haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la [!DNL Temp] columna para [!DNL Replicate.cfg].
 1. Haga clic con el botón secundario en la marca de verificación recién creada en la [!DNL Temp] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Insight]**. Se abre la [!DNL Replicate.cfg] ventana.
-1. En la [!DNL Replicate.cfg] ventana, haga clic en **[!UICONTROL Replicate.cfg]** y, a continuación, **[!UICONTROL component]** para ver su contenido.
+1. En la [!DNL Replicate.cfg] ventana, haga clic en **[!UICONTROL Replicate.cfg]** y, a continuación, **[!UICONTROL component]** para vista de su contenido.
 1. Edite los parámetros con el siguiente ejemplo y la tabla como guías:
 
    ![Información sobre los pasos](assets/cfg_ReplicateFile.png)
@@ -37,14 +40,14 @@ Para configurar la recuperación de datos de un destino [!DNL Repeater] a un des
    <tbody> 
    <tr> 
       <td colname="col1"> Directorios </td> 
-      <td colname="col2"> <p>Los directorios del <span class="wintitle"> Repetidor</span> que se van a copiar (replicar) en el <span class="keyword"> Insight Server</span>de destino. El servicio <span class="wintitle"> de</span> replicación permite la replicación de varios directorios desde un único <span class="wintitle"> repetidor</span>. </p> <p>Para agregar un nuevo directorio, haga clic con el botón secundario en <span class="uicontrol"> Directorios</span> y haga clic en <span class="uicontrol"> Agregar nuevo</span> &gt; <span class="uicontrol"> Directorio</span>. </p> </td> 
+      <td colname="col2"> <p>Los directorios del <span class="wintitle"> Repetidor</span> que se copiarán (replicarán) en el servidor <span class="keyword"> de destinatario</span>Insight. El servicio <span class="wintitle"> de</span> replicación permite la replicación de varios directorios desde un único <span class="wintitle"> repetidor</span>. </p> <p>Para agregar un nuevo directorio, haga clic con el botón secundario en <span class="uicontrol"> Directorios</span> y haga clic en <span class="uicontrol"> Añadir nuevo</span> &gt; <span class="uicontrol"> Directorio</span>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> Acoplar rutas </td> 
       <td colname="col2"> <p>True o false. La acción definida por la configuración de este parámetro depende de la configuración del parámetro Recursive en este archivo: 
       <ul id="ul_D4BF3C22FBEF41C290ED938EB57E0F27">
       <li id="li_CB85E5AF9E1B4441AA38C2DB8D4F1800">Si Recursivo es falso, Acoplar rutas no tiene ningún efecto. Solo se replican los archivos del nivel superior del directorio especificado por el parámetro URI remoto. </li>
-      <li id="li_8FDB351102344E3995035557445354BB">Si Recursive es true y Flatten Paths es false, la estructura de directorio del directorio remoto (<span class="wintitle"> Repeater</span>) se duplica exactamente en la ruta local del <span class="keyword"> servidor</span>de Insight de destino. </li>
+      <li id="li_8FDB351102344E3995035557445354BB">Si Recursive es true y Flatten Paths es false, la estructura de directorio del directorio remoto (<span class="wintitle"> Repeater</span>) se duplica exactamente en la ruta local del servidor <span class="keyword"> de destinatario</span>Insight. </li>
       <li id="li_3114B191C73744658799E112C61AB004">Si las rutas Recursiva y Acoplar son verdaderas, no se crean subdirectorios en la ruta local. En su lugar, todos los archivos del árbol del directorio remoto se colocan en el nivel superior del directorio local. </li>
       </ul></p> <p> <p>Nota: Si tanto las Rutas de acoplamiento como las Recursivas son verdaderas y los archivos de los distintos subdirectorios del equipo remoto comparten los mismos nombres, el servicio <span class="wintitle"></span> de replicación puede detenerse o puede producirse otro comportamiento no definido. </p> </p> </td> 
    </tr> 
@@ -58,11 +61,11 @@ Para configurar la recuperación de datos de un destino [!DNL Repeater] a un des
    </tr> 
    <tr> 
       <td colname="col1"> URI remoto </td> 
-      <td colname="col2">El URI, incluida una máscara de archivo, para acceder al almacén de archivos del <span class="wintitle"> repetidor</span> . El <span class="filepath"> archivo Communications.cfg</span> del <span class="wintitle"> Repetidor</span> debe configurarse para que se pueda acceder a los datos del evento mediante este URI. Consulte <a href="../../../home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/t-mntr-evt-data-spc.md#task-a54d4bd16b96437f943cd09e5d848440"> Monitoreo del espacio</a>de datos del evento. </td> 
+      <td colname="col2">El URI, incluida una máscara de archivo, para acceder al almacén de archivos del <span class="wintitle"> repetidor</span> . El <span class="filepath"> archivo Communications.cfg</span> del <span class="wintitle"> Repetidor</span> debe configurarse para que se pueda acceder a los datos del evento mediante este URI. See <a href="../../../home/c-inst-svr/c-admin-inst-svr/c-mntr-disk-spc/t-mntr-evt-data-spc.md#task-a54d4bd16b96437f943cd09e5d848440"> Monitoring Event Data Space</a>. </td> 
    </tr> 
    <tr> 
       <td colname="col1"> Servidor </td> 
-      <td colname="col2">Parámetros del <span class="wintitle"> repetidor</span> desde el que el servidor <span class="keyword"> de</span> Insight de destino recupera los archivos de datos de eventos. </td> 
+      <td colname="col2">Parámetros del <span class="wintitle"> Repetidor</span> desde el que destinatario <span class="keyword"> Insight Server</span> recupera los archivos de datos de evento. </td> 
    </tr> 
    <tr> 
       <td colname="col1"> Nombre </td> 
@@ -86,15 +89,15 @@ Para configurar la recuperación de datos de un destino [!DNL Repeater] a un des
    </tr> 
    <tr> 
       <td colname="col1"> Usar SSL </td> 
-      <td colname="col2"> <p>Determina si se utiliza SSL para la transmisión de datos. Las opciones son true o false y el valor predeterminado es false. </p> <p> <p>Nota: No se recomienda utilizar SSL porque puede afectar negativamente al rendimiento. Tenga en cuenta que SSL no es necesario a menos que la red que conecta el <span class="wintitle"> Repetidor</span> a los equipos de destino no sea segura. </p> </p> </td> 
+      <td colname="col2"> <p>Determina si se utiliza SSL para la transmisión de datos. Las opciones son true o false y el valor predeterminado es false. </p> <p> <p>Nota: No se recomienda utilizar SSL porque puede afectar negativamente al rendimiento. Tenga en cuenta que SSL no es necesario a menos que la red que conecta el <span class="wintitle"> Repetidor</span> a los equipos de destinatario no sea segura. </p> </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> Hora de finalización, Hora de inicio </td> 
-      <td colname="col2"> <p>(Opcional) Limita el conjunto de archivos de datos de eventos copiados en el servidor <span class="keyword"> de</span> Insight de destino a los que contienen datos en el intervalo definido por Hora de inicio y Hora de finalización. Si se establece la hora de inicio, no se copian los archivos de datos de eventos en los que todas las entradas de registro son anteriores a la hora de inicio especificada. Si se establece la hora de finalización, los archivos de datos del evento en los que no se copian todas las entradas del registro a partir del tiempo especificado o posterior. Si sólo una parte de los datos de un archivo se encuentra en el rango especificado, el archivo completo se copia en el equipo de destino. </p> <p>Adobe recomienda utilizar uno de los siguientes formatos para el momento: 
+      <td colname="col1"> Hora de finalización, hora de Inicio </td> 
+      <td colname="col2"> <p>(Opcional) Limita el conjunto de archivos de datos de evento copiados en destinatario <span class="keyword"> Insight Server</span> a los que contienen datos en el intervalo definido por Hora de Inicio y Hora de finalización. Si se establece la hora de Inicio, no se copian los archivos de datos de evento en los que todas las entradas de registro son anteriores a la hora de inicio especificada. Si se establece la hora de finalización, los archivos de datos de evento en los que no se copian todas las entradas de registro del tiempo especificado o posterior. Si sólo una parte de los datos de un archivo se encuentra en el rango especificado, el archivo completo se copia en el equipo de destinatario. </p> <p>Adobe recomienda utilizar uno de los siguientes formatos para el momento: 
       <ul id="ul_AE15A159A4C043398B37AD56FDFD9DCA">
       <li id="li_4DEF0F13D13E43E39CBD1A0F32765F32">1 de enero de 2013 HH:MM:SS EDT </li>
       <li id="li_E3275312E93D4C1FAA028543DC21B51A">1 de enero de 2013 HH:MM:SS GMT </li>
-      </ul></p> <p> <p>Nota: Debe especificar una zona horaria. La zona horaria no se establece de forma predeterminada en la hora del sistema si no se especifica. Si desea implementar Daylight Saving Time o una política de cambio de reloj similar, debe guardar el archivo <span class="filepath"> .dst</span> que contiene las reglas correspondientes en el Base\Dataset\Timezone directory on the <span class="keyword"> Insight Server</span> . Para obtener una lista de abreviaciones de zona horaria admitidas e información sobre la implementación de Horario de verano de verano, consulte <a href="../../../home/c-inst-svr/c-time-zn-cds.md#concept-eed5ba32d5d347cf94b76db83b29f211"> Códigos</a>de zona horaria. </p> </p> <p> <p>Nota:  Para utilizar esta configuración, los nombres de los archivos de datos del evento deben comenzar con una fecha ISO (AAAAMMDD) y cada archivo debe contener datos para el período de 24 horas que comienza a las 12 AM GMT de esa fecha. </p> </p> </td> 
+      </ul></p> <p> <p>Nota: Debe especificar una zona horaria. La zona horaria no se establece de forma predeterminada en la hora del sistema si no se especifica. Si desea implementar Daylight Saving Time o una política de cambio de reloj similar, debe guardar el archivo <span class="filepath"> .dst</span> que contiene las reglas correspondientes en el Base\Dataset\Timezone directory on the <span class="keyword"> Insight Server</span> . Para obtener una lista de las abreviaturas de zona horaria admitidas e información sobre la implementación del horario de verano, consulte <a href="../../../home/c-inst-svr/c-time-zn-cds.md#concept-eed5ba32d5d347cf94b76db83b29f211"> Códigos</a>de zona horaria. </p> </p> <p> <p>Nota:  Para utilizar esta configuración, los nombres de los archivos de datos de evento deben comenzar con una fecha ISO (AAAAMMDD) y cada archivo debe contener datos para el período de 24 horas que comienza a las 12 AM GMT de esa fecha. </p> </p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -108,7 +111,7 @@ Para configurar la recuperación de datos de un destino [!DNL Repeater] a un des
 
 Este ejemplo ilustra cómo se copian los archivos si los parámetros Acoplar rutas y Recursivo están definidos como true.
 
-Supongamos que el URI remoto es [!DNL /RemoteRoot/] y que la ruta de acceso local es [!DNL E:\LocalRoot\]. En el equipo remoto ( [!DNL Repeater]), los archivos están organizados de la siguiente manera:
+Supongamos que el URI remoto es [!DNL /RemoteRoot/] y que la ruta local es [!DNL E:\LocalRoot\]. En el equipo remoto ( [!DNL Repeater]), los archivos están organizados de la siguiente manera:
 
 * [!DNL /RemoteRoot/fileA.txt]
 * [!DNL /RemoteRoot/Dir1/fileB.txt]
