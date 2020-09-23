@@ -1,15 +1,18 @@
 ---
 description: Si los servidores de seguridad de red no impiden el acceso al servidor repetidor desde los equipos de Insight, puede crear una conexión entre el servidor repetidor y Insight para poder administrar el servidor repetidor mediante Insight.
-solution: Insight
-title: Creación de una conexión entre Insight y Repeater
+solution: Analytics
+title: Creación de una conexión entre Insight y el repetidor
 uuid: dccce83a-8708-4763-a19a-64d905a9f624
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 4%
 
 ---
 
 
-# Creación de una conexión entre Insight y Repeater{#creating-a-connection-between-insight-and-repeater}
+# Creación de una conexión entre Insight y el repetidor{#creating-a-connection-between-insight-and-repeater}
 
 Si los servidores de seguridad de red no impiden el acceso al servidor repetidor desde los equipos de Insight, puede crear una conexión entre el servidor repetidor y Insight para poder administrar el servidor repetidor mediante Insight.
 
