@@ -1,17 +1,20 @@
 ---
-description: Para instalar el software de Insight Server, descargue los archivos de programa de la ubicación proporcionada por Adobe. Normalmente, el software se proporciona en un archivo comprimido desde un sitio FTP.
-solution: Insight
+description: Para instalar el software de Insight Server, descargue los archivos programa desde la ubicación proporcionada por Adobe. Normalmente, el software se proporciona en un archivo comprimido desde un sitio FTP.
+solution: Analytics
 title: Instalación de los archivos de programa de Insight Server
 uuid: 32fc61da-b5d0-4463-b655-d4e99ad960d4
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 10%
 
 ---
 
 
 # Instalación de los archivos de programa de Insight Server{#installing-the-insight-server-program-files}
 
-Para instalar el software de Insight Server, descargue los archivos de programa de la ubicación proporcionada por Adobe. Normalmente, el software se proporciona en un archivo comprimido desde un sitio FTP.
+Para instalar el software de Insight Server, descargue los archivos programa desde la ubicación proporcionada por Adobe. Normalmente, el software se proporciona en un archivo comprimido desde un sitio FTP.
 
 1. En el equipo con Windows, cree un directorio en el que realizar la instalación [!DNL Insight Server].
 
