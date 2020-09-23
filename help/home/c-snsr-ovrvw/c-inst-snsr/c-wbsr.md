@@ -1,10 +1,13 @@
 ---
 description: Instrucciones detalladas para instalar y configurar Sensor para WebSphere 5.x con AIX 5.1 o posterior.
-solution: Insight
+solution: Analytics
 title: WebSphere en AIX
 uuid: a5a3fd79-a7f0-4861-adca-8da3a185d0df
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '1645'
+ht-degree: 0%
 
 ---
 
@@ -13,15 +16,15 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 Instrucciones detalladas para instalar y configurar Sensor para WebSphere 5.x con AIX 5.1 o posterior.
 
-Los archivos de programa para [!DNL Sensor] se empaquetan en un archivo de instalación que se obtiene del sitio de descarga de Adobe. Si aún no dispone del archivo de [!DNL Sensor] instalación de su servidor web en particular, descárguelo (o bien, descárguelo de su representante de Adobe) antes de iniciar los procedimientos siguientes.
+Los archivos de programa para [!DNL Sensor] se empaquetan en un archivo de instalación que se obtiene del sitio de descarga de Adobe. Si aún no dispone del archivo de [!DNL Sensor] instalación de su servidor web en particular, descárguelo (u obtenerlo de su representante de Adobe) antes de comenzar los siguientes procedimientos.
 
 >[!NOTE]
 >
->El [!DNL Sensor] para servidores WebSphere no admite experimentación controlada. Para obtener información sobre la experimentación controlada, consulte la Guía de experimentos controlados *de Área de trabajo de datos.*
+>El [!DNL Sensor] para servidores WebSphere no admite experimentación controlada. Para obtener información sobre la experimentación controlada, consulte la Guía de experimentos controlados con *Datas Workbench.*
 
-## Instalación de los archivos de programa {#section-86f69127278c41bc90b97b68bb40bc6e}
+## Instalación de los archivos Programa {#section-86f69127278c41bc90b97b68bb40bc6e}
 
-Procedimiento para extraer e instalar los archivos de programa para Sensorto en el equipo servidor.
+Procedimiento para extraer e instalar los archivos programa para Sensorto en el equipo servidor.
 
 1. Inicie sesión como usuario raíz o como usuario con autoridad raíz.
 1. Descomprima y descomprima el archivo de instalación con el siguiente comando:
@@ -38,7 +41,7 @@ Procedimiento para extraer e instalar los archivos de programa para Sensorto en 
   <tr> 
    <th colname="col1" class="entry"> Archivo </th> 
    <th colname="col2" class="entry"> Descripción </th> 
-   <th colname="col3" class="entry"> Directorio de objetivos </th> 
+   <th colname="col3" class="entry"> Directorio de destinatarios </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -54,7 +57,7 @@ Procedimiento para extraer e instalar los archivos de programa para Sensorto en 
   </tr> 
   <tr> 
    <td colname="col1"> txlogd </td> 
-   <td colname="col2"> El programa de transmisores </td> 
+   <td colname="col2"> El programa del transmisor </td> 
    <td colname="col3"> <p>/usr/local/bin </p> <p>--OR-- </p> <p>/usr/local/sbin </p> </td> 
   </tr> 
   <tr> 
@@ -74,13 +77,13 @@ Procedimiento para extraer e instalar los archivos de programa para Sensorto en 
 >
 >El paquete de instalación contiene un archivo de hoja de cálculo llamado TestExperiment.xls. Esta hoja de cálculo es una herramienta que los arquitectos utilizan para configurar un experimento controlado. El sensor mismo no utiliza este archivo, por lo que no es necesario instalar el archivo en el equipo en el que se está ejecutando Sensor (aunque puede elegir hacerlo). En su lugar, puede que desee copiar el archivo en una ubicación en la que los arquitectos puedan acceder a él o simplemente extraer el archivo del paquete de instalación según sea necesario. Para obtener más información sobre la experimentación controlada, consulte la Guía de experimentos controlados con perspectiva.
 
-**Permisos en los archivos de programa**
+**Permisos en los archivos Programa**
 
-Los permisos incorrectos en los archivos de programa ocasionan la mayoría de los problemas que se producen al instalar Sensor.
+Los permisos incorrectos en los archivos programa causan la mayoría de los problemas que se producen al instalar Sensor.
 
 Asegúrese de establecer los permisos exactamente como se indica en esta sección.
 
-De forma predeterminada, los archivos de programa del archivo tar tienen los siguientes permisos. Según la configuración del sistema, esta configuración se puede modificar (sin máscara) al extraer los archivos.
+De forma predeterminada, los archivos programa del archivo tar tienen los siguientes permisos. Según la configuración del sistema, esta configuración se puede modificar (sin máscara) al extraer los archivos.
 
 Para restablecer los permisos a la configuración predeterminada recomendada, utilice los comandos chmod siguientes.
 
@@ -98,7 +101,7 @@ Para restablecer los permisos a la configuración predeterminada recomendada, ut
 
 Si desea utilizar permisos distintos de los predeterminados recomendados, consulte la información de Permisos de archivos de Sensor UNIX para asegurarse de comprender cómo se utilizan estos archivos.
 
-## Editar el archivo de configuración del sensor {#section-283c8a92fa8841c1b6034e5f834ef4e7}
+## Edit the Sensor Configuration file {#section-283c8a92fa8841c1b6034e5f834ef4e7}
 
 El archivo txlogd.conf contiene los parámetros de configuración para Sensor.
 
@@ -114,19 +117,19 @@ El archivo de configuración contiene parámetros opcionales y parámetros reque
 1. Abra el archivo /etc/txlogd.conf en un editor de texto y defina los parámetros requeridos, así como los parámetros opcionales que desee.
 1. Guarde y cierre el archivo.
 
-## Iniciar el transmisor y crear la cola de disco {#section-63285a2328604f20a2cb31b3d5cb80e6}
+## Inicio del transmisor y creación de la cola de discos {#section-63285a2328604f20a2cb31b3d5cb80e6}
 
 Procedimiento para crear la cola de discos, después de configurar el archivo txlogd.conf.
 
-1. Si el directorio en el que reside la cola de discos no existe, créelo. Asegúrese de que el directorio proporciona acceso de lectura/escritura al archivo tanto al módulo del selector como al programa del transmisor.
+1. Si el directorio en el que reside la cola de discos no existe, créelo. Asegúrese de que el directorio proporciona al módulo del selector y al programa del transmisor acceso de lectura y escritura al archivo.
 
-1. En el equipo en el que está instalado Sensor, ejecute el siguiente comando para iniciar el transmisor:
+1. En el equipo en el que está instalado Sensor, ejecute el siguiente comando para inicio del transmisor:
 
    ```
    /usr/local/bin/txlogd -ic -f /etc/txlogd.conf
    ```
 
-   * La opción &quot;i&quot; de este comando inicia el transmisor en modo interactivo. Este modo muestra los mensajes del transmisor en la pantalla y también le permite interactuar con el transmisor mediante comandos de teclado.
+   * La opción &quot;i&quot; de este comando inicio el transmisor en modo interactivo. Este modo muestra los mensajes del transmisor en la pantalla y también le permite interactuar con el transmisor mediante comandos de teclado.
    * La opción &quot;c&quot; indica al transmisor que cree la cola de discos.
    * La opción &quot;f&quot; especifica la ubicación del archivo de configuración.
 
@@ -137,14 +140,14 @@ Procedimiento para crear la cola de discos, después de configurar el archivo tx
    1. Compruebe que el dispositivo al que está asignada la cola de discos está operativo y que tiene suficiente espacio disponible para guardar un archivo del tamaño especificado en el parámetro QueueSize.
    1. Realice las correcciones necesarias y repita este procedimiento.
 
-## Agregar el recopilador a la aplicación Web {#section-d17297b1193f4e3cb150fb41f754ef12}
+## Añadir el recopilador en la Aplicación web {#section-d17297b1193f4e3cb150fb41f754ef12}
 
 Para los servidores WebSphere, el selector funciona como un filtro en el contenedor servlet.
 
 Para agregar el selector a la aplicación web, agregue el filtro al descriptor de implementación web.xml de la aplicación web y reinicie la aplicación web.
 
-1. Con un editor de texto, abra el archivo web.xml para el servidor web cuyos eventos captura Sensor.
-1. Agregue los siguientes `<filter>` y `<filter-mapping>` elementos al archivo descriptor. Si no instaló txlogd.conf en el directorio /etc, debe introducir la ruta correcta a este archivo en el `<param-value>` elemento .
+1. Con un editor de texto, abra el archivo web.xml para el servidor web cuyas capturas de eventos Sensor.
+1. Añada los siguientes `<filter>` y `<filter-mapping>` elementos en el archivo descriptor. Si no instaló txlogd.conf en el directorio /etc, debe introducir la ruta correcta a este archivo en el `<param-value>` elemento .
 
    ```
    <filter>
@@ -170,7 +173,7 @@ Para agregar el selector a la aplicación web, agregue el filtro al descriptor d
    >
    >Estas líneas distinguen entre mayúsculas y minúsculas. Escriba exactamente como aparecen arriba.
 
-1. Reinicie la aplicación web. El recopilador se carga con la aplicación y empezará a recopilar datos de eventos y a escribirlos en la cola de discos.
+1. Reinicie la aplicación web. El recopilador se carga con la aplicación y empezará a recopilar datos de evento y a escribirlos en la cola de discos.
 
 ## Declaración de la ubicación del recopilador y los archivos de objeto compartidos {#section-e641f08999d34a648aaee2111b69ca25}
 
@@ -193,11 +196,11 @@ Procedimiento para editar el script de inicio de Websphere para declarar la ubic
 
 ## Comprobación del sensor {#section-07f2da5c4caa46bf9dd1cb4ae4b61af5}
 
-Procedimiento para iniciar el transmisor y comprobar que puede conectarse correctamente al servidor de Insight y transmitir datos de eventos al mismo.
+Procedimiento para realizar el inicio del transmisor y comprobar que puede conectarse correctamente al servidor de Insight y transmitir datos de evento al mismo.
 
 >[!NOTE]
 >
->Para verificar que el transmisor puede enviar correctamente datos de eventos al servidor de Insight, asegúrese de que el servidor de Insight de destino está instalado y en ejecución antes de comenzar la siguiente prueba.
+>Para comprobar que el transmisor puede enviar correctamente datos de evento al servidor de Insight, asegúrese de que el servidor de destinatario Insight está instalado y en ejecución antes de comenzar la siguiente prueba.
 
 1. Si el transmisor no se está ejecutando, reinícielo con el siguiente comando:
 
@@ -206,24 +209,24 @@ Procedimiento para iniciar el transmisor y comprobar que puede conectarse correc
    ```
 
 1. Abra un navegador (en cualquier equipo) y solicite una página del servidor web en el que se está ejecutando Sensor (asegúrese de seleccionar una página que esté monitorizando Sensor).
-1. Después de emitir la solicitud, compruebe en la consola del transmisor si hay mensajes que indiquen que está enviando datos de eventos al servidor de Insight de destino.
+1. Después de emitir la solicitud, compruebe en la consola del transmisor si hay mensajes que indiquen que está enviando datos de evento al servidor de destinatario Insight.
 1. Si Sensor no transmite datos correctamente, compruebe que:
 
-   * Se está ejecutando el servidor de Insight de destino.
+   * Se está ejecutando destinatario Insight Server.
    * Los parámetros ServerAddress y ServerPort se establecen correctamente en txtlogd.conf. Si especificó ServerAddress con un nombre de servidor, intente utilizar su dirección IP numérica en su lugar.
-   * El valor del parámetro CertName coincide exactamente con el nombre común que aparece en el certificado digital del servidor de Insight de destino.
+   * El valor del parámetro CertName coincide exactamente con el nombre común que aparece en el certificado digital de destinatario Insight Server.
 
-## Agregar el transmisor a la secuencia de comandos de inicio del sistema {#section-23bb905100d04f018af93873dd4d5f68}
+## Añadir el transmisor a la secuencia de comandos de inicio del sistema {#section-23bb905100d04f018af93873dd4d5f68}
 
 Información para garantizar que el transmisor se carga automáticamente cuando se reinicia el equipo del servidor web.
 
-Agregue el siguiente comando (que inicia el transmisor) a la secuencia de comandos de inicio del sistema.
+Añada el siguiente comando (que inicia el transmisor) en la secuencia de comandos de inicio del sistema.
 
 ```
 /usr/local/bin/txlogd -f /etc/txlogd.conf
 ```
 
-Este comando inicia el transmisor como un demonio. Los mensajes de funcionamiento y error que genera el transmisor se escriben en syslog.
+Este comando inicio el transmisor como un demonio. Los mensajes de funcionamiento y error que genera el transmisor se escriben en syslog.
 
 ## Captura de datos adicionales {#section-d5ccf8ee50914a87938e0c17480757e6}
 
@@ -237,11 +240,11 @@ Los sensores de la plataforma J2EE proporcionan un mecanismo para recopilar dato
 
 Por ejemplo, el recopilador J2EE puede utilizarse para capturar datos de costo por clic (CPC) para los vínculos mostrados en una página, información confidencial de un socio en una página y muchos otros puntos de datos. El entorno J2EE le facilita la modificación de su WEBAPP para capturar estos datos personalizados con nuestra clase de recopilador.
 
-Cuando un sensor para la plataforma J2EE recibe una solicitud, invoca una clase de selector que importa la función appendToLog. La función appendToLog anexa a la solicitud inicial los parámetros de cadena de consulta especificados en la función appendToLog. Esto resulta en el URI de la solicitud inicial que contiene pares de valor-nombre de cadena de consulta adicionales que corresponden a los nombres y valores de los datos que se están capturando. Por ejemplo, CPC=20 se anexaría a la solicitud inicial cuando el valor de una colocación de publicidad o un vínculo de pulsación en particular sea de 20 centavos. Insight Server procesa estos valores en el conjunto de datos para su análisis. Una ventaja adicional de esta metodología de recopilación es que permite la recopilación de datos adicionales sin crear entradas de registro adicionales, ya que se pueden crear mediante metodologías de etiquetado de páginas.
+Cuando un sensor para la plataforma J2EE recibe una solicitud, invoca una clase de selector que importa la función appendToLog. La función appendToLog anexa a la solicitud inicial los parámetros de cadena de consulta especificados en la función appendToLog. Esto resulta en el URI de la solicitud inicial que contiene pares de nombre-valor de cadena de consulta adicionales que corresponden a los nombres y valores de los datos que se están capturando. Por ejemplo, CPC=20 se anexaría a la solicitud inicial cuando el valor de una colocación de publicidad o un vínculo de pulsación en particular sea de 20 centavos. Insight Server procesa estos valores en el conjunto de datos para su análisis. Una ventaja adicional de esta metodología de recopilación es que permite la recopilación de datos adicionales sin crear entradas de registro adicionales, ya que se pueden crear mediante metodologías de etiquetado de páginas.
 
 Para obtener más información sobre el procesamiento, consulte la Guía *de configuración de* Dataset.
 
-1. Agregue el siguiente código a la parte superior de la página .jsp desde la que desea capturar los datos:
+1. Añada el siguiente código a la parte superior de la página .jsp desde la que desea capturar los datos:
 
    ```
    <%@ page import="com.visualsciences.collector.VSCollector" %>
