@@ -1,10 +1,13 @@
 ---
 description: Planee dos escenarios con respecto a la desconexión del sensor.
-solution: Insight
+solution: Analytics
 title: Cómo tratar con sensores sin conexión
 uuid: a8be847d-e506-4fbc-9d57-a28ff0cbeff2
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 11%
 
 ---
 
