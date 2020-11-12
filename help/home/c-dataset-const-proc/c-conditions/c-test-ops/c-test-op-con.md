@@ -5,9 +5,9 @@ title: Condiciones de las operaciones de prueba
 topic: Data workbench
 uuid: 6a117569-1372-4095-972b-76289a45f19e
 translation-type: tm+mt
-source-git-commit: 1630f34588e4984226b70c963618856496b42346
+source-git-commit: ed7597393049099e08586716163cbd1cca50c5fa
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1114'
 ht-degree: 6%
 
 ---
@@ -199,7 +199,7 @@ Los parámetros de la [!DNL Regular Expression] condición se describen en la si
  </tbody> 
 </table>
 
-En este ejemplo se ilustra el uso de la condición [!DNL Regular Expression] para que coincida con un campo de datos recopilados del tráfico del sitio web. La condición devuelve true sólo si el campo cs(remitente del reenvío-consulta) contiene una cadena que coincide con la expresión normal `campaign=C[1-9][0-9]{4}`. Esta expresión regular coincide con cualquier cadena que contenga `campaign=C12345`. Sin embargo, el patrón no coincidiría con la cadena `campaign=C0123&` porque el primer carácter después de la &quot;C&quot; no está en el rango de 1 a 9.
+En este ejemplo se ilustra el uso de la condición [!DNL Regular Expression] para que coincida con un campo de datos recopilados del tráfico del sitio web. La condición devuelve true sólo si el campo cs(remitente del reenvío-consulta) contiene una cadena que coincide con la expresión normal `campaign=C[1-9][0-9]{4}`. Esta expresión regular coincide con cualquier cadena que contenga `campaign=C12345`. Sin embargo, el patrón no coincidiría con la cadena `campaign=C0123&` porque el primer carácter después del `C` no está en el rango `1-9`.
 
 ![](assets/cfg_Condition_RegularExpression.png)
 
