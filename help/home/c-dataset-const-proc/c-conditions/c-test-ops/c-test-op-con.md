@@ -1,16 +1,19 @@
 ---
 description: Información sobre las condiciones de la operación de prueba, como comparar, no vacío, intervalo, expresión regular y coincidencia de cadena.
 solution: Analytics
-title: Condiciones de funcionamiento de la prueba
+title: Condiciones de las operaciones de prueba
 topic: Data workbench
 uuid: 6a117569-1372-4095-972b-76289a45f19e
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 0727e5b18c89a22b6ee775b1293d3b68e5cee81c
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 6%
 
 ---
 
 
-# Condiciones de funcionamiento de la prueba{#test-operation-conditions}
+# Condiciones de las operaciones de prueba{#test-operation-conditions}
 
 Información sobre las condiciones de la operación de prueba, como comparar, no vacío, intervalo, expresión regular y coincidencia de cadena.
 
@@ -31,13 +34,13 @@ Los parámetros de la [!DNL Compare] condición se describen en la siguiente tab
   <tr> 
    <th colname="col1" class="entry"> Parámetro </th> 
    <th colname="col2" class="entry"> Descripción </th> 
-   <th colname="col3" class="entry"> Valor predeterminado </th> 
+   <th colname="col3" class="entry"> Predeterminado </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Distinción entre mayúsculas y minúsculas </td> 
-   <td colname="col2">True o false. Se utiliza únicamente si el tipo es <span class="wintitle"> LEXICAL</span>. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
+   <td colname="col2">Verdadero o falso. Se utiliza únicamente si el tipo es <span class="wintitle"> LEXICAL</span>. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
    <td colname="col3"> true </td> 
   </tr> 
   <tr> 
@@ -57,7 +60,7 @@ Los parámetros de la [!DNL Compare] condición se describen en la siguiente tab
   </tr> 
   <tr> 
    <td colname="col1"> Operación </td> 
-   <td colname="col2"> <p>La operación de comparación. Las operaciones disponibles (y sus significados) son las siguientes: 
+   <td colname="col2"> <p>Operación de comparación. Las operaciones disponibles (y sus significados) son las siguientes: 
      <ul id="ul_74F3C298E9CC4FE89897BA0052A9EB9F"> 
       <li id="li_1605FA73474E404A84056D40E7082623"> = o == (la entrada A es igual a la entrada B) </li> 
       <li id="li_F694A262ED7A4787B2A68B877339620C"> &lt;&gt; O bien != (la entrada A no es igual a la entrada B) </li> 
@@ -86,7 +89,7 @@ La [!DNL Not Empty] condición comprueba un campo para ver si contiene un valor 
 
 Los parámetros de la [!DNL Not Empty] condición se describen en la siguiente tabla:
 
-| Parámetro | Descripción | Valor predeterminado |
+| Parámetro | Descripción | Predeterminado |
 |---|---|---|
 | Comentarios | Opcional. Notas sobre la condición. | Comentarios |
 | Entrada | Nombre del campo de la entrada de registro para comprobar el contenido. |  |
@@ -106,13 +109,13 @@ Los parámetros de la [!DNL Range] condición se describen en la siguiente tabla
   <tr> 
    <th colname="col1" class="entry"> Parámetro </th> 
    <th colname="col2" class="entry"> Descripción </th> 
-   <th colname="col3" class="entry"> Valor predeterminado </th> 
+   <th colname="col3" class="entry"> Predeterminado </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Distinción entre mayúsculas y minúsculas </td> 
-   <td colname="col2">True o false. Se utiliza solamente si el <span class="wintitle"> tipo</span> es <span class="wintitle"> LEXICAL</span>. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
+   <td colname="col2">Verdadero o falso. Se utiliza únicamente si el <span class="wintitle"> tipo</span> es <span class="wintitle"> LEXICAL</span>. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
    <td colname="col3"> true </td> 
   </tr> 
   <tr> 
@@ -127,12 +130,12 @@ Los parámetros de la [!DNL Range] condición se describen en la siguiente tabla
   </tr> 
   <tr> 
    <td colname="col1"> Mínimo </td> 
-   <td colname="col2"> <p>Límite inferior del rango. </p> <p> El valor de este parámetro debe ser un valor literal o una cadena, no un nombre de campo. Si utiliza una fecha para este campo, debe especificar una zona horaria. Para obtener una lista de abreviaturas de zona horaria admitidas, consulte <a href="../../../../home/c-dataset-const-proc/c-time-zone.md#concept-9b540ec3e770490d94e9d5a985765477"> Códigos</a>de zona horaria. </p> </td> 
+   <td colname="col2"> <p>Límite inferior del rango. </p> <p> El valor de este parámetro debe ser un valor literal o una cadena, no un nombre de campo. Si utiliza una fecha para este campo, debe especificar una zona horaria. Para obtener una lista de las abreviaturas de zona horaria admitidas, consulte <a href="../../../../home/c-dataset-const-proc/c-time-zone.md#concept-9b540ec3e770490d94e9d5a985765477"> Códigos</a>de zona horaria. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Máximo </td> 
-   <td colname="col2"> <p>Límite superior del rango. </p> <p> <p>Nota: El valor de este parámetro debe ser un valor literal o una cadena, no un nombre de campo. Si utiliza una fecha para este campo, debe especificar una zona horaria. Para obtener una lista de abreviaturas de zona horaria admitidas, consulte <a href="../../../../home/c-dataset-const-proc/c-time-zone.md#concept-9b540ec3e770490d94e9d5a985765477"> Códigos</a>de zona horaria. </p> </p> </td> 
+   <td colname="col2"> <p>Límite superior del rango. </p> <p> <p>Nota: El valor de este parámetro debe ser un valor literal o una cadena, no un nombre de campo. Si utiliza una fecha para este campo, debe especificar una zona horaria. Para obtener una lista de las abreviaturas de zona horaria admitidas, consulte <a href="../../../../home/c-dataset-const-proc/c-time-zone.md#concept-9b540ec3e770490d94e9d5a985765477"> Códigos</a>de zona horaria. </p> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -164,13 +167,13 @@ Los parámetros de la [!DNL Regular Expression] condición se describen en la si
   <tr> 
    <th colname="col1" class="entry"> Parámetro </th> 
    <th colname="col2" class="entry"> Descripción </th> 
-   <th colname="col3" class="entry"> Valor predeterminado </th> 
+   <th colname="col3" class="entry"> Predeterminado </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Distinción entre mayúsculas y minúsculas </td> 
-   <td colname="col2"> True o false. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
+   <td colname="col2"> Verdadero o falso. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
    <td colname="col3"> true </td> 
   </tr> 
   <tr> 
@@ -184,38 +187,38 @@ Los parámetros de la [!DNL Regular Expression] condición se describen en la si
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> coincide </td> 
-   <td colname="col2"> <p>Patrones de expresión regular que se comparan con el valor del campo de entrada. </p> <p> <b> Adición de un patrón de expresión regular</b> 
+   <td colname="col1"> Coincide </td> 
+   <td colname="col2"> <p>Patrones de expresión regulares que se comparan con el valor del campo de entrada. </p> <p> <b> Para agregar un patrón de expresión normal</b> 
      <ol id="ol_6D6467FF74334DEA8E8625C3B155D11D"> 
       <li id="li_9E13A63558FF44749C2E49BD50B7F770">Haga clic con el botón secundario en <span class="uicontrol"> Coincidencias</span>. </li> 
-      <li id="li_195A2F3B6B9442F5B1DACDE0FC96CE5C">Haga clic en <span class="uicontrol"> Agregar nueva</span> &gt; <span class="uicontrol"> Expresión</span>regular. </li> 
-      <li id="li_225E98F8EF39426A9483B86EA2CFE6DF">Introduzca la expresión regular que desee en el cuadro de texto. </li> 
+      <li id="li_195A2F3B6B9442F5B1DACDE0FC96CE5C">Haga clic en <span class="uicontrol"> Añadir nueva</span> &gt; <span class="uicontrol"> Expresión</span>normal. </li> 
+      <li id="li_225E98F8EF39426A9483B86EA2CFE6DF">Introduzca la expresión regular deseada en el cuadro de texto. </li> 
      </ol> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-En este ejemplo se ilustra el uso de la condición [!DNL Regular Expression] para que coincida con un campo de datos recopilados del tráfico del sitio web. La condición devuelve true sólo si el campo cs(referrer-query) contiene una cadena que coincide con la expresión regular campaign=C[1-9][0-9]{4}. Esta expresión regular coincide con cualquier cadena que contenga &quot;campaign=C12345&quot;. Sin embargo, el patrón no coincidiría con la cadena &quot;campaign=C0123&amp;&quot; porque el primer carácter después de &quot;C&quot; no está en el intervalo 1-9.
+En este ejemplo se ilustra el uso de la condición [!DNL Regular Expression] para que coincida con un campo de datos recopilados del tráfico del sitio web. La condición devuelve true sólo si el campo cs(remitente del reenvío-consulta) contiene una cadena que coincide con la expresión normal `campaign=C[1-9][0-9]{4}`. Esta expresión regular coincide con cualquier cadena que contenga &quot;campaña=C12345&quot;. Sin embargo, el patrón no coincidiría con la cadena &quot;campaña=C0123&amp;&quot; porque el primer carácter después de &quot;C&quot; no está en el rango 1-9.
 
 ![](assets/cfg_Condition_RegularExpression.png)
 
 ## Coincidencia de cadena {#section-f8d132085c6b4500bfbe4515b848142f}
 
-La [!DNL String Match] condición prueba la igualdad de cadenas. Toma un campo especificado como entrada y prueba el valor de ese campo en cada entrada de registro con las cadenas especificadas en el parámetro Coincidencias de la operación. Si alguna de estas cadenas de coincidencia distingue mayúsculas de minúsculas es la misma que el valor del campo de entrada proporcionado, la operación devuelve true. En caso de que la cadena [!DNL StringCondition] no contenga cadenas de coincidencia, la condición devuelve false. Si la entrada es un vector de cadenas, solo se utiliza para la prueba el primer valor (cadena) del vector.
+La [!DNL String Match] condición prueba la igualdad de cadenas. Toma un campo especificado como entrada y prueba el valor de ese campo en cada entrada de registro con las cadenas especificadas en el parámetro Coincidencias de la operación. Si alguna de estas cadenas de coincidencia distingue mayúsculas de minúsculas es la misma que el valor del campo de entrada proporcionado, la operación devuelve true. En el evento de que la cadena [!DNL StringCondition] no contiene cadenas de coincidencia, la condición devuelve false. Si la entrada es un vector de cadenas, solo se utiliza para la prueba el primer valor (cadena) del vector.
 
 <table id="table_BD599BAA5DD54B278813B6C38AC8DE6B"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Parámetro </th> 
    <th colname="col2" class="entry"> Descripción </th> 
-   <th colname="col3" class="entry"> Valor predeterminado </th> 
+   <th colname="col3" class="entry"> Predeterminado </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Distinción entre mayúsculas y minúsculas </td> 
-   <td colname="col2"> True o false. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
+   <td colname="col2"> Verdadero o falso. Si se establece en false, las letras mayúsculas y minúsculas se consideran iguales. </td> 
    <td colname="col3"> true </td> 
   </tr> 
   <tr> 
@@ -229,7 +232,7 @@ La [!DNL String Match] condición prueba la igualdad de cadenas. Toma un campo e
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> coincide </td> 
+   <td colname="col1"> Coincide </td> 
    <td colname="col2"> <p>Las cadenas que se van a comparar con el valor del campo de entrada. </p> <p> <b>Para agregar una cadena</b> 
      <ol id="ol_9E32218C771445D88357960475FAD6EB"> 
       <li id="li_A700747858D0470491783E9B3933DAFE">Haga clic con el botón secundario en <span class="uicontrol"> Coincidencias</span>. </li> 
