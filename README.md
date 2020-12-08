@@ -1,16 +1,12 @@
 ---
-source-git-commit: fd80aec422f07806a734475c9c1cabb70596bb80
+source-git-commit: 60494215e7f4be3af8b5b9f81ea7ef128eb4581d
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 85%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
-
-| EXL-PR | EXL | Vista previa | Activar | Publicadas | Ayuda |
-|--- |--- |--- |--- |--- |--- |
-| [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/data-workbench.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/data-workbench.en_pr-exl/lastBuild/) | [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/data-workbench.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/data-workbench.en_exl/lastBuild/lastBuild) | [URL de previsualización](https://experienceleague.corp.adobe.com/docs/data-workbench/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Dirección URL en directo](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=en) | [Guía de creación](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Agradecemos las contribuciones de nuestra comunidad, así como de los empleados de Adobe que no forman parte de los equipos de documentación.
 
