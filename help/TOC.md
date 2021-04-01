@@ -1,11 +1,11 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: analytics
 audience: end-user
 user-guide-title: Ayuda de Data Workbench
 user-guide-description: Obtenga información sobre las funciones de varios canales de Data Workbench. Incluye las guías de Cliente de Data Workbench, Instalación, Configuración de conjuntos de datos y más.
 translation-type: tm+mt
-source-git-commit: 53e6b7b96e7addd848a00691163878846b22b4c6
+source-git-commit: cfa391f4238bac43fdf2539baa8e038a79110200
 workflow-type: tm+mt
 source-wordcount: '3536'
 ht-degree: 100%
