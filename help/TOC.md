@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ayuda de Data Workbench
 user-guide-description: Obtenga información sobre las funciones de varios canales de Data Workbench. Incluye las guías de Cliente de Data Workbench, Instalación, Configuración de conjuntos de datos y más.
 translation-type: tm+mt
-source-git-commit: cfa391f4238bac43fdf2539baa8e038a79110200
+source-git-commit: 3fc9ad4411438afe50c0e20d807234176480e2b3
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3493'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 100%
       + [Actualización de información general de Data Workbench](home/c-install-insight/c-upgrd-ins/c-upgrd-ins.md)
       + [Actualizar la versión 6.4 a la versión 6.5](home/c-install-insight/c-upgrd-ins/c-6-4-to-6-5-upgrade.md)
       + [Actualizar la versión 6.3 a la versión 6.4](home/c-install-insight/c-upgrd-ins/c-6-3-to-6-4-upgrade.md)
-      + [Actualización del servidor de DWB: de 6.2 a 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
       + [Actualización del servidor de DWB: de 6.1 a 6.2](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
       + [Actualización de Data Workbench de 6.0 a 6.1](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
       + [Actualización de Data Workbench de 5.5 a 6.1](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
@@ -269,7 +268,6 @@ ht-degree: 100%
       + Uso de capas vectoriales {#vector-layers}
          + [Uso de capas vectoriales](home/c-get-started/c-im-layers/c-vctr-layers/c-vctr-layers.md)
          + [Definición de capas vectoriales que hagan referencia a archivos vectoriales](home/c-get-started/c-im-layers/c-vctr-layers/c-ref-vctr-files.md)
-         + [Capas vectoriales que hacen referencia a archivos de valores separados por tabuladores](home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-tab-sep-val-files.md)
          + [Hacer que una nueva capa vectorial esté disponible](home/c-get-started/c-im-layers/c-vctr-layers/t-make-new-vctr-layer-av.md)
    + Interfaces administrativas {#admin-ui}
       + [Interfaces administrativas](home/c-get-started/c-admin-intrf/c-admin-intrf.md)
@@ -334,7 +332,6 @@ ht-degree: 100%
          + [Cambio en el orden de tabulación](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-chg-ordr-tabs.md)
          + [Mostrar subcarpetas como subpestañas](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-sbfldrs-sbtabs.md)
          + [Ocultar o quitar una pestaña](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-hide-rmv-tabs.md)
-      + [Instalación del Editor de métodos de entrada](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
       + [Configuración de idiomas localizados](home/c-get-started/c-intf-anlys-ftrs/c-localized-ime/c-localized-ime-config.md)
       + Configuración de un espacio de trabajo bloqueado {#config-locked-wkspc}
          + [Configuración de un espacio de trabajo bloqueado](home/c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-config-locked-wkspc.md)
@@ -380,7 +377,6 @@ ht-degree: 100%
          + [Condición de nuevo visitante](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-new-vstr-con.md)
          + [Zonas horarias](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-time-zones.md)
       + [Consideraciones sobre el archivo de configuración de transformación](home/c-dataset-const-proc/c-trans-config-file/c-con-tran-config-file.md)
-      + [Distribución de DeviceAtlas](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
    + Archivos de inclusión de conjunto de datos {#dataset-include-files}
       + [Acerca de los archivos de inclusión de conjunto de datos](home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md)
       + [Uso de archivos de inclusión de conjunto de datos](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/c-work-dataset-inc-files.md)
@@ -468,7 +464,6 @@ ht-degree: 100%
       + Interfaces de configuración de conjuntos de datos {#dataset-config-ui}
          + [Trabajo con interfaces de configuración de conjuntos de datos ](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-config-int.md)
          + [Esquema del conjunto de datos](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-schema.md)
-         + [Mapas de dependencias](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dep-maps.md)
          + [Visualizadores de campo](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-field-viewers.md)
       + Ocultar componentes de conjuntos de datos {#hide-dataset-comp}
          + [Ocultar componentes de conjuntos de datos](home/c-dataset-const-proc/c-dataset-config-tools/c-hide-dataset-comp/c-hide-dataset-comp.md)
@@ -765,12 +760,6 @@ ht-degree: 100%
       + Actualización de Insight Server {#upgrade-insight-server}
          + [Actualización de Insight Server](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-sftwr.md)
          + [Actualización del servidor de DWB: de 6.2 a 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
-         + [Actualización del servidor de DWB: de 6.1 a 6.2](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
-         + Actualización de Data Workbench de 6.0 a 6.1 {#upgrade-6-0-to-6-1}
-            + [Actualización de Data Workbench de 6.0 a 6.1](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
-            + [Instalación del Editor de métodos de entrada](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
-            + [Distribución de DeviceAtlas](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
-         + [Actualización de Data Workbench de 5.5 a 6.1](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
          + [Actualización del servidor DWB: de 5.4 a 5.5](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [Actualización de transformación](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [Actualización del repetidor](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
