@@ -1,23 +1,24 @@
 ---
-description: Pasos para cambiar el orden de las fichas que aparecen en el escritorio.
-solution: Analytics
-title: Cambiar el orden de tabulación
-topic: Data workbench
+description: Pasos para cambiar el orden de las pestañas que aparecen en la superficie de trabajo.
+title: Cambio en el orden de tabulación
 uuid: 6eebc235-20ba-4c3b-8d94-36c0f80869be
+exl-id: 261a81e1-b34c-4789-ac4e-343c25df2e6f
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
+# Cambio en el orden de tabulación{#change-the-tab-order}
 
-# Cambiar el orden de tabulación{#change-the-tab-order}
+Pasos para cambiar el orden de las pestañas que aparecen en la superficie de trabajo.
 
-Pasos para cambiar el orden de las fichas que aparecen en el escritorio.
-
-1. En el [!DNL Profile Manager], haga clic **[!UICONTROL Workspaces]** para ver su contenido.
-1. En la columna del nombre *del perfil de* trabajo, haga clic con el botón secundario en la marca de verificación del [!DNL Workspaces\order.txt] archivo y haga clic en **[!UICONTROL Make Local]** > **[!UICONTROL Yes]**.
-1. Haga clic con el botón secundario en la marca de verificación del [!DNL Workspaces\order.txt] archivo en la [!DNL User] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**.
-1. Cambie el nombre de los nombres de las fichas, elimínelos o agréguelos exactamente como desea que aparezcan en la [!DNL Worktop]. Por ejemplo, lo siguiente haría que la [!DNL Getting Started] ficha apareciera primero y la [!DNL Acquisition] ficha apareciera en último lugar.
+1. En [!DNL Profile Manager], haga clic en **[!UICONTROL Workspaces]** para ver su contenido.
+1. En la columna *nombre del perfil de trabajo*, haga clic con el botón derecho en la marca de verificación del archivo [!DNL Workspaces\order.txt] y haga clic en **[!UICONTROL Make Local]** > **[!UICONTROL Yes]**.
+1. Haga clic con el botón derecho en la marca de verificación del archivo [!DNL Workspaces\order.txt] en la columna [!DNL User] y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**.
+1. Cambie el nombre de las pestañas, elimínelas o agréguelas exactamente como desea que aparezcan en [!DNL Worktop]. Por ejemplo, el resultado siguiente sería que la pestaña [!DNL Getting Started] apareciera primero y la pestaña [!DNL Acquisition] apareciera en último lugar.
 
    Introducción
 
@@ -28,4 +29,4 @@ Pasos para cambiar el orden de las fichas que aparecen en el escritorio.
    Adquisición
 
 1. Guarde y cierre el archivo.
-1. (Opcional) Para que el cambio esté disponible para todos los usuarios del perfil de trabajo, haga clic con el botón derecho en la marca de verificación blanca del [!DNL Workspaces\order.txt] archivo en la [!DNL User] columna y haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]**>*.
+1. (Opcional) Para que el cambio esté disponible para todos los usuarios del perfil de trabajo, haga clic con el botón derecho en la marca de verificación blanca del archivo [!DNL Workspaces\order.txt] en la columna [!DNL User] y haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]***.
