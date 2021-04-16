@@ -1,29 +1,29 @@
 ---
-description: La transformación ChangeCase cambia las mayúsculas y minúsculas de la cadena en el parámetro Input, tal como se especifica en el parámetro Action.
-solution: Analytics
+description: La transformación ChangeCase cambia las mayúsculas y minúsculas de la cadena en el parámetro Input tal como se especifica en el parámetro Action .
 title: ChangeCase
-topic: Data workbench
 uuid: 676e79e6-324e-43d1-8982-b44596d0eeac
+exl-id: 2002fe22-d31c-4286-9f73-59ef205f1384
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 8%
 
 ---
 
-
 # ChangeCase{#changecase}
 
-La transformación ChangeCase cambia las mayúsculas y minúsculas de la cadena en el parámetro Input, tal como se especifica en el parámetro Action.
+La transformación ChangeCase cambia las mayúsculas y minúsculas de la cadena en el parámetro Input tal como se especifica en el parámetro Action .
 
-| Parámetro | Descripción | Valor predeterminado |
+| Parámetro | Descripción | Predeterminado |
 |---|---|---|
-| Nombre | Nombre descriptivo de la transformación. Aquí puede introducir cualquier nombre. |  |
-| Acción | Superior o inferior. Especifica si el caso se va a cambiar a superior o inferior. | lower |
+| Nombre | Nombre descriptivo de la transformación. Puede introducir cualquier nombre aquí. |  |
+| Acción | Superior o inferior. Especifica si se va a cambiar el caso a superior o inferior. | lower |
 | Comentarios | Opcional. Notas sobre la transformación. |  |
 | Condición | Condiciones en las que se aplica esta transformación. |  |
-| Entrada | Nombre del campo de la entrada de registro que se va a utilizar como entrada. |  |
+| Entrada | Nombre del campo de la entrada de registro que se utilizará como entrada. |  |
 | Salida | Nombre del campo de salida. |  |
 
-En este ejemplo, que utiliza campos de datos recopilados del tráfico del sitio web, el caso de la cadena dentro del campo s-dns se cambia a letra minúscula y el nuevo valor se muestra en el nuevo campo, x-lowercase-dns.
+En este ejemplo, que utiliza campos de datos recopilados del tráfico del sitio web, se cambia el caso de la cadena dentro del campo s-dns a minúsculas y el nuevo valor se genera en el nuevo campo, x-lowercase-dns.
 
 ![](assets/cfg_TransformationType_ChangeCase.png)
-
