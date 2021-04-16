@@ -1,29 +1,30 @@
 ---
-description: Antes de poder generar informes y alertas, debe configurar el servidor de informes para especificar la dirección del servidor de Insight e identificar los perfiles con los que desea que informe.
-solution: Analytics
+description: Para poder generar informes y alertas, debe configurar el servidor de informes para especificar la dirección del servidor de Insight e identificar los perfiles con los que desea que informe.
 title: Configuración de la conexión con el servidor de Insight
-topic: Data workbench
 uuid: 2018b67e-90a6-41d7-b628-4b463869df6e
+exl-id: a398a665-fe09-448a-977c-b0f9de4add09
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
-
 # Configuración de la conexión con el servidor de Insight{#configuring-the-connection-to-the-insight-server}
 
-Antes de poder generar informes y alertas, debe configurar el servidor de informes para especificar la dirección del servidor de Insight e identificar los perfiles con los que desea que informe.
+Para poder generar informes y alertas, debe configurar el servidor de informes para especificar la dirección del servidor de Insight e identificar los perfiles con los que desea que informe.
 
 >[!NOTE]
 >
->Hasta que configure el servidor de informes como se describe a continuación, no podrá ejecutar el servidor de informes correctamente. Si intenta ejecutar el servidor de informes con el archivo no configurado que está instalado con el programa, el servidor de informes genera un flujo de errores.
+>Hasta que configure el servidor de informes como se describe a continuación, no podrá ejecutar el servidor de informes correctamente. Si intenta ejecutar el servidor de informes con el archivo no configurado que está instalado con el programa, Report Server genera un flujo de errores.
 
 **Para configurar el servidor de informes**
 
-1. Con el Explorador de Windows, navegue al directorio donde instaló el Servidor de informes.
-1. Abra el [!DNL ReportServer.cfg] archivo en el Bloc de notas y modifíquelo como desee.
+1. Con el Explorador de Windows, vaya al directorio donde instaló el Servidor de informes.
+1. Abra el archivo [!DNL ReportServer.cfg] en el Bloc de notas y modifique el archivo como desee.
 
-   El ejemplo siguiente [!DNL Report Server.cfg] contiene únicamente los parámetros incluidos en el [!DNL Report Server.cfg] archivo de forma predeterminada (y resalta la configuración de parámetro requerida). Si se pone en contacto con el servidor de licencias de Adobe a través de un servidor proxy, deberá agregar el vector de licencias y sus parámetros. Consulte Parámetros [de Report Server.cfg](../../../home/c-rpt-oview/c-rpt-param-ref/c-rpt-svr-param.md#concept-53359b328fd140d593c3f2fc0031be06) para obtener una descripción detallada.
+   El siguiente ejemplo [!DNL Report Server.cfg] contiene solo los parámetros incluidos en el archivo [!DNL Report Server.cfg] de forma predeterminada (y resalta la configuración de parámetro necesaria). Si se pone en contacto con el servidor de licencias de Adobe a través de un servidor proxy, debe agregar el vector de licencias y sus parámetros. Consulte [Parámetros de Report Server.cfg](../../../home/c-rpt-oview/c-rpt-param-ref/c-rpt-svr-param.md#concept-53359b328fd140d593c3f2fc0031be06) para obtener una descripción detallada.
 
    ```
    Fonts = vector: 0 items
