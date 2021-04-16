@@ -1,20 +1,19 @@
 ---
-description: Instrucciones para configurar alertas administrativas para Insight Server, Repeater o Transform.
-solution: Analytics
+description: Instrucciones para configurar alertas administrativas para el servidor de Insight, el repetidor o la transformación.
 title: Configuración de alertas administrativas
 uuid: c2be2d1e-d81d-4d9f-ac94-4b642dad90b9
+exl-id: c75e442e-33e6-4fc8-8368-29482f09e1cc
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
 
 ---
 
-
 # Configuración de alertas administrativas{#administrative-alerts-configuration-settings}
 
-Instrucciones para configurar alertas administrativas para Insight Server, Repeater o Transform.
+Instrucciones para configurar alertas administrativas para el servidor de Insight, el repetidor o la transformación.
 
 Complete los parámetros del siguiente archivo:
 
@@ -34,11 +33,11 @@ Complete los parámetros del siguiente archivo:
   </tr> 
   <tr> 
    <td colname="col1"> Categorías de error </td> 
-   <td colname="col2"> Permite clasificar los errores junto con el archivo de clasificación de errores. Cada Categoría de error puede tener su propio conjunto de Destinatarios y su propio retraso de aceleración. Por ejemplo, puede crear una categoría crítica con un retraso de aceleración de 0, de modo que todos los errores críticos se envíen inmediatamente por correo electrónico a los destinatarios especificados en la lista Destinatarios. Los errores que no coinciden con una subcadena en el archivo de clasificación de errores se asignan a la categoría predeterminada. Para agregar una nueva categoría, haga clic con el botón derecho en un número y haga clic en <span class="uicontrol"> Añadir nuevo </span> &gt; <span class="uicontrol"> Categoría de error </span>. También puede copiarlos o eliminarlos con la acción de hacer clic con el botón derecho. </td> 
+   <td colname="col2"> Permite clasificar los errores junto con el archivo de clasificación de errores. Cada categoría de error puede tener su propio conjunto de destinatarios y su propio retraso de aceleración. Por ejemplo, puede crear una categoría Crítica con un retardo de aceleración de 0, de modo que cada error crítico se envíe inmediatamente por correo electrónico a los destinatarios especificados en la lista Destinatarios. Los errores que no coinciden con una subcadena en el archivo de clasificación de errores se asignan a la categoría Predeterminado. Para agregar una nueva categoría, haga clic con el botón derecho en un número y haga clic en <span class="uicontrol"> Agregar nueva </span> &gt; <span class="uicontrol"> Categoría de error </span>. También puede copiarlos o eliminarlos con la acción del botón derecho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Archivo de clasificación de errores </td> 
-   <td colname="col2"> <p>Nombre del archivo que desea utilizar para categorizar cada alerta. Puede crear este archivo con el Bloc de notas. Este archivo debe tener tres columnas en cada línea, separadas por fichas. La primera columna es una cadena que coincide en errores. Un signo ^ coincide con el principio y un $ coincide con el final de la cadena; todos los demás caracteres coinciden literalmente. La segunda columna es una categoría para los errores que coinciden, que se encuentra en Categorías de error. El tercero es un mensaje alternativo, que se antepone al mensaje de error real en los mensajes de correo electrónico que se envían. Si no se especifica ningún archivo, todos los errores se clasifican como Predeterminado. </p> <p>Para ver un ejemplo de este archivo, consulte el archivo <span class="filepath"> Categorías de error.txt </span> en el directorio Lookups. </p> </td> 
+   <td colname="col2"> <p>Nombre del archivo que desea utilizar para categorizar cada alerta. Puede crear este archivo utilizando el Bloc de notas. Este archivo debe tener tres columnas en cada línea, separadas por tabulaciones. La primera columna es una cadena que coincide en errores. Un signo ^ coincide con el principio y un signo $ coincide con el final de la cadena; todos los demás caracteres coinciden literalmente. La segunda columna es una categoría para los errores que coinciden, que se encuentra en Categorías de error. El tercero es un mensaje alternativo, que se añade al mensaje de error real en los correos electrónicos que se envían. Si no se especifica ningún archivo, todos los errores se clasifican como Predeterminado. </p> <p>Para ver un ejemplo de este archivo, consulte el archivo <span class="filepath"> Error Categories.txt </span> en el directorio Lookups. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> De </td> 
@@ -46,11 +45,11 @@ Complete los parámetros del siguiente archivo:
   </tr> 
   <tr> 
    <td colname="col1"> Espacio mínimo en disco (MB) </td> 
-   <td colname="col2"> El servidor genera una alerta por correo electrónico cuando el almacenamiento de disco disponible en cualquier directorio utilizado por el servidor cae por debajo de este valor. El valor predeterminado es 1000. </td> 
+   <td colname="col2"> El servidor genera una alerta de correo electrónico cuando está disponible el almacenamiento en disco en cualquier directorio utilizado por el servidor cae por debajo de este valor. El valor predeterminado es 1000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Tiempo de espera de alerta de sensor (mín.) </td> 
-   <td colname="col2"> <p>El servidor genera una alerta de correo electrónico cuando no ha recibido datos de un <span class="wintitle"> sensor configurado y conectado previamente </span> en este período de tiempo. El valor predeterminado es 15. </p> <p> <p>Nota:  <span class="wintitle"> El tiempo de espera de alerta de sensor </span> solo funciona si se interrumpe una conexión existente a un <span class="wintitle"> sensor </span> . Si el servicio del servidor se detiene y reinicia y los <span class="wintitle"> sensores </span> no se conectan, el servidor no genera alertas de correo electrónico. </p> </p> </td> 
+   <td colname="col1"> Tiempo de espera de alerta del sensor (min.) </td> 
+   <td colname="col2"> <p>El servidor genera una alerta por correo electrónico cuando no ha recibido datos de un <span class="wintitle"> sensor </span> configurado y conectado anteriormente dentro de este período de tiempo. El valor predeterminado es 15. </p> <p> <p>Nota:  <span class="wintitle"> El tiempo de espera de alerta del sensor </span> solo funciona si se interrumpe una conexión existente con un sensor <span class="wintitle"> </span>. Si el servicio del servidor se detiene y se reinicia y los <span class="wintitle"> sensores </span> no se conectan, el servidor no genera alertas por correo electrónico. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dirección del servidor </td> 
@@ -66,8 +65,7 @@ Complete los parámetros del siguiente archivo:
   </tr> 
   <tr> 
    <td colname="col1"> Retraso del acelerador (segundos) </td> 
-   <td colname="col2"> El número mínimo de segundos que deben transcurrir entre dos errores en esa categoría para que se envíe un mensaje de correo electrónico. Un valor de 0 envía el correo electrónico inmediatamente. </td> 
+   <td colname="col2"> El número mínimo de segundos que deben transcurrir entre dos errores en esa categoría para que se envíe un correo electrónico. Un valor de 0 envía el correo electrónico inmediatamente. </td> 
   </tr> 
  </tbody> 
 </table>
-
