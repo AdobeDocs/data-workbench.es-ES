@@ -1,32 +1,33 @@
 ---
 description: Puede crear una capa vectorial que haga referencia a uno o más archivos vectoriales (.vec), que contenga los datos que definen los vectores que se dibujarán en el globo.
-solution: Analytics
 title: Definición de capas vectoriales que hacen referencia a archivos vectoriales
-topic: Data workbench
 uuid: 162d4ecc-d305-42e3-a5d4-0c1609a40f29
+exl-id: c6da3cd9-f42a-4e9c-ae48-9f4ffdc42f7b
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 7%
 
 ---
-
 
 # Definición de capas vectoriales que hacen referencia a archivos vectoriales{#defining-vector-layers-referencing-vector-files}
 
 Puede crear una capa vectorial que haga referencia a uno o más archivos vectoriales (.vec), que contenga los datos que definen los vectores que se dibujarán en el globo.
 
-Para definir una capa vectorial que haga referencia a uno o varios [!DNL .vec]archivos, debe tener lo siguiente:
+Para definir una capa vectorial que haga referencia a uno o varios archivos [!DNL .vec], debe tener lo siguiente:
 
-* Uno o más [!DNL .vec]archivos que contienen los datos utilizados para dibujar los vectores en el mundo.
-
-   >[!NOTE]
-   >
-   >Para obtener [!DNL .vec] archivos que utilizar con las capas vectoriales, póngase en contacto con Adobe.
-
-* Archivo de capa que especifica la ubicación de los [!DNL .vec] archivos. Para obtener más información sobre el formato requerido del archivo de capa, consulte Formato [de archivo de capa](../../../../home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-def-vctr-files.md#section-530d03f41ede4a339aebbb680e15240a)vectorial.
+* Uno o más [!DNL .vec]archivos que contienen los datos utilizados para dibujar los vectores en el globo.
 
    >[!NOTE]
    >
-   >El [!DNL Boundaries.layer] archivo, proporcionado con el [!DNL Geography] perfil, es una capa vectorial que hace referencia a los [!DNL mwnation.vec]archivos, [!DNL mwstate.vec], [!DNL mwcoast.vec], [!DNL mwlake.vec]y [!DNL mwisland.vec] .
+   >Para obtener archivos [!DNL .vec] que se van a usar con las capas vectoriales, póngase en contacto con el Adobe.
+
+* Archivo de capa que especifica la ubicación de los archivos [!DNL .vec]. Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato del archivo de capa vectorial](../../../../home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-def-vctr-files.md#section-530d03f41ede4a339aebbb680e15240a).
+
+   >[!NOTE]
+   >
+   >El archivo [!DNL Boundaries.layer], proporcionado con el perfil [!DNL Geography], es una capa vectorial que hace referencia a los archivos [!DNL mwnation.vec], [!DNL mwstate.vec], [!DNL mwcoast.vec], [!DNL mwlake.vec] y [!DNL mwisland.vec].
 
 ## Formato de archivo de capa vectorial {#section-530d03f41ede4a339aebbb680e15240a}
 
@@ -47,13 +48,13 @@ Layer = VectorLayer:
 
 | Parámetro | Descripción |
 |---|---|
-| Archivos Vec | Rutas a los [!DNL .vec] archivos que contienen los datos del vector. |
-| Color | El vector de color RGB, que se expresa como (rojo, verde, azul). Para cada color del vector, puede introducir un valor de 0,0 a 1,0. Por ejemplo, (1.0, 0.0, 0.0) es rojo brillante y (0.5, 0.5, 0.5) es gris. |
-| Alfa | Controla la transparencia de los vectores mostrados en el globo. El intervalo es de 0 a 1, siendo 0 la más transparente. |
-| Anchura | Opcional. Define la anchura de los datos en píxeles. El intervalo recomendado es de 1 a 4. |
+| Archivos Vec | Rutas a los [!DNL .vec] archivos que contienen los datos vectoriales. |
+| Color | El vector de color RGB, que se expresa como (rojo, verde, azul). Para cada color del vector, se puede introducir un valor de 0,0 a 1,0. Por ejemplo, (1,0, 0,0, 0,0) es de color rojo claro y (0,5, 0,5, 0,5) es de color gris. |
+| Alpha | Controla la transparencia de los vectores mostrados en el globo. El rango es de 0 a 1, siendo 0 el más transparente. |
+| Anchura | Opcional. Define la anchura de los datos en píxeles. El rango recomendado es de 1 a 4. |
 | Factor de error | Controla la precisión con la que se dibujan los vectores. Para valores más grandes, los vectores se dibujan con menos precisión pero más rápido. El valor predeterminado es 5. |
 
-El [!DNL Boundaries.layer] archivo tiene el formato siguiente:
+El archivo [!DNL Boundaries.layer] tiene el formato siguiente:
 
 ```
  Boundaries.layer file is formatted as follows:
@@ -68,4 +69,3 @@ Layer = VectorLayer:
   Alpha = double: .5
   Error Factor = double: 4
 ```
-
