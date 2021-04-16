@@ -1,20 +1,21 @@
 ---
 description: Pasos para agregar una visualización al lienzo del tablero.
-solution: Analytics
 title: Creación de visualizaciones
-topic: Data workbench
 uuid: d8eb60ac-cc99-4af3-b9c4-946b0a7274ca
+exl-id: 139e24ed-5b22-4d52-8e0a-cef0fe523a49
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
-
 
 # Creación de visualizaciones{#creating-visualizations}
 
 Pasos para agregar una visualización al lienzo del tablero.
 
-1. Vaya al **[!UICONTROL Add Visualization]** menú en la parte superior de la interfaz del tablero. Verá una lista de visualizaciones disponibles que se pueden crear.
+1. Vaya al menú **[!UICONTROL Add Visualization]** en la parte superior de la interfaz del panel. Verá una lista de las visualizaciones disponibles que se pueden crear.
 
    ![](assets/create_visualization1.png)
 
@@ -24,5 +25,4 @@ Pasos para agregar una visualización al lienzo del tablero.
 
    >[!NOTE]
    >
-   >Al cancelar la ventana de configuración inicial, se elimina la visualización del lienzo del tablero.
-
+   >Al cancelar la ventana de configuración inicial, se elimina la visualización del lienzo del panel.
