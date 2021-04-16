@@ -1,37 +1,38 @@
 ---
-description: nulo
-solution: Analytics
+description: Inicialización y actualización de la definición de esquema de un perfil
 title: Inicialización y actualización de la definición de esquema de un perfil
-topic: Data workbench
 uuid: 38e47ded-340e-4f65-b06c-f2e2254f0863
+exl-id: e8190909-4416-4d4a-8901-130d01906773
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 7%
 
 ---
 
-
 # Inicialización y actualización de la definición de esquema de un perfil{#initializing-and-updating-a-profile-s-schema-definition}
 
-1. Abra el **[!UICONTROL Schema Builder]** perfil que desee configurar.
-1. Se mostrará un **[!UICONTROL Loading]** mensaje mientras se recupera el esquema del perfil de Insight. La duración de la carga del esquema depende de la complejidad del perfil que se esté cargando.
-1. Cuando esté completo, verá un resumen de las diferencias entre el **[!UICONTROL Insight Schema]** panel izquierdo y el **[!UICONTROL Dashboard Schema]** panel derecho. Este resumen aparecerá en la parte inferior izquierda de la **[!UICONTROL Schema Builder]** ventana.
+1. Abra **[!UICONTROL Schema Builder]** para el perfil que desea configurar.
+1. Se mostrará un mensaje **[!UICONTROL Loading]** mientras se recupera el esquema del perfil de Insight. El tiempo para cargar el esquema depende de la complejidad del perfil que se esté cargando.
+1. Cuando termine, verá un resumen de las diferencias entre **[!UICONTROL Insight Schema]** en el panel izquierdo y **[!UICONTROL Dashboard Schema]** en el panel derecho. Este resumen aparece en la parte inferior izquierda de la ventana **[!UICONTROL Schema Builder]**.
 
    >[!NOTE]
    >
-   >Al configurar el esquema por primera vez, cada métrica, dimensión y filtro se enumerará de forma diferente al esquema del tablero. Esto se debe a que los objetos de esquema del tablero no existen en este momento.
+   >Al configurar el esquema por primera vez, cada métrica, dimensión y filtro se enumerarán de forma diferente al esquema del panel. Esto se debe a que los objetos de esquema del panel no existen en este momento.
 
    ![](assets/schema_builder2.png)
 
-1. Haga clic en el **[!UICONTROL Synchronize with Schema]** botón para sincronizar todas las métricas, dimensiones y filtros desde la vista Esquema de perspectiva con la vista Esquema de tablero.
-1. Cuando esté completo, debería ver un mensaje que indique que no se han encontrado diferencias:
+1. Haga clic en el botón **[!UICONTROL Synchronize with Schema]** para sincronizar todas las métricas, dimensiones y filtros de la vista Esquema de perspectiva con la vista Esquema de tablero.
+1. Cuando termine, debería ver un mensaje que indique que no se han encontrado diferencias:
 
    ![](assets/diff_found.png)
 
-1. Si hay algún error con el esquema del tablero, como métricas y dimensiones duplicadas, debe corregirlas manualmente antes de poder guardarlas.
+1. Si hay algún error con el esquema del panel (como métricas y dimensiones duplicadas), debe corregirlo manualmente antes de poder guardar.
 
    >[!NOTE]
    >
-   >Puede eliminar de forma selectiva cualquier métrica, dimensión o filtro del tablero **[!UICONTROL Dashboard Schema]** que no desee que aparezcan los usuarios finales del tablero. Recibirá una advertencia indicando que los elementos no están presentes en el esquema del tablero, pero no impedirá que los guarde.
+   >Puede eliminar selectivamente cualquier métrica, dimensión o filtro del **[!UICONTROL Dashboard Schema]** que no desee que aparezcan para los usuarios finales del tablero. Recibirá una advertencia que indica que los elementos no están presentes en el esquema del panel, pero que no impedirá que los guarde.
 
-1. Cuando esté listo, haga clic en **[!UICONTROL Save]** para guardar los cambios en el esquema del tablero.
+1. Cuando esté listo, haga clic en **[!UICONTROL Save]** para guardar los cambios en el esquema del panel.
 1. El sistema de tableros utilizará esta definición de esquema para rellenar las dimensiones, métricas y filtros disponibles para los usuarios finales de la interfaz de tablero.
