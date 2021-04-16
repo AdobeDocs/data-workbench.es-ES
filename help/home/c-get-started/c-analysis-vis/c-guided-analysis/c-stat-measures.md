@@ -1,37 +1,38 @@
 ---
-description: Para ayudar con las estadísticas, Área de trabajo de datos proporciona tres medidas estadísticas en la visualización de análisis guiado.
-solution: Analytics
+description: Para ayudar con las estadísticas, Data Workbench proporciona tres medidas estadísticas en la visualización de análisis guiados.
 title: Medidas estadísticas
-topic: Data workbench
 uuid: a8782cd2-d657-4c04-9c5d-8e0af2a3b76e
+exl-id: 166ff98b-d531-4b31-897e-0c7fedbd2f4d
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 0%
 
 ---
 
-
 # Medidas estadísticas{#statistical-measures}
 
-Para ayudar con las estadísticas, Área de trabajo de datos proporciona tres medidas estadísticas en la visualización de análisis guiado.
+Para ayudar con las estadísticas, Data Workbench proporciona tres medidas estadísticas en la visualización de análisis guiados.
 
 >[!NOTE]
 >
->Aunque las matemáticas pueden ayudarle a juzgar las correlaciones en los datos, también se debe tener en cuenta el contexto que rodea a los datos.
+>Aunque las matemáticas pueden ayudarle a juzgar las correlaciones en los datos, también debe tenerse en cuenta el contexto que rodea a los datos.
 
-* **Chi Sq p** es una prueba de relevancia estadística que controla el aspecto de la marca de verificación en la visualización. Matemáticamente, es probable que podamos rechazar la hipótesis nula, que establece que las diferencias observadas entre los dos grupos pueden explicarse por variaciones aleatorias. Prácticamente, si el valor p de Chi Sq es inferior al 100%, podemos ignorar la correlación independientemente de su intensidad medida (como se describe en las siguientes secciones estadísticas de U y de V).
-* **La estadística** U es una medida de la fortaleza de la correlación estadística. Matemáticamente, viene de una rama de las matemáticas llamada teoría de la información y está estrechamente relacionada con el concepto de información mutua entre las distribuciones de los dos grupos. Como alternativa, se puede considerar que es la compresibilidad de un grupo dado un esquema de codificación óptimo para el otro grupo. Prácticamente, esta medida funciona muy bien en el caso común de una dimensión con muchos elementos que contienen pocos visitantes. La medida varía entre 0 (débil) y 1 (fuerte).
-* **La estadística** V también es una medida de la fortaleza de la correlación estadística. Matemáticamente, está relacionado con la conocida estadística V de Cramer, que difiere solamente por un paso de normalización destinado a mejorar la simetría de la medida con respecto a la inversión de selección. Prácticamente, esta medida funciona razonablemente bien con muchos tipos de dimensiones y está relacionada con una medida estadística de uso común. La medida varía entre 0 (débil) y 1 (fuerte).
+* **Chi Sq** es una prueba de relevancia estadística que controla el aspecto de la marca de verificación en la visualización. Matemáticamente, es probable que podamos rechazar la hipótesis nula, que indica que las diferencias observadas entre los dos grupos pueden explicarse por variaciones aleatorias. Prácticamente, si el valor de Chi Sq p es menor que casi el 100%, podemos ignorar la correlación independientemente de su fuerza medida (como se describe en las siguientes secciones de estadística U y V).
+* **Las** estadísticas de EE. UU. son una medida de la solidez de la correlación estadística. Matemáticamente, proviene de una rama de las matemáticas llamada teoría de la información y está estrechamente relacionada con el concepto de información mutua entre las distribuciones de los dos grupos. Alternativamente, se puede considerar como la compresibilidad de un grupo a partir de un esquema de codificación óptimo para el otro grupo. Prácticamente, esta medida funciona muy bien en el caso común de una dimensión con muchos elementos que contienen pocos visitantes. La medida varía de 0 (débil) a 1 (fuerte).
+* **Las** estadísticas también constituyen una medida de la solidez de la correlación estadística. Matemáticamente, está relacionado con la conocida estadística de V de Cramer, que difiere solamente por un paso de normalización destinado a mejorar la simetría de la medida con respecto a la inversión de selección. Prácticamente, esta medida funciona razonablemente bien con muchos tipos de dimensiones y está relacionada con una medida estadística de uso común. La medida varía de 0 (débil) a 1 (fuerte).
 
 >[!NOTE]
 >
->Las estadísticas de U y V se seleccionaron para complementarse entre sí, cada una de ellas adaptada para detectar tipos de correlaciones a las que la otra podría no responder con tanta fuerza.
+>Las estadísticas de U y V se seleccionaron para complementarse entre sí, cada una ajustada para detectar tipos de correlaciones a las que la otra podría no responder con tanta fuerza.
 
-Con esta visualización como guía, puede agregar otras visualizaciones al espacio de trabajo para proporcionar una mayor perspectiva de los datos en función de la selección.
+Con esta visualización como guía, puede añadir otras visualizaciones al espacio de trabajo para proporcionar más información sobre los datos en función de la selección.
 
-El [!DNL Site] ejemplo siguiente contiene un gráfico de barras que muestra las sesiones de los días de enero, febrero, marzo y abril. Tenga en cuenta que se selecciona un día en enero.
+El siguiente ejemplo [!DNL Site] contiene un gráfico de barras que muestra las sesiones de los días de enero, febrero, marzo y abril. Tenga en cuenta que se ha seleccionado un día de enero.
 
 ![](assets/vis_GuidedAnalysis_withVis.png)
 
 La visualización de análisis guiado en la esquina inferior izquierda del espacio de trabajo indica que la dimensión Número de sesión proporciona información útil sobre el día seleccionado.
 
-Al examinar el gráfico de la barra Número de sesión en la esquina inferior derecha del espacio de trabajo, puede ver que los datos de Número de sesión 2 son mucho menores que el valor de referencia. Por lo tanto, podemos concluir que, como porcentaje, el día seleccionado tuvo lugar menos segundas sesiones que las habituales. Para ver un gráfico de barras para cualquiera de las dimensiones enumeradas en la visualización de análisis guiado, simplemente seleccione la dimensión haciendo clic en la dimensión con el ratón.
+Al examinar el gráfico de barras Número de sesión en la esquina inferior derecha del espacio de trabajo, puede ver que los datos del Número de sesión 2 son mucho más bajos que el valor de referencia. Por lo tanto, podemos concluir que, como porcentaje, el día seleccionado hubo menos sesiones secundarias de las que es habitual. Para ver un gráfico de barras para cualquiera de las dimensiones enumeradas en la visualización de análisis guiado, simplemente seleccione la dimensión haciendo clic en la dimensión con el ratón.
