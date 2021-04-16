@@ -1,32 +1,33 @@
 ---
-description: La proyección de Universal Transverse Mercator (UTM) está definida por ocho parámetros.
-solution: Analytics
-title: Proyecciones de Mercator Universal Transversal
-topic: Data workbench
+description: La proyección del Universal Transverse Mercator (UTM) se define mediante ocho parámetros.
+title: Proyecciones de Universal Transverse Mercator
 uuid: 55421412-5c68-4a4f-88d6-650d5999a77c
+exl-id: 7d7610c3-14e7-474e-b792-ad413c86a2ef
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
+# Proyecciones de Universal Transverse Mercator{#universal-transverse-mercator-projections}
 
-# Proyecciones de Mercator Universal Transversal{#universal-transverse-mercator-projections}
+La proyección del Universal Transverse Mercator (UTM) se define mediante ocho parámetros.
 
-La proyección de Universal Transverse Mercator (UTM) está definida por ocho parámetros.
+Al especificar una proyección de Universal Transverse Mercator para una capa de imagen de terreno, los archivos de imagen de terreno deben alinearse con false (proyectado) al norte hacia la parte superior de la imagen y false al este hacia la derecha de la imagen.
 
-Al especificar una proyección Universal Transverse Mercator para una capa de imagen de terreno, los archivos de imagen de terreno deben alinearse con false (proyectado) hacia el norte hacia la parte superior de la imagen y false hacia el este hacia la derecha de la imagen.
+Para especificar una proyección UTM para cualquier origen de imagen de terreno, debe abrir el archivo [!DNL Terrain Images.cfg] en un editor de texto como Bloc de notas, establecer el parámetro Información de proyección en &quot;TransverseMercatorProjection&quot; y agregar la configuración para la proyección UTM.
 
-Para especificar una proyección UTM para cualquier origen de imagen de terreno, debe abrir el [!DNL Terrain Images.cfg] archivo en un editor de texto como Bloc de notas, establecer el parámetro Información de proyección en &quot;TransverseMercatorProjection&quot; y agregar la configuración para la proyección UTM.
+**Especificación de una proyección de Universal Transverse Mercator**
 
-**Especificación de una proyección de Mercator universal transversal**
+1. En [!DNL Server Files Manager], haga clic en **[!UICONTROL Components]** para ver su contenido. El archivo [!DNL Terrain Images.cfg] se encuentra dentro de este directorio.
 
-1. En el [!DNL Server Files Manager], haga clic **[!UICONTROL Components]** para ver su contenido. El [!DNL Terrain Images.cfg] archivo se encuentra dentro de este directorio.
+1. Haga clic con el botón derecho en la marca de verificación de la columna *server name* para [!DNL Terrain Images.cfg] y, a continuación, haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la columna [!DNL Temp] de [!DNL Terrain Images.cfg].
 
-1. Haga clic con el botón secundario en la marca de verificación de la columna del nombre *del* servidor para [!DNL Terrain Images.cfg]y, a continuación, haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la [!DNL Temp] columna para [!DNL Terrain Images.cfg].
+1. Haga clic con el botón derecho en la marca de verificación recién creada en la columna [!DNL Temp] y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. El archivo [!DNL Terrain Images.cfg]aparece en una ventana del Bloc de notas.
 
-1. Haga clic con el botón secundario en la marca de verificación recién creada en la [!DNL Temp] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. El [!DNL Terrain Images.cfg]archivo aparece en una ventana del Bloc de notas.
-
-1. Edite los parámetros de Información de proyección utilizando como guías el siguiente fragmento de archivo de muestra y la tabla de parámetros. Asegúrese de especificar el tipo de proyección como se resalta a continuación.
+1. Edite los parámetros de Información de proyección utilizando la siguiente tabla de parámetros y fragmento de archivo de muestra como guías. Asegúrese de especificar el tipo de proyección como se indica a continuación.
 
    ```
    Projection Info = TransverseMercatorProjection:
@@ -42,10 +43,9 @@ Para especificar una proyección UTM para cualquier origen de imagen de terreno,
 
 | Parámetro | Descripción |
 |---|---|
-| Acoplamiento inverso elípsoide, eje semimajor elípsoide | Parámetros del elipsoide utilizado para la proyección. El eje semimajor se especifica en metros. |
-| Falso ayuno | El falso ayuno del meridiano central de la proyección, en metros. Para la UTM, esto es siempre 500.000. |
-| False Northing | El falso northing del ecuador en la proyección, en metros. Para la UTM, este es 0 para las zonas del hemisferio norte y 10.000 para las zonas del hemisferio sur. |
+| Alturador de la marcha atrás elípsoide, eje del semimajor elípsoide | Parámetros del elipsoid utilizado para la proyección. El eje semimajor se especifica en metros. |
+| Falso ayuno | El falso tostado del meridiano central de la proyección, en metros. Para UTM, esto siempre es 500.000. |
+| False Northing | El falso northing del ecuador en la proyección, en metros. Para la UTM, es 0 para las zonas del hemisferio norte y 10.000 para las zonas del hemisferio sur. |
 | Coordenadas de la esquina noroeste, coordenadas de la esquina sudeste | Coordenadas (en metros proyectados) de las esquinas superior izquierda e inferior derecha de la imagen. |
-| Primer meridiano | Longitud del meridiano central de la proyección, especificada en grados al este de Greenwich. Los números negativos pueden utilizarse para especificar grados oeste. |
-| Factor de escala | Relación entre el radio del cilindro de proyección y el eje semimajor del elipsoide. Para las proyecciones de Universal Transverse Mercator (UTM), esto es siempre 0,9996. |
-
+| Prime Meridian | Longitud del meridiano central de la proyección, especificada en grados este de Greenwich. Se pueden utilizar números negativos para especificar grados oeste. |
+| Factor de escala | Relación entre el radio del cilindro de la proyección y el eje semimajor del elipsoide. Para las proyecciones de Universal Transverse Mercator (UTM), siempre es 0,9996. |
