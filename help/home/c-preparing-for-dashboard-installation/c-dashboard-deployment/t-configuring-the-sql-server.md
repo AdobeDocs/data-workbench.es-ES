@@ -1,22 +1,23 @@
 ---
-description: Antes de que el tablero pueda funcionar, debe permitirle el acceso a SQL Server.
-solution: Analytics
+description: Para que el tablero pueda funcionar, debe permitirle acceder a SQL Server.
 title: Configuración de SQL Server
-topic: Data workbench
 uuid: bdd5f9f5-a69f-4001-9f80-901bd7eae129
+exl-id: 16116cc8-f539-4cf0-ab1d-f2bddd39b38c
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 8%
 
 ---
 
-
 # Configuración de SQL Server{#configuring-the-sql-server}
 
-Antes de que el tablero pueda funcionar, debe permitirle el acceso a SQL Server.
+Para que el tablero pueda funcionar, debe permitirle acceder a SQL Server.
 
 1. Abra SQL Management Studio como administrador.
-1. Agregue un nuevo inicio de sesión haciendo clic con el botón secundario **[!UICONTROL Logins]** y seleccionando **[!UICONTROL New Login]**.
-1. Introduzca el nombre de identidad completo del grupo de aplicaciones.
+1. Agregue un nuevo inicio de sesión haciendo clic con el botón derecho en **[!UICONTROL Logins]** y seleccionando **[!UICONTROL New Login]**.
+1. Introduzca el nombre de identidad del grupo de aplicaciones completo.
 
-   De forma predeterminada, la identidad del grupo de aplicaciones recibe el nombre del grupo de aplicaciones. Si elige `dashboard`, se le asignará un nombre a la identidad `IIS AppPool\dashboard`. 1. Seleccione **[!UICONTROL Server Roles]** y compruebe la **[!UICONTROL dbcreator]** función.
-1. Click **[!UICONTROL OK]** to add the new user.
+   De forma predeterminada, la identidad del grupo de aplicaciones recibe el nombre del grupo de aplicaciones. Si elige `dashboard`, la identidad se llamará `IIS AppPool\dashboard`. 1. Seleccione **[!UICONTROL Server Roles]** y marque la función **[!UICONTROL dbcreator]**.
+1. Haga clic en **[!UICONTROL OK]** para agregar el nuevo usuario.
