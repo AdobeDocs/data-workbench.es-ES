@@ -1,38 +1,37 @@
 ---
-description: Para cambiar el servidor del área de trabajo de datos con el que se comunica un sensor (el servidor destinatario), debe editar el archivo txlogd.conf en cada uno de los servidores Web en los que está instalado Sensor.
-solution: Analytics
+description: Para cambiar el servidor de Data Workbench con el que se comunica un sensor (el servidor de destino), debe editar el archivo txlogd.conf en cada uno de los servidores web en los que está instalado Sensor.
 title: Cambio del destino del servidor de Data Workbench
 uuid: 931d376d-8622-4858-8290-19ce91538570
+exl-id: 9d18cae1-4037-48c6-8514-3278e2c73b47
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 4%
 
 ---
 
-
 # Cambio del destino del servidor de Data Workbench{#changing-the-target-data-workbench-server}
 
-Para cambiar el servidor del área de trabajo de datos con el que se comunica un sensor (el servidor destinatario), debe editar el archivo txlogd.conf en cada uno de los servidores Web en los que está instalado Sensor.
+Para cambiar el servidor de Data Workbench con el que se comunica un sensor (el servidor de destino), debe editar el archivo txlogd.conf en cada uno de los servidores web en los que está instalado Sensor.
 
-**Para cambiar a destinatario[!DNL data workbench server]**
+**Para cambiar a target[!DNL data workbench server]**
 
-1. Detenga el servidor de destinatario original y el nuevo servidor de destinatario.
-1. Copie el [!DNL .vsl] archivo más reciente del servidor de destinatario original al nuevo servidor de destinatario. Al reiniciar el nuevo servidor de destinatario en un paso posterior, todos los datos nuevos [!DNL Sensor] se anexan al [!DNL .vsl] archivo existente actual en lugar de crear un nuevo [!DNL .vsl] archivo. Para ello, complete los siguientes pasos:
+1. Detenga el servidor de destino original y el nuevo servidor de destino.
+1. Copie el archivo [!DNL .vsl] más actual desde el servidor de destino original al nuevo servidor de destino. Cuando reinicie el nuevo servidor de destino en un paso posterior, esto hará que todos los datos nuevos [!DNL Sensor] se adjunten al archivo [!DNL .vsl] actual en lugar de crear un nuevo archivo [!DNL .vsl]. Para ello, complete los siguientes pasos:
 
-   1. En el servidor de destinatario original, vaya a la [!DNL \Logs] carpeta del directorio [!DNL data workbench server] de instalación.
+   1. En el servidor de destino original, vaya a la carpeta [!DNL \Logs] en el directorio de instalación [!DNL data workbench server].
 
-   1. Copie el [!DNL .vsl] archivo más reciente de la carpeta.
-   1. En el nuevo servidor de destinatario, vaya a la [!DNL \Logs] carpeta del directorio de instalación [!DNL data workbench server] y pegue el [!DNL .vsl] archivo en esta carpeta.
+   1. Copie el archivo [!DNL .vsl] más actual de la carpeta.
+   1. En el nuevo servidor de destino, vaya a la carpeta [!DNL \Logs] en el directorio de instalación [!DNL data workbench server] y pegue el archivo [!DNL .vsl] en esta carpeta.
 
-1. En uno de los servidores web en los que [!DNL Sensor] está instalado, abra y edite el [!DNL txlogd.conf] archivo. Para ello, complete los siguientes pasos:
+1. En uno de los servidores web en los que está instalado [!DNL Sensor], abra y edite el archivo [!DNL txlogd.conf]. Para ello, complete los siguientes pasos:
 
-   1. Vaya al directorio de instalación [!DNL Sensor] y abra el [!DNL txlogd.conf] archivo en un editor de texto.
+   1. Vaya al directorio de instalación [!DNL Sensor] y abra el archivo [!DNL txlogd.conf] en un editor de texto.
 
-   1. Busque el parámetro ServerAddress y cámbielo para que refleje la dirección del nuevo servidor de destinatario.
+   1. Busque el parámetro ServerAddress y cámbielo para que refleje la dirección del nuevo servidor de destino.
    1. Guarde y cierre el archivo.
 
-1. Repita los pasos del 2 al 3 en todos los servidores Web restantes en los que [!DNL Sensor] esté instalado.
-1. Reinicie el servidor de destinatario original (si aún no se ha utilizado) y el nuevo servidor de destinatario.
-1. Los datos empezarán a transmitirse al nuevo servidor de destinatario que haya especificado.
+1. Repita los pasos del 2 al 3 en todos los servidores web restantes en los que está instalado [!DNL Sensor].
+1. Reinicie el servidor de destino original (si todavía está por utilizar) y el nuevo servidor de destino.
+1. Los datos empezarán a transmitirse al nuevo servidor de destino que haya especificado.
