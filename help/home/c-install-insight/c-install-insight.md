@@ -1,15 +1,17 @@
 ---
-description: Este capítulo describe cómo instalar el software de Área de trabajo de datos y configurar la conexión con el servidor.
-solution: Analytics
-title: Instalación de Área de trabajo de datos
+description: En este capítulo se describe cómo instalar el software de Data Workbench y configurar la conexión con el servidor.
+title: Instalación de la Data Workbench
 uuid: 9609bb68-36e2-4b8b-a1f1-5855008c06e3
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
 
-# Instalación de Área de trabajo de datos{#installing-data-workbench}
+# Instalación de la Data Workbench{#installing-data-workbench}
 
-Este capítulo describe cómo instalar el software de Área de trabajo de datos y configurar la conexión con el servidor.
+En este capítulo se describe cómo instalar el software de Data Workbench y configurar la conexión con el servidor.
 
