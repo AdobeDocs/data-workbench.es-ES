@@ -1,19 +1,20 @@
 ---
-description: Contrae/expande la visualización actual.
-solution: Analytics
+description: Contrae/amplía la visualización actual.
 title: Contraer y expandir visualizaciones
-topic: Data workbench
 uuid: 16ee5479-e457-4abc-8a40-ed75612318fa
+exl-id: b005fd1e-1704-476f-b220-44ac591b8d15
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
-
 # Contraer y expandir visualizaciones{#collapsing-and-expanding-visualizations}
 
-Contrae/expande la visualización actual.
+Contrae/amplía la visualización actual.
 
-Las visualizaciones se pueden contraer y expandir en cualquier momento. Al contraer una visualización, la altura de la visualización se reducirá sólo a la parte de título y herramientas, ocultando el cuerpo de la visualización. Al expandir una visualización contraída, se restaurará su tamaño a su altura original.
+Las visualizaciones pueden contraerse y expandirse en cualquier momento. Si contrae una visualización, la altura de la visualización se reducirá solo a la parte del título y las herramientas, ocultando el cuerpo de la visualización. Al expandir una visualización contraída, se restaurará su tamaño a su altura original.
 
-Contraer una visualización es especialmente útil para conservar un gran número de visualizaciones dentro de un tablero mientras ocupa un espacio mínimo. Los usuarios pueden expandir una visualización contraída para ver su contenido únicamente cuando sea necesario.
+Contraer una visualización es particularmente útil para preservar un gran número de visualizaciones dentro de un tablero mientras ocupa un espacio mínimo. Los usuarios pueden expandir una visualización contraída para ver su contenido únicamente cuando sea necesario.
