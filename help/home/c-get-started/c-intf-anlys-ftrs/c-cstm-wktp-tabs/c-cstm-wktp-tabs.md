@@ -1,24 +1,24 @@
 ---
-description: Cada ficha o subficha del escritorio corresponde a un tipo concreto de información, como Tableros, Actividad, Adquisición, etc.
-solution: Analytics
-title: Personalización de una ficha de superficie de trabajo
-topic: Data workbench
+description: Cada ficha o subficha de la superficie de trabajo corresponde a un tipo concreto de información, como Paneles, Actividad, Adquisición, etc.
+title: Personalización de una pestaña de superficie de trabajo
 uuid: f1f557c8-f4cb-4789-8162-39cc7c52c943
+exl-id: 529c6d8d-fc42-4c2b-a111-b8eea4665d8b
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
+# Personalización de una pestaña de superficie de trabajo{#customize-a-worktop-tab}
 
-# Personalización de una ficha de superficie de trabajo{#customize-a-worktop-tab}
+Cada ficha o subficha de la superficie de trabajo corresponde a un tipo concreto de información, como Paneles, Actividad, Adquisición, etc.
 
-Cada ficha o subficha del escritorio corresponde a un tipo concreto de información, como Tableros, Actividad, Adquisición, etc.
+Por ejemplo, la pestaña [!DNL Acquisition] puede contener espacios de trabajo que proporcionen datos sobre dominios de referencia, motores de búsqueda y campañas.
 
-Por ejemplo, la [!DNL Acquisition] ficha puede contener espacios de trabajo que proporcionen datos sobre dominios de referencia, motores de búsqueda y campañas.
-
-Cada ficha que aparece en la carpeta [!DNL Worktop] corresponde a una carpeta de la carpeta *perfil* de trabajo\Workspaces del directorio de instalación de Área de trabajo de datos. El orden de las fichas de la carpeta [!DNL Worktop] está controlado por el [!DNL order.txt] archivo de la misma carpeta. Por ejemplo, si tiene una subcarpeta Adquisición en la carpeta Workspaces y, a continuación, agrega Adquisición como la primera entrada del [!DNL order.txt] archivo, [!DNL Acquisition] es la primera ficha de la subcarpeta [!DNL Worktop] y todo lo que contiene se muestra en la [!DNL Acquisition] ficha.
+Cada ficha que aparece en [!DNL Worktop] corresponde a una carpeta de la carpeta *nombre del perfil de trabajo*\Workspaces dentro del directorio de instalación de la Data Workbench. El orden de las pestañas en [!DNL Worktop] está controlado por el archivo [!DNL order.txt] en esa misma carpeta. Por ejemplo, si tiene una subcarpeta Acquisition en la carpeta Workspaces y luego agrega Acquisition como primera entrada en el archivo [!DNL order.txt], [!DNL Acquisition] es la primera pestaña en la [!DNL Worktop] y todo lo que hay en esa subcarpeta aparece en la pestaña [!DNL Acquisition].
 
 >[!NOTE]
 >
->Para obtener información sobre el uso del [!DNL order.txt] archivo para personalizar el menú de la ventana del espacio de trabajo, consulte [Personalización de menús](../../../../home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md#concept-93d4c09cb7f34cd293b7b64fba1cf894).
-
+>Para obtener información sobre el uso del archivo [!DNL order.txt] para personalizar el menú de la ventana del espacio de trabajo, consulte [Personalización de menús](../../../../home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md#concept-93d4c09cb7f34cd293b7b64fba1cf894).
