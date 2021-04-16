@@ -1,20 +1,21 @@
 ---
-description: Con el Modelo de objetos de documento de JavaScript, se pueden utilizar métodos de secuencias de comandos adicionales para aumentar la solicitud del archivo zig.js.
-solution: Analytics
+description: Con el Modelo de objetos de documento JavaScript, se pueden utilizar métodos de secuencias de comandos adicionales para aumentar la solicitud del archivo zig.js.
 title: Adquisición de objetos de documento
-topic: Data workbench
 uuid: 7681c337-b147-4937-9d9c-0ff48d9bdd00
+exl-id: eae6609c-be86-44cf-a1a1-69ffb43231fa
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
-
 # Adquisición de objetos de documento{#acquiring-document-objects}
 
-Con el Modelo de objetos de documento de JavaScript, se pueden utilizar métodos de secuencias de comandos adicionales para aumentar la solicitud del archivo zig.js.
+Con el Modelo de objetos de documento JavaScript, se pueden utilizar métodos de secuencias de comandos adicionales para aumentar la solicitud del archivo zig.js.
 
-Se puede hacer referencia por nombre a información como el valor de las etiquetas META, los valores de ID de las etiquetas DIV, etc., y recopilarla como variables para su uso en el análisis. Por ejemplo, para capturar dinámicamente la información contenida en el elemento META del documento HTML, puede utilizar la siguiente sintaxis de JavaScript:
+Se puede hacer referencia a información como el valor de las etiquetas META, los valores de ID de las etiquetas DIV, etc., por nombre y recopilarlos como variables para su uso en el análisis. Por ejemplo, para capturar dinámicamente la información contenida en el elemento META del documento HTML, puede utilizar la siguiente sintaxis de JavaScript:
 
 ```
 <!-- BEGIN REFERENCE PAGE TAG--> 
@@ -39,4 +40,4 @@ v["_1"] = metacontent;
 |---|---|---|
 | v_1= | Valor asociado con la variable de cadena de consulta METAVALUE. Este valor representa los datos dentro del elemento META del documento HTML. | v_1=Esta página proporciona contenido relacionado con la página de agradecimiento del pedido. |
 
-Una vez recopilados los datos, puede configurar el servidor del área de trabajo de datos para procesar estos datos de medición con fines de análisis e informes.
+Una vez recopilados los datos, se puede configurar el servidor de Data Workbench para procesar estos datos de medición con fines de análisis e informes.
