@@ -1,20 +1,20 @@
 ---
-description: Las visualizaciones se pueden mover y reorganizar fácilmente dentro del lienzo del tablero.
-solution: Analytics
+description: Las visualizaciones se pueden mover y reorganizar fácilmente dentro del lienzo del panel.
 title: Movimiento de visualizaciones
-topic: Data workbench
 uuid: 2a2e0b31-79e9-450b-89b6-5654758176f6
+exl-id: 3ee09209-081a-4f74-8c5c-29e9c04d661c
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
-
 # Movimiento de visualizaciones{#moving-visualizations}
 
-Las visualizaciones se pueden mover y reorganizar fácilmente dentro del lienzo del tablero.
+Las visualizaciones se pueden mover y reorganizar fácilmente dentro del lienzo del panel.
 
-Para mover una visualización, haga clic en la barra de título de la visualización, arrastre la visualización y colóquela en otra ubicación del lienzo del tablero. El lienzo del tablero le ayudará a colocar la visualización haciendo espacio para ella en la ubicación deseada. Las visualizaciones existentes se desplazarán automáticamente hacia arriba o hacia abajo para dejar espacio a la visualización que se esté moviendo para evitar la superposición.
+Para mover una visualización, simplemente haga clic en la barra de título de la visualización, arrastre la visualización y suéltela en otra ubicación del lienzo del tablero. El lienzo del tablero ayudará a posicionar la visualización al dejar espacio para él en la ubicación deseada. Las visualizaciones existentes se desplazarán automáticamente hacia arriba o hacia abajo para dejar espacio a la visualización que se está moviendo para evitar solapamientos.
 
 ![](assets/move_visual.png)
-
