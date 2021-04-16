@@ -1,16 +1,15 @@
 ---
 description: Información general sobre certificados digitales y procedimientos para descargarlos e instalarlos.
-solution: Analytics
 title: Descarga e instalación de certificados digitales
 uuid: ac484e96-21dc-4643-ae74-01ac957e30ee
-translation-type: ht
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
-workflow-type: ht
+exl-id: 8aae9b63-7df0-4725-9833-711246bbe746
+translation-type: tm+mt
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 100%
 
 ---
-
 
 # Descarga e instalación de certificados digitales {#downloading-and-installing-the-digital-certificates}
 
@@ -86,4 +85,3 @@ Cuando reciba el certificado prebloqueado, instálelo tal como se describe en lo
 1. Cambie el nombre del archivo de certificado descargado a:
 
 [!DNL server_cert.pem]
-
