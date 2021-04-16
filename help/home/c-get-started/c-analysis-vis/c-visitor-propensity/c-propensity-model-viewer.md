@@ -1,25 +1,26 @@
 ---
 description: Un visor de modelos permite generar un modelo de regresión logística mediante la función Puntuación de tendencia.
-solution: Analytics
-title: Visor de modelos
-topic: Data workbench
+title: Visualizador de modelos
 uuid: 7ee8ff29-21c2-4721-804a-c7a5d101b50b
+exl-id: e0e4acd4-76a2-436a-993b-2bb7ca91ae1a
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
-
-# Model Viewer{#model-viewer}
+# Visualizador de modelos{#model-viewer}
 
 Un visor de modelos permite generar un modelo de regresión logística mediante la función Puntuación de tendencia.
 
-El visor de modelos muestra los coeficientes de ponderación de cada variable de entrada (incluido el término constante) y su rango de errores estadísticos. Las variables de entrada que muestran un coeficiente absoluto alto y un margen de error pequeño son los predictores más significativos del modelo.
+El visor de modelos muestra las ponderaciones de coeficiente de cada variable de entrada (incluido el término constante) y su intervalo de errores estadístico. Las variables de entrada que muestran un coeficiente absoluto alto y un margen de error pequeño son los predictores más significativos del modelo.
 
-**Apertura de un gráfico de visor de modelos**
+**Apertura de un gráfico de visualizador de modelo**
 
-1. Select [!DNL Add Visualization > Predictive Analytics > Scoring] .
-1. Pase el ratón sobre el modelo completado de una puntuación guardada.
+1. Seleccione [!DNL Add Visualization > Predictive Analytics > Scoring] .
+1. Pase el ratón sobre la finalización del modelo de una puntuación guardada.
 
 ![](assets/propensity_model_viewer.png)
 
