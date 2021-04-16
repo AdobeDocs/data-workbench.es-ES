@@ -1,39 +1,39 @@
 ---
-description: Un mapa de proceso 2D puede mostrar las cantidades de métricas que representan la cantidad de actividad a o desde un nodo del mapa.
-solution: Analytics
+description: Un mapa de procesos 2D puede mostrar las cantidades de métricas que representan la cantidad de actividad desde o hacia un nodo del mapa.
 title: Mostrar una cantidad de métrica
-topic: Data workbench
 uuid: ec336af1-ff5b-4c0a-86a5-8186d76cdf07
+exl-id: fbe40dfa-0597-4d78-8673-4e9b63581c47
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 4%
 
 ---
 
-
 # Mostrar una cantidad de métrica{#display-a-metric-quantity}
 
-Un mapa de proceso 2D puede mostrar las cantidades de métricas que representan la cantidad de actividad a o desde un nodo del mapa.
+Un mapa de procesos 2D puede mostrar las cantidades de métricas que representan la cantidad de actividad desde o hacia un nodo del mapa.
 
 La secuencia real de actividad puede haber incluido nodos que no se agregaron a este mapa. Esta cantidad se expresa como un porcentaje, un valor absoluto o ningún valor.
 
 >[!NOTE]
 >
->Solo puede mostrar las cantidades de métricas para los mapas de proceso 2D.
+>Puede mostrar cantidades de métricas solo para mapas de procesos 2D.
 
-**Para mostrar las cantidades de métricas en un mapa de proceso 2D**
+**Para mostrar cantidades de métricas en un mapa de proceso 2D**
 
-* Haga clic en el nodo que desee. Todos los demás nodos del mapa del proceso se atenúan para que pueda ver más fácilmente las flechas hacia y desde el nodo resaltado y las cantidades de métricas asociadas.
+* Haga clic en el nodo deseado. Todos los demás nodos del mapa de proceso se atenúan para que pueda ver con mayor facilidad las flechas hacia y desde el nodo resaltado y las cantidades de métricas asociadas.
 
 **Para elegir cómo se muestra la cantidad**
 
-1. Haga clic con el botón secundario en un nodo y haga clic en **[!UICONTROL Options]** > **[!UICONTROL Quantify Links]**.
-1. Click **[!UICONTROL Percentage]**, **[!UICONTROL Absolute Value]**, or **[!UICONTROL Off]**.
+1. Haga clic con el botón derecho en un nodo y haga clic en **[!UICONTROL Options]** > **[!UICONTROL Quantify Links]**.
+1. Haga clic en **[!UICONTROL Percentage]**, **[!UICONTROL Absolute Value]** o **[!UICONTROL Off]**.
 
    ![](assets/mnu_2DProcessMap_quantifyLinks.png)
 
-Los siguientes ejemplos muestran las cantidades de métricas para dos mapas de proceso 2D.
+Los siguientes ejemplos muestran cantidades de métricas para dos mapas de procesos 2D.
 
 ![](assets/vis_2DProcessMap_DisplayMetricQuantities_Movies.png)
 
 ![](assets/client-met.png)
-
