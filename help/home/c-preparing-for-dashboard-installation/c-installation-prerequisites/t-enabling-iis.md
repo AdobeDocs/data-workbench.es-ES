@@ -1,23 +1,24 @@
 ---
-description: El primer paso es habilitar la función IIS en el servidor de tableros.
-solution: Analytics
+description: El primer paso es habilitar el rol IIS en el servidor de tableros.
 title: Habilitación de IIS
-topic: Data workbench
 uuid: fbd194db-3307-41ae-8ece-05eb261d74ad
+exl-id: 0d431302-1e69-49b6-8757-9823fd70a3b4
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 4%
 
 ---
 
-
 # Habilitación de IIS{#enabling-iis}
 
-El primer paso es habilitar la función IIS en el servidor de tableros.
+El primer paso es habilitar el rol IIS en el servidor de tableros.
 
-1. Debajo **[!UICONTROL Administrative Tools]**, abra el **[!UICONTROL Server Manager]**.
-1. Haga clic con el botón derecho en el elemento de menú Funciones en la parte izquierda de la **[!UICONTROL Server Manager]** ventana.
-1. Select **[!UICONTROL Add Roles]**.
-1. Seleccione **[!UICONTROL Web Server (IIS)]** y continúe con el **[!UICONTROL Add Roles Wizard]**. Asegúrese de que los siguientes servicios de rol están activados:
+1. En **[!UICONTROL Administrative Tools]**, abra **[!UICONTROL Server Manager]**.
+1. Haga clic con el botón derecho en el elemento de menú Roles en la parte izquierda de la ventana **[!UICONTROL Server Manager]**.
+1. Seleccione **[!UICONTROL Add Roles]**.
+1. Seleccione **[!UICONTROL Web Server (IIS)]** y continúe con **[!UICONTROL Add Roles Wizard]**. Asegúrese de que los siguientes Servicios de rol estén habilitados:
 
    | Funciones HTTP comunes |
    |---|
@@ -39,14 +40,14 @@ El primer paso es habilitar la función IIS en el servidor de tableros.
    | Registro HTTP |
    | Herramientas de registro |
    | Monitor de solicitud |
-   | Rastreo |
+   | Seguimiento |
    | Registro personalizado |
 
    | Seguridad |
    |---|
    | Autenticación básica |
    | Autenticación de Windows |
-   | Autenticación de URL |
+   | Autenticación URL |
    | Filtrado de solicitudes |
    | Restricciones de IP y dominio |
 
