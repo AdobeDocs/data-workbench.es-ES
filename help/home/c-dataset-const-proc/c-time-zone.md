@@ -1,54 +1,54 @@
 ---
-description: Información sobre los códigos y formatos del huso horario.
-solution: Analytics
+description: Información sobre los códigos y formatos de zona horaria.
 title: Códigos de huso horario
-topic: Data workbench
 uuid: 5698882a-9682-41d8-88d3-8471578a22cc
+exl-id: 2829c4ca-af6f-4ddb-acce-b33c3b552ba7
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 5%
 
 ---
 
-
 # Códigos de huso horario{#time-zone-codes}
 
-Información sobre los códigos y formatos del huso horario.
+Información sobre los códigos y formatos de zona horaria.
 
-La mayoría de los parámetros basados en el tiempo del servidor del área de trabajo de datos se especifican con el siguiente formato:
+La mayoría de los parámetros basados en tiempo del servidor de Data Workbench se especifican con el siguiente formato:
 
-* Mes DD, AAAA HH :MM :SS TZone
-* Ejemplo: 13 de agosto de 2013, 22:30:00 EST
+* Mes DD , AAAA HH :MM :SS TZone
+* Ejemplo: 13 de agosto de 2013 22:30:00 EST
 
-Los husos horarios se expresan en un formato de zona horaria independiente del sistema (hora universal coordinada) con el siguiente formato:
+Las zonas horarias se expresan en un formato de zona horaria independiente del sistema (hora universal coordinada) con el siguiente formato:
 
-* Rótulos UTC +hhmm
+* Instrucciones UTC +hmm
 
-El signo (+) puede ser un signo más (+) o un signo menos (-), y hhmm es el desplazamiento de UTC en horas y minutos. Las instrucciones de variable opcionales especifican un conjunto de reglas para implementar el horario de verano o una política de cambio de reloj similar.
+El signo (+) puede ser un signo más (+) o un signo menos (-), y hmm es el desplazamiento desde UTC en horas y minutos. La variable opcional estructura especifica un conjunto de reglas para implementar el cambio de horario de verano o una política de cambio de reloj similar.
 
-Si especifica las estructuras, un archivo delimitado por tabuladores denominado [!DNL dstrules.dst] debe estar presente en el directorio Dataset\TimeZone del [!DNL Base] perfil (para los archivos de configuración que no están asociados a un conjunto de datos concreto) o del perfil del conjunto de datos (para los archivos de configuración que son específicos de un conjunto de datos). El archivo especifica un conjunto de reglas independiente de zona horaria para el horario de verano. Puede tener diferentes conjuntos de reglas para diferentes años. El [!DNL DST.dst] archivo proporcionado por Adobe en el [!DNL Base] perfil especifica las reglas estándar de EE.UU. establecidas por la Ley de Política Energética de 2005 (en vigor a partir de 2007) y las normas de EE.UU. para años anteriores.
+Si especifica unidades, un archivo delimitado por tabuladores denominado [!DNL dstrules.dst] debe estar presente en el directorio Dataset\TimeZone del perfil [!DNL Base] (para archivos de configuración que no están asociados a un conjunto de datos determinado) o del perfil del conjunto de datos (para archivos de configuración que son específicos del conjunto de datos). El archivo especifica un conjunto de reglas independientes de zona horaria para el horario de verano. Puede tener diferentes conjuntos de reglas para diferentes años. El archivo [!DNL DST.dst] proporcionado por el Adobe en el perfil [!DNL Base] especifica las reglas estándar de Estados Unidos establecidas por la Ley de Política Energética de 2005 (en vigor a partir de 2007) y las reglas de Estados Unidos para años anteriores.
 
-A continuación se muestran las entradas de zona horaria de muestra:
+A continuación se enumeran las entradas de zona horaria de ejemplo:
 
-* Hora del verano del este de EE.UU.: Zona horaria = cadena: UTC -0500 DST
-* Hora UTC sin desplazamiento y sin ejes (correspondiente a GMT): Zona horaria = cadena: UTC -0000
+* Hora de verano de EE. UU.: Zona horaria = cadena: UTC -0500 DST
+* Hora UTC sin desplazamiento y sin dificultades (correspondiente a GMT): Zona horaria = cadena: UTC -0000
 
-Cuando se utiliza este formato, la zona horaria del sistema del servidor del área de trabajo de datos, del área de trabajo de datos y de los equipos de informes no debe ser la misma que la zona horaria especificada. Además, todos los perfiles de conjuntos de datos activos de un equipo de servidor del área de trabajo de datos no necesitan tener la misma configuración de zona horaria.
+Cuando se utiliza este formato, la zona horaria del sistema del servidor de Data Workbench, Data Workbench y los equipos de informes no tiene que ser la misma que la zona horaria especificada. Además, todos los perfiles de conjuntos de datos activos en un equipo de servidor de Data Workbench no necesitan tener la misma configuración de zona horaria.
 
 La siguiente tabla contiene la lista de códigos que puede utilizar para especificar zonas horarias en parámetros basados en tiempo.
 
-## Tabla de códigos de zona horaria {#section-b4f965b872c543e2ac52a3c94410d076}
+## Tabla de código de zona horaria {#section-b4f965b872c543e2ac52a3c94410d076}
 
-Si va a implementar el horario de verano o una política de cambio de reloj similar, debe guardar el [!DNL .dst] archivo que contiene las reglas correspondientes en el directorio del nombre del perfil [!DNL \Dataset\Timezone] del equipo del servidor del área de trabajo de datos.
+Si va a implementar Daylight Saving Time o una política similar de cambio de reloj, debe guardar el archivo [!DNL .dst] que contiene las reglas adecuadas en el directorio del nombre de perfil [!DNL \Dataset\Timezone] en el equipo del servidor de Data Workbench.
 
 | Código | Zona horaria | Desplazamiento desde GMT |
 |---|---|---|
-| gmt | Medio de Greenwich | 0 |
+| gmt | Greenwich Media | 0 |
 | est | Estándar oriental | 5 |
 | edt | Luz de verano oriental | 5 |
-| cst | Central Standard | 6 |
-| cdt | Luz diurna central | 6 |
+| cst | Estándar central | 6 |
+| cdt | Luz de día central | 6 |
 | mst | Mountain Standard | 7 |
-| mdt | Luz diurna de montaña | 7 |
-| pst | Norma del Pacífico | 8 |
+| mdt | Horario de montaña | 7 |
+| pst | Pacific Standard | 8 |
 | pdt | Luz de día del Pacífico | 8 |
-
