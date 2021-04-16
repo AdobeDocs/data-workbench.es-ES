@@ -1,69 +1,70 @@
 ---
-description: En la carpeta Workspaces del directorio de instalación de Área de trabajo de datos, un archivo folder.lock especifica si los espacios de trabajo de esa carpeta en particular están bloqueados, mientras que un archivo name.lock de espacio de trabajo especifica si un espacio de trabajo en particular está bloqueado.
-solution: Analytics
+description: Dentro de la carpeta Workspaces del directorio de instalación de la Data Workbench, un archivo folder.lock especifica si los espacios de trabajo de esa carpeta en particular están bloqueados, mientras que un archivo name.lock de espacio de trabajo especifica si un espacio de trabajo en particular está bloqueado.
 title: Archivos Folder.lock y Workspace.lock
-topic: Data workbench
 uuid: d4c69e16-0596-4542-854f-bc614167ae80
+exl-id: 980b8692-8aa5-481f-b6bc-33836d8a3a76
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 1%
 
 ---
 
-
 # Archivos Folder.lock y Workspace.lock{#folder-lock-and-workspace-lock-files}
 
-En la carpeta Workspaces del directorio de instalación de Área de trabajo de datos, un archivo folder.lock especifica si los espacios de trabajo de esa carpeta en particular están bloqueados, mientras que un archivo name.lock de espacio de trabajo especifica si un espacio de trabajo en particular está bloqueado.
+Dentro de la carpeta Workspaces del directorio de instalación de la Data Workbench, un archivo folder.lock especifica si los espacios de trabajo de esa carpeta en particular están bloqueados, mientras que un archivo name.lock de espacio de trabajo especifica si un espacio de trabajo en particular está bloqueado.
 
-Al bloquear carpetas enteras, puede bloquearlas en el nivel de carpeta Workspaces o en el nivel de subcarpeta (ficha). También puede bloquear o desbloquear todas las carpetas (en el nivel de carpeta Workspaces) y, a continuación, especificar las excepciones para subcarpetas concretas (con [!DNL folder.lock] archivos) o espacios de trabajo concretos (con archivos *de nombre*.lock del espacio de trabajo).
+Al bloquear carpetas enteras, puede bloquearlas en el nivel de carpeta Workspaces o en el nivel de subcarpeta (ficha). También puede bloquear o desbloquear todas las carpetas (en el nivel de carpeta Workspaces) y, a continuación, especificar las excepciones para subcarpetas concretas (mediante archivos [!DNL folder.lock]) o espacios de trabajo concretos (mediante archivos *workspace name*.lock).
 
 El siguiente ejemplo de [!DNL Profile Manager] resalta tres elementos:
 
-* Un [!DNL folder.lock] archivo para la carpeta Workspaces principal
-* Un [!DNL Monthly Numbers.lock] archivo para el archivo del [!DNL Monthly Numbers.vw] espacio de trabajo
+* Un archivo [!DNL folder.lock] para la carpeta principal de Workspaces
+* Un archivo [!DNL Monthly Numbers.lock] para el archivo de espacio de trabajo [!DNL Monthly Numbers.vw]
 
-* Un [!DNL folder.lock] archivo para la subcarpeta Workspaces\Custom
+* Un archivo [!DNL folder.lock] para la subcarpeta Workspaces\Custom
 
 ![](assets/wsp_Locking_lockFiles.png)
 
-En este ejemplo, el [!DNL Workspaces folder.lock] archivo se establece como bloqueado, lo que bloquea todas las áreas de trabajo de esta instancia de Área de trabajo de datos. El archivo de subcarpeta [!DNL folder.lock] Workspaces\Custom se establece en unlocked, lo que desbloquea todos los espacios de trabajo de la [!DNL Custom] ficha. Por último, el [!DNL Monthly Numbers.lock] archivo está bloqueado, lo que bloquea el espacio de trabajo Números mensuales.
+En este ejemplo, el archivo [!DNL Workspaces folder.lock] se establece como bloqueado, lo que bloquea todos los espacios de trabajo en esta instancia de Data Workbench. El archivo [!DNL folder.lock] de subcarpeta Workspaces\Custom está definido como desbloqueado, lo que desbloquea todos los espacios de trabajo de la ficha [!DNL Custom]. Por último, el archivo [!DNL Monthly Numbers.lock] se configura como bloqueado, lo que bloquea el espacio de trabajo Números mensuales .
 
 ## Creación de archivos .lock {#section-c4f78b4b43c347368a376904effb41d2}
 
-Puede crear un [!DNL new folder.lock] archivo con la [!DNL Create menu] opción [!DNL Profile Manager] o [!DNL Workspaces Manager]. También puede crear un archivo name [!DNL folder.lock] .lock *o* espacio de trabajo copiando y pegando un archivo existente en la carpeta correspondiente, cambiando el nombre del archivo (solo para archivos [!DNL .lock] de nombre **.lock) y cambiando la configuración del archivo si es necesario.
+Puede crear un archivo [!DNL new folder.lock] utilizando la opción [!DNL Create menu] en [!DNL Profile Manager] o en [!DNL Workspaces Manager]. También puede crear un archivo [!DNL folder.lock] o *nombre del espacio de trabajo*.lock copiando y pegando un archivo [!DNL .lock] existente en la carpeta adecuada, cambiando el nombre del archivo (solo para *nombre del espacio de trabajo*.lock) y cambiando la configuración del archivo si es necesario.
 
 **Para crear un nuevo archivo folder.lock**
 
-1. En el Área de trabajo de datos, abra la página haciendo clic con el botón derecho en un espacio de trabajo y haciendo clic en [!DNL Workspaces Manager] > **[!UICONTROL Manage]** > **[!UICONTROL Profile]** **[!UICONTROL Workspaces Manager]**.
-1. Haga clic en la carpeta para la que desea crear un [!DNL folder.lock] archivo.
-1. En la [!DNL User] columna de esa carpeta, haga clic con el botón derecho en la celda y haga clic en **[!UICONTROL Create]** > **[!UICONTROL folder.lock]**. Aparece un [!DNL new folder.lock] archivo. [!DNL New folder.lock] de forma predeterminada, los archivos se definen como [desbloqueados] .
+1. En la Data Workbench, abra [!DNL Workspaces Manager] haciendo clic con el botón derecho en un espacio de trabajo y haciendo clic en **[!UICONTROL Manage]** > **[!UICONTROL Profile]** > **[!UICONTROL Workspaces Manager]**.
+1. Haga clic en la carpeta para la que desea crear un archivo [!DNL folder.lock].
+1. En la columna [!DNL User] de esa carpeta, haga clic con el botón derecho en la celda y haga clic en **[!UICONTROL Create]** > **[!UICONTROL folder.lock]**. Aparece un archivo [!DNL new folder.lock]. [!DNL New folder.lock] de forma predeterminada, los archivos se establecen en  [] unlocked.
 1. (Opcional) Si necesita cambiar la configuración en el archivo:
 
-   1. Haga clic con el botón secundario en la marca de verificación del archivo.
-   1. Haga clic **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. Se abre el [!DNL folder.lock] archivo.
+   1. Haga clic con el botón derecho en la marca de verificación del archivo.
+   1. Haga clic **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. Se abre el archivo [!DNL folder.lock].
 
-   1. Cambie la configuración a [bloqueada].
+   1. Cambie la configuración a [locked].
    1. Guarde y cierre el archivo.
 
-1. Para que esta opción sea la configuración de todos los usuarios que trabajen con el mismo perfil de trabajo, haga clic con el botón secundario en la marca de verificación del archivo y haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]**>*.
+1. Para que esta sea la configuración de todos los usuarios que trabajen con el mismo perfil de trabajo, haga clic con el botón derecho en la marca de verificación del archivo y haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]**>*.
 
 Los espacios de trabajo de esta carpeta ahora están bloqueados o desbloqueados según la configuración del nuevo archivo.
 
-**Creación de un archivo .lock a partir de un archivo existente**
+**Para crear un archivo .lock a partir de un archivo existente**
 
-1. En la casilla [!DNL Profile Manager] o [!DNL Workspaces Manager], haga clic con el botón derecho en la marca de verificación de un [!DNL .lock] archivo existente y haga clic en **[!UICONTROL Copy]**.
-1. En la [!DNL User] columna de la carpeta en la que desea pegar el [!DNL .lock] archivo, haga clic con el botón derecho en la celda y haga clic en **[!UICONTROL Paste]**.
-1. Si este archivo se utiliza para bloquear un espacio de trabajo individual, haga clic con el botón derecho en la marca de verificación del [!DNL .lock] archivo en la [!DNL User] columna y cambie su nombre en el [!DNL File] campo para que coincida con el nombre del espacio de trabajo que desea bloquear.
+1. En [!DNL Profile Manager] o [!DNL Workspaces Manager], haga clic con el botón derecho en la marca de verificación de un archivo [!DNL .lock] existente y haga clic en **[!UICONTROL Copy]**.
+1. En la columna [!DNL User] de la carpeta en la que desea pegar el archivo [!DNL .lock], haga clic con el botón derecho en la celda y haga clic en **[!UICONTROL Paste]**.
+1. Si este archivo se utiliza para bloquear un espacio de trabajo individual, haga clic con el botón derecho en la marca de verificación del archivo [!DNL .lock] en la columna [!DNL User] y cambie su nombre en el campo [!DNL File] para que coincida con el nombre del espacio de trabajo que desea bloquear.
 
-   Por ejemplo, para bloquear el [!DNL Monthly Numbers.vw] espacio de trabajo, debe asignar al archivo el nombre &quot; [!DNL Monthly Numbers.lock]&quot;.Si este archivo se utiliza para bloquear un espacio de trabajo individual, haga clic con el botón derecho en la marca de verificación del [!DNL .lock] archivo en la [!DNL User] columna y cambie su nombre en el [!DNL File] campo para que coincida con el nombre del espacio de trabajo que desea bloquear. Por ejemplo, para bloquear el [!DNL Monthly Numbers.vw] espacio de trabajo, debe asignar al archivo el nombre &quot; [!DNL Monthly Numbers.lock]&quot;.
+   Por ejemplo, para bloquear el espacio de trabajo [!DNL Monthly Numbers.vw], debe asignar al archivo el nombre &quot;[!DNL Monthly Numbers.lock]&quot;.Si este archivo se utiliza para bloquear un espacio de trabajo individual, haga clic con el botón derecho en la marca de verificación del archivo [!DNL .lock] en la columna [!DNL User] y cambie su nombre en el campo [!DNL File] para que coincida con el nombre del espacio de trabajo que desea bloquear. Por ejemplo, para bloquear el espacio de trabajo [!DNL Monthly Numbers.vw], debe asignar al archivo el nombre &quot;[!DNL Monthly Numbers.lock]&quot;.
 
 1. Para cambiar la configuración en el archivo:
 
-   1. Haga clic con el botón secundario en la marca de verificación del archivo.
-   1. Haga clic **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. Se abre el [!DNL .lock] archivo.
+   1. Haga clic con el botón derecho en la marca de verificación del archivo.
+   1. Haga clic **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. Se abre el archivo [!DNL .lock].
 
-   1. Cambie la configuración a [bloqueada] o [desbloqueada].
+   1. Cambie la configuración a [locked] o [unlocked].
    1. Guarde y cierre el archivo.
 
-1. Para que esta opción sea la configuración de todos los usuarios que trabajen con el mismo perfil de trabajo, haga clic con el botón secundario en la marca de verificación del archivo y haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]**>*.
+1. Para que esta sea la configuración de todos los usuarios que trabajen con el mismo perfil de trabajo, haga clic con el botón derecho en la marca de verificación del archivo y haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]**>*.
 
 Los espacios de trabajo seleccionados ahora están bloqueados o desbloqueados según la configuración del nuevo archivo.
