@@ -1,17 +1,18 @@
 ---
-description: Al configurar el conjunto de datos, es posible que desee ocultar determinadas dimensiones extendidas para que no se muestren en el menú de dimensiones del área de trabajo de datos.
-solution: Analytics
+description: Al configurar el conjunto de datos, es posible que desee ocultar determinadas dimensiones extendidas para que no se muestren en el menú de dimensiones de Data Workbench.
 title: Ocultar componentes de conjuntos de datos
-topic: Data workbench
 uuid: 011e762b-547c-4a41-9473-d6d617177c86
+exl-id: be8fd482-6084-41bd-bfbf-302bacbbc587
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
-
 # Ocultar componentes de conjuntos de datos{#hiding-dataset-components}
 
-Al configurar el conjunto de datos, es posible que desee ocultar determinadas dimensiones extendidas para que no se muestren en el menú de dimensiones del área de trabajo de datos.
+Al configurar el conjunto de datos, es posible que desee ocultar determinadas dimensiones extendidas para que no se muestren en el menú de dimensiones de Data Workbench.
 
-Es posible que desee sobrescribir determinados archivos de configuración de conjuntos de datos en un perfil que no pueda modificar o no desee modificar. Las siguientes secciones proporcionan instrucciones para realizar estas tareas.
+Es posible que desee anular ciertos archivos de configuración de conjuntos de datos en un perfil que no pueda modificar o que no desee modificar. Las secciones siguientes proporcionan instrucciones para realizar estas tareas.
