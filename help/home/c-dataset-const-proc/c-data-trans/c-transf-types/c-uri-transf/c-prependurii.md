@@ -1,30 +1,31 @@
 ---
-description: De forma similar a la transformación AppendURI, la transformación PrependURI afecta al campo interno utilizado por el servidor del área de trabajo de datos para construir la dimensión URI.
-solution: Analytics
+description: Similar a la transformación AppendURI, la transformación PrependURI afecta al campo interno utilizado por el servidor de Data Workbench para construir la dimensión URI.
 title: PrependURI
-topic: Data workbench
 uuid: 3f2fb1a7-83f7-481e-b892-0937acd379f9
+exl-id: c39d9241-ed66-446e-b59d-fdb11942d0e8
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 6%
 
 ---
 
-
 # PrependURI{#prependuri}
 
-De forma similar a la transformación AppendURI, la transformación PrependURI afecta al campo interno utilizado por el servidor del área de trabajo de datos para construir la dimensión URI.
+Similar a la transformación AppendURI, la transformación PrependURI afecta al campo interno utilizado por el servidor de Data Workbench para construir la dimensión URI.
 
-La [!DNL PrependURI] transformación funciona agregando el valor en el campo de entrada identificado al principio del valor que se encuentra actualmente en el URI.
+La transformación [!DNL PrependURI] funciona añadiendo el valor del campo de entrada identificado al frente del valor que se encuentra en el URI.
 
-| Parámetro | Descripción | Valor predeterminado |
+| Parámetro | Descripción | Predeterminado |
 |---|---|---|
-| Nombre | Nombre descriptivo de la transformación. Aquí puede introducir cualquier nombre. |  |
+| Nombre | Nombre descriptivo de la transformación. Puede introducir cualquier nombre aquí. |  |
 | Comentarios | Opcional. Notas sobre la transformación. |  |
 | Condición | Condiciones en las que se aplica esta transformación. |  |
-| Valor predeterminado | El valor predeterminado que se usará si se cumple la condición y el valor de entrada no está disponible. |  |
+| Predeterminado | El valor predeterminado que se debe utilizar si se cumple la condición y el valor de entrada no está disponible. |  |
 | Entrada | Nombre del campo cuyo valor va precedido del URI. |  |
 
-El siguiente ejemplo simplemente antepone el campo s-dns al URI, extendiendo la representación de la dimensión URI para incluir el dominio solicitado por el dispositivo cliente.
+El siguiente ejemplo simplemente antepone el campo s-dns al URI, ampliando la representación de la dimensión URI para incluir el dominio solicitado por el dispositivo cliente.
 
 ![](assets/cfg_TransformationType_PrependURI.png)
 
