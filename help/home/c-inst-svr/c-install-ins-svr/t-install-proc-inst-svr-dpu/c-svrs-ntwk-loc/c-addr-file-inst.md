@@ -1,20 +1,19 @@
 ---
-description: El archivo de dirección instalado en Insight Server contiene cuatro ubicaciones de red predefinidas.
-solution: Analytics
+description: El archivo de direcciones instalado en Insight Server contiene cuatro ubicaciones de red predefinidas.
 title: El archivo de direcciones instalado en el servidor de Insight
 uuid: a58d36d8-e1a3-43e7-91c5-c57351e1be49
+exl-id: 12e9bfa2-99ac-4584-b761-38401d1bc3d1
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 2%
 
 ---
 
-
 # El archivo de direcciones instalado en el servidor de Insight{#the-address-file-installed-on-insight-server}
 
-El archivo de dirección instalado en Insight Server contiene cuatro ubicaciones de red predefinidas.
+El archivo de direcciones instalado en Insight Server contiene cuatro ubicaciones de red predefinidas.
 
 El procedimiento de la siguiente sección describe cómo configurar este archivo.
 
@@ -41,23 +40,23 @@ Locations = vector: 4 items
     Parent = string:
 ```
 
-* NetworkLocation 0 es una ubicación de red vacía y sin nombre que se edita para asociar el nombre común del usuario [!DNL Insight Server] a su dirección IP. Si el servidor tiene varias direcciones IP, puede crear ubicaciones de red adicionales.
-* NetworkLocation 1 es la ubicación de la [!DNL Insight] red. Si no establece explícitamente el parámetro NetworkLocation, [!DNL Insight] resuelve los nombres comunes a través de esta ubicación de red.
+* NetworkLocation 0 es una ubicación de red vacía y sin nombre que edita para asociar el nombre común de su [!DNL Insight Server] a su dirección IP. Si el servidor tiene varias direcciones IP, debe crear NetworkLocations adicionales.
+* NetworkLocation 1 es la ubicación de red [!DNL Insight]. Si no establece explícitamente el parámetro NetworkLocation , [!DNL Insight] resuelve los nombres comunes a través de esta ubicación de red.
 
-* NetworkLocation 2 es la ubicación de la [!DNL Insight Server] red. Cuando [!DNL Insight Servers] funcionan en un clúster, utilizan esta ubicación de red para resolver nombres comunes para la comunicación entre servidores.
+* NetworkLocation 2 es la ubicación de red [!DNL Insight Server]. Cuando [!DNL Insight Servers] opera en un clúster, utilizan esta ubicación de red para resolver nombres comunes para la comunicación entre servidores.
 
-* NetworkLocation 3 es la ubicación de red del [!DNL Report] servidor. Si no establece explícitamente el parámetro NetworkLocation, [!DNL Report] resuelve los nombres comunes a través de esta ubicación de red.
+* NetworkLocation 3 es la ubicación de red [!DNL Report] Server. Si no establece explícitamente el parámetro NetworkLocation , [!DNL Report] resuelve los nombres comunes a través de esta ubicación de red.
 
 ## Para configurar el archivo de direcciones {#section-10caab9854a244e39b09071946f7bd27}
 
 El siguiente procedimiento describe cómo configurar el archivo de dirección para definir una ubicación de red (o ubicaciones de red) para su [!DNL Insight Server].
 
-1. Vaya a la [!DNL Addresses] carpeta del directorio donde instaló [!DNL Insight Server] (por ejemplo, [!DNL C:\Adobe\Server\Addresses)].
+1. Vaya a la carpeta [!DNL Addresses] en el directorio donde instaló [!DNL Insight Server] (por ejemplo, [!DNL C:\Adobe\Server\Addresses)].
 
-1. Busque el archivo y cambie el nombre del [!DNL server.address] mismo para que refleje el nombre común del servidor. Por ejemplo, si el nombre común fuera [!DNL server.mycompany.com], cambiaría el nombre del archivo [!DNL server.mycompany.com.address].
+1. Busque el archivo [!DNL server.address] y cambie el nombre de este archivo para que refleje el nombre común del servidor. Por ejemplo, si el nombre común fuera [!DNL server.mycompany.com], cambiaría el nombre del archivo [!DNL server.mycompany.com.address].
 
-1. Abra el archivo con el nombre cambiado en un editor de texto como Bloc de notas.
-1. Edite NetworkLocation 0 para especificar el nombre común y la dirección IP de la red [!DNL Insight Server] , como se muestra a continuación. Si el servidor tiene varias direcciones IP, utilice NetworkLocation 0 para especificar la dirección IP del servidor en la red local no enrutable (por ejemplo, su ubicación en la red interna).
+1. Abra el archivo cuyo nombre ha cambiado en un editor de texto como el Bloc de notas.
+1. Edite NetworkLocation 0 para especificar el nombre común y la dirección IP del [!DNL Insight Server] como se muestra a continuación. Si su servidor tiene varias direcciones IP, utilice NetworkLocation 0 para especificar la dirección IP del servidor en la red local no enrutable (por ejemplo, su ubicación en la red interna).
 
    ```
    Locations = vector: 3 items 
@@ -80,35 +79,35 @@ El siguiente procedimiento describe cómo configurar el archivo de dirección pa
  <tbody> 
   <tr> 
    <td colname="col1"> <i>Dirección IP</i> </td> 
-   <td colname="col2"> <p>La dirección IP numérica del equipo de <span class="keyword"> Insight Server </span> . </p> <p>Ejemplo: 192.168.124.176 </p> </td> 
+   <td colname="col2"> <p>La dirección IP numérica del equipo <span class="keyword"> Insight Server </span>. </p> <p>Ejemplo: 192.168.124.176 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <i>Nombre común </i> </td> 
-   <td colname="col2"> <p>Nombre común asignado al certificado digital para <span class="keyword"> Insight Server </span>. </p> <p>Ejemplo: <span class="filepath"> server.mycompany.com </span></p> <p>Nota: Asegúrese de escribir este nombre exactamente como aparece en el certificado. </p> </td> 
+   <td colname="col1"> <i>Nombre común  </i> </td> 
+   <td colname="col2"> <p>El nombre común asignado al certificado digital para <span class="keyword"> Insight Server </span>. </p> <p>Ejemplo: <span class="filepath"> server.mycompany.com </span></p> <p>Nota: Asegúrese de escribir este nombre exactamente como aparece en el certificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <i>Nombre de ubicación de red </i> </td> 
-   <td colname="col2"> <p>El nombre que desea asignar a la colección de nombres comunes y direcciones IP que representa este NetworkLocation. El nombre debe ser único dentro del archivo de dirección. </p> <p>Ejemplo: Intranet corporativa </p> </td> 
+   <td colname="col1"> <i>Nombre de ubicación de red  </i> </td> 
+   <td colname="col2"> <p>El nombre que desea asignar a la colección de nombres comunes y direcciones IP que representa NetworkLocation. El nombre debe ser único dentro del archivo de dirección. </p> <p>Ejemplo: Intranet corporativa </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Si [!DNL Insight Server] tiene direcciones IP adicionales, cree una NetworkLocation adicional para cada dirección. (Una manera sencilla de hacerlo es hacer una copia de NetworkLocation que creó anteriormente y actualizar la dirección IP en la copia).
+1. Si su [!DNL Insight Server] tiene direcciones IP adicionales, cree una NetworkLocation adicional para cada dirección. (Una forma sencilla de hacerlo es hacer una copia de NetworkLocation que ha creado anteriormente y actualizar la dirección IP en la copia).
 
-   Puede agregar el nuevo NetworkLocation al final del archivo de dirección o insertarlo entre las definiciones de NetworkLocation existentes. (La posición de un NetworkLocation dentro del archivo de dirección no es significativa; sin embargo, [!DNL Insight]las ubicaciones de red, [!DNL Insight Server]y [!DNL Report] servidor generalmente se colocan al final del archivo).
+   Puede agregar el nuevo NetworkLocation al final del archivo de dirección o insertarlo entre las definiciones de NetworkLocation existentes. (La posición de un NetworkLocation dentro del archivo de dirección no es significativa; sin embargo, las [!DNL Insight], [!DNL Insight Server] y [!DNL Report] ubicaciones de red del servidor generalmente se colocan al final del archivo).
 
    Después de agregar las NetworkLocations necesarias, haga lo siguiente para volver a numerar los elementos del archivo:
 
-   1. Actualice el recuento de elementos de la estructura Ubicaciones para que coincida con el número total de definiciones de NetworkLocation en el archivo. Por ejemplo, si el archivo contiene cuatro definiciones de NetworkLocation, la línea Ubicaciones tendría el siguiente aspecto:
+   1. Actualice el recuento de elementos de la estructura Ubicaciones para que coincida con el número total de definiciones de NetworkLocation en el archivo. Por ejemplo, si el archivo contiene cuatro definiciones de NetworkLocation, la línea Ubicaciones sería la siguiente:
 
       ```
       Locations = vector: 4 items
       ```
 
-   1. Actualice los números de elementos de NetworkLocation para que NetworkLocations se numeren de forma consecutiva (a partir de 0).
-   Para ver un ejemplo de un archivo de dirección que define una [!DNL Insight Server] con dos direcciones IP, consulte el ejemplo de esta sección.
+   1. Actualice los números de elemento NetworkLocation para que NetworkLocations se numeren consecutivamente (comenzando por 0).
+   Para ver un ejemplo de un archivo de dirección que define un [!DNL Insight Server] con dos direcciones IP, consulte el ejemplo en esta sección.
 
-1. En las ubicaciones de red [!DNL Insight] y [!DNL Report] servidor, edite el parámetro Parent como se muestra a continuación para especificar el nombre de NetworkLocation que [!DNL Insight] y [!DNL Report] usar como ubicaciones de red predeterminadas. (Para ver un ejemplo de cómo se ve el parámetro Parent cuando se configura, consulte el ejemplo en esta sección).
+1. En las ubicaciones de red del [!DNL Insight] y [!DNL Report] Servidor, edite el parámetro Principal como se muestra a continuación para especificar el nombre de NetworkLocation que [!DNL Insight] y [!DNL Report] utilizan como ubicaciones de red predeterminadas. (Para ver un ejemplo del aspecto que tiene el parámetro Parent cuando está configurado, consulte el ejemplo en esta sección).
 
    ```
    1 = NetworkLocation:  
@@ -122,9 +121,9 @@ El siguiente procedimiento describe cómo configurar el archivo de dirección pa
      Parent = string: ClientDefaultNetworkLocation
    ```
 
-   Si [!DNL Insight Server] tiene una sola dirección IP y, por lo tanto, solo tiene un NetworkLocation, señale el parámetro Parent a ese NetworkLocation. Si su [!DNL Insight Server] cuenta con varias direcciones IP, señale el parámetro Parent a NetworkLocation que define la dirección a la que sus [!DNL Insight] clientes y [!DNL Report] clientes se conectan con mayor frecuencia.
+   Si su [!DNL Insight Server] tiene una sola dirección IP y, por lo tanto, solo tiene una NetworkLocation, dirija el parámetro Parent a esa NetworkLocation. Si su [!DNL Insight Server] tiene varias direcciones IP, dirija el parámetro Parent a NetworkLocation que define la dirección a la que se conectan sus clientes [!DNL Insight] y [!DNL Report] con mayor frecuencia.
 
-1. En la ubicación de la [!DNL Insight Server] red, edite el parámetro Parent como se muestra a continuación para señalar el NetworkLocation que utiliza el servidor para resolver nombres comunes de otros [!DNL Insight Servers] cuando opera en un clúster. (Aunque esta ubicación de red no se utiliza a menos que [!DNL Insight Server] funcione en un clúster, es recomendable, incluso en una configuración de servidor única, señalar el parámetro Parent a una ubicación de red que identifique la dirección IP interna del servidor).
+1. En la ubicación de red [!DNL Insight Server], edite el parámetro Parent como se muestra a continuación para señalar a NetworkLocation que el servidor utiliza para resolver nombres comunes de otros [!DNL Insight Servers] cuando opera en un clúster. (Aunque esta ubicación de red no se utiliza a menos que [!DNL Insight Server] funcione en un clúster, es recomendable, incluso en una configuración de servidor única, señalar el parámetro Parent a una ubicación de red que identifique la dirección IP interna del servidor.)
 
    ```
    2 = NetworkLocation:  
@@ -136,11 +135,11 @@ El siguiente procedimiento describe cómo configurar el archivo de dirección pa
 El siguiente ejemplo muestra un archivo de dirección completado. Este archivo define cinco ubicaciones de red.
 
 * Los elementos 0 y 1 de NetworkLocation definen las ubicaciones de red denominadas &quot;MyCorporateIntranet&quot; e &quot;Internet&quot;. Estas ubicaciones de red definen dos direcciones IP diferentes para un servidor denominado [!DNL VS01.myCompany.com].
-* El elemento 2 de NetworkLocation es la ubicación de la [!DNL Insight] red. Esta es la ubicación de red predeterminada que utiliza [!DNL Insight]. En este ejemplo, la ubicación de la [!DNL Insight] red hereda sus AddressDefinitions de &quot;Internet&quot; NetworkLocation.
+* El elemento 2 de NetworkLocation es la ubicación de red [!DNL Insight]. Esta es la ubicación de red predeterminada utilizada por [!DNL Insight]. En este ejemplo, la ubicación de red [!DNL Insight] hereda sus AddressDefinitions de NetworkLocation &quot;Internet&quot;.
 
-* El elemento 3 de NetworkLocation es la ubicación de la [!DNL Insight Server] red. Esta es la ubicación de red predeterminada que [!DNL Insight Server] se utiliza cuando se comunica con otros servidores de un clúster. En este ejemplo, la ubicación de la [!DNL Insight Server] red hereda sus AddressDefinitions de &quot;MyCorporate Intranet&quot; NetworkLocation.
+* El elemento 3 de NetworkLocation es la ubicación de red [!DNL Insight Server]. Esta es la ubicación de red predeterminada que [!DNL Insight Server] utiliza cuando se comunica con otros servidores de un clúster. En este ejemplo, la ubicación de red [!DNL Insight Server] hereda sus AddressDefinitions de NetworkLocation &quot;MyCorporate Intranet&quot;.
 
-* El elemento 4 de NetworkLocation es la ubicación de red del [!DNL Report] servidor. Esta es la ubicación de red predeterminada que utiliza [!DNL Report]. En este ejemplo, la ubicación de red del [!DNL Report] servidor hereda sus AddressDefinitions de NetworkLocation &quot;Internet&quot;.
+* El elemento 4 de NetworkLocation es la ubicación de red [!DNL Report] Server. Esta es la ubicación de red predeterminada utilizada por [!DNL Report]. En este ejemplo, la ubicación de red del servidor [!DNL Report] hereda sus AddressDefinitions de NetworkLocation &quot;Internet&quot;.
 
    ```
    Locations = vector: 5 items 
@@ -175,4 +174,3 @@ El siguiente ejemplo muestra un archivo de dirección completado. Este archivo d
        Name = string: Report Server 
        Parent = string: Internet
    ```
-
