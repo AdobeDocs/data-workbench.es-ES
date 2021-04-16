@@ -1,35 +1,35 @@
 ---
 description: Información sobre cómo mostrar, ocultar y cambiar la etiqueta de un nodo.
-solution: Analytics
-title: Etiquetar un nodo
-topic: Data workbench
+title: Etiqueta de un nodo
 uuid: ded00cc8-2958-4aca-9d45-92afc441e9e2
+exl-id: e234aa1b-2f5d-42ec-bad7-2ada0db38702
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
-
-# Etiquetar un nodo{#label-a-node}
+# Etiqueta de un nodo{#label-a-node}
 
 Información sobre cómo mostrar, ocultar y cambiar la etiqueta de un nodo.
 
 **Visualización de la etiqueta de un nodo**
 
-* Haga clic con el botón secundario en el nodo y haga clic en **[!UICONTROL Label]***&lt; **[!UICONTROL node name]**>*. Se muestra la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo no está etiquetado.
+* Haga clic con el botón derecho en el nodo y haga clic en **[!UICONTROL Label]***&lt; **[!UICONTROL node name]***. Se muestra la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo no está etiquetado.
 
 **Ocultar la etiqueta de un nodo**
 
-* Haga clic con el botón secundario en el nodo y haga clic en **[!UICONTROL Unlabel]***&lt; **[!UICONTROL node name]**>*. Se elimina la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo ya está etiquetado.
+* Haga clic con el botón derecho en el nodo y haga clic en **[!UICONTROL Unlabel]***&lt; **[!UICONTROL node name]***. Se elimina la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo ya está etiquetado.
 
 **Cambio de la etiqueta de un nodo**
 
 >[!NOTE]
 >
->El cambio de la etiqueta de un nodo afecta únicamente a la etiqueta que se muestra en la asignación de procesos. No afecta al nombre del elemento que representa el nodo.
+>Cambiar la etiqueta de un nodo afecta únicamente a la etiqueta que se muestra en el mapa de procesos. No afecta al nombre del elemento que representa el nodo.
 
-1. Haga clic con el botón secundario en el nodo. La etiqueta del nodo se muestra en la parte superior del menú del nodo.
-1. Haga clic en la etiqueta del nodo para entrar en el modo de edición y cambiar la etiqueta del nodo como desee.
+1. Haga clic con el botón derecho en el nodo . La etiqueta del nodo se muestra en la parte superior del menú node .
+1. Haga clic en la etiqueta de nodo para acceder al modo de edición y cambiar la etiqueta del nodo como desee.
 
 ![](assets/mnu_2DProcessMap_label.png)
-
