@@ -1,26 +1,27 @@
 ---
-description: Capturar la actividad en vínculos de sitios web de terceros para habilitar el análisis de salida de Target.
-solution: Analytics
+description: Captura de la actividad en vínculos de sitios web de terceros para habilitar el análisis de salida de Target.
 title: Seguimiento de salidas a vínculos externos
-topic: Data workbench
 uuid: 523f5b4c-4600-4d44-82e7-4a8b2db2d266
+exl-id: fd7434e9-cd66-408e-baa9-6a0df4039786
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 6%
 
 ---
 
-
 # Seguimiento de salidas a vínculos externos{#tracking-exits-to-external-links}
 
-Capturar la actividad en vínculos de sitios web de terceros para habilitar el análisis de salida de Target.
+Captura de la actividad en vínculos de sitios web de terceros para habilitar el análisis de salida de Target.
 
-Las páginas web pueden contener vínculos a sitios web de terceros, y se puede capturar la actividad de estos vínculos para habilitar el análisis de Salir de Target, especialmente en el caso de que el sitio de terceros sea responsable de pagar las tarifas de referencia cuando se reciban dichas referencias. Dado que el evento click se escribe en los archivos de registro del sistema de terceros de forma predeterminada, es necesario realizar modificaciones en el vínculo para que el evento click se capture localmente. El vínculo de terceros presente en el sitio web debe modificarse de la siguiente manera:
+Las páginas web pueden contener vínculos a sitios web de terceros, y se puede capturar la actividad de estos vínculos para habilitar el análisis de Salir de Target, especialmente en el caso de que el sitio de terceros sea responsable de pagar las tarifas de referencia cuando se reciban dichas referencias. Dado que el evento de clic se escribe en los archivos de registro del sistema de terceros de forma predeterminada, es necesario realizar modificaciones en el vínculo para que el evento de clic se capture localmente. El vínculo de terceros presente en el sitio web debe modificarse de la siguiente manera:
 
 ```
 <A HREF=”http://www.myserver.com/PageExit.htm?v_eurl=http://www.othersite.com”>
 ```
 
-El [!DNL PageExit.htm] archivo al que se hace referencia debe crearse y estar estructurado para que contenga la siguiente secuencia de comandos:
+El archivo [!DNL PageExit.htm] al que se hace referencia debe crearse y estructurarse para que contenga la siguiente secuencia de comandos:
 
 ```
 <html> 
@@ -51,9 +52,8 @@ location.replace(getExitURLQuery("v_eurl"));
 </html>
 ```
 
-Al realizar la solicitud del [!DNL PageExit.htm] archivo, el valor v_eurl se recopila con fines de análisis. Además, cuando [!DNL PageExit.htm] se carga, inmediatamente redirige a la ubicación de destino v_eurl especificada.
+Al realizar la solicitud del archivo [!DNL PageExit.htm] , el valor v_eurl se recopila con fines de análisis. Además, cuando se carga [!DNL PageExit.htm], redirige inmediatamente a la ubicación de destino de v_eurl especificada.
 
 | Datos recopilados | Explicación | Ejemplo |
 |---|---|---|
 | v_eurl | Valor asociado con la variable de cadena de consulta v_eurl. Este valor representa la dirección URL de destino del vínculo presente en la página HTML. | v_eurl=www.othersite.com |
-
