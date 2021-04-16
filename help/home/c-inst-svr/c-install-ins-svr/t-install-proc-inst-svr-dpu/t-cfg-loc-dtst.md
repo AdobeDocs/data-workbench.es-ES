@@ -1,34 +1,33 @@
 ---
-description: De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos programa de Insight Server.
-solution: Analytics
+description: De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos de programa de Insight Server.
 title: Configuración de la ubicación del conjunto de datos (temp.db)
 uuid: a6884cad-70ed-4bc6-853c-700d301fb178
+exl-id: 6812883f-ad51-4314-8c80-e95c3fe84664
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 5%
 
 ---
 
-
 # Configuración de la ubicación del conjunto de datos (temp.db){#configuring-the-location-of-the-dataset-temp-db}
 
-De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos programa de Insight Server.
+De forma predeterminada, Insight Server escribe su conjunto de datos (temp.db) en la misma unidad que los archivos de programa de Insight Server.
 
 Por ejemplo, si instala [!DNL Insight Server] en la unidad C, escribe el conjunto de datos en la unidad C.
 
-Si desea [!DNL Insight Server] mantener el conjunto de datos en una unidad diferente, o si la cantidad de datos que espera recopilar requiere el uso de varias unidades, debe actualizar el [!DNL Disk Files.cfg] archivo para especificar dónde desea [!DNL Insight Server] escribir el [!DNL temp.db] archivo.
+Si desea que [!DNL Insight Server] mantenga el conjunto de datos en una unidad diferente o si la cantidad de datos que espera recopilar requiere el uso de varias unidades, debe actualizar el archivo [!DNL Disk Files.cfg] para especificar dónde desea que [!DNL Insight Server] escriba el archivo [!DNL temp.db].
 
 **Para configurar la ubicación de temp.db**
 
-1. Vaya a la [!DNL Components] carpeta del directorio donde instaló [!DNL Insight Server].
+1. Vaya a la carpeta [!DNL Components] en el directorio donde instaló [!DNL Insight Server].
 
    Ejemplo: [!DNL C:\Adobe\Server\Components]
 
-1. Abra el [!DNL Disk Files.cfg] archivo en un editor de texto como Bloc de notas.
+1. Abra el archivo [!DNL Disk Files.cfg] en un editor de texto como el Bloc de notas.
 
-   De forma predeterminada, este archivo contiene una sola entrada en la estructura Archivos de disco, como se muestra a continuación.
+   De forma predeterminada, este archivo contiene una sola entrada en la estructura Archivos de disco como se muestra a continuación.
 
    ```
    component = DiskSpaceManagerComponent:
@@ -37,7 +36,7 @@ Si desea [!DNL Insight Server] mantener el conjunto de datos en una unidad difer
      Detect Disk Corruption = bool: true
    ```
 
-1. Para cambiar la ubicación de [!DNL temp.db], modifique la definición de Archivos de disco. El siguiente ejemplo ilustra cómo editaría la configuración para distribuir el [!DNL temp.db] archivo entre las unidades C, D y E:
+1. Para cambiar la ubicación de [!DNL temp.db], modifique la definición de Archivos de disco. El siguiente ejemplo ilustra cómo editaría la configuración para distribuir el archivo [!DNL temp.db] entre las unidades C, D y E:
 
    ```
    component = DiskSpaceManagerComponent:
@@ -50,5 +49,4 @@ Si desea [!DNL Insight Server] mantener el conjunto de datos en una unidad difer
 
    >[!NOTE]
    >
-   >Tenga en cuenta el uso de las barras invertidas de doble en los nombres de archivo anteriores. En los archivos [!DNL Insight Server] de configuración, el carácter de barra invertida es un carácter de escape. Se utiliza para expresar secuencias de control especiales (por ejemplo, \t para un carácter de tabulación) en el texto. Para representar un carácter de barra invertida real, debe escribir la barra invertida dos veces (por ejemplo, \\) para anular la función de escape. Esto solo se aplica cuando se editan archivos de configuración en un editor de texto como Bloc de notas.
-
+   >Tenga en cuenta el uso de barras invertidas dobles en los nombres de archivo anteriores. En los archivos de configuración [!DNL Insight Server], el carácter de barra invertida es un carácter de escape. Se utiliza para expresar secuencias de control especiales (por ejemplo, \t para un carácter de tabulación) en el texto. Para representar un carácter de barra invertida real, debe escribir la barra invertida dos veces (por ejemplo, \\) para anular la función de escape. Esto solo se aplica cuando se editan archivos de configuración en un editor de texto como el Bloc de notas.
