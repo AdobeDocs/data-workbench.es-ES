@@ -1,35 +1,36 @@
 ---
-description: La transformación Tokenize aplica de forma iterativa una expresión regular a la cadena de entrada.
-solution: Analytics
+description: La transformación Tokenize aplica iterativamente una expresión regular a la cadena de entrada.
 title: Tokenize
-topic: Data workbench
 uuid: f8430e6c-ec14-4ba6-aeae-92c9f2520a63
+exl-id: c1f39b5b-4717-44f6-99c7-4e6a215f3542
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 5%
 
 ---
 
-
 # Tokenize{#tokenize}
 
-La transformación Tokenize aplica de forma iterativa una expresión regular a la cadena de entrada.
+La transformación Tokenize aplica iterativamente una expresión regular a la cadena de entrada.
 
-Sin embargo, a diferencia de [!DNL RETransform], [!DNL Tokenize] no tiene que coincidir con toda la cadena: la expresión regular utilizada para la [!DNL Tokenize] transformación puede coincidir con un subconjunto de la entrada. Una vez encontrada una coincidencia, aplica la expresión regular de nuevo, empezando por el carácter después del final de la última coincidencia. [!DNL Tokenize]
+Sin embargo, a diferencia de [!DNL RETransform], [!DNL Tokenize] no tiene que coincidir con toda la cadena: la expresión regular utilizada para la transformación [!DNL Tokenize] puede coincidir con un subconjunto de la entrada. Después de encontrar una coincidencia, [!DNL Tokenize] vuelve a aplicar la expresión regular, empezando por el carácter después del final de la última coincidencia.
 
-| Parámetro | Descripción | Valor predeterminado |
+| Parámetro | Descripción | Predeterminado |
 |---|---|---|
-| Nombre | Nombre descriptivo de la transformación. Aquí puede introducir cualquier nombre. |  |
-| Distinción entre mayúsculas y minúsculas | True o false. Especifica si la coincidencia distingue entre mayúsculas y minúsculas. |  |
+| Nombre | Nombre descriptivo de la transformación. Puede introducir cualquier nombre aquí. |  |
+| Distinción entre mayúsculas y minúsculas | Verdadero o falso. Especifica si la coincidencia distingue entre mayúsculas y minúsculas. |  |
 | Comentarios | Opcional. Notas sobre la transformación. |  |
 | Condición | Condiciones en las que se aplica esta transformación. |  |
-| Valor predeterminado | El valor predeterminado que se usará si se cumple la condición y el valor de entrada no está disponible o la expresión regular no coincide con el valor de entrada. |  |
+| Predeterminado | El valor predeterminado que se debe utilizar si se cumple la condición y el valor de entrada no está disponible o la expresión regular no coincide con el valor de entrada. |  |
 | Expresión | Expresión regular utilizada para la coincidencia. |  |
 | Salidas | Nombres de las cadenas de salida. Puede tener varias salidas para una cadena de entrada determinada. El número de salidas debe corresponder al número de subpatrones de captura en la expresión regular. |  |
 
-En el ejemplo siguiente, la [!DNL Tokenize] transformación utiliza una expresión regular para capturar los nombres de las cadenas de consulta (en cs-uri-query) y genera el subpatrón capturado (el nombre de la consulta) en x-Pull-query-name.
+En el siguiente ejemplo, la transformación [!DNL Tokenize] utiliza una expresión regular para capturar los nombres de las cadenas de consulta (en cs-uri-query) y genera el subpatrón capturado (el nombre de consulta) como x-pull-query-name.
 
 ![](assets/cfg_TransformationType_Tokenize.png)
 
-Para la cadena de consulta &quot;a=b&amp;c=d&quot;, el resultado sería un vector que contuviera &quot;a&quot; y &quot;c&quot;.
+Para la cadena de consulta &quot;a=b&amp;c=d&quot;, el resultado sería un vector que contenía &quot;a&quot; y &quot;c&quot;.
 
-Para obtener información sobre las expresiones regulares, consulte Expresiones [regulares](../../../../../home/c-dataset-const-proc/c-reg-exp.md#concept-070077baa419475094ef0469e92c5b9c).
+Para obtener información sobre las expresiones regulares, consulte [Expresiones regulares](../../../../../home/c-dataset-const-proc/c-reg-exp.md#concept-070077baa419475094ef0469e92c5b9c).
