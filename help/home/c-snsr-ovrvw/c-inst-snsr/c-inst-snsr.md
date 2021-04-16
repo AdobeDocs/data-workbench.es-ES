@@ -1,31 +1,30 @@
 ---
-description: Instale Sensor en el mismo equipo que el servidor cuya actividad desee medir.
-solution: Analytics
+description: Instale Sensor en el mismo equipo que el servidor cuya actividad desea medir.
 title: Instalación del sensor
 uuid: 8d500fd0-daa0-453b-8284-b3f112a358ce
+exl-id: cd5b54bf-301a-41a9-a69c-d9adb314be03
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 2%
 
 ---
 
-
 # Instalación del sensor{#installing-sensor}
 
-Instale Sensor en el mismo equipo que el servidor cuya actividad desee medir.
+Instale Sensor en el mismo equipo que el servidor cuya actividad desea medir.
 
-Cada servidor desde el cual desee capturar datos de evento debe ejecutarse [!DNL Sensor].
+Cada servidor desde el cual desee capturar los datos de evento debe ejecutar [!DNL Sensor].
 
-[!DNL Sensor] se puede instalar en una amplia variedad de servidores Web y de aplicaciones compatibles o en servidores de recopilación de datos especializados que se utilizan para obtener información de páginas, anuncios y otros objetos de Internet que se han etiquetado para la medición.
+[!DNL Sensor] se puede instalar en una amplia variedad de servidores web y de aplicaciones compatibles o en servidores de recopilación de datos especializados que se utilizan para adquirir información de páginas, anuncios y otros objetos de Internet que se han etiquetado para su medición.
 
 >[!NOTE]
 >
->[!DNL Sensor] no degrada el rendimiento de un servidor Web, una aplicación o un servidor de recopilación de datos correctamente configurados.
+>[!DNL Sensor] no degrada el rendimiento de una web, aplicación o servidor de recopilación de datos correctamente configurados.
 
-Adobe se ha diseñado [!DNL Sensor] para admitir una familia creciente de servidores de aplicaciones Web y J2EE, que incluyen, entre otros, AOLServer, Apache, iPlanet, JBoss, Microsoft IIS, Netscape Enterprise, Tomcat y Weblogic que se ejecutan en sistemas operativos comunes, incluidos, entre otros, Microsoft Windows, AIX, Linux y Solaris. [!DNL Sensor’s] la arquitectura modular permite al Adobe crear rápidamente una nueva lógica de adquisición de datos para otras aplicaciones, según sea necesario.
+Adobe ha diseñado [!DNL Sensor] para admitir una familia creciente de servidores de aplicaciones web y J2EE, que incluyen, entre otros, AOLServer, Apache, iPlanet, JBoss, Microsoft IIS, Netscape Enterprise, Tomcat y Weblogic que se ejecutan en sistemas operativos comunes, incluidos, entre otros, Microsoft Windows, AIX, Linux y Solaris. [!DNL Sensor’s] la arquitectura modular permite que el Adobe cree rápidamente una nueva lógica de adquisición de datos para otras aplicaciones, según sea necesario.
 
-Este capítulo contiene procedimientos para la instalación [!DNL Sensor] de combinaciones de servidor web y sistema operativo.
+Este capítulo contiene procedimientos para instalar [!DNL Sensor] para combinaciones de servidor web/sistema operativo.
 
-Si aún no ha instalado el [!DNL data workbench server] que recopila datos del [!DNL Sensor], debe hacerlo antes de realizar los procedimientos de este capítulo.
+Si todavía no ha instalado el [!DNL data workbench server] que recopila datos de [!DNL Sensor], debe hacerlo antes de realizar los procedimientos de este capítulo.
