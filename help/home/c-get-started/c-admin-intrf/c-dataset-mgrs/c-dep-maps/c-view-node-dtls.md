@@ -1,24 +1,25 @@
 ---
 description: Información sobre la visualización de información de identificación de un componente de perfil.
-solution: Analytics
-title: Ver detalles del nodo
-topic: Data workbench
+title: Detalles del nodo de vista
 uuid: 2016a650-b021-4295-8313-d6287578ed10
+exl-id: f8ce7741-8ba2-484d-ac35-5c286b65f098
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 4%
 
 ---
 
-
-# Ver detalles del nodo{#view-node-details}
+# Detalles del nodo de vista{#view-node-details}
 
 Información sobre la visualización de información de identificación de un componente de perfil.
 
-* Haga clic con el botón secundario en el nodo deseado y vea la información de identificación en la parte superior de la ventana. La información de identificación que se ve depende del tipo de componente.
+* Haga clic con el botón derecho en el nodo deseado y vea la información de identificación en la parte superior de la ventana. La información de identificación que ve depende del tipo de componente.
 
 **Origen de registro**
 
-El nombre del origen de registro y el nombre del archivo en el que se define el origen de registro.
+El nombre del origen del registro y el nombre del archivo en el que se define el origen del registro.
 
 ![](assets/vis_DependencyMap_LogSourceID.png)
 
@@ -30,15 +31,15 @@ Nombre del campo.
 
 **Transformación**
 
-El tipo y el nombre de la transformación, el nombre del archivo en el que se define la transformación y el número de la transformación en el archivo.
+El tipo y nombre de la transformación, el nombre del archivo en el que se define la transformación y el número de la transformación en el archivo.
 
 ![](assets/vis_DependencyMap_TransformationID.png)
 
 >[!NOTE]
 >
->La información de rendimiento de la transformación se muestra únicamente si la [!DNL Show Performance Data] opción está habilitada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb)de rendimiento.
+>La información de rendimiento para la transformación solo se muestra si la opción [!DNL Show Performance Data] está habilitada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos de rendimiento](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
 
-**Dimensión ampliada**
+**Dimensión extendida**
 
 El nombre y el tipo de la dimensión ampliada, el nombre del archivo en el que se define la dimensión y el número de la dimensión en el archivo.
 
@@ -46,7 +47,7 @@ El nombre y el tipo de la dimensión ampliada, el nombre del archivo en el que s
 
 >[!NOTE]
 >
->La información de rendimiento de la dimensión ampliada se muestra únicamente si la [!DNL Show Performance Data] opción está habilitada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb)de rendimiento.
+>La información de rendimiento para la dimensión extendida solo se muestra si la opción [!DNL Show Performance Data] está habilitada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos de rendimiento](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
 
 **Métrica**
 
@@ -54,9 +55,9 @@ El nombre de la métrica.
 
 ![](assets/vis_DependencyMap_MetricID.png)
 
-**Dimensión derivada**
+**Dimension derivado**
 
-Nombre de la dimensión derivada.
+El nombre de la dimensión derivada.
 
 ![](assets/vis_DependencyMap_DerivedDimensionID.png)
 
@@ -68,17 +69,16 @@ Si se define en el conjunto de datos, la ruta del archivo de configuración en e
 
 **Espacios de trabajo e informes**
 
-Ruta del área de trabajo o del informe en el directorio del área de trabajo o del informe del perfil.
+La ruta del espacio de trabajo o del informe en el directorio del espacio de trabajo o del informe del perfil.
 
 ![](assets/vis_DependencyMap_WorkspaceID.png)
 
 **Opciones de menú**
 
-Ruta del elemento de menú en el directorio Menu del perfil.
+Ruta del elemento de menú en el directorio Menú del perfil.
 
 ![](assets/vis_DependencyMap_MenuID.png)
 
-**Ver entradas o salidas de un componente de perfil**
+**Para ver entradas o salidas de un componente de perfil**
 
-* Haga clic con el botón secundario en el nodo deseado y haga clic en **[!UICONTROL Inputs]** o **[!UICONTROL Outputs]**. Se muestra una lista de entradas o salidas.
-
+* Haga clic con el botón derecho en el nodo deseado y haga clic en **[!UICONTROL Inputs]** o **[!UICONTROL Outputs]**. Se muestra una lista de entradas o salidas.
