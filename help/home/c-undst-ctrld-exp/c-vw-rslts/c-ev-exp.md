@@ -1,48 +1,47 @@
 ---
-description: Después de ejecutar el experimento hasta que el número mínimo requerido de visitantes haya participado en el experimento, puede estar seguro de que cuenta con suficiente confianza estadística para evaluar los resultados del experimento.
+description: Después de ejecutar el experimento hasta que el número mínimo requerido de visitantes haya participado en él, puede estar seguro de que cuenta con suficiente confianza estadística para evaluar los resultados del experimento.
 solution: Analytics,Analytics
 title: Evaluación del experimento
-topic: Data workbench
 uuid: 88fd81bc-b944-48ea-bd4d-8716979ec69e
+exl-id: 5add2168-f6bc-45c5-bf1d-1191a38c5bac
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
 
 ---
 
-
 # Evaluación del experimento{#evaluating-the-experiment}
 
-Después de ejecutar el experimento hasta que el número mínimo requerido de visitantes haya participado en el experimento, puede estar seguro de que cuenta con suficiente confianza estadística para evaluar los resultados del experimento.
+Después de ejecutar el experimento hasta que el número mínimo requerido de visitantes haya participado en él, puede estar seguro de que cuenta con suficiente confianza estadística para evaluar los resultados del experimento.
 
-Mediante [!DNL Insight], compare las métricas o los indicadores de rendimiento clave que se hayan definido como parte de la hipótesis para determinar si el experimento ha sido un éxito (es decir, la hipótesis se validó con la confianza especificada).
+Mediante [!DNL Insight], compare las métricas o los indicadores clave de rendimiento que se hayan definido como parte de la hipótesis para determinar si el experimento fue un éxito (es decir, la hipótesis se validó con la confianza especificada).
 
-En nuestro experimento de ejemplo, nuestra hipótesis es correcta si la conversión de Visitantes aumenta al menos un 1,5%, que es el criterio de éxito que definimos anteriormente.
+En nuestro experimento de ejemplo, nuestra hipótesis se demuestra correcta si la conversión de visitantes aumenta al menos en un 1,5 %, que es el criterio de éxito que definimos anteriormente.
 
-El siguiente ejemplo de espacio de trabajo muestra que la conversión para el grupo de prueba index2 era en realidad un 1,8% mayor que para el grupo de control, lo que demuestra nuestra hipótesis.
+El siguiente ejemplo de espacio de trabajo muestra que la Conversión para el grupo de prueba index2 era en realidad un 1,8% más alta que para el grupo de control, lo que demuestra nuestra hipótesis.
 
 ![](assets/experimentresults.png)
 
 * [Resumen de los resultados del experimento](../../../home/c-undst-ctrld-exp/c-vw-rslts/c-ev-exp.md#section-24a496c080a04e929764094acb00bab7)
 * [Acción basada en los resultados](../../../home/c-undst-ctrld-exp/c-vw-rslts/c-ev-exp.md#section-1623e26ced524fd9beab48ac1f9165d9)
-* [Monitoreo de las acciones](../../../home/c-undst-ctrld-exp/c-vw-rslts/c-ev-exp.md#section-1954311950c34637800cbd7c0711983f)
+* [Supervisión de acciones](../../../home/c-undst-ctrld-exp/c-vw-rslts/c-ev-exp.md#section-1954311950c34637800cbd7c0711983f)
 
 ## Resumen de los resultados del experimento {#section-24a496c080a04e929764094acb00bab7}
 
-Con [!DNL Insight], puede crear informes detallados para resumir e ilustrar los resultados del experimento.
+Con [!DNL Insight] puede crear informes detallados para resumir e ilustrar los resultados del experimento.
 
-Luego puede utilizar los informes, como se muestra en el siguiente ejemplo, para hacer recomendaciones en base a los resultados, que están respaldados por la información visual proporcionada en los informes:
+A continuación, puede usar los informes, como se muestra en el siguiente ejemplo, para hacer recomendaciones basadas en los resultados, que están respaldados por la información visual que ha proporcionado en los informes:
 
 ![](assets/experimentresults2.png)
 
 ## Acción basada en los resultados {#section-1623e26ced524fd9beab48ac1f9165d9}
 
-Una vez que los resultados sean claros, estará listo para actuar en función de esos resultados realizando cambios en el nivel de producción de las páginas probadas, aplicando estos mismos cambios a otras áreas del sitio web y asegurándose de que se documento completamente la prueba, sus resultados y los cambios realizados.
+Una vez que los resultados sean claros, estará listo para actuar sobre esos resultados realizando cambios en el nivel de producción en las páginas probadas, aplicando los mismos cambios en otras áreas del sitio web y asegurándose de documentar completamente la prueba, sus resultados y los cambios realizados.
 
-## Monitoreo de las acciones {#section-1954311950c34637800cbd7c0711983f}
+## Monitorización de las acciones {#section-1954311950c34637800cbd7c0711983f}
 
-Una vez completado el experimento controlado y que haya implementado los cambios correspondientes, asegúrese de seguir monitoreando los cambios que ha realizado, por ejemplo, viendo las métricas de validación, creando gráficos de control y proporcionando métricas de panel.
+Una vez completado el experimento controlado y haya implementado los cambios correspondientes, asegúrese de seguir monitorizando los cambios realizados, por ejemplo, viendo las métricas de validación, creando gráficos de control y proporcionando métricas de tablero.
 
-Siempre esté preparado para volver a probar su hipótesis si cree que los cambios que ha probado y realizado no están teniendo en cuenta los resultados originales.
+Siempre esté preparado para volver a probar la hipótesis si cree que los cambios que probó y realizó no están reflejando los resultados originales.
