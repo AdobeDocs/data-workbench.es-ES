@@ -1,26 +1,27 @@
 ---
-description: Al seleccionar un nodo, al hacer clic en él se atenúan los demás nodos para que pueda ver más fácilmente las flechas desde y hacia el nodo resaltado.
-solution: Analytics
-title: Seleccionar un nodo
-topic: Data workbench
+description: Al seleccionar un nodo haciendo clic en él, se atenúan los demás nodos de modo que sea más fácil ver las flechas hacia y desde el nodo resaltado.
+title: Selección de un nodo
 uuid: d63b39f6-edec-4b4c-b36b-f6e6881d3419
+exl-id: a483547f-e338-4d13-8a0b-6cb7971b7790
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 4%
 
 ---
 
+# Selección de un nodo{#select-a-node}
 
-# Seleccionar un nodo{#select-a-node}
+Al seleccionar un nodo haciendo clic en él, se atenúan los demás nodos de modo que sea más fácil ver las flechas hacia y desde el nodo resaltado.
 
-Al seleccionar un nodo, al hacer clic en él se atenúan los demás nodos para que pueda ver más fácilmente las flechas desde y hacia el nodo resaltado.
-
-También permite mover los nodos seleccionados como un grupo dentro de la visualización.
+También le permite mover los nodos seleccionados como un grupo dentro de la visualización.
 
 >[!NOTE]
 >
 >Al seleccionar un nodo haciendo clic en él, no se filtran los datos de ninguna manera.
 
-**Seleccionar un solo nodo**
+**Seleccionar un nodo único**
 
 * Haga clic en el nodo para seleccionarlo y resalte las flechas que apuntan al nodo y lo alejan de él.
 
@@ -28,9 +29,8 @@ También permite mover los nodos seleccionados como un grupo dentro de la visual
 
 **Para agregar otro nodo o grupo de nodos a la selección**
 
-* Ctrl+clic en un nodo o Ctrl+arrastrar a través de varios nodos.
+* Ctrl + clic en un nodo o Ctrl + arrastrar a través de varios nodos.
 
 **Quitar un nodo o grupo de nodos de la selección**
 
 * Mayús + clic en un nodo o Mayús + arrastrar varios nodos.
-
