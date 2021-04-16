@@ -1,22 +1,23 @@
 ---
-description: Las variables de cadena de consulta se pueden agregar a una solicitud de JavaScript para recopilar medidas adicionales cuando se realiza una solicitud.
-solution: Analytics
+description: Las variables de cadena de consulta se pueden agregar a una solicitud de JavaScript para recopilar mediciones adicionales cuando se realiza una solicitud.
 title: Adquisición de información adicional
-topic: Data workbench
 uuid: 0a8075e9-4986-42c4-b505-3985b433cf8e
+exl-id: ad4f5e08-b7b7-4de3-b0c2-71440facb2d1
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 4%
 
 ---
 
-
 # Adquisición de información adicional{#acquiring-additional-information}
 
-Las variables de cadena de consulta se pueden agregar a una solicitud de JavaScript para recopilar medidas adicionales cuando se realiza una solicitud.
+Las variables de cadena de consulta se pueden agregar a una solicitud de JavaScript para recopilar mediciones adicionales cuando se realiza una solicitud.
 
-Estas variables pueden agregarse manualmente o mediante secuencia de comandos en la propia página.
+Estas variables se pueden agregar manualmente o mediante secuencia de comandos en la propia página.
 
-Se puede añadir información adicional que se puede adquirir desde una página al objeto incrustado mediante una secuencia de comandos utilizando el siguiente código como ejemplo:
+Se puede añadir información adicional que se puede adquirir desde una página al objeto incrustado mediante una secuencia de comandos con el siguiente código como ejemplo:
 
 ```
 <!-- BEGIN REFERENCE PAGE TAG--> 
@@ -36,11 +37,10 @@ v["_2"] = "visa";
 <!-- END REFERENCE PAGE TAG-->
 ```
 
-En este ejemplo, las variables de secuencia de comandos para v_1 y v_2 pueden derivarse de otra función dentro de la página web. Las variables se han insertado como ejemplos. Además de las mediciones de referencia adquiridas con cada solicitud, se obtendrían las siguientes mediciones extensas con la solicitud de la dirección URL anterior:
+En este ejemplo, las variables de script para v_1 y v_2 pueden derivarse de otra función dentro de la página web. Las variables se han insertado como ejemplos. Además de las mediciones de referencia adquiridas con cada solicitud, se adquirirían las siguientes mediciones ampliadas con la solicitud de la dirección URL anterior:
 
 | Datos recopilados | Explicación | Ejemplo |
 |---|---|---|
-| v_pn= | Valor asociado con la variable de cadena de consulta v_pn | v_pn=Formulario de solicitud |
+| v_pn= | Valor asociado con la variable de cadena de consulta v_pn | v_pn=Formulario de aplicación |
 | v_1= | Valor asociado con la variable de cadena de consulta v_1 | v_1=99.99 |
 | v_2= | Valor asociado con la variable de cadena de consulta v_2 | v_2=visa |
-
