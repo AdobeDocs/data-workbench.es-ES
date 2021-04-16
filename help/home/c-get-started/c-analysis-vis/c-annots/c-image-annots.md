@@ -1,31 +1,32 @@
 ---
-description: Mediante una anotación de imagen, puede copiar una imagen de cualquier origen y pegarla directamente en un espacio de trabajo.
-solution: Analytics
+description: Con una anotación de imagen, puede copiar una imagen de cualquier origen y pegarla directamente en un espacio de trabajo.
 title: Anotaciones de imagen
-topic: Data workbench
 uuid: 62a655f6-120b-4cf4-adaa-aa04f721a7dc
+exl-id: 905d3e9e-0d24-456e-af45-c29f12ed986d
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 1%
 
 ---
 
-
 # Anotaciones de imagen{#image-annotations}
 
-Mediante una anotación de imagen, puede copiar una imagen de cualquier origen y pegarla directamente en un espacio de trabajo.
+Con una anotación de imagen, puede copiar una imagen de cualquier origen y pegarla directamente en un espacio de trabajo.
 
-A continuación, puede cambiar el tamaño, invertir la combinación de colores o atenuar la imagen.
+A continuación, puede cambiar el tamaño, invertir el esquema de colores o atenuar la imagen.
 
-## Agregar una imagen {#section-bcb71217e75f4135a90a222b27479c9a}
+## Añadir una imagen {#section-bcb71217e75f4135a90a222b27479c9a}
 
-1. Copie cualquier imagen en el portapapeles haciendo clic con el botón secundario en la imagen y haciendo clic en **[!UICONTROL Copy]**.
+1. Copie cualquier imagen en el portapapeles haciendo clic con el botón derecho en la imagen y haciendo clic en **[!UICONTROL Copy]**.
 1. Haga clic con el botón derecho en la anotación de imagen y haga clic en **[!UICONTROL Paste Image]**.
 
 ![](assets/mnu_Image_Paste.png)
 
 >[!NOTE]
 >
->Solo puede agregar una imagen a una anotación de imagen. Pegar una imagen nueva en la anotación pega sobre la imagen existente. Para agregar varias imágenes a un espacio de trabajo, debe agregar otra anotación de imagen.
+>Solo se puede añadir una imagen a una anotación de imagen. Al pegar una imagen nueva en la anotación, se pega sobre la imagen existente. Para agregar varias imágenes a un espacio de trabajo, debe agregar otra anotación de imagen.
 
 ## Cambiar el tamaño de una imagen {#section-c8136a2573bf4378a9aa18cc6a098b27}
 
@@ -35,7 +36,7 @@ A continuación, puede cambiar el tamaño, invertir la combinación de colores o
 
 * Haga clic con el botón derecho en la anotación y haga clic en **[!UICONTROL Display Mode]** > **[!UICONTROL Invert (white to black)]** o **[!UICONTROL Display Mode]** > **[!UICONTROL Invert (black to white)]**.
 
-## Atenuar una imagen {#section-2d4b66428ea4456e9735c0ad09f3b765}
+## atenuar una imagen {#section-2d4b66428ea4456e9735c0ad09f3b765}
 
 * Haga clic con el botón derecho en la anotación y haga clic en **[!UICONTROL Display Mode]** > **[!UICONTROL Dim]** o **[!UICONTROL Display Mode]** > **[!UICONTROL Very Dim]**.
 
@@ -45,9 +46,8 @@ A continuación, puede cambiar el tamaño, invertir la combinación de colores o
 
 ## Ajustar a la ventana {#section-904eb9aed20947749bc35525efeb4bda}
 
-**Para habilitar o deshabilitar la opción Ajustar a ventana**
+**Para activar o desactivar la opción Ajustar a ventana**
 
-La [!DNL Fit to Window] opción, cuando está seleccionada, permite que la anotación se expanda o reduzca automáticamente para ajustarse al tamaño de la imagen. La [!DNL Fit to Window] opción está activada de forma predeterminada.
+La opción [!DNL Fit to Window], cuando está seleccionada, permite que la anotación se amplíe o reduzca automáticamente para ajustarse al tamaño de la imagen. La opción [!DNL Fit to Window] está activada de forma predeterminada.
 
-* Haga clic con el botón derecho en la anotación y haga clic en **[!UICONTROL Fit to Window]**. Cuando está activada, aparece una X a la izquierda de [!DNL Fit to Window].
-
+* Haga clic con el botón derecho en la anotación y haga clic en **[!UICONTROL Fit to Window]**. Cuando está habilitada, aparece una X a la izquierda de [!DNL Fit to Window].
