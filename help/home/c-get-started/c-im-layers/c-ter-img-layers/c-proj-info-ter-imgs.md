@@ -1,32 +1,33 @@
 ---
-description: El área de trabajo de datos admite proyecciones de longitud de latitud y proyecciones de Universal Transverse Mercator (UTM) para todos los orígenes de capas de imagen de terreno.
-solution: Analytics
+description: Data Workbench admite proyecciones de longitud de latitud y proyecciones de Universal Transverse Mercator (UTM) para todas las fuentes de capa de imagen de terreno.
 title: Especificación de información de proyección para imágenes de terreno
-topic: Data workbench
 uuid: cc1e1e35-6b23-4121-a9f5-489001cb2ef8
+exl-id: 2638c5d4-164d-411b-8464-0a3af81b6537
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 3%
 
 ---
 
-
 # Especificación de información de proyección para imágenes de terreno{#specify-projection-information-for-terrain-images}
 
-El área de trabajo de datos admite proyecciones de longitud de latitud y proyecciones de Universal Transverse Mercator (UTM) para todos los orígenes de capas de imagen de terreno.
+Data Workbench admite proyecciones de longitud de latitud y proyecciones de Universal Transverse Mercator (UTM) para todas las fuentes de capa de imagen de terreno.
 
-La información de proyección es necesaria para los mapas de bits sin proyección y las imágenes generales, no proyectadas. Puede especificar información de proyección para imágenes con información de proyección incrustada, aunque normalmente no es necesaria porque los parámetros de la proyección se determinan automáticamente a partir de datos geodésicos incrustados en la propia imagen. Las siguientes secciones proporcionan detalles sobre cómo especificar estos formatos de proyección en el [!DNL Terrain Images.cfg] archivo.
+La información de proyección es necesaria para los mapas de bits sin proyectar e imágenes generales, no proyectados. Puede especificar información de proyección para imágenes con información de proyección incrustada, aunque normalmente no es necesaria, ya que los parámetros de la proyección se determinan automáticamente a partir de datos geodésicos incrustados en la propia imagen. Las siguientes secciones proporcionan detalles sobre cómo especificar estos formatos de proyección en el archivo [!DNL Terrain Images.cfg].
 
 ## Proyecciones de latitud y longitud {#section-6e335357ec28462ba39c565e0a5986c7}
 
-El formato de proyección de latitud y longitud (LatLonProjection) del [!DNL Terrain Images.cfg] archivo se define mediante cuatro parámetros de latitud y longitud.
+El formato de proyección latitud-longitud (LatLonProjection) del archivo [!DNL Terrain Images.cfg] se define mediante cuatro parámetros para latitud y longitud.
 
-Para especificar una proyección LatLon para imágenes no proyectadas (mapas de bits sin proyección e imágenes generales, no proyectadas), puede introducir la configuración de la proyección LatLonProjection en la [!DNL Terrain Images.cfg] ventana de Área de trabajo de datos.
+Para especificar un LatLonProjection para imágenes no proyectadas (mapas de bits sin procesar e imágenes generales, no proyectadas), puede introducir la configuración de LatLonProjection en la ventana [!DNL Terrain Images.cfg] de la Data Workbench.
 
-Para especificar una proyección LatLonProjection para imágenes con información de proyección incrustada, debe abrir el [!DNL Terrain Images.cfg] archivo en un editor de texto como Notepad, establecer el parámetro Información de proyección en LatLonProjection y agregar la configuración para la proyección [!DNL LatLonProjection].
+Para especificar LatLonProjection para imágenes con información de proyección incrustada, debe abrir el archivo [!DNL Terrain Images.cfg] en un editor de texto como Notepad, establecer el parámetro Información de proyección en LatLonProjection y agregar la configuración para [!DNL LatLonProjection].
 
 **Especificación de LatLonProjection para imágenes no proyectadas**
 
-1. Abra el [!DNL Terrain Images.cfg] archivo en Área de trabajo de datos y agregue un origen de capa de imagen de terreno como se describe en [Definición de una capa](../../../../home/c-get-started/c-im-layers/c-ter-img-layers/c-ter-img-layers.md#concept-f4b3a20969354ca38955e3fd5beb0f4f)de imagen de terreno.
+1. Abra el archivo [!DNL Terrain Images.cfg] en Data Workbench y añada un origen de capa de imagen de terreno como se describe en [Para definir una capa de imagen de terreno](../../../../home/c-get-started/c-im-layers/c-ter-img-layers/c-ter-img-layers.md#concept-f4b3a20969354ca38955e3fd5beb0f4f).
 1. Edite los parámetros de Información de proyección utilizando la siguiente tabla de parámetros como guía:
 
 <table id="table_32F6EADB2DA34592ABD6FFAC9E00BB27"> 
@@ -43,7 +44,7 @@ Para especificar una proyección LatLonProjection para imágenes con informació
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lat1 </p> </td> 
-   <td colname="col2"> <p>La latitud del borde inferior de la imagen. </p> </td> 
+   <td colname="col2"> <p>Latitud del borde inferior de la imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lon0 </p> </td> 
@@ -56,18 +57,18 @@ Para especificar una proyección LatLonProjection para imágenes con informació
  </tbody> 
 </table>
 
-1. Para guardar el archivo, haga clic con el botón secundario **[!UICONTROL (modified)]** en la parte superior de la ventana y haga clic en **[!UICONTROL Save]**.
-1. Para guardar los cambios realizados localmente en el equipo del servidor de Área de trabajo de datos, en la [!DNL Server Files Manager], haga clic con el botón secundario en la marca de verificación de [!DNL Terrain Images.cfg] la [!DNL Temp] columna y, a continuación, haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL server name]**>*.
+1. Guarde el archivo haciendo clic con el botón derecho **[!UICONTROL (modified)]** en la parte superior de la ventana y haciendo clic en **[!UICONTROL Save]**.
+1. Para guardar los cambios realizados localmente en el equipo servidor de Data Workbench, en [!DNL Server Files Manager], haga clic con el botón derecho en la marca de verificación de [!DNL Terrain Images.cfg] en la columna [!DNL Temp] y, a continuación, haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL server name]***.
 
 **Especificación de LatLonProjection para imágenes dentro de la información de proyección incrustada**
 
-En el [!DNL Server Files Manager], haga clic **[!UICONTROL Components]** para ver su contenido. El [!DNL Terrain Images.cfg] archivo se encuentra dentro de este directorio.
+En [!DNL Server Files Manager], haga clic en **[!UICONTROL Components]** para ver su contenido. El archivo [!DNL Terrain Images.cfg] se encuentra dentro de este directorio.
 
-Haga clic con el botón secundario en la marca de verificación de la columna del nombre del servidor para [!DNL Terrain Images.cfg]y, a continuación, haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la [!DNL Temp] columna para [!DNL Terrain Images.cfg].
+Haga clic con el botón derecho en la marca de verificación de la columna del nombre del servidor para [!DNL Terrain Images.cfg] y, a continuación, haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la columna [!DNL Temp] de [!DNL Terrain Images.cfg].
 
-Haga clic con el botón secundario en la marca de verificación recién creada en la [!DNL Temp] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. El [!DNL Terrain Images.cfg] archivo aparece en una ventana del Bloc de notas.
+Haga clic con el botón derecho en la marca de verificación recién creada en la columna [!DNL Temp] y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. El archivo [!DNL Terrain Images.cfg] aparece en una ventana del Bloc de notas.
 
-Edite los parámetros de Información de proyección utilizando el siguiente fragmento de archivo de ejemplo como guía. Asegúrese de especificar el tipo de proyección como se resalta a continuación. Para obtener descripciones de los parámetros, consulte la tabla Parámetros de LatLonProjection del procedimiento anterior.
+Edite los parámetros de Información de proyección utilizando el siguiente fragmento de archivo de ejemplo como guía. Asegúrese de especificar el tipo de proyección como se indica a continuación. Para obtener descripciones de los parámetros, consulte la tabla Parámetros de LatLonProjection del procedimiento anterior.
 
 ```
 Projection Info = LatLonProjection:
@@ -77,18 +78,18 @@ Projection Info = LatLonProjection:
   Lon1 = double: 180
 ```
 
-## Proyecciones de Mercator Universal Transversal {#section-606df0ed1c2d4a6bac3ff0fa2cfb3e82}
+## Proyecciones de Universal Transverse Mercator {#section-606df0ed1c2d4a6bac3ff0fa2cfb3e82}
 
-La proyección de Universal Transverse Mercator (UTM) está definida por ocho parámetros. Al especificar una proyección Universal Transverse Mercator para una capa de imagen de terreno, los archivos de imagen de terreno deben alinearse con false (proyectado) hacia el norte hacia la parte superior de la imagen y false hacia el este hacia la derecha de la imagen.
+La proyección del Universal Transverse Mercator (UTM) se define mediante ocho parámetros. Al especificar una proyección de Universal Transverse Mercator para una capa de imagen de terreno, los archivos de imagen de terreno deben alinearse con false (proyectado) al norte hacia la parte superior de la imagen y false al este hacia la derecha de la imagen.
 
-Para especificar una proyección UTM para cualquier origen de imagen de terreno, debe abrir el [!DNL Terrain Images.cfg] archivo en un editor de texto como Bloc de notas, establecer el parámetro Información de proyección en &quot;TransverseMercatorProjection&quot; y agregar la configuración para la proyección UTM.
+Para especificar una proyección UTM para cualquier origen de imagen de terreno, debe abrir el archivo [!DNL Terrain Images.cfg] en un editor de texto como Bloc de notas, establecer el parámetro Información de proyección en &quot;TransverseMercatorProjection&quot; y agregar la configuración para la proyección UTM.
 
-**Especificación de una proyección de Mercator universal transversal**
+**Especificación de una proyección de Universal Transverse Mercator**
 
-1. En el [!DNL Server Files Manager], haga clic **[!UICONTROL Components]** para ver su contenido. El [!DNL Terrain Images.cfg] archivo se encuentra dentro de este directorio.
-1. Haga clic con el botón secundario en la marca de verificación de la columna del nombre del servidor para [!DNL Terrain Images.cfg]y, a continuación, haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la [!DNL Temp] columna para [!DNL Terrain Images.cfg.]
-1. Haga clic con el botón secundario en la marca de verificación recién creada en la [!DNL Temp] columna y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. El [!DNL Terrain Images.cfg] archivo aparece en una ventana del Bloc de notas.
-1. Edite los parámetros de Información de proyección utilizando como guías el siguiente fragmento de archivo de muestra y la tabla de parámetros. Asegúrese de especificar el tipo de proyección como se resalta a continuación.
+1. En [!DNL Server Files Manager], haga clic en **[!UICONTROL Components]** para ver su contenido. El archivo [!DNL Terrain Images.cfg] se encuentra dentro de este directorio.
+1. Haga clic con el botón derecho en la marca de verificación de la columna del nombre del servidor para [!DNL Terrain Images.cfg] y, a continuación, haga clic en **[!UICONTROL Make Local]**. Aparece una marca de verificación en la columna [!DNL Temp] de [!DNL Terrain Images.cfg.]
+1. Haga clic con el botón derecho en la marca de verificación recién creada en la columna [!DNL Temp] y haga clic en **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**. El archivo [!DNL Terrain Images.cfg] aparece en una ventana del Bloc de notas.
+1. Edite los parámetros de Información de proyección utilizando la siguiente tabla de parámetros y fragmento de archivo de muestra como guías. Asegúrese de especificar el tipo de proyección como se indica a continuación.
 
    ```
    Projection Info = TransverseMercatorProjection:
@@ -111,29 +112,28 @@ Para especificar una proyección UTM para cualquier origen de imagen de terreno,
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Acoplamiento inverso elípsoide, eje semimajor elípsoide </p> </td> 
-   <td colname="col2"> <p>Parámetros del elipsoide utilizado para la proyección. El eje semimajor se especifica en metros. </p> </td> 
+   <td colname="col1"> <p>Alturador de la marcha atrás elípsoide, eje del semimajor elípsoide </p> </td> 
+   <td colname="col2"> <p>Parámetros del elipsoid utilizado para la proyección. El eje semimajor se especifica en metros. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Falso ayuno </p> </td> 
-   <td colname="col2"> <p>El falso ayuno del meridiano central de la proyección, en metros. Para la UTM, esto es siempre 500.000. </p> </td> 
+   <td colname="col2"> <p>El falso tostado del meridiano central de la proyección, en metros. Para UTM, esto siempre es 500.000. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>False Northing </p> </td> 
-   <td colname="col2"> <p>El falso northing del ecuador en la proyección, en metros. Para la UTM, este es 0 para las zonas del hemisferio norte y 10.000 para las zonas del hemisferio sur. </p> </td> 
+   <td colname="col2"> <p>El falso northing del ecuador en la proyección, en metros. Para la UTM, es 0 para las zonas del hemisferio norte y 10.000 para las zonas del hemisferio sur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Coordenadas de la esquina noroeste, coordenadas de la esquina sudeste </p> </td> 
    <td colname="col2"> <p>Coordenadas (en metros proyectados) de las esquinas superior izquierda e inferior derecha de la imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Primer meridiano </p> </td> 
-   <td colname="col2"> <p>Longitud del meridiano central de la proyección, especificada en grados al este de Greenwich. Los números negativos pueden utilizarse para especificar grados oeste. </p> </td> 
+   <td colname="col1"> <p>Prime Meridian </p> </td> 
+   <td colname="col2"> <p>Longitud del meridiano central de la proyección, especificada en grados este de Greenwich. Se pueden utilizar números negativos para especificar grados oeste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Factor de escala </p> </td> 
-   <td colname="col2"> <p>Relación entre el radio del cilindro de proyección y el eje semimajor del elipsoide. Para las proyecciones de Universal Transverse Mercator (UTM), esto es siempre 0,9996. </p> </td> 
+   <td colname="col2"> <p>Relación entre el radio del cilindro de la proyección y el eje semimajor del elipsoide. Para las proyecciones de Universal Transverse Mercator (UTM), siempre es 0,9996. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
