@@ -1,21 +1,22 @@
 ---
 description: Pasos para buscar componentes que contengan texto específico.
-solution: Analytics
-title: Buscar dentro de un mapa
-topic: Data workbench
+title: Búsqueda dentro de un mapa
 uuid: 87fa8c69-f1f1-4977-b60c-050ddaacaab2
+exl-id: fb04aedb-aa31-45d0-9225-66d8fd2f7810
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 16%
 
 ---
 
-
-# Buscar dentro de un mapa{#search-within-a-map}
+# Búsqueda dentro de un mapa{#search-within-a-map}
 
 Pasos para buscar componentes que contengan texto específico.
 
-1. Haga clic con el botón derecho en el mapa de dependencia y haga clic en **[!UICONTROL Search]**.
-1. En el cuadro de texto, escriba el texto para el que desea buscar.
+1. Haga clic con el botón derecho en el mapa de dependencias y haga clic en **[!UICONTROL Search]**.
+1. En el cuadro de texto, escriba el texto que desee buscar.
 
    ![Información sobre los pasos](assets/vis_DependencyMap_Search.png)
 
