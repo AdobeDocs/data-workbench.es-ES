@@ -1,18 +1,19 @@
 ---
-description: Muestra de código de la hoja de estilo Mail XSL.
-solution: Analytics
+description: Ejemplo de código de la hoja de estilo Mail XSL.
 title: Ejemplo de hoja de estilo XSL de correo
-topic: Data workbench
 uuid: 846ddf22-e6da-4d37-ba50-d75f850b9a3f
+exl-id: 4b868da4-1a3b-454c-940c-8ffd9644c92a
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '24'
+ht-degree: 41%
 
 ---
 
-
 # Ejemplo de hoja de estilo XSL de correo{#sample-mail-xsl-style-sheet}
 
-Muestra de código de la hoja de estilo Mail XSL.
+Ejemplo de código de la hoja de estilo Mail XSL.
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -29,4 +30,3 @@ Muestra de código de la hoja de estilo Mail XSL.
 </xsl:template>
 </xsl:stylesheet>
 ```
-
