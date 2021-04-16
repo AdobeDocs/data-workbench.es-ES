@@ -1,31 +1,32 @@
 ---
-description: Vea una lista de acciones de interfaz de usuario del cliente de Área de trabajo de datos y teclas de método abreviado.
-solution: Analytics
+description: Vea una lista de acciones de la interfaz de usuario del cliente de Data Workbench y teclas de método abreviado.
 title: Referencia rápida
-topic: Data workbench
 uuid: d4563f21-4a0c-4ba5-844a-700b03a7f56e
+exl-id: 59ac0cc7-e7c7-4ce1-889a-9a65a0faa853
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 6%
 
 ---
 
-
 # Referencia rápida{#quick-reference}
 
-Vea una lista de acciones de interfaz de usuario del cliente de Área de trabajo de datos y teclas de método abreviado.
+Vea una lista de acciones de la interfaz de usuario del cliente de Data Workbench y teclas de método abreviado.
 
-Consulte también Métodos abreviados [de teclado](../../../home/c-get-started/c-vis/c-qk-ref.md#section-0597bf92e1af4bcf9f1c8ceffe52649a).
+Consulte también [Métodos abreviados de teclado](../../../home/c-get-started/c-vis/c-qk-ref.md#section-0597bf92e1af4bcf9f1c8ceffe52649a).
 
-## Acciones para el cliente de Área de trabajo de datos {#section-dfea35452c2e4f0b92229a4974bc24fa}
+## Acciones para el cliente de Data Workbench {#section-dfea35452c2e4f0b92229a4974bc24fa}
 
-Utilice estas acciones cuando realice tareas en la interfaz de usuario del cliente.
+Utilice estas acciones al realizar tareas dentro de la interfaz de usuario del cliente.
 
 | Acción | Resultado  |
 |---|---|
-| Haga clic en | Selecciona el elemento |
-| Haga clic y arrastre | Selecciona el rango |
-| Ctrl + seleccionar | Agrega a la selección |
-| Mayús + seleccionar | Eliminar de la selección |
+| Haga clic en | Selecciona un elemento |
+| Haga clic y arrastre | Selecciona un intervalo |
+| Ctrl + seleccionar | Añade a la selección |
+| Mayús + seleccionar | Eliminar de selección |
 
 <table id="table_468868B713E94F08BFF8F5C468F5100B"> 
  <thead> 
@@ -36,11 +37,11 @@ Utilice estas acciones cuando realice tareas en la interfaz de usuario del clien
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Haga clic en el logotipo de Área de trabajo de datos en la esquina superior izquierda del espacio de trabajo </td> 
+   <td colname="col1"> Haga clic en el logotipo de la Data Workbench en la esquina superior izquierda del espacio de trabajo </td> 
    <td colname="col2"> <p>Guarda los cambios </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ctrl + Supr </td> 
+   <td colname="col1"> Ctrl + Eliminar </td> 
    <td colname="col2"> Cierra sin guardar los cambios </td> 
   </tr> 
  </tbody> 
@@ -49,8 +50,8 @@ Utilice estas acciones cuando realice tareas en la interfaz de usuario del clien
 | Acción | Resultado  |
 |---|---|
 | Haga clic y arrastre | Mueve gráficos |
-| Haga clic con el botón derecho y arrastre | Gira gráficos |
-| Haga clic en los dos botones del ratón y arrastre | Acerca los gráficos |
+| Haga clic con el botón derecho y arrastre | Gira los gráficos |
+| Haga clic en ambos botones del ratón y arrastre | Amplía los gráficos |
 
 | Acción | Resultado  |
 |---|---|
@@ -63,9 +64,9 @@ Utilice estas acciones cuando realice tareas en la interfaz de usuario del clien
 | Haga clic en | Selecciona un elemento |
 | Haga clic y arrastre | Selecciona un rango de texto |
 | Ctrl + seleccionar | Agrega texto a la selección |
-| Mayús + seleccionar | Quita el texto de la selección |
+| Mayús + seleccionar | Elimina el texto de la selección |
 
-## Métodos abreviados de teclado para el cliente de Área de trabajo de datos {#section-0597bf92e1af4bcf9f1c8ceffe52649a}
+## Métodos abreviados de teclado para el cliente de Data Workbench {#section-0597bf92e1af4bcf9f1c8ceffe52649a}
 
 Utilice estas teclas de método abreviado para espacios de trabajo y archivos de configuración.
 
@@ -79,7 +80,7 @@ Utilice estas teclas de método abreviado para espacios de trabajo y archivos de
  <tbody> 
   <tr> 
    <td colname="col1"> Ctrl + N </td> 
-   <td colname="col2"> <p>Abre un nuevo espacio de trabajo. </p> <p>Si está limitado a crear un solo tipo de espacio de trabajo en blanco, el nuevo espacio de trabajo se abrirá inmediatamente. </p> <p>Si tiene derechos para abrir varios tipos de espacios de trabajo según la implementación, Ctrl + N muestra un menú que le permite elegir el tipo de espacio de trabajo que se va a crear. </p> </td> 
+   <td colname="col2"> <p>Abre un nuevo espacio de trabajo. </p> <p>Si se limita a crear un solo tipo de espacio de trabajo en blanco, el nuevo espacio de trabajo se abrirá inmediatamente. </p> <p>Si tiene derechos para abrir varios tipos de espacios de trabajo según la implementación, Ctrl + N muestra un menú que le permite elegir el tipo de espacio de trabajo que se creará. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ctrl + O </td> 
@@ -90,9 +91,9 @@ Utilice estas teclas de método abreviado para espacios de trabajo y archivos de
 
 | Acción | Resultado  |
 |---|---|
-| Ctrl + X | Corta texto |
-| Ctrl + Z | Acción Deshacer para caracteres escritos anteriormente |
-| Ctrl + Mayús + Z | Rehacer acción para caracteres escritos |
+| Ctrl + X | Cortar texto |
+| Ctrl + Z | Deshacer acción para caracteres escritos anteriormente |
+| Ctrl + Mayús + Z | Rehacer la acción para los caracteres escritos |
 | Ctrl+A | Selecciona todo |
 
 <table id="table_A01C514C99F043338D183A6839E03DEA"> 
@@ -105,21 +106,21 @@ Utilice estas teclas de método abreviado para espacios de trabajo y archivos de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b>Vista</b>en pantalla completa. Workspace rellena la pantalla y cambia al nuevo tamaño. </td> 
-   <td colname="col2"><b>Ctrl más</b> <p>Ctrl + (en el teclado numérico) </p> <p><i>O bien</i> </p> <p>Ctrl Mayús + (en el teclado) </p> </td> 
+   <td colname="col1"><b>Vista de pantalla completa</b>. Workspace rellena la pantalla y se adapta al nuevo tamaño. </td> 
+   <td colname="col2"><b>Ctrl más</b> <p>Ctrl + (en teclado) </p> <p><i>O bien</i> </p> <p>Ctrl Mayús + (en el teclado) </p> </td> 
    <td colname="col3"> 
     <ul id="ul_C7C731B894D946D9916F50806F015857"> 
-     <li id="li_452B4C119B1A40038A408CFFC53653A9">Archivo &gt; Tamaño de página &gt; Pantalla de relleno <p><i>seguido por</i> </p> </li> 
-     <li id="li_DE9B8B31B9F24A6AA68A1D0DB886B501">Archivo &gt; Reajustar espacio de trabajo </li> 
+     <li id="li_452B4C119B1A40038A408CFFC53653A9">Archivo &gt; Tamaño de página &gt; Pantalla de relleno <p><i>seguido de</i> </p> </li> 
+     <li id="li_DE9B8B31B9F24A6AA68A1D0DB886B501">Archivo &gt; Ajustar espacio de trabajo </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Vista</b>de ventana. Workspace se muestra en una vista de ventana estándar y se ajusta al nuevo tamaño. </td> 
+   <td colname="col1"><b>Vista de ventana</b>. Workspace se muestra en una vista de ventana estándar y se adapta al nuevo tamaño. </td> 
    <td colname="col2"><b>Ctrl menos</b> <p>Ctrl - </p> </td> 
    <td colname="col3"> 
     <ul id="ul_3474B9EFD69343C09BC84E485D896C28"> 
-     <li id="li_820BAED76FF24A5785E6D89C5C692DD5">Archivo &gt; Tamaño de página &gt; Estándar <p><i>seguido por</i> </p> </li> 
-     <li id="li_337789F282CE4C2C990C67B115782454">Archivo &gt; Reajustar espacio de trabajo </li> 
+     <li id="li_820BAED76FF24A5785E6D89C5C692DD5">Archivo &gt; Tamaño de página &gt; Estándar <p><i>seguido de</i> </p> </li> 
+     <li id="li_337789F282CE4C2C990C67B115782454">Archivo &gt; Ajustar espacio de trabajo </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,11 +129,11 @@ Utilice estas teclas de método abreviado para espacios de trabajo y archivos de
 | Acción | Resultado  |
 |---|---|
 | Ctrl + P | Imprime un espacio de trabajo. |
-| Ctrl + W | Cierra un espacio de trabajo sin guardarlo. |
+| Ctrl + W | Cierra un espacio de trabajo sin guardar. |
 | Ctrl + S | Guarda un espacio de trabajo. |
 | Ctrl + O | Abre un archivo de visualización. Es lo mismo que seleccionar Agregar > Abrir en el menú del espacio de trabajo. |
 | Ctrl + E | Abra una configuración (de forma predeterminada) u otros archivos. Es lo mismo que seleccionar Agregar > Editar en el menú del espacio de trabajo. Seleccione Todo para abrir otros archivos. |
-| Menú de archivos más utilizados | Haga clic en **Agregar > Abrir** desde un espacio de trabajo para abrir archivos abiertos recientemente (guarda los últimos diez) o archivos que &quot;ancla&quot; al nuevo menú. En el menú, puede hacer clic en el icono de pin de la lista para guardar la visualización. |
+| Menú de archivos más utilizado | Haga clic en **Agregar > Abrir** desde un espacio de trabajo para abrir archivos abiertos recientemente (guarda los últimos diez) o archivos que &quot;fije&quot; en el nuevo menú. Desde el menú , puede hacer clic en el icono de la clavija de la lista para guardar la visualización. |
 
 <table id="table_99414A5999F94A2EAB2BBBA27EE487F5"> 
  <thead> 
@@ -143,13 +144,12 @@ Utilice estas teclas de método abreviado para espacios de trabajo y archivos de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Haga clic con el botón secundario en un nodo y haga clic en <span class="uicontrol"> Pegar</span> </p> </td> 
-   <td colname="col2"> <p>Pega un nodo en un archivo <span class="filepath"> .cfg</span> . </p> </td> 
+   <td colname="col1"> <p>Haga clic con el botón derecho en un nodo y haga clic en <span class="uicontrol"> Pegar</span> </p> </td> 
+   <td colname="col2"> <p>Pega un nodo en un archivo <span class="filepath"> .cfg</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Haga clic con el botón secundario en el vector y haga clic en <span class="uicontrol"> Pegar como elemento secundario</span> </td> 
+   <td colname="col1">Haga clic con el botón derecho en el vector y haga clic en <span class="uicontrol"> Pegar como secundario</span> </td> 
    <td colname="col2">Pega un vector en un archivo <span class="filepath"> .cfg</span> a nivel de vector </td> 
   </tr> 
  </tbody> 
 </table>
-
