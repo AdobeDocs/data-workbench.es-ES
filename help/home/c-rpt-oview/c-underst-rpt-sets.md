@@ -1,23 +1,24 @@
 ---
-description: Un conjunto de informes es una colección de espacios de trabajo que el servidor de informes genera en función de los valores especificados en un archivo de configuración Report.cfg.
-solution: Analytics
+description: Un conjunto de informes es una colección de espacios de trabajo que el servidor de informes genera en función de los valores especificados en un archivo de configuración de Report.cfg.
 title: Explicación de los conjuntos de informes
-topic: Data workbench
 uuid: 421055d7-0cf0-4664-b944-327a254a97a4
+exl-id: 95609a1a-e70c-41e2-ace3-0cb09f77705a
 translation-type: tm+mt
-source-git-commit: 2e4991206394ca0c463210990ea44dfb700341a5
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
-
 # Explicación de los conjuntos de informes{#understanding-report-sets}
 
-Un conjunto de informes es una colección de espacios de trabajo que el servidor de informes genera en función de los valores especificados en un archivo de configuración Report.cfg.
+Un conjunto de informes es una colección de espacios de trabajo que el servidor de informes genera en función de los valores especificados en un archivo de configuración de Report.cfg.
 
-En la carpeta [!DNL Insight] de instalación, cada subcarpeta de la carpeta &lt;nombre *del perfil de* trabajo>\Informes representa un conjunto de informes que se ha creado. Cada conjunto de informes tiene su propio [!DNL Report.cfg] archivo de configuración dentro de esa subcarpeta.
+En la carpeta de instalación [!DNL Insight], cada subcarpeta dentro de la carpeta &lt;*nombre del perfil de trabajo*>\Reports representa un conjunto de informes que se ha creado. Cada conjunto de informes tiene su propio archivo de configuración [!DNL Report.cfg] dentro de esa subcarpeta.
 
 >[!NOTE]
 >
->En el [!DNL Profile Manager] área de trabajo de datos, los conjuntos de informes aparecen como subcarpetas dentro de la [!DNL Reports] carpeta. Para obtener más información sobre la [!DNL Profile Manager], consulte la Guía del usuario [del área de trabajo de datos](https://docs.adobe.com/content/help/en/data-workbench/using/home.html#Data_Workbench_Help).
+>En la [!DNL Profile Manager] de la Data Workbench, los conjuntos de informes aparecen como subcarpetas dentro de la carpeta [!DNL Reports]. Para obtener más información sobre [!DNL Profile Manager], consulte la [Guía del usuario de Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html#Data_Workbench_Help).
 
-Al definir la configuración específica de un conjunto de informes en su [!DNL Report.cfg] archivo, puede programar la creación y distribución de los informes, incluso quién recibe los informes y en qué formatos.
+Al definir la configuración específica para un conjunto de informes en su archivo [!DNL Report.cfg], puede programar la creación y distribución de los informes, incluido quién recibe qué informes y en qué formatos.
