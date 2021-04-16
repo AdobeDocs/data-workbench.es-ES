@@ -1,21 +1,22 @@
 ---
-description: Información sobre las interfaces administrativas disponibles para administrar y supervisar la implementación de Área de trabajo de datos. También información sobre la apertura de interfaces administrativas, así como información sobre otras interfaces.
-solution: Analytics
+description: Información sobre las interfaces administrativas disponibles para administrar y supervisar la implementación de la Data Workbench. También información sobre cómo abrir interfaces administrativas, así como información sobre otras interfaces.
 title: Interfaces administrativas
-topic: Data workbench
 uuid: bd587f01-7edc-44e8-b4d4-f74f94f5d60f
+exl-id: 109e30da-9ccb-4349-865a-dff9c05fe37a
 translation-type: tm+mt
-source-git-commit: 27600561841db3705f4eee6ff0aeb8890444bbc9
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 23%
 
 ---
 
-
 # Interfaces administrativas{#administrative-interfaces}
 
-Información sobre las interfaces administrativas disponibles para administrar y supervisar la implementación de Área de trabajo de datos. También información sobre la apertura de interfaces administrativas, así como información sobre otras interfaces.
+Información sobre las interfaces administrativas disponibles para administrar y supervisar la implementación de la Data Workbench. También información sobre cómo abrir interfaces administrativas, así como información sobre otras interfaces.
 
-* [Interfaz de esquema de conjunto de datos](c-dtst-sch-intrf.md)
-* [Leyenda de estado de consulta](c-query-stat-lgnd.md)
+* [Interfaz de Esquema de conjunto de datos](c-dtst-sch-intrf.md)
+* [Leyenda del estado de consulta](c-query-stat-lgnd.md)
 * [Cola de consultas](c-query-que/c-query-que.md)
 * [Leyenda de procesamiento](c-pro-lgd.md)
 * [Interfaz de estado detallada](c-det-stat-interf.md)
