@@ -1,7 +1,7 @@
 ---
 description: documentación de Data Workbench
 title: Ayuda de Data Workbench
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 987b69f1-b82a-4719-a71d-b0250a4a4f92
 exl-id: 9c00c87e-e5dd-4806-9338-2336ae68176a
 translation-type: tm+mt
