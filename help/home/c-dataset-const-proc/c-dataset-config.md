@@ -3,7 +3,6 @@ description: La configuración del conjunto de datos hace referencia al proceso 
 title: Explicación de la configuración del conjunto de datos
 uuid: 813933d1-f52d-4584-8edd-ce9cd4aed74a
 exl-id: 1358d08e-d81c-453d-a3a3-c1f279f38192
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '916'
