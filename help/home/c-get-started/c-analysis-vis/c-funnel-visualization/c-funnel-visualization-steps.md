@@ -3,7 +3,6 @@ description: Siga estos pasos para crear una nueva visualización de canal
 title: Creación de un canal
 uuid: 88afa09d-42ff-4e3b-b5cc-d74e01f4fc39
 exl-id: 24b63998-3aad-4ddf-b2d2-78dd0df9a510
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '216'
