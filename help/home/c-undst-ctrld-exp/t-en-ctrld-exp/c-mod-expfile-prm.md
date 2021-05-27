@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Modificación del parámetro ExpFile
 uuid: bf146f46-f541-4969-8d90-af1a0c969344
 exl-id: 9c527ef9-aeda-4d83-8b98-a7dccbd55fe8
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '220'
