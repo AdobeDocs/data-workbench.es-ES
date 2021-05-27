@@ -3,7 +3,6 @@ description: Pasos para descargar e instalar el certificado digital.
 title: Procedimientos de instalación de certificados digitales
 uuid: 14749a68-96cb-4cf4-819e-07df065e4016
 exl-id: a8ae8d23-8db8-44d9-8c45-e552da81c384
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '136'
