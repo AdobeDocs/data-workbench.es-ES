@@ -3,7 +3,6 @@ description: La Data Workbench es extremadamente flexible en cuanto a la cantida
 title: Personalización de Data Workbench localmente
 uuid: 9d04ebbf-fa48-4594-9b59-8b7e4c85fe6a
 exl-id: 07ad2744-2dd3-4db0-92ab-05346f74a076
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '108'
