@@ -3,7 +3,6 @@ description: Normalmente, desea agregar una DPU de Insight Server a un clúster 
 title: Añadir una DPU de Insight Server a un clúster existente
 uuid: 1977a90e-bd51-4838-9498-f7692891109f
 exl-id: 9cac2795-626b-4fe3-8a7c-f36c9f1dc68f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '373'
@@ -19,7 +18,7 @@ Normalmente, desea agregar una DPU de Insight Server a un clúster existente cua
 
 En [!DNL Insight], abra [!DNL Server Files Manager] para su [!DNL Insight Server] maestro (normalmente una [!DNL Insight Server] FSU) y haga lo siguiente para cada DPU que desee agregar al clúster:
 
-1. Edite el archivo de direcciones en el [!DNL Insight Server] maestro para incluir el nombre y la dirección del nuevo DPU, tal como se describe en [Añadir los servidores de perspectiva de procesamiento al archivo de direcciones](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-2fe5298180164e8dbaa59ea6b6ff682d). Añada el nombre y la dirección del nuevo DPU al grupo en el que se muestra el [!DNL Insight Servers] actual del clúster.
+1. Edite el archivo de direcciones en el [!DNL Insight Server] maestro para incluir el nombre y la dirección del nuevo DPU, tal como se describe en [Añadir los servidores de perspectiva de procesamiento al archivo de direcciones](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-2fe5298180164e8dbaa59ea6b6ff682d). Añada el nombre y la dirección del nuevo DPU al grupo en el que aparece el [!DNL Insight Servers] actual del clúster.
 
 1. Edite el archivo de control de acceso en el [!DNL Insight Server] maestro para incluir la dirección IP del nuevo DPU tal como se describe en [Actualización del archivo de control de acceso para un clúster](../../../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md#section-fce1367d92a445168c35e9ca506e7d6b).
 
