@@ -3,7 +3,6 @@ description: Los exportadores proporcionan las instrucciones para enviar los dat
 title: Definición de exportadores
 uuid: 565d4482-6c25-407c-bda7-0d116180902a
 exl-id: 5de6266a-e959-414c-9512-5e9f4011881b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1120'
