@@ -3,7 +3,6 @@ description: Información importante a tener en cuenta al editar el archivo Tran
 title: Consideraciones sobre el archivo de configuración de transformación
 uuid: 1b64d023-966d-4f84-beb6-4f02b3504eea
 exl-id: 7164ccb5-269c-4968-a3b4-1ff046a57f92
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '207'
