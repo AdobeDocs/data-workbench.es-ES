@@ -3,7 +3,6 @@ description: El archivo JSON de DeviceAtlas ahora se distribuirá en un archivo 
 title: Distribución de DeviceAtlas
 uuid: 1eb76c61-6696-4e6c-a3fd-61c00cc17b0a
 exl-id: e9671810-d32c-4ec4-a1cb-54b71c6f101c,333507bb-3e8b-4da1-8218-b35fcf8d5f80,aa811c7b-ef80-4f23-b395-0cbb7d2677a9
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '443'
