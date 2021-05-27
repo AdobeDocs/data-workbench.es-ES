@@ -3,7 +3,6 @@ description: El portal de informes utiliza la información de un archivo de conf
 title: Edición del archivo de configuración de sesión
 uuid: c1bcd4d2-9bf5-425a-bda2-7f805983cdc6
 exl-id: 98cf2e11-afb8-4530-aaa4-ea3c913effc1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '244'
