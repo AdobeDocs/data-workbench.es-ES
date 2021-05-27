@@ -3,7 +3,6 @@ description: Pasos utilizados para facilitar la recopilación de clics en víncu
 title: Rastreo de clics en vínculos
 uuid: e4c492d2-9c90-4ed7-b997-6c50bdf98f93
 exl-id: 0cb743e6-5c6e-4f80-bc77-83d1e706c92b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '207'
