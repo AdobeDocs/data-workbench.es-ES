@@ -3,7 +3,6 @@ description: Si se suscribe a cualquiera de los servicios de datos, deberá actu
 title: Actualización de archivos del servicio de datos
 uuid: 8c14be34-fde3-4c4c-9c22-739863317d6e
 exl-id: bb92d40c-cc8d-4ecf-bd48-ed962fd5d73b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '577'
