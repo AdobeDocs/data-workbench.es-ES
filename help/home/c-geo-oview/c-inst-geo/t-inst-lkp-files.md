@@ -3,7 +3,6 @@ description: Pasos para instalar los archivos de búsqueda de geografía en el s
 title: Instalación de los archivos de búsqueda de geografía
 uuid: 5e47921b-a8e6-4e12-a029-bfa1538515a1
 exl-id: 6ad1e537-9065-433f-ba4f-3e8e6331a7e4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '124'
