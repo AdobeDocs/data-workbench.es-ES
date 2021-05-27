@@ -3,7 +3,6 @@ description: Con el Modelo de objetos de documento JavaScript, se pueden utiliza
 title: Adquisición de objetos de documento
 uuid: 7681c337-b147-4937-9d9c-0ff48d9bdd00
 exl-id: eae6609c-be86-44cf-a1a1-69ffb43231fa
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '160'
