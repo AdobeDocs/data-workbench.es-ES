@@ -3,7 +3,6 @@ description: Puede utilizar hojas de cálculo para indicar que una métrica ha a
 title: Creación de un indicador de métrica
 uuid: da304004-ef45-4c89-8c91-dd5158172dd6
 exl-id: 5713f3dd-85ef-407c-b21c-80e9b4390b6d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '601'
@@ -51,7 +50,7 @@ Para [!DNL Up] o [!DNL Down indicator], utilice la fórmula siguiente:
 
 Por ejemplo: [!DNL =(b2-c2)/(d2-c2)*2-1]
 
-Para cada métrica, es posible obtener tres resultados al utilizar esta fórmula con [!DNL Up] o [!DNL Down indicator]:
+Se pueden obtener tres resultados para cada métrica al utilizar esta fórmula con [!DNL Up] o [!DNL Down indicator]:
 
 * Si el valor de la métrica está entre los umbrales bajo y alto, la fórmula evalúa un número entre -1 y 1 (exclusivamente). La flecha hacia arriba o hacia abajo no se muestra en la hoja de cálculo.
 * Si el valor de la métrica es menor o igual que el umbral bajo, la fórmula evalúa un valor menor o igual que -1. El indicador de métrica cambia a una flecha hacia abajo.
