@@ -3,7 +3,6 @@ description: Pasos para implementar el tablero en IIS.
 title: Implementación del panel
 uuid: e9a5d62e-9d59-448a-9728-8087aec0fdec
 exl-id: d59efcc3-7405-407d-840a-b5202f418d51
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '216'
