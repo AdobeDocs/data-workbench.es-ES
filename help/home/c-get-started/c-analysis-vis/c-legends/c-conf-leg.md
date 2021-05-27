@@ -3,7 +3,6 @@ description: Las leyendas de confianza le ayudan a determinar la probabilidad de
 title: Leyendas de confianza
 uuid: 2559ff7c-6060-4fee-b509-9ae0c3912016
 exl-id: 9aab169a-98b8-4e71-b74d-28e385c5c424
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '445'
@@ -45,7 +44,7 @@ La siguiente leyenda de confianza muestra detalles de confianza sobre la métric
   </tr> 
   <tr> 
    <td colname="col1"> <p>El valor "true" </p> </td> 
-   <td colname="col2"> <p>La probabilidad de que el valor medido se encuentre dentro del intervalo enumerado para cada probabilidad. En este ejemplo, si este "experimento del mundo real" se repitiera una y otra vez, podría estar un 90 % seguro de que el valor medido estaría entre el 2,1 % y el 2,4 %. </p> </td> 
+   <td colname="col2"> <p>La probabilidad de que el valor medido esté dentro del intervalo enumerado para cada probabilidad. En este ejemplo, si este "experimento del mundo real" se repitiera una y otra vez, podría estar un 90 % seguro de que el valor medido estaría entre el 2,1 % y el 2,4 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
