@@ -3,7 +3,6 @@ description: Las vistas de jerarquía solo están disponibles cuando se usa el S
 title: Aplicación de vistas de jerarquía
 uuid: 859a92af-4f7e-4bb5-9a98-917006894301
 exl-id: 27a69404-40d3-44ab-bf5c-b2a5d8d836c2
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '363'
