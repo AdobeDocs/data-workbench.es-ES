@@ -3,7 +3,6 @@ description: La visualización de canal incluye funciones para crear un canal co
 title: Funciones de canal
 uuid: 7d2f5ff9-95d3-41f5-931c-689f140714c2
 exl-id: e78dcefe-6f92-45de-9990-0beac09ad82f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '552'
