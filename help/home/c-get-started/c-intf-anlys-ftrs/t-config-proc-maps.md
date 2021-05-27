@@ -3,7 +3,6 @@ description: Los mapas de procesos se pueden configurar para que funcionen con c
 title: Configuración de un mapa de proceso
 uuid: e629191e-48b9-4b58-b6aa-3705ff7b387e
 exl-id: 0b37e942-4596-45cc-bc31-db147626f4eb
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '449'
