@@ -3,7 +3,6 @@ description: Las operaciones de prueba toman entradas de los campos de registro 
 title: Operaciones de prueba
 uuid: 01b18776-0287-4b07-9e3a-90c01a8acae2
 exl-id: 32ca3ea6-daaf-4e34-85ae-87ddc6d1fb78
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '111'
