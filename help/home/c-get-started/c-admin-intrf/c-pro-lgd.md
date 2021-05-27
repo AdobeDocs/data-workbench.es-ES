@@ -3,7 +3,6 @@ description: La leyenda de procesamiento proporciona información detallada sobr
 title: Leyenda de procesamiento
 uuid: 6c082c8f-fbb3-4e48-a249-2a13345fda86
 exl-id: a83ce514-c92b-4cf8-a3cc-bff4e2ba63f1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '214'
