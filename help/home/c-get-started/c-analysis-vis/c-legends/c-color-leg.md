@@ -3,7 +3,6 @@ description: Leyendas de colores visualizaciones de código de color por métric
 title: Leyendas de colores
 uuid: 4f5ad93e-9128-464c-b5b7-9db454fa71a6
 exl-id: 0ecf5237-8d64-46a6-b73b-e59de69e5988
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '141'
