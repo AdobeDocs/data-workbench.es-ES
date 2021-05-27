@@ -3,7 +3,6 @@ description: Enlaces a información adicional sobre parámetros específicos en 
 title: Parámetros de procesamiento de registros
 uuid: 97b25665-f588-4f44-8f71-2382600d1b6f
 exl-id: f373e954-6827-4afa-9557-73e0a884a602
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '717'
