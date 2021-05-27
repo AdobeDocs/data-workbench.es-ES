@@ -3,7 +3,6 @@ description: Instrucciones para completar la instalación del repetidor.
 title: Pasos siguientes
 uuid: 74ac9ef3-11c2-4af0-9901-edbbcc8ac0fb
 exl-id: b7caeb55-bd8c-4bf3-8216-3a30c8f3dfed
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '70'
