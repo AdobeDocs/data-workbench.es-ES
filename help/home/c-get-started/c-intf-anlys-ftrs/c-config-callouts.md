@@ -3,7 +3,6 @@ description: Las llamadas llaman la atención sobre un elemento de dimensión en
 title: Configuración de una llamada
 uuid: 779764bd-86c3-49cf-aabc-edb39caf0490
 exl-id: 509163b2-0bd1-47b4-8612-aac460a501cc
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '492'
