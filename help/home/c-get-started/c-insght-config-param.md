@@ -3,7 +3,6 @@ description: Establezca los parámetros del archivo Insight.cfg para especificar
 title: Parámetros de configuración
 uuid: 6e1248c1-3eae-44a3-8b19-f595d79e8d0d
 exl-id: c92fc79f-452d-4839-840a-a3ea9e8754c4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1519'
