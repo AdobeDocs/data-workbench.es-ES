@@ -3,7 +3,6 @@ description: Al igual que otras transformaciones, la transformación CrossRows s
 title: CrossRows
 uuid: 5910c150-6bec-4d98-b116-9b382fd54d3c
 exl-id: 321f986e-44a9-454c-9311-0ae37a11a088
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1137'
@@ -59,7 +58,7 @@ Al revisar las descripciones de los parámetros en la siguiente tabla, recuerde 
   </tr> 
   <tr> 
    <td colname="col1"> Condición de entrada </td> 
-   <td colname="col2"> Acepta la entrada para la transformación desde solo ciertas filas de entrada. Si no se cumple la condición de entrada para una fila de entrada concreta, se ignora el campo de entrada de esa fila y no afecta a otras filas de salida. Sin embargo, el campo de salida de esa fila se sigue modificando según la condición especificada. </td> 
+   <td colname="col2"> Acepta la entrada para la transformación desde solo ciertas filas de entrada. Si no se cumple la condición de entrada para una fila de entrada determinada, se ignora el campo de entrada de esa fila y no afecta a otras filas de salida. Sin embargo, el campo de salida de esa fila se sigue modificando según la condición especificada. </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
