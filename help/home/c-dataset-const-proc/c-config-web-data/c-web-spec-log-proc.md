@@ -3,7 +3,6 @@ description: Información sobre la configuración específica de la web que se d
 title: Configuración web específica para el procesamiento de registros
 uuid: dea861a6-3f78-4cb9-8108-ecf397b37667
 exl-id: abb6e6a7-011f-40d6-b778-16da2332af72
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '857'
