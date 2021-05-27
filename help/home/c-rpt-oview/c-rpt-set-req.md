@@ -3,7 +3,6 @@ description: Información conceptual sobre los requisitos para los conjuntos de 
 title: Requisitos del conjunto de informes
 uuid: 81d79a8f-cde1-4d86-b8b4-1b71313bac24
 exl-id: 58a2a142-8927-4300-997b-b94d0bf2e896
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '102'
