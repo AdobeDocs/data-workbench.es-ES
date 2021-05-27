@@ -3,7 +3,6 @@ description: Información sobre la eliminación de espacios de trabajo de la sup
 title: Eliminación de un espacio de trabajo
 uuid: 85fd84d6-0602-4ff4-a55a-44077f3f3151
 exl-id: 17ea8b7b-9ecb-44a5-844c-f7daec52dc8e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '118'
