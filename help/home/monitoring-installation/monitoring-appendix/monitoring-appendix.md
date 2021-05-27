@@ -3,7 +3,6 @@ description: Este documento describe los perfiles con sus campos, dimensiones y 
 title: Métricas y dimensiones del perfil de Data Workbench
 uuid: 42ef154f-fd8b-4609-8685-96d9dbf32a3d
 exl-id: cfad9897-2ea3-47e4-aa36-416e0fde9358
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '233'
