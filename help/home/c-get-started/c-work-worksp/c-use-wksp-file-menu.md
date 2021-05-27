@@ -3,7 +3,6 @@ description: Información sobre las opciones de menú disponibles en el menú de
 title: Menú Archivo de Workspace
 uuid: abbdb2db-d918-4edf-977c-1daaf8a71721
 exl-id: b2bb7d89-249c-40f5-85aa-02fea0b0fc61
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '518'
