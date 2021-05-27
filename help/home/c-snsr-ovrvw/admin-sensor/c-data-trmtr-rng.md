@@ -3,7 +3,6 @@ description: Compruebe si el transmisor se está ejecutando configurando alertas
 title: Confirmación de la ejecución del transmisor de datos
 uuid: 8dd6307c-e7d2-4800-88c7-f93385b33ca5
 exl-id: 10ba704e-85be-425f-8a5d-9429100f367d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '276'
