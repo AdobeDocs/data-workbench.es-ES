@@ -3,7 +3,6 @@ description: La transformación Formato toma un conjunto de entradas y las da fo
 title: Formato
 uuid: c596902e-21bc-4ce6-9ca4-7ca86dfc0a6c
 exl-id: 842b502e-cd16-45b3-ada8-6f2d899f1d54
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '327'
