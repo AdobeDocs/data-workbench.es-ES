@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Modificación de Log Processing.cfg
 uuid: 9105b09b-e3d5-4922-a205-b459553a4bec
 exl-id: 23c7873f-8ffd-422f-896b-d6c7e16aabbd
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '186'
