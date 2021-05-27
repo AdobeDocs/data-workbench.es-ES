@@ -3,7 +3,6 @@ description: Después de configurar Transform, debe configurarlo para exportar l
 title: Pasos siguientes
 uuid: 359f24da-6367-4992-9153-66d872ed6b21
 exl-id: 316458ab-26a1-4963-9e90-8e8cd7b9881c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '115'
