@@ -3,7 +3,6 @@ description: Información sobre las columnas de capa de punto de elemento.
 title: Formato del archivo de búsqueda de puntos de elemento
 uuid: 3480b9f3-35cd-40b7-aac9-15a3e2f19c1c
 exl-id: da81da9e-0567-4f3a-bc0d-ab6c5e4a23b7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '166'
