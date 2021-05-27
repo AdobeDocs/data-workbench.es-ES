@@ -3,7 +3,6 @@ description: Información conceptual sobre espacios de trabajo y visualizaciones
 title: Espacios de trabajo y visualizaciones
 uuid: dc7fab6c-d8b4-4ed7-bad6-b3df14b9ebbf
 exl-id: a70748dd-8190-4d1b-9ee1-1011b73a1a86
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '163'
