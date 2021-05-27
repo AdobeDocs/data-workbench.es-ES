@@ -3,7 +3,6 @@ description: Pasos para crear un subconjunto.
 title: Creación de subconjuntos
 uuid: e2f8d91b-ea66-46e1-9add-685aebe1d59e
 exl-id: 5386638a-43a0-4702-85c4-e72944a4201a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '74'
