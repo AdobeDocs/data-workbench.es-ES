@@ -3,7 +3,6 @@ description: Enumera todos los exploradores admitidos.
 title: Exploradores admitidos
 uuid: 7add01cc-905f-46e8-8e0d-3e9d458c466c
 exl-id: 5f1dcd53-c0ee-436f-ad7c-8d669008a61c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '165'
