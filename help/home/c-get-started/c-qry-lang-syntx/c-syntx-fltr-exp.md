@@ -3,7 +3,6 @@ description: Un filtro es una expresión que define un subconjunto de los datos 
 title: Sintaxis para expresiones de filtro
 uuid: faeb6847-3295-48ab-9d1c-db00f57647ba
 exl-id: 515c1645-69c8-4990-a913-d2d505c6fe51
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '789'
