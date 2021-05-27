@@ -3,7 +3,6 @@ description: Información sobre los parámetros opcionales del archivo txlogd.co
 title: Parámetros opcionales
 uuid: 8515a571-93ce-49cd-9ded-c9273259d0ee
 exl-id: 5141f215-979c-4eb8-8c2c-94eef5815743
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1484'
