@@ -3,7 +3,6 @@ description: Las visualizaciones de tablas de latencia son tablas que incluyen u
 title: Tablas de latencia
 uuid: 8081540c-f96c-424e-802d-05d1be5a728d
 exl-id: 22f6d52f-e1c2-430a-9e69-3440be0ecdea
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '800'
