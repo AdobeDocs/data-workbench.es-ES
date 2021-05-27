@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Experimentos controlados por Data Workbench
 uuid: 5fce2d9e-4975-44e4-a7c0-11064d8d28b4
 exl-id: 40bcf6a4-c722-427c-81ac-45dec1eae0b5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '182'
