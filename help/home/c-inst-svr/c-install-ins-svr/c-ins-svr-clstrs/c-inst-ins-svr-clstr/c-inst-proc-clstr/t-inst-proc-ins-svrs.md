@@ -3,7 +3,6 @@ description: Un servidor de Insight de procesamiento es idéntico a un servidor 
 title: Instalación y configuración del procesamiento de Master Insight Server
 uuid: 186675f7-8b63-4675-89ec-51b0837a64d8
 exl-id: 21f7e31b-a2fb-4257-972e-5228bb1efa01
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '303'
