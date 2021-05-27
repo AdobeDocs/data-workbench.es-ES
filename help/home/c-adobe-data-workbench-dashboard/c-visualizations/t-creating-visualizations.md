@@ -3,7 +3,6 @@ description: Pasos para agregar una visualización al lienzo del tablero.
 title: Creación de visualizaciones
 uuid: d8eb60ac-cc99-4af3-b9c4-946b0a7274ca
 exl-id: 139e24ed-5b22-4d52-8e0a-cef0fe523a49
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '100'
