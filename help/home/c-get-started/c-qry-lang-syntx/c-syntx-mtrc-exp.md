@@ -3,7 +3,6 @@ description: Las métricas se pueden editar con el Editor de métricas y guardar
 title: Sintaxis de las expresiones de métricas
 uuid: 801e265d-d7e4-4f0f-9698-d0b50dd00995
 exl-id: 27d86fea-6500-4608-aadb-f39058fd3a6e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '851'
