@@ -3,7 +3,6 @@ description: Información sobre cómo mostrar, ocultar y cambiar la etiqueta de 
 title: Etiqueta de un nodo
 uuid: ded00cc8-2958-4aca-9d45-92afc441e9e2
 exl-id: e234aa1b-2f5d-42ec-bad7-2ada0db38702
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '144'
