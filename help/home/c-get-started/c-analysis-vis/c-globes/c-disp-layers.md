@@ -3,7 +3,6 @@ description: El perfil Geografía almacena una colección de capas y archivos de
 title: Mostrar capas
 uuid: ebc7025d-e619-43dd-88da-7452ada3226b
 exl-id: 12ec913f-c7e5-49b5-8792-db0881cb5cfe
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '267'
