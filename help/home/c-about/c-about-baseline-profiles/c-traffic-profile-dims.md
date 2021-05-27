@@ -3,7 +3,6 @@ description: El perfil Tráfico contiene las siguientes dimensiones para ayudar 
 title: Dimensiones del perfil de tráfico
 uuid: 9c0dabfc-67c9-4772-99ac-4c503c06ea78
 exl-id: 1e7d2904-aa5d-4848-a398-5d4669953be9
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '987'
