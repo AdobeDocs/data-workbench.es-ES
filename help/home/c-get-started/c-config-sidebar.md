@@ -3,7 +3,6 @@ description: La barra lateral proporciona acceso a las funciones que se utilizan
 title: Configuración de la barra lateral
 uuid: 0d2f0b9a-56a9-4f27-aaa6-1f9bf7fcab2d
 exl-id: 75ccc869-8ced-4beb-b3d7-ed7febe347f9
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '745'
