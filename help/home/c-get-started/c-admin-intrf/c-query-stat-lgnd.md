@@ -3,7 +3,6 @@ description: La Leyenda de estado de consulta proporciona información detallada
 title: Leyenda del estado de consulta
 uuid: 6a0285c8-3ced-4c12-8f0c-e86d70d9e044
 exl-id: 9580ee7f-3575-4e73-b7df-5b61f6ce8e1e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '168'
