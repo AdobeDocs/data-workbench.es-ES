@@ -3,7 +3,6 @@ description: Debido a que la implementación de la Data Workbench se puede perso
 title: Apertura de interfaces administrativas
 uuid: ff8daa4e-9ac1-40ef-81ca-14a1cee4ded6
 exl-id: e4e7a09e-1f3c-4139-b26f-96b8f863be73
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '140'
