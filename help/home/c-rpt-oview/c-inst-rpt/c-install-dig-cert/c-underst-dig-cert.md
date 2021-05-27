@@ -3,7 +3,6 @@ description: Adobe utiliza certificados digitales X.509 para identificar y auten
 title: Explicación de los certificados digitales
 uuid: a2d84e9a-16aa-4973-85da-303614a4ad7f
 exl-id: 967e9d5b-7972-497e-8902-8db0eb304f27
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '617'
