@@ -3,7 +3,6 @@ description: Al seleccionar elementos dentro de una visualización, se filtra di
 title: Realización de selecciones en visualizaciones
 uuid: 3900354f-826b-41e8-9bc2-e4856928bad5
 exl-id: bb1dd7e4-a9f8-48b5-a12d-433c601b455b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '279'
