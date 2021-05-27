@@ -3,7 +3,6 @@ description: Los ejecutivos, analistas y profesionales de marketing pueden utili
 title: Oportunidades comerciales
 uuid: 05848be7-6eca-4ed2-928c-5e951bcdafe8
 exl-id: b98ebf0b-abf1-4093-b8b0-93b62cf0e1aa
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '116'
