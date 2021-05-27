@@ -3,7 +3,6 @@ description: Puede importar un espacio de trabajo en la superficie de trabajo.
 title: Importación de un espacio de trabajo
 uuid: 9f9f0da8-0806-45fe-90b4-d5bc635958e7
 exl-id: 8f589540-9f1c-4776-8815-48d4cfbc5aa6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '103'
