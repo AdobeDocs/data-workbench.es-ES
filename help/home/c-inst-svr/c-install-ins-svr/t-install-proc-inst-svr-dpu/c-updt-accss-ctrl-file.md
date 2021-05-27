@@ -3,7 +3,6 @@ description: El archivo Access Control.cfg administra el acceso a determinadas f
 title: Actualización del archivo de control de acceso
 uuid: f73651e5-6a8b-45fc-8f36-6751304dc53c
 exl-id: 551758c1-f24b-49e6-ab6e-09979511e4f4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '490'
