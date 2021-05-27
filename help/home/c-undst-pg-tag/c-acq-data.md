@@ -3,7 +3,6 @@ description: Sensor le permite adquirir datos de solicitud web (datos de evento 
 title: ¿Qué tipo de datos puedo adquirir?
 uuid: 5ac864b8-4017-4d80-b491-7a5976225eb2
 exl-id: 97d87084-cac3-4a94-89e0-f01a66e20324
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '656'
