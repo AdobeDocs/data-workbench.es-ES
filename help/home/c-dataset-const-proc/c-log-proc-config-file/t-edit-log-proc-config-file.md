@@ -3,7 +3,6 @@ description: Pasos para editar el archivo Log Processing.cfg para un perfil de c
 title: Edición del archivo de configuración de procesamiento de registros
 uuid: 2ffae53a-ef2f-4933-821d-13f29dcdb68d
 exl-id: 294063ef-6771-4310-8198-df57fab1e2b4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1288'
