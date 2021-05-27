@@ -3,7 +3,6 @@ description: En el servidor de Data Workbench hay disponibles varios tipos de di
 title: Tipos de dimensiones
 uuid: 07659373-8d9b-473d-8daa-ca8e7ac4afe8
 exl-id: cbc25504-2c1c-4622-adc1-c9bbac8e12fb
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '754'
