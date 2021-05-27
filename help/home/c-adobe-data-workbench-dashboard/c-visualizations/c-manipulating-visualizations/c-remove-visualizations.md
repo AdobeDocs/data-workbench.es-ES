@@ -3,7 +3,6 @@ description: Puede eliminar una visualización del lienzo del tablero en cualqui
 title: Eliminación de visualizaciones
 uuid: 9192d64c-29da-4e9f-ae7d-f873548c025c
 exl-id: 4a60c4f0-016e-4088-a565-5a40717a91cf
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '83'
