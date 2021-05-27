@@ -3,7 +3,6 @@ description: Se ha creado un conjunto de perfiles estándar para cada aplicació
 title: Perfiles de línea de base
 uuid: ff76ff7e-ccde-4d99-9109-8612a4a83183
 exl-id: f1bd5c1d-5f79-4b8c-9928-97169d553631
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '625'
