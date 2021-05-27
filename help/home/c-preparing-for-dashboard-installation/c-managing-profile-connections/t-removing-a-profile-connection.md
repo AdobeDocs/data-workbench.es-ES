@@ -3,7 +3,6 @@ description: Eliminación de una conexión del perfil
 title: Eliminación de una conexión del perfil
 uuid: 47a169f3-2843-4f9e-9ca9-4596491ba07a
 exl-id: 312ace0c-71ea-4216-98e8-0e99bb4f83bd
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '65'
