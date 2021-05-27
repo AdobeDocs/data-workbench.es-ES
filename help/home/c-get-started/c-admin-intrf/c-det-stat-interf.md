@@ -3,7 +3,6 @@ description: La interfaz Estado detallado es útil para solucionar errores u otr
 title: Interfaz de estado detallada
 uuid: c4d375d9-431f-4b0a-ba15-b7a10501b2e2
 exl-id: 6a460ebd-fb8f-4486-9849-dad2ff745cb5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1223'
