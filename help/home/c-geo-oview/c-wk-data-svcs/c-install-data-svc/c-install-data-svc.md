@@ -3,7 +3,6 @@ description: Información sobre la instalación de un servicio de datos en un se
 title: Instalación de un servicio de datos en un servidor de Data Workbench
 uuid: afe8e259-7fef-4327-9afc-18f36a1934db
 exl-id: 414e93b7-4e9c-4c84-8fba-8052939240c5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '240'
