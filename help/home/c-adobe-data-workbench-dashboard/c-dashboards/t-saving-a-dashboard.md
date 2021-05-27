@@ -3,7 +3,6 @@ description: Guardar un panel
 title: Guardar un panel
 uuid: 50dd713a-f7ce-4b53-8ba6-398643d2eef2
 exl-id: 4affc287-470b-47c6-af55-c0b6919321b0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '222'
