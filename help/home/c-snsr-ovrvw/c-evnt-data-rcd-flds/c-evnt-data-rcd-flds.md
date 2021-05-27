@@ -3,7 +3,6 @@ description: Los archivos de registro (.vsl) contienen los campos de datos de ev
 title: Campos de registro de datos de evento
 uuid: ad9e773c-a128-4094-9e20-45a6de025c8f
 exl-id: d48b593f-5a3a-4a4e-9a71-3b91024c9a48
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '139'
