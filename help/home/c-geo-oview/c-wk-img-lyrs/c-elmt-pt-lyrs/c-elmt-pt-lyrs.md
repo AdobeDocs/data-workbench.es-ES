@@ -3,7 +3,6 @@ description: En Data Workbench, una capa de punto de elemento muestra un punto d
 title: Uso de capas de punto de elementos
 uuid: 71b58e7f-a9f5-479c-855b-7215eb5347f0
 exl-id: 8010474c-b673-4187-aaea-cbff2db1150b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '84'
