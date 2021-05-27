@@ -3,7 +3,6 @@ description: Los árboles de decisión son una visualización de análisis predi
 title: Generador de árboles de decisión
 uuid: 1f7e91ea-e5d9-4d8e-9fcf-cae4de42dfdd
 exl-id: d93e6a34-be59-4af5-84c3-c13deb98b57b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '445'
