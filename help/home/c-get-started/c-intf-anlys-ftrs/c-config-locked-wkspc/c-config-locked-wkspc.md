@@ -3,7 +3,6 @@ description: La Data Workbench se puede configurar para permitir que solo determ
 title: Configuración de un espacio de trabajo bloqueado
 uuid: 0bb264f6-20b9-43d9-903e-1b2422af21d5
 exl-id: e31a786e-064e-4f2c-9bf4-7ceafde814c0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '201'
