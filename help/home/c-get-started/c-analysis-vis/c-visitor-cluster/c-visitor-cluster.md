@@ -3,7 +3,6 @@ description: La agrupación de visitantes permite aprovechar las característica
 title: Clúster de visitantes
 uuid: 0c16aaa0-1d86-43a6-a7e2-b43b3ea80dc5
 exl-id: 68c1845d-9c49-4ad9-adf3-c123d08cf758
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '495'
