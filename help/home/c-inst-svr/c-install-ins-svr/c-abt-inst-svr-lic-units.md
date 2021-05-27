@@ -3,7 +3,6 @@ description: Insight Server está disponible en dos tipos de licencias.
 title: Acerca de las unidades de licencia de Insight Server
 uuid: e6a48b00-4dc1-416c-9039-01c01b86abbf
 exl-id: 82d6fa29-d36e-480d-a975-f5a5e60a32d2
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '239'
