@@ -3,7 +3,6 @@ description: Información sobre cómo trabajar con el servidor de Data Workbench
 title: Trabajar sin conexión y en línea
 uuid: 613699d4-6d06-4c3c-b0aa-620933ae4d67
 exl-id: 1c9e0f4f-3172-40d3-b751-ebe6f9f57f8a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '448'
