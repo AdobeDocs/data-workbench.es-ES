@@ -3,7 +3,6 @@ description: Las alertas administrativas envían notificaciones por correo elect
 title: Configuración de alertas administrativas
 uuid: 398e088b-ff83-46ae-a20c-ba0b50d85702
 exl-id: 886e390f-fb2c-4922-8b01-9e5133a94e1b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '300'
