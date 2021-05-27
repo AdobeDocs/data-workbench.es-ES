@@ -3,7 +3,6 @@ description: Además de expandir y contraer una visualización, también puede c
 title: Cambio de tamaño de las visualizaciones
 uuid: ba8ceab2-61bc-4996-80cb-7a507e728efa
 exl-id: 23c86123-cdf2-43a8-a473-fd66fe202f8a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '102'
