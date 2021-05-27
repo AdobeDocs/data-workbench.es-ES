@@ -3,7 +3,6 @@ description: Añadir una cuenta de usuario
 title: Añadir una cuenta de usuario
 uuid: c322eeaa-a3f4-41e8-b38c-dd892ec29a87
 exl-id: c99f3189-4d89-443a-be5b-84352c4ec6e8
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '165'
