@@ -3,7 +3,6 @@ description: Pasos para instalar los archivos de programa de Report Server.
 title: Instalación de los archivos de programa de informes
 uuid: 9c250783-7080-4c27-bd8c-add208b2b1bf
 exl-id: 8f871e5c-1267-4564-a168-398f9dc793a4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '142'
