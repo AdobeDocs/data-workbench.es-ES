@@ -3,7 +3,6 @@ description: El paso final es ejecutar el tablero por primera vez para permitirl
 title: Inicialización del panel
 uuid: 847ba63e-29d8-4950-aa74-22d825388e2b
 exl-id: 47098d73-d8c4-4d14-964f-108a731d3733
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '200'
