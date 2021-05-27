@@ -2,7 +2,6 @@
 description: Si utiliza el servidor de informes para la Data Workbench, puede programar y generar automáticamente conjuntos de informes y distribuirlos a otros usuarios.
 title: Servidor de informes de Data Workbench
 uuid: eac678de-58bf-46d2-aa09-592696c01fb2
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '123'
