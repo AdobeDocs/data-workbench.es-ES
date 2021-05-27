@@ -3,7 +3,6 @@ description: El archivo de inclusión de conjunto de datos de transformación pa
 title: Archivos de inclusión de conjuntos de datos de transformación
 uuid: 46756f68-843c-4b0d-a79e-f107ef85db6c
 exl-id: 58793f82-162a-4d43-aea9-163716c82db6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '529'
