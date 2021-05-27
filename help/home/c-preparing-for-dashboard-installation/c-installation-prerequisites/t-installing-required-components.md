@@ -3,7 +3,6 @@ description: Pasos para instalar los componentes de Microsoft necesarios.
 title: Instalación de componentes necesarios
 uuid: e23fba09-4684-4daf-8426-ea91169b3348
 exl-id: d39cb14e-7cce-4088-8301-8ff566c0bde4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '183'
