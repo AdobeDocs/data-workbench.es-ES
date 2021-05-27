@@ -3,7 +3,6 @@ description: Los elementos dentro de una dimensión se pueden codificar con colo
 title: Activación de una leyenda de serie
 uuid: 7c9cb699-940b-47f3-ae6f-e9a8023b8501
 exl-id: c8c3f327-13b2-494d-b7d1-8a7a49e301c0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '105'
