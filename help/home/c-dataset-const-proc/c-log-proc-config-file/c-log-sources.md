@@ -3,7 +3,6 @@ description: Los orígenes de registro son archivos que contienen los datos que 
 title: Fuentes de registro
 uuid: ea21c3d7-9188-4ba8-bacd-052d678bd799
 exl-id: 36e0799b-197d-4c59-84ae-7a4350584ab1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '3664'
