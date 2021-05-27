@@ -3,7 +3,6 @@ description: Pasos para actualizar el perfil de geografía y actualizar las bús
 title: Actualización de la geografía de Data Workbench
 uuid: 7e147283-fe0c-4d7c-b7ad-c7c98029d202
 exl-id: 7c954a73-e6f9-4258-8134-2b96c6fb636b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '156'
