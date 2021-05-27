@@ -3,7 +3,6 @@ description: Información conceptual sobre los componentes del conjunto de datos
 title: Componentes de conjunto de datos
 uuid: a5dde039-3b79-4543-9953-995eefc73b5f
 exl-id: 6be625c5-1a2e-4b0d-9c34-5f3baec4ba81
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '278'
