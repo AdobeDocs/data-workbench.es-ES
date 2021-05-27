@@ -3,7 +3,6 @@ description: El parámetro Desbloquear del archivo Insight.cfg de un usuario esp
 title: Definición del parámetro de desbloqueo
 uuid: db094e32-7d82-4f93-a492-a6bed33ae722
 exl-id: 5eda919f-4cfe-4692-9dbf-f7cf64fde1de
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '215'
