@@ -3,7 +3,6 @@ description: Genere informes procesando espacios de trabajo y especificándolos 
 title: Generación de informes
 uuid: 90bc42b3-d7f2-46f2-8c68-5c682d163f3c
 exl-id: 8e5765e8-71b6-4716-96fe-5c7f69407295
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '238'
