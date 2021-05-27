@@ -3,7 +3,6 @@ description: Un servidor de Data Workbench es consciente de una fuente de datos,
 title: Explicación del tiempo “Con fecha”
 uuid: a1853573-e77c-41f7-8b99-2843e38cc82d
 exl-id: 58ea5c6f-de6b-48d2-b573-f265857026da
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '275'
