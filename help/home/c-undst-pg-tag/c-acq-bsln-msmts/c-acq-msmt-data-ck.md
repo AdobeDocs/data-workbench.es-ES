@@ -3,7 +3,6 @@ description: Como parte de los datos de medición de línea de base recopilados,
 title: Adquisición de datos de medición mediante cookies
 uuid: 34cd6baf-6317-4774-8165-58208698b53c
 exl-id: 37c7b5f6-33bf-4373-963a-e08a826e05df
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '587'
