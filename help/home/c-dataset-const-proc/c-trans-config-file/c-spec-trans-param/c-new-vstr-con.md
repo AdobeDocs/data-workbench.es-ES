@@ -3,7 +3,6 @@ description: La condición de nuevo visitante es una operación de condición qu
 title: Condición de nuevo visitante
 uuid: e9733109-5bf3-47ce-974c-d68264291f19
 exl-id: a0520edd-bde3-4f55-858c-8974d4224435
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '175'
