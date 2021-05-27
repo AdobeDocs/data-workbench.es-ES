@@ -3,7 +3,6 @@ description: La transformación IPLookup toma datos de geoubicación IP o de geo
 title: IPLookup
 uuid: 6fccee39-761f-4854-a7fd-3f8b453e0698
 exl-id: 3e9dba44-8d31-49af-8ce0-fecaf92edeb7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '257'
