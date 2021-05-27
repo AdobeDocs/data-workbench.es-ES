@@ -3,7 +3,6 @@ description: El sitio utiliza cookies para identificar de forma exclusiva a los 
 title: Explicación de la cookie v1st
 uuid: 6112cafe-51e3-42f0-8554-4a653dea782a
 exl-id: c5e8e1cb-686b-4d31-821e-60beb2808f80
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '510'
