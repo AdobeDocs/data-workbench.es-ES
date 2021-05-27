@@ -3,7 +3,6 @@ description: Administración de conexiones del perfil
 title: Administración de conexiones del perfil
 uuid: 244ced13-2185-4347-bd0a-d8471daafe7b
 exl-id: 94f302d5-ee40-41c8-9b94-811fea915ecb
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '92'
