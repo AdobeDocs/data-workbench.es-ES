@@ -3,7 +3,6 @@ description: Al reiniciar un equipo de Insight Server, primero debe detener el s
 title: Reinicio del servicio
 uuid: fda05e5a-9527-43e0-86c8-c4adba51955c
 exl-id: 2ba63d84-edf9-4442-a0f8-e08e88935374
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '60'
