@@ -3,7 +3,6 @@ description: Gráficos de barras
 title: Gráficos de barras
 uuid: 1baac7b3-7918-4de6-81f3-1aba7e9b8e20
 exl-id: e4e25832-5552-4acb-9adc-aea93b384a9e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '75'
