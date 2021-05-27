@@ -3,7 +3,6 @@ description: Puede elegir ver más elementos en la ruta.
 title: Vista de más elementos en las rutas
 uuid: dc45121b-1e95-4f7e-a85c-ba8b3a24fa33
 exl-id: 4337ee79-2a62-4be4-a22c-08c77516e327
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '124'
