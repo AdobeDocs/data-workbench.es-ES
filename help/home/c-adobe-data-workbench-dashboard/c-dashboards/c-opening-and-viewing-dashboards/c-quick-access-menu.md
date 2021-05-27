@@ -3,7 +3,6 @@ description: Uno de los métodos más fáciles de abrir un tablero es usar el me
 title: Menú de acceso rápido
 uuid: 724a3cf5-94e9-4f4a-ba88-6e010015fe0d
 exl-id: 36717e0d-e0e4-4ec3-857c-59d01913363a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '150'
