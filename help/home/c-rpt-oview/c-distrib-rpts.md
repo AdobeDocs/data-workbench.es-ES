@@ -3,7 +3,6 @@ description: Una vez generados los informes, Report distribuye los informes en e
 title: Distribución de informes
 uuid: 0e993635-1aa8-4314-91aa-b4f8f002fa09
 exl-id: ead1d8ef-7319-4307-9155-0101a9c1959d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '315'
