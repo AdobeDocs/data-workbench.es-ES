@@ -3,7 +3,6 @@ description: Puede definir nuevas métricas (denominadas métricas derivadas) y 
 title: Trabajo con métricas derivadas
 uuid: 9767c170-e0cb-47b4-94f1-e9f6950b5926
 exl-id: 83467c64-4b9a-44ab-91a2-202c76c89979
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '468'
