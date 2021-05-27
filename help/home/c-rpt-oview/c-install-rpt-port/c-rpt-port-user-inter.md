@@ -3,7 +3,6 @@ description: Los conjuntos de informes deben configurarse de una manera específ
 title: Personalización de la interfaz de usuario del portal de informes
 uuid: d1ea88e2-7b9e-4b1e-a826-dbe7c2e75976
 exl-id: 1f7c807d-d896-448f-b9dd-9fe6a68ef27e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '530'
