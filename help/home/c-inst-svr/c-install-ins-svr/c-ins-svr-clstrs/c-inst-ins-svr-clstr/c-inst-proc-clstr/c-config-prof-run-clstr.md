@@ -3,7 +3,6 @@ description: Cuando configura un perfil de conjunto de datos para que se ejecute
 title: Configuración de un Perfil para ejecutar en un clúster
 uuid: e181d069-fb2f-4a71-a86f-bb9a48cfe059
 exl-id: be8090fc-b3da-41c4-a5d4-c6eb85b8a84d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '796'
