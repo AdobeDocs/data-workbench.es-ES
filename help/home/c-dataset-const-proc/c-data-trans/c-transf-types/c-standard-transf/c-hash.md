@@ -3,7 +3,6 @@ description: La transformación Hash crea una cadena casi única que representa 
 title: Hash
 uuid: 13bc14e6-75e2-4711-8f98-50fd18802be5
 exl-id: 6912a1d2-9ae8-42ba-94bd-a7a28cbdfae6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '203'
