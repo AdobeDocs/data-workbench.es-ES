@@ -2,7 +2,6 @@
 description: Guía del usuario del panel de Data Workbench
 title: Guía del usuario del panel de Data Workbench
 uuid: 1d577535-feb4-4fae-aadd-2ad233e565f7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '102'
