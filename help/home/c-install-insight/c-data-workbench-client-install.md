@@ -3,7 +3,6 @@ description: A continuación se indican los requisitos y recomendaciones para in
 title: Requisitos de Workstation
 uuid: 3c4ba2e8-efbc-45fe-8ac1-923d070bc710
 exl-id: 35e259e3-3d6d-45c8-a923-2f8de117489d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '524'
@@ -92,7 +91,7 @@ Al menos diez (10) GB o bueno espacio libre en la unidad de disco duro
 
 **Impresión**
 
-Acceso a la impresora (impresoras de color o escala gris) para imprimir espacios de trabajo e informes
+Acceso a la impresora (impresoras a color o escala gris) para imprimir espacios de trabajo e informes
 
 **Otro**
 
