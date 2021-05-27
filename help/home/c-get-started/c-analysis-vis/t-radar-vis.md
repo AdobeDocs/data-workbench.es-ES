@@ -3,7 +3,6 @@ description: Los gráficos de radar proporcionan un enfoque rápido en las área
 title: Visualización de radar
 uuid: 39d67743-b6c1-46f1-99fd-7c71dfe07932
 exl-id: 5385d903-422b-4936-bbb3-0d5ee4d286de
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '400'
