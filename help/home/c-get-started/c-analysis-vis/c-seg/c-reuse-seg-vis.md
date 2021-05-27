@@ -3,7 +3,6 @@ description: Si desea volver a utilizar la misma información de segmentos, pued
 title: Reutilización de una visualización de segmentos
 uuid: 70161c0a-2bd9-4a60-842c-a3f36fbfb7ee
 exl-id: 238c4947-3cd3-4a6b-9663-3576f5c07eff
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '194'
