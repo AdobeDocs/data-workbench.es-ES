@@ -3,7 +3,6 @@ description: El parámetro Zona horaria del archivo Transformation.cfg controla 
 title: Zonas horarias
 uuid: 7b253c5a-f2b1-410c-9433-f13ed1d7a8b3
 exl-id: c8dc49d5-3245-428a-bfb9-42970df73d3e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '396'
