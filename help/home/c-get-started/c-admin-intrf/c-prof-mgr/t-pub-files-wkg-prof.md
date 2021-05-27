@@ -3,7 +3,6 @@ description: El Administrador de perfiles permite la administración de visualiz
 title: Publicación de archivos en el perfil de trabajo
 uuid: c8810e7e-e659-44f6-8175-babefd2a59f6
 exl-id: 7706a5e7-dade-4b50-9167-ed56d1e99273
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '250'
