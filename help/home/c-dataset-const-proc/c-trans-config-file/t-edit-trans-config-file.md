@@ -3,7 +3,6 @@ description: Pasos para editar el archivo Transformation.cfg para un perfil de c
 title: Edición del archivo de configuración de transformación
 uuid: 77b9e566-4a9a-4ea1-b5ab-63a4574c0fdb
 exl-id: 3fab17a4-d356-4548-b977-f5d409870753
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1135'
@@ -97,7 +96,7 @@ Pasos para editar el archivo Transformation.cfg para un perfil de conjunto de da
    </tr> 
    <tr> 
       <td colname="col1"> Transformaciones </td> 
-      <td colname="col2"> Opcional. Adobe recomienda definir transformaciones para la fase de transformación de la construcción del conjunto de datos en uno o más archivos <span class="wintitle"> de inclusión de conjunto de datos de transformación </span>. Para obtener más información, consulte <a href="../../../home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-trans-dataset-inc-files.md#concept-c64aa78ed9ce40b8a0f4932c82ff5ace"> Archivos de inclusión de conjuntos de datos de transformación </a>. </td> 
+      <td colname="col2"> Opcional. Adobe recomienda definir transformaciones para la fase de transformación de la construcción del conjunto de datos en uno o más archivos <span class="wintitle"> de inclusión del conjunto de datos de transformación </span>. Para obtener más información, consulte <a href="../../../home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-trans-dataset-inc-files.md#concept-c64aa78ed9ce40b8a0f4932c82ff5ace"> Archivos de inclusión de conjuntos de datos de transformación </a>. </td> 
    </tr> 
    <tr> 
       <td colname="col1"> Zona horaria </td> 
