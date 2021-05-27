@@ -3,7 +3,6 @@ description: Puede utilizar el menú Exportar espacio de trabajo para imprimir y
 title: Uso compartido de un espacio de trabajo
 uuid: 6100143a-d602-42d7-b742-987fe5f835d6
 exl-id: c05b0f8f-cd73-4025-825b-32471c8681b8
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '296'
