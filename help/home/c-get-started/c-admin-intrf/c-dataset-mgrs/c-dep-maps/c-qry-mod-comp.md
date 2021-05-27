@@ -3,7 +3,6 @@ description: Información conceptual sobre los componentes del modelo de consult
 title: Componentes del modelo de consulta
 uuid: 708fab0b-dc10-4306-b410-49268069ac3b
 exl-id: 1f5d0a3a-6647-4762-ab20-9d80e467d48f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '160'
