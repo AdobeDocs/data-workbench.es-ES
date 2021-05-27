@@ -3,7 +3,6 @@ description: Información conceptual sobre las capas de perfil de Geografía, ti
 title: Explicación de las capas de imágenes
 uuid: 8f4618bf-d8bd-4d21-a29e-ab2871d781ca
 exl-id: ffe084ec-db8b-46f4-8266-0f1b771b3349
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '591'
