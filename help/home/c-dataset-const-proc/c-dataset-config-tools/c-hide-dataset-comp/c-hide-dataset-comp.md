@@ -3,7 +3,6 @@ description: Al configurar el conjunto de datos, es posible que desee ocultar de
 title: Ocultar componentes de conjuntos de datos
 uuid: 011e762b-547c-4a41-9473-d6d617177c86
 exl-id: be8fd482-6084-41bd-bfbf-302bacbbc587
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '86'
