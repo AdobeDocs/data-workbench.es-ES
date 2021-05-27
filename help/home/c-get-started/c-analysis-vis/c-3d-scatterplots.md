@@ -3,7 +3,6 @@ description: Un diagrama de puntos 3D representa los elementos de una dimensión
 title: Diagrama de puntos 3D
 uuid: 5e23547c-dbb4-490c-94bc-0731deee612e
 exl-id: 18f18cab-a31b-4ffe-89c5-412a5645af2e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '502'
