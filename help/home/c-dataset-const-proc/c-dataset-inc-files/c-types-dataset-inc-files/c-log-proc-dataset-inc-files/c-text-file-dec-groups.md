@@ -3,7 +3,6 @@ description: El procesamiento de archivos de registro como fuentes de registro r
 title: Grupos de decodificadores de archivos de texto
 uuid: 3ff9700b-4f34-4098-8827-6856897bdb28
 exl-id: e9f6e02e-7150-455f-96f0-f34d98cc31b7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '833'
