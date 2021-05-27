@@ -2,7 +2,6 @@
 description: Información general sobre los elementos básicos, los procedimientos y la terminología que debe conocer al trabajar con la Data Workbench.
 title: Cliente de Data Workbench
 uuid: 3f99e681-e68f-4aee-aa42-e72a1444b029
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '96'
