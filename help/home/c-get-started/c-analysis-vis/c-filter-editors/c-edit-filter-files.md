@@ -3,7 +3,6 @@ description: Pasos para editar un archivo .filter manualmente.
 title: Edición manual de archivos de filtro
 uuid: a4f932b8-dca5-44a1-a2bb-a3c683b661d5
 exl-id: e4c98d61-27f4-456b-a1dd-da69249e5fb1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '92'
