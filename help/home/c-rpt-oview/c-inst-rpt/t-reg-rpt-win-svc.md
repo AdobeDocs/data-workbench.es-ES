@@ -3,7 +3,6 @@ description: Pasos para registrar y ejecutar el servidor de informes.
 title: Registro del servidor de informes como servicio de Windows
 uuid: 01fc0bbf-9f4a-487e-b1cb-16bf6974a541
 exl-id: 46ea5dd4-7041-451e-91e5-f927873fc7d7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '398'
