@@ -3,7 +3,6 @@ description: Esta sección proporciona información detallada sobre las métrica
 title: Acerca de métricas, dimensiones y filtros integrados
 uuid: 05676254-f6f5-4cb1-a664-da96d5b965db
 exl-id: d581a029-fd59-47c5-b832-64407102ace7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '146'
