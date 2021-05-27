@@ -3,7 +3,6 @@ description: Debe instalar y ejecutar Sensor en cada servidor web que proporcion
 title: ¿Cómo puedo adquirir estos datos?
 uuid: c0d8b01e-a135-4ef7-8159-811766929f62
 exl-id: 1c886f60-eae9-48c2-b641-396c622035d4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '333'
