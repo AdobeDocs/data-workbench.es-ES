@@ -3,7 +3,6 @@ description: Al crear una capa vectorial que haga referencia a un archivo de val
 title: Capas vectoriales que hacen referencia a archivos de valores separados por tabuladores
 uuid: 42607b34-e9f2-420a-ba5a-05562598b480
 exl-id: be16ba73-4a98-472b-98f1-1b32e671b763,7b0b0286-072b-4b31-b6ec-ced322da5236
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '352'
