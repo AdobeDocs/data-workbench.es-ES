@@ -3,7 +3,6 @@ description: Puede utilizar el Administrador de perfiles para descargar los arch
 title: Modificación de archivos locales en el perfil del usuario
 uuid: 839417d1-34db-4b14-a103-8f5297af55b7
 exl-id: 187d67a1-e436-4bfd-87ad-17b6c70dbee4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '388'
