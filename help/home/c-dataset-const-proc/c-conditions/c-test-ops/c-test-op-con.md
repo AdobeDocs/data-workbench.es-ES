@@ -3,7 +3,6 @@ description: Información sobre las condiciones de operación de prueba, incluid
 title: Condiciones de las operaciones de prueba
 uuid: 6a117569-1372-4095-972b-76289a45f19e
 exl-id: 6c1f521b-a6b9-4bb7-bdfa-56c615b0c916
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1114'
