@@ -3,7 +3,6 @@ description: Puede definir las transformaciones de datos que se aplicarán duran
 title: Definición de una transformación
 uuid: 69dd667b-e465-4c1a-a20e-4384e8988cd0
 exl-id: 61ce8093-9e64-419a-bddc-dc2225c0eaab
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '351'
