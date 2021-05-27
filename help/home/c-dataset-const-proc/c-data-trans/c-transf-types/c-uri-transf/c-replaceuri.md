@@ -3,7 +3,6 @@ description: La transformación ReplaceURI cambia el valor de la dimensión URI 
 title: ReplaceURI
 uuid: f9fc6d51-6eb6-4ace-8c19-2c0200555363
 exl-id: 03a6f306-5e2e-488c-8d79-a14938dcd635
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '189'
