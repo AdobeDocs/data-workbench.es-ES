@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: ¿Cómo identifica el sitio a los visitantes?
 uuid: e1e451b8-e827-4010-bda9-9147c3b09958
 exl-id: 2783ee11-6d6a-463d-86b5-dd63e490201f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '331'
