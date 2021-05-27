@@ -3,7 +3,6 @@ description: El Administrador de perfiles muestra todos los directorios asociado
 title: Creación de un administrador de perfiles
 uuid: e16741e2-740b-4f57-861d-e2f57d30abbc
 exl-id: 43b95473-ab3e-4a80-9b91-7c221e74b096
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '392'
