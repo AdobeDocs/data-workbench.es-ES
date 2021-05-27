@@ -3,7 +3,6 @@ description: El servidor de Insight (InsightServer64.exe) permite definir dimens
 title: Acerca de las dimensiones extendidas
 uuid: ae014a26-5286-4e36-9098-aaa463d9fe05
 exl-id: f74aa85e-f880-4ab5-a8fb-128862aa808f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '343'
