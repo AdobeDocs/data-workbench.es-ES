@@ -3,7 +3,6 @@ description: Información sobre la visualización de nodos resaltados en otro ma
 title: Mostrar un nodo resaltado
 uuid: 557252d0-1178-49fb-b473-588ccb117a15
 exl-id: 732aa5fd-4497-45b5-b3ac-5ebf7be1dd81
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '82'
