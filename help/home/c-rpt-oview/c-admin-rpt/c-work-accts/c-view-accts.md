@@ -3,7 +3,6 @@ description: Información sobre la visualización de cuentas.
 title: Visualización de cuentas
 uuid: 22817b8f-67f2-4e59-9bc6-d3fc180ede56
 exl-id: 294e41ea-22d8-40ee-9746-c33c3c07ae2f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '205'
