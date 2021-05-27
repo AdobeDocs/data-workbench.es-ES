@@ -3,7 +3,6 @@ description: Puede exportar un espacio de trabajo como archivo de imagen .png o 
 title: Exportación de un espacio de trabajo
 uuid: 59ea6e46-d2e9-41f9-9c8f-e3071eb65424
 exl-id: 87416ddf-2ac0-4f95-ae8e-71051061c757
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '774'
