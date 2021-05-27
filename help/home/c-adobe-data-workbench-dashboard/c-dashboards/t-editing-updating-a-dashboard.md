@@ -3,7 +3,6 @@ description: Los tableros existentes se pueden editar en cualquier momento, ya s
 title: Edición o actualización de un panel
 uuid: 643f24f5-78ce-4876-8c01-889bfae5735e
 exl-id: 822c5544-f7e3-4297-b784-926c43f8bc4e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '218'
