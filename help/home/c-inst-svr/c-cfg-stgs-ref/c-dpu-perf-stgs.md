@@ -3,7 +3,6 @@ description: Instrucciones para ajustar el rendimiento de DPU.
 title: Configuración de rendimiento de DPU
 uuid: e2b87548-7eb3-4f82-a94e-8ec7c3dc27c2
 exl-id: 738c3a76-f8b4-4d84-86ee-ce9b99f50dae
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '251'
