@@ -3,7 +3,6 @@ description: Pasos para editar cuentas de usuario existentes.
 title: Edición de usuarios existentes
 uuid: 5c01f0f9-0d30-4526-a4fb-43c7e1cb076f
 exl-id: cfbc54d8-16b4-4629-b556-a2aa4ee0c606
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '373'
