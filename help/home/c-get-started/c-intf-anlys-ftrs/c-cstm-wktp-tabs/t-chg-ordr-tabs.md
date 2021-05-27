@@ -3,7 +3,6 @@ description: Pasos para cambiar el orden de las pestañas que aparecen en la sup
 title: Cambio en el orden de tabulación
 uuid: 6eebc235-20ba-4c3b-8d94-36c0f80869be
 exl-id: 261a81e1-b34c-4789-ac4e-343c25df2e6f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '135'
