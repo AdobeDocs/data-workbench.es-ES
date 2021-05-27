@@ -3,7 +3,6 @@ description: Muestra cómo configurar Título, Perfil, Dimension, Métrica, Filt
 title: Configuración de visualizaciones
 uuid: aca77188-8f28-4554-8913-412b252f688c
 exl-id: 153adf94-5689-4917-9d71-625caef49903
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '795'
