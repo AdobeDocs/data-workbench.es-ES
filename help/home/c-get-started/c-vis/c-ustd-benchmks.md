@@ -3,7 +3,6 @@ description: Los indicadores de referencia muestran diferencias cualitativas en 
 title: Prueba comparativa
 uuid: 2e5255cd-eafd-45de-a16f-70d719d2ac0c
 exl-id: 6294c4f9-a338-409a-a157-86cdfbbb6f76
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '264'
