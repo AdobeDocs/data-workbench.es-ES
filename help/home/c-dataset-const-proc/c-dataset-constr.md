@@ -3,7 +3,6 @@ description: Un conjunto de datos de Adobe contiene los datos que el servidor de
 title: Explicación de la construcción de conjuntos de datos
 uuid: 540d159d-3f72-49dd-9929-107f1fc62b2b
 exl-id: 111e98b5-d899-4f79-90ce-70f520d527d6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '937'
