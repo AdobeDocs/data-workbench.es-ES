@@ -3,7 +3,6 @@ description: Instrucciones detalladas para instalar una DPU de Insight Server y 
 title: Procedimientos de instalación para una DPU de Insight Server
 uuid: 4a04d333-3264-4c15-87fd-8fd201eb68fc
 exl-id: 0bdfb598-d7eb-4e49-8d9b-4f362c3a62e8
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '173'
