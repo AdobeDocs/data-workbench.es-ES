@@ -3,7 +3,6 @@ description: La funcionalidad de transformación (Transform) se ejecuta en un eq
 title: Acerca de la funcionalidad de transformación
 uuid: f797f283-025b-4fb5-a110-84a9483dccaa
 exl-id: db5d6329-407d-43f3-92fc-1b40f7289916
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '218'
