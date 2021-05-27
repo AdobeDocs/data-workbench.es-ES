@@ -3,7 +3,6 @@ description: Puede crear un explorador de rutas a partir de un gráfico, una tab
 title: Creación de exploradores de rutas
 uuid: 84a5e587-fb02-461b-aec8-1b6ad473ebc3
 exl-id: 9fa11b84-da73-447a-8b10-7eab381e3f66
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '380'
