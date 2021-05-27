@@ -3,7 +3,6 @@ description: Planifique dos escenarios con respecto a que el sensor se desconect
 title: Cómo tratar con sensores sin conexión
 uuid: a8be847d-e506-4fbc-9d57-a28ff0cbeff2
 exl-id: f655c2ad-da3a-47cc-a62c-0a2937cdc0e4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '71'
