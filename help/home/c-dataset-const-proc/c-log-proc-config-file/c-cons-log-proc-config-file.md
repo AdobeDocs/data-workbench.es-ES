@@ -3,7 +3,6 @@ description: Información conceptual a tener en cuenta al editar el archivo Log 
 title: Consideraciones para el archivo de configuración de procesamiento de registros
 uuid: 2ccedf63-12d9-40e9-912a-aee030191b1e
 exl-id: 278a4a10-d382-4d9f-b3f4-bcc4783eb50c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '306'
