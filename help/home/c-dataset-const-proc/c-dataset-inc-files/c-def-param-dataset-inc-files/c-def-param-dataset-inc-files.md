@@ -3,7 +3,6 @@ description: Al configurar el conjunto de datos, puede definir variables, referi
 title: Definición de parámetros en archivos de inclusión de conjuntos de datos
 uuid: 1eb7d48c-a107-4b32-abca-55d30586813f
 exl-id: 80bb77e1-a157-4e16-9519-6d0e2ce17fe1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '493'
@@ -15,7 +14,7 @@ ht-degree: 3%
 
 Al configurar el conjunto de datos, puede definir variables, referidas como parámetros, para representar valores significativos.
 
-Para asignar un valor a un parámetro (es decir, para definir el parámetro), agregue el nombre y el valor del parámetro al vector Parameters en un archivo de procesamiento de registros o [!DNL Transformation Dataset Include]. Después de definir parámetros, puede hacer referencia a ellos en los archivos de configuración del perfil del conjunto de datos. La definición y referencia de estos parámetros se denomina sustitución de parámetros. El uso de la sustitución de parámetros al configurar el conjunto de datos permite crear una ubicación centralizada para las definiciones de parámetros. Cuando necesite actualizar un parámetro al que se hace referencia varias veces o en varios archivos, solo deberá realizar el cambio una vez.
+Para asignar un valor a un parámetro (es decir, para definir el parámetro), agregue el nombre y el valor del parámetro al vector Parameters en un archivo de procesamiento de registros o [!DNL Transformation Dataset Include]. Después de definir parámetros, puede hacer referencia a ellos en los archivos de configuración del perfil del conjunto de datos. La definición y referencia de estos parámetros se denomina sustitución de parámetros. El uso de la sustitución de parámetros al configurar el conjunto de datos permite crear una ubicación centralizada para las definiciones de parámetros. Cuando necesite actualizar un parámetro al que se hace referencia varias veces o en varios archivos, debe realizar el cambio solo una vez.
 
 >[!NOTE]
 >
