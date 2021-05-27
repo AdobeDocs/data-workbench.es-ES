@@ -3,7 +3,6 @@ description: Información sobre las transformaciones que puede utilizar para inc
 title: Definición de transformaciones de búsqueda
 uuid: 4f7358b1-9e6a-4d03-b0c6-411e454fc11e
 exl-id: 7b1504be-8669-4340-8400-e33f9663b602
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '2288'
