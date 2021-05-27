@@ -3,7 +3,6 @@ description: Una dimensión numérica consta de elementos numéricos ordenados y
 title: Dimensiones numéricas
 uuid: 19fab770-1535-41b2-bad1-811eba5f3575
 exl-id: 69a4dfa6-8402-4c2b-8b04-e6e1a0fd5ccb
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '990'
