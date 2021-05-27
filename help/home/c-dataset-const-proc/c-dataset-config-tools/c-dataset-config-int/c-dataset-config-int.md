@@ -3,7 +3,6 @@ description: Las interfaces de configuración del conjunto de datos muestran las
 title: 'Trabajo con interfaces de configuración de conjuntos de datos '
 uuid: c29faccd-0402-4982-9e5b-7379e2590246
 exl-id: cc2b876f-8d65-4b36-920a-dde3928795bd
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '109'
