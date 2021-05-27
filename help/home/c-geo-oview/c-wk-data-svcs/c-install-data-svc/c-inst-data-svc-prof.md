@@ -3,7 +3,6 @@ description: Los perfiles del servicio de datos (Geo-Intelligence IP y Geolocali
 title: Instalación del perfil del servicio de datos
 uuid: 1c03d0cd-7eaa-4e48-bbff-8bfad8fed9e9
 exl-id: 51d080bb-f874-426c-91ea-3912ffd38419
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '746'
