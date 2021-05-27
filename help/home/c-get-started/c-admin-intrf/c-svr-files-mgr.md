@@ -3,7 +3,6 @@ description: El Administrador de archivos del servidor le permite administrar y 
 title: Administrador de archivos del servidor
 uuid: 62625b9d-587f-4a78-8328-2270869909f8
 exl-id: 9ac7e95d-47e5-4862-a16e-bee0df1d3d15
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '856'
