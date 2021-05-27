@@ -2,7 +2,6 @@
 description: Utilice los paneles del Buscador en Data Workbench para seleccionar métricas, dimensiones y filtros. Estos paneles proporcionan compatibilidad con la búsqueda, opciones de clasificación y capacidades de arrastrar y soltar.
 title: Buscadores
 uuid: 7a4144f5-133f-48ed-9613-1e42b1313120
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '640'
