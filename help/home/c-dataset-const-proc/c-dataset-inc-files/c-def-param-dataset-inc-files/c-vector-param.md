@@ -3,7 +3,6 @@ description: Los parámetros vectoriales contienen varios valores para una sola 
 title: Parámetros vectoriales
 uuid: 2ca83502-acc4-4b94-b0e4-a48a596e7623
 exl-id: c6140bdf-dcd9-4fa9-a6e0-34cbc45414d0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '89'
