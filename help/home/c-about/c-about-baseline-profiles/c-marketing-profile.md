@@ -3,7 +3,6 @@ description: La dimensión Campaña se define en el perfil de Marketing del siti
 title: Dimensiones del perfil de marketing
 uuid: 034b4318-58e6-4638-9b13-fac83ff9f826
 exl-id: 93804fba-a44b-4cdc-8d67-d4ec0656e742
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '246'
