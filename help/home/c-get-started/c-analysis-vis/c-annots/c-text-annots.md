@@ -3,7 +3,6 @@ description: Las anotaciones de texto son ventanas en las que se puede introduci
 title: Anotaciones de texto
 uuid: 08dd7f57-ccab-430a-b2a3-469f86b86dd2
 exl-id: 6915b341-d7a0-4e17-a260-223c0cb26422
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '373'
