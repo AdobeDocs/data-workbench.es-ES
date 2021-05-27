@@ -3,7 +3,6 @@ description: Información sobre la resolución de problemas del servidor web, co
 title: Explicación de las causas
 uuid: a2801040-c859-4bf8-90d7-daf3d4f633f3
 exl-id: 008116b0-7ef5-41ee-bd2e-a86d61acd634
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '263'
