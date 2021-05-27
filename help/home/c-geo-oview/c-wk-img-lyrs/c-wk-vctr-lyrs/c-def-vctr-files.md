@@ -3,7 +3,6 @@ description: Puede crear una capa vectorial que haga referencia a uno o más arc
 title: Definición de capas vectoriales que hacen referencia a archivos vectoriales
 uuid: 162d4ecc-d305-42e3-a5d4-0c1609a40f29
 exl-id: c6da3cd9-f42a-4e9c-ae48-9f4ffdc42f7b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '281'
