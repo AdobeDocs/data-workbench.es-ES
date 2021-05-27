@@ -3,7 +3,6 @@ description: Inicialización y actualización de la definición de esquema de un
 title: Inicialización y actualización de la definición de esquema de un perfil
 uuid: 38e47ded-340e-4f65-b06c-f2e2254f0863
 exl-id: e8190909-4416-4d4a-8901-130d01906773
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '269'
