@@ -3,7 +3,6 @@ description: El perfil de estado del perfil de Data Workbench proporciona inform
 title: Espacio de trabajo del estado del perfil de Data Workbench
 uuid: b54713c8-863d-4376-8ebf-4a2985e28c76
 exl-id: 40b9b0bf-4fd9-48d8-875b-514921c520cd
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '217'
