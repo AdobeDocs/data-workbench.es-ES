@@ -3,7 +3,6 @@ description: Pasos para actualizar la carpeta Transform .
 title: Actualización de transformación
 uuid: 26e567bc-7571-4317-b77c-2631a163a4b5
 exl-id: b5e21862-caf1-42e4-9247-c870d7b3180e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '73'
