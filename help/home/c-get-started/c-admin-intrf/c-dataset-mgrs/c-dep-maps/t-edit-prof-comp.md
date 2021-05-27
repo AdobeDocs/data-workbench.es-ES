@@ -3,7 +3,6 @@ description: Pasos para editar la configuración de un componente de perfil.
 title: Edición de componentes de perfil
 uuid: e71adfae-afaa-4cd4-b7c5-a71e6a1b5459
 exl-id: 6a4d9e0f-1536-4d39-a27d-5b6805c19c8e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '180'
