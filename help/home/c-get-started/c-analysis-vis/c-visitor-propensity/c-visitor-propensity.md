@@ -3,7 +3,6 @@ description: La puntuación de tendencia permite definir a los clientes en funci
 title: Puntuación de tendencia
 uuid: 4f7163f5-6fe4-4f87-9e27-71ec8b4717af
 exl-id: 832a1e6c-8eeb-4dcc-97e8-9570e1a6eb4f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '747'
