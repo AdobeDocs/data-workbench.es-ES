@@ -1,9 +1,8 @@
 ---
 description: La transformación Copiar simplemente copia el valor del campo de entrada en el campo de salida dado. Si el campo de entrada puede ser un vector de cadenas, el campo de salida debe comenzar por "x-".
-title: Copy
+title: Copiar
 uuid: 073f53bf-befb-4fba-a8f8-260ffcdd007c
 exl-id: 04e97006-1e8e-4123-bbbc-b90a5231170f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '176'
@@ -11,7 +10,7 @@ ht-degree: 6%
 
 ---
 
-# Copy{#copy}
+# Copiar{#copy}
 
 La transformación Copiar simplemente copia el valor del campo de entrada en el campo de salida dado. Si el campo de entrada puede ser un vector de cadenas, el campo de salida debe comenzar por &quot;x-&quot;.
 
