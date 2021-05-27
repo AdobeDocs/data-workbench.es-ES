@@ -3,7 +3,6 @@ description: Los tableros pueden tener dos niveles de visibilidad, Privado y Com
 title: Controles de acceso del panel
 uuid: f992cb93-232c-4f21-8f95-91c7fa2535eb
 exl-id: 1243e3cb-fbf0-4d55-803e-9e8281846692
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '169'
