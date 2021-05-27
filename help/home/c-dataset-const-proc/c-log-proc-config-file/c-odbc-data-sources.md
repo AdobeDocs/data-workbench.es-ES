@@ -3,7 +3,6 @@ description: El servidor de Data Workbench (InsightServer64.exe) puede leer dato
 title: Fuentes de datos ODBC
 uuid: 5b37cd41-2d79-472c-8e6d-00ff894991a9
 exl-id: b22b1e27-9b6c-4708-b45c-a9605807689a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1245'
