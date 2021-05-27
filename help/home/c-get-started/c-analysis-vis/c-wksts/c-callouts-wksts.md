@@ -3,7 +3,6 @@ description: Para que la información de una hoja de cálculo sea más clara, pu
 title: Uso de llamadas con hojas de cálculo
 uuid: f2f137ba-0ea2-464c-8d4c-057a265cdaf7
 exl-id: e975ac89-7d6f-4732-b10d-94a71e1f01be
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '155'
