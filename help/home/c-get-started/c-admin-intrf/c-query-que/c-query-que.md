@@ -3,7 +3,6 @@ description: Normalmente, el servidor de Data Workbench responde a las consultas
 title: Cola de consultas
 uuid: 4d64bc89-b664-4532-9f17-be11812d36d4
 exl-id: 5d9b20bf-9396-4016-beed-cee8f533f3ea
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '417'
