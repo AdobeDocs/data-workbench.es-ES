@@ -3,7 +3,6 @@ description: El portal de informes proporciona una función de búsqueda para en
 title: Búsqueda avanzada en el portal de informes
 uuid: 3b5262fb-ea42-449f-8ef9-897806a310a8
 exl-id: 891d51ad-8477-4a1a-9fe5-97e1210f11d5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '314'
