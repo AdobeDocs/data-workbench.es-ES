@@ -3,7 +3,6 @@ description: Las leyendas de métricas le permiten ver métricas de línea de ba
 title: Leyendas de métricas
 uuid: 72de7b0e-0a71-4465-baaf-d515fe474e0d
 exl-id: 1f2e58e2-44ea-4760-a504-2ed3a80c8b19
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '165'
