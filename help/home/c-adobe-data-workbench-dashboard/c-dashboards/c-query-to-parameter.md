@@ -3,7 +3,6 @@ description: El tablero le permite visualizar muestras de datos de Data Workbenc
 title: Parámetro de consulta a
 uuid: 0035f005-ed23-4b60-9615-8a512e3dca53
 exl-id: cf25fba1-2055-433f-86ca-1f16f11ad372
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '161'
