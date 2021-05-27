@@ -6,9 +6,8 @@ feature-set: Analytics
 feature: Data Workbench
 user-guide-title: Ayuda de Data Workbench
 user-guide-description: Obtenga información sobre las funciones de varios canales de Data Workbench. Incluye las guías de Cliente de Data Workbench, Instalación, Configuración de conjuntos de datos y más.
-translation-type: ht
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3495'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ ht-degree: 100%
       + [Actualización de información general de Data Workbench](home/c-install-insight/c-upgrd-ins/c-upgrd-ins.md)
       + [Actualizar la versión 6.4 a la versión 6.5](home/c-install-insight/c-upgrd-ins/c-6-4-to-6-5-upgrade.md)
       + [Actualizar la versión 6.3 a la versión 6.4](home/c-install-insight/c-upgrd-ins/c-6-3-to-6-4-upgrade.md)
-      + [Actualización del servidor de DWB: de 6.1 a 6.2](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
+      + [Actualización del servidor DWB: de 6.1 a 6.2](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
       + [Actualización de Data Workbench de 6.0 a 6.1](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
       + [Actualización de Data Workbench de 5.5 a 6.1](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
 + Cliente {#client}
@@ -408,11 +407,11 @@ ht-degree: 100%
          + Transformaciones estándar {#standard-transformations}
             + [Transformaciones estándar](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-standard-transf.md)
             + [ChangeCase](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-chgcase.md)
-            + [Copy](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-copy.md)
+            + [Copiar](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-copy.md)
             + [CrossRows](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-crossrows.md)
             + [ExtractValue](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-exvalue.md)
             + [Flatten](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-flatten.md)
-            + [Format](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-format.md)
+            + [Formato](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-format.md)
             + [Hash](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-hash.md)
             + [Haversine](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-haversine.md)
             + [IPLookup](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-iplookup.md)
@@ -761,7 +760,7 @@ ht-degree: 100%
       + [Actualización y desinstalación del software de Adobe](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-uninst-sftwr.md)
       + Actualización de Insight Server {#upgrade-insight-server}
          + [Actualización de Insight Server](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-sftwr.md)
-         + [Actualización del servidor de DWB: de 6.2 a 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
+         + [Actualización del servidor DWB: de 6.2 a 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
          + [Actualización del servidor DWB: de 5.4 a 5.5](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [Actualización de transformación](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [Actualización del repetidor](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
