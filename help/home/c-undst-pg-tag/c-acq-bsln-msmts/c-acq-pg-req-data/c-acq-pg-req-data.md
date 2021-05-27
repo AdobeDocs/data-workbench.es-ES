@@ -3,7 +3,6 @@ description: Sensor adquiere todos los datos de medición que se transmiten en l
 title: Adquisición de datos de solicitud de página
 uuid: 06cf2b14-8d2c-483e-8a75-ce772798978f
 exl-id: e42566a3-d5b4-4f1a-b8cd-1ea646041101
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '575'
