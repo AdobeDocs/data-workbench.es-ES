@@ -3,7 +3,6 @@ description: Para crear una dimensión de segmento, comience realizando una sele
 title: Creación de dimensiones de un segmento
 uuid: 68dcf3bf-fbc9-4924-a0dd-d112cf366131
 exl-id: 393d544e-e821-49e3-8cfb-5a3496aa7380
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '304'
