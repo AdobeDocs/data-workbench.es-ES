@@ -3,7 +3,6 @@ description: Administración del esquema
 title: Administración del esquema
 uuid: fd9a2254-7171-47b9-9db3-b1c320b7df78
 exl-id: 8b40921b-d430-4c77-826c-e65d8fcbeb90
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '82'
