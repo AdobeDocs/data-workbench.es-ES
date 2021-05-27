@@ -3,7 +3,6 @@ description: Los exploradores de rutas se pueden configurar para que funcionen c
 title: Configuración de un explorador de rutas
 uuid: 1ba3fb6e-b76f-428f-b6ec-077669c3b305
 exl-id: be6a68f7-e3e3-4207-a112-3a4fdd5c5f57
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '422'
