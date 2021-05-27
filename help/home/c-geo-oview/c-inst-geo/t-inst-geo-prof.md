@@ -3,7 +3,6 @@ description: El perfil Geografía proporcionado con Data WorkbenchGeography es u
 title: Instalación del perfil de geografía
 uuid: afc0699d-e58b-481b-a3f2-ab6d6998bdd8
 exl-id: 9ab07fd4-d6e7-495e-ba34-04e53c9b0aa3
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '409'
