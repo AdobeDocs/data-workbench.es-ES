@@ -3,7 +3,6 @@ description: El Administrador de archivos del servidor muestra todos los directo
 title: Creación de administrador de archivos de servidor
 uuid: 9fb2163d-3756-40d2-9817-4a89bd8a38c9
 exl-id: 9e0c8144-0f52-4e46-85d8-c2dcd60ddcb8
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '312'
