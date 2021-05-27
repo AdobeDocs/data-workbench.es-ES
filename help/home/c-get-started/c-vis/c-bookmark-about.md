@@ -3,7 +3,6 @@ description: Puede marcar espacios de trabajo significativos para desplazarse r√
 title: Agregar marcadores
 uuid: 8b7fd6ac-9bab-4e7a-8f52-8568413052e8
 exl-id: ba05d7ee-49c6-42a0-a490-9c59fcaaddc5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '208'
