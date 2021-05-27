@@ -3,7 +3,6 @@ description: Para utilizar el portal de informes, debe instalar y configurar un 
 title: Instalación del portal de informes
 uuid: 6aeb6038-b0b0-48b9-a020-bc9dfd703c43
 exl-id: c6f140d4-a4fe-48e2-bbcd-b43efb2387dd
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '262'
