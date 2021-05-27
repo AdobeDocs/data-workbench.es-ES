@@ -3,7 +3,6 @@ description: Después de la instalación, el certificado digital emitido por Ado
 title: Volver a validar el certificado digital
 uuid: 6c8533df-f459-41eb-84ac-344bad9fecdc
 exl-id: 810e3057-26a9-413c-b77c-525035d37756
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '147'
