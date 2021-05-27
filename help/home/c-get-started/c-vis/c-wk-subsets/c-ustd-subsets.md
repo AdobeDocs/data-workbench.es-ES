@@ -3,7 +3,6 @@ description: Información conceptual sobre subconjuntos.
 title: Aspectos básicos de los subconjuntos
 uuid: ed185b63-dbb3-4ed4-9403-cf4dc8be2ff1
 exl-id: a75b36f9-d34d-4a4a-8a2c-15ae5461823c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '333'
