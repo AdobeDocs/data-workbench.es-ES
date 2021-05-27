@@ -3,7 +3,6 @@ description: Puede cambiar la raíz de un explorador de rutas mediante la design
 title: Cambio de la raíz del explorador de rutas
 uuid: 0bb9b004-9736-411b-bd22-cac04f4733a6
 exl-id: 09842b93-af26-42b9-9395-a02b86978b21
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '347'
