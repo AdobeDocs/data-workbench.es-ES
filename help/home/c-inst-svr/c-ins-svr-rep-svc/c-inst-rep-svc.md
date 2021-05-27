@@ -3,7 +3,6 @@ description: El servicio de replicación de Insight Server permite transmitir lo
 title: Instalación del servicio de replicación
 uuid: a6467d5f-ca1c-4368-ba83-0b6bcabbe511
 exl-id: a235fe75-a6d0-4c20-8ea2-8b1cbad12da7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '184'
