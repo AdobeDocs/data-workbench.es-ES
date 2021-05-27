@@ -3,7 +3,6 @@ description: Con el menú desplegable Ayuda, puede acceder a la documentación d
 title: Menú Ayuda
 uuid: d94f8b9f-bfaa-43b4-ab64-1bd75ff54c7d
 exl-id: 86482588-bb9a-4e4c-bd01-b3bea6eaaa33
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '176'
