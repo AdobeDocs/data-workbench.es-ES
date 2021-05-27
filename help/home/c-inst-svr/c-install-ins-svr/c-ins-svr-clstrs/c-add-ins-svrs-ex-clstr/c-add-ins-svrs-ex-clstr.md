@@ -3,7 +3,6 @@ description: En algunos casos, es posible que necesite agregar un equipo de Insi
 title: Añadir servidores de Insight en un clúster existente
 uuid: 951bd6fe-14e4-4192-917c-342fde7b43ba
 exl-id: 9845c13b-781c-43e9-aaa1-e31418c93ef0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '112'
