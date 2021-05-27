@@ -3,7 +3,6 @@ description: Se proporcionan informes analíticos para los usuarios del perfil S
 title: Informes de Analytics
 uuid: 5fc26922-0687-464f-8c5d-d72d2a6078f0
 exl-id: 03bbf4a0-767c-4258-9512-2887f346bf0e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '581'
