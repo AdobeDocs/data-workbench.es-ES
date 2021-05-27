@@ -3,7 +3,6 @@ description: En algunos sitios, es necesario utilizar solicitudes de objetos inc
 title: Adquisición de nombres de páginas dinámicos
 uuid: eaa35023-bbfa-4eb9-9ab7-3986187e5537
 exl-id: cd94caf0-b0dc-46c1-8f59-3ebb2f703286
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '594'
