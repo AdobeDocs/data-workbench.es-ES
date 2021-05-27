@@ -3,7 +3,6 @@ description: El formato de proyección latitud-longitud (LatLonProjection) del a
 title: Proyecciones de latitud y longitud
 uuid: 0ac947d6-3cd6-4272-96ae-456d2835e63f
 exl-id: 67ebc7a8-3046-4524-b3a0-0b6da2f235fc
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '386'
