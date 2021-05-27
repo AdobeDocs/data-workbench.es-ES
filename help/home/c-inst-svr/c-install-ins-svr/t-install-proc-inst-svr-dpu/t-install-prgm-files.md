@@ -3,7 +3,6 @@ description: Para instalar el software de Insight Server, descargue los archivos
 title: Instalación de los archivos de programa de Insight Server
 uuid: 32fc61da-b5d0-4463-b655-d4e99ad960d4
 exl-id: 98066ba7-77e0-45c1-aafb-0ae6d8d48ba3
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '126'
