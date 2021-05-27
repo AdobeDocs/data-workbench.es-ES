@@ -3,7 +3,6 @@ description: Pasos para reenviar informes por correo electrónico.
 title: Reenvío de informes por correo electrónico
 uuid: 384dfa1f-6a72-4fef-886e-bf2290f5993f
 exl-id: eb37fd3e-6e7b-4672-bcf0-fffa9f10997d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '134'
