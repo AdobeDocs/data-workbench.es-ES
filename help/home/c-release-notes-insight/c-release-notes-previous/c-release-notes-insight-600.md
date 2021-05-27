@@ -3,7 +3,6 @@ description: Nuevas funciones introducidas en la Data Workbench 6.0.4, incluidas
 title: Notas de la versión Data Workbench 6.0
 uuid: b348425e-3304-4db7-a280-479a34452bdb
 exl-id: be69b3be-24e7-4a8c-9dc8-1360a9b6fb3a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1679'
