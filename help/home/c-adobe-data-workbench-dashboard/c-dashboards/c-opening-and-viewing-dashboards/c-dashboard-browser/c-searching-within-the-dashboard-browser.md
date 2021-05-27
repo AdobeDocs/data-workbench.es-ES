@@ -3,7 +3,6 @@ description: El Explorador de tableros también le permite realizar búsquedas p
 title: Búsqueda dentro del explorador del panel
 uuid: b11b024e-3876-48f2-85e2-a4af047e4985
 exl-id: f6dd923c-f98b-4ca0-a109-88b3988b9c95
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '224'
