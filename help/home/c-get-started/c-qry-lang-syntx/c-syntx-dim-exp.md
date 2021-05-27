@@ -3,7 +3,6 @@ description: Las expresiones de Dimension nunca se utilizan solas, pero pueden u
 title: Sintaxis para expresiones de dimensión
 uuid: c437cc52-4eb3-4202-a0b4-e23889f9c8a2
 exl-id: 58609e31-8ad8-418b-9a9f-40462d6443f7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1855'
