@@ -3,7 +3,6 @@ description: Dentro de la carpeta Workspaces del directorio de instalación de l
 title: Archivos Folder.lock y Workspace.lock
 uuid: d4c69e16-0596-4542-854f-bc614167ae80
 exl-id: 980b8692-8aa5-481f-b6bc-33836d8a3a76
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '601'
