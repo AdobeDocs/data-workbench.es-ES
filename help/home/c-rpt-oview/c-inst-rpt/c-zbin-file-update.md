@@ -3,7 +3,6 @@ description: Para todos los idiomas, Report Server 6.0 y versiones posteriores r
 title: Actualizar el servidor de informes con un archivo de idioma (archivo .zbin)
 uuid: 2ecf2afc-bb5f-4fc7-8fb8-a904fb7ed407
 exl-id: a76b7c01-83f0-4cf2-97a9-07d51cc75b3c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '186'
