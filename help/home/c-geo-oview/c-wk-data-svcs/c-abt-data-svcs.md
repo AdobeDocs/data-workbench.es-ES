@@ -3,7 +3,6 @@ description: Información sobre las opciones del servicio de datos para asignar 
 title: Acerca de los servicios de datos
 uuid: 60fa12b9-4b64-457d-b0d4-1d7eb44f19b2
 exl-id: 330c6fb6-c579-45fb-ae5a-22649dc006aa
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '145'
