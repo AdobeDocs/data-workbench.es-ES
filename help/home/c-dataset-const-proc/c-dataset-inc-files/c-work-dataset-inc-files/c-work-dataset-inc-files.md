@@ -3,7 +3,6 @@ description: Los archivos de inclusión de conjunto de datos proporcionan una ma
 title: Uso de archivos de inclusión de conjunto de datos
 uuid: 258226c4-22e5-4d9d-9044-8312709e0460
 exl-id: 94044c85-030c-4912-9546-d4a34b4115e0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '238'
