@@ -3,7 +3,6 @@ description: El archivo data workbenchTransform.cfg contiene los parámetros que
 title: El archivo Transform.cfg
 uuid: eab5bb70-6de7-4f08-85db-a6cb00abd3ed
 exl-id: e84f2536-cb22-4c47-a7a8-270b3c37ece6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1336'
