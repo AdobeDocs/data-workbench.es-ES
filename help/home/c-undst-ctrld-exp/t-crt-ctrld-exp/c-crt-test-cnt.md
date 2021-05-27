@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Creación del contenido de la prueba
 uuid: d7996522-38a6-4bb8-9736-d71157c17b45
 exl-id: fd46c6af-37e8-452a-880d-147b7d0cfe21
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '164'
