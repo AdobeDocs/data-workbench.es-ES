@@ -3,7 +3,6 @@ description: Diagrama de puntos
 title: Diagrama de puntos
 uuid: a07efa89-0d1f-4ab9-96fa-d1239c82f16c
 exl-id: 536cc0aa-4f9e-40d0-88a6-a874255de4f0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '138'
