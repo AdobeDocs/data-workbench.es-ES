@@ -3,7 +3,6 @@ description: En el portal de informes, puede ver los informes generados por el s
 title: Configuración de los archivos de Report.cfg
 uuid: b6ce1621-283f-458d-a88d-a062539d243b
 exl-id: 5af5abaa-77bf-447b-b341-8f44e228f37a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '145'
