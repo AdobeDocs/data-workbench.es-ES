@@ -3,7 +3,6 @@ description: Después de trabajar en la Data Workbench, puede mostrar uno de los
 title: Mostrar un espacio de trabajo
 uuid: 45840157-e3a1-4ad9-8f62-a49db3d6d26c
 exl-id: d0e4ef5c-37cc-463b-a649-ffcc41495ca9
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '120'
