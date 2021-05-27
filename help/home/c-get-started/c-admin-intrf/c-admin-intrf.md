@@ -3,7 +3,6 @@ description: Información sobre las interfaces administrativas disponibles para 
 title: Interfaces administrativas
 uuid: bd587f01-7edc-44e8-b4d4-f74f94f5d60f
 exl-id: 109e30da-9ccb-4349-865a-dff9c05fe37a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '90'
