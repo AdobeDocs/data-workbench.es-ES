@@ -2,7 +2,6 @@
 description: Vea las notas de la versión de la Data Workbench anterior.
 title: Notas de la versión Data Workbench 6.0
 uuid: 36f518a1-7964-4380-9cfe-38950126bbb4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '40'
