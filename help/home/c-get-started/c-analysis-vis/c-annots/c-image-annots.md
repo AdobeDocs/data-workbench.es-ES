@@ -3,7 +3,6 @@ description: Con una anotación de imagen, puede copiar una imagen de cualquier 
 title: Anotaciones de imagen
 uuid: 62a655f6-120b-4cf4-adaa-aa04f721a7dc
 exl-id: 905d3e9e-0d24-456e-af45-c29f12ed986d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '202'
