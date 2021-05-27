@@ -3,7 +3,6 @@ description: Durante el reprocesamiento, el servidor de Data Workbench reconstru
 title: Explicación del reprocesamiento y la transformación
 uuid: 0253bc8c-8883-41eb-8a9f-e0685613ff5c
 exl-id: 12c69935-a981-492c-9124-71f6f06ff77b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '368'
