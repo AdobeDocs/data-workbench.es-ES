@@ -3,7 +3,6 @@ description: Pasos para ordenar los datos.
 title: Orden de datos en una tabla
 uuid: 66869478-922d-41e1-915d-3ed7bff3b08d
 exl-id: 9cacb9bc-1bad-417b-b506-ca54e644de00
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '296'
