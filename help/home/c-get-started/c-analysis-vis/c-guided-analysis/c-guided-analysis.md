@@ -3,7 +3,6 @@ description: Una visualización de análisis guiado proporciona indicaciones par
 title: Análisis guiado
 uuid: 01ed8207-3a14-45ac-8a1d-4e17ac39bb94
 exl-id: c19b52b6-52db-455e-adde-8b2400aae006
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '233'
