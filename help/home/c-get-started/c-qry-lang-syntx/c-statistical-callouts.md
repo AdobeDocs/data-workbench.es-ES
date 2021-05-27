@@ -3,7 +3,6 @@ description: Las llamadas estadísticas miden las relaciones significativas para
 title: Llamadas estadísticas
 uuid: 04911ac4-bc3f-4813-800b-087d9668a782
 exl-id: d4ed540e-f837-4db9-a81e-b8a30c15f270
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '273'
