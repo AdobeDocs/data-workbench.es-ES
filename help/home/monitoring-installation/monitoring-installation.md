@@ -3,7 +3,6 @@ description: Instrucciones para instalar el perfil de supervisión de Data Workb
 title: Instalación del perfil de supervisión
 uuid: e0d6fc61-d9b9-4c4b-94e1-2acfd0ff4de6
 exl-id: 368e489c-75c9-4402-a709-a4f5987459b6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1052'
