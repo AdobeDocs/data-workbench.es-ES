@@ -3,7 +3,6 @@ description: La transformación PullNameValues es una operación especial que to
 title: PullNameValues
 uuid: b24db987-78e8-4afc-9113-89aedc0170b2
 exl-id: 3660ff6e-87dc-42cf-a897-0e2e0e021c07
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '232'
