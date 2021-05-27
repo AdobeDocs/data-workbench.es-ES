@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Determinación del número de visitantes necesarios
 uuid: 07fca0aa-031a-4335-bba4-fb00cb90e29d
 exl-id: c23f4c21-21e5-4694-a500-efe1369cd4bf
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '178'
