@@ -3,7 +3,6 @@ description: La transformación Merge toma los valores del campo de entrada (nor
 title: Merge
 uuid: 9ca2ab22-d854-47b0-8189-f563c1e83d1c
 exl-id: 75fa824b-f68d-4ec4-a75d-0f742a7bb1ba
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '254'
@@ -11,7 +10,7 @@ ht-degree: 4%
 
 ---
 
-# Merge{#merge}
+# Combinar{#merge}
 
 La transformación Merge toma los valores del campo de entrada (normalmente un vector de cadenas), los combina en una sola cadena separada por el delimitador dado y coloca la cadena resultante en el campo de salida dado.
 
