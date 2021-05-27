@@ -3,7 +3,6 @@ description: Muchos de los perfiles internos que recibió con su aplicación de 
 title: Acerca de los archivos de inclusión de conjunto de datos
 uuid: e04d412e-7d73-4a7d-b0b6-0c2347c6201b
 exl-id: a23d3f83-4e92-4787-9f77-ee9914cb8893
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '193'
