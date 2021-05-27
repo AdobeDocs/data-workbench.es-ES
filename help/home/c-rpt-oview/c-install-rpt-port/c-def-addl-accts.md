@@ -3,7 +3,6 @@ description: Los usuarios deben tener una cuenta válida y proporcionar un nombr
 title: Definición de cuentas adicionales
 uuid: 5ad98b52-267c-4c36-b43a-ae6ad415de8e
 exl-id: 1f267217-a389-431a-ba49-9a9eead0ae83
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '187'
