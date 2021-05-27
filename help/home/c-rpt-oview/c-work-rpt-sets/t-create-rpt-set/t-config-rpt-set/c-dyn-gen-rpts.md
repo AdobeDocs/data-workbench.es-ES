@@ -3,7 +3,6 @@ description: Puede generar informes de forma dinámica para los elementos de dim
 title: Generación dinámica de informes
 uuid: 87174fb5-e72f-4758-8e9d-1aaa784c1898
 exl-id: c14d93cd-212d-44a1-aff9-652e5c4fbda0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '607'
