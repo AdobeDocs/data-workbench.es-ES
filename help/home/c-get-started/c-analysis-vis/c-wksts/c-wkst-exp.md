@@ -3,7 +3,6 @@ description: Información conceptual sobre las expresiones de hojas de cálculo 
 title: Expresiones de hojas de cálculo
 uuid: be57d6bd-3e13-4c90-9034-8e0f2b8315aa
 exl-id: 1ff3ec24-0363-4b6c-8c91-31e49ed0f7c4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '548'
