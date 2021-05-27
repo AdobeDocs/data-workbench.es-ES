@@ -3,7 +3,6 @@ description: Pasos para hacer que una capa vectorial esté disponible para mostr
 title: Disponibilidad de una nueva capa vectorial
 uuid: 7e88f183-b0aa-452d-b124-7cd970be9bb9
 exl-id: aaa1a680-3733-43c3-9d14-5aaa5f4aad6e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '178'
