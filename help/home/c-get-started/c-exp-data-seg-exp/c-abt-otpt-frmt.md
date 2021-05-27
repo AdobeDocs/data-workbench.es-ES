@@ -3,7 +3,6 @@ description: Directrices para especificar el formato de salida.
 title: Formato de salida
 uuid: 12086f14-bad1-4d27-82fb-533e877d0a04
 exl-id: e695eaf4-ebe5-4dd1-8191-8045021d6411
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '252'
