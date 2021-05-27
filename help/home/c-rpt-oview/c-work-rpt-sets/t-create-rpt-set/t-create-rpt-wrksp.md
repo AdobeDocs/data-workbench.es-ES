@@ -3,7 +3,6 @@ description: Puede crear varios espacios de trabajo para un único grupo de info
 title: Creación de espacios de trabajo del servidor de informes
 uuid: 818569c7-fff9-4277-996b-8c47e4ef1dbc
 exl-id: 2bc068f1-c32f-4c14-b3fa-6b46e950abc7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '187'
