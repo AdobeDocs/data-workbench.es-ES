@@ -3,7 +3,6 @@ description: Una tabla de latencia es una tabla que incluye una dimensión de la
 title: Configuración de una tabla de latencia
 uuid: fe2de2b8-b10f-403b-8d2e-b29042541df7
 exl-id: 0fb5a772-4c84-491b-a188-6293e83a0251
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '151'
