@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Formación de una hipótesis
 uuid: 3973060a-f49e-44e1-aa49-25059cb33783
 exl-id: d7e77d85-4655-49c5-adeb-15402e48dd7b
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '189'
