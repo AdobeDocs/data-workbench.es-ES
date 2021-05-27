@@ -3,7 +3,6 @@ description: Se debe realizar un backup diario de los datos de evento utilizando
 title: Copia de seguridad de datos de evento
 uuid: 1b9e5dfe-0bf2-4ee9-bf70-1dd320a678d6
 exl-id: 5afeb3a2-a2e7-4155-8fb9-1abc9c22c3c6
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '149'
