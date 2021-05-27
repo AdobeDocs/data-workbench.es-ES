@@ -3,7 +3,6 @@ description: Utilice el perfil histórico de Data Workbench para ver cómo la co
 title: Espacio de trabajo histórico de Data Workbench
 uuid: 61c45cae-f255-4d20-bb6b-f318c8dd8214
 exl-id: e6d7e924-641e-468c-a828-16ebe1c8724f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '400'
