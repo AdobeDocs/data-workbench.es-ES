@@ -3,7 +3,6 @@ description: Se requiere un clúster de Insight Server cuando la cantidad de dat
 title: Acerca de los clústeres de Insight Server
 uuid: d65e0fe5-f87d-4d8e-a208-9192e9d62fb5
 exl-id: b26e0f63-76db-461d-91e7-0968624aa0f7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '320'
