@@ -3,7 +3,6 @@ description: Pasos para agregar nuevas cuentas.
 title: Añadir nuevas cuentas
 uuid: 32081bc3-9050-42a2-95ad-85e7736fe5c4
 exl-id: dabd1dd5-fcbf-4612-a240-89cafed2cf2e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '307'
