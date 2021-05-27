@@ -3,7 +3,6 @@ description: Las selecciones no se aplican automáticamente a los resultados de 
 title: Aplicar selecciones
 uuid: 2c679d27-c395-4192-b17c-2611c92dc316
 exl-id: d1bc83cc-9050-48e0-b070-7282d03c366c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '79'
