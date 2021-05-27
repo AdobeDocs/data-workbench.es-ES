@@ -3,7 +3,6 @@ description: Los gráficos Alza y Ganancia ofrecen visualizaciones para evaluar 
 title: Gráficos de alza y ganancia de tendencia
 uuid: 4f08277e-deea-48d3-ab15-214c43ad6664
 exl-id: 5ac08512-ac9c-4e85-a4f9-ea6d819095d8
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '806'
