@@ -3,7 +3,6 @@ description: La funcionalidad del repetidor permite que una FSU de Insight Serve
 title: Configuración de la funcionalidad del repetidor
 uuid: 45dca069-a91f-4fd4-bd47-c8c2e6aab834
 exl-id: 61b70772-07fb-4963-b09f-6b2cf97b01a1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '205'
