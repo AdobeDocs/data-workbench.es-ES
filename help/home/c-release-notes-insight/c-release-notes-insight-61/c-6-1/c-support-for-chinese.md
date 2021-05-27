@@ -2,7 +2,6 @@
 description: La aplicación cliente de Data Workbench ahora es compatible con el chino simplificado.
 title: Localización de chino simplificado
 uuid: ddf4eade-7c5f-4ccf-aa9f-dd8d109a059f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '79'
