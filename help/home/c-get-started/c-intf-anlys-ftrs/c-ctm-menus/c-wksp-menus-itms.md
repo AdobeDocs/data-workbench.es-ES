@@ -3,7 +3,6 @@ description: Estos pasos se aplican únicamente a la creación de submenús y el
 title: Creación de un menú de espacio de trabajo y un elemento de menú
 uuid: 9565fe7a-fa4c-42b6-9aa5-b652a2d62796
 exl-id: 26f2b85c-ab23-41a4-bf4b-9e507952fede
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '503'
