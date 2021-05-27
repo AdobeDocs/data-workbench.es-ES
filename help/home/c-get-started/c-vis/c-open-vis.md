@@ -3,7 +3,6 @@ description: Información sobre la apertura de visualizaciones.
 title: Apertura de visualizaciones
 uuid: 106c6899-8f93-4221-898d-c7cde5ea19a8
 exl-id: 3b475429-ca2d-4bca-b1ac-2107ce200dcd
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '118'
