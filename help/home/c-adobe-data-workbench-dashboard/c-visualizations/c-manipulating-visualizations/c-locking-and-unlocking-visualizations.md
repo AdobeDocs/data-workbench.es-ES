@@ -3,7 +3,6 @@ description: Bloquea/desbloquea la visualización actual.
 title: Bloqueo y desbloqueo de visualizaciones
 uuid: 968f1a1d-8de7-4738-9a8d-db9179192478
 exl-id: bce8fc1e-9a9d-4fb2-ab43-08d2cf77e70f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '205'
