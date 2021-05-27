@@ -3,7 +3,6 @@ description: Los perfiles y archivos de búsqueda que Adobe ha desarrollado para
 title: Instalación de perfiles y archivos de búsqueda
 uuid: edc670a6-ebc9-4a20-a66f-81dd4adf7433
 exl-id: bf9a3bca-e849-47b6-b038-0349f8ec334a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '524'
