@@ -3,7 +3,6 @@ description: Pasos para instalar un clúster de Insight Server.
 title: Instalación de un clúster de Insight Server
 uuid: 0a0eb03d-2454-4b02-8b9d-cacf9deb5451
 exl-id: 17f8deef-b6df-4245-9850-8a7b5eca688d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '81'
