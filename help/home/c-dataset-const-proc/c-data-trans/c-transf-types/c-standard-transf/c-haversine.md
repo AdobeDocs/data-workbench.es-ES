@@ -3,7 +3,6 @@ description: En las matemáticas, la fórmula de la haversina es una ecuación q
 title: Haversine
 uuid: 835fa9dd-db70-4498-a03e-59595bc041fe
 exl-id: e700c0a0-1a1a-4c56-bb4f-1deb1b39b059
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '235'
