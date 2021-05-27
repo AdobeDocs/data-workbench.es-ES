@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: ¿Cómo funcionan los experimentos controlados?
 uuid: 9549e2ab-dca9-4fb1-9729-65072f951900
 exl-id: 1d3af6a2-078e-4eb8-848e-685f531a60c5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '265'
