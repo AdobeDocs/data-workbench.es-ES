@@ -3,7 +3,6 @@ description: El procesamiento de archivos XML como orígenes de registro para de
 title: Grupos de decodificadores XML
 uuid: 8fc9ab80-9a71-4fe2-a646-e830ffeb67b9
 exl-id: 0b0534b7-8596-4528-a643-8a9b41dcaa33
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1295'
@@ -120,7 +119,7 @@ Una tabla que muestra el resultado de este decodificador para nuestro archivo XM
 | x-rowtype | cs—uri-stem | x-email | x-is-register | x-event-time | x-tracking-id |
 |---|---|---|---|---|---|
 | VISITANTE |  | foo@bar.com | 1 |  | 1 |
-| PAGEVIEW | /index.html |  |  | 08:00:00 | 3 |
+| PAGEVIEW | /index.html |  |  | 08:00:00 | 1 |
 | PAGEVIEW | / |  |  | 2006-01-01 08:00:30 | 1 |
 
 Puede crear una tabla como la anterior en Data Workbench utilizando una interfaz de visor de campos. Para obtener información sobre la interfaz del visor de campos, consulte [Herramientas de configuración de conjuntos de datos](../../../../../home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-tools.md#concept-6e058b7691834cf79dcfd1573f78d4f5).
