@@ -3,7 +3,6 @@ description: Un espacio de trabajo es un contenedor para una tarea de análisis 
 title: Espacios de trabajo de muestra
 uuid: 848035e5-7b7f-4e33-b61d-3759335e459b
 exl-id: 18db0cd4-6cb0-4514-9056-1c1e82b2092e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '237'
