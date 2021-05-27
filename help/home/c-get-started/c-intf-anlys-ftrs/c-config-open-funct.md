@@ -3,7 +3,6 @@ description: La funcionalidad abierta le permite abrir elementos como documentos
 title: Configuración de la funcionalidad abierta
 uuid: dfa79a2b-e9ff-4e62-b15b-ae7911adeafd
 exl-id: c807a284-b544-41cf-958b-27b47d2142ce
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '392'
