@@ -3,7 +3,6 @@ description: Puede visualizar datos de varios perfiles en un solo tablero.
 title: Selecciones entre perfiles
 uuid: e9377bcf-8de9-4952-a81a-863216f25fb7
 exl-id: a14400bf-64e3-44be-b9ab-d8a9ded406ae
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '174'
