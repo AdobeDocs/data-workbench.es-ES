@@ -3,7 +3,6 @@ description: La comercialización del sitio web puede implicar la colocación de
 title: Medición de la impresión de publicidad
 uuid: ca2bd6bf-4f49-406c-b47a-18d6abfb48a4
 exl-id: 77cd816e-63a4-4080-ac65-0661e1de4ec0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '245'
