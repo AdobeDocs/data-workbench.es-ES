@@ -3,7 +3,6 @@ description: Puede mostrar los inicios y finales de las rutas en el explorador d
 title: Muestra del inicio y final de las rutas
 uuid: b5294111-393c-44d9-a641-18ecd566797f
 exl-id: 08604c56-f151-49e6-8290-50f8fa04c802
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '200'
