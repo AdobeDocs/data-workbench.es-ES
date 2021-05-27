@@ -3,7 +3,6 @@ description: El archivo de configuración Log Processing Mode.cfg permite pausar
 title: Registro de Processing Mode.cfg
 uuid: 1f1e5d8b-80e7-4423-bb03-56e706a1b7b4
 exl-id: e252b815-e691-490d-9ac9-88bb1fd2c64d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '956'
