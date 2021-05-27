@@ -3,7 +3,6 @@ description: Ajustar espacio de trabajo cambia el tamaño de las visualizaciones
 title: Ajustar un espacio de trabajo
 uuid: bbb5cd7b-4973-419d-9a13-52b36422259a
 exl-id: a84d24db-6690-4f9a-a01e-dbc549ca13c5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '42'
