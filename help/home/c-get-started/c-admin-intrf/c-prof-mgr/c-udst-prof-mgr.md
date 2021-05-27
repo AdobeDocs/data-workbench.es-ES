@@ -2,7 +2,6 @@
 description: Los nombres de carpeta y archivo incluidos en la implementación se muestran en la parte izquierda del Administrador de perfiles.
 title: Administrador de perfiles
 uuid: c3a19a56-c96b-4661-b656-b845feba4b6f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1098'
