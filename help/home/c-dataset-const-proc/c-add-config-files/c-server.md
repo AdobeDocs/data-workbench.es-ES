@@ -3,7 +3,6 @@ description: El parámetro Bytes de muestra del archivo Server.cfg especifica el
 title: Server.cfg
 uuid: 7e789133-09fc-442d-b643-cca8620f4a97
 exl-id: fb7667f6-4061-4bde-8a48-6489b24e0411
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '114'
