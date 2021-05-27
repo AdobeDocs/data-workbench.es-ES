@@ -3,7 +3,6 @@ description: El panel del área de trabajo de datos de Adobe proporciona estas f
 title: Funciones
 uuid: 89f52af1-10a7-4510-838e-3b759f9c7d7b
 exl-id: 2a6bb179-67a0-4b21-a9cc-20b53d960e39
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '105'
