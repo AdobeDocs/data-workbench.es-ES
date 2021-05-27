@@ -3,7 +3,6 @@ description: En la superficie de trabajo es donde se organizan y se accede a tod
 title: Superficies de trabajo
 uuid: ae6e475c-fc91-4c76-883b-894c9eb2933c
 exl-id: e714ca25-5e94-408a-9d4e-6e1c13e2a3ef
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '546'
