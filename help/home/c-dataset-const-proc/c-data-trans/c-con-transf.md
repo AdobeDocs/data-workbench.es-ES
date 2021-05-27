@@ -3,7 +3,6 @@ description: Tabla que muestra las convenciones aplicables a la construcción de
 title: Convenciones para crear transformaciones
 uuid: 91dddca6-4c17-4107-b78b-0f8b8870ef8d
 exl-id: c2552c52-c6d3-4c9f-8359-b5a58bf1a59f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '384'
