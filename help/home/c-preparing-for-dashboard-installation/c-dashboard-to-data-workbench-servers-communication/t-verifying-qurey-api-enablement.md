@@ -3,7 +3,6 @@ description: Cada DPU desde la que se va a visualizar el tablero debe tener una 
 title: Verificación de la habilitación de la API de consulta
 uuid: deedd1a4-c476-49f6-9278-556d914d2b93
 exl-id: 3dde2958-0f99-45f8-b65b-207a92362292
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '160'
