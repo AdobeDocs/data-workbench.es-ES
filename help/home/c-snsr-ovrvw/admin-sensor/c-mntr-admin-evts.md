@@ -3,7 +3,6 @@ description: Para detectar los errores del sensor lo antes posible y repararlos 
 title: Supervisión de los eventos administrativos
 uuid: c43d6509-6950-4436-8d6c-be7b00664f05
 exl-id: 70894074-b8aa-4f6c-87d1-d0403f4c3319
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1092'
