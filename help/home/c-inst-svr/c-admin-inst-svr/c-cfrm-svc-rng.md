@@ -3,7 +3,6 @@ description: Para asegurarse de que la implementación funciona correctamente, d
 title: Confirmación de que el servicio se está ejecutando
 uuid: 0e0fb43b-56d5-4994-a9c4-9281e69844eb
 exl-id: 0fd9241b-cae8-46d0-b29d-6da64e8ada2c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '100'
