@@ -3,7 +3,6 @@ description: Las funciones especiales incluyen compartir, exportar y eliminar ta
 title: Otras funciones del panel
 uuid: 4f5ed0fa-c1eb-4059-9fb5-33e1d0e2f85a
 exl-id: f11d7aae-19b9-43e8-9abe-0702c0a53e3e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '178'
