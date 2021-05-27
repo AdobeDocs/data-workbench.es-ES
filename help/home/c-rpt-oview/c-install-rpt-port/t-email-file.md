@@ -3,7 +3,6 @@ description: El acceso a y los permisos dentro del portal de informes se control
 title: Edición del archivo Email.asp
 uuid: 18251170-0317-4a32-b9e1-4ebf2d7ad123
 exl-id: e984f12f-362a-4dee-9af3-6d7a38a178a4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '469'
