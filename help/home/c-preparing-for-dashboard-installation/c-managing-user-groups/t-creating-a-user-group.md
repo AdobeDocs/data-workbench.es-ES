@@ -3,7 +3,6 @@ description: Creación de un grupo de usuarios
 title: Creación de un grupo de usuarios
 uuid: 8a474480-81fa-4a86-9937-2fb82e949436
 exl-id: 8af9d635-ff07-486f-845a-44541d577fad
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '183'
