@@ -3,7 +3,6 @@ description: Las selecciones dentro de una o más visualizaciones de un tablero 
 title: Selecciones bloqueadas
 uuid: 0466baa1-6ffb-4b7b-8dc6-118de97c8549
 exl-id: eaffe761-b2ac-4521-85ca-2c5227da3445
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '231'
