@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Habilitar experimento controlado
 uuid: 27d68fad-ae2d-4a2e-b449-fbaf88286cfa
 exl-id: 53c18524-6050-4708-af63-9e8ef8da389e
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '244'
