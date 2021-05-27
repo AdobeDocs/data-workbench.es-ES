@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Definición del objetivo
 uuid: 4957b249-8790-4275-98ab-9c6398039a63
 exl-id: 6ee140ff-3cfb-45f8-9bce-f360fbb19322
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '195'
