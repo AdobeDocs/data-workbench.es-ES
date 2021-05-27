@@ -3,7 +3,6 @@ description: El menú Controles de ventana permite controlar una ventana individ
 title: Menú Controles de ventana
 uuid: 9a7c24a7-c591-4d73-94f5-bba79b2aa848
 exl-id: abbd6545-0b80-45a2-88d7-f0687249583d
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '418'
@@ -59,7 +58,7 @@ Estas opciones del menú varían según el tipo de ventana. La tabla del siguien
      </ul> </p> <p>Aparece una X a la izquierda de la opción activa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Copy </td> 
+   <td colname="col1"> Copiar </td> 
    <td colname="col2">Copia ventanas individuales en el portapapeles para usarlas en aplicaciones de terceros. Después de copiar una ventana al portapapeles, puede pegarla en aplicaciones de oficina comunes, como Microsoft Word, Microsoft PowerPoint o un mensaje de correo electrónico de Microsoft Outlook. Para copiar una ventana, haga clic con el botón derecho en su borde superior, haga clic en <span class="uicontrol"> Copiar</span> y haga clic en la opción correspondiente: 
     <ul id="ul_ECCD6A70729E40998C64714E01504995"> 
      <li id="li_21D375DAE7BC4F449C8A3225296A6D26">El fondo negro copia el espacio de trabajo como se muestra. </li> 
