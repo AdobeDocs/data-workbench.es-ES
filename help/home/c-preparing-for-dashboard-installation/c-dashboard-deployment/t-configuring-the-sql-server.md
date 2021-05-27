@@ -3,7 +3,6 @@ description: Para que el tablero pueda funcionar, debe permitirle acceder a SQL 
 title: Configuración de SQL Server
 uuid: bdd5f9f5-a69f-4001-9f80-901bd7eae129
 exl-id: 16116cc8-f539-4cf0-ab1d-f2bddd39b38c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '91'
