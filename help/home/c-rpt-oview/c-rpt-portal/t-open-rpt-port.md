@@ -3,7 +3,6 @@ description: Pasos para abrir el portal de informes.
 title: Apertura del portal de informes
 uuid: f9a1c213-d500-4408-a621-3af29da63791
 exl-id: 74ac9276-ba76-44ce-a15b-33af0622ab19
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '178'
