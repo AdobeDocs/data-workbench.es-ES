@@ -3,7 +3,6 @@ description: La interfaz Esquema de conjunto de datos muestra las dimensiones ex
 title: Esquema del conjunto de datos
 uuid: 4ef5f14b-dc19-4118-a2f2-d680ded8092c
 exl-id: b80e6e8e-9147-46ec-8602-2d7e5d33f077
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '380'
