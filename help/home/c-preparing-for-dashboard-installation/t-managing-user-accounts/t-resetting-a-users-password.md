@@ -3,7 +3,6 @@ description: Restablecimiento de la contraseña de un usuario
 title: Restablecimiento de la contraseña de un usuario
 uuid: a256c5f1-f2c7-4982-a066-248eef5587f4
 exl-id: cd8e9d14-262b-4be8-ab0e-9ffd2efe69fc
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '83'
