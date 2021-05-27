@@ -3,7 +3,6 @@ description: Puede crear mapas de procesos 2D y 3D arrastrando y soltando elemen
 title: Creación de un mapa de proceso
 uuid: dbcde637-0411-4296-99ca-5510e0285e4b
 exl-id: 2e417a8e-5b1c-4dce-9e4e-ac7ed044564c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '469'
