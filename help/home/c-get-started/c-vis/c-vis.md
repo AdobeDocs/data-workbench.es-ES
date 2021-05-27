@@ -3,7 +3,6 @@ description: Información general sobre los conceptos y las funciones que debe c
 title: Visualizaciones
 uuid: 34ddc55f-a037-45ec-b636-d05b1806442f
 exl-id: 2d600c4b-2923-4a85-8a8b-02771b7dc067
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '180'
