@@ -3,7 +3,6 @@ description: Añadir una conexión del perfil
 title: Añadir una conexión del perfil
 uuid: 0a168236-8c15-456b-9ac8-ca572baa916a
 exl-id: c8dd2286-df88-4b23-a7de-cd90bfe76289
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '172'
