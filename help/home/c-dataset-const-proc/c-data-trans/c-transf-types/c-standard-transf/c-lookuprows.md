@@ -3,7 +3,6 @@ description: La transformación LookupRows examina otras entradas de registro co
 title: LookupRows
 uuid: 4cff7cf1-00c8-4ab1-8adc-3805518226d3
 exl-id: caa9a311-b056-4fe8-bb11-1605cc690375
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '946'
