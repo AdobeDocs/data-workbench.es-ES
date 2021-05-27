@@ -3,7 +3,6 @@ description: Puede crear fácilmente una definición de Exportación de segmento
 title: Exportación de segmentos
 uuid: 85c8aa72-23fe-424b-9580-6759dc8f8681
 exl-id: 49998b46-f3a6-43a3-a76e-468894b27ee4
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '498'
