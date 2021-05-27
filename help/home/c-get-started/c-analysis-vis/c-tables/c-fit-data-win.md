@@ -3,7 +3,6 @@ description: La opción Ajustar a ventana permite que las columnas de datos de u
 title: Ajuste de datos a una ventana
 uuid: a45283e1-56df-4110-a052-2135baeaf709
 exl-id: 79eb1177-11bd-44ad-aafc-4de6f961f78f
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '122'
