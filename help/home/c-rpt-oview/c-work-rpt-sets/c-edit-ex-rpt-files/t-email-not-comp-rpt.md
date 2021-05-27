@@ -3,7 +3,6 @@ description: Puede configurar Data Workbench para que envíe un correo electrón
 title: Notificación por correo electrónico del informe completado
 uuid: 567e0423-a17a-407c-87ea-735c1c8aef96
 exl-id: 1d79fac9-667d-4139-8629-69c8795377b1
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '87'
