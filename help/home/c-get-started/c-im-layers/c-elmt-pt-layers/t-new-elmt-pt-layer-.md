@@ -3,7 +3,6 @@ description: Pasos para hacer que cualquier capa de punto de elemento esté disp
 title: Hacer que una nueva capa de punto de elemento esté disponible
 uuid: 5f4bad2f-e98d-4224-bba8-285ad5e23da9
 exl-id: 12797335-0788-4103-a581-41bc3bb3dcc9
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '207'
