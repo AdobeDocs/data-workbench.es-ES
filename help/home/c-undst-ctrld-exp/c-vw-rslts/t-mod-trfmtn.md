@@ -4,7 +4,6 @@ solution: Analytics,Analytics
 title: Modificación de Transformation.cfg
 uuid: c17e48db-8fd9-4640-b621-6963bb8223d7
 exl-id: a9c89789-8290-4a24-91c1-ca1c5b7b437a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '357'
