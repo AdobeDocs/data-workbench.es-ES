@@ -3,7 +3,6 @@ description: Los menús a los que se accede haciendo clic con el botón derecho 
 title: Menús de métricas y dimensiones
 uuid: 0dfae2bd-6c33-4496-83ea-f7f6de960259
 exl-id: 59bed6c1-74b2-49e2-ac68-f22c8bed668a
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '554'
