@@ -3,7 +3,6 @@ description: El producto del panel requiere una licencia proporcionada por Adobe
 title: Añadir clave de licencia del panel
 uuid: 51ec87a8-e9cc-4aa1-8d13-a79612a13d17
 exl-id: bf532fb0-9287-4c15-aa4c-07f7bd0fdba7
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '64'
