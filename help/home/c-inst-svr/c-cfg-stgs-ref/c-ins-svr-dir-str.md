@@ -3,7 +3,6 @@ description: Lista de archivos instalados con Insight Server y los archivos pres
 title: Estructura de directorio de Insight Server
 uuid: 8339b275-f118-4d5d-937e-4df9f8a56b50
 exl-id: 568391d0-e0f7-4a5a-ad71-de33c52968a0
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '499'
