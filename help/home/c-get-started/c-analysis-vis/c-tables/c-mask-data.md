@@ -3,7 +3,6 @@ description: Enmascaramiento hace referencia a la selección de un subconjunto d
 title: Enmascarar datos
 uuid: 81b5f4e0-826c-4803-9169-66a424a4ea9f
 exl-id: 3029e08e-827f-40d7-b5a1-45630876a097
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '702'
