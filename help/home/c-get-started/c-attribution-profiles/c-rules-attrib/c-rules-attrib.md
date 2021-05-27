@@ -3,7 +3,6 @@ description: Con el nuevo perfil de atribución basado en reglas en Data Workben
 title: Perfil de atribución
 uuid: 500e9e86-cffc-4f0d-a397-6521b493bf9a
 exl-id: 29946f22-1d39-44ca-9474-13dbe228751c
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '465'
