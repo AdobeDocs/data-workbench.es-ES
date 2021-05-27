@@ -3,7 +3,6 @@ description: El explorador de tableros facilita la navegación, la búsqueda y l
 title: Explorador del panel
 uuid: ab4f81dc-c32e-408b-bcfd-3531766c9054
 exl-id: 02ee7120-2d94-4033-afce-9556383d1eba
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '151'
