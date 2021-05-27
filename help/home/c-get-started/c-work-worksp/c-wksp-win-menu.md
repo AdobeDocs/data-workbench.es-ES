@@ -3,7 +3,6 @@ description: Este menú le permite agregar visualizaciones disponibles al espaci
 title: Uso del menú Ventana del espacio de trabajo
 uuid: 0fa153c1-5d68-4777-98ee-9682fd4adc41
 exl-id: 1077087b-b985-4339-b465-736722b917a5
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '365'
