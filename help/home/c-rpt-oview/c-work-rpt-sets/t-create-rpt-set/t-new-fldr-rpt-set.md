@@ -3,7 +3,6 @@ description: Pasos para crear una nueva carpeta de conjuntos de informes.
 title: Creación de una nueva carpeta para el conjunto de informes
 uuid: d48046ef-6ce2-458f-ac9d-d864628b8166
 exl-id: 5e00df9b-6b66-4910-aa5e-a3c8de686650
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '100'
