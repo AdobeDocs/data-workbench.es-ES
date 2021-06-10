@@ -4,7 +4,7 @@ title: Glosario de Data Workbench
 uuid: 1000c43d-383c-442d-bd09-de4f286ded31
 exl-id: 29d6560a-0394-4031-8152-20f7ea0de00b
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4201'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Hora a la que se escribió una copia de un conjunto de datos de Adobe para reali
 
 **Chi cuadrado**
 
-Una prueba estadística para determinar la probabilidad de que una desviación observada del evento o del resultado esperado se produzca por casualidad. En Data Workbench, cuanto más cerca esté el chi cuadrado del 100%, menor es la probabilidad de que la desviación se produzca únicamente por casualidad.
+Una prueba estadística para determinar la probabilidad de que una desviación observada del evento o del resultado esperado se produzca por casualidad. En Data Workbench, cuanto más cerca esté el chi cuadrado del 100 %, menor es la probabilidad de que la desviación se produzca únicamente por casualidad.
 
 **Flujo de navegación**
 
@@ -54,7 +54,7 @@ Leyenda de Data Workbench que muestra la rampa de colores de una métrica selecc
 
 **Rampa de colores**
 
-En una leyenda de color, el rango de colores utilizado para representar el intervalo de valores posibles para una métrica. Cuando se aplica una leyenda de colores a una visualización, los elementos gráficos de la visualización (por ejemplo, las barras de un gráfico de barras) se codifican con colores según los valores representados por la rampa de colores.
+En una leyenda de colores, el rango de colores utilizado para representar el intervalo de valores posibles para una métrica. Cuando se aplica una leyenda de colores a una visualización, los elementos gráficos de la visualización (por ejemplo, las barras de un gráfico de barras) se codifican con colores según los valores representados por la rampa de colores.
 
 **Clave común**
 
@@ -62,11 +62,11 @@ Variable común que forma una relación entre las filas de dos conjuntos de dato
 
 **Intervalo de confianza**
 
-Intervalo de valores que tiene una probabilidad específica de contener la tasa o la tendencia. Los intervalos de confianza del 80% (valor p = 0,20), 95% (valor p = 0,05) y 99% (valor p = 0,01) son los intervalos de confianza más utilizados. (Fuente: `http://www.nci.nih.gov/statistics/glossary`)
+Intervalo de valores que tiene una probabilidad específica de contener la tasa o la tendencia. Los intervalos de confianza del 80 % (valor p = 0,20), 95 % (valor p = 0,05) y 99 % (valor p = 0,01) son los intervalos de confianza más utilizados. (Fuente: `http://www.nci.nih.gov/statistics/glossary`)
 
 **Nivel de confianza**
 
-La probabilidad de que el error de muestreo en un resultado de encuesta se encuentre dentro de un rango especificado, normalmente expresado en términos de errores estándar (por ejemplo, 1 error estándar equivale a un 68% de probabilidad, 2 errores estándar equivalen a un 95,4% de probabilidad). (Fuente: `http://www.magazine.org/research/3410.cfm`)
+La probabilidad de que el error de muestreo en un resultado de encuesta se encuentre dentro de un rango especificado, normalmente expresado en términos de errores estándar (por ejemplo, 1 error estándar equivale a un 68 % de probabilidad, 2 errores estándar equivalen a un 95,4 % de probabilidad). (Fuente: `http://www.magazine.org/research/3410.cfm`)
 
 **Mapa de conversión**
 
@@ -88,7 +88,7 @@ Valor numérico que significa la fuerza de una relación lineal entre dos variab
 
 Una dimensión en la que se puede contar de manera diferenciada el número de elementos que contiene la dimensión. Las dimensiones contables pueden tener dimensiones secundarias de los siguientes tipos: Contable, Numérica, Simple, Varios a varios y Denormal.
 
-**Transformación de filas cruzadas**
+**Transformación de CrossRows**
 
 En el servidor de Data Workbench, una transformación de datos que permite incorporar en un cálculo los datos de varios registros de eventos para un visitante (realizados en momentos diferentes).
 
@@ -178,11 +178,11 @@ Proceso patentado mediante el cual el servidor de Data Workbench proporciona res
 
 **Datos de integración**
 
-Los datos de integración son datos externos de bases de datos corporativas o archivos de búsqueda que se pueden combinar con datos de eventos para crear el conjunto de datos. En general, los datos de integración se utilizan para aumentar los datos de evento adquiridos por Sensor. (Conceptualmente, se puede pensar en usar datos de integración para rellenar registros de datos de evento con columnas de información adicionales).
+Los datos de integración son datos externos de bases de datos corporativas o archivos de búsqueda que se pueden combinar con datos de evento para crear el conjunto de datos. En general, los datos de integración se utilizan para aumentar los datos de evento adquiridos por Sensor. (Conceptualmente, se puede pensar en usar datos de integración para rellenar registros de datos de evento con columnas de información adicionales).
 
 **Leyenda**
 
-Ventana de Data Workbench que proporciona detalles explicativos sobre las visualizaciones que se muestran en el espacio de trabajo. Los tipos de leyendas incluyen leyendas de color, leyendas de dimensión y leyendas de métricas. Al igual que cualquier ventana de Data Workbench, las ventanas Leyenda pueden generarse y distribuirse mediante el informe.
+Ventana de Data Workbench que proporciona detalles explicativos sobre las visualizaciones que se muestran en el espacio de trabajo. Los tipos de leyendas incluyen leyendas de colores, leyendas de dimensión y leyendas de métricas. Al igual que cualquier ventana de Data Workbench, las ventanas Leyenda pueden generarse y distribuirse mediante el informe.
 
 **Gráfico de líneas**
 
@@ -218,7 +218,7 @@ Ventana de Data Workbench que muestra las métricas definidas por el perfil acti
 
 **Hoja de cálculo de métricas**
 
-Ventana de Data Workbench que permite a los analistas definir sus propias métricas para un conjunto de datos. Una hoja de cálculo de métrica es similar a una hoja de cálculo. Mediante la sintaxis de la fórmula de Data Workbench, los analistas pueden introducir expresiones que describan los valores cuantitativos que desean derivar del conjunto de datos. Por ejemplo, un analista podría definir una métrica que muestre el porcentaje de Visitantes que vieron una página desde un dominio en particular. Al igual que las métricas normales, las fórmulas de una hoja de cálculo de métrica funcionan en el subconjunto seleccionado cuando una selección está activa en el espacio de trabajo. Al igual que cualquier ventana de Data Workbench, las hojas de cálculo de métricas se pueden generar y distribuir por informe.
+Ventana de Data Workbench que permite a los analistas definir sus propias métricas para un conjunto de datos. Una hoja de cálculo de métricas es similar a una hoja de cálculo. Mediante la sintaxis de la fórmula de Data Workbench, los analistas pueden introducir expresiones que describan los valores cuantitativos que desean derivar del conjunto de datos. Por ejemplo, un analista podría definir una métrica que muestre el porcentaje de Visitantes que vieron una página desde un dominio en particular. Al igual que las métricas normales, las fórmulas de una hoja de cálculo de métricas funcionan en el subconjunto seleccionado cuando una selección está activa en el espacio de trabajo. Al igual que cualquier ventana de Data Workbench, las hojas de cálculo de métricas se pueden generar y distribuir por informe.
 
 **Condición de nuevo visitante**
 
@@ -226,7 +226,7 @@ Condición que determina si se crea un nuevo ID de seguimiento cuando se present
 
 **Nodo**
 
-Agrupación de uno o varios elementos diferenciados en una única entidad lógica. En un archivo de configuración (.cfg), un nodo es un elemento que contiene parámetros relacionados. Consulte también Parámetro y Vector. En Data Workbench, un nodo de un mapa de proceso representa una sola página o un grupo definido de páginas.
+Agrupación de uno o varios elementos diferenciados en una única entidad lógica. En un archivo de configuración (.cfg), un nodo es un elemento que contiene parámetros relacionados. Consulte también Parámetro y Vector. En Data Workbench, un nodo de un mapa del proceso representa una sola página o un grupo definido de páginas.
 
 **Dimensión numérica**
 
@@ -258,15 +258,15 @@ Tipo de visualización en Data Workbench que permite a un analista explorar inte
 
 **Servidor principal**
 
-En un clúster de servidores de Data Workbench, el servidor de Data Workbench que intercambia las comunicaciones entre clientes (como Data Workbench y Report) y los demás servidores del clúster. El servidor principal también funciona como centro de coordinación administrativo del clúster. Con las funciones de sincronización de perfil del servidor de Data Workbench, los cambios que realiza un administrador en el servidor principal se propagan automáticamente a los demás servidores del clúster. Un servidor primario es una DPU del servidor de Data Workbench.
+En un clúster de servidores de Data Workbench, el servidor de Data Workbench que intercambia las comunicaciones entre clientes (como Data Workbench y Report) y los demás servidores del clúster. El servidor principal también funciona como centro de coordinación administrativo del clúster. Con las funciones de sincronización de perfil del servidor de Data Workbench, los cambios que realiza un administrador en el servidor principal se propagan automáticamente a los demás servidores del clúster. Un servidor principal es una DPU del servidor de Data Workbench.
 
 **Mapa del proceso**
 
-Tipo de visualización en Data Workbench que permite a un analista comprender el flujo de tráfico entre páginas o nodos en un sitio web. Un mapa de procesos muestra información sobre páginas específicas (como el número de sesiones durante las cuales se vieron las páginas) y también ilustra el volumen de tráfico entre páginas o nodos.
+Tipo de visualización en Data Workbench que permite a un analista comprender el flujo de tráfico entre páginas o nodos en un sitio web. Un mapa del proceso muestra información sobre páginas específicas (como el número de sesiones durante las cuales se vieron las páginas) y también ilustra el volumen de tráfico entre páginas o nodos.
 
 **Servidor de procesamiento**
 
-En un clúster de servidores de Data Workbench, los servidores de Data Workbench que están controlados por la información de configuración del servidor primario. Un servidor de procesamiento procesa los datos de evento en un conjunto de datos y responde a consultas de clientes como, por ejemplo, Data Workbench y Report. Al responder a una consulta, un servidor de procesamiento divide (“particiones”) la responsabilidad de cumplir la consulta entre los servidores del clúster. Cuando los demás servidores completan tres partes de la consulta, el servidor de procesamiento combina (“desparticiones”) sus resultados y devuelve el resultado combinado al cliente.
+En un clúster de servidores de Data Workbench, los servidores de Data Workbench que están controlados por la información de configuración del servidor principal. Un servidor de procesamiento procesa los datos de evento en un conjunto de datos y responde a consultas de clientes como, por ejemplo, Data Workbench y Report. Al responder a una consulta, un servidor de procesamiento divide (“particiones”) la responsabilidad de cumplir la consulta entre los servidores del clúster. Cuando los demás servidores completan tres partes de la consulta, el servidor de procesamiento combina (“desparticiones”) sus resultados y devuelve el resultado combinado al cliente.
 
 **Perfil**
 
@@ -306,7 +306,7 @@ En el servidor de Data Workbench, un recurso que contiene datos de evento que se
 
 **Datos de origen**
 
-En el servidor de Data Workbench, los datos que son la entrada de uno de sus descodificadores. Los datos de origen se pueden introducir en el descodificador de sensor (que carga los datos de origen de varias versiones de sensor), en el descodificador de Expresión normal (que carga los datos de origen de archivos planos delimitados) y en el descodificador ODBC (que carga los datos de origen de los orígenes de datos ODBC).
+En el servidor de Data Workbench, los datos que son la entrada de uno de sus descodificadores. Los datos de origen se pueden introducir en el descodificador de sensor (que carga los datos de origen de varias versiones de sensor), en el descodificador de Expresión regular (que carga los datos de origen de archivos planos delimitados) y en el descodificador ODBC (que carga los datos de origen de las fuentes de datos ODBC).
 
 **Gráfico de tabla**
 
@@ -342,7 +342,7 @@ El primer referente HTTP de un visitante dentro del lapso de tiempo de un conjun
 
 **División de visitante**
 
-Característica en el servidor de Data Workbench que permite dividir visitantes con grandes cantidades de datos de evento entre dos ID de seguimiento. La división de Visitantes se utiliza para evitar que los datos de evento se filtren del conjunto de datos cuando un visitante supera el número máximo configurado de eventos por visitante (un parámetro que se establece para garantizar el rendimiento correcto del sistema). Aunque la división de visitantes aumenta artificialmente la cantidad de visitantes en el conjunto de datos, no aumenta la cantidad total de registros de eventos, lo que garantiza que la cantidad total de eventos contables (por ejemplo, vistas de páginas, reservaciones) siga siendo precisa.
+Característica en el servidor de Data Workbench que permite dividir visitantes con grandes cantidades de datos de evento entre dos ID de seguimiento. La división de visitantes se utiliza para evitar que los datos de evento se filtren del conjunto de datos cuando un visitante supera el número máximo configurado de eventos por visitante (un parámetro que se establece para garantizar el rendimiento correcto del sistema). Aunque la división de visitantes aumenta artificialmente la cantidad de visitantes en el conjunto de datos, no aumenta la cantidad total de registros de eventos, lo que garantiza que la cantidad total de eventos contables (por ejemplo, vistas de páginas, reservaciones) siga siendo precisa.
 
 **VSL**
 
