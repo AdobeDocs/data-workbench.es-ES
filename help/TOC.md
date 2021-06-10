@@ -7,7 +7,7 @@ feature: Data Workbench
 user-guide-title: Ayuda de Data Workbench
 user-guide-description: Obtenga información sobre las funciones de varios canales de Data Workbench. Incluye las guías de Cliente de Data Workbench, Instalación, Configuración de conjuntos de datos y más.
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3495'
 ht-degree: 100%
 
@@ -19,30 +19,30 @@ ht-degree: 100%
 + [Ayuda de Data Workbench](home/home.md)
 + Notas de la versión {#release-notes}
    + [Descripción general de las notas de la versión](home/c-release-notes-insight/release-notes.md)
-   + [Notas de la versión Data Workbench 6.74](home/c-release-notes-insight/dwb-6-74-release-notes.md)
-   + [Notas de la versión Data Workbench 6.73](home/c-release-notes-insight/dwb-6-73-release-notes.md)
-   + [Notas de la versión Data Workbench 6.72](home/c-release-notes-insight/dwb-6-72-release-notes.md)
-   + [Notas de la versión Data Workbench 6.7](home/c-release-notes-insight/dwb-6-7-release-notes.md)
+   + [Notas de la versión de Data Workbench 6.74](home/c-release-notes-insight/dwb-6-74-release-notes.md)
+   + [Notas de la versión de Data Workbench 6.73](home/c-release-notes-insight/dwb-6-73-release-notes.md)
+   + [Notas de la versión de Data Workbench 6.72](home/c-release-notes-insight/dwb-6-72-release-notes.md)
+   + [Notas de la versión de Data Workbench 6.7](home/c-release-notes-insight/dwb-6-7-release-notes.md)
    + [Portal de informes de Data Workbench 2.1](home/c-release-notes-insight/reportserver-2-1.md)
-   + [Notas de la versión Data Workbench 6.61](home/c-release-notes-insight/c-6-6-1.md)
-   + [Notas de la versión Data Workbench 6.6](home/c-release-notes-insight/c-6-6.md)
+   + [Notas de la versión de Data Workbench 6.61](home/c-release-notes-insight/c-6-6-1.md)
+   + [Notas de la versión de Data Workbench 6.6](home/c-release-notes-insight/c-6-6.md)
    + [Actualización de Data Workbench 6.52](home/c-release-notes-insight/c-6-52.md)
    + [Actualización de Data Workbench 6.51](home/c-release-notes-insight/c-6-51.md)
-   + [Notas de la versión Data Workbench 6.5](home/c-release-notes-insight/c-6-5.md)
-   + [Notas de la versión Data Workbench 6.4](home/c-release-notes-insight/c-6-4/c-6-4.md)
+   + [Notas de la versión de Data Workbench 6.5](home/c-release-notes-insight/c-6-5.md)
+   + [Notas de la versión de Data Workbench 6.4](home/c-release-notes-insight/c-6-4/c-6-4.md)
    + [Actualización de Data Workbench 6.31](home/c-release-notes-insight/c-6-3-1.md)
-   + [Notas de la versión Data Workbench 6.3](home/c-release-notes-insight/c-6-3/c-6-3.md)
+   + [Notas de la versión de Data Workbench 6.3](home/c-release-notes-insight/c-6-3/c-6-3.md)
    + [Actualización de Data Workbench 6.21](home/c-release-notes-insight/c-6-2-1.md)
-   + [Notas de la versión Data Workbench 6.2](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
+   + [Notas de la versión de Data Workbench 6.2](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
    + [Actualización de Data Workbench 6.11](home/c-release-notes-insight/c-6-1-1.md)
    + [Actualización de fuentes de datos para el informe mensual de abril de 2014](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
-   + [Notas de la versión Data Workbench 6.1](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
+   + [Notas de la versión de Data Workbench 6.1](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
    + [Notas de la versión de Data Workbench 6.0 y 6.0.4](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
 + Instalación {#install}
    + [Requisitos de Workstation](home/c-install-insight/c-data-workbench-client-install.md)
    + Configuración de Workstation {#workstation-setup}
       + [Información general sobre la configuración de Workstation](home/c-install-insight/install-setup/install-setup.md)
-      + [Asistente de configuración para estaciones de trabajo](home/c-install-insight/install-setup/dwb-client-installer.md)
+      + [Asistente de configuración de Workstation](home/c-install-insight/install-setup/dwb-client-installer.md)
       + [Archivos incluidos en el paquete de instalación](home/c-install-insight/install-setup/c-install-pkg.md)
       + [Instalación del Editor de métodos de entrada](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
       + [Instalación del archivo Terrain Images.cfg](home/c-install-insight/install-setup/t-trn-imgs-file.md)
@@ -115,7 +115,7 @@ ht-degree: 100%
          + [Realización de selecciones en visualizaciones](home/c-get-started/c-vis/c-sel-vis/c-sel-vis.md)
          + [Explicación de cómo una selección afecta a otras visualizaciones](home/c-get-started/c-vis/c-sel-vis/c-sel-aff-vis.md)
          + [Selección de datos mediante otros métodos](home/c-get-started/c-vis/c-sel-vis/c-sel-data-other-mthd.md)
-         + [Realización de zoom a visualizaciones de Vista](home/c-get-started/c-vis/c-sel-vis/dwb-zoom-regression-view.md)
+         + [Realización de zoom a visualizaciones de vistas](home/c-get-started/c-vis/c-sel-vis/dwb-zoom-regression-view.md)
       + [Prueba comparativa](home/c-get-started/c-vis/c-ustd-benchmks.md)
       + [Menús de métricas y dimensiones](home/c-get-started/c-vis/c-met-dim-menus.md)
       + Subconjuntos {#subsets}
@@ -130,8 +130,8 @@ ht-degree: 100%
       + [Añadir un marcador](home/c-get-started/c-vis/c-bookmark-about.md)
       + [Asistente para atenuación de métricas](home/c-get-started/c-vis/dwb-create-metricdim/dwb-create-metricdim.md)
       + [Edición de la atenuación de métricas](home/c-get-started/c-vis/dwb-create-metricdim/dwb-6-4-metric-dim-edit.md)
-   + Visualizaciones de Análisis {#analysis-visualizations}
-      + [Visión general de las visualizaciones de Análisis](home/c-get-started/c-analysis-vis/c-analysis-vis.md)
+   + Visualizaciones de análisis {#analysis-visualizations}
+      + [Resumen de las visualizaciones de análisis](home/c-get-started/c-analysis-vis/c-analysis-vis.md)
       + [Diagrama de puntos 2D](home/c-get-started/c-analysis-vis/c-scat-plots.md)
       + [Diagrama de puntos 3D](home/c-get-started/c-analysis-vis/c-3d-scatterplots.md)
       + Anotaciones {#annotations}
@@ -139,10 +139,10 @@ ht-degree: 100%
          + [Anotaciones de texto](home/c-get-started/c-analysis-vis/c-annots/c-text-annots.md)
          + [Anotaciones de imagen](home/c-get-started/c-analysis-vis/c-annots/c-image-annots.md)
          + [Anotaciones de título dinámicas](home/c-get-started/c-analysis-vis/c-annots/c-dyn-title-annots.md)
-      + [Visualización del acorde de asociación](home/c-get-started/c-analysis-vis/associations-chord.md)
+      + [Visualización de acordes de asociación](home/c-get-started/c-analysis-vis/associations-chord.md)
       + [Visualización de tabla de asociación](home/c-get-started/c-analysis-vis/associations-visualization.md)
       + Clúster de visitantes {#visitor-cluster}
-         + [Información general sobre clústeres de Visitante](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-visitor-cluster.md)
+         + [Información general sobre clústeres de visitantes](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-visitor-cluster.md)
          + [Clustering 2.0](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-clustering-2.md)
          + [Creación de clústeres](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-defining-clusters.md)
          + [Exploración de clústeres](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-exploring-clusters.md)
@@ -153,19 +153,19 @@ ht-degree: 100%
          + [Casos de uso de análisis de correlaciones](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-use-cases.md)
          + [Filtro binario en la matriz de correlación](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-binary-filter.md)
       + Generador de árboles de decisión {#decision-trees}
-         + [Información general del generador de árboles de decisiones](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees.md)
-         + [Creación de un árbol de decisiones](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees-setting-up.md)
-         + [Opciones del árbol de decisiones](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees-menu.md)
-         + [Opción de árbol de regresión para el árbol de decisiones](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees-regression.md)
+         + [Información general del generador de árboles de decisión](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees.md)
+         + [Creación de un árbol de decisión](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees-setting-up.md)
+         + [Opciones del árbol de decisión](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees-menu.md)
+         + [Opción de árbol de regresión para el árbol de decisión](home/c-get-started/c-analysis-vis/c-decision-trees/c-decision-trees-regression.md)
       + [Mapa de densidad](home/c-get-started/c-analysis-vis/c-density-map.md)
       + [Tabla de detalles](home/c-get-started/c-analysis-vis/c-dtl-tables.md)
       + Editores de filtros {#filter-editors}
          + [Información general de los editores de filtros](home/c-get-started/c-analysis-vis/c-filter-editors/c-filter-editors.md)
          + [Trabajo con condiciones de filtro](home/c-get-started/c-analysis-vis/c-filter-editors/c-filter-con.md)
-         + [Filtros de guardar y cargar ](home/c-get-started/c-analysis-vis/c-filter-editors/t-save-filters.md)
+         + [Filtros de guardar y cargar](home/c-get-started/c-analysis-vis/c-filter-editors/t-save-filters.md)
          + [Edición manual de archivos de filtro](home/c-get-started/c-analysis-vis/c-filter-editors/c-edit-filter-files.md)
          + [Aplicación de un filtro a un espacio de trabajo](home/c-get-started/c-analysis-vis/c-filter-editors/c-app-filters-wksps.md)
-      + Visualización de embudo {#funnel-visualization}
+      + Visualización de canales {#funnel-visualization}
          + [Información general sobre la visualización de canales](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization.md)
          + [Funciones de canal](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-features.md)
          + [Creación de un canal](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-steps.md)
@@ -207,17 +207,17 @@ ht-degree: 100%
          + [Vista de más elementos en las rutas](home/c-get-started/c-analysis-vis/c-path-browsers/c-el-paths.md)
       + [Gráfico circular](home/c-get-started/c-analysis-vis/c-pie-chart.md)
       + Mapa del proceso {#process-maps}
-         + [Descripción general del mapa de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/c-proc-maps.md)
+         + [Descripción general del mapa del proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-proc-maps.md)
          + [Tipos de mapas de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/c-types-proc-maps.md)
-         + [Creación de un mapa de proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-create-proc-maps.md)
-         + [Movimiento y rotación de un mapa de proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-move-proc-maps.md)
+         + [Creación de un mapa del proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-create-proc-maps.md)
+         + [Movimiento y rotación de un mapa del proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-move-proc-maps.md)
          + [Selección de un nodo](home/c-get-started/c-analysis-vis/c-proc-maps/c-sel-nodes.md)
          + [Movimiento un nodo](home/c-get-started/c-analysis-vis/c-proc-maps/c-move-nodes.md)
          + [Eliminación de un nodo](home/c-get-started/c-analysis-vis/c-proc-maps/c-rem-nodes.md)
          + [Etiqueta de un nodo](home/c-get-started/c-analysis-vis/c-proc-maps/c-label-nodes.md)
-         + [Realización de una selección desde un mapa de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/c-sel-proc-maps.md)
-         + [Almacenamiento de una dimensión de un mapa de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/t-dim-proc-maps.md)
-         + [Creación de una visualización a partir de un mapa de procesos](home/c-get-started/c-analysis-vis/c-proc-maps/c-vis-proc-maps.md)
+         + [Realización de una selección desde un mapa del proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-sel-proc-maps.md)
+         + [Almacenamiento de una dimensión de un mapa del proceso](home/c-get-started/c-analysis-vis/c-proc-maps/t-dim-proc-maps.md)
+         + [Creación de una visualización a partir de un mapa del proceso](home/c-get-started/c-analysis-vis/c-proc-maps/c-vis-proc-maps.md)
          + [Activación de un vínculo de color](home/c-get-started/c-analysis-vis/c-proc-maps/c-act-color-lnks.md)
          + [Mostrar una cantidad de métrica](home/c-get-started/c-analysis-vis/c-proc-maps/c-disp-metric-quantities.md)
          + [Añadir una llamada](home/c-get-started/c-analysis-vis/c-proc-maps/c-add-callouts.md)
@@ -320,7 +320,7 @@ ht-degree: 100%
       + [Funciones de interfaz y análisis](home/c-get-started/c-intf-anlys-ftrs/c-intf-anlys-ftrs.md)
       + [Personalización de Data Workbench localmente](home/c-get-started/c-intf-anlys-ftrs/c-cstm-lcl.md)
       + Personalización de menús {#custom-menus}
-         + [Personalización de menús](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md)
+         + [Personalización de un menú](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md)
          + [Creación de un menú de espacio de trabajo y un elemento de menú](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-wksp-menus-itms.md)
          + [Personalización de un menú mediante archivos order.txt](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/t-cstm-menus-ordr-files.md)
       + Personalización del administrador de perfiles y del administrador de archivos del servidor {#cstm-prof-files-mgrs}
@@ -344,7 +344,7 @@ ht-degree: 100%
       + [Creación de una dimensión de latencia](home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/t-create-ltncy-dims.md)
       + [Configuración de una superposición de página](home/c-get-started/c-intf-anlys-ftrs/c-config-pg-ovlys.md)
       + [Configuración de un explorador de rutas](home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md)
-      + [Configuración de un mapa de proceso](home/c-get-started/c-intf-anlys-ftrs/t-config-proc-maps.md)
+      + [Configuración de un mapa del proceso](home/c-get-started/c-intf-anlys-ftrs/t-config-proc-maps.md)
       + [Configuración de la interfaz de esquema del conjunto de datos](home/c-get-started/c-intf-anlys-ftrs/t-dataset-schema-intf.md)
       + [Localización de dimensiones de tiempo](home/c-get-started/c-intf-anlys-ftrs/dwb-format-time-dimensions.md)
    + [Parámetros de configuración](home/c-get-started/c-insght-config-param.md)
@@ -443,7 +443,7 @@ ht-degree: 100%
          + [Tipos de dimensiones extendidas](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-types-ex-dim.md)
          + [Dimensiones contables](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-count-dim.md)
          + [Dimensiones simples](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-simple-dim.md)
-         + [Dimensión “varios a varios”](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-many-dim.md)
+         + [Dimensiones “varios a varios”](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-many-dim.md)
          + [Dimensiones numéricas](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-num-dim.md)
          + [Dimensiones denormales](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-denormal-dim.md)
          + [Dimensiones temporales](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-time-dim.md)
@@ -456,14 +456,14 @@ ht-degree: 100%
             + [Definición de exportadores](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/t-def-exp.md)
             + [Archivos Transform.cfg de Data Workbench de muestra](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/c-sample-transf-files.md)
          + [El archivo Transform Mode.cfg](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-transf-mode-file.md)
-         + [El archivo requerido de Field Definitions.cfg ](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/c-req-field-def-file.md)
+         + [El archivo requerido de Field Definitions.cfg](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/c-req-field-def-file.md)
    + Reprocesamiento y retransformación {#reproc-retrans}
-      + [Explicación del reprocesamiento y la transformación](home/c-dataset-const-proc/c-reproc-retrans/c-unst-reproc-retrans.md)
+      + [Explicación del reprocesamiento y retransformación](home/c-dataset-const-proc/c-reproc-retrans/c-unst-reproc-retrans.md)
       + [Preparación para reprocesamiento o retransformación](home/c-dataset-const-proc/c-reproc-retrans/t-prep-reproc-retrans.md)
    + Herramientas de configuración de conjuntos de datos {#dataset-config-tools}
       + [Herramientas de configuración de conjuntos de datos](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-tools.md)
       + Interfaces de configuración de conjuntos de datos {#dataset-config-ui}
-         + [Trabajo con interfaces de configuración de conjuntos de datos ](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-config-int.md)
+         + [Trabajo con interfaces de configuración de conjuntos de datos](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-config-int.md)
          + [Esquema del conjunto de datos](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-schema.md)
          + [Visualizadores de campo](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-field-viewers.md)
       + Ocultar componentes de conjuntos de datos {#hide-dataset-comp}
@@ -594,7 +594,7 @@ ht-degree: 100%
    + [Consideraciones P3P para el etiquetado de páginas de terceros](home/c-undst-pg-tag/c-cons-thrd-pty-pg-tag.md)
    + [Hoja de cálculo de asignación de variables de etiquetas de página](home/c-undst-pg-tag/c-pg-tag-wkst.md)
 + Métricas, dimensiones y filtros {#metrics}
-   + [Acerca de las métricas de Data Workbench, las dimensiones y los filtros](home/c-about/c-about.md)
+   + [Acerca de métricas, dimensiones y filtros de Data Workbench](home/c-about/c-about.md)
    + [Expansión de métricas, dimensiones y filtros](home/c-about/c-expand-capabilities.md)
    + [Tipos de dimensiones](home/c-about/c-dimension-types.md)
    + [Asistente para atenuación de métricas](home/c-about/metric-dim.md)
@@ -765,7 +765,7 @@ ht-degree: 100%
          + [Actualización de transformación](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [Actualización del repetidor](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
       + [Desinstalación del software](home/c-inst-svr/c-upgrd-uninst-sftwr/c-uninstl-sftwr.md)
-   + Parámetros de configuración {#config-settings}
+   + Ajustes de configuración {#config-settings}
       + [Referencia de ajustes de configuración](home/c-inst-svr/c-cfg-stgs-ref/c-cfg-stgs-ref.md)
       + [Estructura de directorio de Insight Server](home/c-inst-svr/c-cfg-stgs-ref/c-ins-svr-dir-str.md)
       + [Configuración de alertas administrativas](home/c-inst-svr/c-cfg-stgs-ref/c-admin-alts-cfg-stgs.md)
@@ -802,7 +802,7 @@ ht-degree: 100%
       + [Supervisión de los eventos administrativos](home/c-snsr-ovrvw/admin-sensor/c-mntr-admin-evts.md)
       + [Cambio del destino del servidor de Data Workbench](home/c-snsr-ovrvw/admin-sensor/t-trgt-ins-svr.md)
       + Sensores sin conexión {#offline}
-         + [Cómo tratar con sensores sin conexión](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-ofln-snsrs.md)
+         + [Uso de sensores sin conexión](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-ofln-snsrs.md)
          + [Explicación del tiempo “Con fecha”](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-as-of-tm.md)
          + [Explicación de las causas](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-unstd-cause.md)
          + [Solución del problema](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-slv-pblm.md)
@@ -838,7 +838,7 @@ ht-degree: 100%
    + [Funciones](home/c-adobe-data-workbench-dashboard/c-features.md)
    + [Glosario](home/c-adobe-data-workbench-dashboard/c-glossary.md)
    + [Introducción](home/c-adobe-data-workbench-dashboard/t-getting-started/t-getting-started.md)
-   + [Panel de interfaz de usuario](home/c-adobe-data-workbench-dashboard/t-getting-started/c-dashboard-user-interface.md)
+   + [Interfaz de usuario del panel](home/c-adobe-data-workbench-dashboard/t-getting-started/c-dashboard-user-interface.md)
    + Visualizaciones {#visualizations}
       + [Visualizaciones](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualizations.md)
       + Tipos de visualización {#visualization-types}
@@ -959,6 +959,6 @@ ht-degree: 100%
       + [Implementación de funciones de Data Workbench](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-deliver.md)
       + [Cambios en la configuración para nuevo esquema](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [Configuración de dimensiones derivadas](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
-+ [Query API](https://www.adobe.io/)
++ [API de consulta](https://www.adobe.io/)
 + [Integración de Data Workbench con Adobe Target](home/dwb-adobe-target.md)
 + [Glosario de Data Workbench](dwb-glossary.md)
