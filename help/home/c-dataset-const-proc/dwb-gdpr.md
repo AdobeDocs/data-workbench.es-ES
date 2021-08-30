@@ -2,9 +2,9 @@
 description: La Data Workbench de Adobe proporciona herramientas y procesos para preparar sus datos para cumplir con las Regulaciones Generales de Protección de Datos (RGPD).
 title: Compatibilidad de Data Workbench con el RGPD
 exl-id: fdc43567-0c57-4851-9073-e295258a8074
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 050468bf6a9ef9c07719ded79c8ab68753d58647
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ El reglamento del RGPD identifica las funciones y obligaciones de las diferentes
 
 * Su organización actúa como **controlador de datos** para determinar el contexto y la retención de datos personales en función de sus necesidades y restricciones. A continuación, Adobe procesa y almacena estos datos en su nombre.
 * Adobe actúa como el **procesador de datos** para proporcionar el software y los servicios necesarios para implementar los requisitos del RGPD según su acuerdo con el Adobe.
-* Después de integrar la Data Workbench con el servicio RGPD y según los estándares del RGPD, los visitantes de un sitio (los **interesados**) pueden ejercer su &quot;derecho al olvido&quot; mediante Adobe, el procesador de datos. Para lograr el derecho al olvido, usted como responsable del tratamiento de datos puede cargar los ID de visitante cuestionados a la Adobe desde una interfaz de usuario o API. Consulte la documentación [Flujo de trabajo del RGPD de Adobe Analytics](https://docs.adobe.com/help/en/analytics/admin/data-governance/an-gdpr-workflow.html) para obtener más información, incluida la sección [enviar solicitudes de acceso y eliminación](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-submit-access-delete.html).
+* Después de integrar la Data Workbench con el servicio RGPD y según los estándares del RGPD, los visitantes de un sitio (los **interesados**) pueden ejercer su &quot;derecho al olvido&quot; mediante Adobe, el procesador de datos. Para lograr el derecho al olvido, usted como responsable del tratamiento de datos puede cargar los ID de visitante cuestionados a la Adobe desde una interfaz de usuario o API. Consulte la documentación [Flujo de trabajo del RGPD de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-workflow.html?lang=en) para obtener más información, incluida la sección [enviar solicitudes de acceso y eliminación](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-submit-access-delete.html).
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ description: A continuación se indican los requisitos y recomendaciones para in
 title: Requisitos de Workstation
 uuid: 3c4ba2e8-efbc-45fe-8ac1-923d070bc710
 exl-id: 35e259e3-3d6d-45c8-a923-2f8de117489d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 050468bf6a9ef9c07719ded79c8ab68753d58647
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 A continuación se indican los requisitos y recomendaciones para instalar la estación de trabajo (cliente) en Data Workbench.
 
-Consulte [Requisitos del sistema del servidor](https://docs.adobe.com/help/en/data-workbench/using/server-admin-install/c-msr-server.html) para conocer los requisitos adicionales del sistema de Data Workbench.
+Consulte [Requisitos del sistema del servidor](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/c-msr-server.html?lang=en) para conocer los requisitos adicionales del sistema de Data Workbench.
 
 >[!IMPORTANT]
 >
