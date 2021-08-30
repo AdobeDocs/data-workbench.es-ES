@@ -3,9 +3,9 @@ description: El Administrador de perfiles muestra todos los directorios asociado
 title: Creación de un administrador de perfiles
 uuid: e16741e2-740b-4f57-861d-e2f57d30abbc
 exl-id: 43b95473-ab3e-4a80-9b91-7c221e74b096
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ El Administrador de perfiles muestra todos los directorios asociados con su perf
 
 Es posible que desee acceder a un subdirectorio de [!DNL Profile Manager] sin tener que desplazarse por toda la estructura de directorios. Por ejemplo, las opciones de menú [!DNL Metrics] y [!DNL Workspaces] disponibles en el menú [!DNL Manage] del menú de la ventana del espacio de trabajo permiten abrir las carpetas Métricas y Espacios de trabajo del Administrador de perfiles, respectivamente.
 
-Para obtener más información sobre [!DNL Profile Manager], consulte [El administrador de perfiles](https://docs.adobe.com/content/help/en/data-workbench/using/client/ui-analysis-features/cstm-prof-files-mgrs/c-new-prof-mgrs.html).
+Para obtener más información sobre [!DNL Profile Manager], consulte [El administrador de perfiles](https://experienceleague.adobe.com/docs/data-workbench/using/client/ui-analysis-features/cstm-prof-files-mgrs/c-new-prof-mgrs.html).
 
 De forma predeterminada, tiene acceso a los siguientes administradores:
 

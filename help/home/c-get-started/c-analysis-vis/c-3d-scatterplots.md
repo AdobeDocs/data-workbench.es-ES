@@ -3,9 +3,9 @@ description: Un diagrama de puntos 3D representa los elementos de una dimensión
 title: Diagrama de puntos 3D
 uuid: 5e23547c-dbb4-490c-94bc-0731deee612e
 exl-id: 18f18cab-a31b-4ffe-89c5-412a5645af2e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Un diagrama de puntos 3D representa los elementos de una dimensión de datos (como Días o Sitio de referencia) en una cuadrícula tridimensional donde los ejes x, y y z representan varias métricas.
 
-Al igual que el [Diagrama de puntos 2D](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html#Scatter_Plots), esta visualización es útil cuando se intenta comprender la relación entre grandes cantidades de elementos dispares que emplean distintas métricas.
+Al igual que el [Diagrama de puntos 2D](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Scatter_Plots), esta visualización es útil cuando se intenta comprender la relación entre grandes cantidades de elementos dispares que emplean distintas métricas.
 
 **Para utilizar la visualización del diagrama de puntos 3D:**
 

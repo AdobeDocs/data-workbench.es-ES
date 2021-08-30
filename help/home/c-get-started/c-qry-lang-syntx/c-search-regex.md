@@ -3,9 +3,9 @@ description: Data Workbench utiliza expresiones regulares (regex) para operacion
 title: Expresiones regulares
 uuid: dc8c1e88-4d95-4011-8a38-70fae0c5cf6d
 exl-id: bb1be6d8-3b7a-47e4-bb29-4a65de99666b
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
@@ -45,4 +45,4 @@ Dentro del campo **[!UICONTROL Search]** puede realizar una búsqueda siguiendo 
 
 También se pueden utilizar expresiones regulares comunes adicionales para crear cadenas de búsqueda más complejas. Las expresiones regulares se utilizan en todos los campos de búsqueda de Datas Workbench, incluidos los paneles de entidades de consulta.
 
-Consulte la información detallada en [expresiones regulares](https://docs.adobe.com/content/help/en/data-workbench/using/dataset/c-dataset-constr.html#Regular_Expressions).
+Consulte la información detallada en [expresiones regulares](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-dataset-constr.html#Regular_Expressions).

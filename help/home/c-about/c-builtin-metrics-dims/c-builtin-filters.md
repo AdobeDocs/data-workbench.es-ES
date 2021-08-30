@@ -3,9 +3,9 @@ description: Los filtros de perfil limitan el alcance de los datos disponibles e
 title: Filtros de perfil integrados
 uuid: d6854d2c-4643-476e-8a44-f188e18cb115
 exl-id: bb167487-415d-44a8-9a0a-9a76d90ba5c0
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Los usuarios pueden crear subconjuntos de datos ellos mismos o acceder a subconj
 >
 >Puede crear varios subconjuntos de datos y conmutarlos para que vean distintas partes de los datos. Recuerde desactivar la subconfiguración de datos cuando desee ver todos los datos. De lo contrario, los valores de las métricas no serán representativos de todos los datos del conjunto de datos.
 
-## Filtro de sesión roto {#section-1608e97da6464b11aea27cbb7f3160e4}
+## Filtro de sesión interrumpido {#section-1608e97da6464b11aea27cbb7f3160e4}
 
 El filtro de sesión interrumpida es una fórmula de métrica que se puede modificar fácilmente para satisfacer cualquier requisito de filtrado. En los perfiles predeterminados del sitio, el filtro de sesión interrumpida está configurado para incluir a todos los visitantes que tengan un indicador visitado establecido en 1. El valor 1 indica la presencia de una cookie de seguimiento para ese visitante.
 
@@ -51,4 +51,4 @@ entity = derived_filter:
 
 De forma predeterminada, los espacios de trabajo tienen el filtro Sesión rota aplicado tanto a su selección como a sus puntos de referencia, y se puede alternar haciendo clic con el botón derecho en el espacio de trabajo y haciendo clic en Datos > Filtro de sesión roto.
 
-Se puede hacer referencia al Filtro de sesión interrumpido en expresiones de filtro como Broken_Session_Filter, aunque no esté habilitado para el espacio de trabajo actual. Consulte [expresiones de filtro](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html#Syntax_for_Identifiers) para obtener más información.
+Se puede hacer referencia al Filtro de sesión interrumpido en expresiones de filtro como Broken_Session_Filter, aunque no esté habilitado para el espacio de trabajo actual. Consulte [expresiones de filtro](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Syntax_for_Identifiers) para obtener más información.

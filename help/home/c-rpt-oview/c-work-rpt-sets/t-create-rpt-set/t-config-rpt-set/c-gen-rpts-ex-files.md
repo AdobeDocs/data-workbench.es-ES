@@ -3,9 +3,9 @@ description: Información para generar informes como archivos de Excel.
 title: Generación de informes como archivos de Microsoft Excel
 uuid: 0717a916-93d6-4b8e-a2ff-e9179ba4a66e
 exl-id: 4e644867-db5e-4ca9-a2bf-1193e031f2bf
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '474'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Si se cumplen estos requisitos, [!DNL Report Server] inicia automáticamente Mic
 
 A menos que haya especificado un [!DNL Custom Title] para la visualización, el tipo de ventana (por ejemplo, Tabla de película) se usa como nombre de hoja de cálculo.
 
-Para obtener más información sobre cómo especificar [!DNL Custom Titles] para visualizaciones, consulte la [Guía del cliente de Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/client/t-open-ins.html).
+Para obtener más información sobre cómo especificar [!DNL Custom Titles] para visualizaciones, consulte la [Guía del cliente de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html?lang=es).
 
 ## Uso de un archivo de plantilla {#section-40ab11916f464b1a88214ab969da6751}
 

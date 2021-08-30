@@ -1,26 +1,26 @@
 ---
 description: Nuevas funciones introducidas en la Data Workbench 6.0.4, incluidas las correcciones de errores y los problemas conocidos.
-title: Notas de la versión Data Workbench 6.0
+title: Notas de la versión de Data Workbench 6.0
 uuid: b348425e-3304-4db7-a280-479a34452bdb
 exl-id: be69b3be-24e7-4a8c-9dc8-1360a9b6fb3a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1677'
 ht-degree: 2%
 
 ---
 
-# Notas de la versión Data Workbench 6.0
+# Notas de la versión de Data Workbench 6.0
 
 Nuevas funciones introducidas en la Data Workbench 6.0.4, incluidas las correcciones de errores y los problemas conocidos.
 
-## Nuevas funciones {#section-1225066ea8f44cf68e42e019d0bca816}
+## Nuevas características {#section-1225066ea8f44cf68e42e019d0bca816}
 
 Data Workbench (Insight 6.0) incluye estas nuevas funciones y visualizaciones para añadir funciones de informes y herramientas de análisis predictivo.
 
 | Funciones de Data Workbench | Descripción |
 |---|---|
-| [Visualización de embudo](../../../home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization.md#concept-79a0854325324bb9a60906cf79ef66da) | La visualización de canal permite definir el flujo de proceso secuencial de sus clientes y proporciona visibilidad de las visitas en el orden previsto de los visitantes en cada paso del proceso. |
+| [Visualización de canales](../../../home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization.md#concept-79a0854325324bb9a60906cf79ef66da) | La visualización de canal permite definir el flujo de proceso secuencial de sus clientes y proporciona visibilidad de las visitas en el orden previsto de los visitantes en cada paso del proceso. |
 | [Clúster de visitantes](../../../home/c-get-started/c-analysis-vis/c-visitor-cluster/c-visitor-cluster.md#concept-1c2406ef7b284a56a02daa38eaa2e73d) | La agrupación en clústeres permite aprovechar las características de los clientes para categorizar de forma dinámica a los visitantes y generar conjuntos de clústeres basados en entradas de datos seleccionadas para el análisis y la segmentación de los clientes. |
 | [Análisis de correlación](../../../home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-analysis.md#concept-a7c8766b40be43aaa4084612689b630c) | El análisis de correlación permite identificar rápidamente las relaciones de datos relevantes para ampliar y mejorar el análisis. |
 | [Distribución actualizada de DeviceAtlas](../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md#concept-28b7bd5c0d854e73834261c431bed1e0) | El archivo JSON de DeviceAtlas ahora se distribuirá en un archivo .bundle (cuyo nombre ha cambiado a .tar.gz) junto con DeviceAtlas.dll y DeviceAtlas64.dll. |
@@ -254,13 +254,13 @@ Para usar la nueva fuente de datos de SiteCatalyst:
 
 * Ahora, la combinación de teclas para salir de un espacio de trabajo sin guardar los cambios se ha actualizado a **[!UICONTROL `<Ctrl>`+`<Backspace>`]**. Anteriormente, se anulaban los cambios y se cerraba un espacio de trabajo pulsando `<Ctrl>` + `<Delete>`.
 
-## Notas de la versión Data Workbench 6.0.4{#data-workbench-release-notes}
+## Notas de la versión de Data Workbench 6.0.4{#data-workbench-release-notes}
 
 Nuevas funciones introducidas en la Data Workbench 6.0.4, incluidas las correcciones de errores y los problemas conocidos.
 
-Para ver las funciones y correcciones anteriores basadas en cada versión anterior, consulte los [archivos de notas de la versión](https://docs.adobe.com/content/help/es-ES/data-workbench/using/release-notes/release-notes.html).
+Para ver las funciones y correcciones anteriores basadas en cada versión anterior, consulte los [archivos de notas de la versión](https://experienceleague.adobe.com/docs/data-workbench/using/release-notes/release-notes.html).
 
-## Nuevas funciones {#section-2-1225066ea8f44cf68e42e019d0bca816}
+## Nuevas características {#section-2-1225066ea8f44cf68e42e019d0bca816}
 
 La Data Workbench 6.0.4 incluye estas nuevas funciones y visualizaciones para agregar funcionalidades de informes y herramientas de análisis predictivo.
 
@@ -270,7 +270,7 @@ La Data Workbench 6.0.4 incluye estas nuevas funciones y visualizaciones para ag
 
 Consulte [Puntuación de tendencia](../../../home/c-get-started/c-analysis-vis/c-visitor-propensity/c-visitor-propensity.md#concept-2958f4640dd44b9d86ad51c4f6165f40) para obtener información adicional sobre esta función.
 
-## Requisitos de actualización {#section-08bd6fe3da8740fcb19688e8cac6f223}
+## Requisitos de actualización  {#section-08bd6fe3da8740fcb19688e8cac6f223}
 
 **El ID de origen de registro debe definirse**. A partir de la versión 6.04, si el ID de fuente de registro no está definido, obtendrá el siguiente error:
 

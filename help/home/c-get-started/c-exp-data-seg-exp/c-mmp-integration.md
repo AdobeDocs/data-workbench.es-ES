@@ -1,33 +1,35 @@
 ---
-description: El Área de trabajo de datos permite exportar archivos para integrarlos con Profiles and Audiences Export como parte de una Adobe Experience Cloud integrada.
-title: Exportación de perfil de marketing principal
+description: La Data Workbench permite exportar archivos para integrarlos con la exportación de perfiles y audiencias como parte de un Adobe Experience Cloud integrado.
+title: Exportación del perfil de marketing maestro
 uuid: bae0f0c5-a452-4afd-9f2c-5f3ab69a12d2
-translation-type: tm+mt
-source-git-commit: 2e4991206394ca0c463210990ea44dfb700341a5
+exl-id: 9fc89815-d31d-41a7-a0c0-de1e84b24baa
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 3%
 
 ---
 
+# Exportación del perfil de marketing maestro{#master-marketing-profile-export}
 
-# Exportación de perfil de marketing principal{#master-marketing-profile-export}
-
-El Área de trabajo de datos permite exportar archivos para integrarlos con Perfiles y audiencias como parte de una Adobe Experience Cloud integrada.
+La Data Workbench permite exportar archivos para integrarlos con Perfiles y audiencias como parte de un Adobe Experience Cloud integrado.
 
 <!-- <a id="section_731922BC8628479198A41EF3EA72F2FF"></a> -->
 
-Profiles and Audiences forma parte del servicio [](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud Identity, un servicio principal de [!DNL Adobe Experience Cloud]. La exportación Perfiles y audiencias permite compartir audiencias en Experience Cloud mediante un ID de Experience Cloud (ECID) único que se asigna a cada visitante y que luego [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)utiliza. La [!DNL ExportIntegration.exe] aplicación ( [!DNL E:\Server\Scripts]) se utiliza para generar exportaciones de MMP y Adobe Target.
+Profiles and Audiences forma parte del [servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es), un servicio principal del [!DNL Adobe Experience Cloud]. La exportación Perfiles y audiencias permite compartir audiencias en el Experience Cloud con un ID de Experience Cloud único (ECID) asignado a cada visitante y utilizado por el [Audience Manager](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.html). La aplicación [!DNL ExportIntegration.exe] ( [!DNL E:\Server\Scripts]) se utiliza para generar exportaciones tanto de MMP como de Adobe Target.
 
-**Configuración del servidor FSU para utilizar Profiles and Audiences**
+**Configuración del servidor FSU para utilizar Perfiles y audiencias**
 
 1. Acceda a su servidor FSU.
-1. Abra el archivo MMPExport.cfg. `Server/Admin/Export/MMPExport.cfg`.
+1. Abra el archivo MPExport.cfg . `Server/Admin/Export/MMPExport.cfg`.
 1. Introduzca valores en todos los campos según sea necesario. Por ejemplo:
 
    >[!NOTE]
    >
-   >La integración de MMP/AAM depende del bucket s3 de Amazon para la transferencia de datos.
+   >La integración de MMP/AAM se basa en el compartimento s3 de Amazon para la transferencia de datos.
    >
    >
-   >La información s3 requerida para la transferencia de MMP (s3) puede obtenerse del equipo de Audience Manager.
+   >La información s3 requerida para la transferencia de MMP (s3) puede obtenerse del equipo del Audience Manager.
 
    ```
    Sample MMPExport.cfg
@@ -49,7 +51,7 @@ Profiles and Audiences forma parte del servicio [](https://docs.adobe.com/conten
 
    >[!NOTE]
    >
-   >El [!DNL MMPExport.cfg]archivo también permite tomar todos los registros, dividirlos en conjuntos y crear fragmentos de registros. Los trozos de registros se exportan a Amazon S3. Se requieren tres parámetros obligatorios para crear fragmentos de registros: [!DNL numRecordsPerChunk], [!DNL numThreads], y [!DNL maxRetriesOnSendFailure].
+   >El archivo [!DNL MMPExport.cfg]también permite tomar todos los registros, dividirlos en conjuntos y crear fragmentos de registros. A continuación, los fragmentos de registros se exportan a Amazon S3. Se requieren tres parámetros obligatorios para crear fragmentos de registros: [!DNL numRecordsPerChunk], [!DNL numThreads] y [!DNL maxRetriesOnSendFailure].
 
 **Definición de parámetros**
 
@@ -62,36 +64,36 @@ Profiles and Audiences forma parte del servicio [](https://docs.adobe.com/conten
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>Bucket s3</i> </td> 
-   <td colname="col2"> Cubo AWS S3 al que se transfiere la exportación. </td> 
+   <td colname="col1"> <i>s3 Bucket</i> </td> 
+   <td colname="col2"> El depósito de AWS S3 al que se transfiere la exportación. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <i>Directorio de objetos s3</i> </td> 
-   <td colname="col2"> Una ruta para guardar archivos s3. Esto admite subdirectorios. <p> <p>Importante:  No se permiten caracteres de espacio y multibyte en la ruta y se crearán errores en la exportación. (Se permite el guión). </p> </p> </td> 
+   <td colname="col1"> <i>s3 Object Directory</i> </td> 
+   <td colname="col2"> Una ruta para guardar archivos s3. Esto admite subdirectorios. <p> <p>Importante:  El espacio y los caracteres multibyte no están permitidos en la ruta y crean errores en la exportación. (se permite el guión). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>Región de s3</i> </td> 
-   <td colname="col2"> Región de AWS s3 a la que se envía la exportación. Por ejemplo: us-east-1 </td> 
+   <td colname="col2"> Región de AWS s3 a la que se envía la exportación. Ejemplo us-east-1 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>Clave de acceso s3</i> </td> 
    <td colname="col2"> Clave de acceso de AWS s3 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <i>Clave secreta de s3</i> </td> 
+   <td colname="col1"> <i>Clave secreta s3</i> </td> 
    <td colname="col2"> Clave secreta de AWS s3 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>nombre del proveedor de datos</i> </td> 
-   <td colname="col2"> Será el nombre de la carpeta que se utiliza para almacenar segmentos y características en AAM, respectivamente. Debe ser único por cliente. </td> 
+   <td colname="col2"> Será el nombre de la carpeta que se utilizará para almacenar segmentos y rasgos en AAM respectivamente. Debe ser único por cliente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>ID de cliente</i> </td> 
    <td colname="col2"> Se trata de un ID de cliente único que se proporciona a un cliente cuando se aprovisiona para MMP. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <i>secreto del cliente</i> </td> 
-   <td colname="col2"> <p><i></i>Se trata de un secreto de cliente único que se proporciona a un cliente cuando se le aprovisiona para MMP. </p> </td> 
+   <td colname="col1"> <i>Secreto del cliente</i> </td> 
+   <td colname="col2"> <p><i></i>Este es un secreto de cliente único que se proporciona a un cliente cuando está aprovisionado para MMP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>username</i> </td> 
@@ -103,37 +105,37 @@ Profiles and Audiences forma parte del servicio [](https://docs.adobe.com/conten
   </tr> 
   <tr> 
    <td colname="col1"> <i>numRecordsPerChunk</i> </td> 
-   <td colname="col2"> <p>Determina el tamaño del fragmento en términos de número de registros. </p> <p>La implementación recorta el valor especificado por el usuario a mín. = 1000 registros&amp;nbsp;(~trozos de 50 KB)&amp;nbsp;y máx. = 50000 registros (~trozos de 2,5 MB).&amp;nbsp;Se utiliza un valor predeterminado de 10000 en caso de que el usuario no especifique esta propiedad de configuración. </p> </td> 
+   <td colname="col2"> <p>Determina el tamaño del fragmento en términos del número de registros. </p> <p>La implementación recorta el valor especificado por el usuario a min = 1000 records&amp;nbsp;(~trozos de 50 KB)&amp;nbsp;y max = 50000 registros (~trozos de 2,5 MB).&amp;nbsp;Se utiliza un valor predeterminado de 10000 en caso de que el usuario no especifique esta propiedad de configuración. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <i>numThwords</i> </td> 
-   <td colname="col2"> <p>Determina el paralelismo de la parte que envía el fragmento. Acepta un valor entre 1 y 24 subprocesos y su valor predeterminado es 12 subprocesos. </p> </td> 
+   <td colname="col1"> <i>numThreads</i> </td> 
+   <td colname="col2"> <p>Determina el paralelismo de la parte de envío del fragmento. Acepta un valor entre 1 y 24 subprocesos, y su valor predeterminado es 12 subprocesos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>maxRetriesOnSendFailure</i> </td> 
-   <td colname="col2"> <p>Determina el número de intentos de reintento que se deben realizar en caso de errores de envío de fragmentos. El valor predeterminado es 0 y no especifica ningún reintento. </p> <p>El intervalo de espera de 2 segundos se utiliza entre reintentos. </p> </td> 
+   <td colname="col2"> <p>Determina el número de intentos de reintento que se deben realizar en caso de errores de envío de fragmento. El valor predeterminado es 0, que no especifica ningún reintento. </p> <p>Se utiliza un intervalo de espera de 2 segundos entre los reintentos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Generación de la exportación de MMP desde el cliente**
 
-1. Desde el cliente, abra un espacio de trabajo y haga clic con el botón derecho **[!UICONTROL Tools]**> **[!UICONTROL Detail Table]**.
-1. Agregar **nivel**.
+1. Desde el cliente, abra un espacio de trabajo y haga clic con el botón derecho en **[!UICONTROL Tools]**> **[!UICONTROL Detail Table]**.
+1. Agregar **Nivel**.
 1. Haga clic con el botón derecho en el encabezado y seleccione **Agregar atributos**.
-1. Haga clic con el botón derecho en el encabezado y seleccione **Nueva exportación** de perfil de marketing principal. ![](assets/mmp_mmp_export.png)
-1. Expanda **Consulta**.
+1. Haga clic con el botón derecho en el encabezado y seleccione **New Master Marketing Profile Export**. ![](assets/mmp_mmp_export.png)
+1. Expanda **Query**.
 
    ![](assets/mmp_mmp_query.png)
 
-1. Expanda Configuración **** MMP.
-1. (obligatorio) Introduzca el nombre **del segmento** MMP y el campo **ID del visitante de** MMP. Estos parámetros no se pueden dejar vacíos.
-1. El nombre **del segmento** MMP debe coincidir con el ID del segmento definido en el MMP.
-1. El ID **de visitante de** MMP es la columna de atributos definida en el paso 4 que corresponde al ID **de** visitante.
-1. Una vez especificados estos campos, puede guardar la exportación haciendo clic con el botón derecho en el encabezado de la exportación y elegir **Guardar** como &quot;Usuario\.exportar&quot;.
-1. Abra **Administrador** > Administrador **de perfiles** y guarde la exportación en el perfil.
+1. Expanda **Configuración de MMP**.
+1. (obligatorio) Introduzca **MMP Segment Name** y **MMP Visitor ID Field**. Estos parámetros no se pueden dejar vacíos.
+1. El **nombre del segmento MMP** debe coincidir con el ID del segmento definido en el MMP.
+1. El **ID de visitante MMP** es la columna de atributo definida en el paso 4 que corresponde al **ID de visitante**.
+1. Una vez introducidos estos campos, puede guardar la exportación haciendo clic con el botón derecho en el encabezado de la exportación y elegir **Save** como &quot;User\.export&quot;.
+1. Abra **Admin** > **Administrador de perfiles** y guarde la exportación en el perfil.
 
-   Si todos los datos se introducen correctamente, se generará un archivo de exportación en la FSU ([!DNL Server/Exports]) y también se transferirá la exportación al AWS utilizando la información de la [!DNL MMPExport.cfg]. El registro para esto se proporciona en [!DNL Server/Trace/]. p. ej., [!DNL MMP-102014-133651- `<Segment Export Name>` .log]
+   Si todos los datos se introducen correctamente, esto generará un archivo de exportación en la FSU ([!DNL Server/Exports]) y también transferirá la exportación al AWS utilizando la información de [!DNL MMPExport.cfg]. El registro para esto se proporciona en [!DNL Server/Trace/]. p. ej., [!DNL MMP-102014-133651- `<Segment Export Name>` .log]
 
 ```
 Query = SegmentExportQuery: 
@@ -165,6 +167,5 @@ Time Limit (sec) = double: 1800
 
 | Detalles de configuración | Descripción |
 |---|---|
-| ID de segmento de MMP | Requerido. Es un identificador que se define primero en Audience Manager. |
-| Campo de ID de visitante MMP | Asigne el ECID. |
-
+| ID de segmento de MMP | Requerido. Este es un identificador que debe definirse primero en Audience Manager. |
+| Campo de ID de visitante de MMP | Asigne el ECID. |

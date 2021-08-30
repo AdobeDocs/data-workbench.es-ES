@@ -2,9 +2,9 @@
 description: Utilice los paneles del Buscador en Data Workbench para seleccionar métricas, dimensiones y filtros. Estos paneles proporcionan compatibilidad con la búsqueda, opciones de clasificación y capacidades de arrastrar y soltar.
 title: Buscadores
 uuid: 7a4144f5-133f-48ed-9613-1e42b1313120
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ El **Finder** incluye las siguientes funciones:
     <ul id="ul_0F6F377E9906472E99008EBE7483F689"> 
      <li id="li_75857895EDB045C8B2960393854B257D"> <p>Coincidencia de patrones (búsqueda global simple). Empiece a escribir el nombre de una dimensión, métrica o entidad de filtro necesaria en el campo Buscar y solo las cadenas coincidentes contenidas en cualquier parte del nombre se filtrarán y mostrarán en el panel Buscadores . </p> <p>Por ejemplo, introduzca: </p> <code><b>Search:</b>click</code> <p>Puede obtener los siguientes resultados en el Buscador de Dimension: </p> <p><img placement="break" id="image_7CBAAABA92BB47658B7F9F5C0263CF20" src="assets/finders_glob_search.png" /> </p> <p>La coincidencia de patrones estándar permite utilizar caracteres comodín, como . (punto), "?" y "*" (estrella). </p> </li> 
      <li id="li_044F9EC1399B44CD81E1852F85137704"> <p>Expresiones regulares. También se admiten expresiones regulares más complejas para la capacidad de búsqueda añadida. Añada el prefijo "re:" antes del término de búsqueda (sin espacios) para interpretarlo como expresión regular. </p> <p>Por ejemplo, introduzca: </p> <code><b>Search:</b>re.*ip</code> <p>Puede obtener los siguientes resultados en el Buscador de Dimension: </p> <p><img placement="break" id="image_F47DB90B36504997AA1C509855B89A47" src="assets/finders_regex_search.png" /> </p> </li> 
-    </ul> <p>Para obtener información detallada sobre la búsqueda, consulte <a href="https://docs.adobe.com/content/help/en/data-workbench/using/dataset/c-reg-exp.html" format="http" scope="external"> expresiones regulares</a>. </p> </td> 
+    </ul> <p>Para obtener información detallada sobre la búsqueda, consulte <a href="https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-reg-exp.html" format="http" scope="external"> expresiones regulares</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Tipo de Dimension</b> </td> 

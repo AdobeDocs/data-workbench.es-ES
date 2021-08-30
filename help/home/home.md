@@ -1,23 +1,23 @@
 ---
 description: Documentación de Data Workbench
 title: Ayuda de Data Workbench
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 987b69f1-b82a-4719-a71d-b0250a4a4f92
 exl-id: 9c00c87e-e5dd-4806-9338-2336ae68176a
-source-git-commit: 3223733866e82b4ce439ee55fe96fed89a02c5c4
-workflow-type: ht
-source-wordcount: '273'
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+workflow-type: tm+mt
+source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
-# Ayuda de Data Workbench {#data-workbench-help}
+# Ayuda de Data Workbench{#data-workbench-help}
 
 ![Banner](/help/home/assets/doc_banner_workbench.png)
 
 [Data Workbench](http://www.adobe.com/es/solutions/digital-analytics/data-workbench.html) forma parte de [Adobe Analytics](http://www.adobe.com/es/solutions/digital-analytics.html). Posee una potente capacidad multicanal de gran flexibilidad diseñada para recopilar, procesar, analizar y visualizar datos a partir de interacciones de clientes en línea y sin conexión en todos los tipos de datos web, CRM, POS y otros. Los informes interactivos de Data Workbench le permiten analizar información estadística pertinente, y reaccionar al respecto, con objeto de supervisar la actividad y predecir tendencias en los clientes.
 
-* ![icono de Analytics](assets/analytics-icon-24.png) [Documentación de Analytics ](https://docs.adobe.com/content/help/es-ES/analytics/landing/home.html)
+* ![icono de Analytics](assets/analytics-icon-24.png) [Documentación de Analytics ](https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=es)
 * ![icono PDF](assets/pdf_icon.png) [Descargue toda la documentación de Data Workbench en formato PDF](/help/home/assets/data-workbench.pdf)
 
 ## Temas clave
@@ -35,7 +35,7 @@ Data Workbench incluye estas funciones de análisis predictivo, visualizaciones 
 
 ## Más guías del usuario de Analytics
 
-[Guías del usuario de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/home.html)
+[Guías del usuario de Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html)
 
 ## Notas de la versión y nuevas funciones de Data Workbench
 
