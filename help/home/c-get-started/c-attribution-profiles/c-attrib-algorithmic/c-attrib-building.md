@@ -3,9 +3,9 @@ description: Abra Atribución de mejor ajuste en el menú Premium y siga estos p
 title: Creación de un modelo de atribución de mejor ajuste
 uuid: d1fd0340-1917-41bc-9a08-e78a79d084e7
 exl-id: e0a42374-2500-46a3-a72a-708ab2d228db
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b21da6d12175fa8570b1b366049baa9c8e8ea862
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '860'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Consulte una descripción general de [Atribución de mejor ajuste](../../../../h
 
    >[!NOTE]
    >
-   >La atribución de mejor ajuste es una función de Adobe Analytics Premium que requiere que habilite Premium en el perfil. Requiere que actualice el certificado y añada el perfil Premium a su archivo profile.cfg. Consulte [Actualización del servidor DWB: 6.2 a 6.3](https://experienceleague.adobe.com/docs/data-workbench/using/install/upgrade-dwb/c-6-2-to-6-3-upgrade.html) para DWB 6.3.
+   >La atribución de mejor ajuste es una función de Adobe Analytics Premium que requiere que habilite Premium en el perfil. Requiere que actualice el certificado y añada el perfil Premium a su archivo profile.cfg. Consulte [Actualización del servidor DWB: 6.2 a 6.3](/help/home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md) para DWB 6.3.
 
 1. Establezca la métrica **[!UICONTROL Success]**.
 
@@ -108,54 +108,54 @@ Cuando se complete, un gráfico mostrará un modelo de atribución calculado por
 
 El menú **Opciones** proporciona funciones avanzadas para configurar y mostrar el análisis de atribución de mejor ajuste.
 
-<table id="table_8F6F517B7DBF4259814BEC6D07A72EAC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Menú Opciones </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
+<table id="table_8F6F517B7DBF4259814BEC6D07A72EAC">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Menú Opciones </th>
+   <th colname="col2" class="entry"> Descripción </th>
   </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> Definir filtro de formación  </span> </td> 
-   <td colname="col2"> El filtro de formación se utiliza con la ventana de éxito para filtrar la población al crear el modelo de atribución. Proporcionará un subconjunto de datos que incluye solo los visitantes que desee analizar. <p>Nota: Los usuarios con experiencia también pueden aprovechar la flexibilidad de los filtros para centrarse más allá de la línea temporal de las ventanas de éxito y táctiles. Por ejemplo, además de seleccionar un intervalo de tiempo, puede seleccionar un conjunto de <i>Dominios de referencia</i> para examinar únicamente la atribución para los usuarios de esos dominios. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> Mostrar descripción del filtro complejo  </span> </td> 
-   <td colname="col2"> Muestra el código de filtro para el filtro de formación, la ventana de éxito y la ventana táctil. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> Guardar modelo  </span> </td> 
-   <td colname="col2"> Guarda el modelo de atribución actual para uso futuro. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> Modelo de carga  </span> </td> 
-   <td colname="col2"> Abre un modelo de atribución guardado anteriormente. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> Vista de presentación  </span> </td> 
-   <td colname="col2"> Oculta la barra de menús superior para la presentación. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Opciones &gt; </b> Avanzado incluye funciones para definir el tamaño del conjunto de formación y especificar el método que se aplicará en caso de desequilibrio de clase. </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> Avanzado &gt; Tamaño del conjunto de formación  </span> </td> 
-   <td colname="col2"> <p>Define el tamaño del conjunto de formación. </p> <p>Nota:  El tamaño de formación predeterminado es Grande para 250 000 visitantes. </p> 
-    <ul id="ul_5F17C60227C34A85A2C476A32F2B5DCD"> 
-     <li id="li_A076FC2AD0214ADDBFCFD82AEA5F0880">Pequeño = 50.000 </li> 
-     <li id="li_17E77E01D5374068BEBC80B3AD4CCD41">Pequeño = 75.000 </li> 
-     <li id="li_7F6B4834742A4BFCBC3DB214425B88C3">Normal = 100.000 </li> 
-     <li id="li_0BB7F791603745028CFC661EBC94D8B4">Grande = 250,00 </li> 
-     <li id="li_34B60233C84F48F1BCB8040C5195411A">Enorme = 500.000 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Avanzado &gt; Equilibrio de clase  </b> </td> 
-   <td colname="col2"> <p>Identifica y define el número de registros de entrada que se generarán para un problema de desequilibrio de clase en función del tamaño del conjunto de datos. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> Definir filtro de formación  </span> </td>
+   <td colname="col2"> El filtro de formación se utiliza con la ventana de éxito para filtrar la población al crear el modelo de atribución. Proporcionará un subconjunto de datos que incluye solo los visitantes que desee analizar. <p>Nota: Los usuarios con experiencia también pueden aprovechar la flexibilidad de los filtros para centrarse más allá de la línea temporal de las ventanas de éxito y táctiles. Por ejemplo, además de seleccionar un intervalo de tiempo, puede seleccionar un conjunto de <i>Dominios de referencia</i> para examinar únicamente la atribución para los usuarios de esos dominios. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> Mostrar descripción del filtro complejo  </span> </td>
+   <td colname="col2"> Muestra el código de filtro para el filtro de formación, la ventana de éxito y la ventana táctil. </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> Guardar modelo  </span> </td>
+   <td colname="col2"> Guarda el modelo de atribución actual para uso futuro. </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> Modelo de carga  </span> </td>
+   <td colname="col2"> Abre un modelo de atribución guardado anteriormente. </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> Vista de presentación  </span> </td>
+   <td colname="col2"> Oculta la barra de menús superior para la presentación. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p><b>Opciones &gt; </b> Avanzado incluye funciones para definir el tamaño del conjunto de formación y especificar el método que se aplicará en caso de desequilibrio de clase. </p> </td>
+   <td colname="col2"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> Avanzado &gt; Tamaño del conjunto de formación  </span> </td>
+   <td colname="col2"> <p>Define el tamaño del conjunto de formación. </p> <p>Nota:  El tamaño de formación predeterminado es Grande para 250 000 visitantes. </p>
+    <ul id="ul_5F17C60227C34A85A2C476A32F2B5DCD">
+     <li id="li_A076FC2AD0214ADDBFCFD82AEA5F0880">Pequeño = 50.000 </li>
+     <li id="li_17E77E01D5374068BEBC80B3AD4CCD41">Pequeño = 75.000 </li>
+     <li id="li_7F6B4834742A4BFCBC3DB214425B88C3">Normal = 100.000 </li>
+     <li id="li_0BB7F791603745028CFC661EBC94D8B4">Grande = 250,00 </li>
+     <li id="li_34B60233C84F48F1BCB8040C5195411A">Enorme = 500.000 </li>
+    </ul> </td>
+  </tr>
+  <tr>
+   <td colname="col1"><b>Avanzado &gt; Equilibrio de clase  </b> </td>
+   <td colname="col2"> <p>Identifica y define el número de registros de entrada que se generarán para un problema de desequilibrio de clase en función del tamaño del conjunto de datos. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 | Opciones Restablecer y eliminar | Descripción |
