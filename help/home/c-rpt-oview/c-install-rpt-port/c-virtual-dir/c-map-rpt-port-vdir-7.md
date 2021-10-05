@@ -3,7 +3,7 @@ description: Pasos para asignar el portal de informes a un directorio virtual (I
 title: Asignación del portal de informes a un directorio virtual (IIS 7.0 o superior)
 uuid: 9d18fb85-f9d7-48b6-a19b-1e7b68a5adca
 exl-id: 2fa3439a-1fe5-4a20-83db-d233ae8b5263
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -61,4 +61,4 @@ Actualmente, la mayoría de los clientes de Managed Service tienen servidores co
 * Ya no necesita el [!DNL ReportPortalSetup.xml], por lo que se puede eliminar.
 * Para estandarizar, coloque el contenido de este archivo zip en [!DNL E:\Portal].
 * Para determinar el servidor SMTP Para los clientes de servicios administrados, puede ir aquí.
-* Inserte una solicitud con NetOps para cambiar la entrada de nombre de dominio en IIS para el servidor de informes a algo más sencillo, por ejemplo, [!DNL reports.clientname.insight.omniture.com], de modo que la URL general del portal sea [!DNL http://reports.clientname.insight.omniture.com/Portal]. Configure el archivo [!DNL email.asa] una vez que se haya realizado este cambio.
+* Inserte una solicitud con NetOps para cambiar la entrada de nombre de dominio en IIS para el servidor de informes a algo más sencillo, por ejemplo, [!DNL reports.clientname.insight.omniture.com], de modo que la URL general del portal sea [!DNL https://reports.clientname.insight.omniture.com/Portal]. Configure el archivo [!DNL email.asa] una vez que se haya realizado este cambio.

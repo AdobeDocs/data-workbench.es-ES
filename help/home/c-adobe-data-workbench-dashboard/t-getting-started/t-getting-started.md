@@ -3,7 +3,7 @@ description: Para empezar a utilizar el panel del área de trabajo de datos de A
 title: Introducción
 uuid: 9e2ed5fd-29d7-4e06-ad55-c4a35a9043c8
 exl-id: acaa7563-d462-4838-b2b5-3c010382da34
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 2%
@@ -21,9 +21,9 @@ Para empezar a utilizar el panel del área de trabajo de datos de Adobe, siga es
    Aunque pueden funcionar muchas variaciones de exploradores, solo se admiten oficialmente los siguientes exploradores web:
 
    * Google Chrome 15 y versiones posteriores (disponible en [https://www.google.com/chrome/](https://www.google.com/intl/es/chrome/))
-   * Microsoft Internet Explorer 9 y versiones posteriores (disponible en [http://www.microsoft.com/windows/ie/](http://www.microsoft.com/windows/ie/))
-   * Mozilla Firefox 3.6 y versiones posteriores (disponible en [http://www.mozilla.org/en-US/firefox/all-older.html](http://www.mozilla.org/en-US/firefox/all-older.html))
-   * Safari 5.1 y versiones posteriores (disponible en [http://www.apple.com/safari](http://www.apple.com/safari))
+   * Microsoft Internet Explorer 9 y versiones posteriores (disponible en [https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/ie/))
+   * Mozilla Firefox 3.6 y versiones posteriores (disponible en [https://www.mozilla.org/en-US/firefox/all-older.html](https://www.mozilla.org/en-US/firefox/all-older.html))
+   * Safari 5.1 y versiones posteriores (disponible en [https://www.apple.com/safari](https://www.apple.com/safari))
 
    Más allá de un navegador web compatible, no es necesario descargar ningún software adicional para utilizar el panel. 1. Solicite una cuenta.
 

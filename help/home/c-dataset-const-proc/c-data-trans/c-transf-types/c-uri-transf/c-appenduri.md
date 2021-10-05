@@ -3,7 +3,7 @@ description: La transformación AppendURI proporciona una forma de agregar infor
 title: AppendURI
 uuid: 8334d4f9-2bf6-4bd0-af65-8f2b0959652d
 exl-id: 0d5901c0-bd13-4499-8e26-44839aeb7413
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 1%
@@ -29,7 +29,7 @@ La transformación [!DNL AppendURI] solo funciona cuando se define en el archivo
 
 Considere un sitio web que se construyó usando un enfoque tradicional de Model-View-Controller. En estos sistemas, es común que una sola página web sea el punto de acceso al sistema. Para un sitio de este tipo, las visualizaciones de patrones de tráfico en el sistema serían poco interesantes y no proporcionarían información sobre la utilización del visitante y el flujo de tráfico. Por ejemplo, imaginemos un sitio web que canaliza todas las solicitudes web a través de un URI del siguiente formulario:
 
-* [!DNL http://www.examplesite.com/modelview.asp?id=login&name=bob]
+* [!DNL https://www.examplesite.com/modelview.asp?id=login&name=bob]
 
 La página ASP de vista de modelo recibe todo el tráfico y determina sus acciones en función del valor del campo id de la consulta. De forma predeterminada, la dimensión URI contendría una sola entrada:
 

@@ -3,7 +3,7 @@ description: La funcionalidad abierta le permite abrir elementos como documentos
 title: Configuración de la funcionalidad abierta
 uuid: dfa79a2b-e9ff-4e62-b15b-ae7911adeafd
 exl-id: c807a284-b544-41cf-958b-27b47d2142ce
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -28,23 +28,23 @@ Para abrir un URI desde una visualización, primero debe editar el archivo [!DNL
 1. Haga clic en **[!UICONTROL Command]** y luego en **[!UICONTROL Parameters]** para ver el contenido del archivo.
 1. Modifique el parámetro [!DNL Site] y el parámetro Template según sea necesario:
 
-<table id="table_CDB316DB271F476AB9F9B557B86AFD25"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Para este parámetro... </th> 
-   <th colname="col2" class="entry"> Proporcione esta información... </th> 
+<table id="table_CDB316DB271F476AB9F9B557B86AFD25">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Para este parámetro... </th>
+   <th colname="col2" class="entry"> Proporcione esta información... </th>
   </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Sitio </p> </td> 
-   <td colname="col2"> <p>La ubicación de los URI que desea abrir. </p> <p>Ejemplo: mysite.com </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Plantilla </p> </td> 
-   <td colname="col2"> <p>Los parámetros que la Data Workbench debe utilizar para localizar y abrir los URI. </p> <p>Ejemplo: <span class="filepath"> http://%Site%%URI%</span> </p> <p>La plantilla predeterminada que se muestra en el ejemplo indica a la Data Workbench que abra un explorador web, busque la ubicación definida en el parámetro <span class="wintitle"> Site</span> y, a continuación, busque el elemento de dimensión URI que está intentando abrir. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>Sitio </p> </td>
+   <td colname="col2"> <p>La ubicación de los URI que desea abrir. </p> <p>Ejemplo: mysite.com </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Plantilla </p> </td>
+   <td colname="col2"> <p>Los parámetros que la Data Workbench debe utilizar para localizar y abrir los URI. </p> <p>Ejemplo: <span class="filepath"> https://%Site%%URI%</span> </p> <p>La plantilla predeterminada que se muestra en el ejemplo indica a la Data Workbench que abra un explorador web, busque la ubicación definida en el parámetro <span class="wintitle"> Site</span> y, a continuación, busque el elemento de dimensión URI que está intentando abrir. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 1. Guarde el archivo.

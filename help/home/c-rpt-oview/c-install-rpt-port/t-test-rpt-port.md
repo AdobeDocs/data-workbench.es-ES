@@ -3,7 +3,7 @@ description: Pasos para abrir el portal de informes y asegurarse de que puede ve
 title: Prueba del portal de informes
 uuid: eee0df5e-78e0-49b2-853c-40f1b332328b
 exl-id: 197ff815-9234-4dce-b30f-b9cacf259634
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 6%
@@ -20,9 +20,9 @@ Pasos para abrir el portal de informes y asegurarse de que puede ver correctamen
 
 1. Desde el explorador web, abra [!DNL Report Portal] con el siguiente formato de URI:
 
-   http://*Dirección del servidor*/*Nombre del portal*
+   https://*Dirección del servidor*/*Nombre del portal*
 
-   Ejemplo: [!DNL http://localhost/VisualReportPortal]
+   Ejemplo: [!DNL https://localhost/VisualReportPortal]
 
 1. Si [!DNL Report Portal] le solicita las credenciales de inicio de sesión, introduzca un nombre de cuenta y una contraseña (por ejemplo, la cuenta &quot;test&quot; y la contraseña &quot;user&quot; para la cuenta predeterminada).
 1. Cuando aparezca el [!DNL Report Portal], compruebe que:

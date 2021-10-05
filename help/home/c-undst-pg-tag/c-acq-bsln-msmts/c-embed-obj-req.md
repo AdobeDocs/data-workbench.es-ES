@@ -3,7 +3,7 @@ description: Una vez que un explorador solicita el HTML de una página, el explo
 title: Adquisición de solicitudes de objetos incrustados (etiquetas de página)
 uuid: 7fe561d1-aa5a-4ac9-82ba-aa27c7d208dd
 exl-id: 593e49bc-9619-4e85-8ce3-2e9d23d175c9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 4%
@@ -22,81 +22,81 @@ Al utilizar la función de anulación proporcionada en las capacidades de filtra
 
 [!DNL Sensor] recopila los datos de medición en la tabla siguiente para cada solicitud de objeto incrustado realizada del servidor web, suponiendo que no  [!DNL Sensor] esté configurado para filtrarlo o que el filtro se haya anulado. La información recopilada está relacionada con el visitante y la sesión y las sesiones posteriores a través de las entradas del campo de registro x-trackingid o cs(cookie) .
 
-<table id="table_11BE08A798E743EC8E76F738F0CE5884"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nombre de W3C </th> 
-   <th colname="col2" class="entry"> Datos recopilados </th> 
-   <th colname="col3" class="entry"> Explicación </th> 
-   <th colname="col4" class="entry"> Ejemplo </th> 
-  </tr> 
+<table id="table_11BE08A798E743EC8E76F738F0CE5884">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Nombre de W3C </th>
+   <th colname="col2" class="entry"> Datos recopilados </th>
+   <th colname="col3" class="entry"> Explicación </th>
+   <th colname="col4" class="entry"> Ejemplo </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> x-trackingid </td> 
-   <td colname="col2"> Identificador de seguimiento (visitante único) </td> 
-   <td colname="col3"> Identificador leído desde una cookie colocada en el explorador del usuario por el <span class="wintitle"> Sensor </span> en la solicitud inicial </td> 
-   <td colname="col4"> V1st=3C94007B4E01F9C2 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Fecha </p> <p>Fecha </p> </td> 
-   <td colname="col2"> Marca de tiempo </td> 
-   <td colname="col3"> Hora a la que el servidor procesó la solicitud (con una precisión de 100 ns; la precisión depende del entorno del servidor y de NTP) </td> 
-   <td colname="col4"> 2002-11-21 17:21:45.123 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> sc(content-Type) </td> 
-   <td colname="col2"> Tipo de contenido </td> 
-   <td colname="col3"> Tipo de objeto devuelto desde el servidor </td> 
-   <td colname="col4"> text/html </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> sc-status </td> 
-   <td colname="col2"> Código de estado de respuesta HTTP </td> 
-   <td colname="col3"> Código numérico generado por el servidor que indica el estado de la respuesta del servidor HTTP </td> 
-   <td colname="col4"> 200 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs-uri-stem </td> 
-   <td colname="col2"> Elemento URI </td> 
-   <td colname="col3"> La parte "raíz" del URI solicitado por el cliente </td> 
-   <td colname="col4"> pagedir/page.asp </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> c-ip </td> 
-   <td colname="col2"> IP del cliente </td> 
-   <td colname="col3"> Dirección IP del cliente solicitante </td> 
-   <td colname="col4"> 127.0.0.1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s-dns </td> 
-   <td colname="col2"> Nombre de dominio del servidor </td> 
-   <td colname="col3"> Nombre de dominio del servidor web que procesa la solicitud </td> 
-   <td colname="col4"> <span class="filepath"> www.domain.com  </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs(referrer) </td> 
-   <td colname="col2"> Dirección URL de referencia </td> 
-   <td colname="col3"> Contenido del campo de referente HTTP enviado por el cliente </td> 
-   <td colname="col4"> <span class="filepath"> http://www.referringsite.com  </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs(user-agent) </td> 
-   <td colname="col2"> Agente de usuario </td> 
-   <td colname="col3"> Dispositivo utilizado para realizar una solicitud al servidor HTTP </td> 
-   <td colname="col4"> <p>Mozilla/4.0+(compatible;+MSIE+6.0) </p> <p>+Windows+NT+5.1) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs(cookie) </td> 
-   <td colname="col2"> Cookies de cliente del dominio </td> 
-   <td colname="col3"> Contenido de todas las cookies del usuario para el sitio </td> 
-   <td colname="col4"> <p>KL_TC1 1038058778312 </p> <p>KL972 x1038058778312282052 </p> <p>KL_PVKL972 0 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs-uri-query </td> 
-   <td colname="col2"> Cadena de consulta </td> 
-   <td colname="col3"> La parte de la cadena de consulta, si la hay, del URI solicitado por el cliente </td> 
-   <td colname="col4"> PAGENAME=dynamic1&amp;link=3001 </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> x-trackingid </td>
+   <td colname="col2"> Identificador de seguimiento (visitante único) </td>
+   <td colname="col3"> Identificador leído desde una cookie colocada en el explorador del usuario por el <span class="wintitle"> Sensor </span> en la solicitud inicial </td>
+   <td colname="col4"> V1st=3C94007B4E01F9C2 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Fecha </p> <p>Fecha </p> </td>
+   <td colname="col2"> Marca de tiempo </td>
+   <td colname="col3"> Hora a la que el servidor procesó la solicitud (con una precisión de 100 ns; la precisión depende del entorno del servidor y de NTP) </td>
+   <td colname="col4"> 2002-11-21 17:21:45.123 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> sc(content-Type) </td>
+   <td colname="col2"> Tipo de contenido </td>
+   <td colname="col3"> Tipo de objeto devuelto desde el servidor </td>
+   <td colname="col4"> text/html </td>
+  </tr>
+  <tr>
+   <td colname="col1"> sc-status </td>
+   <td colname="col2"> Código de estado de respuesta HTTP </td>
+   <td colname="col3"> Código numérico generado por el servidor que indica el estado de la respuesta del servidor HTTP </td>
+   <td colname="col4"> 200 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs-uri-stem </td>
+   <td colname="col2"> Elemento URI </td>
+   <td colname="col3"> La parte "raíz" del URI solicitado por el cliente </td>
+   <td colname="col4"> pagedir/page.asp </td>
+  </tr>
+  <tr>
+   <td colname="col1"> c-ip </td>
+   <td colname="col2"> IP del cliente </td>
+   <td colname="col3"> Dirección IP del cliente solicitante </td>
+   <td colname="col4"> 127.0.0.1 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> s-dns </td>
+   <td colname="col2"> Nombre de dominio del servidor </td>
+   <td colname="col3"> Nombre de dominio del servidor web que procesa la solicitud </td>
+   <td colname="col4"> <span class="filepath"> www.domain.com  </span> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs(referrer) </td>
+   <td colname="col2"> Dirección URL de referencia </td>
+   <td colname="col3"> Contenido del campo de referente HTTP enviado por el cliente </td>
+   <td colname="col4"> <span class="filepath"> https://www.referringsite.com  </span> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs(user-agent) </td>
+   <td colname="col2"> Agente de usuario </td>
+   <td colname="col3"> Dispositivo utilizado para realizar una solicitud al servidor HTTP </td>
+   <td colname="col4"> <p>Mozilla/4.0+(compatible;+MSIE+6.0) </p> <p>+Windows+NT+5.1) </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs(cookie) </td>
+   <td colname="col2"> Cookies de cliente del dominio </td>
+   <td colname="col3"> Contenido de todas las cookies del usuario para el sitio </td>
+   <td colname="col4"> <p>KL_TC1 1038058778312 </p> <p>KL972 x1038058778312282052 </p> <p>KL_PVKL972 0 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs-uri-query </td>
+   <td colname="col2"> Cadena de consulta </td>
+   <td colname="col3"> La parte de la cadena de consulta, si la hay, del URI solicitado por el cliente </td>
+   <td colname="col4"> PAGENAME=dynamic1&amp;link=3001 </td>
+  </tr>
+ </tbody>
 </table>

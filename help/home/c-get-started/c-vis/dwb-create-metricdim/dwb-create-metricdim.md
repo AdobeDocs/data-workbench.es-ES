@@ -3,7 +3,7 @@ description: Utilice el asistente de atenuación de métricas para crear un nuev
 title: Asistente para atenuación de métricas
 uuid: 77b9bc8e-7625-4fef-9de4-f113f9b2debd
 exl-id: 109fbefc-5608-493d-aec9-8337f21eaa70
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 3%
@@ -60,7 +60,7 @@ Puede seleccionar el formato de métrica y establecer los valores de bloque para
 
    ![](assets/6_4_workstation_metricdim_format_metric.png)
 
-   El formato define cómo se presentará la métrica cuando se abra en una visualización. Estos formatos están seleccionados [printf standard](http://www.cplusplus.com/reference/cstdio/printf/), definidos a continuación:
+   El formato define cómo se presentará la métrica cuando se abra en una visualización. Estos formatos están seleccionados [printf standard](https://www.cplusplus.com/reference/cstdio/printf/), definidos a continuación:
 
    ```
    %[flags][width][.precision][length][specifier]

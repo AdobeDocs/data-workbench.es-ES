@@ -3,7 +3,7 @@ description: Puede exportar un espacio de trabajo como archivo de imagen .png o 
 title: Exportación de un espacio de trabajo
 uuid: 59ea6e46-d2e9-41f9-9c8f-e3071eb65424
 exl-id: 87416ddf-2ac0-4f95-ae8e-71051061c757
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Puede exportar un espacio de trabajo como archivo de imagen .png o exportar los datos de ciertas ventanas a un archivo de Excel (.xls o .xlsx).
 
-## Exportación de espacios de trabajo como archivo PNG {#section-f9fbe0f0a1c341e2b063cce106cac35e}
+## Exportación de espacios de trabajo como archivos PNG {#section-f9fbe0f0a1c341e2b063cce106cac35e}
 
 Puede guardar una instantánea de un espacio de trabajo en formato de gráfico de red portátil (`.png` archivos). Las siguientes opciones de color están disponibles al guardar espacios de trabajo como `.png` archivos:
 
@@ -41,10 +41,9 @@ Para exportar espacios de trabajo y ventanas individuales a Microsoft Excel, se 
 
 >[!NOTE]
 >
->* Al exportar datos como archivos de Excel, se abre una nueva instancia de Excel. Para obtener más información sobre este proceso, consulte [http://support.microsoft.com/kb/257757](http://support.microsoft.com/kb/257757).
+>* Al exportar datos como archivos de Excel, se abre una nueva instancia de Excel. Para obtener más información sobre este proceso, consulte [https://support.microsoft.com/kb/257757](https://support.microsoft.com/kb/257757).
 >* Aunque la Data Workbench admite más de 256 columnas y 65.536 filas de datos, las versiones de Microsoft Excel anteriores a la versión 8.0 no lo hacen.
 >
-
 
 
 Si se cumplen estos requisitos, la Data Workbench inicia automáticamente Microsoft Excel y exporta los datos a un nuevo libro de Excel. Los datos no se exportan desde las visualizaciones siguientes: gráficos, exploradores de rutas, mapas de procesos, gráficos de puntos y globos.

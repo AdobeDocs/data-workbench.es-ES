@@ -3,7 +3,7 @@ description: Para configurar el portal de informes, debe asignar sus archivos de
 title: Asignación de páginas del portal de informes a los directorios virtuales
 uuid: 75ca85d5-d526-48f9-b2c4-ca77c903c6af
 exl-id: 13e457d4-7039-491a-a65d-f23ad7e9fe77
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 18%
@@ -18,7 +18,7 @@ Un directorio virtual define la dirección que los clientes del explorador utili
 
 El nombre del directorio virtual que asigna a [!DNL Report Portal] debe coincidir con el nombre que utilizó para la carpeta NombrePortalVirtual de VSV en el paso 3 de la sección anterior. Por ejemplo, si desea utilizar &quot;Portal&quot; como nombre de su [!DNL Report Portal], debe asignar los archivos del portal a un directorio virtual denominado &quot;Portal&quot;. El siguiente ejemplo muestra el URI que los clientes usarían para acceder a un [!DNL Report Portal] asignado al directorio virtual [!DNL VisualReportPortal] en un servidor llamado myWebServer:
 
-[!DNL http://myWebServer/VisualReportPortal]
+[!DNL https://myWebServer/VisualReportPortal]
 
 Los siguientes procedimientos describen cómo asignar [!DNL Report Portal] a un directorio virtual en IIS 5.0, 6.0 y 7.0 o superior.
 

@@ -3,14 +3,14 @@ description: Glosario de Data Workbench
 title: Glosario de Data Workbench
 uuid: 1000c43d-383c-442d-bd09-de4f286ded31
 exl-id: 29d6560a-0394-4031-8152-20f7ea0de00b
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+workflow-type: tm+mt
 source-wordcount: '4201'
 ht-degree: 100%
 
 ---
 
-# Glosario de Data Workbench {#data-workbench-glossary}
+# Glosario de Data Workbench{#data-workbench-glossary}
 
 **Alerta**
 
@@ -62,11 +62,11 @@ Variable común que forma una relación entre las filas de dos conjuntos de dato
 
 **Intervalo de confianza**
 
-Intervalo de valores que tiene una probabilidad específica de contener la tasa o la tendencia. Los intervalos de confianza del 80 % (valor p = 0,20), 95 % (valor p = 0,05) y 99 % (valor p = 0,01) son los intervalos de confianza más utilizados. (Fuente: `http://www.nci.nih.gov/statistics/glossary`)
+Intervalo de valores que tiene una probabilidad específica de contener la tasa o la tendencia. Los intervalos de confianza del 80 % (valor p = 0,20), 95 % (valor p = 0,05) y 99 % (valor p = 0,01) son los intervalos de confianza más utilizados. (Fuente: `https://www.nci.nih.gov/statistics/glossary`)
 
 **Nivel de confianza**
 
-La probabilidad de que el error de muestreo en un resultado de encuesta se encuentre dentro de un rango especificado, normalmente expresado en términos de errores estándar (por ejemplo, 1 error estándar equivale a un 68 % de probabilidad, 2 errores estándar equivalen a un 95,4 % de probabilidad). (Fuente: `http://www.magazine.org/research/3410.cfm`)
+La probabilidad de que el error de muestreo en un resultado de encuesta se encuentre dentro de un rango especificado, normalmente expresado en términos de errores estándar (por ejemplo, 1 error estándar equivale a un 68 % de probabilidad, 2 errores estándar equivalen a un 95,4 % de probabilidad). (Fuente: `https://www.magazine.org/research/3410.cfm`)
 
 **Mapa de conversión**
 
@@ -238,7 +238,7 @@ Relación entre dos dimensiones de datos en la que un solo elemento de una dimen
 
 **Ordinal**
 
-Es o indica un orden numérico en una serie. (Fuente: `http://wordnet.princeton.edu/perl/webwn?s=ordinal`) Si una dimensión se ordena de forma ordinal en Data Workbench, los elementos de la dimensión se muestran en el orden en que se representan internamente.
+Es o indica un orden numérico en una serie. (Fuente: `https://wordnet.princeton.edu/perl/webwn?s=ordinal`) Si una dimensión se ordena de forma ordinal en Data Workbench, los elementos de la dimensión se muestran en el orden en que se representan internamente.
 
 **Periféricos**
 

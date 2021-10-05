@@ -4,7 +4,7 @@ solution: Analytics,Analytics
 title: ¿Qué debería probar?
 uuid: 9dfe3685-885e-4098-ab1d-ac891ccc5199
 exl-id: 0f06ff0f-b385-4614-8007-afdb85191a85
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
@@ -42,6 +42,6 @@ Para alcanzar estos objetivos, Site admite los siguientes tipos de metodologías
 >
 >Los experimentos controlados se basan en el reemplazo de URI, no en el reemplazo de cadena de consulta. El URI de una URL en particular se resalta en el siguiente ejemplo:
 >
->`http://www.omniture.com/index.asp?id=1`
+>`https://www.omniture.com/index.asp?id=1`
 >
 >Por ejemplo, en el experimento controlado, puede especificar que el URI del grupo de control [!DNL index.asp] se sustituya por el URI del grupo de prueba [!DNL index2.asp] para determinar qué diseño de página resultaría en más valor.

@@ -3,7 +3,7 @@ description: Ejemplo de código de la hoja de estilo Mail XSL.
 title: Ejemplo de hoja de estilo XSL de correo
 uuid: 846ddf22-e6da-4d37-ba50-d75f850b9a3f
 exl-id: 4b868da4-1a3b-454c-940c-8ffd9644c92a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 41%
@@ -16,7 +16,7 @@ Ejemplo de código de la hoja de estilo Mail XSL.
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
 <html>
 <body>

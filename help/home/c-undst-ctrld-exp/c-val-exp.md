@@ -4,7 +4,7 @@ solution: Analytics,Analytics
 title: Validación del experimento
 uuid: 59769f5b-4175-479e-ad7d-7226e9c666af
 exl-id: 6dfd01ca-288d-40fd-aad4-75a588902ebd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 2%
@@ -27,17 +27,17 @@ Cada vez que desee probar un grupo nuevo, asegúrese de borrar las cookies del s
 
 Para colocarse en un grupo específico dentro de un experimento específico, solicite la página de prueba con una cadena de consulta en el siguiente formulario:
 
-[!DNL http://] *&lt; [!DNL sitename/?Experiment Name=Group Name]>*
+[!DNL https://] *&lt; [!DNL sitename/?Experiment Name=Group Name]>*
 
 Por ejemplo:
 
-[!DNL http://www.omniture.com/setcookie.htm?New_Homepage=index2]
+[!DNL https://www.omniture.com/setcookie.htm?New_Homepage=index2]
 
 Cuando se envía la solicitud de URL virtual al servidor, [!DNL Sensor] lo identifica como miembro del grupo especificado en el experimento especificado y luego lo redirige a la raíz del sitio web. Ahora puede desplazarse a la ubicación apropiada del sitio web para validar si el contenido correcto se muestra para ese experimento y grupo.
 
 Si escribiera lo siguiente en su explorador, el explorador mostraría la página principal del sitio web y lo colocaría en el grupo index2 dentro del experimento New_Homepage :
 
-[!DNL http://www.omniture.com/setcookie.htm?New_Homepage=index2]
+[!DNL https://www.omniture.com/setcookie.htm?New_Homepage=index2]
 
 Cuando los visitantes del grupo index2 solicitan la página principal, el vínculo gráfico &quot;Solicitar una demostración&quot; aparece más arriba en la página, como en el siguiente gráfico:
 

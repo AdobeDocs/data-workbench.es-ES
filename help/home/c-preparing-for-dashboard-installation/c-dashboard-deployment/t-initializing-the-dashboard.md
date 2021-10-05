@@ -3,7 +3,7 @@ description: El paso final es ejecutar el tablero por primera vez para permitirl
 title: Inicialización del panel
 uuid: 847ba63e-29d8-4950-aa74-22d825388e2b
 exl-id: 47098d73-d8c4-4d14-964f-108a731d3733
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 El paso final es ejecutar el tablero por primera vez para permitirle que se inicialice.
 
-1. Abra un explorador web e introduzca la dirección URL del sitio recién implementado (por ejemplo, http://localhost/dashboard).
+1. Abra un explorador web e introduzca la dirección URL del sitio recién implementado (por ejemplo, https://localhost/dashboard).
 1. La conexión por primera vez configurará las tablas de la base de datos, por lo que puede experimentar un ligero retraso.
 1. Las credenciales de inicio de sesión inicial son:
 

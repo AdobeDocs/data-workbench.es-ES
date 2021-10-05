@@ -3,7 +3,7 @@ description: Información para generar informes como archivos de Excel.
 title: Generación de informes como archivos de Microsoft Excel
 uuid: 0717a916-93d6-4b8e-a2ff-e9179ba4a66e
 exl-id: 4e644867-db5e-4ca9-a2bf-1193e031f2bf
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 4%
@@ -22,9 +22,9 @@ Deben cumplirse los siguientes requisitos:
    >[!NOTE]
    >
    >
-   >    
-   >    
-   >    * Cuando se generan informes como archivos de Excel, se abre una nueva instancia de Excel. Para obtener más información sobre este proceso, consulte [http://support.microsoft.com/kb/257757](http://support.microsoft.com/kb/257757).
+   >
+   >
+   >    * Cuando se generan informes como archivos de Excel, se abre una nueva instancia de Excel. Para obtener más información sobre este proceso, consulte [https://support.microsoft.com/kb/257757](https://support.microsoft.com/kb/257757).
    >    * Aunque el área de trabajo de datos admite más de 256 columnas y 65.536 filas de datos, Microsoft Excel no lo admite.
 
 

@@ -3,7 +3,7 @@ description: Las expresiones regulares se utilizan en todos los campos de búsqu
 title: Expresiones regulares
 uuid: f3a0119d-6fac-4f63-8dca-4db32d2a737a
 exl-id: 75841a70-e78a-429b-b00d-ac107b7a87aa
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -44,17 +44,17 @@ La coincidencia literal toma una cadena literal sin ningún carácter de escape 
 
 En este ejemplo, se ve cómo funciona la coincidencia literal. Considere una situación en la que se recopilan datos del tráfico del sitio web y el campo cs(referrer) contiene el siguiente valor:
 
-`http://www.abc.com/adventurenews/today.html?ad=123AZ45`
+`https://www.abc.com/adventurenews/today.html?ad=123AZ45`
 
 Para determinar si el referente representa a alguien que hizo clic en uno de los anuncios, debe ver si el referente contiene el anuncio de cadena. Simplemente puede usar la publicidad de cadena literal para buscar en la cadena de destino y determinar si se utilizó un anuncio para enrutar el tráfico al sitio. Aunque esto coincidiría con la cadena de destino, coincidiría en dos ubicaciones y, por lo tanto, es ambiguo y puede dar lugar a falsos positivos.
 
 La siguiente URL contiene el anuncio de cadena en dos lugares diferentes:
 
-`http://www.abc.com/ad vertnews/today.html?ad =123AZ45`
+`https://www.abc.com/ad vertnews/today.html?ad =123AZ45`
 
 Por lo tanto, si está intentando determinar qué sesiones se iniciaron como resultado de una campaña publicitaria en particular, es evidente que el uso de la publicidad literal como expresión regular no es suficiente. Cambiar el literal a &quot;ad=&quot; eliminaría esta ambigüedad y haría que la expresión solo produjera una coincidencia. Sin embargo, incluso esto puede no ser suficiente para garantizar que el referente era parte de la campaña publicitaria. Considere el siguiente referente:
 
-`http://www.xyz.com/hello.html?pad=something`
+`https://www.xyz.com/hello.html?pad=something`
 
 No tiene ningún control sobre las direcciones URL que otros usuarios puedan utilizar para crear vínculos al sitio. La coincidencia literal es un mecanismo demasiado simple para localizar sesiones que comenzaron como resultado de la campaña publicitaria. En la siguiente sección se explica cómo usar metacaracteres para lograr una coincidencia más flexible y potente.
 
@@ -74,27 +74,27 @@ También se pueden utilizar expresiones regulares comunes adicionales para crear
 
 La coincidencia literal permite buscar una sola cadena, pero los corchetes, guiones y barras verticales permiten definir una lista de cosas que se deben buscar en la cadena de destino.
 
-<table id="table_18B86955EC3748079E7C176273ADE92B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Para este metacaractero... </th> 
-   <th colname="col2" class="entry"> El procesador de expresiones regulares... </th> 
-  </tr> 
+<table id="table_18B86955EC3748079E7C176273ADE92B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Para este metacaractero... </th>
+   <th colname="col2" class="entry"> El procesador de expresiones regulares... </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Corchetes ([ ]) </td> 
-   <td colname="col2"> Haga coincidir cualquiera de los caracteres dentro del corchete con una sola posición de carácter. Por ejemplo, [AB] es una instrucción que coincide con la letra A o la letra B y [0123456789] indica que coincide con cualquier carácter del rango de 0 a 9. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Guión (-) </td> 
-   <td colname="col2"> <p>Coincide con un rango de caracteres. Por lo tanto, en lugar de escribir [0123456789] simplemente podríamos escribir [0-9]. </p> <p> Esto se puede ampliar a rangos de caracteres y a varios rangos dentro de un conjunto de corchetes. Por ejemplo, [0-9A-C] coincide con los caracteres de 0 a 9 y de A a C. </p> <p> <p>Nota:  Para probar un guión (-) como un literal dentro de los corchetes, debe aparecer primero o último. Por ejemplo, pruebas [-0-9] para - y de 0 a 9. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Barra vertical (|) </td> 
-   <td colname="col2"> Haga coincidir una de las dos opciones con una cadena de destino determinada. Por ejemplo, b|nat coincide con bat o nat. </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> Corchetes ([ ]) </td>
+   <td colname="col2"> Haga coincidir cualquiera de los caracteres dentro del corchete con una sola posición de carácter. Por ejemplo, [AB] es una instrucción que coincide con la letra A o la letra B y [0123456789] indica que coincide con cualquier carácter del rango de 0 a 9. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Guión (-) </td>
+   <td colname="col2"> <p>Coincide con un rango de caracteres. Por lo tanto, en lugar de escribir [0123456789] simplemente podríamos escribir [0-9]. </p> <p> Esto se puede ampliar a rangos de caracteres y a varios rangos dentro de un conjunto de corchetes. Por ejemplo, [0-9A-C] coincide con los caracteres de 0 a 9 y de A a C. </p> <p> <p>Nota:  Para probar un guión (-) como un literal dentro de los corchetes, debe aparecer primero o último. Por ejemplo, pruebas [-0-9] para - y de 0 a 9. </p> </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Barra vertical (|) </td>
+   <td colname="col2"> Haga coincidir una de las dos opciones con una cadena de destino determinada. Por ejemplo, b|nat coincide con bat o nat. </td>
+  </tr>
+ </tbody>
 </table>
 
 Veamos los siguientes ejemplos:
@@ -135,35 +135,35 @@ El punto (.) es un metacaractero especial que coincide con cualquier carácter d
 
 Los metacaracteres de iteración le permiten hacer coincidir un patrón más de una vez.
 
-<table id="table_6A14333D6C264A48ADF1EBBAF687CADD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Para este metacaractero... </th> 
-   <th colname="col2" class="entry"> El procesador de expresiones regulares... </th> 
-  </tr> 
+<table id="table_6A14333D6C264A48ADF1EBBAF687CADD">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Para este metacaractero... </th>
+   <th colname="col2" class="entry"> El procesador de expresiones regulares... </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Signo de interrogación (?) </td> 
-   <td colname="col2"> No haga coincidir instancias o una instancia del carácter inmediatamente anterior al metacaractero (?). Por ejemplo, el área del patrón?d coincide con rojo y leído. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Asterisco (*) </td> 
-   <td colname="col2"> Haga coincidir cero o más incidencias del carácter inmediatamente antes del metacaractero (*). Por ejemplo, el patrón [0-9]* coincide con cualquier número de caracteres entre 0 y 9 (cualquier entero). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Plus (+) </td> 
-   <td colname="col2"> Coincide con una o más incidencias del carácter o rango anterior. Por ejemplo, el patrón tres+ coincidiría con tres pero no hasta después. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> {n} </td> 
-   <td colname="col2"> <p>Haga coincidir exactamente n veces el carácter o el intervalo que sigue. El siguiente patrón coincide con los números de teléfono de Estados Unidos: <code>[0-9]{3}-[0-9]{3}-[0-9]{4}</code>. </p> <p> Aunque no es un patrón óptimo, determina si la cadena de destino tiene el formato adecuado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> {n,m} </td> 
-   <td colname="col2"> Haga coincidir el carácter anterior al menos n veces y como máximo m veces. Por ejemplo, para{1,2}d coincidiría con comida y comida, pero no comida. </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> Signo de interrogación (?) </td>
+   <td colname="col2"> No haga coincidir instancias o una instancia del carácter inmediatamente anterior al metacaractero (?). Por ejemplo, el área del patrón?d coincide con rojo y leído. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Asterisco (*) </td>
+   <td colname="col2"> Haga coincidir cero o más incidencias del carácter inmediatamente antes del metacaractero (*). Por ejemplo, el patrón [0-9]* coincide con cualquier número de caracteres entre 0 y 9 (cualquier entero). </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Plus (+) </td>
+   <td colname="col2"> Coincide con una o más incidencias del carácter o rango anterior. Por ejemplo, el patrón tres+ coincidiría con tres pero no hasta después. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> {n} </td>
+   <td colname="col2"> <p>Haga coincidir exactamente n veces el carácter o el intervalo que sigue. El siguiente patrón coincide con los números de teléfono de Estados Unidos: <code>[0-9]{3}-[0-9]{3}-[0-9]{4}</code>. </p> <p> Aunque no es un patrón óptimo, determina si la cadena de destino tiene el formato adecuado. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> {n,m} </td>
+   <td colname="col2"> Haga coincidir el carácter anterior al menos n veces y como máximo m veces. Por ejemplo, para{1,2}d coincidiría con comida y comida, pero no comida. </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Extracción de patrones {#section-4389779653b64f6cb7c47615b25c1a79}
@@ -172,39 +172,39 @@ La coincidencia de patrones es solo parte de la potencia de las expresiones regu
 
 Veamos los siguientes ejemplos de extracción de patrones:
 
-<table id="table_BC8D471B966844049FFFCDEC0F183941"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Patrón </th> 
-   <th colname="col2" class="entry"> Cadena </th> 
-   <th colname="col3" class="entry"> Coincidencias </th> 
-   <th colname="col4" class="entry"> Extracción </th> 
-  </tr> 
+<table id="table_BC8D471B966844049FFFCDEC0F183941">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Patrón </th>
+   <th colname="col2" class="entry"> Cadena </th>
+   <th colname="col3" class="entry"> Coincidencias </th>
+   <th colname="col4" class="entry"> Extracción </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Win(9[58]) </td> 
-   <td colname="col2"> OS=Win95 </td> 
-   <td colname="col3"> Win95 </td> 
-   <td colname="col4"> %1% = 95 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> (Win)(95|8) </td> 
-   <td colname="col2"> OS=Win98 </td> 
-   <td colname="col3"> Win98 </td> 
-   <td colname="col4"> <p>%1% = Win </p> <p> %2% = 98 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mozilla/([0-9]).([0-9]) </td> 
-   <td colname="col2"> Mozilla/3.0 </td> 
-   <td colname="col3"> Mozilla/3.03 </td> 
-   <td colname="col4"> <p>%1% = 3 </p> <p> %2% = 0 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Lesson([A-Z]) </td> 
-   <td colname="col2"> Lección a </td> 
-   <td colname="col3"> No hay coincidencia porque la letra a minúscula no está en el rango de las mayúsculas de A a Z </td> 
-   <td colname="col4"> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> Win(9[58]) </td>
+   <td colname="col2"> OS=Win95 </td>
+   <td colname="col3"> Win95 </td>
+   <td colname="col4"> %1% = 95 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> (Win)(95|8) </td>
+   <td colname="col2"> OS=Win98 </td>
+   <td colname="col3"> Win98 </td>
+   <td colname="col4"> <p>%1% = Win </p> <p> %2% = 98 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Mozilla/([0-9]).([0-9]) </td>
+   <td colname="col2"> Mozilla/3.0 </td>
+   <td colname="col3"> Mozilla/3.03 </td>
+   <td colname="col4"> <p>%1% = 3 </p> <p> %2% = 0 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Lesson([A-Z]) </td>
+   <td colname="col2"> Lección a </td>
+   <td colname="col3"> No hay coincidencia porque la letra a minúscula no está en el rango de las mayúsculas de A a Z </td>
+   <td colname="col4"> </td>
+  </tr>
+ </tbody>
 </table>
