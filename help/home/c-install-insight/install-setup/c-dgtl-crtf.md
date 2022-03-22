@@ -1,11 +1,11 @@
 ---
 description: Una vez instalados los archivos de programa de Insight, debe descargar e instalar el certificado digital que le proporciona el Adobe.
-title: Descarga e instalación del certificado digital
+title: Descarga e instalación del certificado digital (Insight)
 uuid: 93ab2222-a977-4279-9e1e-71038b1d1cfa
 exl-id: 0dff95ae-880b-45d5-96df-4eb6bea58891
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2744'
 ht-degree: 39%
 
 ---
@@ -54,7 +54,7 @@ Además de estar bloqueado por nodos, el certificado digital debe estar actualiz
 
 Si está realizando la instalación en un equipo que no puede acceder a Internet, debe solicitar un certificado prebloqueado para la instalación de Insight. Un certificado prebloqueado es un certificado digital cuyo Adobe se bloquea manualmente al identificador de nodo del equipo.
 
-Para solicitar un certificado prebloqueado, debe enviar el identificador de nodo y el número de certificado al Servicio de atención al cliente de Adobe. Para obtener el identificador de nodo de su equipo, póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar la utilidad de Adobe [!DNL Node Identifier]. También puede obtener el identificador de nodo de la alerta que Insight genera cuando intenta conectarse al servidor de licencias y no puede hacerlo. Cuando reciba el certificado prebloqueado, instálelo tal como se describe en los dos últimos pasos de [Instalación de certificados digitales](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#task-1dad1e1d86d04100a7bcf87f26303c38).
+Para solicitar un certificado prebloqueado, debe enviar el identificador de nodo y el número de certificado al Servicio de atención al cliente de Adobe. Para obtener el identificador de nodo de su equipo, póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar el Adobe [!DNL Node Identifier] utilidad. También puede obtener el identificador de nodo de la alerta que Insight genera cuando intenta conectarse al servidor de licencias y no puede hacerlo. Cuando reciba el certificado prebloqueado, instálelo tal como se describe en los dos últimos pasos de [Instalación de certificados digitales](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#task-1dad1e1d86d04100a7bcf87f26303c38).
 
 Cuando sea necesario volver a validar el certificado, debe descargar un certificado nuevo y validado del servidor de licencias y volver a instalarlo en el equipo (a menos que el acuerdo con el Adobe indique lo contrario).
 
@@ -66,16 +66,16 @@ t_install_dgtl_crtf.xml
 
 **Para descargar e instalar el certificado digital**
 
-1. Abra el explorador web en [!DNL https:\\license.visualsciences.com].
+1. Abra el explorador web para [!DNL https:\\license.visualsciences.com].
 
    >[!NOTE]
    >
    >Es posible que el explorador le pida que presente un certificado digital en este momento. Si es así, haga clic en **[!UICONTROL Cancel]** para cerrar el cuadro de diálogo.
 
 1. En la pantalla de inicio de sesión, introduzca el [!DNL Account Name] y el [!DNL Password] que recibió de Adobe y, a continuación, haga clic en **[!UICONTROL login]**.
-1. Busque el certificado emitido para su instancia de Insight ( *Su nombre*.pem) y haga clic en el icono ![](assets/btn_save_certificatedownload.PNG) asociado a dicho certificado.
+1. Busque el certificado emitido para la instancia de Insight ( *Su nombre*.pem) y haga clic en el botón ![](assets/btn_save_certificatedownload.PNG) asociado a ese certificado.
 1. Cuando se le pregunte si desea guardar el certificado, haga clic en **[!UICONTROL Save]**.
-1. Descargue el archivo en la carpeta [!DNL Certificates] del directorio donde instaló Insight.
+1. Descargue el archivo a la [!DNL Certificates] en el directorio donde instaló Insight.
 
    Esta carpeta contiene un archivo de certificado denominado [!DNL trust_ca_cert.pem]. Ambos archivos de certificado siempre deben estar presentes para que Insight funcione.
 
@@ -98,7 +98,7 @@ El Almacén de certificados de Windows para el cliente es una nueva funcionalida
 1. Debe tener acceso al archivo [!DNL certmgr.msc] con la capacidad de importar un certificado y una clave en el almacén **personal**. (Esto debería ser así de forma predeterminada para la mayoría de los usuarios de Windows).
 
 1. El usuario que realiza la configuración debe tener una copia de la herramienta de línea de comandos **OpenSSL**.
-1. El servidor y el cliente ya deben estar configurados para utilizar un certificado SSL personalizado, dando instrucciones para almacenar el certificado de cliente en el almacén de certificados de Windows en lugar de almacenarlo en el directorio **Certificates**.
+1. El servidor y el cliente ya deben estar configurados para usar un certificado SSL personalizado, dando instrucciones para almacenar el certificado de cliente en el almacén de certificados de Windows en lugar de almacenarlo en el **Certificados** directorio.
 
 ## Configuración del Almacén de certificados de Windows {#section-3629802122e947d4b4f63e8b732cfe27}
 
@@ -106,7 +106,7 @@ El Almacén de certificados de Windows para clientes está habilitado siguiendo 
 
 **Paso 1: Importe el certificado SSL y la clave privada del usuario en el Almacén de certificados de Windows.**
 
-En [Uso de certificados personalizados en Data Workbench](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#concept-ee6a9b5015f84a0ba64a11428b0a72dd) se le indica que coloque el certificado SSL y la clave en el siguiente directorio:
+En [Uso de certificados personalizados en la Data Workbench](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#concept-ee6a9b5015f84a0ba64a11428b0a72dd) se le indica que coloque el certificado SSL y la clave en el siguiente directorio:
 
 ```
 <
@@ -115,7 +115,7 @@ En [Uso de certificados personalizados en Data Workbench](../../../home/c-instal
 </filepath>>\Certificates\
 ```
 
-El nombre del certificado es `<Common Name>.pem`, como Analytics Server 1.pem (no el archivo trust_ca_cert.pem).
+El nombre del certificado es `<Common Name>.pem` como Analytics Server 1.pem (no el archivo trust_ca_cert.pem).
 
 Para poder importar el certificado y la clave privada, deben convertirse desde el formato . [!DNL pem] a un formato [!DNL .pfx], como [!DNL pkcs12.pfx]).
 
@@ -210,19 +210,19 @@ Instrucciones para usar certificados personalizados.
 using-custom-certificates-DWB.xml
 -->
 
-Un certificado utilizado por el cliente de Data Workbench o el servidor debe estar firmado por una CA de confianza (entidad emisora de certificados). Los clientes de Data Workbench reciben certificados firmados por Visual Sciences CA. El software de Data Workbench confía en estos certificados, ya que el [!DNL trust_ca_cert.pem] (proporcionado junto con el software de Insight y almacenado en el directorio **Certificates** de ambos servidores y clientes) contiene un *Root CA Certificate* para Visual Sciences CA. Estos certificados se utilizan tanto para la licencia del software como para la autenticación cuando los clientes y servidores se comunican entre sí mediante SSL. Sólo los certificados emitidos por Visual Sciences CA pueden utilizarse para la concesión de licencias, pero otros certificados pueden utilizarse para la comunicación y la autenticación. A continuación, los certificados emitidos por entidades emisoras de certificados que no son Visual Sciences se denominan *certificados personalizados.*
+Un certificado utilizado por el cliente de Data Workbench o el servidor debe estar firmado por una CA de confianza (entidad emisora de certificados). Los clientes de Data Workbench reciben certificados firmados por Visual Sciences CA. Estos certificados son de confianza para el software de Data Workbench, ya que la variable [!DNL trust_ca_cert.pem] (se proporciona junto con el software de Insight y se almacena en la variable **Certificados** directorio de tanto servidores como clientes) contiene un *Certificado CA raíz* para Visual Sciences CA. Estos certificados se utilizan tanto para la licencia del software como para la autenticación cuando los clientes y servidores se comunican entre sí mediante SSL. Sólo los certificados emitidos por Visual Sciences CA pueden utilizarse para la concesión de licencias, pero otros certificados pueden utilizarse para la comunicación y la autenticación. Los certificados emitidos por entidades emisoras distintas de Visual Sciences se mencionan a continuación como *certificados personalizados.*
 
-**Nota importante:** Para servidores y clientes, el software de Data Workbench utiliza los archivos de certificado instalados en el directorio de  **** certificados del cliente o del servidor o los certificados identificados explícitamente en su configuración. Sin embargo, también puede usar el Almacén de certificados de Windows para clientes.
+**Nota importante:** Para servidores y clientes, el software de Data Workbench utiliza los archivos de certificado instalados en el cliente o el servidor **Certificados** directorio o certificados explícitamente identificados en su configuración. Sin embargo, también puede usar el Almacén de certificados de Windows para clientes.
 
 Las siguientes instrucciones describen los procedimientos que se deben seguir para utilizar certificados personalizados para la comunicación entre clientes de Data Workbench y servidores. No todos los detalles son un requisito difícil y se pueden utilizar diferentes variaciones en el proceso. Sin embargo, los procedimientos que figuran a continuación se han puesto a prueba para que funcionen.
 
 ## Configuración de certificados de cliente personalizados {#section-2083fd41973e451fa404e7a4ae4da591}
 
-1. Agregue el certificado de la CA emisora al [!DNL trust_cert_ca.pem], que se instala en el directorio **Certificates** del cliente y en el de todos los servidores de cada clúster a los que se vaya a acceder mediante este certificado personalizado.
+1. Agregue el certificado de la CA emisora al [!DNL trust_cert_ca.pem], que se instala en el **Certificados** del cliente y del de cada servidor de cada clúster al que se vaya a acceder mediante este certificado personalizado.
 
 1. Obtenga un certificado personalizado para cada servidor del clúster con las siguientes condiciones:
 
-   1. El certificado tiene el formato de certificado [!DNL .pem].
+   1. El certificado tiene el formato de [!DNL .pem] certificado.
    1. El certificado contiene su clave y no está cifrado (es decir, no tiene ninguna frase de contraseña/contraseña).
 
       Un certificado contiene su clave con una de las siguientes líneas:
@@ -232,15 +232,15 @@ Las siguientes instrucciones describen los procedimientos que se deben seguir pa
       BEGIN RSA PRIVATE KEY
       ```
 
-      Una forma de eliminar la frase de contraseña de un certificado [!DNL .pem]:
+      Una forma de quitar la frase de contraseña de una [!DNL .pem] certificado:
 
       ```
       openssl rsa  -in password-protected-cert.pem -out no-password-cert.pem
       openssl x509 -in password-protected-cert.pem >> no-password.pem
       ```
 
-   1. El certificado tiene las letras CN, O, OU, etc. según sea necesario para este cliente en el archivo [!DNL Access Control.cfg] de los servidores.
-   1. El certificado se emitió con un *propósito **** de *cliente* (o ambos *servidor* **y** *cliente*).
+   1. El certificado tiene las letras CN, O, OU, etc. según sea necesario para este cliente en los servidores de [!DNL Access Control.cfg] archivo.
+   1. El certificado se emitió con un *propósito **** de *cliente* (o ambas *server* **y** *cliente*).
 
       Para verificar que un certificado tiene un código de propósito de servidor o cliente, se pueden utilizar los siguientes comandos:
 
@@ -257,8 +257,8 @@ Las siguientes instrucciones describen los procedimientos que se deben seguir pa
 
       Para un certificado de cliente, solo se requiere el segundo comando para generar [!DNL OK].
 
-1. Coloque el certificado en el directorio **Certificates** del cliente.
-1. En [!DNL Insight.cfg] en *serverInfo* para cada clúster que desee usar este certificado, asegúrese de que se asigna el nombre *certificado de cliente personalizado*, por ejemplo:
+1. Coloque el certificado en el **Certificados** directorio.
+1. En [!DNL Insight.cfg] en el *serverInfo* para cada clúster que desee utilizar este certificado, asegúrese de que la variable *certificado de cliente personalizado* tiene un nombre, como:
 
    ```
    Servers = vector: 1 items
@@ -269,12 +269,12 @@ Las siguientes instrucciones describen los procedimientos que se deben seguir pa
 
 ## Configuración de certificados de servidor personalizados {#setting-up-custom-server-certificates}
 
-En esta sección se supone que tiene un clúster en funcionamiento, que utiliza certificados emitidos por Visual Sciences y que la configuración sigue prácticas comunes (como el directorio *Components for Processing Servers* del maestro se sincroniza con los directorios *Components* de todas las DPU).
+En esta sección se asume que tiene un clúster que está en funcionamiento, que utiliza certificados emitidos por Visual Sciences y que la configuración sigue prácticas comunes (como la *Componentes para servidores de procesamiento* el directorio del maestro se sincroniza con el *Componentes* directorios de todas las DPU).
 
-1. Agregue el certificado de la CA emisora al [!DNL trust_cert_ca.pem] que está instalado en todos los servidores del clúster y en todos los clientes que necesiten comunicarse con este clúster.
+1. Agregue el certificado de la CA emisora al [!DNL trust_cert_ca.pem] que se instala en todos los servidores del clúster y en todos los clientes que necesitan comunicarse con este clúster.
 1. Obtenga un certificado personalizado para cada servidor del clúster con estos requisitos:
 
-   1. El certificado personalizado tiene el formato de certificado [!DNL .pem].
+   1. El certificado personalizado tiene el formato de [!DNL .pem] certificado.
    1. El certificado contiene su clave y no está cifrado (es decir, no tiene ninguna frase de contraseña/contraseña).
 
       Un certificado contiene su clave si tiene una línea como:
@@ -284,7 +284,7 @@ En esta sección se supone que tiene un clúster en funcionamiento, que utiliza 
       BEGIN RSA PRIVATE KEY
       ```
 
-      Una forma de eliminar la frase de contraseña de un certificado [!DNL .pem]:
+      Una forma de quitar la frase de contraseña de una [!DNL .pem] certificado:
 
       ```
       openssl rsa  -in password-protected-cert.pem -out no-password-cert.pem
@@ -292,7 +292,7 @@ En esta sección se supone que tiene un clúster en funcionamiento, que utiliza 
       ```
 
    1. El certificado tiene el mismo CN que el [!DNL server_cert.pem] instalado actualmente en el servidor.
-   1. El certificado se emitió con un propósito de *server* y *client*.
+   1. El certificado se expidió con el fin de *server* y *cliente*.
 
       Para verificar que un certificado tiene un código de propósito de servidor o cliente, se pueden utilizar los siguientes comandos:
 
@@ -309,9 +309,9 @@ En esta sección se supone que tiene un clúster en funcionamiento, que utiliza 
 
       Para un certificado de cliente, solo se requiere el segundo comando para generar [!DNL OK].
 
-1. Instale cada certificado personalizado del servidor en el directorio **Certificates** del servidor como [!DNL custom_communications_cert.pem].
+1. Instale cada certificado personalizado del servidor en la variable **Certificados** directorio del servidor como [!DNL custom_communications_cert.pem].
 
-1. Con un editor de texto, agregue la línea siguiente al archivo **Communications.cfg** en los directorios *Components* y *Components for Processing Servers*, directamente debajo de la primera línea ( [!DNL component = CommServer]):
+1. Con un editor de texto, agregue la línea siguiente a **Communications.cfg** en *Componentes* y *Componentes para servidores de procesamiento* directamente debajo de la primera línea ( [!DNL component = CommServer]):
 
    ```
    Certificate = string: Certificates\\custom_communications_cert.pem
@@ -321,7 +321,7 @@ En esta sección se supone que tiene un clúster en funcionamiento, que utiliza 
 
 **Acerca de la advertencia de errores de certificados**
 
-Cuando el servidor o cliente de Insight busca un certificado **license** en el directorio **Certificates**, intenta validar todos los certificados (excepto [!DNL trust_ca_cert.pem]) frente a una copia codificada del certificado de Insight CA, que falla en cualquier certificado personalizado presente en el directorio. El servidor emite esta advertencia:
+Cuando el servidor o cliente de Insight está buscando un **licencia** en el **Certificados** , intenta validar todos los certificados (excepto [!DNL trust_ca_cert.pem]), frente a una copia codificada del certificado de Insight CA, que falla en cualquier certificado personalizado presente en el directorio. El servidor emite esta advertencia:
 
 ```
 Certificate failed to verify. Error 20 at 0 depth. Desc: unable to get local issuer certificate. Cert details:
@@ -337,9 +337,9 @@ Codifique contraseñas y otras cadenas al realizar comunicaciones entre el clien
 string_encryption.xml
 -->
 
-Al comunicarse entre el cliente de Data Workbench (estación de trabajo) y el servidor, puede guardar un parámetro Value (como una contraseña) con el tipo *EncryptedString*. Esto oculta el parámetro y guarda la cadena en el *Almacén de credenciales de Windows* en el servidor con la clave correspondiente devuelta. Esto almacena principalmente las credenciales utilizadas en las exportaciones, pero puede utilizarse para cifrar cualquier parámetro.
+Al comunicarse entre el cliente de Data Workbench (estación de trabajo) y el servidor, puede guardar un parámetro Value (como una contraseña) con el Tipo de *EncryptedString*. Esto oculta el parámetro y guarda la cadena en la variable *Almacén de credenciales de Windows* en el servidor con la clave correspondiente devuelta. Esto almacena principalmente las credenciales utilizadas en las exportaciones, pero puede utilizarse para cifrar cualquier parámetro.
 
-* Se agregó una nueva carpeta en Server\**EncryptStrings**.
+* Se ha añadido una nueva carpeta al servidor\**EncryptStrings**.
 
    Aquí es donde establece el archivo de configuración para cifrar cadenas.
 
@@ -350,11 +350,11 @@ Al comunicarse entre el cliente de Data Workbench (estación de trabajo) y el se
      Path = Path: EncryptStrings\\*.cfg
    ```
 
-   Este archivo sondea la carpeta *Server*\*EncryptStrings* para los archivos de configuración de cifrado.
+   Este archivo sondea la variable *Servidor* Carpeta \*EncryptStrings* para archivos de configuración de cifrado.
 
 **Para cifrar una cadena**:
 
-1. Cree un archivo de configuración **EncryptedStrings.cfg** para una cadena con estos campos establecidos:
+1. Cree un **EncryptedStrings.cfg** archivo de configuración de una cadena con estos campos definidos:
 
    ```
    Names = vector: 1 items
@@ -364,21 +364,21 @@ Al comunicarse entre el cliente de Data Workbench (estación de trabajo) y el se
      Value = string: // Value to be encrypted
    ```
 
-   * *Valor* : este campo contiene la cadena de texto sin formato que debe cifrarse.
+   * *Valor* - Este campo contiene la cadena de texto sin formato que debe cifrarse.
 
-      Solo es cifrado del lado del servidor. La configuración *Value* solo está cifrada en el equipo servidor.
+      Solo es cifrado del lado del servidor. La variable *Valor* esta configuración solo está cifrada en el equipo servidor.
 
-   * *Nombre* : este campo contiene un valor que identifica la cadena cifrada.
-   * *EncryptValue* : este campo se dejará vacío en el archivo de configuración de entrada. El valor cifrado se devuelve en este campo.
+   * *Nombre* - Este campo contiene un valor que identifica la cadena cifrada.
+   * *EncryptValue* - Este campo se deja vacío en el archivo de configuración de entrada. El valor cifrado se devuelve en este campo.
 
-   Puede agregar varios valores **NameEncryptValuePair** para diferentes campos de cifrado.
+   Puede agregar varias **NameEncryptValuePair** para diferentes campos de codificación.
 
    >[!NOTE]
    >
    >Se eliminarán todos los campos de valor vacíos.
 
-1. Guarde el archivo **EncryptedStrings.cfg** en la carpeta Server\**EncryptStrings**.
+1. Guarde el **EncryptedStrings.cfg** al servidor\**EncryptStrings** carpeta.
 
 **Archivo de salida**
 
-Se generará un archivo de salida con el mismo nombre que el archivo de entrada con un &lt;*filename*>.** encryptedeextension. Por ejemplo, si el nombre del archivo de entrada es *sample.cfg*, el nombre del archivo de salida será *sample.cfg.encryption*.
+Se generará un archivo de salida con el mismo nombre que el archivo de entrada con un &lt;*filename*>.*cifrados* extensión. Por ejemplo, si el nombre del archivo de entrada es *sample.cfg* entonces se llamará al archivo de salida *sample.cfg.encryption*.

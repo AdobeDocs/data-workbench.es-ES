@@ -1,12 +1,12 @@
 ---
 description: Después de configurar Transform, debe configurarlo para exportar los datos de origen de registro y utilizarlos en otras aplicaciones.
-title: Pasos siguientes
+title: Pasos siguientes (transformación)
 uuid: 359f24da-6367-4992-9153-66d872ed6b21
 exl-id: 316458ab-26a1-4963-9e90-8e8cd7b9881c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
@@ -14,6 +14,6 @@ ht-degree: 3%
 
 Después de configurar Transform, debe configurarlo para exportar los datos de origen de registro y utilizarlos en otras aplicaciones.
 
-Para configurar [!DNL Transform], edite los archivos [!DNL [!DNL Insight] Transform.cfg] y [!DNL [!DNL Insight] Transform Mode.cfg] en la carpeta [!DNL Dataset] del perfil para el que desea exportar los datos de evento. Para obtener instrucciones de configuración, consulte el capítulo [!DNL Transform] de la *Guía de configuración del conjunto de datos*.
+Para configurar [!DNL Transform], edite el [!DNL [!DNL Insight] Transform.cfg] y [!DNL [!DNL Insight] Transformar archivos Mode.cfg] dentro de [!DNL Dataset] carpeta del perfil cuyos datos de evento desea exportar. Para obtener instrucciones de configuración, consulte la [!DNL Transform] capítulo del *Guía de configuración de conjuntos de datos*.
 
-Después de configurar [!DNL Transform] para exportar los datos de evento de su perfil, puede ver la información de uso de memoria en la interfaz Estado detallado. Para obtener más información, consulte el capítulo Interfaces administrativas de la * [!DNL Insight] Guía del usuario*.
+Después de configurar [!DNL Transform] para exportar datos de evento para su perfil, puede ver información de uso de memoria en la interfaz Estado detallado . Para obtener más información, consulte el capítulo Interfaces administrativas del * [!DNL Insight] Guía del usuario*.

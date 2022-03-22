@@ -1,12 +1,12 @@
 ---
 description: Para detectar los errores del sensor lo antes posible y repararlos antes de que causen problemas o interrupciones importantes, debe supervisar regularmente los registros de eventos.
-title: Supervisión de los eventos administrativos
+title: Monitorización de eventos administrativos (Sensor)
 uuid: c43d6509-6950-4436-8d6c-be7b00664f05
 exl-id: 70894074-b8aa-4f6c-87d1-d0403f4c3319
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 1%
+source-wordcount: '1093'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Para detectar los errores del sensor lo antes posible y repararlos antes de que causen problemas o interrupciones importantes, debe supervisar regularmente los registros de eventos.
 
-**Frecuencia recomendada:** al menos por hora
+**Frecuencia recomendada:** Al menos por hora
 
-Puede monitorizar estos eventos utilizando el Visor de eventos de Windows o el archivo Syslog Unix y los archivos [!DNL *.sensor-log] ubicados de forma predeterminada en la carpeta [!DNL Logs] dentro del directorio de instalación [!DNL Sensor]. Estos archivos indican la presencia de errores durante la recopilación de datos, especialmente si un [!DNL Sensor] no se puede conectar con el [!DNL data workbench server] de destino y comienza a poner en cola los datos.
+Puede controlar estos eventos utilizando el Visor de eventos de Windows o el archivo Syslog de Unix y el [!DNL *.sensor-log] los archivos ubicados de forma predeterminada en la variable [!DNL Logs] dentro de la carpeta [!DNL Sensor] directorio de instalación. Estos archivos indican la presencia de errores durante la recopilación de datos, especialmente si [!DNL Sensor] no se puede conectar al destino [!DNL data workbench server] y comienza a poner en cola los datos.
 
 ## Supervisión de eventos en Windows {#section-7c0443a356af4381bf22259654f5cd17}
 
@@ -30,7 +30,7 @@ Los mensajes se registran como &quot;Información&quot;, &quot;Advertencia&quot;
 
 ## Supervisión de eventos en Unix {#section-5de3947891fb47ac88b7c855e545d54a}
 
-El sensor registra errores en el demonio [!DNL syslog].
+El sensor registra los errores en el [!DNL syslog] daemon.
 
 El demonio syslog escribe mensajes de error en los archivos de registro en función de las reglas especificadas en el archivo syslog.conf. Los errores se registran con los indicadores &quot;LOG_DAEMON&quot; y &quot;LOG_NOTICE&quot; o &quot;LOG_ERR&quot;, según la gravedad.
 
@@ -56,13 +56,13 @@ Todos los mensajes del sensor contienen la cadena &quot;Sensor&quot; y están nu
 >
 >Las advertencias (2xxx) no están actualmente en uso. Estos números están reservados para uso futuro.
 
-Su herramienta de gestión de red se puede configurar para supervisar sus mensajes cada 5-10 minutos en busca de errores con el origen &quot;Sensor&quot; y alertar al personal apropiado sobre los problemas que pueden requerir intervención. Puede elegir monitorizar el sistema solo para determinados tipos de mensajes de Evento, como la cadena &quot;Error de sensor&quot;. Alternativamente, puede aplicar distintas reglas a los eventos precedidos de las cadenas &quot;Información del sensor&quot;, &quot;Advertencia del sensor&quot; y &quot;Error del sensor&quot;.
+Su herramienta de gestión de red se puede configurar para supervisar sus mensajes cada 5-10 minutos en busca de errores con el origen &quot;Sensor&quot; y alertar al personal apropiado sobre los problemas que pueden requerir intervención. Puede elegir monitorizar el sistema solo para determinados tipos de mensajes de Evento, como la cadena &quot;Error de sensor&quot;. Como alternativa, puede aplicar diferentes reglas a los eventos prefijados con las cadenas &quot;Información del sensor&quot;, &quot;Advertencia del sensor&quot; y &quot;Error del sensor&quot;.
 
 ## Identificación de mensajes importantes {#section-5a20f5dc18ca4012931d194db855e54e}
 
 Dentro de los registros de eventos, debe prestar especial atención a los mensajes relacionados con el tamaño de la cola y enviarlos inmediatamente.
 
-Por ejemplo, mensajes como &quot;[!DNL Sensor Info 1012: Adobe disk queue is #% full]&quot; necesitan atención.
+Por ejemplo, mensajes como &quot; [!DNL Sensor Info 1012: Adobe disk queue is #% full]&quot; necesitan atención.
 
 ## Respuesta a los mensajes de eventos del sensor {#section-0004c4a169dc4a8882d9bd87dd326ad4}
 
@@ -139,7 +139,7 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
    <td colname="col2"> Póngase en contacto con Adobe ClientCare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Error de sensor 4022: No se puede asignar el bloque de memoria de longitud &lt;x&gt; en el desplazamiento &lt;y&gt; </td> 
+   <td colname="col1"> Error de sensor 4022: No se puede asignar el bloque de memoria de longitud &lt;x&gt; desplazamiento &lt;y&gt; </td> 
    <td colname="col2"> Póngase en contacto con Adobe ClientCare. </td> 
   </tr> 
   <tr> 
@@ -193,10 +193,10 @@ Tablas que describen eventos de sensor y acciones sugeridas para las plataformas
 
 | Mensaje de evento | Acción sugerida |
 |---|---|
-| Error de sensor 3015: falta la sección ns/server/[server]/module/[module] en el archivo de configuración de AOLServer. | Este es un error de configuración. Corrección como se indica en el error. |
+| Error de sensor 3015: ns/server/[server]/module/[módulo] falta en el archivo de configuración de AOLServer. | Este es un error de configuración. Corrección como se indica en el error. |
 | Error de sensor 3019: no se llamó a vys-cookie antes de vys-log. Póngase en contacto con el servicio de asistencia técnica. Póngase en contacto con Adobe ClientCare. | Póngase en contacto con el servicio de asistencia técnica. Póngase en contacto con Adobe ClientCare. |
-| Error del sensor 3020: Falta VisualSciencesConfig como primera entrada en la sección [section] del archivo de configuración de AOLServer. | Este es un error de configuración. Corrección como se indica en el error. |
-| Error de sensor 3021: A VisualSciencesConfig le falta un valor en la sección [section] del archivo de configuración de AOLServer. | Este es un error de configuración. Corrección como se indica en el error. |
+| Error del sensor 3020: Falta VisualSciencesConfig como primera entrada en [sección] en el archivo de configuración de AOLServer. | Este es un error de configuración. Corrección como se indica en el error. |
+| Error de sensor 3021: A VisualSciencesConfig le falta un valor en [sección] en el archivo de configuración de AOLServer. | Este es un error de configuración. Corrección como se indica en el error. |
 
 **Servidores web de sistemas iPlanet y Java**
 

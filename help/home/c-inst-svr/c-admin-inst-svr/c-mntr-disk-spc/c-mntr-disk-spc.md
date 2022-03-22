@@ -1,12 +1,12 @@
 ---
 description: Debe supervisar regularmente el espacio disponible en disco para que todos los equipos de Insight Server sigan funcionando al nivel más alto posible.
-title: Monitorización del espacio en disco
+title: Monitorización del espacio en disco (Insight Server)
 uuid: 13248e36-4e88-4212-816e-bcc12deefcb4
 exl-id: c2198edc-3961-4845-97cf-0ebe039f9a66
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '126'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Debe supervisar regularmente el espacio disponible en disco para que todos los equipos de Insight Server sigan funcionando al nivel más alto posible.
 
-Cada máquina [!DNL Insight Server] almacena los siguientes tipos de datos:
+Cada [!DNL Insight Server] equipo almacena los siguientes tipos de datos:
 
 * Datos de conjunto de datos
 * Datos de evento
@@ -23,7 +23,7 @@ Cada máquina [!DNL Insight Server] almacena los siguientes tipos de datos:
 * Datos de salida
 * Datos del sistema
 
-Para obtener más información sobre los requisitos de almacenamiento de datos de la que se proporciona en esta sección, consulte el documento *Minimum System Requirements*.
+Para obtener más información sobre los requisitos de almacenamiento de datos de la que se proporciona en esta sección, consulte *Requisitos mínimos del sistema* documento.
 
 >[!NOTE]
 >

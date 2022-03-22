@@ -1,12 +1,12 @@
 ---
 description: Información sobre los códigos y formatos de zona horaria.
-title: Códigos de huso horario
+title: Códigos y formatos de zona horaria
 uuid: 5698882a-9682-41d8-88d3-8471578a22cc
 exl-id: 2829c4ca-af6f-4ddb-acce-b33c3b552ba7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 5%
+source-wordcount: '378'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Las zonas horarias se expresan en un formato de zona horaria independiente del s
 
 El signo (+) puede ser un signo más (+) o un signo menos (-), y hmm es el desplazamiento desde UTC en horas y minutos. La variable opcional estructura especifica un conjunto de reglas para implementar el cambio de horario de verano o una política de cambio de reloj similar.
 
-Si especifica unidades, un archivo delimitado por tabuladores denominado [!DNL dstrules.dst] debe estar presente en el directorio Dataset\TimeZone del perfil [!DNL Base] (para archivos de configuración que no están asociados a un conjunto de datos determinado) o del perfil del conjunto de datos (para archivos de configuración que son específicos del conjunto de datos). El archivo especifica un conjunto de reglas independientes de zona horaria para el horario de verano. Puede tener diferentes conjuntos de reglas para diferentes años. El archivo [!DNL DST.dst] proporcionado por el Adobe en el perfil [!DNL Base] especifica las reglas estándar de Estados Unidos establecidas por la Ley de Política Energética de 2005 (en vigor a partir de 2007) y las reglas de Estados Unidos para años anteriores.
+Si especifica celdas, un archivo delimitado por tabuladores denominado [!DNL dstrules.dst] debe estar presente en el directorio Dataset\TimeZone de [!DNL Base] perfil (para archivos de configuración que no están asociados a un conjunto de datos determinado) o el perfil del conjunto de datos (para archivos de configuración que son específicos del conjunto de datos). El archivo especifica un conjunto de reglas independientes de zona horaria para el horario de verano. Puede tener diferentes conjuntos de reglas para diferentes años. La variable [!DNL DST.dst] archivo proporcionado por el Adobe en la variable [!DNL Base] especifica las normas estándar de los Estados Unidos establecidas por la Ley de Política Energética de 2005 (en vigor a partir de 2007) y las normas de los Estados Unidos para años anteriores.
 
 A continuación se enumeran las entradas de zona horaria de ejemplo:
 
@@ -38,7 +38,7 @@ La siguiente tabla contiene la lista de códigos que puede utilizar para especif
 
 ## Tabla de código de zona horaria {#section-b4f965b872c543e2ac52a3c94410d076}
 
-Si va a implementar Daylight Saving Time o una política similar de cambio de reloj, debe guardar el archivo [!DNL .dst] que contiene las reglas adecuadas en el directorio del nombre de perfil [!DNL \Dataset\Timezone] en el equipo del servidor de Data Workbench.
+Si va a implementar Horario de verano o una política de cambio de reloj similar, debe guardar la variable [!DNL .dst] archivo que contiene las reglas adecuadas en el nombre del perfil [!DNL \Dataset\Timezone] en el equipo de servidor de Data Workbench.
 
 | Código | Zona horaria | Desplazamiento desde GMT |
 |---|---|---|

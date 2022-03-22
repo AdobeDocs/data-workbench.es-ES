@@ -1,12 +1,12 @@
 ---
 description: Debe supervisar regularmente el espacio en disco disponible para que todos los equipos de Report Server sigan funcionando al nivel más alto posible.
-title: Monitorización del espacio en disco
+title: Monitorización del espacio en disco (servidor de informes)
 uuid: 590c8239-d20e-470e-b633-7785b75daaa6
 exl-id: 0debd601-494f-4d4e-9452-c4d32678dc95
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Debe supervisar regularmente el espacio en disco disponible para que todos los equipos de Report Server sigan funcionando al nivel más alto posible.
 
-Cada máquina [!DNL Report Server] almacena los siguientes tipos de datos:
+Cada [!DNL Report Server] equipo almacena los siguientes tipos de datos:
 
 * Datos del sistema operativo
 * Datos de informes
@@ -29,9 +29,9 @@ Cada máquina [!DNL Report Server] almacena los siguientes tipos de datos:
 
 ## Monitorización del espacio de datos del informe {#section-ad0a63f3a6824e68acd675da0b6c5c23}
 
-**Frecuencia recomendada:** cada 5-10 minutos
+**Frecuencia recomendada:** Cada 5-10 minutos
 
-Asegúrese de proporcionar suficiente espacio en disco para acomodar los informes en la carpeta [!DNL Reports] dentro del directorio de instalación [!DNL Report].
+Asegúrese de proporcionar espacio en disco suficiente para que los informes se ajusten a la variable [!DNL Reports] dentro de la carpeta [!DNL Report] directorio de instalación.
 
 ## Copia de seguridad del sistema operativo, los informes y los datos del sistema {#section-b5efb132ca5d4ee69a8608f9b4ab245b}
 

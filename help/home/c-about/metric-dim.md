@@ -1,11 +1,11 @@
 ---
 description: Cree Dimension definidos por atributos de métrica (dimensiones de métricas) mediante un asistente paso a paso. A continuación, pruebe, previsualice y guarde la nueva atenuación de métricas en la lista de Dimension.
-title: Asistente para atenuación de métricas
+title: Asistente para atenuación de métricas (Dimension)
 uuid: 411b2e28-0958-43bb-a853-7de7b3063818
 exl-id: 4d283a00-409c-4d74-a558-40744caba71c
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Una atenuación de métricas convierte una métrica en una nueva dimensión. Por
 
    ![](assets/6_4_workstation_metricdim_create_metric.png)
 
-   Puede agregar su propia [expresión de métrica](https://experienceleague.adobe.com/docs/data-workbench/using/client/qry-lang-syntx/c-syntx-mtrc-exp.html) o cortar y pegar desde otro editor o visualización de métricas. Los errores de sintaxis, los errores de fórmula, los filtros no definidos y otros errores se informan en el asistente.
+   Puede agregar su propio [expresión de métrica](https://experienceleague.adobe.com/docs/data-workbench/using/client/qry-lang-syntx/c-syntx-mtrc-exp.html) o cortar y pegar desde otro editor de métricas o visualización. Los errores de sintaxis, los errores de fórmula, los filtros no definidos y otros errores se informan en el asistente.
 
 1. Haga clic en **[!UICONTROL Next]**.
 
@@ -60,18 +60,18 @@ Una atenuación de métricas convierte una métrica en una nueva dimensión. Por
 
    ![](assets/6_4_workstation_metricdim_format_metric.png)
 
-   El formato define cómo se presentará la métrica cuando se abra en una visualización. Estos formatos están seleccionados [printf standard](https://www.cplusplus.com/reference/cstdio/printf/), definidos a continuación:
+   El formato define cómo se presentará la métrica cuando se abra en una visualización. Estos formatos están seleccionados [normas printf](https://www.cplusplus.com/reference/cstdio/printf/), definida a continuación:
 
    ```
    %[flags][width][.precision][length][specifier]
    % 0.2lf = % _ [flags] 0 [width] .2 [.precision] l [length] f[ specifier]
    ```
 
-   En el campo **[!UICONTROL Preview]**, aparecerá un valor basado en la métrica y el formato seleccionados.
+   En el **[!UICONTROL Preview]** , aparece un valor en función de la métrica y el formato seleccionados.
 
 1. Añadir expresión Recuento de bloques.
 
-   Puede definir una atenuación de métrica con varios intervalos o bloques. Esto devuelve subconjuntos de elementos basados en el tamaño, como [0-4], [5-10],...). Los elementos del nivel de Dimension están relacionados con los elementos cuyo intervalo contiene el valor de la métrica. Consulte la descripción de la expresión del bloque en [Sintaxis para expresiones de Dimension](https://experienceleague.adobe.com/docs/data-workbench/using/client/qry-lang-syntx/c-syntx-dim-exp.html).
+   Puede definir una atenuación de métrica con varios intervalos o bloques. Devuelve subconjuntos de elementos basados en el tamaño, como [0-4], [5-10],...). Los elementos del nivel de Dimension están relacionados con los elementos cuyo intervalo contiene el valor de la métrica. Consulte la descripción de la expresión del bloque en [Sintaxis para expresiones de Dimension](https://experienceleague.adobe.com/docs/data-workbench/using/client/qry-lang-syntx/c-syntx-dim-exp.html).
 
 1. Haga clic en **[!UICONTROL Preview]** para abrir la tabla de valores de atenuación de métricas antes de guardar.
 
@@ -79,7 +79,7 @@ Una atenuación de métricas convierte una métrica en una nueva dimensión. Por
 
    La tabla detalla los valores de las métricas por cada métrica atenuada.
 
-1. Haga clic **[!UICONTROL Show in Dimension Menu]** para añadir la dimensión recién creada a la pestaña **Dimension** en el **Finder**.
+1. Haga clic en **[!UICONTROL Show in Dimension Menu]** para añadir la dimensión recién creada al **Dimension** en la ficha **Buscador**.
 
 1. Haga clic en **[!UICONTROL Next]**.
 
