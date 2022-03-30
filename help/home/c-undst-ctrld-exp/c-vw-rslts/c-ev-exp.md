@@ -1,10 +1,10 @@
 ---
 description: Después de ejecutar el experimento hasta que el número mínimo requerido de visitantes haya participado en él, puede estar seguro de que cuenta con suficiente confianza estadística para evaluar los resultados del experimento.
-solution: Analytics,Analytics
+solution: Analytics
 title: Evaluación del experimento
 uuid: 88fd81bc-b944-48ea-bd4d-8716979ec69e
 exl-id: 5add2168-f6bc-45c5-bf1d-1191a38c5bac
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Después de ejecutar el experimento hasta que el número mínimo requerido de visitantes haya participado en él, puede estar seguro de que cuenta con suficiente confianza estadística para evaluar los resultados del experimento.
 
-Mediante [!DNL Insight], compare las métricas o los indicadores clave de rendimiento que se hayan definido como parte de la hipótesis para determinar si el experimento fue un éxito (es decir, la hipótesis se validó con la confianza especificada).
+Uso [!DNL Insight], compare las métricas o los indicadores clave de rendimiento que se hayan definido como parte de la hipótesis para determinar si el experimento fue un éxito (es decir, la hipótesis se validó con la confianza especificada).
 
 En nuestro experimento de ejemplo, nuestra hipótesis se demuestra correcta si la conversión de visitantes aumenta al menos en un 1,5 %, que es el criterio de éxito que definimos anteriormente.
 
@@ -29,7 +29,7 @@ El siguiente ejemplo de espacio de trabajo muestra que la Conversión para el gr
 
 ## Resumen de los resultados del experimento {#section-24a496c080a04e929764094acb00bab7}
 
-Con [!DNL Insight] puede crear informes detallados para resumir e ilustrar los resultados del experimento.
+Uso [!DNL Insight], puede crear informes detallados para resumir e ilustrar los resultados del experimento.
 
 A continuación, puede usar los informes, como se muestra en el siguiente ejemplo, para hacer recomendaciones basadas en los resultados, que están respaldados por la información visual que ha proporcionado en los informes:
 
@@ -39,7 +39,7 @@ A continuación, puede usar los informes, como se muestra en el siguiente ejempl
 
 Una vez que los resultados sean claros, estará listo para actuar sobre esos resultados realizando cambios en el nivel de producción en las páginas probadas, aplicando los mismos cambios en otras áreas del sitio web y asegurándose de documentar completamente la prueba, sus resultados y los cambios realizados.
 
-## Monitorización de las acciones {#section-1954311950c34637800cbd7c0711983f}
+## Supervisión de acciones {#section-1954311950c34637800cbd7c0711983f}
 
 Una vez completado el experimento controlado y haya implementado los cambios correspondientes, asegúrese de seguir monitorizando los cambios realizados, por ejemplo, viendo las métricas de validación, creando gráficos de control y proporcionando métricas de tablero.
 

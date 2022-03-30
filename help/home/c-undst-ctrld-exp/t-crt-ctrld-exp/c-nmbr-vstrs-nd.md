@@ -1,10 +1,10 @@
 ---
 description: Para crear un experimento estadísticamente relevante, debe determinar cuánto tiempo necesita ejecutar el experimento para incluir suficientes visitantes para evaluar de forma eficaz los resultados de los cambios en el sitio web.
-solution: Analytics,Analytics
+solution: Analytics
 title: Determinación del número de visitantes necesarios
 uuid: 07fca0aa-031a-4335-bba4-fb00cb90e29d
 exl-id: c23f4c21-21e5-4694-a500-efe1369cd4bf
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 Para crear un experimento estadísticamente relevante, debe determinar cuánto tiempo necesita ejecutar el experimento para incluir suficientes visitantes para evaluar de forma eficaz los resultados de los cambios en el sitio web.
 
-Si necesita ayuda para determinar la duración mínima del experimento, puede utilizar la hoja de cálculo del diseño del experimento que proporciona Adobe como herramienta para diseñar el experimento. Este archivo, denominado [!DNL VS Controlled Experiment Design.xls] de forma predeterminada, funciona no solo como hoja de cálculo, sino también como registro de las decisiones sobre el experimento. Para obtener más información sobre este archivo, consulte [Hoja de cálculo del diseño del experimento](../../../home/c-undst-ctrld-exp/t-exp-dsn-spst.md#task-d7f674980fe9415d80371d6020bcf164).
+Si necesita ayuda para determinar la duración mínima del experimento, puede utilizar la hoja de cálculo del diseño del experimento que proporciona Adobe como herramienta para diseñar el experimento. Este archivo, llamado [!DNL VS Controlled Experiment Design.xls] de forma predeterminada, funciona no solo como hoja de cálculo, sino también como registro de las decisiones sobre el experimento. Para obtener más información sobre este archivo, consulte [Hoja de cálculo del diseño del experimento](../../../home/c-undst-ctrld-exp/t-exp-dsn-spst.md#task-d7f674980fe9415d80371d6020bcf164).
 
 >[!NOTE]
 >

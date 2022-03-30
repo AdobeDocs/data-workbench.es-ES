@@ -1,10 +1,10 @@
 ---
 description: Los resultados de las pruebas deben ser claros y significativos para que pueda sentirse seguro de tomar decisiones importantes en dólares basadas en esos resultados.
-solution: Analytics,Analytics
+solution: Analytics
 title: ¿Qué debería probar?
 uuid: 9dfe3685-885e-4098-ab1d-ac891ccc5199
 exl-id: 0f06ff0f-b385-4614-8007-afdb85191a85
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Los resultados de las pruebas deben ser claros y significativos para que pueda sentirse seguro de tomar decisiones importantes en dólares basadas en esos resultados.
 
-Aunque puede probar varios diseños de página con [!DNL Sensor] y sitio, el Adobe sugiere que se centre en probar las iniciativas empresariales estratégicas de alto valor o en la funcionalidad de sitios web nuevos o rediseñados que respondan a los objetivos establecidos para su sitio web, así como para su negocio. Puede probar problemas como las mejores garantías de precios, la funcionalidad de personalización, las ofertas de mercado (por ejemplo, paquetes o paquetes), el diseño creativo y los procesos de aplicación.
+Aunque puede probar varios diseños de página con [!DNL Sensor] y Sitio, el Adobe sugiere que se centre en probar las iniciativas empresariales estratégicas de alto valor o en la funcionalidad de sitios web nuevos o rediseñados que aborden los objetivos establecidos para su sitio web, así como para su negocio. Puede probar problemas como las mejores garantías de precios, la funcionalidad de personalización, las ofertas de mercado (por ejemplo, paquetes o paquetes), el diseño creativo y los procesos de aplicación.
 
 Los siguientes conceptos son más importantes al desarrollar su experimento controlado:
 
@@ -32,11 +32,11 @@ Se pueden realizar muchos tipos de experimentos con muchos objetivos diferentes 
 
 Para alcanzar estos objetivos, Site admite los siguientes tipos de metodologías para la experimentación y prueba controladas:
 
-* **Sustitución de página:** reemplace la dirección URL estática X por la dirección URL estática Y. Esta metodología es de uso limitado en un entorno dinámico.
-* **Sustitución de URI dinámico:** es una variante de Sustitución de página que sustituye la página estática X por la página dinámica Y para representar contenido dinámico.
-* **Sustitución de objeto:** reemplace el objeto fijo X por el objeto fijo Y.
-* **Sustitución de contenido:** reemplace el conjunto de contenido X (varios objetos, páginas, tabla, etc.) por el conjunto de contenido Y.
-* **Sustitución de la variable del experimento:** reemplace el objeto de JavaScript /writeCookie_X.js por el objeto de JavaScript /writeCookie_Y.js para escribir una cookie que pueda utilizar un sistema back-end para proporcionar contenido determinado.
+* **Sustitución de página:** Reemplace la dirección URL estática X por la dirección URL estática Y. Esta metodología es de uso limitado en un entorno dinámico.
+* **Sustitución de URI dinámico:** Se trata de una variante de Sustitución de página que sustituye la página estática X por la página dinámica Y para representar contenido dinámico.
+* **Sustitución de objetos:** Reemplace el objeto fijo X por el objeto fijo Y.
+* **Sustitución de contenido:** Reemplace el conjunto de contenido X (varios objetos, páginas, tabla, etc.) por el conjunto de contenido Y.
+* **Sustitución de la variable del experimento:** Reemplace el objeto de JavaScript /writeCookie_X.js con el objeto de JavaScript /writeCookie_Y.js para escribir una cookie que pueda ser utilizada por un sistema back-end para servir contenido determinado.
 
 >[!NOTE]
 >
@@ -44,4 +44,4 @@ Para alcanzar estos objetivos, Site admite los siguientes tipos de metodologías
 >
 >`https://www.omniture.com/index.asp?id=1`
 >
->Por ejemplo, en el experimento controlado, puede especificar que el URI del grupo de control [!DNL index.asp] se sustituya por el URI del grupo de prueba [!DNL index2.asp] para determinar qué diseño de página resultaría en más valor.
+>Por ejemplo, en el experimento controlado, puede especificar que el URI del grupo de control [!DNL index.asp] se reemplazará por el URI del grupo de prueba [!DNL index2.asp] para determinar qué diseño de página resultaría en más valor.

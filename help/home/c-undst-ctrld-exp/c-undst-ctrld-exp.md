@@ -1,10 +1,10 @@
 ---
 description: Los experimentos controlados son pruebas que permiten comparar los resultados obtenidos de un grupo de muestra experimental con los de un grupo de control estándar.
-solution: Analytics,Analytics
+solution: Analytics
 title: Experimentos controlados por Data Workbench
 uuid: 5fce2d9e-4975-44e4-a7c0-11064d8d28b4
 exl-id: 40bcf6a4-c722-427c-81ac-45dec1eae0b5
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -19,6 +19,6 @@ El sitio permite implementar, medir y analizar experimentos controlados y sus re
 
 >[!NOTE]
 >
->Los experimentos del sitio solo se pueden analizar en conjuntos de datos donde el único método de identificación de visitantes que se utiliza es el método de cookie persistente [!DNL Sensor] establecido. Los sensores que se ejecutan en servidores J2EE (JBoss, Tomcat, WebLogic y WebSphere) no admiten experimentación controlada. Para obtener más información, consulte la siguiente sección.
+>Los experimentos del sitio solo se pueden analizar en conjuntos de datos en los que el único método de identificación de visitantes que se utiliza es la variable [!DNL Sensor] establezca el método de cookie persistente. Los sensores que se ejecutan en servidores J2EE (JBoss, Tomcat, WebLogic y WebSphere) no admiten experimentación controlada. Para obtener más información, consulte la siguiente sección.
 
 Mediante el uso de Site, puede implementar experimentos A/B, A/B/A y multivariados controlados con el fin de recopilar suficientes datos de prueba para proporcionar datos estadísticamente precisos que permitan realizar una evaluación detallada de la hipótesis, sin afectar el rendimiento actual del sitio web.

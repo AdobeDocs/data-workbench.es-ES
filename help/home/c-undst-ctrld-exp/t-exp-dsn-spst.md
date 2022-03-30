@@ -1,10 +1,10 @@
 ---
 description: Este archivo no solo funciona como una hoja de cálculo, sino también como un registro de las decisiones sobre el experimento.
-solution: Analytics,Analytics
+solution: Analytics
 title: Hoja de cálculo del diseño del experimento
 uuid: bcb11e39-9cbd-400c-af30-4b1c85e7f218
 exl-id: 554790ab-1182-4481-87b0-e768ea769ddf
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -21,7 +21,7 @@ La hoja de cálculo del diseño del experimento puede proporcionar inferencias e
 
 **Para diseñar el experimento utilizando el archivo de diseño del experimento**
 
-1. Si tiene acceso de administrador a sus servidores web o de aplicaciones, vaya a la carpeta de instalación [!DNL Sensor] en cualquier equipo [!DNL Sensor] del clúster web. Si no tiene acceso de administrador, póngase en contacto con el administrador de cuentas de Adobe para solicitar el archivo.
+1. Si tiene acceso de administrador a sus servidores web o de aplicaciones, vaya a la [!DNL Sensor] carpeta de instalación en cualquier [!DNL Sensor] en el clúster web. Si no tiene acceso de administrador, póngase en contacto con el administrador de cuentas de Adobe para solicitar el archivo.
 1. Abra el archivo VS Controlled Experiment Design.xls . (Si lo desea, puede cambiar el nombre de este archivo).
 
    La hoja de cálculo de la página siguiente es un ejemplo de cómo se completaría la hoja de cálculo al prepararse para probar la hipótesis de ejemplo utilizada en esta guía.
@@ -56,7 +56,7 @@ La hoja de cálculo del diseño del experimento puede proporcionar inferencias e
   </tr> 
   <tr> 
    <td colname="col1"> Definición de las métricas </td> 
-   <td colname="col2"> <p>Definición de la métrica en la que se basa el experimento. </p> <p>Formato: Visitantes[X]/Visitantes </p> <p>Ejemplo: <span class="filepath"> Visitantes[URI='conversionpage.asp']/Visitantes</span></p> </td> 
+   <td colname="col2"> <p>Definición de la métrica en la que se basa el experimento. </p> <p>Formato: Visitantes[X]/Visitantes </p> <p>Ejemplo: <span class="filepath"> Visitors[URI='conversionpage.asp']/Visitors</span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hora de inicio prevista </td> 
@@ -154,7 +154,7 @@ Debe ver el valor en el campo Mínimo de visitantes necesarios (grupos de contro
 
 ![](assets/Experiment_Design_Min_Visitors.png)
 
-y compárela con el valor del campo Total de la columna [!DNL Visitors].
+y compárela con el valor del campo Total de la variable [!DNL Visitors] para abrir el Navegador.
 
 ![](assets/Experiment_Design_Total_Visitors.png)
 

@@ -1,10 +1,10 @@
 ---
 description: Después de haber implementado el experimento, debe validar que funcione correctamente.
-solution: Analytics,Analytics
+solution: Analytics
 title: Validación del experimento
 uuid: 59769f5b-4175-479e-ad7d-7226e9c666af
 exl-id: 6dfd01ca-288d-40fd-aad4-75a588902ebd
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 2%
@@ -15,9 +15,9 @@ ht-degree: 2%
 
 Después de haber implementado el experimento, debe validar que funcione correctamente.
 
-Como se explica en [Modificación del parámetro ExpCookieURL (opcional)](../../home/c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expckurl-prm.md#concept-215bf86bab4e4ec0b0cc803ec48a8fcf), la página especificada en el parámetro ExpCookieURL del archivo de configuración [!DNL Sensor] puede utilizarse para colocarse en un grupo de experimentos específico.
+Como se explica en [Modificación del parámetro ExpCookieURL (opcional)](../../home/c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expckurl-prm.md#concept-215bf86bab4e4ec0b0cc803ec48a8fcf), la página especificada en el parámetro ExpCookieURL de la variable [!DNL Sensor] puede utilizarse para colocarse en un grupo de experimentos específico.
 
-La página virtual predeterminada es [!DNL /setcookie.htm], pero debe utilizar el valor establecido en el parámetro ExpCookieURL.
+La página virtual predeterminada es [!DNL /setcookie.htm], pero debe utilizar el valor que ha establecido en el parámetro ExpCookieURL .
 
 ## Solicitud de la página de prueba {#section-8aed3b48d47f4e6c8869c0216f8781b1}
 

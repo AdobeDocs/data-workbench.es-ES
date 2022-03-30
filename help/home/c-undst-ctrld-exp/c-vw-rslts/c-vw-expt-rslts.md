@@ -1,10 +1,10 @@
 ---
 description: Después de agregar el nuevo campo a Log Processing.cfg y crear la nueva transformación Split y dimensión extendida, puede ver la nueva dimensión ampliada que ha creado en cuanto ha finalizado la fase de Entrada rápida del reprocesamiento de datos.
-solution: Analytics,Analytics
+solution: Analytics
 title: Visualización de los resultados del experimento
 uuid: c0468cad-fb8d-4ecf-8912-bf80b44b0a65
 exl-id: cada693c-79cb-4f49-a2f0-6ff60425be1c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 4%
@@ -19,7 +19,7 @@ Esta dimensión, de forma predeterminada, muestra el número de sesiones para ca
 
 **Para ver la dimensión del experimento**
 
-* En cualquier espacio de trabajo de [!DNL Insight], abra una tabla con la dimensión de experimento que ha creado.
+* Dentro de cualquier espacio de trabajo en [!DNL Insight], abra una tabla con la dimensión de experimento que ha creado.
 
    Los elementos de dimensión del experimento, que representan cada experimento que está ejecutando y cada grupo dentro de cada experimento, se muestran con el número actual de sesiones para cada grupo. Cada grupo recibe un nombre en el siguiente formato con el nombre del experimento seguido del nombre del grupo:
 
@@ -27,7 +27,7 @@ Esta dimensión, de forma predeterminada, muestra el número de sesiones para ca
 
    Por ejemplo: [!DNL New Homepage.Control]
 
-La siguiente tabla muestra la dimensión Grupos de experimentos controlados que se creó en [!DNL Transformation.cfg] y cada uno de los experimentos y sus grupos.
+La tabla siguiente muestra la dimensión Grupos de experimentos controlados que se creó en [!DNL Transformation.cfg] y cada uno de los experimentos y sus grupos.
 
 El experimento Nueva página principal se muestra en la parte inferior de la tabla con sus dos grupos: Control e índice2.
 
