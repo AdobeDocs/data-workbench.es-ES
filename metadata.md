@@ -3,7 +3,7 @@ cloud: Experience Cloud
 product: adobe analytics
 solution: Analytics
 type: Documentation
-git-repo: https://git.corp.adobe.com/AdobeDocs/data-workbench.es-ES
+git-repo: https://github.com/AdobeDocs/data-workbench.es-ES
 index: true
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
