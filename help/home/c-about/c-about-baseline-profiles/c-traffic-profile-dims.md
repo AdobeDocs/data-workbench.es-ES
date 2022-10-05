@@ -3,7 +3,7 @@ description: El perfil Tráfico contiene las siguientes dimensiones para ayudar 
 title: Dimensiones del perfil de tráfico
 uuid: 9c0dabfc-67c9-4772-99ac-4c503c06ea78
 exl-id: 1e7d2904-aa5d-4848-a398-5d4669953be9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 4ab43bfbad96096fb2cebd77a8be8fa6d49fa7dc
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 8%
@@ -12,22 +12,24 @@ ht-degree: 8%
 
 # Dimensiones del perfil de tráfico{#traffic-profile-dimensions}
 
+{{eol}}
+
 El perfil Tráfico contiene las siguientes dimensiones para ayudar a identificar las acciones de los visitantes.
 
-Las dimensiones de la siguiente tabla se definen en el conjunto de datos de transformación e incluyen archivos en Traffic\Dataset\Transformation directory.
+Las dimensiones de la siguiente tabla se definen en el conjunto de datos de transformación que incluye archivos en el directorio Traffic\Dataset\Transformation .
 
 | Nombre | Tipo | Nivel | Descripción |
 |---|---|---|---|
 | Día | Sencilla | Sesión | El día de la primera entrada de registro de la sesión. |
 | Día de la semana | Sencilla | Sesión | El día de la semana de la primera entrada de registro de una sesión. |
-| Duración exacta de la página (oculta) | Numéricos | Vista de la página | La duración en milisegundos de la vista de página medida restando el tiempo de la siguiente vista de página desde el momento de la vista de página. La duración exacta de la última vista de página de una sesión es siempre 0. |
+| Duración exacta de la página (oculta) | Ocultar grupos de informes | Vista de páginas | La duración en milisegundos de la vista de página medida restando el tiempo de la siguiente vista de página desde el momento de la vista de página. La duración exacta de la última vista de página de una sesión es siempre 0. |
 | Hora | Sencilla | Sesión | Hora de la primera entrada de registro de una sesión. |
 | Hora del día | Sencilla | Sesión | Hora del día de la primera entrada de registro de una sesión. |
 | Mes | Sencilla | Sesión | Mes de la primera entrada de registro de una sesión. |
-| Vista de la página | Contable | Sesión | Una entrada de registro o &quot;Registro de datos de evento&quot; que cumpla la condición de vista de página. |
-| Referente | Sencilla | Sesión | Dominio de segundo nivel del referente de la primera entrada de registro de la sesión (o Ninguno si es un dominio de referente interno). |
-| Sesión | Contable | Visitante | Un período de actividad contigua relacionada por un visitante. Se delimita por un periodo de inactividad de 30 minutos y un dominio de referente externo o una duración máxima de sesión de 48 horas. Tanto esos tiempos de espera como el conjunto de dominios que se consideran internos se pueden configurar en el archivo [!DNL Transformation.cfg] . |
-| URI | Sencilla | Vista de la página | El nombre URI de una vista de página. La dimensión URI se puede redefinir con las transformaciones ReplaceURI, PrependURI y AppendURI . |
+| Vista de páginas | Contable | Sesión | Una entrada de registro o &quot;Registro de datos de evento&quot; que cumpla la condición de vista de página. |
+| Remitente del reenvío | Sencilla | Sesión | Dominio de segundo nivel del referente de la primera entrada de registro de la sesión (o Ninguno si es un dominio de referente interno). |
+| Sesión | Contable | Visitante | Un período de actividad contigua relacionada por un visitante. Se delimita por un periodo de inactividad de 30 minutos y un dominio de referente externo o una duración máxima de sesión de 48 horas. Tanto esos tiempos de espera como el conjunto de dominios que se consideran internos se pueden configurar en la variable [!DNL Transformation.cfg] archivo. |
+| URI | Sencilla | Vista de páginas | El nombre URI de una vista de página. La dimensión URI se puede redefinir con las transformaciones ReplaceURI, PrependURI y AppendURI . |
 | Visitante | Contable | N/A | Un valor único de x-trackingid. Normalmente corresponde a un explorador único si se utilizan cookies persistentes. De lo contrario, x-trackingid puede basarse en el número IP o en algún otro identificador único, como el nombre común x.509. |
 | Semana | Sencilla | Sesión | La semana de la primera entrada de registro de una sesión. |
 
@@ -64,7 +66,7 @@ Las dimensiones de la siguiente tabla se definen en el directorio Dimension del 
   <tr> 
    <td colname="col1"> URI siguiente </td> 
    <td colname="col2"> Derivado (ShiftDim basado en la dimensión URI) </td> 
-   <td colname="col03"> Vista de la página </td> 
+   <td colname="col03"> Vista de páginas </td> 
    <td colname="col3"> El URI del siguiente URI después del URI seleccionado actualmente. Esta dimensión derivada se utiliza para realizar análisis sobre qué hacen los visitantes después de cualquier URI determinado. </td> 
   </tr> 
   <tr> 
@@ -76,11 +78,11 @@ Las dimensiones de la siguiente tabla se definen en el directorio Dimension del 
   <tr> 
    <td colname="col1"> Página </td> 
    <td colname="col2"> Derivado (Cambiar nombre de Dim en función de la dimensión URI) </td> 
-   <td colname="col03"> Vista de la página </td> 
+   <td colname="col03"> Vista de páginas </td> 
    <td colname="col3"> Nombre de cada página visitada durante una sesión. Inicialmente, el nombre de cada página es el mismo que el URI, pero se puede cambiar para facilitar la interpretación. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Referente </td> 
+   <td colname="col1"> Remitente del reenvío </td> 
    <td colname="col2"> Heredado de la dimensión Referente integrada </td> 
    <td colname="col03"> Sesión </td> 
    <td colname="col3"> El nombre de dominio de segundo nivel del sitio web que remitió por primera vez una sesión al sitio (proporcionado por el explorador del visitante). </td> 
@@ -131,12 +133,12 @@ Las dimensiones de la siguiente tabla se definen en el directorio Dimension del 
    <td colname="col1"> Dimension de informes de tiempo </td> 
    <td colname="col2"> Derivadas (dimensiones LastN y Cambiar nombre basadas en dimensiones temporales integradas) </td> 
    <td colname="col03"> Sesión </td> 
-   <td colname="col3"> Dimension, incluidos Días anteriores, Días del último mes, Días de la última semana, Días de este mes, Días de esta semana, Horas de hoy, Horas de ayer, últimos 12 meses, últimos 2 meses, últimas 2 semanas, últimas 24 horas, últimos 3 meses, últimas 4 semanas, últimos 6 meses, últimos 7 días, últimos 7 días y hoy, últimas 8 semanas, últimos 9 meses, Mes, Última semana, Meses atrás, Este mes, Esta semana, Este y Los Últimos 14 Días, Este y Los Últimos 6 Meses, Esta y Las Últimas 8 Semanas, Hoy, Informes Hoy, Hoy y Últimos 30 Días, Hace Semanas y Ayer proporcionan una forma cómoda de crear un espacio de trabajo o informe que siempre muestra una parte de los datos en el conjunto de datos. Cada uno se basa en el momento en que se inició una sesión. </td> 
+   <td colname="col3"> Dimension, incluidos Días anteriores, Días del último mes, Días de la última semana, Días de este mes, Días de esta semana, Horas de hoy, Horas de ayer, últimos 12 meses, últimos 2 meses, últimas 2 semanas, últimas 24 horas, últimos 3 meses, últimas 4 semanas, últimos 6 meses, últimos 7 días, últimos 7 días y hoy, últimas 8 semanas, últimos 9 meses, Mes, Última semana, Meses atrás, Este mes, Esta semana, Este y Los Últimos 14 días, Este y Los Últimos 6 Meses, Esta y Las Últimas 8 Semanas, Hoy, Informes Hoy, Hoy y Últimos 30 Días, Hace Semanas y Ayer proporcionan una forma cómoda de crear un espacio de trabajo o informe que siempre muestra una parte de los datos en el conjunto de datos. Cada uno se basa en el momento en que se inició una sesión. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> URI </td> 
    <td colname="col2"> Heredado del URI del Dimension integrado </td> 
-   <td colname="col03"> Vista de la página </td> 
+   <td colname="col03"> Vista de páginas </td> 
    <td colname="col3"> El URI de cada página vista. </td> 
   </tr> 
   <tr> 

@@ -4,7 +4,7 @@ title: Ayuda de Data Workbench
 feature: Reports & Analytics Basics
 uuid: 987b69f1-b82a-4719-a71d-b0250a4a4f92
 exl-id: 9c00c87e-e5dd-4806-9338-2336ae68176a
-source-git-commit: 3a446ecb2ad7f16d840dbd2bfde44e3298bc588f
+source-git-commit: 541751e1b8966a0816b7a42e117f4c69db1ed002
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 96%
@@ -14,6 +14,8 @@ ht-degree: 96%
 # Ayuda de Data Workbench {#data-workbench-help}
 
 ![Banner](/help/home/assets/doc_banner_workbench.png)
+
+{{eol}}
 
 [Data Workbench](https://www.adobe.com/solutions/digital-analytics/data-workbench.html) forma parte de [Adobe Analytics](https://www.adobe.com/solutions/digital-analytics.html). Posee una potente capacidad multicanal de gran flexibilidad diseñada para recopilar, procesar, analizar y visualizar datos a partir de interacciones de clientes en línea y sin conexión en todos los tipos de datos web, CRM, POS y otros. Los informes interactivos de Data Workbench le permiten analizar información estadística pertinente, y reaccionar al respecto, con objeto de supervisar la actividad y predecir tendencias en los clientes.
 
