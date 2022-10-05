@@ -3,7 +3,7 @@ description: Creación de un grupo de usuarios
 title: Creación de un grupo de usuarios
 uuid: 8a474480-81fa-4a86-9937-2fb82e949436
 exl-id: 8af9d635-ff07-486f-845a-44541d577fad
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 9%
@@ -12,7 +12,9 @@ ht-degree: 9%
 
 # Creación de un grupo de usuarios{#creating-a-user-group}
 
-1. Haga clic en **[!UICONTROL Create Group]** para que aparezca el formulario **[!UICONTROL New Group]**.
+{{eol}}
+
+1. Haga clic en **[!UICONTROL Create Group]** para que aparezca el **[!UICONTROL New Group]** formulario.
 
    ![](assets/create_user_group.png)
 
@@ -37,11 +39,11 @@ ht-degree: 9%
     </tr> 
     <tr class="chrow strow"> 
     <td class="choption"><strong>Permisos</strong></td> 
-    <td class="chdesc stentry"> <p> <span class="uicontrol"> Administrador</span>: Guarde, vea, modifique y elimine todos los tableros de todos los perfiles. Los privilegios de administrador permiten al usuario iniciar sesión en el área de administración y realizar todas las funciones administrativas. </p> <p> <span class="uicontrol"> Solo</span> lectura: Restringir permisos a solo lectura para tableros. El usuario no puede agregar ni modificar visualizaciones ni guardar tableros. </p> <p> <b>No hay permisos marcados  </b>(predeterminado): Sin permisos marcados concede a los usuarios habituales permisos para el grupo. Estos usuarios pueden crear y modificar visualizaciones, guardar tableros y ver los tableros a los que tienen acceso. </p> </td> 
+    <td class="chdesc stentry"> <p> <span class="uicontrol"> Administrador</span>: Guarde, vea, modifique y elimine todos los tableros de todos los perfiles. Los privilegios de administrador permiten al usuario iniciar sesión en el área de administración y realizar todas las funciones administrativas. </p> <p> <span class="uicontrol"> Solo lectura</span>: Restringir permisos a solo lectura para tableros. El usuario no puede agregar ni modificar visualizaciones ni guardar tableros. </p> <p> <b>No hay permisos marcados </b>(predeterminado): Sin permisos marcados concede a los usuarios habituales permisos para el grupo. Estos usuarios pueden crear y modificar visualizaciones, guardar tableros y ver los tableros a los que tienen acceso. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
     <td class="choption"><strong>Usuarios/miembros del grupo disponibles</strong></td> 
-    <td class="chdesc stentry">Arrastre y suelte usuarios de la lista de <span class="uicontrol"> Usuarios disponibles</span> en la sección <span class="uicontrol"> Miembros del grupo </span>. Los miembros del grupo pueden modificarse en cualquier momento. </td> 
+    <td class="chdesc stentry">Arrastrar y soltar usuarios de la lista de <span class="uicontrol"> Usuarios disponibles</span> en el <span class="uicontrol"> Miembros del grupo </span>para obtener más información. Los miembros del grupo pueden modificarse en cualquier momento. </td> 
     </tr> 
     </table>
 

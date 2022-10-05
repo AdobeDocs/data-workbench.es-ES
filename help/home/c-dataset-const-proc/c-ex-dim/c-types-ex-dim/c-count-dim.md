@@ -3,7 +3,7 @@ description: El sistema puede contar los elementos de una dimensión contable.
 title: Dimensiones contables
 uuid: 3312f5eb-69b9-43af-b32a-5c40e3050b29
 exl-id: c607c15d-de85-4daf-af76-79b460f51b38
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Dimensiones contables{#countable-dimensions}
+
+{{eol}}
 
 El sistema puede contar los elementos de una dimensión contable.
 
@@ -60,7 +62,7 @@ Las dimensiones contables se definen con los siguientes parámetros:
   </tr> 
   <tr> 
    <td colname="col1"> Principal </td> 
-   <td colname="col2"> <p>Nombre de la dimensión principal. Cualquier dimensión contable puede ser una dimensión principal. Para que una dimensión sea la dimensión de nivel superior en el esquema del conjunto de datos, establezca el parámetro en "raíz". La dimensión definida se convierte en la dimensión contable raíz para el conjunto de datos. Por ejemplo, si está trabajando con el Sitio, la dimensión Visitante es la dimensión contable raíz del conjunto de datos. </p> <p> <p>Nota:  Aunque la dimensión contable raíz no tiene que estar asociada con los ID de seguimiento en los datos, Adobe recomienda configurar la dimensión contable raíz del conjunto de datos para que utilice el campo de ID de seguimiento (x-trackingid) como su Clave. Como resultado, cada elemento de la tabla raíz está asociado con un valor único de x-trackingid, y todos los datos de cada elemento se agrupan. Si desea configurar el conjunto de datos de forma diferente, póngase en contacto con el Adobe. </p> </p> </td> 
+   <td colname="col2"> <p>Nombre de la dimensión principal. Cualquier dimensión contable puede ser una dimensión principal. Para que una dimensión sea la dimensión de nivel superior en el esquema del conjunto de datos, establezca el parámetro en "raíz". La dimensión definida se convierte en la dimensión contable raíz para el conjunto de datos. Por ejemplo, si está trabajando con el Sitio, la dimensión Visitante es la dimensión contable raíz del conjunto de datos. </p> <p> <p>Nota: Aunque la dimensión contable raíz no tiene que estar asociada con los ID de seguimiento en los datos, Adobe recomienda configurar la dimensión contable raíz del conjunto de datos para que utilice el campo de ID de seguimiento (x-trackingid) como su Clave. Como resultado, cada elemento de la tabla raíz está asociado con un valor único de x-trackingid, y todos los datos de cada elemento se agrupan. Si desea configurar el conjunto de datos de forma diferente, póngase en contacto con el Adobe. </p> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 
@@ -70,6 +72,6 @@ Este ejemplo ilustra la definición de una dimensión contable mediante los dato
 
 ![](assets/cfg_Transformation_Dim_Countable.png)
 
-Este ejemplo también ilustra la definición de una dimensión contable mediante los datos de evento recopilados del tráfico del sitio web, pero tiene un parámetro de clave definido. La dimensión Session count utiliza el campo x-session-key como clave. (El campo x-session-key es el resultado de la transformación [!DNL Sessionize] y tiene un valor único para cada sesión). Cada combinación única de un elemento de la dimensión Visitante (el principal) y el campo x-session-key es un elemento de la dimensión Sesión .
+Este ejemplo también ilustra la definición de una dimensión contable mediante los datos de evento recopilados del tráfico del sitio web, pero tiene un parámetro de clave definido. La dimensión Session count utiliza el campo x-session-key como clave. (El campo x-session-key es la salida de la variable [!DNL Sessionize] transformación y tiene un valor único para cada sesión). Cada combinación única de un elemento de la dimensión Visitante (el principal) y el campo x-session-key es un elemento de la dimensión Sesión .
 
 ![](assets/cfg_Transformation_Dim_Countable2.png)

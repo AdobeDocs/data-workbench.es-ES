@@ -2,8 +2,8 @@
 description: Al crear una capa vectorial que haga referencia a un archivo de valores separados por tabulaciones (.tsv), los datos vectoriales se obtienen recuperando las instrucciones de dibujo, así como los datos de longitud y latitud del archivo .tsv.
 title: Capas vectoriales que hacen referencia a archivos de valores separados por tabuladores
 uuid: 42607b34-e9f2-420a-ba5a-05562598b480
-exl-id: be16ba73-4a98-472b-98f1-1b32e671b763,7b0b0286-072b-4b31-b6ec-ced322da5236
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+exl-id: be16ba73-4a98-472b-98f1-1b32e671b763
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 6%
@@ -12,17 +12,19 @@ ht-degree: 6%
 
 # Capas vectoriales que hacen referencia a archivos de valores separados por tabuladores{#vector-layers-referencing-tab-separated-values-files}
 
+{{eol}}
+
 Al crear una capa vectorial que haga referencia a un archivo de valores separados por tabulaciones (.tsv), los datos vectoriales se obtienen recuperando las instrucciones de dibujo, así como los datos de longitud y latitud del archivo .tsv.
 
-Para definir una capa vectorial que haga referencia a un archivo [!DNL .tsv], debe tener lo siguiente:
+Definición de una capa vectorial que haga referencia a una [!DNL .tsv] debe tener lo siguiente:
 
-* **Un  [!DNL .tsv]** archivo que contiene los datos utilizados para dibujar los vectores en el globo, incluidos los datos de longitud y latitud. Para obtener más información sobre el formato requerido del archivo [!DNL .tsv], consulte [Formato de archivo TSV vectorial](../../../../home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-tab-sep-val-files.md#section-a29012c9ff4444ac8a6d41c68482828e).
+* **A [!DNL .tsv] file** que contiene los datos utilizados para dibujar los vectores en el globo, incluidos los datos de longitud y latitud. Para obtener más información sobre el formato requerido de la variable [!DNL .tsv] archivo, consulte [Formato de archivo TSV vectorial](../../../../home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-tab-sep-val-files.md#section-a29012c9ff4444ac8a6d41c68482828e).
 
-* **Un** archivo de capa que especifica la ubicación del  [!DNL .tsv] archivo. Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato del archivo de capa vectorial](../../../../home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-tab-sep-val-files.md#section-c430923f341f4c93852e9f24b61e82bf).
+* **Un archivo de capa** que especifica la ubicación de la variable [!DNL .tsv] archivo. Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato de archivo de capa vectorial](../../../../home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-tab-sep-val-files.md#section-c430923f341f4c93852e9f24b61e82bf).
 
-## Formato de archivo Vector TSV {#section-a29012c9ff4444ac8a6d41c68482828e}
+## Formato de archivo TSV vectorial {#section-a29012c9ff4444ac8a6d41c68482828e}
 
-El archivo [!DNL .tsv] debe contener las tres columnas separadas por tabulaciones siguientes:
+La variable [!DNL .tsv] debe contener las tres columnas separadas por tabulaciones siguientes:
 
 * **[!DNL Begin]:** Esta columna debe indicar si se inicia una línea nueva. Los valores de esta columna pueden ser 0 (no comenzar una línea nueva) o 1 (comenzar una línea nueva).
 * **[!DNL Longitude]:** Esta columna debe contener valores de longitud.
@@ -32,13 +34,13 @@ El archivo [!DNL .tsv] debe contener las tres columnas separadas por tabulacione
 >
 >Se ignorarán las columnas adicionales.
 
-A continuación se muestra un archivo [!DNL .tsv] de muestra que contiene datos para una capa vectorial:
+A continuación se muestra un ejemplo [!DNL .tsv] archivo que contiene datos para una capa vectorial:
 
 ![](assets/tsv_vectorlayer.png)
 
 ## Formato de archivo de capa vectorial {#section-c430923f341f4c93852e9f24b61e82bf}
 
-Cada archivo de capa vectorial que haga referencia a archivos [!DNL .tsv] debe tener el formato siguiente:
+Cada archivo de capa vectorial que hace referencia a [!DNL .tsv] Los archivos deben tener el formato siguiente:
 
 ```
 Layer = VectorLayer:
@@ -63,7 +65,7 @@ Layer = VectorLayer:
  <tbody> 
   <tr> 
    <td colname="col1"> Archivos TSV </td> 
-   <td colname="col2"> <p>Rutas a los <span class="filepath"> archivos .tsv</span> que contienen los datos del vector. </p> <p>Ejemplo: <span class="filepath"> Mapas\\USVectorData.tsv</span> </p> </td> 
+   <td colname="col2"> <p>Ruta(s) al <span class="filepath"> .tsv</span> archivos que contienen los datos vectoriales. </p> <p>Ejemplo: <span class="filepath"> Mapas\\USVectorData.tsv</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Color </td> 

@@ -3,7 +3,7 @@ description: La transformación Split divide una cadena en un vector de subcaden
 title: Split
 uuid: 116e8465-8fb1-41eb-9a28-412cee54ab87
 exl-id: ea85b095-1306-4938-906d-35d421db6c98
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Split{#split}
+
+{{eol}}
 
 La transformación Split divide una cadena en un vector de subcadenas basado en un carácter delimitador determinado.
 
@@ -51,7 +53,7 @@ La transformación Split divide una cadena en un vector de subcadenas basado en 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Salida </td> 
+   <td colname="col1"> Output </td> 
    <td colname="col2"> Nombre del campo de salida. </td> 
    <td colname="col3"> </td> 
   </tr> 
@@ -62,7 +64,7 @@ Considere un sitio web en el que los productos comprados por un cliente se enume
 
 * /checkout/confirmed.asp?prod_selected=B57481,C46355,Z97123
 
-El campo cs-uri-stem se utiliza para determinar si la página que solicita la entrada de registro es la página de confirmación. Los códigos de los productos que el cliente compró aparecen como valores separados por coma del nombre prod_selected en la consulta cs-uri. La transformación [!DNL Split] puede utilizarse para extraer esta información dividiendo los códigos de producto en la coma si el valor de cs-uri-stem coincide con el valor especificado en la condición [!DNL String Match]. Consulte [Coincidencia de cadena](../../../../../home/c-dataset-const-proc/c-conditions/c-test-ops/c-test-op-con.md#section-f8d132085c6b4500bfbe4515b848142f). La siguiente transformación detalla la solución a este problema.
+El campo cs-uri-stem se utiliza para determinar si la página que solicita la entrada de registro es la página de confirmación. Los códigos de los productos que el cliente compró aparecen como valores separados por coma del nombre prod_selected en la consulta cs-uri. La variable [!DNL Split] se puede utilizar la transformación para extraer esta información dividiendo los códigos de producto en la coma si el valor de cs-uri-stem coincide con el valor especificado en la variable [!DNL String Match] condición. Consulte [Coincidencia de cadena](../../../../../home/c-dataset-const-proc/c-conditions/c-test-ops/c-test-op-con.md#section-f8d132085c6b4500bfbe4515b848142f). La siguiente transformación detalla la solución a este problema.
 
 ![](assets/cfg_TransformationType_Split.png)
 

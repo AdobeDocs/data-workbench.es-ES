@@ -3,7 +3,7 @@ description: Las visualizaciones de tablas de latencia son tablas que incluyen u
 title: Tablas de latencia
 uuid: 8081540c-f96c-424e-802d-05d1be5a728d
 exl-id: 22f6d52f-e1c2-430a-9e69-3440be0ecdea
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
@@ -12,11 +12,13 @@ ht-degree: 1%
 
 # Tablas de latencia{#latency-tables}
 
+{{eol}}
+
 Las visualizaciones de tablas de latencia son tablas que incluyen una dimensión de latencia, que es un tipo de dimensión derivada que mide el tiempo transcurrido desde que se produjo un evento en particular.
 
 Para definir el evento, realice selecciones dentro de una o varias visualizaciones y establezca dichas selecciones como el evento mediante la opción de menú contextual Definir evento . Las tablas de latencia son especialmente útiles para realizar el seguimiento de la actividad relacionada con una campaña o con un orden de cliente concreto en el que está buscando una correlación horaria.
 
-En [!DNL Site], las tablas de latencia proporcionan información sobre las sesiones de visitante que se produjeron siete días antes o después del evento, pero se pueden configurar tablas de latencia para proporcionar información sobre diferentes dimensiones horarias y contables. Consulte [Configuración de tablas de latencia](../../../home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/c-config-ltcy-tbls.md#concept-7175c3defec64556994f0dfcccb7d15c).
+En [!DNL Site], las tablas de latencia proporcionan información sobre las sesiones de visitante que se produjeron siete días antes o después del evento, pero se pueden configurar tablas de latencia para proporcionar información sobre diferentes dimensiones de tiempo y recuento. Consulte [Configuración de tablas de latencia](../../../home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/c-config-ltcy-tbls.md#concept-7175c3defec64556994f0dfcccb7d15c).
 
 Los elementos de la dimensión principal, como una sesión, que forman parte del evento específico seleccionado, tienen una latencia de cero. Todos los demás elementos son latencias asignadas que reflejan la distancia (en la dimensión de tiempo adecuada) respecto al evento.
 
@@ -62,30 +64,30 @@ Si desea volver a utilizar la misma tabla de latencia, puede guardar la tabla de
 
 **Guardar la tabla de latencia para usarla en otros espacios de trabajo**
 
-1. Haga clic con el botón derecho en el borde superior de la visualización y haga clic en **[!UICONTROL Save]**. Aparece la ventana [!DNL Save]. La ubicación de guardado predeterminada es User\*profile name*\Work folder.
-1. En el campo [!DNL File name], escriba un nombre descriptivo para la visualización y haga clic en **[!UICONTROL Save]**.
+1. Haga clic con el botón derecho en el borde superior de la visualización y haga clic en **[!UICONTROL Save]**. La variable [!DNL Save] se abre. La ubicación de guardado predeterminada es User\*profile name*\Work folder.
+1. En el [!DNL File name] , escriba un nombre descriptivo para la visualización y haga clic en **[!UICONTROL Save]**.
 
 **Para recuperar la tabla de latencia guardada**
 
-1. Haga clic con el botón derecho en el espacio de trabajo y haga clic en **[!UICONTROL Open]** > **[!UICONTROL File]**. Aparece la ventana [!DNL Open Visualization].
+1. Haga clic con el botón derecho en el espacio de trabajo y haga clic en **[!UICONTROL Open]** > **[!UICONTROL File]**. La variable [!DNL Open Visualization] se abre.
 1. Vaya a la tabla de latencia que guardó.
 1. Seleccione el archivo de visualización de tabla de latencia ( [!DNL *.vw]) y haga clic en **[!UICONTROL Open]**.
 
-## Reutilizar una dimensión de latencia {#section-29c6483bf9ba476fb1c24ad1df253f46}
+## Reutilización de una dimensión de latencia {#section-29c6483bf9ba476fb1c24ad1df253f46}
 
 Si desea utilizar de nuevo la misma dimensión de latencia, puede guardar la dimensión de latencia localmente o si tiene los permisos adecuados, puede guardarla en el servidor para que puedan acceder todos los usuarios de un perfil en particular.
 
-Las dimensiones de latencia que cree se guardarán en el directorio de Dimension del perfil y estarán disponibles en la lista desplegable [!DNL Change Dimension] dentro de la Data Workbench.
+Las dimensiones de latencia que cree se guardarán en el directorio de Dimension del perfil y estarán disponibles en el [!DNL Change Dimension] lista desplegable dentro de la Data Workbench.
 
 **Para guardar la dimensión de latencia para usarla en otros espacios de trabajo**
 
-1. Haga clic con el botón derecho en la etiqueta de columna [!DNL Latency] o en uno de sus elementos y haga clic en **[!UICONTROL Save Dimension]**. Aparece la ventana [!DNL Save Dimension As].
+1. Haga clic con el botón derecho en el [!DNL Latency] etiqueta de columna o uno de sus elementos y haga clic en **[!UICONTROL Save Dimension]**. La variable [!DNL Save Dimension As] se abre.
 1. Seleccione o cree el subdirectorio correspondiente dentro del directorio de Dimension.
-1. En el campo [!DNL File name], escriba un nombre descriptivo para la dimensión (por ejemplo, [!DNL Latency for Campaign 11565.dim]) y haga clic en **[!UICONTROL Save]**.
+1. En el [!DNL File name] , escriba un nombre descriptivo para la dimensión (por ejemplo, [!DNL Latency for Campaign 11565.dim]) y haga clic en **[!UICONTROL Save]**.
 
 **Para recuperar la dimensión de latencia guardada**
 
-1. Haga clic con el botón derecho en el espacio de trabajo y haga clic en **[!UICONTROL Open]** > **[!UICONTROL File]**. Aparece la ventana [!DNL Open Visualization].
+1. Haga clic con el botón derecho en el espacio de trabajo y haga clic en **[!UICONTROL Open]** > **[!UICONTROL File]**. La variable [!DNL Open Visualization] se abre.
 1. Vaya a la visualización de latencia que guardó en la carpeta Usuario\*nombre de perfil*\Dimension.
 1. Seleccione el archivo de dimensión de latencia ( [!DNL *.dim]) y haga clic en **[!UICONTROL Open]**.
 

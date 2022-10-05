@@ -3,7 +3,7 @@ description: Debe supervisar regularmente los archivos de registro de eventos pa
 title: Supervisión de eventos administrativos (Insight Server)
 uuid: 92d71478-0857-4af8-909c-0cf800b081f4
 exl-id: e468a7d0-ed09-4367-88ce-b68964511e76
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Supervisión de los eventos administrativos{#monitoring-administrative-events}
+
+{{eol}}
 
 Debe supervisar regularmente los archivos de registro de eventos para rastrear los mensajes de evento del sistema de Insight Server, que se registran en la `<YYYYMMDD>-event.txt` archivos ubicados de forma predeterminada en la carpeta Eventos dentro del directorio de instalación de Insight Server.
 

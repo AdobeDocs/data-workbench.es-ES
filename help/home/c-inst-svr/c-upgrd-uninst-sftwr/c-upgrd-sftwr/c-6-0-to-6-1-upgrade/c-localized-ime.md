@@ -2,8 +2,8 @@
 description: Ahora, Data Workbench admite el Editor de métodos de entrada (IME) como proceso de entrada de texto secundario para idiomas internacionales.
 title: Instalación del Editor de métodos de entrada
 uuid: 2a4dc6de-9dd7-4280-b410-fb88a135fe45
-exl-id: 3fcc58f5-29a9-427e-831a-44d527614b56,0bdc7d95-b49a-4ca5-9fde-9c1ce2cd14ec,e4e1c016-0544-434a-b82e-fdd2a4af316c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+exl-id: 3fcc58f5-29a9-427e-831a-44d527614b56
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Instalación del Editor de métodos de entrada{#installing-the-input-method-editor}
+
+{{eol}}
 
 Ahora, Data Workbench admite el Editor de métodos de entrada (IME) como proceso de entrada de texto secundario para idiomas internacionales.
 
@@ -24,25 +26,25 @@ Los IME le permiten introducir caracteres internacionales utilizando una varieda
 
 Para utilizar la función de entrada de texto IME flotante:
 
-1. Haga clic **[!UICONTROL Alt + Space]** para cualquier área de entrada de texto.
+1. Haga clic en **[!UICONTROL Alt + Space]** para cualquier área de entrada de texto.
 1. Introduzca valores utilizando el IME de su sistema.
-1. Cierre el cuadro de diálogo de entrada seleccionando la tecla **[!UICONTROL Enter]** o haciendo clic en el botón **[!UICONTROL OK]**.
+1. Cierre el cuadro de diálogo de entrada seleccionando la **[!UICONTROL Enter]** o haciendo clic en el botón **[!UICONTROL OK]** botón.
 
    El cuadro de diálogo desaparecerá y los caracteres aparecerán en el campo seleccionado.
 
 **Actualización del archivo Insight.cfg**
 
-Para emplear el IME, debe actualizar el archivo [!DNL Insight.cfg] con esta configuración:
+Para emplear el IME, debe actualizar la variable [!DNL Insight.cfg] con esta configuración:
 
 ```
 Localized IME = bool: true
 ```
 
-Si esta configuración no existe en el archivo de configuración, al pulsar **[!UICONTROL Alt + Space]** no se activará la función IME.
+Si esta configuración no existe en el archivo de configuración, pulse **[!UICONTROL Alt + Space]** no activará la función IME.
 
-**Comenzando Insight en otro idioma:** para admitir mejor los recursos localizados como una pantalla de inicio y para admitir varios idiomas en el futuro, Data Workbench requiere argumentos de línea de comandos que identifiquen el idioma que se va a cargar. El idioma predeterminado es inglés.
+**Inicio de Insight en otro idioma:** Para admitir mejor los recursos localizados como una pantalla de inicio y para admitir varios idiomas en el futuro, Data Workbench requiere argumentos de línea de comandos que identifiquen el idioma que se va a cargar. El idioma predeterminado es inglés.
 
-Si inicia Data Workbench en chino, es necesario que invoque [!DNL Insight.exe] con el argumento &quot;-zh-cn&quot;:
+Para iniciar Data Workbench en chino es necesario invocar [!DNL Insight.exe] con el argumento &quot;-zh-cn&quot;:
 
 ```
 Insight.exe -zh-cn

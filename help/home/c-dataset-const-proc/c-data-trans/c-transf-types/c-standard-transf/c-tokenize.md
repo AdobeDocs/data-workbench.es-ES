@@ -3,18 +3,20 @@ description: La transformación Tokenize aplica iterativamente una expresión re
 title: Tokenize
 uuid: f8430e6c-ec14-4ba6-aeae-92c9f2520a63
 exl-id: c1f39b5b-4717-44f6-99c7-4e6a215f3542
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # Tokenize{#tokenize}
 
+{{eol}}
+
 La transformación Tokenize aplica iterativamente una expresión regular a la cadena de entrada.
 
-Sin embargo, a diferencia de [!DNL RETransform], [!DNL Tokenize] no tiene que coincidir con toda la cadena: la expresión regular utilizada para la transformación [!DNL Tokenize] puede coincidir con un subconjunto de la entrada. Después de encontrar una coincidencia, [!DNL Tokenize] vuelve a aplicar la expresión regular, empezando por el carácter después del final de la última coincidencia.
+Sin embargo, a diferencia de [!DNL RETransform], [!DNL Tokenize] no tiene que coincidir con toda la cadena: la expresión regular utilizada para la variable [!DNL Tokenize] la transformación puede coincidir con un subconjunto de la entrada. Después de encontrar una coincidencia, [!DNL Tokenize] vuelve a aplicar la expresión regular, empezando por el carácter después del final de la última coincidencia.
 
 | Parámetro | Descripción | Predeterminado |
 |---|---|---|
@@ -26,7 +28,7 @@ Sin embargo, a diferencia de [!DNL RETransform], [!DNL Tokenize] no tiene que co
 | Expresión | Expresión regular utilizada para la coincidencia. |  |
 | Salidas | Nombres de las cadenas de salida. Puede tener varias salidas para una cadena de entrada determinada. El número de salidas debe corresponder al número de subpatrones de captura en la expresión regular. |  |
 
-En el siguiente ejemplo, la transformación [!DNL Tokenize] utiliza una expresión regular para capturar los nombres de las cadenas de consulta (en cs-uri-query) y genera el subpatrón capturado (el nombre de consulta) como x-pull-query-name.
+En el siguiente ejemplo, la variable [!DNL Tokenize] la transformación utiliza una expresión regular para capturar los nombres de las cadenas de consulta (en cs-uri-query) y mostrar el subpatrón capturado (el nombre de la consulta) en x-pull-query-name.
 
 ![](assets/cfg_TransformationType_Tokenize.png)
 

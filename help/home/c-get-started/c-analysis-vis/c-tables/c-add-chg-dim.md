@@ -3,7 +3,7 @@ description: Puede agregar varias dimensiones a una tabla para obtener una tabul
 title: Adición, cambios y movimientos de una dimensión
 uuid: d8e67374-3b2b-4548-9322-e83c52941331
 exl-id: d2249f39-f4ab-4ec6-a2fb-90f8ecb2e3d1
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 5%
@@ -11,6 +11,8 @@ ht-degree: 5%
 ---
 
 # Adición, cambios y movimientos de una dimensión{#add-change-and-move-a-dimension}
+
+{{eol}}
 
 Puede agregar varias dimensiones a una tabla para obtener una tabulación cruzada más detallada de los datos.
 

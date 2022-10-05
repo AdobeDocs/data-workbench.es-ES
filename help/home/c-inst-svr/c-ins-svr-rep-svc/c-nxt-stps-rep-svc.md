@@ -3,7 +3,7 @@ description: Ha completado la instalación del servicio de replicación de Insig
 title: Pasos siguientes (servicio de replicación de Insight Server)
 uuid: 258087cd-4dde-4e47-9285-d411f22e19ed
 exl-id: 673405e9-34f4-434e-865b-c5544725331d
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 5%
@@ -11,6 +11,8 @@ ht-degree: 5%
 ---
 
 # Pasos siguientes{#next-steps}
+
+{{eol}}
 
 Ha completado la instalación del servicio de replicación de Insight Server.
 

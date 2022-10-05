@@ -3,7 +3,7 @@ description: Puede cambiar la raíz de un explorador de rutas mediante la design
 title: Cambio de la raíz del explorador de rutas
 uuid: 0bb9b004-9736-411b-bd22-cac04f4733a6
 exl-id: 09842b93-af26-42b9-9395-a02b86978b21
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Cambio de la raíz del explorador de rutas{#change-the-path-browser-s-root}
+
+{{eol}}
 
 Puede cambiar la raíz de un explorador de rutas mediante la designación de un elemento mostrado como raíz o la adición de un nuevo elemento a la visualización.
 
@@ -38,4 +40,4 @@ Puede cambiar la raíz de un explorador de rutas mediante la designación de un 
 
    >[!NOTE]
    >
-   >Arrastrar un elemento a un explorador de rutas puede cambiar la dimensión base asociada al explorador de rutas, pero no cambia la dimensión de nivel, la dimensión de grupo o la métrica. Por lo tanto, debe tener cuidado al elegir una dimensión base que tenga sentido cuando se utiliza con la dimensión de nivel del explorador de rutas, la dimensión de grupo y la métrica. Para cambiar la dimensión de nivel, la dimensión de grupo o la métrica, debe editar el archivo [!DNL *.vw] del explorador de rutas en un editor de texto como el Bloc de notas. Consulte [Configuración de exploradores de rutas](../../../../home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md#task-bbb3ddaa140a414f984b697c2b8202a3).
+   >Arrastrar un elemento a un explorador de rutas puede cambiar la dimensión base asociada al explorador de rutas, pero no cambia la dimensión de nivel, la dimensión de grupo o la métrica. Por lo tanto, debe tener cuidado al elegir una dimensión base que tenga sentido cuando se utiliza con la dimensión de nivel del explorador de rutas, la dimensión de grupo y la métrica. Para cambiar la dimensión de nivel, la dimensión de grupo o la métrica, debe editar la [!DNL *.vw] en un editor de texto como Bloc de notas. Consulte [Configuración de exploradores de rutas](../../../../home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md#task-bbb3ddaa140a414f984b697c2b8202a3).

@@ -3,7 +3,7 @@ description: En esta sección se explican los distintos tipos de Dimension y có
 title: Configuración de la dimensión
 uuid: 5b40cb43-7790-4b87-a0bb-be395a420157
 exl-id: 04afd773-e938-49f7-83c9-1d706a6dc525
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Configuración de la dimensión{#dimension-setup}
+
+{{eol}}
 
 En esta sección se explican los distintos tipos de Dimension y cómo configurarlos en DWB.
 
@@ -20,7 +22,7 @@ En el nivel más básico, las dimensiones son categorías en las que se pueden d
 
 Práctica recomendada: Se puede proporcionar cualquier nombre a los Dimension del esquema de datos. Los nombres de Dimension utilizados y explicados en este curso se consideran una práctica recomendada. Los Dimension pueden tener nombres diferentes. A medida que vaya recibiendo exposición a otros conjuntos de datos, empezará a ver diferencias en los conjuntos de datos. Es importante comprender el propósito de las dimensiones en lugar de su nombre. Por ejemplo, tanto si se llama &quot;Visitante&quot;, &quot;Cliente&quot;, &quot;Persona&quot;, &quot;Consumidor&quot; o &quot;Usuario&quot;, es importante comprender que estos son términos que normalmente se utilizan para hacer referencia a la dimensión contable de nivel más alto que se utiliza para recopilar información sobre una persona concreta.
 
-Para obtener información completa, consulte la guía [Configuración del conjunto de datos](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-dataset-constr.html) .
+Para obtener información completa, consulte la [Configuración de conjunto de datos](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-dataset-constr.html) guía.
 
 ## Tipos de Dimension en DWB {#section-a4fbb7bf2bde44528ac0f94a96465862}
 
@@ -69,7 +71,7 @@ Las dimensiones &quot;varios a varios&quot; tienen una relación &quot;varios a 
 **4) Dimension numéricos**
 
 Las dimensiones numéricas son un tipo de dimensión simple que tiene un valor numérico. Las dimensiones numéricas suelen crearse para utilizarse en métricas. Algunos ejemplos de dimensiones numéricas son &quot;Ingresos&quot;, &quot;Pedidos&quot; y &quot;Unidades&quot;. En el ejemplo anterior, &quot;Pedidos de cliente&quot; es una dimensión numérica.
-**5)** Dimensiones denormalesLas dimensiones denormalizadas son dimensiones que tienen una relación &quot;uno a uno&quot; con una dimensión contable principal. Las dimensiones denormalizadas se utilizan a menudo con dimensiones que tienen una alta cardinalidad (muchos elementos únicos) como los datos de identificación. Por ejemplo, un visitante solo puede tener un ID de usuario y otro solo puede pertenecer a un visitante. Por lo tanto, esta es una relación uno a uno y puede ser una dimensión denormalizada.
+**5) Dimension denormales** Las dimensiones denormalizadas son dimensiones que tienen una relación &quot;uno a uno&quot; con una dimensión contable principal. Las dimensiones denormalizadas se utilizan a menudo con dimensiones que tienen una alta cardinalidad (muchos elementos únicos) como los datos de identificación. Por ejemplo, un visitante solo puede tener un ID de usuario y otro solo puede pertenecer a un visitante. Por lo tanto, esta es una relación uno a uno y puede ser una dimensión denormalizada.
 
 Por ejemplo, el ID de usuario web de Geometrixx es una dimensión denormalizada a nivel de cliente. Como es normal, tiene una relación &quot;uno a uno&quot; con su dimensión principal, lo que significa que cada ID de usuario web tiene un cliente y cada cliente solo tiene un ID de usuario web. Por lo tanto, la métrica &quot;Clientes&quot; solo puede ser &quot;1&quot; para cada elemento del ID de usuario web de Geometrixx.
 
@@ -79,7 +81,7 @@ Las dimensiones de tiempo le permiten crear un conjunto de dimensiones de tiempo
 
 >[!NOTE]
 >
->El % de escapes utilizado para el formato de visualización es el mismo que el estándar de la biblioteca C *strftime*.
+>Los % de escapes utilizados para el formato de visualización son los mismos que la biblioteca C estándar *strftime*.
 
 ## Definición de dimensiones extendidas {#section-38ee124ec74b43fb95f13194a9582b97}
 
@@ -97,7 +99,7 @@ Pasos para definir el Dimension extendido:
    * [Dimensiones denormales](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/extended-dimensions/extended-dimensions-types/c-denormal-dim.html)
    * [Dimensiones temporales](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/extended-dimensions/extended-dimensions-types/c-time-dim.html)
 
-1. Para cualquier dimensión ampliada que defina, puede agregar una o más líneas de comentario al parámetro Comentarios para describir aún más la dimensión o agregar notas sobre su uso. Para agregar un comentario, haga clic con el botón derecho en la etiqueta *Comentarios* y haga clic en* Agregar nuevo > Línea de comentarios*.
+1. Para cualquier dimensión ampliada que defina, puede agregar una o más líneas de comentario al parámetro Comentarios para describir aún más la dimensión o agregar notas sobre su uso. Para añadir un comentario, haga clic con el botón derecho en el *Comentarios* y haga clic en* Agregar nuevo > Línea de comentario*.
 
 1. Una vez definidas las dimensiones ampliadas en el archivo de configuración, guarde el archivo localmente y guárdelo en el perfil del conjunto de datos en el servidor DWB.
 

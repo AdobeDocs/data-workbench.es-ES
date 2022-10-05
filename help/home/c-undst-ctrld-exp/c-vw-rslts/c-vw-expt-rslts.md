@@ -4,7 +4,7 @@ solution: Analytics
 title: Visualización de los resultados del experimento
 uuid: c0468cad-fb8d-4ecf-8912-bf80b44b0a65
 exl-id: cada693c-79cb-4f49-a2f0-6ff60425be1c
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 4%
@@ -12,6 +12,8 @@ ht-degree: 4%
 ---
 
 # Visualización de los resultados del experimento{#viewing-the-experiment-results}
+
+{{eol}}
 
 Después de agregar el nuevo campo a Log Processing.cfg y crear la nueva transformación Split y dimensión extendida, puede ver la nueva dimensión ampliada que ha creado en cuanto ha finalizado la fase de Entrada rápida del reprocesamiento de datos.
 

@@ -3,7 +3,7 @@ description: Exporta datos de la visualización actual.
 title: Exportación de visualizaciones
 uuid: 21ec377c-70a6-4fcb-a3d4-2737f9c358b2
 exl-id: 3da13061-5588-4490-9cdd-23ada6f285c5
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 6%
@@ -11,6 +11,8 @@ ht-degree: 6%
 ---
 
 # Exportación de visualizaciones{#exporting-visualizations}
+
+{{eol}}
 
 Exporta datos de la visualización actual.
 

@@ -3,7 +3,7 @@ description: Para ayudar con las estadísticas, Data Workbench proporciona tres 
 title: Medidas estadísticas
 uuid: a8782cd2-d657-4c04-9c5d-8e0af2a3b76e
 exl-id: 166ff98b-d531-4b31-897e-0c7fedbd2f4d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # Medidas estadísticas{#statistical-measures}
 
+{{eol}}
+
 Para ayudar con las estadísticas, Data Workbench proporciona tres medidas estadísticas en la visualización de análisis guiados.
 
 >[!NOTE]
 >
 >Aunque las matemáticas pueden ayudarle a juzgar las correlaciones en los datos, también debe tenerse en cuenta el contexto que rodea a los datos.
 
-* **Chi Sq** es una prueba de relevancia estadística que controla el aspecto de la marca de verificación en la visualización. Matemáticamente, es probable que podamos rechazar la hipótesis nula, que indica que las diferencias observadas entre los dos grupos pueden explicarse por variaciones aleatorias. Prácticamente, si el valor de Chi Sq p es menor que casi el 100%, podemos ignorar la correlación independientemente de su fuerza medida (como se describe en las siguientes secciones de estadística U y V).
-* **Las** estadísticas de EE. UU. son una medida de la solidez de la correlación estadística. Matemáticamente, proviene de una rama de las matemáticas llamada teoría de la información y está estrechamente relacionada con el concepto de información mutua entre las distribuciones de los dos grupos. Alternativamente, se puede considerar como la compresibilidad de un grupo a partir de un esquema de codificación óptimo para el otro grupo. Prácticamente, esta medida funciona muy bien en el caso común de una dimensión con muchos elementos que contienen pocos visitantes. La medida varía de 0 (débil) a 1 (fuerte).
-* **Las** estadísticas también constituyen una medida de la solidez de la correlación estadística. Matemáticamente, está relacionado con la conocida estadística de V de Cramer, que difiere solamente por un paso de normalización destinado a mejorar la simetría de la medida con respecto a la inversión de selección. Prácticamente, esta medida funciona razonablemente bien con muchos tipos de dimensiones y está relacionada con una medida estadística de uso común. La medida varía de 0 (débil) a 1 (fuerte).
+* **Chi Sq p** es una prueba de relevancia estadística que controla el aspecto de la marca de verificación en la visualización. Matemáticamente, es probable que podamos rechazar la hipótesis nula, que indica que las diferencias observadas entre los dos grupos pueden explicarse por variaciones aleatorias. Prácticamente, si el valor de Chi Sq p es menor que casi el 100%, podemos ignorar la correlación independientemente de su fuerza medida (como se describe en las siguientes secciones de estadística U y V).
+* **Estadística de U** es una medida de la fortaleza de la correlación estadística. Matemáticamente, proviene de una rama de las matemáticas llamada teoría de la información y está estrechamente relacionada con el concepto de información mutua entre las distribuciones de los dos grupos. Alternativamente, se puede considerar como la compresibilidad de un grupo a partir de un esquema de codificación óptimo para el otro grupo. Prácticamente, esta medida funciona muy bien en el caso común de una dimensión con muchos elementos que contienen pocos visitantes. La medida varía de 0 (débil) a 1 (fuerte).
+* **Estadística V** es también una medida de la fortaleza de la correlación estadística. Matemáticamente, está relacionado con la conocida estadística de V de Cramer, que difiere solamente por un paso de normalización destinado a mejorar la simetría de la medida con respecto a la inversión de selección. Prácticamente, esta medida funciona razonablemente bien con muchos tipos de dimensiones y está relacionada con una medida estadística de uso común. La medida varía de 0 (débil) a 1 (fuerte).
 
 >[!NOTE]
 >
@@ -28,7 +30,7 @@ Para ayudar con las estadísticas, Data Workbench proporciona tres medidas estad
 
 Con esta visualización como guía, puede añadir otras visualizaciones al espacio de trabajo para proporcionar más información sobre los datos en función de la selección.
 
-El siguiente ejemplo [!DNL Site] contiene un gráfico de barras que muestra las sesiones de los días de enero, febrero, marzo y abril. Tenga en cuenta que se ha seleccionado un día de enero.
+Lo siguiente [!DNL Site] ejemplo contiene un gráfico de barras que muestra las sesiones de los días de enero, febrero, marzo y abril. Tenga en cuenta que se ha seleccionado un día de enero.
 
 ![](assets/vis_GuidedAnalysis_withVis.png)
 

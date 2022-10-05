@@ -3,7 +3,7 @@ description: Un conjunto de datos de Adobe contiene los datos que el servidor de
 title: Explicación de la construcción de conjuntos de datos
 uuid: 540d159d-3f72-49dd-9929-107f1fc62b2b
 exl-id: 111e98b5-d899-4f79-90ce-70f520d527d6
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 # Explicación de la construcción de conjuntos de datos{#understanding-dataset-construction}
 
+{{eol}}
+
 Un conjunto de datos de Adobe contiene los datos que el servidor de Data Workbench ha cargado y procesado.
 
 Los pasos involucrados en la carga y el procesamiento de los datos por el servidor de Data Workbench (InsightServer64.exe) conforman el proceso de construcción del conjunto de datos.
 
 >[!NOTE]
 >
->Un servidor de Data Workbench que procesa y sirve datos de un conjunto de datos de Adobe se denomina unidad de procesamiento de datos o DPU. A veces se denomina servidor de procesamiento o servidor de consultas. Los clientes de Data Workbench y [!DNL Report] interactúan directamente con las DPU.
+>Un servidor de Data Workbench que procesa y sirve datos de un conjunto de datos de Adobe se denomina unidad de procesamiento de datos o DPU. A veces se denomina servidor de procesamiento o servidor de consultas. Data Workbench y [!DNL Report] los clientes interactúan directamente con las DPU.
 
 Durante la construcción del conjunto de datos, el servidor de Data Workbench lee los datos de origen de los orígenes de registro, aplica transformaciones a campos de datos específicos y define las dimensiones ampliadas que se crearán a partir de los campos transformados. El proceso de construcción se produce en dos fases: *Procesamiento de registros* y *Transformación*. Una vez construido el conjunto de datos, puede utilizar las dimensiones ampliadas del conjunto de datos para crear métricas y dimensiones derivadas para sus fines de análisis específicos.
 
@@ -38,7 +40,7 @@ Los orígenes de registro son archivos que contienen los datos que se utilizará
 >
 >Al seleccionar las fuentes de registro, asegúrese de que cada entrada de registro contiene un ID de seguimiento para la entidad que debe representar el nivel más alto en el que se deben agrupar los datos. Por ejemplo, si está trabajando con datos recopilados del tráfico del sitio web, es probable que elija visitante para que sea esta entidad. Cada visitante tiene un ID de seguimiento único y todos los datos sobre un visitante del sitio en particular se pueden agrupar. Para obtener ayuda, póngase en contacto con el Adobe.
 
-Insight Server recopila en tiempo real los datos de evento de las fuentes de registro [!DNL Sensors] o extrae de las fuentes de datos archivadas. Los datos de evento recopilados por los sensores de HTTP y los servidores de aplicaciones se transmiten a los servidores de Insight, que convierten los datos en archivos de registro ( [!DNL .vsl]) altamente comprimidos. Insight Server lee los datos de evento que residen en un archivo plano, un archivo XML o un origen de datos ODBC y proporciona descodificadores que se definen para extraer un conjunto común de campos de registro de estos diferentes formatos.
+Los datos de evento de fuentes de registro se recopilan en tiempo real mediante [!DNL Sensors] o extraído de fuentes de datos archivadas por Insight Server. Los datos de eventos recopilados por los sensores de HTTP y los servidores de aplicaciones se transmiten a los servidores de Insight, que convierten los datos en registros muy comprimidos ( [!DNL .vsl]). Insight Server lee los datos de evento que residen en un archivo plano, un archivo XML o un origen de datos ODBC y proporciona descodificadores que se definen para extraer un conjunto común de campos de registro de estos diferentes formatos.
 
 ## Definición de transformaciones {#section-55a8cdb47379484081e53087f074778d}
 
@@ -48,7 +50,7 @@ No todos los tipos de transformaciones se pueden utilizar durante la fase de pro
 
 ## Filtrado de registros {#section-6172ca0fb0eb4177925151bb49fdbc02}
 
-El conjunto de datos contiene varios parámetros utilizados para filtrar los datos que salen de las transformaciones. El filtrado se utiliza para especificar qué entradas de registro se utilizan en los pasos de procesamiento siguientes. Por ejemplo, los filtros pueden definirse por, intervalo de tiempo, el estado de la respuesta del servidor o la dirección IP y la información de usuario-agente. El [!DNL Log Entry Condition] es una prueba de filtrado personalizable. La prueba busca ciertas condiciones en los campos de cada entrada de registro para determinar si la entrada debe continuar en el proceso de construcción del conjunto de datos. Si una entrada de registro no cumple la condición, la entrada se elimina del proceso de construcción.
+El conjunto de datos contiene varios parámetros utilizados para filtrar los datos que salen de las transformaciones. El filtrado se utiliza para especificar qué entradas de registro se utilizan en los pasos de procesamiento siguientes. Por ejemplo, los filtros pueden definirse por, intervalo de tiempo, el estado de la respuesta del servidor o la dirección IP y la información de usuario-agente. La variable [!DNL Log Entry Condition] es una prueba de filtrado personalizable. La prueba busca ciertas condiciones en los campos de cada entrada de registro para determinar si la entrada debe continuar en el proceso de construcción del conjunto de datos. Si una entrada de registro no cumple la condición, la entrada se elimina del proceso de construcción.
 
 ## Identificación de campos para transformación {#section-eef98ca723e54547b887aefdf0514c47}
 
@@ -66,7 +68,7 @@ Puede definir transformaciones que se utilizarán durante la fase de transformac
 
 ## Filtrado de registros {#section-3fed0a00ca344a719b5e8db363f64f06}
 
-El [!DNL Log Entry Condition] se puede aplicar durante la transformación para buscar condiciones específicas en los campos de cada entrada de registro proveniente del procesamiento de registros. Si una entrada de registro no cumple la condición, la entrada se elimina del proceso de construcción.
+La variable [!DNL Log Entry Condition] se puede aplicar durante la transformación para buscar condiciones específicas en los campos de cada entrada de registro proveniente del procesamiento de registros. Si una entrada de registro no cumple la condición, la entrada se elimina del proceso de construcción.
 
 ## Definición de dimensiones extendidas {#section-25efafd0bfc84c86b9717d453a88c91b}
 

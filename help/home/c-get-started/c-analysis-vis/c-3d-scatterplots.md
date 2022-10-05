@@ -3,7 +3,7 @@ description: Un diagrama de puntos 3D representa los elementos de una dimensión
 title: Diagrama de puntos 3D
 uuid: 5e23547c-dbb4-490c-94bc-0731deee612e
 exl-id: 18f18cab-a31b-4ffe-89c5-412a5645af2e
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # Diagrama de puntos 3D{#d-scatter-plots}
 
+{{eol}}
+
 Un diagrama de puntos 3D representa los elementos de una dimensión de datos (como Días o Sitio de referencia) en una cuadrícula tridimensional donde los ejes x, y y z representan varias métricas.
 
-Al igual que el [Diagrama de puntos 2D](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Scatter_Plots), esta visualización es útil cuando se intenta comprender la relación entre grandes cantidades de elementos dispares que emplean distintas métricas.
+Como el [Diagrama de puntos 2D](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Scatter_Plots), esta visualización es útil cuando se intenta comprender la relación entre un gran número de elementos dispares que emplean distintas métricas.
 
 **Para utilizar la visualización del diagrama de puntos 3D:**
 
@@ -23,7 +25,7 @@ Al igual que el [Diagrama de puntos 2D](https://experienceleague.adobe.com/docs/
    Después de abrir un nuevo espacio de trabajo, es posible que tenga que hacer clic en **Agregar** > **Desbloquear temporalmente**.
 1. Haga clic con el botón derecho y seleccione **Visualización** > **Diagrama de puntos 3D**.
 
-   Se abrirá un menú que enumera **[!UICONTROL Dimensions]**.
+   Lista de menús **[!UICONTROL Dimensions]** se abrirá.
 
 1. Seleccione una dimensión para la consulta.
 
@@ -31,7 +33,7 @@ Al igual que el [Diagrama de puntos 2D](https://experienceleague.adobe.com/docs/
 
    ![](assets/3D_main.png)
 
-   Al seleccionar el menú **[!UICONTROL Days]** se muestra el siguiente diagrama de puntos 3D con estas métricas predeterminadas en los ejes siguientes: **[!UICONTROL x=Visits]**, **[!UICONTROL y=Retention]** y **[!UICONTROL z=Visits]**.
+   Al seleccionar la variable **[!UICONTROL Days]** muestra el siguiente diagrama de puntos 3D con estas métricas predeterminadas en los siguientes ejes: **[!UICONTROL x=Visits]**, **[!UICONTROL y=Retention]** y **[!UICONTROL z=Visits]**.
 
 1. Cambiar métricas. Haga clic con el botón derecho en la etiqueta de métrica en los ejes x, y o z y seleccione **[!UICONTROL Change Metric]**. A continuación, seleccione una métrica diferente para el eje seleccionado.
 
@@ -57,13 +59,13 @@ Al igual que el [Diagrama de puntos 2D](https://experienceleague.adobe.com/docs/
 
    Cuando aparece por primera vez el diagrama de puntos 3D, se muestra en una proyección giratoria tridimensional, lo que provoca alguna distorsión en los puntos trazados más cerca de la perspectiva, o &quot;cámara&quot; virtual. (Los gráficos más cercanos a la cámara son mucho más grandes que los puntos que rotan más lejos de la cámara).
 
-   Para evitar esta distorsión de la perspectiva, puede seleccionar la opción **[!UICONTROL Orthographic Camera]** haciendo clic con el botón derecho en el título y seleccionando en el menú. Esto le permite representar los objetos tridimensionales en dos dimensiones. De este modo, los puntos trazados se representan como planos y muestran los puntos como relativos a la métrica de radio, lo que reduce los desplazamientos tridimensionales.
+   Para evitar esta distorsión de perspectiva, puede seleccionar la opción **[!UICONTROL Orthographic Camera]** al hacer clic con el botón derecho en el título y seleccionar en el menú. Esto le permite representar los objetos tridimensionales en dos dimensiones. De este modo, los puntos trazados se representan como planos y muestran los puntos como relativos a la métrica de radio, lo que reduce los desplazamientos tridimensionales.
 
 1. Seleccione puntos del diagrama de puntos.
 
-   * **Para eliminar un punto o grupo de puntos**: Haga clic en el punto .
-   * **Para añadir otro punto o grupo de puntos a la selección**:  **Ctrl** +  **** hace clic en un punto o  **Ctrl** +  **** arrastra varios puntos.
+   * **Eliminación de un punto o grupo de puntos**: Haga clic en el punto .
+   * **Para añadir otro punto o grupo de puntos a la selección**: **Ctrl** + **click** un punto o **Ctrl** + **arrastrar** en varios puntos.
 
-   * **Para eliminar un punto o grupo de puntos de la selección**:  **Mayús**  +  **** haga clic en un punto o  **Mayús** **+** **** arrastre varios puntos.
+   * **Eliminación de un punto o grupo de puntos de la selección**: **Mayús** + **click** un punto o **Mayús** **+** **arrastrar** en varios puntos.
 
 <!-- <a id="section_9C30F9799F1440F09278327002E6B47A"></a> -->

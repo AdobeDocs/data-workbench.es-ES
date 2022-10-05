@@ -3,7 +3,7 @@ description: La agrupación de visitantes permite aprovechar las característica
 title: Clúster de visitantes
 uuid: 0c16aaa0-1d86-43a6-a7e2-b43b3ea80dc5
 exl-id: 68c1845d-9c49-4ad9-adf3-c123d08cf758
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Clúster de visitantes{#visitor-clustering}
+
+{{eol}}
 
 La agrupación de visitantes permite aprovechar las características de los clientes para categorizar de forma dinámica a los visitantes y generar conjuntos de clústeres basados en entradas de datos seleccionadas, lo que identifica grupos que tienen intereses y comportamientos similares para el análisis y la segmentación de los clientes.
 
@@ -25,7 +27,7 @@ El proceso de agrupación en clúster requiere que identifique métricas y eleme
 * La media de cada grupo K se convierte en el nuevo centro.
 * El algoritmo se repite en los pasos 2 y 3 hasta que se alcance la convergencia. Esto puede llevar varios pases.
 
-El **[!UICONTROL Maximum Iterations]** del menú **[!UICONTROL Options]** permite al analista especificar el número máximo de iteraciones que debe realizar el algoritmo de agrupación en clúster. Si se establece esta opción, es posible que el proceso de agrupación en clúster se complete más rápido, en función del límite máximo de iteraciones, a expensas de la convergencia exacta de los centros de clúster.
+La variable **[!UICONTROL Maximum Iterations]** en el **[!UICONTROL Options]** permite al analista especificar el número máximo de iteraciones que realizará el algoritmo de agrupación en clústeres. Si se establece esta opción, es posible que el proceso de agrupación en clúster se complete más rápido, en función del límite máximo de iteraciones, a expensas de la convergencia exacta de los centros de clúster.
 
 >[!NOTE]
 >
@@ -34,13 +36,13 @@ El **[!UICONTROL Maximum Iterations]** del menú **[!UICONTROL Options]** permit
 En el Generador de clústeres, puede seleccionar **[!UICONTROL Options]** > **[!UICONTROL Algorithm]** para seleccionar algoritmos al definir clústeres. Actualmente, hay 3 algoritmos compatibles:
 
 * KMeans
-* Kmedia`++`
+* KCalles`++`
 * Maximización de expectativas
 
 Existen dos maneras de ejecutar el proceso de agrupación en clúster:
 
-* Método 1: Haga clic en **[!UICONTROL Go]** en la ventana de visualización del clúster.
-* Método 2: Haga clic en **[!UICONTROL Submit]** en la ventana de visualización del clúster, que envía directamente el trabajo de agrupación en clúster al servidor. Puede realizar un seguimiento del progreso mediante la opción &quot;Estado detallado para la consulta&quot;.
+* Método 1: Clic **[!UICONTROL Go]** en la ventana de visualización del clúster.
+* Método 2: Clic **[!UICONTROL Submit]** en la ventana de visualización del clúster, que envía directamente el trabajo de agrupación en clúster al servidor. Puede realizar un seguimiento del progreso mediante la opción &quot;Estado detallado para la consulta&quot;.
 
 ![](assets/dwb_visitorclustering.png)
 
@@ -51,7 +53,7 @@ El algoritmo tiene las siguientes restricciones:
 
 >[!NOTE]
 >
->En el archivo [!DNL DPU.cfg], el valor de &quot;Consulta, Límite de memoria&quot; se establece en 500 MB de forma predeterminada. Este valor debe aumentarse mientras se ejecutan varios trabajos de agrupación en clúster. Por ejemplo, si está ejecutando 5 trabajos de agrupación en clúster en paralelo, aumente este valor a 1 GB. No hay forma de cancelar el trabajo de agrupación en clúster sin reiniciar el servidor.
+>En el [!DNL DPU.cfg] , el valor de &quot;Consulta, Límite de memoria&quot; se establece en 500 MB de forma predeterminada. Este valor debe aumentarse mientras se ejecutan varios trabajos de agrupación en clúster. Por ejemplo, si está ejecutando 5 trabajos de agrupación en clúster en paralelo, aumente este valor a 1 GB. No hay forma de cancelar el trabajo de agrupación en clúster sin reiniciar el servidor.
 
 **Recomendaciones**
 

@@ -3,7 +3,7 @@ description: La superficie de trabajo facilita la determinación de dónde se al
 title: Versiones de archivos
 uuid: 5e7430f3-1425-41d2-828b-bc8f5786bf3b
 exl-id: 82a70d51-a95c-4ddd-8d3c-cd0364940693
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 2%
@@ -12,9 +12,11 @@ ht-degree: 2%
 
 # Versiones de archivos{#file-versioning}
 
+{{eol}}
+
 La superficie de trabajo facilita la determinación de dónde se almacena cada espacio de trabajo concreto, ya sea en el servidor de Data Workbench, en el equipo local o en ambos.
 
-## Identificación de versiones de archivo {#section-d555c96b016344f19b356c12213dd2a9}
+## Identificación de versiones de archivos {#section-d555c96b016344f19b356c12213dd2a9}
 
 **Servidor**
 
@@ -30,7 +32,7 @@ Un espacio de trabajo local es la versión local de un espacio de trabajo del se
 
 ![](assets/wsp_thumb_local.png)
 
-Los espacios de trabajo locales se almacenan de forma predeterminada en la carpeta de nombres [!DNL User\working profile name\Workspaces\tab] dentro del directorio de instalación de la Data Workbench (o Insight).
+Los espacios de trabajo locales se almacenan de forma predeterminada en la variable [!DNL User\working profile name\Workspaces\tab] carpeta name dentro del directorio de instalación de la Data Workbench (o Insight).
 
 >[!NOTE]
 >
@@ -42,4 +44,4 @@ Un espacio de trabajo de usuario es un espacio de trabajo creado en y que existe
 
 ![](assets/wsp_thumb_user.png)
 
-Los espacios de trabajo del usuario se almacenan de forma predeterminada en la carpeta User\*working profile name*\Workspaces\*tab name* dentro del directorio de instalación de Insight .
+Los espacios de trabajo del usuario se almacenan de forma predeterminada en la carpeta User\*working profile name*\Workspaces\*tab name* del directorio de instalación de Insight.

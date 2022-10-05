@@ -3,7 +3,7 @@ description: El texto o las expresiones se pueden introducir en cualquier celda 
 title: Trabajo con datos en hojas de cálculo
 uuid: c2331fa5-aa07-4622-8f44-5124c22dffcb
 exl-id: 40d9211b-8f5c-4051-8f93-638ffacf45bd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 3%
@@ -12,9 +12,11 @@ ht-degree: 3%
 
 # Trabajo con datos en hojas de cálculo{#work-with-data-in-worksheets}
 
+{{eol}}
+
 El texto o las expresiones se pueden introducir en cualquier celda de una hoja de cálculo.
 
-Todas las expresiones de una hoja de cálculo van precedidas de un signo igual (=) a menos que se utilice [!DNL eval( )], que trata el texto de la celda a la que se hace referencia como una expresión.
+Todas las expresiones de una hoja de cálculo están precedidas por un signo igual (=) a menos que se utilice [!DNL eval( )], que trata el texto de la celda a la que se hace referencia como una expresión.
 
 Para obtener una lista completa de las reglas de sintaxis de métricas, dimensiones y filtros, consulte [Sintaxis del idioma de consulta](../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f).
 
@@ -48,7 +50,7 @@ La Data Workbench actualiza automáticamente las referencias en la nueva celda p
 
 **Insertar una fila**
 
-* Haga clic con el botón derecho en una fila y haga clic en **[!UICONTROL Insert Row]**. La nueva fila se inserta encima de la fila seleccionada.
+* Haga clic con el botón derecho en una fila y, a continuación, haga clic en **[!UICONTROL Insert Row]**. La nueva fila se inserta encima de la fila seleccionada.
 
 **Eliminar una fila**
 
@@ -100,7 +102,7 @@ La Data Workbench actualiza automáticamente las referencias en la nueva celda p
 
 ## Métodos abreviados de teclado {#section-05301f4d2c60418e86902635a7aeee20}
 
-En las hojas de cálculo puede utilizar muchos de los métodos abreviados de teclado de edición básicos que puede utilizar en cualquier editor de texto, como el Bloc de notas o Microsoft Word.
+En las hojas de cálculo puede utilizar muchos de los métodos abreviados del teclado de edición básicos que puede utilizar en cualquier editor de texto, como Bloc de notas o Microsoft Word.
 
 En la tabla siguiente se enumeran los métodos abreviados de teclado básicos que se pueden usar al introducir datos en una hoja de cálculo.
 
@@ -121,11 +123,11 @@ En la tabla siguiente se enumeran los métodos abreviados de teclado básicos qu
    <td colname="col2"> <p>Edite la celda colocando el cursor en la celda seleccionada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Entrar </p> </td> 
+   <td colname="col1"> <p>Intro </p> </td> 
    <td colname="col2"> <p>Completa la edición de la celda seleccionada. El cursor se elimina de la celda y el contenido de la celda refleja la edición. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Esc </p> </td> 
+   <td colname="col1"> <p>ESC </p> </td> 
    <td colname="col2"> <p>Cancelar la edición de la celda seleccionada. El cursor se elimina de la celda y el contenido de la celda vuelve a ser el que era antes de comenzar la edición. </p> </td> 
   </tr> 
   <tr> 

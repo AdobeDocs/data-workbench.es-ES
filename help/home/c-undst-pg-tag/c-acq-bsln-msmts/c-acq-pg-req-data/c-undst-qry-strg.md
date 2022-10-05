@@ -3,7 +3,7 @@ description: La cadena de consulta (cs-uri-query) la utilizan a menudo las aplic
 title: Explicación de la cadena de consulta
 uuid: 7403277d-fbce-4e98-bd42-894142e38d0d
 exl-id: b5281e5f-3eb7-4d6a-a7b3-9958cb430621
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 2%
@@ -12,9 +12,11 @@ ht-degree: 2%
 
 # Explicación de la cadena de consulta{#understanding-the-query-string}
 
+{{eol}}
+
 La cadena de consulta (cs-uri-query) la utilizan a menudo las aplicaciones web y los desarrolladores de sitios para pasar información de página en página debido a la naturaleza sin estado de HTTP.
 
-En muchos casos, la información puede pasarse en la cadena de consulta cuando la adquiere [!DNL Sensor] en el servidor web. Dicha información puede ser utilizada por [!DNL Site] para iluminar la verdadera estructura del sitio, la ruta de los visitantes a través de él, así como otra información.
+En muchos casos, la información puede pasarse en la cadena de consulta cuando la adquiere [!DNL Sensor] en el servidor web. Dicha información puede ser utilizada por [!DNL Site] para iluminar la verdadera estructura del sitio, y la ruta de los visitantes a través de él, así como otra información.
 
 En algunos sitios web dinámicos, los pares nombre=valor (variables) de la cadena de consulta son importantes para determinar la página que solicita un visitante. En estos casos, las direcciones URL pueden estructurarse de la siguiente manera o de manera similar:
 

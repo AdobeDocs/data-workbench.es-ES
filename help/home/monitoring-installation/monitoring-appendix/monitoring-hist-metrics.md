@@ -3,7 +3,7 @@ description: A continuación se enumeran las métricas incluidas en el perfil de
 title: Métricas en el perfil de monitorización histórica de Data Workbench
 uuid: 47b874f7-8acb-4593-9ac9-5997d5279e52
 exl-id: 65f0f605-f128-45bb-8f6c-95284b2da740
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Métricas en el perfil de monitorización histórica de Data Workbench{#metrics-in-the-data-workbench-historical-monitoring-profile}
+
+{{eol}}
 
 A continuación se enumeran las métricas incluidas en el perfil de monitorización histórica de Data Workbench y cómo se derivan.
 
@@ -49,6 +51,6 @@ A continuación se enumeran las métricas incluidas en el perfil de monitorizaci
 | **Filas de salida** | La suma de la dimensión Filas de salida para cada ping dividido por la métrica Anuncios, multiplicada por 100000. |
 | **Modo en tiempo real** | El número de pings en los que la dimensión Modo de procesamiento es igual a &quot;tiempo real&quot;, dividido por la métrica Anuncios, todos multiplicados por 100. |
 | **Modo de reprocesamiento** | 100 menos el número de pings donde el Modo de procesamiento es igual a &quot;tiempo real&quot; dividido por la métrica Anuncios, multiplicado por 100. |
-| **Atascado** | La suma de la dimensión Procesamiento demorado en el perfil Insight [Estado del perfil](../../../home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md#concept-d4cd7da41c8a42bab4aea25418264e64). |
+| **Atascado** | La suma de la dimensión Procesamiento demorado en Insight [Estado del perfil](../../../home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md#concept-d4cd7da41c8a42bab4aea25418264e64) perfil. |
 | **Base de datos temporal** | La suma del porcentaje de espacio de base de datos temporal para cada ping, dividido por la métrica Anclajes. |
 | **Transformación** | La suma de porcentaje de transformación para cada ping dividida por la métrica Anclajes, todos divididos por 10. |

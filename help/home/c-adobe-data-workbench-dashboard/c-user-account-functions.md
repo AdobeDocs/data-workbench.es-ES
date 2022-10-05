@@ -3,7 +3,7 @@ description: Información sobre cómo acceder a la configuración de la cuenta y
 title: Administración de cuentas de usuario
 uuid: 13fab0e2-e2db-442e-b139-e7b576d04dbb
 exl-id: b985a21b-6244-4e7d-86c2-14935c005335
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 5%
@@ -11,6 +11,8 @@ ht-degree: 5%
 ---
 
 # Administración de cuentas de usuario{#user-account-management}
+
+{{eol}}
 
 Información sobre cómo acceder a la configuración de la cuenta y cambiar la contraseña.
 
@@ -24,6 +26,6 @@ Aparecerá una ventana que detalla la información de la cuenta. Esto incluye su
 
 ![](assets/account_settings2.png)
 
-## Cambio de la contraseña {#section-4ba1ee3d5d584455a1a77e992b7b876c}
+## Cambio de contraseña {#section-4ba1ee3d5d584455a1a77e992b7b876c}
 
-Para cambiar la contraseña, acceda primero a la información de su cuenta. Para acceder a la información de su cuenta, seleccione **[!UICONTROL Account Settings]** en el menú **[!UICONTROL User]**. Haga clic en **[!UICONTROL Change Password]**.
+Para cambiar la contraseña, acceda primero a la información de su cuenta. Para acceder a la información de su cuenta, seleccione **[!UICONTROL Account Settings]** de la variable **[!UICONTROL User]** para abrir el Navegador. Haga clic en **[!UICONTROL Change Password]**.

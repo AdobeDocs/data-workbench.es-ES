@@ -3,7 +3,7 @@ description: Instrucciones detalladas para instalar y configurar Sensor para Web
 title: WebSphere en AIX
 uuid: a5a3fd79-a7f0-4861-adca-8da3a185d0df
 exl-id: e560d265-dc84-4ff2-ac86-7a2ac5261451
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 # WebSphere en AIX{#websphere-on-aix}
 
+{{eol}}
+
 Instrucciones detalladas para instalar y configurar Sensor para WebSphere 5.x que se ejecuta en AIX 5.1 o posterior.
 
-Los archivos de programa para [!DNL Sensor] están empaquetados en un archivo de instalación que se obtiene del sitio de descarga de Adobe. Si todavía no tiene el archivo de instalación [!DNL Sensor] para su servidor web en particular, descárguelo (u obtenga el archivo de su representante de Adobe) antes de iniciar los siguientes procedimientos.
+Los archivos de programa para [!DNL Sensor] están empaquetadas en un archivo de instalación que se obtiene del sitio de descarga de Adobe. Si todavía no tiene la variable [!DNL Sensor] archivo de instalación de su servidor web en particular, descárguelo (u obtenga de su representante de Adobe) antes de iniciar los siguientes procedimientos.
 
 >[!NOTE]
 >
->El [!DNL Sensor] para servidores WebSphere no admite experimentación controlada. Para obtener información sobre la experimentación controlada, consulte la *Guía de experimentos controlados con Data Workbench.*
+>La variable [!DNL Sensor] para los servidores WebSphere no admite experimentación controlada. Para obtener información sobre la experimentación controlada, consulte la *Guía de experimentos controlados de Data Workbench.*
 
 ## Instalación de los archivos de programa {#section-86f69127278c41bc90b97b68bb40bc6e}
 
@@ -99,7 +101,7 @@ Para restablecer los permisos a la configuración predeterminada recomendada, ut
 
 Si desea utilizar permisos que no sean los predeterminados recomendados, revise la información en Permisos de archivos UNIX de sensor para asegurarse de que comprende cómo se utilizan estos archivos.
 
-## Editar el archivo de configuración del sensor {#section-283c8a92fa8841c1b6034e5f834ef4e7}
+## Edición del archivo de configuración del sensor {#section-283c8a92fa8841c1b6034e5f834ef4e7}
 
 El archivo txlogd.conf contiene los parámetros de configuración para Sensor.
 
@@ -145,7 +147,7 @@ Para los servidores WebSphere, el recolector funciona como un filtro en el conte
 Para agregar el recolector a la aplicación web, agregue el filtro al descriptor de implementación web.xml de la aplicación web y reinicie la aplicación web.
 
 1. Con un editor de texto, abra el archivo web.xml para el servidor web cuyos eventos captura Sensor.
-1. Agregue los siguientes elementos `<filter>` y `<filter-mapping>` al archivo descriptor. Si no instaló txlogd.conf en el directorio /etc, debe introducir la ruta correcta a este archivo en el elemento `<param-value>`.
+1. Agregue lo siguiente `<filter>` y `<filter-mapping>` al archivo descriptor. Si no instaló txlogd.conf en el directorio /etc, debe introducir la ruta correcta a este archivo en la `<param-value>` elemento.
 
    ```
    <filter>
@@ -173,7 +175,7 @@ Para agregar el recolector a la aplicación web, agregue el filtro al descriptor
 
 1. Reinicie la aplicación web. El recolector se carga con la aplicación y comienza a recopilar datos de evento y a escribirlos en la cola de disco.
 
-## Declarar la ubicación del recolector y los archivos de objeto compartido {#section-e641f08999d34a648aaee2111b69ca25}
+## Declarar la ubicación del recopilador y los archivos de objeto compartido {#section-e641f08999d34a648aaee2111b69ca25}
 
 Procedimiento para editar el script de inicio de Websphere para declarar la ubicación de los archivos J2EECollector.jar y libvisual_sciences.so .
 
@@ -190,7 +192,7 @@ Procedimiento para editar el script de inicio de Websphere para declarar la ubic
    WAS_LIBPATH="$WAS_LIBPATH":/usr/local/visual_sciences
    ```
 
-1. Guarde el archivo [!DNL setupCmdLine.sh].
+1. Guarde el [!DNL setupCmdLine.sh] archivo.
 
 ## Comprobación del sensor {#section-07f2da5c4caa46bf9dd1cb4ae4b61af5}
 
@@ -240,7 +242,7 @@ Por ejemplo, el recolector J2EE se puede utilizar para capturar datos de costo p
 
 Cuando un sensor para la plataforma J2EE recibe una solicitud, invoca una clase de recolector que importa la función appendToLog . La función appendToLog adjunta a la solicitud inicial los parámetros de cadena de consulta especificados en la función appendToLog. Esto da como resultado el URI de la solicitud inicial que contiene pares de nombre-valor de cadena de consulta adicionales que corresponden a los nombres y valores de los datos que se están capturando. Por ejemplo, CPC=20 se anexaría a la solicitud inicial cuando el valor de una ubicación de publicidad o vínculo de pulsación en particular sea de 20 centavos. Insight Server procesa estos valores en el conjunto de datos para su análisis. Una ventaja adicional de esta metodología de recopilación es que permite la recopilación de datos adicionales sin crear entradas de registro adicionales, ya que se pueden crear mediante metodologías de etiquetado de páginas.
 
-Para obtener más información sobre el procesamiento, consulte la *Guía de configuración del conjunto de datos*.
+Para obtener más información sobre el procesamiento, consulte la *Guía de configuración de conjuntos de datos*.
 
 1. Agregue el siguiente código a la parte superior de la página .jsp desde la que desee capturar datos:
 

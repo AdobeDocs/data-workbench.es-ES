@@ -3,7 +3,7 @@ description: Un explorador de rutas le permite analizar la secuencia en la que s
 title: Exploradores de rutas
 uuid: 548091dc-935f-41ac-b67c-39080988f1ea
 exl-id: 563cf0e3-39d7-49b7-b808-b0233169fb1a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 0%
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Exploradores de rutas{#path-browsers}
 
+{{eol}}
+
 Un explorador de rutas le permite analizar la secuencia en la que se accedió a los elementos de una dimensión en particular.
 
 Para crear un explorador de rutas, arrastre y suelte un elemento de una dimensión en una visualización del explorador de rutas en blanco. El elemento que arrastra y suelta en el explorador de rutas se convierte en la raíz del explorador de rutas. El explorador de rutas muestra las rutas que pasan por la raíz, lo que permite ver la secuencia de elementos a los que se accedió antes y después de la raíz.
 
-El siguiente navegador de rutas muestra la secuencia de películas que los espectadores clasificaron antes y después de clasificar la película *The Aviator*, que es la raíz del navegador de rutas. Cada nombre de película es un elemento de la dimensión Película , que se define en un conjunto de datos que consta de datos de películas que incluyen los nombres de películas y las clasificaciones de los espectadores de esas películas.
+El siguiente navegador de rutas muestra la secuencia de películas que los espectadores clasificaron antes y después de clasificar la película *El Aviador*, que es la raíz del explorador de rutas. Cada nombre de película es un elemento de la dimensión Película , que se define en un conjunto de datos que consta de datos de películas que incluyen los nombres de películas y las clasificaciones de los espectadores de esas películas.
 
 ![](assets/vis_PathBrowser_Movies.png)
 
@@ -26,7 +28,7 @@ Puede crear exploradores de rutas para mostrar la secuencia en la que se accedi�
 
 Cada explorador de rutas tiene asociada una dimensión base, una dimensión de grupo, una dimensión de nivel y una métrica, que proporcionan claves para interpretar los datos que se muestran en el explorador de rutas.
 
-* **Dimensión base:** cuando arrastra y suelta un elemento raíz en el explorador de rutas, arrastra y suelta un elemento de la dimensión base. Todos los demás elementos que aparecen en las rutas son elementos de la dimensión base. Puede cambiar la dimensión base arrastrando y soltando un elemento de otra dimensión en el explorador de rutas.
+* **Dimensión base:** Cuando arrastra y suelta un elemento raíz en el explorador de rutas, arrastra y suelta un elemento de la dimensión base. Todos los demás elementos que aparecen en las rutas son elementos de la dimensión base. Puede cambiar la dimensión base arrastrando y soltando un elemento de otra dimensión en el explorador de rutas.
 * **Dimensión de nivel:** Cada dimensión del conjunto de datos tiene una dimensión de nivel asociada (también denominada dimensión principal). La dimensión de nivel para el explorador de rutas debe ser la misma que la dimensión de nivel (o principal) para la dimensión base del explorador de rutas. La dimensión de nivel del explorador de rutas es importante por dos motivos principales:
 
    * A medida que sigue una ruta de un elemento de dimensión base al siguiente, pasa de un elemento de dimensión de nivel al siguiente. Por ejemplo, supongamos que ha creado un navegador de rutas que muestra las páginas de un sitio web. Cada página es un elemento de la dimensión Página y la dimensión de nivel de Página es Vista de página. A medida que pasa de una página a otra, pasa de una vista de página a la siguiente.
@@ -43,7 +45,7 @@ Cada explorador de rutas tiene asociada una dimensión base, una dimensión de g
 
 * **Métrica**: El grosor de la ruta que conduce a un elemento determinado es proporcional al valor de la métrica para ese elemento. Las rutas más gruesas indican valores de métricas buenos que las rutas más delgadas.
 
-La etiqueta de la esquina superior izquierda del explorador de rutas asigna un nombre a las dimensiones base y de grupo representadas en la visualización. El nombre de la dimensión de nivel no es visible en la visualización del explorador de rutas de acceso. La etiqueta toma la forma &quot;Secuencia de *nombre de dimensión base*+s para cada *nombre de dimensión de grupo*&quot;. Por ejemplo, la etiqueta Secuencia de películas para cada usuario indica que la dimensión base es Película y la dimensión de grupo es Usuario.
+La etiqueta de la esquina superior izquierda del explorador de rutas asigna un nombre a las dimensiones base y de grupo representadas en la visualización. El nombre de la dimensión de nivel no es visible en la visualización del explorador de rutas de acceso. La etiqueta adopta la forma &quot;Secuencia de *nombre de la dimensión base*+s para cada *nombre de la dimensión del grupo*.&quot; Por ejemplo, la etiqueta Secuencia de películas para cada usuario indica que la dimensión base es Película y la dimensión de grupo es Usuario.
 
 ![](assets/vis_PathBrowser_Movies.png)
 

@@ -3,7 +3,7 @@ description: Información conceptual sobre subconjuntos.
 title: Aspectos básicos de los subconjuntos
 uuid: ed185b63-dbb3-4ed4-9403-cf4dc8be2ff1
 exl-id: a75b36f9-d34d-4a4a-8a2c-15ae5461823c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 
 # Aspectos básicos de los subconjuntos{#understanding-subsets}
 
+{{eol}}
+
 Información conceptual sobre subconjuntos.
 
 Cuando utilice un subconjunto, tenga en cuenta lo siguiente:
@@ -19,7 +21,7 @@ Cuando utilice un subconjunto, tenga en cuenta lo siguiente:
 * Todos los puntos de referencia ahora están relacionados con el subconjunto, no con todo el conjunto de datos, lo que resulta mucho más útil al analizar un subconjunto específico. Consulte [Explicación de los puntos de referencia](../../../../home/c-get-started/c-vis/c-ustd-benchmks.md#concept-c7b0f4102e92458096f8c4765cbe2914).
 * El uso de un subconjunto afecta a todos los espacios de trabajo, ya que el subconjunto se aplica globalmente a la Data Workbench.
 * Los subconjuntos solo afectan a las métricas y a las dimensiones denormalizadas, no a las dimensiones normales.
-* Al utilizar [!DNL Report], los subconjuntos no afectan a los datos de los informes publicados para que los demás los vean.
+* Al usar [!DNL Report], los subconjuntos no afectan a los datos de los informes publicados para que los demás los vean.
 * Una vez aplicado, el subconjunto estará en vigor para todas las tareas posteriores del perfil, incluida la próxima vez que abra esta instancia de Data Workbench, hasta que la elimine.
 * El único lugar que indica que se ha aplicado un subconjunto es el menú contextual al que se accede haciendo clic con el botón derecho en un espacio de trabajo.
 

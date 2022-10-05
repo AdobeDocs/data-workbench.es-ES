@@ -1,48 +1,50 @@
 ---
-description: Siga estos pasos para actualizar a Área de trabajo de datos v6.4.
-title: Actualización de 6.3 a 6.4
+description: Siga estos pasos para actualizar a la Data Workbench v6.4.
+title: Actualizar la versión 6.3 a la versión 6.4
 uuid: 2461c1ab-cf99-4fb5-b431-d7062df7a53d
-translation-type: tm+mt
-source-git-commit: 2930bd3ae06e700e75144221fc993efdd6bd1e85
+exl-id: 540deb86-2463-4820-b67a-a32d68b4346e
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
+# Actualizar la versión 6.3 a la versión 6.4{#upgrading-to}
 
-# Upgrading 6.3 to 6.4{#upgrading-to}
+{{eol}}
 
-Siga estos pasos para actualizar a Área de trabajo de datos v6.4.
+Siga estos pasos para actualizar a la Data Workbench v6.4.
 
-## Requisitos y recomendaciones de actualización {#section-8704a9ac358246cd81233dd0982d534f}
+## Requisitos de actualización y Recommendations {#section-8704a9ac358246cd81233dd0982d534f}
 
-Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de datos 6.4.
+Siga estos requisitos y recomendaciones al actualizar a la Data Workbench 6.4.
 
 >[!IMPORTANT]
 >
->Se recomienda utilizar los archivos de configuración predeterminados recién instalados y personalizarlos, en lugar de mover archivos de una instalación anterior, con las siguientes excepciones:
+>Se recomienda utilizar los archivos de configuración predeterminados recién instalados y personalizarlos, en lugar de mover archivos de una instalación anterior, con estas excepciones:
 
-* **Añadir** procesos ****** excluidos para la protección de extremo de System Center de *MS en servidores* Windows 2012 para los siguientes ejecutables:
+* **Agregar** ***Procesos excluidos*** para *Protección de extremo de MS System Center en servidores Windows 2012* para los siguientes ejecutables:
 
    * **[!DNL InsightServer64.exe]**
    * **[!DNL ReportServer.exe]**
    * **[!DNL ExportIntegration.exe]**
-   Esto habilitará los derechos de lista permitida para estos ejecutables de interfaz.
 
-* **Actualice el certificado *Trust_ca_cert.pem*en los servidores**.
-* **Reorganización de los Perfiles** de atribución.
+   Esto habilitará derechos de lista de permitidos para estos ejecutables de interfaz.
 
-   * Se cambió el nombre de la carpeta *Atribución* a ***Atribución - Premium*** (se encuentra en la instalación predeterminada en *Perfiles*\*Atribución - Premium*).
+* **Actualice el *Trust_ca_cert.pem* certificado en los servidores**.
+* **Reorganización de perfiles de atribución**.
 
-   * Se eliminó el perfil *Premium* y el espacio de trabajo se movió a la nueva carpeta ***Atribución - Premium*** .
+   * La variable *Atribución* se cambió el nombre de la carpeta a ***Atribución - Premium*** (se encuentra en la instalación predeterminada en *Perfiles*\*Atribución - Premium*).
 
-* **Actualice la configuración *de Atribución-Premium***. Si tiene perfiles personalizados con parámetros que anulan el perfil predeterminado de *Adobe SC* , deberá actualizar los campos personalizados en estos archivos de configuración:
+   * La variable *Premium* se eliminó el perfil y el espacio de trabajo se movió al nuevo ***Atribución - Premium*** carpeta.
+
+* **Actualizar *Attribution-Premium* configuración**. Si tiene perfiles personalizados con ajustes de parámetros que anulan el valor predeterminado *Adobe SC* perfil, debe actualizar los campos personalizados en estos archivos de configuración:
 
    * **[!DNL Decoding Instructions.cfg]**
    * **[!DNL SC Fields.cfg]**
 
-* Debido a esta reorganización, querrá quitar las carpetas antiguas *Atribución* y *Premium* de la instalación del servidor.
+* Debido a esta reorganización, deseará eliminar la *Atribución* y *Premium* carpetas de la instalación del servidor.
 
    **Cambiar esta configuración**
 
@@ -72,11 +74,11 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
        4 = string: Attribution - Premium\\
    ```
 
-* **Actualice los archivos** Meta.cfg personalizados (si es necesario).
+* **Actualizar archivos Meta.cfg personalizados** (si es necesario).
 
-   Los **[!DNL Meta.cfg]** archivos de **[!DNL Base\Context and AdobeSC\Context]** las carpetas se han actualizado en esta versión.
+   La variable **[!DNL Meta.cfg]** archivos en **[!DNL Base\Context and AdobeSC\Context]** las carpetas se han actualizado en esta versión.
 
-   Si anula el archivo **meta.cfg** durante la instalación, la copia de perfil debe actualizarse con estos parámetros y el vector **de** metadatos especificado correctamente:
+   Si anula la variable **meta.cfg** durante la instalación, la copia de perfil debe actualizarse con estos parámetros y la variable **vector de metadatos** introducido correctamente:
 
    ```
    94 = meta: 
@@ -97,11 +99,11 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
          value = string:
    ```
 
-* **Establezca los permisos** del servidor de informes para generar informes de Microsoft Excel en servidores de Windows 2012.
+* **Definir permisos del servidor de informes** para generar informes de Microsoft Excel en servidores Windows 2012.
 
-   1. Establezca el permiso de la carpeta raíz (**[!DNL E:\ReportServer\]**) en *Todos = control* total.
+   1. Establezca el permiso de la carpeta raíz (**[!DNL E:\ReportServer\]**) a *Todos = control total*.
 
-   1. Cree las siguientes carpetas con los permisos correspondientes:
+   1. Cree las carpetas siguientes con los permisos adecuados:
 
       ```
       C:\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCac‌he 
@@ -112,11 +114,11 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
 
       >[!NOTE]
       >
-      >Si está ejecutando el servidor de informes en Windows Server 2012, debe tener instalado Windows Server 2012 R2.
+      >Si ejecuta el Servidor de informes en Windows Server 2012, necesita tener instalado Windows Server 2012 R2.
 
    1. Asigne &quot;SYSTEM&quot; como propietario de estas carpetas.
 
-* **Añada las fuentes al servidor de informes.** En el archivo **[!DNL ReportServer.cfg]***, agregue estas fuentes (para todos los idiomas):
+* **Agregue fuentes al servidor de informes.** En el **[!DNL ReportServer.cfg]**añadir estas fuentes (para todos los idiomas):
 
    ```
    Fonts = vector: 3 items 
@@ -127,14 +129,14 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
 
 * **Actualice su versión de Microsoft Excel ** (si es necesario).
 
-   Con el lanzamiento de Área de trabajo de datos 6.4, la compatibilidad con Excel 2007 se ha interrumpido. Además, dado que Área de trabajo de datos solo se ejecuta en Microsoft Windows para la arquitectura de 64 bits, se recomienda instalar una versión de 64 bits de Microsoft Excel.
+   Con el lanzamiento de la Data Workbench 6.4, se ha interrumpido la compatibilidad con Excel 2007. Además, como la Data Workbench solo se ejecuta en Microsoft Windows para la arquitectura de 64 bits, se recomienda instalar también una versión de 64 bits de Microsoft Excel.
 
-* **Se requiere una arquitectura** de 64 bits para la instalación de Workstation (cliente).
-* **Ejecute el Asistente** de configuración de estación de trabajo.
+* **Arquitectura de 64 bits** necesario para la instalación de Workstation (Client).
+* **Ejecutar el Asistente para configuración de Workstation**.
 
-   Instale la nueva versión de la estación de trabajo (cliente) descargando e iniciando ***InsightSetup.exe*** y siguiendo las instrucciones de configuración. El asistente de configuración instalará los archivos en una nueva ubicación de forma predeterminada:
+   Instale la nueva versión de la estación de trabajo (cliente) descargando e iniciando ***InsightSetup.exe*** y siga las instrucciones de configuración. El asistente de configuración instalará los archivos en una nueva ubicación de forma predeterminada:
 
-   Los archivos Programa ahora se guardan de forma predeterminada en:
+   Los archivos de programa ahora se guardan de forma predeterminada en:
 
    ```
    C:\Program Files\Adobe\Adobe Analytics\Data Workbench
@@ -146,9 +148,9 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
    C:\Users\<username>\AppData\Local\Adobe\Adobe Analytics\Data Workbench\
    ```
 
-* **Añada las fuentes a la estación de trabajo**.
+* **Añadir fuentes a la estación de trabajo**.
 
-   En el **[!DNL Insight.cfg]** archivo, agregue estas fuentes (para todos los idiomas):
+   En el **[!DNL Insight.cfg]** , añada estas fuentes (para todos los idiomas):
 
    ```
    Fonts = vector: 3 items 
@@ -156,4 +158,3 @@ Siga estos requisitos y recomendaciones al actualizar a Área de trabajo de dato
      1 = string: SimSun 
      2 = string: MS Mincho
    ```
-

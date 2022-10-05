@@ -3,7 +3,7 @@ description: Para crear una dimensión de segmento, comience realizando una sele
 title: Creación de dimensiones de un segmento
 uuid: 68dcf3bf-fbc9-4924-a0dd-d112cf366131
 exl-id: 393d544e-e821-49e3-8cfb-5a3496aa7380
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Creación de dimensiones de un segmento{#create-a-segment-dimensions}
+
+{{eol}}
 
 Para crear una dimensión de segmento, comience realizando una selección dentro de un espacio de trabajo y, a continuación, agregando el segmento a una visualización.
 
@@ -25,7 +27,7 @@ Para crear una dimensión de segmento, comience realizando una selección dentro
 
    >[!NOTE]
    >
-   >Para crear un nuevo primer segmento, haga clic con el botón derecho en la etiqueta **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add Segment]**.
+   >Para crear un nuevo primer segmento, haga clic con el botón derecho en el **[!UICONTROL Segments]** etiqueta y haga clic en **[!UICONTROL Add Segment]**.
 
    ![](assets/vis_SegmentNew.png)
 
@@ -36,12 +38,12 @@ Para crear una dimensión de segmento, comience realizando una selección dentro
 
    >[!NOTE]
    >
-   >Si un valor de métrica, como un visitante en particular en [!DNL Site], cumple los criterios de varios segmentos, el valor de métrica se incluye solo en el primer segmento de la lista que coincida.
+   >Si un valor de métrica, como un visitante en particular en [!DNL Site], cumple los criterios de varios segmentos, el valor de la métrica se incluye solo en el primer segmento de la lista que coincida.
 
 **Para guardar la dimensión del segmento**
 
-1. Haga clic con el botón derecho en la etiqueta Segmentos y haga clic en **[!UICONTROL Save Dimension]**. Aparece la ventana [!DNL Save Dimension As]. La ubicación de almacenamiento predeterminada es la carpeta User\*profile name*\Dimension.
-1. En el campo [!DNL File name], escriba un nombre descriptivo para los segmentos que está guardando como dimensión y haga clic en **[!UICONTROL Save]**.
+1. Haga clic con el botón derecho en la etiqueta Segmentos y, a continuación, haga clic en **[!UICONTROL Save Dimension]**. La variable [!DNL Save Dimension As] se abre. La ubicación de almacenamiento predeterminada es la carpeta User\*profile name*\Dimension.
+1. En el [!DNL File name] , escriba un nombre descriptivo para los segmentos que está guardando como dimensión y haga clic en **[!UICONTROL Save]**.
 
 Puede acceder a la dimensión del segmento siempre que esté trabajando con una visualización. También puede exportar datos asociados con los elementos de la dimensión guardada mediante la función de exportación de segmentos.
 

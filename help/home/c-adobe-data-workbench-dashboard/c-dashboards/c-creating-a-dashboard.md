@@ -3,7 +3,7 @@ description: Se recomienda crear un tablero incluso para necesidades analíticas
 title: Creación de un tablero
 uuid: 5b9e9db2-d7ac-4c97-8df0-74a9e5a0c496
 exl-id: bd51d4c0-bcf2-4ba6-8b32-de06c74f359f
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Creación de un tablero{#creating-a-dashboard}
+
+{{eol}}
 
 Se recomienda crear un tablero incluso para necesidades analíticas a corto plazo y específicas.
 
@@ -26,7 +28,7 @@ Los usuarios pueden decidir crear tableros por varios motivos:
 
 >[!NOTE]
 >
->Antes de empezar a crear el tablero, es aconsejable reducir el porcentaje de Consulta a otro bajo, como un 10 o un 25 por ciento. Esto extraerá muestras de datos de Data Workbench mucho más rápido que realizar una consulta completa. Dado que estos resultados muestreados se devuelven mucho más rápido, proporciona una capacidad de respuesta ideal mientras enmarca el tablero y el análisis. Una vez que esté listo para ejecutar consultas hasta el final, puede actualizar el parámetro consulta a 100 por ciento. Para ajustar la finalización de la consulta, consulte [Query-to Parameter](../../../home/c-adobe-data-workbench-dashboard/c-dashboards/c-query-to-parameter.md#concept-33db106e28bc4108bca9e8d0a440d323).
+>Antes de comenzar a crear el tablero, es aconsejable reducir el porcentaje de Consulta a otro bajo, como un 10 o un 25 por ciento. Esto extraerá muestras de datos de Data Workbench mucho más rápido que realizar una consulta completa. Dado que estos resultados muestreados se devuelven mucho más rápido, proporciona una capacidad de respuesta ideal mientras enmarca el tablero y el análisis. Una vez que esté listo para ejecutar consultas hasta el final, puede actualizar el parámetro consulta a 100 por ciento. Para ajustar la finalización de la consulta, consulte la [Parámetro de consulta a](../../../home/c-adobe-data-workbench-dashboard/c-dashboards/c-query-to-parameter.md#concept-33db106e28bc4108bca9e8d0a440d323).
 
 Para crear un tablero nuevo, seleccione **[!UICONTROL New]** en el menú Tablero .
 
@@ -38,4 +40,4 @@ A continuación, decida qué tipo de datos desea mostrar y cómo desea mostrarlo
 
 ![](assets/after_configure.png)
 
-A partir de este momento, puede simplemente realizar el análisis y descartar el tablero, o puede elegir guardar el tablero en el servidor para reutilizarlo o compartirlo. Para obtener información sobre cómo interactuar con un tablero para realizar análisis, consulte la sección [Realización de selecciones dentro del tablero](../../../home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-making-selections-within-the-dashboard.md#concept-0989862de0044cc4bbfd7f4441275fc4).
+A partir de este momento, puede simplemente realizar el análisis y descartar el tablero, o puede elegir guardar el tablero en el servidor para reutilizarlo o compartirlo. Para obtener información sobre cómo interactuar con un tablero para realizar análisis, consulte la sección [Realización de selecciones dentro del panel](../../../home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-making-selections-within-the-dashboard.md#concept-0989862de0044cc4bbfd7f4441275fc4).

@@ -3,7 +3,7 @@ description: Un espacio de trabajo es un contenedor para una tarea de análisis 
 title: Espacios de trabajo de muestra
 uuid: 848035e5-7b7f-4e33-b61d-3759335e459b
 exl-id: 18db0cd4-6cb0-4514-9056-1c1e82b2092e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -12,11 +12,13 @@ ht-degree: 1%
 
 # Espacios de trabajo de muestra{#display-workspaces}
 
+{{eol}}
+
 Un espacio de trabajo es un contenedor para una tarea de análisis y visualización concreta.
 
 Un espacio de trabajo puede contener varias visualizaciones, todas las cuales funcionan con un conjunto común de datos (es decir, todas las visualizaciones del espacio de trabajo representan el mismo conjunto de resultados de consulta). Cuando se realiza una operación de filtrado en una visualización, el subconjunto seleccionado se refleja en todo el espacio de trabajo.
 
-A continuación se muestra un ejemplo de varias miniaturas de espacio de trabajo en [!DNL Worktop].
+A continuación se muestra un ejemplo de varias miniaturas de espacio de trabajo en la [!DNL Worktop].
 
 ![](assets/client-wksp.png)
 

@@ -3,7 +3,7 @@ description: En el servidor de Data Workbench hay disponibles varios tipos de di
 title: Tipos de dimensiones
 uuid: 07659373-8d9b-473d-8daa-ca8e7ac4afe8
 exl-id: cbc25504-2c1c-4622-adc1-c9bbac8e12fb
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 68%
@@ -11,6 +11,8 @@ ht-degree: 68%
 ---
 
 # Tipos de dimensiones{#dimension-types}
+
+{{eol}}
 
 En el servidor de Data Workbench hay disponibles varios tipos de dimensiones. Como tal, es importante conocer el tipo de dimensión al utilizar una dimensión para crear métricas, filtros o dimensiones derivadas.
 
@@ -33,8 +35,8 @@ Insight Server puede crear y mantener los siguientes tipos de dimensiones:
    <td colname="col2">dimensión que tiene una relación "uno a varios" con respecto a una dimensión contable principal. Una dimensión simple puede considerarse como la representación de una propiedad de elementos de su dimensión principal. <p>Ejemplo: Referente de visitante es una dimensión simple cuya dimensión principal es Visitante. Los visitantes solo pueden tener un referente de visitante (su primer referente HTTP), pero puede haber varios visitantes que tengan el mismo referente de visitante. Por lo tanto, Referente de visitante tiene una relación “uno a varios” con la dimensión Visitante. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Numéricos </td> 
-   <td colname="col2">Dimensión que tiene valores numéricos ordenados y una relación "uno a varios" con respecto a una dimensión contable principal. Una dimensión numérica puede considerarse como la representación de una propiedad numérica de elementos de su dimensión principal. Las dimensiones numéricas se utilizan frecuentemente para definir métricas “sum”. <p>Ejemplo: la dimensión numérica Ingreso por sesión define los ingresos, en dólares, de cada sesión. Cada sesión posee una cantidad única de ingresos, pero puede haber varias sesiones con los mismos ingresos y, por lo tanto, tiene una relación “uno a varios” con la dimensión Sesión. Una métrica "Ingresos" se puede definir como <span class="filepath"> sum(Session_Revenue, Session)</span>, lo que proporciona la cantidad total de ingresos para las sesiones seleccionadas. </p></td> 
+   <td colname="col1"> Ocultar grupos de informes </td> 
+   <td colname="col2">Dimensión que tiene valores numéricos ordenados y una relación "uno a varios" con respecto a una dimensión contable principal. Una dimensión numérica puede considerarse como la representación de una propiedad numérica de elementos de su dimensión principal. Las dimensiones numéricas se utilizan frecuentemente para definir métricas “sum”. <p>Ejemplo: la dimensión numérica Ingreso por sesión define los ingresos, en dólares, de cada sesión. Cada sesión posee una cantidad única de ingresos, pero puede haber varias sesiones con los mismos ingresos y, por lo tanto, tiene una relación “uno a varios” con la dimensión Sesión. Una métrica "Ingresos" puede definirse como <span class="filepath"> sum(Session_Revenue, Session)</span>, dando la cantidad total de ingresos para las sesiones seleccionadas. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Varios a varios </td> 

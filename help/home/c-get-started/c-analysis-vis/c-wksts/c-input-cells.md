@@ -3,7 +3,7 @@ description: Cómo crear una celda de entrada.
 title: Creación de una celda de entrada
 uuid: 9b2883e4-b12a-4279-9894-37a1df6c34b3
 exl-id: 1e55696e-fcc8-4521-b37b-f52409229e6d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 5%
@@ -11,6 +11,8 @@ ht-degree: 5%
 ---
 
 # Creación de una celda de entrada{#create-an-input-cell}
+
+{{eol}}
 
 Cómo crear una celda de entrada.
 

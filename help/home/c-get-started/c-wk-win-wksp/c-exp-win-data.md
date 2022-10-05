@@ -3,7 +3,7 @@ description: Puede exportar los datos de ciertas ventanas a un archivo de Excel 
 title: Exportación de datos de ventana
 uuid: 71a93f35-1096-41ae-8808-e5b94813a52c
 exl-id: ab931453-d366-4d3a-990e-7a368328da2d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Exportación de datos de ventana{#export-window-data}
+
+{{eol}}
 
 Puede exportar los datos de ciertas ventanas a un archivo de Excel (.xls o .xlsx) o a un archivo de valores separados por tabuladores (.tsv).
 
@@ -25,7 +27,7 @@ Para exportar datos de ventanas individuales a Microsoft Excel, se deben cumplir
 * Al exportar datos como archivos de Excel, se abre una nueva instancia de Excel.
 * Aunque la Data Workbench admite más de 256 columnas y 65.536 filas de datos, las versiones de Microsoft Excel anteriores a la versión 8.0 no lo hacen.
 
-Si se cumplen estos requisitos, la Data Workbench inicia automáticamente Microsoft Excel y exporta los datos a un nuevo libro de Excel al seleccionar la opción de menú **[!UICONTROL Export To Excel]**.
+Si se cumplen estos requisitos, la Data Workbench inicia automáticamente Microsoft Excel y exporta los datos a un nuevo libro de Excel al seleccionar la variable **[!UICONTROL Export To Excel]** para abrir el Navegador.
 
 **Para exportar datos de ventana a un archivo .xls o .xlsx**
 
@@ -33,20 +35,20 @@ Haga clic con el botón derecho en el borde superior de la ventana y haga clic e
 
 ![](assets/mnu_window_TitleBar_Export.png)
 
-Excel abre un nuevo libro que contiene los datos exportados. A menos que haya proporcionado un título personalizado (como se describe en la sección siguiente), este libro se nombra con el [!DNL Export title] (Tabla de día en el ejemplo anterior).
+Excel abre un nuevo libro que contiene los datos exportados. A menos que haya proporcionado un título personalizado (como se describe en la sección siguiente), este libro se nombra con la variable [!DNL Export title] (Tabla de día en el ejemplo anterior).
 
 ## Aplicar títulos personalizados {#section-2a6559df812a470685e43923b7b9024e}
 
-Si proporciona un título personalizado para una ventana (mediante el campo [!DNL Custom title] del menú [!DNL Export]), la hoja de cálculo a la que la Data Workbench exporta los datos se nombra con este título personalizado en lugar del título en el campo [!DNL Export title] (Tabla de día en el ejemplo anterior).
+Si proporciona un título personalizado para una ventana (mediante la variable [!DNL Custom title] en el campo [!DNL Export] ) la hoja de cálculo a la que la Data Workbench exporta los datos tiene el nombre utilizando este título personalizado en lugar del título en la [!DNL Export title] (Tabla de día en el ejemplo anterior).
 
 **Aplicación de un título personalizado a una visualización**
 
-1. Haga clic con el botón derecho en el borde superior de la ventana y haga clic en el campo **[!UICONTROL Custom title]** .
+1. Haga clic con el botón derecho en el borde superior de la ventana y, a continuación, haga clic en **[!UICONTROL Custom title]** campo .
 1. you
 
 ![](assets/mnu_window_TitleBar_Export.png)
 
-Cuando exporta la visualización a Excel, la hoja de cálculo que contiene los datos de esta ventana recibe un nombre usando el título especificado en lugar del título en el campo [!DNL Export title].
+Cuando exporta la visualización a Excel, la hoja de cálculo que contiene los datos de esta ventana recibe un nombre usando el título especificado en lugar del título en la variable [!DNL Export title] campo .
 
 ## Exportar datos de ventana a un archivo TSV {#section-93c6b24f7338430aaf5a63b99b9489e8}
 

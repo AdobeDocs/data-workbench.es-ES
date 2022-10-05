@@ -3,7 +3,7 @@ description: Los elementos dentro de una dimensión se pueden codificar con colo
 title: Cambiar una serie
 uuid: 4e9630c6-a663-486d-ae82-f6d25f74a41c
 exl-id: 7a639a7f-e526-4916-a957-b005277bdd2d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Cambiar una serie{#change-a-series}
+
+{{eol}}
 
 Los elementos dentro de una dimensión se pueden codificar con colores como series dentro de un gráfico de líneas para que cada elemento se pueda rastrear más fácilmente en otras visualizaciones del espacio de trabajo.
 

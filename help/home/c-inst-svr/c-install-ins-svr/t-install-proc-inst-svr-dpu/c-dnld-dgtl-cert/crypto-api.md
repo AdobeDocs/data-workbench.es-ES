@@ -2,16 +2,17 @@
 description: El Almacén de certificados de Windows le permite almacenar el certificado y la clave privada del cliente en el Almacén de certificados de Windows para la comunicación SSL con los servidores.
 title: Almacén de certificados de Windows
 uuid: a8021295-375a-460b-8686-acf3bc43cd17
-translation-type: ht
-source-git-commit: a766b64ef809e2223fed869d8d63b75f270a3d39
-workflow-type: ht
+exl-id: 8613a941-6213-4bfa-9c35-dccc2acb6c17
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 100%
 
 ---
 
+# Almacén de certificados de Windows{#windows-certificate-store}
 
-# Almacén de certificados de Windows {#windows-certificate-store}
+{{eol}}
 
 El Almacén de certificados de Windows le permite almacenar el certificado y la clave privada del cliente en el Almacén de certificados de Windows para la comunicación SSL con los servidores.
 

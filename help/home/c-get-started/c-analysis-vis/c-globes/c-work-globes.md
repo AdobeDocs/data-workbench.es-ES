@@ -3,7 +3,7 @@ description: Cuando mueve el ratón sobre el mapa, cualquier dato disponible que
 title: Uso de globos
 uuid: 8aa3ad86-8129-47f6-8af9-d645ff9c566b
 exl-id: 2dc410fd-e452-4d03-88b9-fe1027b54e9c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Uso de globos{#working-with-globes}
+
+{{eol}}
 
 Cuando mueve el ratón sobre el mapa, cualquier dato disponible que corresponda a la posición geográfica de la ubicación del puntero se muestra en la esquina superior derecha de la visualización.
 

@@ -3,7 +3,7 @@ description: Una leyenda de valor muestra eventos de valor definidos.
 title: Leyendas de valores
 uuid: 7779f442-2f45-4bf8-a62a-585aaceaeb3a
 exl-id: b28ba604-93ef-4081-ae55-937fb537c068
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
@@ -12,11 +12,13 @@ ht-degree: 2%
 
 # Leyendas de valores{#value-legends}
 
+{{eol}}
+
 Una leyenda de valor muestra eventos de valor definidos.
 
-La leyenda del valor solo está configurada en las aplicaciones HBX y [!DNL Site] , pero se puede configurar para otras aplicaciones. Para obtener más información, póngase en contacto con los servicios de consultoría de Adobe.
+La leyenda del valor solo está configurada en el HBX y [!DNL Site] , pero se pueden configurar para otras aplicaciones. Para obtener más información, póngase en contacto con los servicios de consultoría de Adobe.
 
-En HBX y [!DNL Site], un evento de valor se define como una sesión que generó valor comercial. Por ejemplo, los registros de datos de evento asociados con vistas de página específicas (por ejemplo, una página de agradecimiento por pedidos o una página de finalización de aplicaciones) pueden representar eventos de valor para una organización empresarial.
+En HBX y [!DNL Site], un evento de valor se define como una sesión que generó valor comercial. Por ejemplo, los registros de datos de evento asociados con vistas de página específicas (por ejemplo, una página de agradecimiento por pedido o una página de finalización de aplicación) pueden representar eventos de valor para una organización empresarial.
 
 Con los eventos de valor, puede medir y rastrear la cantidad de valor generado por el sitio web. Puede evaluar el valor empresarial en dólares para cada evento y responder preguntas como:
 
@@ -57,7 +59,7 @@ Cuando se crea un evento de valor, se arrastran las páginas del sitio web que r
 
 1. En la leyenda del valor, asigne un valor comercial a cada sesión para la que se produzca el evento:
 
-   1. En la columna [!DNL Value per Event] , haga clic en la celda que corresponda a la página añadida como evento de valor.
+   1. En el [!DNL Value per Event] , haga clic en la celda que corresponda a la página agregada como evento de valor.
    1. Escriba la cantidad en dólares que desea asignar para el valor de ese evento y pulse Intro.
 
    ![](assets/lgd_ValueLegend_Value.png)
@@ -74,7 +76,7 @@ Una vez definido al menos un evento de valor, la dimensión Segmento de valor qu
 
 >[!NOTE]
 >
->El servidor de Data Workbench calcula las métricas de todo el conjunto de datos al que puede acceder el perfil que está utilizando. De forma predeterminada, [!DNL Data Workbench Server] calcula métricas como Valor, Eventos de valor, Valor promedio y Conversión en todos los datos del conjunto de datos de análisis, incluso si los datos no proceden de la misma fuente lógica.
+>El servidor de Data Workbench calcula las métricas de todo el conjunto de datos al que puede acceder el perfil que está utilizando. De forma predeterminada, la variable [!DNL Data Workbench Server] calcula métricas como Valor, Eventos de valor, Valor promedio y Conversión en todos los datos del conjunto de datos de análisis, aunque los datos no provengan de la misma fuente lógica.
 
 ## Exportación a Microsoft Excel {#section-feaa7a8eb8124fafbc74169bebaed6d8}
 

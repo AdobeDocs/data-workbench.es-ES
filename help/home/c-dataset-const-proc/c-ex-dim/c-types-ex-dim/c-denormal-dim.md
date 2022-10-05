@@ -3,7 +3,7 @@ description: Una dimensión denormalizada tiene una relación "uno a uno" con su
 title: Dimensiones denormales
 uuid: f172fbce-e967-41ce-9958-9062561ecbcc
 exl-id: 0c4fad38-bc7c-4b63-98ec-c9121e576a36
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
@@ -12,21 +12,23 @@ ht-degree: 2%
 
 # Dimensiones denormales{#denormal-dimensions}
 
+{{eol}}
+
 Una dimensión denormalizada tiene una relación &quot;uno a uno&quot; con su dimensión contable principal.
 
 Debe definir una dimensión denormalizada siempre que la dimensión deseada contenga un elemento único para cada elemento de su elemento principal. Por ejemplo, [!DNL EMail Address] es una dimensión denormalizada con un elemento principal de Visitante. Cada visitante tiene una dirección de correo electrónico y cada elemento de la dimensión Dirección de correo electrónico es la dirección de correo electrónico de un único visitante. Aunque dos visitantes tengan la misma dirección de correo electrónico, las direcciones son elementos distintos de la dimensión Dirección de correo electrónico .
 
-Puede utilizar dimensiones denormalizadas en cualquier visualización de tabla, en tablas de detalles o para crear filtros. Además, puede utilizar dimensiones denormalizadas con la funcionalidad de exportación de segmentos del servidor de Data Workbench para exportar valores de campos (como [!DNL Tracking ID] o [!DNL EMail Address]) que tengan muchos valores. Dado que los datos de segmento que desee exportar deben definirse como una dimensión dentro del perfil, debe crear una dimensión denormalizada que almacene las cadenas sin procesar de los datos del campo.
+Puede utilizar dimensiones denormalizadas en cualquier visualización de tabla, en tablas de detalles o para crear filtros. Además, puede utilizar dimensiones denormalizadas con la funcionalidad de exportación de segmentos del servidor de Data Workbench para exportar valores de campos (como [!DNL Tracking ID] o [!DNL EMail Address]) que tienen muchos valores. Dado que los datos de segmento que desee exportar deben definirse como una dimensión dentro del perfil, debe crear una dimensión denormalizada que almacene las cadenas sin procesar de los datos del campo.
 
 >[!NOTE]
 >
 >Cuando se utiliza una dimensión denormalizada en una tabla u otra visualización que espera una dimensión normal, se crea automáticamente una dimensión denormalizada derivada. La dimensión denormalizada derivada tiene una relación &quot;uno a varios&quot; con la dimensión principal.
 
-Para obtener más información sobre la visualización y los filtros de la tabla de detalles, consulte el capítulo Visualizaciones de análisis en la *Guía del usuario de Data Workbench*. Para obtener información sobre la exportación de segmentos, consulte el capítulo Configuración de interfaz y características de análisis en la *Guía del usuario de Data Workbench*.
+Para obtener información sobre la visualización y los filtros de la tabla de detalles, consulte el capítulo Visualizaciones de análisis en la sección *Guía del usuario de Data Workbench*. Para obtener información sobre la exportación de segmentos, consulte el capítulo Configuración de interfaz y características de análisis en la sección *Guía del usuario de Data Workbench*.
 
 >[!NOTE]
 >
->Las dimensiones denormalizadas pueden ser muy costosas en tiempo de consulta y espacio en disco. Una dimensión denormalizada con [!DNL Page View]principal y una cadena de entrada promedio de 50 bytes podría agregar 25 GB de datos a los búferes en un conjunto de datos típico y grande, equivalente a unas 13 dimensiones de vista de página simples o numéricas, o aproximadamente 125 dimensiones de nivel de sesión. Nunca agregue una dimensión denormalizada a un conjunto de datos sin una evaluación cuidadosa del impacto en el rendimiento.
+>Las dimensiones denormalizadas pueden ser muy costosas en tiempo de consulta y espacio en disco. Dimensión denormalizada con elemento principal [!DNL Page View]y una cadena de entrada promedio de 50 bytes podría agregar 25 GB de datos a los búferes en un conjunto de datos grande típico, equivalente a unas 13 dimensiones de vista de página simples o numéricas, o aproximadamente 125 dimensiones de nivel de sesión. Nunca agregue una dimensión denormalizada a un conjunto de datos sin una evaluación cuidadosa del impacto en el rendimiento.
 
 Las dimensiones denormalizadas se definen mediante los siguientes parámetros:
 
@@ -73,11 +75,11 @@ Las dimensiones denormalizadas se definen mediante los siguientes parámetros:
    <td colname="col1"> Operación </td> 
    <td colname="col2"> <p>Las operaciones disponibles son las siguientes: </p> <p> 
      <ul id="ul_CCDC45838A3941BD949B6D21EA0492B3"> 
-      <li id="li_F33898192A82437692B5C15684EFCF64"> PRIMER NO EN BLANCO: Se utiliza el primer valor de entrada no vacío, independientemente de si procede de la primera entrada de registro. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. </li> 
-      <li id="li_4ADD0A368BB74B64AD29126C8E7B333F"> PRIMERA FILA: Se utiliza el valor de la primera entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
-      <li id="li_C93CA22ADA634F21A6488BB3BEE7CB23"> ÚLTIMO NO EN BLANCO: Se utiliza el último valor de entrada que no esté en blanco, independientemente de si procede de la última entrada de registro. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. </li> 
-      <li id="li_2FFE585521B14FE5ABBF66AAC47F22C4"> ÚLTIMA FILA: Se utiliza el valor de la última entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
-     </ul> </p> <p> <p>Nota:  Si la operación no arroja ningún valor, se utiliza un valor en blanco (""). </p> </p> <p> Debe especificar una operación para asegurarse de que la dimensión se define como está previsto. </p> </td> 
+      <li id="li_F33898192A82437692B5C15684EFCF64"> PRIMER NO EN BLANCO: Se utiliza el primer valor de entrada no vacío, independientemente de si procede de la primera entrada de registro. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. </li> 
+      <li id="li_4ADD0A368BB74B64AD29126C8E7B333F"> PRIMERA FILA: Se utiliza el valor de la primera entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
+      <li id="li_C93CA22ADA634F21A6488BB3BEE7CB23"> ÚLTIMO NO EN BLANCO: Se utiliza el último valor de entrada que no esté en blanco, independientemente de si procede de la última entrada de registro. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. </li> 
+      <li id="li_2FFE585521B14FE5ABBF66AAC47F22C4"> ÚLTIMA FILA: Se utiliza el valor de la última entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
+     </ul> </p> <p> <p>Nota: Si la operación no arroja ningún valor, se utiliza un valor en blanco (""). </p> </p> <p> Debe especificar una operación para asegurarse de que la dimensión se define como está previsto. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

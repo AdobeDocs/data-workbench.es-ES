@@ -3,7 +3,7 @@ description: Siga estos pasos para crear una nueva visualización de canal
 title: Creación de un canal
 uuid: 88afa09d-42ff-4e3b-b5cc-d74e01f4fc39
 exl-id: 24b63998-3aad-4ddf-b2d2-78dd0df9a510
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Creación de un canal{#building-a-funnel}
+
+{{eol}}
 
 Siga estos pasos para crear una nueva visualización de canal
 
@@ -28,9 +30,9 @@ Siga estos pasos para crear una nueva visualización de canal
 
    ![](assets/step2-funnel.png)
 
-1. Para agregar una dimensión, seleccione el elemento y arrástrelo mientras mantiene presionada la tecla **[!UICONTROL `<Ctrl>`]** + **[!UICONTROL `<Alt>`]**.
+1. Para añadir una dimensión, seleccione el elemento y arrástrelo mientras mantiene presionada la tecla **[!UICONTROL `<Ctrl>`]** + **[!UICONTROL `<Alt>`]**.
 
-1. Arrastre el elemento a su posición sobre la zona de destino, **[!UICONTROL Drag Dimension Element Here]**.
+1. Arrastre el elemento hasta su posición sobre la zona de destino. **[!UICONTROL Drag Dimension Element Here]**.
 
    ![](assets/step4-funnel.png)
 
@@ -46,6 +48,6 @@ Siga estos pasos para crear una nueva visualización de canal
 
    ![](assets/last-image-funnel.png)
 
-Desde el canal, puede identificar las visitas en el orden previsto y las tasas y el porcentaje de clientes que convierten las ventas y siguen las campañas o rutas de contenido. Para obtener más información, puede abrir un [Explorador de rutas](../../../../home/c-get-started/c-analysis-vis/c-funnel-visualization/c-path-browser-funnel.md#concept-b0cedf7a28ae422696ded1258c9a4119) para ver una lista detallada de las páginas que se tomaron antes de llegar a la página seleccionada y las rutas que se tomaron después de que se fueron.
+Desde el canal, puede identificar las visitas en el orden previsto y las tasas y el porcentaje de clientes que convierten las ventas y siguen las campañas o rutas de contenido. Para obtener más información, puede abrir un [Navegador de rutas](../../../../home/c-get-started/c-analysis-vis/c-funnel-visualization/c-path-browser-funnel.md#concept-b0cedf7a28ae422696ded1258c9a4119) para ver una lista detallada de las páginas tomadas antes de llegar a la página seleccionada y las rutas que se siguen después de que se fueron.
 
-Consulte [Funnel features](../../../../home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-features.md#concept-e65c81fe17794acd8d00d796b1780dc3) adicionales.
+Consulte [Funciones de canal](../../../../home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-features.md#concept-e65c81fe17794acd8d00d796b1780dc3).

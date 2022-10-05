@@ -3,7 +3,7 @@ description: Puede definir nuevas métricas (denominadas métricas derivadas) y 
 title: Trabajo con métricas derivadas
 uuid: 9767c170-e0cb-47b4-94f1-e9f6950b5926
 exl-id: 83467c64-4b9a-44ab-91a2-202c76c89979
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 1%
@@ -12,17 +12,19 @@ ht-degree: 1%
 
 # Trabajo con métricas derivadas{#work-with-derived-metrics}
 
+{{eol}}
+
 Puede definir nuevas métricas (denominadas métricas derivadas) y editar las definiciones de métricas existentes mediante el Editor de métricas.
 
-Para obtener más información sobre las métricas de la que se proporciona en esta sección y en [Sintaxis del idioma de consulta](../../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f), consulte la *Guía de métricas, Dimension y filtros*.
+Para obtener más información sobre las métricas que se proporciona en esta sección y en [Sintaxis del idioma de consulta](../../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f), consulte la *Guía de métricas, Dimension y filtros*.
 
 ## Crear una métrica derivada {#section-d57b98bf0a9940daba4920ff7efc808d}
 
-Utilice [!DNL Metric Editor] para definir una nueva métrica por nombre, fórmula y formato, que se guarda en la carpeta User\*profile_name*\Metrics para su uso posterior.
+Utilice un [!DNL Metric Editor] para definir una nueva métrica por nombre, fórmula y formato, que se guarda en la carpeta User\*profile_name*\Metrics para su uso posterior.
 
-1. Abra una nueva [!DNL Metric Editor] utilizando la opción de menú **[!UICONTROL Admin]** > **[!UICONTROL Profile]** o haciendo clic con el botón derecho en la columna **[!UICONTROL User]** de la carpeta en la que desea crear la métrica y haciendo clic en **[!UICONTROL Create]** > **[!UICONTROL New Metric]**.
+1. Abra una nueva [!DNL Metric Editor] usando la variable **[!UICONTROL Admin]** > **[!UICONTROL Profile]** o haciendo clic con el botón derecho en el **[!UICONTROL User]** para la carpeta en la que desea crear la métrica y haga clic en **[!UICONTROL Create]** > **[!UICONTROL New Metric]**.
 
-   Aparece un [!DNL Metric Editor].
+   A [!DNL Metric Editor] se muestra.
 
 1. En el parámetro Nombre , escriba un nombre para la nueva métrica.
 
@@ -65,25 +67,25 @@ Utilice [!DNL Metric Editor] para definir una nueva métrica por nombre, fórmul
    >
    >Cuando se introduce una expresión adecuada, la línea de vista previa muestra el valor de la nueva métrica. Si hay un error en la expresión, la línea de vista previa muestra un mensaje de error.
 
-1. Haga clic con el botón derecho en **[!UICONTROL (New)]** y haga clic en **[!UICONTROL Save]**.
+1. Clic con el botón derecho **[!UICONTROL (New)]** y haga clic en **[!UICONTROL Save]**.
 
-   Al guardar la métrica, se crea en el equipo un archivo que representa la nueva métrica en el directorio de instalación de la Data Workbench \User\*nombre de perfil*\carpeta de métricas.
+   Al guardar la métrica, se crea en el equipo un archivo que representa la nueva métrica en el directorio de instalación de la Data Workbench \User\*profile name*\Metrics.
 
    ![](assets/vis_MetricEditor_NewAndEditing.png)
 
 Ahora puede usar la nueva métrica en todo el perfil actual seleccionándola como lo haría con cualquier métrica integrada. Para cambiar el orden en que aparecen las métricas en el menú de métricas, consulte [Personalización de menús mediante archivos Order.txt](../../../../home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/t-cstm-menus-ordr-files.md#task-a391800a8dd444deb3e1516d5189f999).
 
-Si desea que todos los usuarios del perfil utilicen la métrica que ha creado, debe publicarla en el perfil de trabajo mediante [!DNL Profile Manager]. Consulte [Publicación de archivos en su perfil de trabajo](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9).
+Si desea que todos los usuarios del perfil utilicen la métrica que ha creado, debe publicarla en el perfil de trabajo utilizando la variable [!DNL Profile Manager]. Consulte [Publicación de archivos en su perfil de trabajo](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9).
 
-## Editar métricas derivadas {#section-db6d924cf4e14bcc8d57cfe1059fc797}
+## Editar una métrica derivada {#section-db6d924cf4e14bcc8d57cfe1059fc797}
 
-1. En [!DNL Profile Manager] o [!DNL Metrics Manager], en la columna *nombre del perfil*, haga clic con el botón secundario en la marca de verificación del archivo de métrica que desea editar y, a continuación, haga clic en **[!UICONTROL Make Local]**.
-1. Haga clic con el botón derecho en la marca de verificación del archivo de métrica en la columna [!DNL User] y haga clic en **[!UICONTROL Open]** > **[!UICONTROL from the workbench]**.
+1. En el [!DNL Profile Manager] o [!DNL Metrics Manager], en el *nombre de perfil* , haga clic con el botón derecho en la marca de verificación del archivo de métrica que desee editar y, a continuación, haga clic en **[!UICONTROL Make Local]**.
+1. Haga clic con el botón derecho en la marca de verificación del archivo de métrica en la variable [!DNL User] y haga clic en **[!UICONTROL Open]** > **[!UICONTROL from the workbench]**.
 
    >[!NOTE]
    >
-   >También puede abrir un [!DNL Metric Editor] haciendo clic con el botón derecho en cualquier área relacionada con métricas dentro de una visualización para mostrar el menú de métricas. Para obtener más información, consulte [Uso de menús de métricas y Dimension](../../../../home/c-get-started/c-vis/c-met-dim-menus.md#concept-50f07ae47c3e4f94ad7d3d7f8293ccac).
+   >También puede abrir un [!DNL Metric Editor] haciendo clic con el botón derecho en cualquier área relacionada con la métrica dentro de una visualización para mostrar el menú de la métrica. Para obtener más información, consulte [Uso de menús de métricas y Dimension](../../../../home/c-get-started/c-vis/c-met-dim-menus.md#concept-50f07ae47c3e4f94ad7d3d7f8293ccac).
 
-1. En [!DNL Metric Editor], edite y guarde la definición de la métrica según sea necesario mediante los pasos 2 a 4 de [Creación de nuevas métricas derivadas](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/c-drvd-mtrcs.md#section-d57b98bf0a9940daba4920ff7efc808d).
+1. En el [!DNL Metric Editor], edite y guarde la definición de la métrica según sea necesario mediante los pasos del 2 al 4 de [Creación de nuevas métricas derivadas](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/c-drvd-mtrcs.md#section-d57b98bf0a9940daba4920ff7efc808d).
 
-   Si desea que todos los usuarios del perfil utilicen la métrica que ha editado, debe publicarla en el perfil de trabajo mediante [!DNL Profile Manager]. Consulte [Publicación de archivos en su perfil de trabajo](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9).
+   Si desea que todos los usuarios del perfil utilicen la métrica que ha editado, debe publicarla en el perfil de trabajo mediante la variable [!DNL Profile Manager]. Consulte [Publicación de archivos en su perfil de trabajo](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9).

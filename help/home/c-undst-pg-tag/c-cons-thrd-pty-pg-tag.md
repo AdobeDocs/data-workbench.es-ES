@@ -3,7 +3,7 @@ description: Información conceptual sobre el etiquetado de terceros y la preven
 title: Consideraciones P3P para el etiquetado de páginas de terceros
 uuid: b88d0d22-0ff8-4b63-9be9-7acc12061146
 exl-id: 8eb521b6-802c-4d9f-a6b4-b1c4f694b8b8
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 1%
@@ -12,13 +12,15 @@ ht-degree: 1%
 
 # Consideraciones P3P para el etiquetado de páginas de terceros{#p-p-considerations-for-third-party-page-tagging}
 
+{{eol}}
+
 Información conceptual sobre el etiquetado de terceros y la prevención del bloqueo de cookies mediante P3P.
 
 ## Explicación del etiquetado de páginas de terceros {#section-8dc5b6b99e454ef7a7cf578ebbf9efca}
 
 En la mayoría de las implementaciones, la cookie persistente de Adobe se ve como una cookie de origen. Las cookies de origen se definen como las asociadas al dominio de host.
 
-Supongamos que un usuario visita https://www.example.com/. Suponiendo que un sensor esté instalado y funcione en el servidor web que aloja el dominio, se establece una cookie persistente de Adobe que se ve como cookie de origen. Sin embargo, es posible que desee recopilar datos de medición de un sitio de terceros mediante el uso de objetos incrustados, que se solicitan y cargan desde el servidor que ejecuta [!DNL Sensor] en lugar del servidor de terceros que aloja la página o el programa publicitario. Por ejemplo, https://www.example2.com/ sirve para una página web con una solicitud de objeto incrustado procedente de https://www.example.com/. La solicitud del objeto incrustado de https://www.example.com/ provoca que se establezca una cookie; sin embargo, en este contexto, el navegador web o el agente de usuario ven la cookie como una cookie de terceros.
+Supongamos que un usuario visita https://www.example.com/. Suponiendo que un sensor esté instalado y funcione en el servidor web que aloja el dominio, se establece una cookie persistente de Adobe que se ve como cookie de origen. Sin embargo, es posible que desee recopilar datos de medición de un sitio de terceros mediante el uso de objetos incrustados, que se solicitan y cargan desde el servidor que se está ejecutando [!DNL Sensor] en lugar del servidor de terceros que aloja la página o el programa de publicidad. Por ejemplo, https://www.example2.com/ sirve para una página web con una solicitud de objeto incrustado procedente de https://www.example.com/. La solicitud del objeto incrustado de https://www.example.com/ provoca que se establezca una cookie; sin embargo, en este contexto, el navegador web o el agente de usuario ven la cookie como una cookie de terceros.
 
 En exploradores web más recientes, como IE6 de Microsoft, las funciones de privacidad filtran las cookies según sus políticas compactas enviadas en el encabezado de respuesta HTTP desde el servidor web. En la configuración predeterminada de IE6, que la mayoría de los usuarios no cambian nunca, las cookies de terceros se bloquean cuando no existen políticas compactas o no son satisfactorias. La mayoría de los sitios que experimentan problemas de bloqueo de cookies tienen cookies de terceros en el sitio que no tienen las políticas compactas adecuadas que se envían en el encabezado de respuesta HTTP. Además, se producen algunos problemas de bloqueo de cookies cuando otro sitio enmarca un sitio. Por ejemplo, una tienda en línea que forme parte de un portal de compras en línea puede aparecer en un marco proporcionado por el portal. Desde la perspectiva del navegador, el contenido de la tienda puede parecer contenido de terceros cuando lo enmarca el portal. Sin embargo, si un visitante va directamente a la tienda en línea sin pasar por el portal, el contenido será de origen. Por lo tanto, la tienda en línea encuentra que sus cookies solo están bloqueadas cuando los visitantes acceden a través del portal.
 
@@ -41,7 +43,7 @@ El siguiente es un ejemplo de un encabezado P3P de este tipo:
 P3P: policyref=” https://www.myserver.com/w3c/p3p.xml”, CP=”NOI DSP COR PSA PSD OUR IND COM NAV”
 ```
 
-En este ejemplo, el archivo [!DNL p3p.xml] se utiliza para hacer referencia a un archivo [!DNL policy.xml] asociado que reside en el servidor web y que indica los tipos de información que recopila el sitio web, los métodos de resolución de disputas a los que se adhiere la organización, cómo se utilizan los datos recopilados, quién posee los datos y otra información estándar relacionada con la privacidad de Internet. Los tres códigos de caracteres que siguen a &quot;CP&quot; son los códigos de directiva compactos que emulan lo que se indica dentro del archivo [!DNL policy.xml].
+En este ejemplo, el archivo [!DNL p3p.xml] se utiliza para hacer referencia a un [!DNL policy.xml] que residen en el servidor web y que denota el tipo de información que recopila el sitio web, los métodos de resolución de conflictos a los que se adhiere su organización, cómo se utilizan los datos recopilados, quién es el propietario de los datos y otra información estándar relacionada con la privacidad de Internet. Los tres códigos de caracteres que siguen a &quot;CP&quot; son los códigos de política compactos que emulan lo que se indica dentro de su [!DNL policy.xml] archivo.
 
 Todas las políticas compactas y los archivos XML de políticas deben adaptarse a la organización respectiva para la que se implementan, especificando con precisión sus políticas de privacidad internas con respecto a la recopilación de datos de sitios web. Encontrará una gran cantidad de editores de directivas P3P en línea junto con información más detallada sobre la implementación de una política de privacidad adecuada en su sitio web.
 

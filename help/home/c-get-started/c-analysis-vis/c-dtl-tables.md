@@ -3,7 +3,7 @@ description: Las tablas de detalles permiten ver información adicional sobre un
 title: Tabla de detalles
 uuid: 2becff5e-c78d-4ac7-8cda-814ad0193efd
 exl-id: d7f0b768-f341-41e8-904b-ec98a25f7aa9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Tabla de detalles{#detail-table}
+
+{{eol}}
 
 Las tablas de detalles permiten ver información adicional sobre un subconjunto de datos, que se define mediante las selecciones que se realizan en otras visualizaciones.
 
@@ -55,7 +57,7 @@ Para ver los detalles descritos anteriormente, debe completar los siguientes pas
 
 1. Haga clic con el botón derecho en la tabla de detalles y haga clic en **[!UICONTROL Add Level]** > **[!UICONTROL Visitor]**.
 1. Haga clic con el botón derecho en la tabla de detalles y haga clic en **[!UICONTROL Add Level]** > **[!UICONTROL Page View]**.
-1. Haga clic con el botón derecho en el encabezado de nivel **[!UICONTROL Visitors]** y haga clic en **[!UICONTROL Add Attribute]** > **[!UICONTROL Geography]** > **[!UICONTROL Domain]**.
+1. Haga clic con el botón derecho en el **[!UICONTROL Visitors]** nivel de encabezado y haga clic en **[!UICONTROL Add Attribute]** > **[!UICONTROL Geography]** > **[!UICONTROL Domain]**.
 1. Haga clic con el botón derecho en el encabezado de nivel Visitantes y haga clic en **[!UICONTROL Add Attribute]** > **[!UICONTROL Geography]** > **[!UICONTROL City]**.
 1. Haga clic con el botón derecho en el encabezado de nivel Visitantes y haga clic en **[!UICONTROL Add Metric]** > **[!UICONTROL Page Views]**.
 1. Haga clic con el botón derecho en el encabezado de nivel Vistas de página y haga clic en **[!UICONTROL Add Attribute]** > **[!UICONTROL Page]** > **[!UICONTROL Page]**.
@@ -72,17 +74,17 @@ El siguiente espacio de trabajo de muestra muestra los detalles relacionados de 
 
 ## Eliminar un nivel {#section-a8c820e0b656451e98e5ea75373edefc}
 
-* Haga clic con el botón derecho en el encabezado de nivel existente y haga clic en **[!UICONTROL Remove Level]** > *&lt;**[!UICONTROL dimension name]***.
+* Haga clic con el botón derecho en el encabezado de nivel existente y haga clic en **[!UICONTROL Remove Level]** > *&lt;**[!UICONTROL dimension name]**>*.
 
 ![](assets/mnu_DetailsTable_Level.png)
 
-## Agregar atributos y métricas {#section-cdda2df3c9a448d5b9770686c8b8efb3}
+## Adición de atributos y métricas {#section-cdda2df3c9a448d5b9770686c8b8efb3}
 
-* Haga clic con el botón derecho en un encabezado de atributo o métrica y haga clic en **[!UICONTROL Add Attribute]** > *&lt;**[!UICONTROL attribute name]**>* o **[!UICONTROL Add Metric]** > *&lt;**[!UICONTROL metric name]**>*.
+* Haga clic con el botón derecho en un encabezado de atributo o métrica y, a continuación, haga clic en **[!UICONTROL Add Attribute]** > *&lt;**[!UICONTROL attribute name]**>* o **[!UICONTROL Add Metric]** > *&lt;**[!UICONTROL metric name]**>*.
 
 ![](assets/mnu_DetailsTable.png)
 
-## Eliminar atributos y métricas {#section-4002ac957a2846678f9940270987d651}
+## Eliminación de atributos y métricas {#section-4002ac957a2846678f9940270987d651}
 
 * Haga clic con el botón derecho en la columna que desee eliminar y haga clic en **[!UICONTROL Remove Attribute]** > *&lt;**[!UICONTROL attribute name]**>* o **[!UICONTROL Remove Metric]** > *&lt;**[!UICONTROL metric name]**>*.
 

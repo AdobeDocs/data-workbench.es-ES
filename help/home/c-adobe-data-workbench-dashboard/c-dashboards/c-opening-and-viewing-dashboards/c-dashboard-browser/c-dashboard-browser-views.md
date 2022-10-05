@@ -3,7 +3,7 @@ description: Explica la vista de miniaturas y la vista de lista.
 title: Vistas del explorador del panel
 uuid: 8e5ef06a-6c5a-4792-a732-fe7574aed8ab
 exl-id: 94da6ee1-30ab-426f-9be3-fd56f172aadb
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Vistas del explorador del panel{#dashboard-browser-views}
+
+{{eol}}
 
 Explica la vista de miniaturas y la vista de lista.
 

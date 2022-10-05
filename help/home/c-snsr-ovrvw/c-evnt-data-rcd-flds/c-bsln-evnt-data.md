@@ -3,14 +3,16 @@ description: Información sobre los campos de registro de datos de evento de lí
 title: Campos de registro de datos de evento de línea de base
 uuid: aa36d332-089c-4ae2-98e2-a93d2fa023b7
 exl-id: ad3d8806-863a-4871-a35b-6680163f00ac
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # Campos de registro de datos de evento de línea de base{#baseline-event-data-record-fields}
+
+{{eol}}
 
 Información sobre los campos de registro de datos de evento de línea de base registrados por Sensor.
 
@@ -24,7 +26,7 @@ Información sobre los campos de registro de datos de evento de línea de base r
  <tbody>
   <tr>
    <td colname="col1"> c-ip </td>
-   <td colname="col2"> <p>La dirección IP del cliente tal como se incluye en la solicitud realizada al servidor. </p> <p>Ejemplo: 207.68.146.68 </p> </td>
+   <td colname="col2"> <p>La dirección IP del cliente tal como se incluye en la solicitud realizada al servidor. </p> <p>Ejemplo: 207 68 146 68 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> cs(cookie) </td>
@@ -72,13 +74,13 @@ Información sobre los campos de registro de datos de evento de línea de base r
   </tr>
   <tr>
    <td colname="col1"> x-timestamp </td>
-   <td colname="col2"> <p>La fecha y hora (GMT) a las que el servidor recibió la solicitud. </p> <p>El tiempo se expresa como el número de 100 nanosegundos desde el 1 de enero de 1600. </p> <p>Ejemplo: 1277109893200000000 sería el valor de x-timestamp para 11:28:52.000000 el martes 13 de septiembre de 2005. </p> </td>
+   <td colname="col2"> <p>La fecha y hora (GMT) a las que el servidor recibió la solicitud. </p> <p>El tiempo se expresa como el número de 100 nanosegundos desde el 1 de enero de 1600. </p> <p>Ejemplo: 127710989320000000 sería el valor de x-timestamp para 11:28:52.000000 el martes 13 de septiembre de 2005. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> x-trackingid </td>
-   <td colname="col2"> <p>El valor hexadecimal de 64 bits del identificador único del explorador que se encuentra en una cookie persistente establecida por un sensor <span class="wintitle"> </span> y proporcionado por el cliente con una solicitud a un servidor. </p> <p>Ejemplo: 42FDF66DE610CF36 </p> </td>
+   <td colname="col2"> <p>El valor hexadecimal de 64 bits del identificador único del explorador que se encuentra en una cookie persistente, según se ha definido mediante una <span class="wintitle"> Sensor </span> y proporcionados por el cliente con una solicitud a un servidor. </p> <p>Ejemplo: 42FDF66DE610CF36 </p> </td>
   </tr>
  </tbody>
 </table>
 
-El [!DNL data workbench server] puede derivar una serie de variables desde los campos de registro de datos de evento de línea de base. Para obtener más información, consulte la *Guía de configuración del conjunto de datos*.
+La variable [!DNL data workbench server] puede derivar una serie de variables de los campos de registro de datos de evento de línea de base. Para obtener más información, consulte la *Guía de configuración de conjuntos de datos*.

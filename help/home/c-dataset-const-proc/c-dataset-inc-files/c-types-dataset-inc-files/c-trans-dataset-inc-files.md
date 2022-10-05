@@ -3,7 +3,7 @@ description: El archivo de inclusión de conjunto de datos de transformación pa
 title: Archivos de inclusión de conjuntos de datos de transformación
 uuid: 46756f68-843c-4b0d-a79e-f107ef85db6c
 exl-id: 58793f82-162a-4d43-aea9-163716c82db6
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 3%
@@ -12,19 +12,21 @@ ht-degree: 3%
 
 # Archivos de inclusión de conjuntos de datos de transformación{#transformation-dataset-include-files}
 
+{{eol}}
+
 El archivo de inclusión de conjunto de datos de transformación para un perfil heredado contiene parámetros asociados con la fase de transformación de la construcción del conjunto de datos.
 
-La primera línea del archivo define un tipo [!DNL TransformationInclude] que admite los parámetros Dimension, Parámetros, Reprocesamiento, Etapa y Transformaciones extendidas. Todos los demás parámetros deben definirse en el archivo [!DNL Transformation.cfg] en el directorio del conjunto de datos del perfil del conjunto de datos.
+La primera línea del archivo define un tipo [!DNL TransformationInclude] que admite los parámetros de Dimension, parámetros, reprocesamiento, fase y transformaciones extendidos. Todos los demás parámetros deben definirse en la variable [!DNL Transformation.cfg] en el directorio del conjunto de datos del perfil del conjunto de datos.
 
-Si se incluyen parámetros que no sean Dimension extendidos, parámetros, reprocesamiento, fase y transformaciones en un archivo [!DNL Transformation Dataset Include], se generan errores.
+Inclusión de parámetros que no sean Dimension extendidos, parámetros, reprocesamiento, fase y transformaciones en un [!DNL Transformation Dataset Include] genera errores.
 
-Puede asignar cualquier nombre a un archivo [!DNL Transformation Dataset Include] que desee, pero su extensión de archivo debe ser [!DNL .cfg]. El archivo debe almacenarse dentro del *nombre de perfil heredado*\Dataset\Transformation directory. Debido a que los archivos se cargan recursivamente durante la fase de transformación de la construcción del conjunto de datos, puede almacenar los archivos [!DNL Transformation Dataset Include] en cualquier nivel dentro del directorio (por ejemplo, *nombre de perfil heredado*\Dataset\Transformation\*nombre de carpeta*\*incluir nombre de archivo*.cfg).
+Puede asignar un nombre a [!DNL Transformation Dataset Include] archivar lo que desee, pero la extensión de archivo debe ser [!DNL .cfg]. El archivo debe almacenarse dentro de la variable *nombre de perfil heredado*\Dataset\directorio de transformación. Debido a que los archivos se cargan recursivamente durante la fase de transformación de la construcción del conjunto de datos, puede almacenar la variable [!DNL Transformation Dataset Include] archivos en cualquier nivel dentro del directorio (por ejemplo, *nombre de perfil heredado*\Dataset\Transformation\*nombre de carpeta*\*incluir nombre de archivo*.cfg).
 
 >[!NOTE]
 >
->Muchos parámetros de configuración específicos de la web para el sitio se definen en los archivos [!DNL Transformation Dataset Include] . Para obtener información sobre estos parámetros, consulte [Configuración de datos web](../../../../home/c-dataset-const-proc/c-config-web-data/c-config-web-data.md#concept-9a306b65483a484bb3f6f3c1d7e77519).
+>Muchos parámetros de configuración específicos de la web para el sitio se definen en [!DNL Transformation Dataset Include] archivos. Para obtener información sobre estos parámetros, consulte [Ajustes de configuración para datos web](../../../../home/c-dataset-const-proc/c-config-web-data/c-config-web-data.md#concept-9a306b65483a484bb3f6f3c1d7e77519).
 
-La tabla siguiente describe los parámetros disponibles en un archivo [!DNL Transformation Dataset Include]:
+La tabla siguiente describe los parámetros disponibles en una [!DNL Transformation Dataset Include] archivo:
 
 <table id="table_7BD343888D9145BCBA889B531A4D18F8"> 
  <thead> 
@@ -44,11 +46,11 @@ La tabla siguiente describe los parámetros disponibles en un archivo [!DNL Tran
   </tr> 
   <tr> 
    <td colname="col1"> Volver a procesar </td> 
-   <td colname="col2"> <p>Opcional. Aquí se puede introducir cualquier carácter o combinación de caracteres. Si se cambia este parámetro y se guarda el archivo, se iniciará la retransformación de datos. </p> <p> Para obtener información sobre el reprocesamiento de los datos, consulte <a href="../../../../home/c-dataset-const-proc/c-reproc-retrans/c-unst-reproc-retrans.md"> Reprocesamiento y retransformación</a>. </p> </td> 
+   <td colname="col2"> <p>Opcional. Aquí se puede introducir cualquier carácter o combinación de caracteres. Si se cambia este parámetro y se guarda el archivo, se iniciará la retransformación de datos. </p> <p> Para obtener información sobre cómo reprocesar los datos, consulte <a href="../../../../home/c-dataset-const-proc/c-reproc-retrans/c-unst-reproc-retrans.md"> Reprocesamiento y retransformación</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prueba </td> 
-   <td colname="col2"> <p>Opcional. Nombre de la fase de procesamiento que se aplica a este archivo <span class="wintitle"> Incluir conjunto de datos de transformación</span>. Las etapas de procesamiento se definen en el parámetro Stages del archivo <span class="filepath"> Transformation.cfg</span>. </p> <p> <p>Nota: Cuando especifica un escenario, el nombre del escenario debe coincidir exactamente con el nombre que aparece en el parámetro Stages en el archivo <span class="filepath"> Transformation.cfg</span> para el perfil del conjunto de datos. </p> </p> </td> 
+   <td colname="col2"> <p>Opcional. Nombre de la fase de procesamiento que se aplica a esta <span class="wintitle"> Incluir conjunto de datos de transformación</span> archivo. Las etapas de procesamiento se definen en el parámetro Stages de la variable <span class="filepath"> Transformation.cfg</span> archivo. </p> <p> <p>Nota: Cuando se especifica un escenario, el nombre del escenario debe coincidir exactamente con el nombre que aparece en el parámetro Stages de la variable <span class="filepath"> Transformation.cfg</span> para el perfil del conjunto de datos. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transformaciones </td> 
@@ -59,13 +61,13 @@ La tabla siguiente describe los parámetros disponibles en un archivo [!DNL Tran
 
 >[!NOTE]
 >
->Para obtener descripciones de los parámetros del archivo [!DNL Transformation.cfg], consulte [Archivo de configuración de transformación](../../../../home/c-dataset-const-proc/c-trans-config-file/c-abt-trans-config-file.md).
+>Para obtener descripciones de los parámetros de la variable [!DNL Transformation.cfg] archivo, consulte [Archivo de configuración de transformación](../../../../home/c-dataset-const-proc/c-trans-config-file/c-abt-trans-config-file.md).
 
-Siempre que trabaje con archivos [!DNL Transformation Dataset Include], debe tener en cuenta los siguientes puntos:
+Siempre que trabaje con [!DNL Transformation Dataset Include] archivos:
 
 * Cambiar cualquiera de los parámetros de este archivo requiere la retransformación de los datos.
-* [!DNL CrossRows],  [!DNL ODBCLookup],  [!DNL Sessionize] y las  [!DNL AppendURI] transformaciones solo funcionan cuando se definen en un  [!DNL Transformation Dataset Configuration] archivo. Para obtener información sobre estas transformaciones, consulte [Transformaciones de datos](../../../../home/c-dataset-const-proc/c-data-trans/c-abt-transf.md).
+* [!DNL CrossRows], [!DNL ODBCLookup], [!DNL Sessionize]y [!DNL AppendURI] las transformaciones solo funcionan cuando se definen en una [!DNL Transformation Dataset Configuration] archivo. Para obtener información sobre estas transformaciones, consulte [Transformaciones de datos](../../../../home/c-dataset-const-proc/c-data-trans/c-abt-transf.md).
 
-* Puede agregar cualquiera de los parámetros descritos anteriormente al archivo [!DNL Transformation Dataset Include] abriendo y editando el archivo en el Bloc de notas. Los cambios que realice y guarde aparecerán cuando vuelva a abrir el archivo en Data Workbench. Al añadir un nuevo parámetro, utilice la tecla Space (no la tecla Tab) para sangrar dos espacios (2) a la derecha del nivel de encabezado anterior.
+* Puede agregar cualquiera de los parámetros descritos anteriormente al [!DNL Transformation Dataset Include] abriendo y editando el archivo en el Bloc de notas. Los cambios que realice y guarde aparecerán cuando vuelva a abrir el archivo en Data Workbench. Al añadir un nuevo parámetro, utilice la tecla Space (no la tecla Tab) para sangrar dos espacios (2) a la derecha del nivel de encabezado anterior.
 
-Si se suscribe al servicio de datos [!DNL IP Geo-location] o [!DNL IP Geo-intelligence] del Adobe, Adobe le proporciona un perfil interno que consta de un conjunto de transformaciones de datos y dimensiones ampliadas que se crean específicamente para el servicio de datos. Las transformaciones y dimensiones se definen en archivos [!DNL Transformation Dataset Include] que se incluyen en el directorio Dataset del perfil interno. Para obtener instrucciones para instalar el perfil interno del servicio de datos [!DNL IP Geo-location] o [!DNL IP Geo-intelligence], consulte la *Guía del usuario de Data Workbench*.
+Si se suscribe al Adobe [!DNL IP Geo-location] o [!DNL IP Geo-intelligence] servicio de datos, Adobe le proporciona un perfil interno que consta de un conjunto de transformaciones de datos y dimensiones ampliadas que se crean específicamente para el servicio de datos. Las transformaciones y dimensiones se definen en [!DNL Transformation Dataset Include] archivos que se incluyen en el directorio Dataset del perfil interno. Para obtener instrucciones para instalar el perfil interno de la variable [!DNL IP Geo-location] o [!DNL IP Geo-intelligence] servicio de datos, consulte la *Guía del usuario de Data Workbench*.

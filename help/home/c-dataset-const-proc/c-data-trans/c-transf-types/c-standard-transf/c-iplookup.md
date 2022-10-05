@@ -3,7 +3,7 @@ description: La transformación IPLookup toma datos de geoubicación IP o de geo
 title: IPLookup
 uuid: 6fccee39-761f-4854-a7fd-3f8b453e0698
 exl-id: 3e9dba44-8d31-49af-8ce0-fecaf92edeb7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 4%
@@ -12,15 +12,17 @@ ht-degree: 4%
 
 # IPLookup{#iplookup}
 
+{{eol}}
+
 La transformación IPLookup toma datos de geoubicación IP o de geointeligencia IP (proporcionados por cualquier proveedor de dichos datos y convertidos en un formato propietario por Adobe) y transforma los datos en información geográfica que se puede utilizar en el análisis.
 
-Dos transformaciones [!DNL IPLookup] se enumeran en el menú Add new > *Transformation type *:
+Two [!DNL IPLookup] las transformaciones se enumeran en el menú Add new > *Transformation type *:
 
-* [!DNL IPLookup] Quova para  [!DNL IP geo-location] datos
+* [!DNL IPLookup] Quova para [!DNL IP geo-location] data
 
-* [!DNL IPLookup] Digital Envoy para  [!DNL IP geo-intelligence] datos
+* [!DNL IPLookup] Digital Envoy para [!DNL IP geo-intelligence] data
 
-Al definir una transformación [!DNL IPLookup], elija la transformación adecuada para los datos [!DNL IP geo-location] o [!DNL IP geo-intelligence].
+Al definir una [!DNL IPLookup] transformación, elija la transformación adecuada para su [!DNL IP geo-location] o [!DNL IP geo-intelligence] datos.
 
 <table id="table_C438A30AB5E64160A5C486D6887B1D7E"> 
  <thead> 
@@ -58,12 +60,12 @@ Al definir una transformación [!DNL IPLookup], elija la transformación adecuad
   </tr> 
   <tr> 
    <td colname="col1"> Salidas </td> 
-   <td colname="col2"> <p>Nombres de las cadenas de salida. </p> <p> Las transformaciones <span class="wintitle"> IPLookup</span> Quova y <span class="wintitle"> IPLookup</span> Digital Envoy tienen diferentes parámetros de salida. Asegúrese de utilizar la transformación adecuada para sus datos de búsqueda IP. </p> </td> 
+   <td colname="col2"> <p>Nombres de las cadenas de salida. </p> <p> La variable <span class="wintitle"> IPLookup</span> Quova y <span class="wintitle"> IPLookup</span> Las transformaciones de Digital Envoy tienen diferentes parámetros de salida. Asegúrese de utilizar la transformación adecuada para sus datos de búsqueda IP. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-En este ejemplo, los datos [!DNL IP geo-location] (en el archivo de búsqueda [!DNL Quova.bin]) se utilizan para crear los campos de salida enumerados. Los resultados (AOL, ASN, Código de área, etc.) se pueden usar para crear dimensiones para el análisis geográfico del tráfico de visitantes.
+En este ejemplo, [!DNL IP geo-location] datos (en el archivo de búsqueda) [!DNL Quova.bin]) se utiliza para crear los campos de salida enumerados. Los resultados (AOL, ASN, Código de área, etc.) se pueden usar para crear dimensiones para el análisis geográfico del tráfico de visitantes.
 
 ![](assets/cfg_TransformationType_IPLookup.png)

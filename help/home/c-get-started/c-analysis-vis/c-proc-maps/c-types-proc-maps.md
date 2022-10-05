@@ -3,7 +3,7 @@ description: Información sobre los diferentes tipos de mapas de procesos.
 title: Tipos de mapas de procesos
 uuid: 19473b77-13c1-4829-b018-d3316e434ba4
 exl-id: 8bac7036-c7fe-4566-8e59-08e1ddc7ddb7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Tipos de mapas de procesos{#types-of-process-maps}
+
+{{eol}}
 
 Información sobre los diferentes tipos de mapas de procesos.
 
@@ -32,7 +34,7 @@ El mapa de proceso 2D del siguiente ejemplo muestra los nodos correspondientes a
 
 ![](assets/vis_2DProcessMap_MovieNodes.png)
 
-En el ejemplo, el tamaño de cada nodo y el grosor y la intensidad de cada flecha son proporcionales a la métrica Clasificaciones, que es un recuento de las clasificaciones que recibió una película. Por lo tanto, una película con un nodo grande, como *Independence Day*, tiene más clasificaciones que una película con un nodo pequeño, como *Event Horizon*. También puede ver que más espectadores de películas clasificaron *Día de la Independencia* antes de *Montaña fría* que las que clasificaron las mismas películas en el orden opuesto. Tenga en cuenta que las flechas no indican que los espectadores hayan clasificado *Día de la Independencia* y luego hayan clasificado *Montaña fría* inmediatamente después o viceversa. Es posible que los espectadores hayan clasificado otras películas en el medio, pero estas películas no se muestran en este mapa.
+En el ejemplo, el tamaño de cada nodo y el grosor y la intensidad de cada flecha son proporcionales a la métrica Clasificaciones, que es un recuento de las clasificaciones que recibió una película. Por lo tanto, una película con un nodo grande, como *Día de la Independencia*, tiene más clasificaciones que una película con un nodo pequeño, como *Horizonte de eventos*. También puede ver que más espectadores de películas han clasificado *Día de la Independencia* before *Montaña fría* que clasificó las mismas películas en el orden contrario. Tenga en cuenta que las flechas no indican que los espectadores tengan una clasificación *Día de la Independencia* y luego *Montaña fría* inmediatamente después, o viceversa. Es posible que los espectadores hayan clasificado otras películas en el medio, pero estas películas no se muestran en este mapa.
 
 ## Mapas de métricas 2D {#section-a9b846fc71224058918fbc378315effe}
 

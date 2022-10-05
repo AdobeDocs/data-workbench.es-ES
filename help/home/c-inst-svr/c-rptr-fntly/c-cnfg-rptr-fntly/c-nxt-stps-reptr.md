@@ -3,7 +3,7 @@ description: Instrucciones para completar la instalación del repetidor.
 title: Pasos siguientes (repetidor)
 uuid: 74ac9ef3-11c2-4af0-9901-edbbcc8ac0fb
 exl-id: b7caeb55-bd8c-4bf3-8216-3a30c8f3dfed
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Pasos siguientes{#next-steps}
+
+{{eol}}
 
 Instrucciones para completar la instalación del repetidor.
 

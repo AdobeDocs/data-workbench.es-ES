@@ -3,14 +3,16 @@ description: Data Workbench permite utilizar cálculos matemáticos adicionales.
 title: Sintaxis para expresiones matemáticas
 uuid: 63eee559-edfc-4efc-a6c8-66689d156701
 exl-id: a1433258-d3e8-4515-a1ae-00f9108e98c0
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # Sintaxis para expresiones matemáticas{#syntax-for-math-expressions}
+
+{{eol}}
 
 Data Workbench permite utilizar cálculos matemáticos adicionales.
 
@@ -62,7 +64,7 @@ Las funciones matemáticas pueden utilizarse para evaluar y mostrar en transform
   </tr> 
   <tr> 
    <td colname="col1"> <p>máximo </p> </td> 
-   <td colname="col02"> <p>máx( ) </p> </td> 
+   <td colname="col02"> <p>max( ) </p> </td> 
    <td colname="col2"> <p>Llamada de transformación de matemáticas y estadísticas </p> </td> 
   </tr> 
   <tr> 

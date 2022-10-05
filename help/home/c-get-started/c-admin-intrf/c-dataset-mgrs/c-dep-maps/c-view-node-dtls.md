@@ -3,7 +3,7 @@ description: Información sobre la visualización de información de identificac
 title: Detalles del nodo de vista
 uuid: 2016a650-b021-4295-8313-d6287578ed10
 exl-id: f8ce7741-8ba2-484d-ac35-5c286b65f098
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Detalles del nodo de vista{#view-node-details}
+
+{{eol}}
 
 Información sobre la visualización de información de identificación de un componente de perfil.
 
@@ -36,7 +38,7 @@ El tipo y nombre de la transformación, el nombre del archivo en el que se defin
 
 >[!NOTE]
 >
->La información de rendimiento para la transformación solo se muestra si la opción [!DNL Show Performance Data] está habilitada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos de rendimiento](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
+>La información de rendimiento para la transformación solo se muestra si la variable [!DNL Show Performance Data] está activada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos de rendimiento](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
 
 **Dimensión extendida**
 
@@ -46,7 +48,7 @@ El nombre y el tipo de la dimensión ampliada, el nombre del archivo en el que s
 
 >[!NOTE]
 >
->La información de rendimiento para la dimensión extendida solo se muestra si la opción [!DNL Show Performance Data] está habilitada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos de rendimiento](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
+>La información de rendimiento para la dimensión ampliada solo se muestra si la variable [!DNL Show Performance Data] está activada para el mapa de dependencias. Para obtener más información, consulte [Visualización de datos de rendimiento](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
 
 **Métrica**
 

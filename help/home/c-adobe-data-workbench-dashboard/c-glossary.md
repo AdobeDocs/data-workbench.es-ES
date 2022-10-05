@@ -3,7 +3,7 @@ description: La terminología y las funciones más utilizadas de Data Workbench 
 title: Glosario
 uuid: 9c832e10-f518-4a76-b06e-2fd7ea1fd985
 exl-id: 0fcc348a-8963-4473-a19d-0235c993c19a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Glosario{#glossary}
+
+{{eol}}
 
 La terminología y las funciones más utilizadas de Data Workbench de Adobe, incluido el panel.
 

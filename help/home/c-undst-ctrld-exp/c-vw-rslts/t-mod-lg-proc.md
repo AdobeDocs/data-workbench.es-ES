@@ -4,7 +4,7 @@ solution: Analytics
 title: Modificación de Log Processing.cfg
 uuid: 9105b09b-e3d5-4922-a205-b459553a4bec
 exl-id: 23c7873f-8ffd-422f-896b-d6c7e16aabbd
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 4%
@@ -12,6 +12,8 @@ ht-degree: 4%
 ---
 
 # Modificación de Log Processing.cfg{#modifying-log-processing-cfg}
+
+{{eol}}
 
 Debe añadir el campo x-experimentar al archivo Log Processing.cfg , que se utiliza para crear una dimensión ampliada.
 

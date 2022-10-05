@@ -3,14 +3,16 @@ description: La transformación Merge toma los valores del campo de entrada (nor
 title: Merge
 uuid: 9ca2ab22-d854-47b0-8189-f563c1e83d1c
 exl-id: 75fa824b-f68d-4ec4-a75d-0f742a7bb1ba
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 4%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
 # Combinar{#merge}
+
+{{eol}}
 
 La transformación Merge toma los valores del campo de entrada (normalmente un vector de cadenas), los combina en una sola cadena separada por el delimitador dado y coloca la cadena resultante en el campo de salida dado.
 
@@ -45,7 +47,7 @@ La transformación Merge toma los valores del campo de entrada (normalmente un v
   </tr> 
   <tr> 
    <td colname="col1"> Delimitador </td> 
-   <td colname="col2"> <p>Cadena que se utiliza para separar los elementos individuales del vector de cadena de entrada en la cadena de salida única. </p> <p> Si mantiene pulsada la tecla Ctrl y hace clic con el botón derecho en el parámetro Delimitador, aparece un menú <span class="wintitle"> Insertar</span>. Este menú contiene una lista de caracteres especiales que a menudo se utilizan como delimitadores. </p> </td> 
+   <td colname="col2"> <p>Cadena que se utiliza para separar los elementos individuales del vector de cadena de entrada en la cadena de salida única. </p> <p> Si mantiene pulsada la tecla Ctrl y hace clic con el botón derecho en el parámetro Delimitador, se muestra una <span class="wintitle"> Insertar</span> aparece. Este menú contiene una lista de caracteres especiales que a menudo se utilizan como delimitadores. </p> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -54,7 +56,7 @@ La transformación Merge toma los valores del campo de entrada (normalmente un v
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Salida </td> 
+   <td colname="col1"> Output </td> 
    <td colname="col2"> Nombre de la cadena de salida. </td> 
    <td colname="col3"></td> 
   </tr> 

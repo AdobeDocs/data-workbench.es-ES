@@ -3,7 +3,7 @@ description: Formato de información sobre el archivo de capa de punto de elemen
 title: Formato de archivo de capa de punto de elemento
 uuid: a8b3d2f4-0ed2-480d-a2a6-75d43025a579
 exl-id: 125796f6-a447-4f12-bcf2-3e669783cf1e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 5%
@@ -12,9 +12,11 @@ ht-degree: 5%
 
 # Formato de archivo de capa de punto de elemento{#element-point-layer-file-format}
 
+{{eol}}
+
 Formato de información sobre el archivo de capa de punto de elemento.
 
-Cada archivo de capa de punto de elemento [!DNL .layer] que hace referencia a un archivo de búsqueda debe tener el formato siguiente:
+Cada capa de punto de elemento [!DNL .layer] El archivo que hace referencia a un archivo de búsqueda debe tener el formato siguiente:
 
 ```
 Layer = ElementPointLayer:
@@ -57,11 +59,11 @@ Layer = ElementPointLayer:
   </tr> 
   <tr> 
    <td colname="col1"> Columna clave </td> 
-   <td colname="col2"> <p>Nombre de la columna del archivo de búsqueda que contiene los datos de clave comunes, lo que permite al servidor de Data Workbench integrar los datos en el archivo de búsqueda en el conjunto de datos. Debe ser la primera columna del archivo de búsqueda. </p> <p>Cada fila de esta columna es un elemento de una dimensión. Esta dimensión debe definirse en el archivo <span class="filepath"> Transformation.cfg</span> o en un archivo de inclusión de conjunto de datos de transformación y especificarse en el parámetro de Dimension de este archivo. Para obtener más información sobre los archivos de configuración de transformación, consulte la <i>Guía de configuración de conjuntos de datos</i>. </p> </td> 
+   <td colname="col2"> <p>Nombre de la columna del archivo de búsqueda que contiene los datos de clave comunes, lo que permite al servidor de Data Workbench integrar los datos en el archivo de búsqueda en el conjunto de datos. Debe ser la primera columna del archivo de búsqueda. </p> <p>Cada fila de esta columna es un elemento de una dimensión. Esta dimensión debe definirse en la variable <span class="filepath"> Transformation.cfg</span> o un archivo de inclusión de conjunto de datos de transformación y especificado en el parámetro de Dimension de este archivo. Para obtener más información sobre los archivos de configuración de transformación, consulte la <i>Guía de configuración de conjuntos de datos</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dimensión </td> 
-   <td colname="col2">Nombre de la dimensión (definida en un archivo de configuración de transformación) que contiene elementos que corresponden a las filas de datos de la columna <span class="wintitle"> Clave</span>. </td> 
+   <td colname="col2">El nombre de la dimensión (definida en un archivo de configuración de transformación) que contiene elementos que se corresponden con las filas de datos del <span class="wintitle"> Clave</span> para abrir el Navegador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Métrica </td> 
@@ -87,7 +89,7 @@ Layer = ElementPointLayer:
  </tbody> 
 </table>
 
-El archivo [!DNL Zip Points.layer] tiene el formato siguiente:
+La variable [!DNL Zip Points.layer] tiene el formato siguiente:
 
 ```
 Layer = ElementPointLayer:

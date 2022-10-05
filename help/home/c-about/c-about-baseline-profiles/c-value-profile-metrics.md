@@ -3,7 +3,7 @@ description: Métricas del perfil de valores
 title: Métricas del perfil de valores
 uuid: 68951e33-013a-466b-b0f3-839eaef89cb5
 exl-id: 9e95008c-1162-4f50-89d2-dcf5fcf8746a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 17%
@@ -11,6 +11,8 @@ ht-degree: 17%
 ---
 
 # Métricas del perfil de valores{#value-profile-metrics}
+
+{{eol}}
 
 | Métrica | Fórmula | Nivel | Descripción |
 |---|---|---|---|

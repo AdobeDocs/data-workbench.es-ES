@@ -3,7 +3,7 @@ description: Utilice el perfil histórico de Data Workbench para ver cómo la co
 title: Espacio de trabajo histórico de Data Workbench
 uuid: 61c45cae-f255-4d20-bb6b-f318c8dd8214
 exl-id: e6d7e924-641e-468c-a828-16ebe1c8724f
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 2%
@@ -12,17 +12,19 @@ ht-degree: 2%
 
 # Espacio de trabajo histórico de Data Workbench{#data-workbench-historic-workspace}
 
+{{eol}}
+
 Utilice el perfil histórico de Data Workbench para ver cómo la configuración, el hardware y otros cambios afectan al rendimiento, la estabilidad y la capacidad del servidor a lo largo del tiempo.
 
-El perfil histórico incluye un conjunto de datos basado en perfiles [Profile Performance](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-184a86f9de054970bf68515bb9dea85d) y el conjunto de datos basado en servidor [Server Performance](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5dad5870384b40e094d50173fcd90a09) en la pestaña **[!UICONTROL Performance]**. Estos son los conjuntos de datos más utilizados y vistos desde una perspectiva anterior del rendimiento del servidor de Data Workbench. Además, puede ver los [Componentes](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) y [Modo de procesamiento](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) seleccionando la pestaña **[!UICONTROL Up Time]**.
+El perfil histórico incluye un perfil [Rendimiento del perfil](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-184a86f9de054970bf68515bb9dea85d) conjunto de datos y basado en servidor [Rendimiento del servidor](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5dad5870384b40e094d50173fcd90a09) conjunto de datos en **[!UICONTROL Performance]** pestaña . Estos son los conjuntos de datos más utilizados y vistos desde una perspectiva anterior del rendimiento del servidor de Data Workbench. Además, puede ver el [Componentes](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) y [Modo de procesamiento](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) seleccionando **[!UICONTROL Up Time]** pestaña .
 
 ![](assets/Historic_Performance.png)
 
-Además, puede ver los [Componentes](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) y [Modo de procesamiento](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) seleccionando la pestaña **[!UICONTROL Up Time]**.
+Además, puede ver el [Componentes](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) y [Modo de procesamiento](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) seleccionando **[!UICONTROL Up Time]** pestaña .
 
-Para obtener información de referencia adicional sobre las dimensiones utilizadas en el perfil histórico de Data Workbench, consulte [Dimension en el perfil histórico de Insight.](../../../home/monitoring-installation/monitoring-appendix/monitoring-historical.md#concept-a42837c9c9274f83ad5bc5a6720f02b0)
+Para obtener información de referencia adicional sobre las dimensiones utilizadas en el perfil histórico de Data Workbench, consulte [Dimension en el perfil histórico de Insight .](../../../home/monitoring-installation/monitoring-appendix/monitoring-historical.md#concept-a42837c9c9274f83ad5bc5a6720f02b0)
 
-## Espacio de trabajo del rendimiento del perfil {#section-184a86f9de054970bf68515bb9dea85d}
+## Espacio de trabajo Rendimiento del perfil {#section-184a86f9de054970bf68515bb9dea85d}
 
 Este conjunto de datos incluye las siguientes métricas relevantes para la supervisión de Data Workbench.
 
@@ -35,7 +37,7 @@ Este conjunto de datos incluye las siguientes métricas relevantes para la super
 >
 >Para realizar una evaluación del rendimiento real de su perfil, observe la velocidad en lugar de la hora del calendario transcurrido. La tasa se mide como los valores modificados entre las encuestas cada diez minutos.
 
-## Espacio de trabajo del rendimiento del servidor {#section-5dad5870384b40e094d50173fcd90a09}
+## Espacio de trabajo Rendimiento del servidor {#section-5dad5870384b40e094d50173fcd90a09}
 
 Este conjunto de datos supervisa las métricas del servidor más allá del alcance de los perfiles incluidos e incluye las siguientes métricas relevantes del servidor para la supervisión de Data Workbench.
 

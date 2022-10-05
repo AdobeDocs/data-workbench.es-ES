@@ -3,7 +3,7 @@ description: Después de la instalación, el certificado digital emitido por Ado
 title: Volver a validar el certificado digital (información general)
 uuid: 6c8533df-f459-41eb-84ac-344bad9fecdc
 exl-id: 810e3057-26a9-413c-b77c-525035d37756
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 10%
@@ -11,6 +11,8 @@ ht-degree: 10%
 ---
 
 # Volver a validar el certificado digital{#re-validating-the-digital-certificate}
+
+{{eol}}
 
 Después de la instalación, el certificado digital emitido por Adobe actúa como una clave que le permite ejecutar el servidor de informes.
 

@@ -3,7 +3,7 @@ description: El vector del monitor de recursos contiene el Monitor de presupuest
 title: Monitores de recursos de cola de Consulta
 uuid: 6b516bed-7f9a-4821-869e-19e720f20313
 exl-id: 6d445a4d-a415-41ce-9d45-1bdd0e726edd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Monitores de recursos de cola de Consulta{#query-queue-resource-monitors}
+
+{{eol}}
 
 El vector del monitor de recursos contiene el Monitor de presupuesto de memoria y el Monitor de número de consultas.
 
@@ -38,7 +40,7 @@ En la tabla siguiente se describen los campos del monitor de recursos utilizados
   <tr> 
    <td colname="col1"> <p>Umbral bajo </p> </td> 
    <td colname="col2"> <p>double </p> </td> 
-   <td colname="col3"> <p>El umbral bajo para uso de memoria (bytes). Si el valor <span class="wintitle"> Monitor de presupuesto de memoria</span> está por debajo de este valor, se permite programar nuevos paquetes y aumentar los paquetes programados. Por ejemplo, los paquetes aumentan cuando un usuario agrega una visualización a un espacio de trabajo. </p> </td> 
+   <td colname="col3"> <p>El umbral bajo para uso de memoria (bytes). If <span class="wintitle"> Monitor de presupuesto de memoria</span> está por debajo de este valor, se permite programar nuevos paquetes y ampliar los paquetes programados. Por ejemplo, los paquetes aumentan cuando un usuario agrega una visualización a un espacio de trabajo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tiempo de reacción </p> </td> 
@@ -58,7 +60,7 @@ En la tabla siguiente se describen los campos del monitor de recursos utilizados
   <tr> 
    <td colname="col1"> <p>Umbral bajo </p> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p>El umbral bajo para uso de memoria (bytes). Si el valor <span class="wintitle"> Monitor de presupuesto de memoria</span> está por debajo de este valor, se pueden programar nuevos paquetes y los paquetes programados pueden crecer. </p> </td> 
+   <td colname="col3"> <p>El umbral bajo para uso de memoria (bytes). If <span class="wintitle"> Monitor de presupuesto de memoria</span> está por debajo de este valor, se pueden programar nuevos paquetes y los paquetes programados pueden crecer. </p> </td> 
   </tr> 
  </tbody> 
 </table>

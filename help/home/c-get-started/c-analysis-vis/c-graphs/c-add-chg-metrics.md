@@ -3,7 +3,7 @@ description: Pasos para agregar una nueva métrica o para cambiarla.
 title: Añadir y cambiar una métrica
 uuid: c0763e0e-081a-4f00-b655-359f5b790ead
 exl-id: b40ad2bc-410d-4c80-b9f3-bc7e7cc42407
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 7%
@@ -11,6 +11,8 @@ ht-degree: 7%
 ---
 
 # Añadir y cambiar una métrica{#add-and-change-a-metrics}
+
+{{eol}}
 
 Pasos para agregar una nueva métrica o para cambiarla.
 
@@ -24,4 +26,4 @@ Los siguientes ejemplos muestran la métrica Sesiones representada en la dimensi
 
 **Para cambiar una métrica**
 
-* Haga clic con el botón derecho en un elemento o en la etiqueta de la métrica que desea cambiar y haga clic en **[!UICONTROL Change Metric]** > *&lt;**[!UICONTROL metric name]**>*. La nueva métrica sustituye a la métrica original.
+* Haga clic con el botón derecho en un elemento o en la etiqueta de la métrica que desee cambiar y haga clic en **[!UICONTROL Change Metric]** > *&lt;**[!UICONTROL metric name]**>*. La nueva métrica sustituye a la métrica original.

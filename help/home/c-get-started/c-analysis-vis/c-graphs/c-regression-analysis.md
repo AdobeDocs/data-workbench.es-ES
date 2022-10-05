@@ -3,7 +3,7 @@ description: El gráfico de barras en la Data Workbench ahora incluye una compar
 title: Gráfico de análisis de regresión
 uuid: 8512890e-f42b-4dce-826a-2b4bf2a215f4
 exl-id: bfc76c4a-edd5-41fe-b875-c199ea3beab5
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
@@ -12,9 +12,11 @@ ht-degree: 2%
 
 # Gráfico de análisis de regresión{#regression-analysis-graph}
 
+{{eol}}
+
 El gráfico de barras en la Data Workbench ahora incluye una comparación de regresión para varias métricas en varios gráficos.
 
-[Las ](https://experienceleague.adobe.com/docs/data-workbench/using/client/analysis-visualizations/graphs/c-graphs.html) gráficas de barras en la Data Workbench permiten retroceder las métricas de un gráfico a las métricas de otro gráfico. Si tiene varios gráficos, puede comparar una métrica (como variable independiente) con un gráfico que evalúe otras métricas (como variables dependientes). Esto permite determinar la solidez de la relación entre una variable dependiente (la métrica establecida primero) y una serie de otras métricas cambiantes (regresiones con la métrica dependiente establecida).
+[Gráficos de barras](https://experienceleague.adobe.com/docs/data-workbench/using/client/analysis-visualizations/graphs/c-graphs.html) en Data Workbench permite retroceder métricas en un gráfico a métricas en otro gráfico. Si tiene varios gráficos, puede comparar una métrica (como variable independiente) con un gráfico que evalúe otras métricas (como variables dependientes). Esto permite determinar la solidez de la relación entre una variable dependiente (la métrica establecida primero) y una serie de otras métricas cambiantes (regresiones con la métrica dependiente establecida).
 
 El análisis de regresión en una visualización de gráfico permite a los analistas realizar escenarios de &quot;qué pasaría si&quot;. Por ejemplo, si las visitas aumentan a este nivel, ¿qué impacto tendrá este aumento en los ingresos?
 

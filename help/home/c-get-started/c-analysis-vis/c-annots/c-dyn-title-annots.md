@@ -3,7 +3,7 @@ description: Con Report, puede generar informes de forma dinámica para los elem
 title: Anotaciones de título dinámicas
 uuid: ae01b251-8888-474e-a94e-13badeea0dff
 exl-id: 6644698a-fa8f-468c-b57a-ae5d4365a8bd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 2%
@@ -12,15 +12,17 @@ ht-degree: 2%
 
 # Anotaciones de título dinámicas{#dynamic-title-annotations}
 
+{{eol}}
+
 Con Report, puede generar informes de forma dinámica para los elementos de dimensión que especifique en un archivo de búsqueda o para un número concreto de elementos de dimensión, como para los usuarios con los 10 recuentos de orden más altos.
 
-Con una anotación de título dinámico, puede mostrar un título en un informe dinámico que identifique el nombre del elemento de dimensión que está procesando [!DNL Report] o el nombre del elemento de dimensión que ha seleccionado para ver. Las anotaciones de título dinámico permiten identificar qué datos del elemento está viendo en el informe sin alterar ninguna de las otras visualizaciones ni ordenar accidentalmente una selección por un elemento en particular.
+Con una anotación de título dinámico, puede mostrar un título en un informe dinámico que identifique el nombre del elemento de dimensión que está procesando actualmente [!DNL Report] o el nombre del elemento de dimensión que haya seleccionado para ver. Las anotaciones de título dinámico permiten identificar qué datos del elemento está viendo en el informe sin alterar ninguna de las otras visualizaciones ni ordenar accidentalmente una selección por un elemento en particular.
 
 >[!NOTE]
 >
->Esta funcionalidad solo está disponible si tiene la licencia [!DNL Report]. Para obtener más información sobre [!DNL Report], consulte la *Guía del informe de Data Workbench*.
+>Esta funcionalidad solo está disponible si tiene una licencia [!DNL Report]. Para obtener más información, consulte [!DNL Report], consulte la *Guía de informes de Data Workbench*.
 
-Para obtener más información sobre la generación dinámica de informes, consulte la *Guía de informes de Insight*.
+Para obtener más información sobre la generación dinámica de informes, consulte *Guía de informes de Insight*.
 
 **Configuración de una anotación de título dinámica**
 

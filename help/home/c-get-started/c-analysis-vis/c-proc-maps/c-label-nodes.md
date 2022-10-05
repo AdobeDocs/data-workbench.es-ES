@@ -3,7 +3,7 @@ description: Información sobre cómo mostrar, ocultar y cambiar la etiqueta de 
 title: Etiqueta de un nodo
 uuid: ded00cc8-2958-4aca-9d45-92afc441e9e2
 exl-id: e234aa1b-2f5d-42ec-bad7-2ada0db38702
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
@@ -12,15 +12,17 @@ ht-degree: 4%
 
 # Etiqueta de un nodo{#label-a-node}
 
+{{eol}}
+
 Información sobre cómo mostrar, ocultar y cambiar la etiqueta de un nodo.
 
 **Visualización de la etiqueta de un nodo**
 
-* Haga clic con el botón derecho en el nodo y haga clic en **[!UICONTROL Label]***&lt; **[!UICONTROL node name]***. Se muestra la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo no está etiquetado.
+* Haga clic con el botón derecho en el nodo y haga clic en **[!UICONTROL Label]***&lt; **[!UICONTROL node name]**>*. Se muestra la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo no está etiquetado.
 
 **Ocultar la etiqueta de un nodo**
 
-* Haga clic con el botón derecho en el nodo y haga clic en **[!UICONTROL Unlabel]***&lt; **[!UICONTROL node name]***. Se elimina la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo ya está etiquetado.
+* Haga clic con el botón derecho en el nodo y haga clic en **[!UICONTROL Unlabel]***&lt; **[!UICONTROL node name]**>*. Se elimina la etiqueta del nodo. Esta opción de menú solo está disponible si el nodo ya está etiquetado.
 
 **Cambio de la etiqueta de un nodo**
 

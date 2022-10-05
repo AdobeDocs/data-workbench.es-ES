@@ -3,7 +3,7 @@ description: Pasos para definir dimensiones extendidas.
 title: Definición de dimensiones extendidas
 uuid: 25946998-54ca-4595-a2f9-9c593917643a
 exl-id: e1664548-e2b4-47bb-8bec-155c16873e08
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 9%
@@ -12,20 +12,22 @@ ht-degree: 9%
 
 # Definición de dimensiones extendidas{#defining-extended-dimensions}
 
+{{eol}}
+
 Pasos para definir dimensiones extendidas.
 
-1. Mientras trabaja en el perfil del conjunto de datos, abra [!DNL Profile Manager] y haga clic en **[!UICONTROL Dataset]** para mostrar su contenido.
-1. Abra el archivo [!DNL Transformation.cfg] o el archivo [!DNL Transformation Dataset Include] en el que desea definir la dimensión ampliada.
+1. Mientras trabaja en el perfil del conjunto de datos, abra el [!DNL Profile Manager] y haga clic en **[!UICONTROL Dataset]** para mostrar su contenido.
+1. Abra el [!DNL Transformation.cfg] o [!DNL Transformation Dataset Include] archivo en el que desea definir la dimensión extendida.
 
    * (Recomendado) Para abrir un archivo de inclusión de conjunto de datos, consulte [Archivos de inclusión de conjunto de datos](../../../home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md).
 
       >[!NOTE]
       >
-      >Adobe recomienda definir dimensiones extendidas en uno o varios archivos [!DNL Transformation Dataset Include] nuevos. Para obtener más información, consulte [Creación de nuevos archivos de inclusión de conjunto de datos](../../../home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/t-create-new-dataset-inc-files.md#task-b29f30605c374a6ca747ac843337b06e).
+      >Adobe recomienda definir dimensiones extendidas en una o más nuevas [!DNL Transformation Dataset Include] archivos. Para obtener más información, consulte [Creación de nuevos archivos de inclusión de conjunto de datos](../../../home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/t-create-new-dataset-inc-files.md#task-b29f30605c374a6ca747ac843337b06e).
 
-   * Para abrir el archivo [!DNL Transformation.cfg], consulte [Edición del archivo de configuración de transformación](../../../home/c-dataset-const-proc/c-trans-config-file/t-edit-trans-config-file.md#task-cfef4142c1bf4437a669d1fdc75cabbc).
+   * Para abrir el [!DNL Transformation.cfg] archivo, consulte [Edición del archivo de configuración de transformación](../../../home/c-dataset-const-proc/c-trans-config-file/t-edit-trans-config-file.md#task-cfef4142c1bf4437a669d1fdc75cabbc).
 
-1. Haga clic con el botón derecho en **[!UICONTROL Transformations]** y haga clic en **[!UICONTROL Add new]** > *&lt;**[!UICONTROL Extended dimension type]**>*.
+1. Clic con el botón derecho **[!UICONTROL Transformations]** y haga clic en **[!UICONTROL Add new]** > *&lt;**[!UICONTROL Extended dimension type]**>*.
 1. Introduzca la información adecuada para su dimensión extendida. Para obtener descripciones de los tipos de transformación e información sobre sus parámetros, consulte las secciones siguientes:
 
    * [Dimensiones contables](../../../home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-count-dim.md#concept-f28b633419494e7bbc510012dbfcc6f8)
@@ -35,6 +37,6 @@ Pasos para definir dimensiones extendidas.
    * [Dimensiones denormales](../../../home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-denormal-dim.md#concept-54a2600b8ee748b7acff405daccf3489)
    * [Dimensiones temporales](../../../home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-time-dim.md#concept-1e4eeb8d33964bb2a8d5768d6439df67)
 
-      Para cualquier dimensión ampliada que defina, puede agregar una o más líneas de comentario al parámetro Comentarios para describir aún más la dimensión o agregar notas sobre su uso. Para agregar un comentario, haga clic con el botón derecho en la etiqueta **[!UICONTROL Comments]** y haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Comment Line]**.
+      Para cualquier dimensión ampliada que defina, puede agregar una o más líneas de comentario al parámetro Comentarios para describir aún más la dimensión o agregar notas sobre su uso. Para añadir un comentario, haga clic con el botón derecho en el **[!UICONTROL Comments]** etiqueta y haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Comment Line]**.
 
 1. Una vez definidas las dimensiones ampliadas en el archivo de configuración, guarde el archivo localmente y guárdelo en el perfil del conjunto de datos en el servidor de Data Workbench.

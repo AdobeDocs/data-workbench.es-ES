@@ -1,16 +1,18 @@
 ---
 description: Puede realizar selecciones dentro de mapas de procesos para crear filtros que incluyan o excluyan datos asociados a un nodo en particular.
-title: Realización de una selección desde un mapa de procesos
+title: Realización de una selección desde un mapa del proceso
 uuid: 7fd00090-c9ab-4bb6-8584-7de7b6f4b68c
 exl-id: 8ede395f-906a-49e0-8ff8-b43a326275e5
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
-# Realización de una selección desde un mapa de procesos{#make-a-selection-from-a-process-map}
+# Realización de una selección desde un mapa del proceso{#make-a-selection-from-a-process-map}
+
+{{eol}}
 
 Puede realizar selecciones dentro de mapas de procesos para crear filtros que incluyan o excluyan datos asociados a un nodo en particular.
 
@@ -30,9 +32,9 @@ Al realizar una selección basada en un nodo dentro de un mapa de procesos, se s
 1. Haga clic con el botón derecho en cualquier nodo de un mapa de proceso.
 1. Haga clic en una de las siguientes opciones para realizar una selección basada en el nodo :
 
-   * **[!UICONTROL Select]***  **[!UICONTROL group dimension name +s]***  **[!UICONTROL through node name]**: Filtra los datos para incluir todos los elementos de la dimensión de grupo que pasaron por el nodo filtrando todas las sesiones que no pasaron por el nodo.
+   * **[!UICONTROL Select]*** **[!UICONTROL group dimension name +s]*** **[!UICONTROL through node name]**: Filtra los datos para incluir todos los elementos de la dimensión de grupo que pasaron por el nodo filtrando todas las sesiones que no pasaron por el nodo.
 
-   * **[!UICONTROL Select]***  **[!UICONTROL group dimension name +s]***  **[!UICONTROL NOT through node name]**: Filtra los datos para incluir todos los elementos de la dimensión de grupo que no hayan pasado por el nodo filtrando todas las sesiones que pasaron por el nodo .
+   * **[!UICONTROL Select]*** **[!UICONTROL group dimension name +s]*** **[!UICONTROL NOT through node name]**: Filtra los datos para incluir todos los elementos de la dimensión de grupo que no hayan pasado por el nodo filtrando todas las sesiones que pasaron por el nodo .
 
 ![](assets/vis_2DProcessMap_Selections_Movie.png)
 

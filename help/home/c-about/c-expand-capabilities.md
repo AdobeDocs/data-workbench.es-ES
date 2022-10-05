@@ -3,7 +3,7 @@ description: La Data Workbench permite crear métricas, filtros y dimensiones pa
 title: Expansión de métricas, dimensiones y filtros
 uuid: eaec0731-1916-4063-9fda-3a92ee325024
 exl-id: 5a7719a3-ba2e-4361-87e0-4d0df23196df
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Expansión de métricas, dimensiones y filtros{#expanding-metrics-dimensions-and-filters}
+
+{{eol}}
 
 La Data Workbench permite crear métricas, filtros y dimensiones para expandir la información disponible a través de una aplicación o personalizar fácilmente las definiciones de la aplicación para satisfacer sus necesidades. La naturaleza abierta de las métricas, dimensiones y filtros le permite responder a más preguntas a medida que agrega nuevas métricas y dimensiones.
 

@@ -3,7 +3,7 @@ description: Información sobre los parámetros opcionales del archivo txlogd.co
 title: Parámetros opcionales
 uuid: 8515a571-93ce-49cd-9ded-c9273259d0ee
 exl-id: 5141f215-979c-4eb8-8c2c-94eef5815743
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Parámetros opcionales{#optional-parameters}
+
+{{eol}}
 
 Información sobre los parámetros opcionales del archivo txlogd.conf del sensor.
 
@@ -32,7 +34,7 @@ Información sobre los parámetros opcionales del archivo txlogd.conf del sensor
   </tr> 
   <tr> 
    <td colname="col1"> DebugLogPath </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Habilita el registro de depuración para el módulo web y el transmisor. </p> <p>Utilice este parámetro cuando el <span class="wintitle"> Sensor</span> no funcione correctamente. Una vez establecido este parámetro, debe crear un archivo vacío en la ubicación de ruta especificada y darle derechos de escritura para todos los usuarios. Por ejemplo (dentro de un shell unix en el servidor web): 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Habilita el registro de depuración para el módulo web y el transmisor. </p> <p>Utilice este parámetro cuando la variable <span class="wintitle"> Sensor</span> no funciona correctamente. Una vez establecido este parámetro, debe crear un archivo vacío en la ubicación de ruta especificada y darle derechos de escritura para todos los usuarios. Por ejemplo (dentro de un shell unix en el servidor web): 
      <ul id="ul_7A067014A78048BF9D2F23DC66FF9E24"> 
       <li id="li_11C51EB9B9CC431585ECE9E8648F6122"><span class="filepath"> % cd /var/log</span> </li> 
       <li id="li_C56B2B5D49A543DBB258C5DE099B4AE5"><span class="filepath"> % touch vslog.txt</span> </li> 
@@ -66,11 +68,11 @@ Información sobre los parámetros opcionales del archivo txlogd.conf del sensor
   </tr> 
   <tr> 
    <td colname="col1"> ExpCookieURL </td> 
-   <td colname="col2"> <p>Recurso que, cuando se solicita, genera un nuevo ID de seguimiento y el usuario se coloca en un grupo de experimentos. </p> <p> <p>Nota:  Este recurso no tiene que existir físicamente en el servidor web. </p> </p> <p>Ejemplo: <span class="filepath"> ExpCookieURL /setcookie.htm</span> </p> </td> 
+   <td colname="col2"> <p>Recurso que, cuando se solicita, genera un nuevo ID de seguimiento y el usuario se coloca en un grupo de experimentos. </p> <p> <p>Nota: Este recurso no tiene que existir físicamente en el servidor web. </p> </p> <p>Ejemplo: <span class="filepath"> ExpCookieURL /setcookie.htm</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ExpPartialMatch </td> 
-   <td colname="col2"> <p>Si desea permitir que los experimentos controlados reasignen todo el sitio o un subdirectorio completo del sitio a otra ubicación, establezca este parámetro en "activado". El valor predeterminado es "off". </p> <p>Ejemplo: <span class="filepath"> ExpPartialMatch off</span> </p> <p> <p>Nota:  Tenga mucho cuidado al configurar este parámetro en "on". </p> </p> </td> 
+   <td colname="col2"> <p>Si desea permitir que los experimentos controlados reasignen todo el sitio o un subdirectorio completo del sitio a otra ubicación, establezca este parámetro en "activado". El valor predeterminado es "off". </p> <p>Ejemplo: <span class="filepath"> ExpPartialMatch desactivado</span> </p> <p> <p>Nota: Tenga mucho cuidado al configurar este parámetro en "on". </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LogAllNewUsers </td> 
@@ -78,19 +80,19 @@ Información sobre los parámetros opcionales del archivo txlogd.conf del sensor
   </tr> 
   <tr> 
    <td colname="col1"> MaxPageLoadTime </td> 
-   <td colname="col2"> <p>Cantidad de tiempo en segundos que el transmisor espera para enviar el siguiente lote de paquetes. </p> <p>El valor predeterminado es 15. </p> <p>Ejemplo: <span class="filepath"> MaxPageLoadTime 15</span> </p> <p> <p>Nota:  No cambie este valor de parámetro sin ponerse en contacto primero con los Servicios de consultoría de Adobe. </p> </p> </td> 
+   <td colname="col2"> <p>Cantidad de tiempo en segundos que el transmisor espera para enviar el siguiente lote de paquetes. </p> <p>El valor predeterminado es 15. </p> <p>Ejemplo: <span class="filepath"> MaxPageLoadTime 15</span> </p> <p> <p>Nota: No cambie este valor de parámetro sin ponerse en contacto primero con los Servicios de consultoría de Adobe. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> PrivacyID </td> 
-   <td colname="col2"> <p>Permite desactivar el seguimiento de visitantes, que se puede utilizar para cumplir con las políticas de exclusión. </p> <p>Cuando está habilitado, el <span class="wintitle"> Sensor</span> no registra un "paquete" para ningún visitante cuya cookie V1st esté configurada con el ID de privacidad especificado. Debido a que no se registra información para esos visitantes, no se envía ninguna información sobre esos visitantes al <span class="keyword"> servidor de Data Workbench</span> para su procesamiento. </p> <p>Para habilitar esta función, debe completar los siguientes pasos: 
+   <td colname="col2"> <p>Permite desactivar el seguimiento de visitantes, que se puede utilizar para cumplir con las políticas de exclusión. </p> <p>Cuando está habilitado, <span class="wintitle"> Sensor</span> no registra un "paquete" para ningún visitante cuya cookie V1st esté configurada con el ID de privacidad especificado. Debido a que no se registra ninguna información para esos visitantes, no se envía ninguna información sobre esos visitantes a la <span class="keyword"> servidor de data workbench</span> para procesamiento. </p> <p>Para habilitar esta función, debe completar los siguientes pasos: 
      <ol id="ol_5D658C5E4AB14F419029E0FFC52F1310"> 
-      <li id="li_BF056439F92148169BF592731264C3CD"> PrivacyID debe definirse con un valor de 0 (cero) en el archivo <span class="filepath"> txlogd.conf</span> para el <span class="wintitle"> Sensor</span>. <p>Ejemplo: <span class="filepath"> PrivacyID 0</span> </p> </li> 
-      <li id="li_3E20F068C2F94512A92F284C80273B1C">Los propietarios de sitios web deben escribir código para establecer las cookies de visitante (V1st) de manera que el valor de ID de cookie coincida con el valor de PrivacyID definido "<span class="filepath"> txlogd.conf</span>". </li> 
+      <li id="li_BF056439F92148169BF592731264C3CD"> PrivacyID debe definirse con un valor de 0 (cero) en la variable <span class="filepath"> txlogd.conf</span> para <span class="wintitle"> Sensor</span>. <p>Ejemplo: <span class="filepath"> PrivacyID 0</span> </p> </li> 
+      <li id="li_3E20F068C2F94512A92F284C80273B1C">Los propietarios de sitios web deben escribir código para establecer las cookies de visitante (V1st) de modo que el valor de ID de cookie coincida con el valor de PrivacyID definido "<span class="filepath"> txlogd.conf</span>." </li> 
      </ol> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> SiteTest </td> 
-   <td colname="col2"> <p>Ubicación a la que el transmisor (txlogd) envía periódicamente solicitudes para ver si el sitio web funciona correctamente. </p> <p>Tenga en cuenta que la ubicación se especifica en el siguiente formato, no como URL: </p> <p>http,<i>serverAddress,port/resource</i> </p> <p>donde <i>serverAddress</i> es un nombre de servidor o una dirección IP, <i>port</i> es el puerto de escucha HTTP del servidor y <i>resource</i> es el recurso específico que se va a solicitar (puede incluir una cadena de consulta). </p> <p>Puede especificar varias líneas de SiteTest. </p> <p>Ejemplo: <span class="filepath"> SiteTest http,localhost,80,/test.html</span> </p> <p> <p>Nota:  Solo se admite http en este momento. </p> </p> </td> 
+   <td colname="col2"> <p>Ubicación a la que el transmisor (txlogd) envía periódicamente solicitudes para ver si el sitio web funciona correctamente. </p> <p>Tenga en cuenta que la ubicación se especifica en el siguiente formato, no como URL: </p> <p>http,<i>serverAddress,port/resource</i> </p> <p>donde <i>serverAddress</i> es el nombre del servidor o la dirección IP, <i>puerto</i> es el puerto de escucha HTTP del servidor y <i>recurso</i> es el recurso específico que se va a solicitar (puede incluir una cadena de consulta). </p> <p>Puede especificar varias líneas de SiteTest. </p> <p>Ejemplo: <span class="filepath"> SiteTest http,localhost,80,/test.html</span> </p> <p> <p>Nota: Solo se admite http en este momento. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> TrackingCookie </td> 
@@ -113,15 +115,15 @@ Información sobre los parámetros opcionales del archivo txlogd.conf del sensor
  <tbody> 
   <tr> 
    <td colname="col1"> IISCaptureBytesSent </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al sensor <span class="wintitle"> de IIS</span> cuál de los dos posibles "ganchos" de registro debe utilizarse para registrar un paquete </p> <p>Utilice este parámetro cuando el sensor <span class="wintitle"> de IIS</span> no esté registrando los paquetes correctamente. Este parámetro se establecería en "off" si el enlace de registro predeterminado no funcionaba correctamente. El valor predeterminado es "activado". </p> <p>Ejemplo: <span class="filepath"> IISCaptureBytesSent en</span> </p> </td> 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al IIS <span class="wintitle"> Sensor</span> cuál de dos posibles "hooks" de registro debe utilizarse para registrar un paquete </p> <p>Utilice este parámetro cuando IIS <span class="wintitle"> Sensor</span> no está registrando paquetes correctamente. Este parámetro se establecería en "off" si el enlace de registro predeterminado no funcionaba correctamente. El valor predeterminado es "activado". </p> <p>Ejemplo: <span class="filepath"> IISCaptureBytesSent en</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> IISUseAlternateHandler </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> cuál de los dos posibles "ganchos" debe utilizarse para configurar la cookie v1st. </p> <p>Utilice este parámetro cuando el sensor <span class="wintitle"> de IIS</span> no esté configurando correctamente la cookie v1st. Este parámetro se establecería en "sí" si el vínculo predeterminado no configuraba correctamente la cookie v1st. El valor predeterminado es "no". </p> <p>Ejemplo: <span class="filepath"> IISUseAlternateHandler no</span> </p> </td> 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> cuál de los dos posibles "ganchos" debe utilizarse para configurar la cookie v1st. </p> <p>Este parámetro se usa cuando IIS <span class="wintitle"> Sensor</span> no está configurando la cookie v1st correctamente. Este parámetro se establecería en "sí" si el vínculo predeterminado no configuraba correctamente la cookie v1st. El valor predeterminado es "no". </p> <p>Ejemplo: <span class="filepath"> IISUseAlternateHandler no</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>NewUserCacheControl </p> <p>CacheControl </p> </td> 
-   <td colname="col2"> <p>De forma predeterminada, <span class="wintitle"> Sensor</span> envía encabezados de respuesta de control de caché en cada solicitud. Cuando la función de control de caché está habilitada, <span class="wintitle"> Sensor</span> envía un encabezado Expires con un valor de Thu, 1 de diciembre de 1994 16:00:00 GMT al explorador. </p> <p>Puede modificar las cadenas de respuesta según lo desee editando las dos líneas siguientes en el archivo <span class="filepath"> txlogd.conf</span>: </p> <p> <span class="filepath"> </span> <i>&lt;&gt; NewUserCacheControlstring1</span>&gt;</i><span class="filepath"> </span></p> <p> <span class="filepath"> </span> <i>&lt;&gt; CacheControlstring2</span>&gt;</i><span class="filepath"> </span></p> <p>Ejemplo: </p> <p> <span class="filepath"> NewUserCacheControl no-cache=Set-Cookie</span> </p> <p> <span class="filepath"> CacheControl private,max-age=0,must-revalidate</span> </p> <p>Para desactivar el envío de encabezados de respuesta de control de caché, escriba un guión para cada línea como se muestra a continuación: </p> <p> <span class="filepath"> NewUserCacheControl -</span> </p> <p> <span class="filepath"> CacheControl -</span> </p> </td> 
+   <td colname="col2"> <p>De forma predeterminada, <span class="wintitle"> Sensor</span> envía encabezados de respuesta de control de caché en cada solicitud. Cuando la función de control de caché está habilitada <span class="wintitle"> Sensor</span> envía un encabezado Expires con un valor de Thu, 1 de diciembre de 1994 16:00:00 GMT para el explorador. </p> <p>Puede modificar las cadenas de respuesta según lo desee editando las dos líneas siguientes en la sección <span class="filepath"> txlogd.conf</span> archivo: </p> <p> <span class="filepath"> NewUserCacheControl</span> <i>&lt;<span class="filepath"> string1</span>&gt;</i> </p> <p> <span class="filepath"> CacheControl</span> <i>&lt;<span class="filepath"> string2</span>&gt;</i> </p> <p>Ejemplo: </p> <p> <span class="filepath"> NewUserCacheControl no-cache=Set-Cookie</span> </p> <p> <span class="filepath"> CacheControl private,max-age=0,must-revalidate</span> </p> <p>Para desactivar el envío de encabezados de respuesta de control de caché, escriba un guión para cada línea como se muestra a continuación: </p> <p> <span class="filepath"> NewUserCacheControl -</span> </p> <p> <span class="filepath"> CacheControl -</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,15 +138,15 @@ Información sobre los parámetros opcionales del archivo txlogd.conf del sensor
  <tbody> 
   <tr> 
    <td colname="col1"> ApacheUseAlternateHandler </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> cuál de los dos posibles "ganchos" debe utilizarse para configurar la cookie v1st. </p> <p>Utilice este parámetro cuando el sensor <span class="wintitle"> de Apache</span> no esté configurando correctamente la cookie v1st. Este parámetro se establecería en "sí" si el vínculo predeterminado no configuraba correctamente la cookie v1st. El valor predeterminado es "no". </p> <p>Ejemplo: <span class="filepath"> ApacheUseAlternateHandler no</span> </p> </td> 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> cuál de los dos posibles "ganchos" debe utilizarse para configurar la cookie v1st. </p> <p>Utilice este parámetro cuando Apache <span class="wintitle"> Sensor</span> no está configurando la cookie v1st correctamente. Este parámetro se establecería en "sí" si el vínculo predeterminado no configuraba correctamente la cookie v1st. El valor predeterminado es "no". </p> <p>Ejemplo: <span class="filepath"> ApacheUseAlternateHandler no</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ApacheUseAmbasHandlers </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> que intente configurar la cookie v1st en ambos ganchos. </p> <p>Utilice este parámetro cuando el sensor <span class="wintitle"> de Apache</span> no esté configurando correctamente la cookie v1st. El valor predeterminado es "sí". </p> <p>Si se establece en "sí" y la cookie v1st no se establece correctamente en el primer vínculo, se utiliza el segundo vínculo. Si se establece en "no", establecería el parámetro ApacheUseAlternateHandler para indicar qué vínculo utilizar para establecer la cookie v1st. </p> <p>Ejemplo: <span class="filepath"> ApacheUseAmbasHandlers yes</span> </p> </td> 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> para intentar configurar la cookie v1st en ambos ganchos. </p> <p>Utilice este parámetro cuando Apache <span class="wintitle"> Sensor</span> no está configurando la cookie v1st correctamente. El valor predeterminado es "sí". </p> <p>Si se establece en "sí" y la cookie v1st no se establece correctamente en el primer vínculo, se utiliza el segundo vínculo. Si se establece en "no", establecería el parámetro ApacheUseAlternateHandler para indicar qué vínculo utilizar para establecer la cookie v1st. </p> <p>Ejemplo: <span class="filepath"> ApacheUseAmbasHandlers sí</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>NewUserCacheControl </p> <p>CacheControl </p> </td> 
-   <td colname="col2"> <p>De forma predeterminada, <span class="wintitle"> Sensor</span> envía encabezados de respuesta de control de caché en cada solicitud. Cuando la función de control de caché está habilitada, <span class="wintitle"> Sensor</span> envía un encabezado Expires con un valor de Thu, 1 de diciembre de 1994 16:00:00 GMT al explorador. </p> <p>Puede modificar las cadenas de respuesta según lo desee editando las dos líneas siguientes en el archivo <span class="filepath"> txlogd.conf</span>: </p> <p> <span class="filepath"> </span> <i>&lt;&gt; NewUserCacheControlstring1</span>&gt;</i><span class="filepath"> </span></p> <p> <span class="filepath"> </span> <i>&lt;&gt; CacheControlstring2</span>&gt;</i><span class="filepath"> </span></p> <p>Ejemplo: </p> <p> <span class="filepath"> NewUserCacheControl no-cache=Set-Cookie</span> </p> <p> <span class="filepath"> CacheControl private,max-age=0,must-revalidate</span> </p> <p>Para desactivar el envío de encabezados de respuesta de control de caché, escriba un guión para cada línea como se muestra a continuación: </p> <p> <span class="filepath"> NewUserCacheControl -</span> </p> <p> <span class="filepath"> CacheControl -</span> </p> <p> <p>Nota:  Adobe recomienda que no deshabilite esta función. </p> </p> </td> 
+   <td colname="col2"> <p>De forma predeterminada, <span class="wintitle"> Sensor</span> envía encabezados de respuesta de control de caché en cada solicitud. Cuando la función de control de caché está habilitada <span class="wintitle"> Sensor</span> envía un encabezado Expires con un valor de Thu, 1 de diciembre de 1994 16:00:00 GMT para el explorador. </p> <p>Puede modificar las cadenas de respuesta según lo desee editando las dos líneas siguientes en la sección <span class="filepath"> txlogd.conf</span> archivo: </p> <p> <span class="filepath"> NewUserCacheControl</span> <i>&lt;<span class="filepath"> string1</span>&gt;</i> </p> <p> <span class="filepath"> CacheControl</span> <i>&lt;<span class="filepath"> string2</span>&gt;</i> </p> <p>Ejemplo: </p> <p> <span class="filepath"> NewUserCacheControl no-cache=Set-Cookie</span> </p> <p> <span class="filepath"> CacheControl private,max-age=0,must-revalidate</span> </p> <p>Para desactivar el envío de encabezados de respuesta de control de caché, escriba un guión para cada línea como se muestra a continuación: </p> <p> <span class="filepath"> NewUserCacheControl -</span> </p> <p> <span class="filepath"> CacheControl -</span> </p> <p> <p>Nota: Adobe recomienda que no deshabilite esta función. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,11 +161,11 @@ Información sobre los parámetros opcionales del archivo txlogd.conf del sensor
  <tbody> 
   <tr> 
    <td colname="col1"> ApacheUseAlternateHandler </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> cuál de los dos posibles "ganchos" debe utilizarse para configurar la cookie v1st. </p> <p>Utilice este parámetro cuando el sensor <span class="wintitle"> de Apache</span> no esté configurando correctamente la cookie v1st. Este parámetro se establecería en "sí" si el vínculo predeterminado no configuraba correctamente la cookie v1st. El valor predeterminado es "no". </p> <p>Ejemplo: <span class="filepath"> ApacheUseAlternateHandler no</span> </p> </td> 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> cuál de los dos posibles "ganchos" debe utilizarse para configurar la cookie v1st. </p> <p>Utilice este parámetro cuando Apache <span class="wintitle"> Sensor</span> no está configurando la cookie v1st correctamente. Este parámetro se establecería en "sí" si el vínculo predeterminado no configuraba correctamente la cookie v1st. El valor predeterminado es "no". </p> <p>Ejemplo: <span class="filepath"> ApacheUseAlternateHandler no</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ApacheUseAmbasHandlers </td> 
-   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> que intente configurar la cookie v1st en ambos ganchos. </p> <p>Utilice este parámetro cuando el sensor <span class="wintitle"> de Apache</span> no esté configurando correctamente la cookie v1st. El valor predeterminado es "sí". </p> <p>Si se establece en "sí" y la cookie v1st no se establece correctamente en el primer vínculo, se utiliza el segundo vínculo. Si se establece en "no", establecería el parámetro ApacheUseAlternateHandler para indicar qué vínculo utilizar para establecer la cookie v1st. </p> <p>Ejemplo: <span class="filepath"> ApacheUseAmbasHandlers yes</span> </p> </td> 
+   <td colname="col2"> <p>Establezca este parámetro solo cuando trabaje con los servicios de consultoría de Adobe. </p> <p>Indica al <span class="wintitle"> Sensor</span> para intentar configurar la cookie v1st en ambos ganchos. </p> <p>Utilice este parámetro cuando Apache <span class="wintitle"> Sensor</span> no está configurando la cookie v1st correctamente. El valor predeterminado es "sí". </p> <p>Si se establece en "sí" y la cookie v1st no se establece correctamente en el primer vínculo, se utiliza el segundo vínculo. Si se establece en "no", establecería el parámetro ApacheUseAlternateHandler para indicar qué vínculo utilizar para establecer la cookie v1st. </p> <p>Ejemplo: <span class="filepath"> ApacheUseAmbasHandlers sí</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

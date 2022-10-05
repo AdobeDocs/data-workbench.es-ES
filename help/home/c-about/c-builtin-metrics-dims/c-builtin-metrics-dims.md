@@ -3,7 +3,7 @@ description: Esta sección proporciona información detallada sobre las métrica
 title: Acerca de métricas, dimensiones y filtros integrados
 uuid: 05676254-f6f5-4cb1-a664-da96d5b965db
 exl-id: d581a029-fd59-47c5-b832-64407102ace7
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 8%
@@ -11,6 +11,8 @@ ht-degree: 8%
 ---
 
 # Acerca de métricas, dimensiones y filtros integrados{#about-built-in-metrics-dimensions-and-filters}
+
+{{eol}}
 
 Esta sección proporciona información detallada sobre las métricas, dimensiones y filtros integrados que se proporcionan en Data Workbench.
 

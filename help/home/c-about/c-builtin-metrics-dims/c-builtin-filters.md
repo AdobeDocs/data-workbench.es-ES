@@ -3,7 +3,7 @@ description: Los filtros de perfil limitan el alcance de los datos disponibles e
 title: Filtros de perfil integrados
 uuid: d6854d2c-4643-476e-8a44-f188e18cb115
 exl-id: bb167487-415d-44a8-9a0a-9a76d90ba5c0
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Filtros de perfil integrados{#built-in-profile-filters}
+
+{{eol}}
 
 Los filtros de perfil limitan el alcance de los datos disponibles en un conjunto de datos.
 
@@ -51,4 +53,4 @@ entity = derived_filter:
 
 De forma predeterminada, los espacios de trabajo tienen el filtro Sesión rota aplicado tanto a su selección como a sus puntos de referencia, y se puede alternar haciendo clic con el botón derecho en el espacio de trabajo y haciendo clic en Datos > Filtro de sesión roto.
 
-Se puede hacer referencia al Filtro de sesión interrumpido en expresiones de filtro como Broken_Session_Filter, aunque no esté habilitado para el espacio de trabajo actual. Consulte [expresiones de filtro](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Syntax_for_Identifiers) para obtener más información.
+Se puede hacer referencia al Filtro de sesión interrumpido en expresiones de filtro como Broken_Session_Filter, aunque no esté habilitado para el espacio de trabajo actual. Consulte [filtro de expresiones](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Syntax_for_Identifiers) para obtener más información.

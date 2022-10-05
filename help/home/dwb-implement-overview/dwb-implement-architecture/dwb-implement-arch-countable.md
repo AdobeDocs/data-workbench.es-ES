@@ -3,7 +3,7 @@ description: Explicación de los recuentos en Data Workbench (DWB) para diseñar
 title: Estructuras contables de diseño del esquema
 uuid: 2530980d-1c6b-4a96-b9c1-431fc75678bb
 exl-id: 4f2a2f8a-7b42-42bb-8ba1-2675ffe6b2c2
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Estructuras contables de diseño del esquema{#schema-design-countable-structures}
+
+{{eol}}
 
 Explicación de los recuentos en Data Workbench (DWB) para diseñar e implementar el esquema.
 
@@ -93,4 +95,4 @@ Realice los siguientes pasos para crear la tabla contable en Data Workbench:
 
    Si Contable no es el nivel superior, en el campo principal asigne el nombre de Contable principal. En el ejemplo siguiente, se crea la tabla de contabilización de participación y el elemento principal de esta tabla contable es Cliente. ![](assets/dwb_impl_arch_5.png)
 
-Para obtener información adicional sobre la arquitectura de Data Workbench para el diseño de esquemas, estructuras contables y configuraciones de fuentes de datos sin conexión, consulte [Interfaz de esquema de conjuntos de datos](https://experienceleague.adobe.com/docs/data-workbench/using/client/admin-ui/c-dtst-sch-intrf.html).
+Para obtener información adicional sobre la arquitectura de Data Workbench para el diseño de esquema, las estructuras contables y las configuraciones de fuentes de datos sin conexión, consulte [Interfaz de esquema de conjunto de datos](https://experienceleague.adobe.com/docs/data-workbench/using/client/admin-ui/c-dtst-sch-intrf.html).

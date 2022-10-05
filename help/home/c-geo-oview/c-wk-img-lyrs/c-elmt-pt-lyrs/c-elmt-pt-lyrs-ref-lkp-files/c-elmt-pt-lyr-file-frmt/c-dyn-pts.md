@@ -3,7 +3,7 @@ description: Al crear una capa de punto de elemento utilizando puntos dinámicos
 title: Definición de capas de puntos de elementos mediante puntos dinámicos
 uuid: 5f1b4638-fe45-40be-b963-18dcd5d09afa
 exl-id: ad849fe7-b909-40ef-835f-f1764e008de9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 7%
@@ -12,21 +12,23 @@ ht-degree: 7%
 
 # Definición de capas de puntos de elementos mediante puntos dinámicos{#defining-element-point-layers-using-dynamic-points}
 
+{{eol}}
+
 Al crear una capa de punto de elemento utilizando puntos dinámicos, los datos de latitud y longitud se incrustan en cada elemento de la dimensión.
 
 Para definir una capa de punto de elemento mediante puntos dinámicos, debe crear o tener ya disponible lo siguiente:
 
-* **Una dimensión**, definida en el  [!DNL Transformation.cfg] archivo o un archivo de inclusión de conjunto de datos de transformación, en el que cada elemento contiene la cadena &quot;latitude,longitude&quot; o &quot;latitude,longitude,name&quot;.
+* **Una dimensión**, definido en la variable [!DNL Transformation.cfg] o un archivo de inclusión de conjunto de datos de transformación, en el que cada elemento contiene la cadena &quot;latitude,longitude&quot; o &quot;latitude,longitude,name&quot;.
 
-   Para ver los pasos para crear una dimensión, consulte la *Guía de configuración del conjunto de datos*.
+   Para ver los pasos para crear una dimensión, consulte la *Guía de configuración de conjuntos de datos*.
 
-* **Un** archivo de capa que especifica la dimensión relacionada.
+* **Un archivo de capa** que especifica la dimensión relacionada.
 
-   Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato del archivo de capa de punto de elemento](../../../../../../home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lyr-file-frmt/c-elmt-pt-lyr-file-frmt.md#concept-678a95cb69644105a7af1b86ad5a5981).
+   Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato de archivo de capa de punto de elemento](../../../../../../home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lyr-file-frmt/c-elmt-pt-lyr-file-frmt.md#concept-678a95cb69644105a7af1b86ad5a5981).
 
 >[!NOTE]
 >
->Al utilizar [!DNL Dynamic Points], es esencial asegurarse de que la cardinalidad de la dimensión especificada en el archivo de capa sea razonable. Si cada fila de un conjunto de datos tiene una latitud y longitud diferentes, la dimensión se rellena rápidamente y la mayoría de las filas se incluyen en un elemento Elementos pequeños. Dado que el elemento Elementos pequeños no tiene una latitud y longitud, no aparece en el globo.
+>Al usar [!DNL Dynamic Points], es esencial garantizar que la cardinalidad de la dimensión especificada en el archivo de capa sea razonable. Si cada fila de un conjunto de datos tiene una latitud y longitud diferentes, la dimensión se rellena rápidamente y la mayoría de las filas se incluyen en un elemento Elementos pequeños. Dado que el elemento Elementos pequeños no tiene una latitud y longitud, no aparece en el globo.
 
 ## Formato de archivo de capa de punto de elemento {#section-bbcc2baa2f754dba81eba93339a97cbd}
 
@@ -86,7 +88,7 @@ Layer = ElementPointLayer:
  </tbody> 
 </table>
 
-El archivo [!DNL IP Coordinates.layer] tiene el formato siguiente:
+La variable [!DNL IP Coordinates.layer] tiene el formato siguiente:
 
 ```
 Layer = ElementPointLayer:

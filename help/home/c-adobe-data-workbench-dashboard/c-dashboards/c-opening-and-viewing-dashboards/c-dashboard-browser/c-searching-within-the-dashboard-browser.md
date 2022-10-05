@@ -3,7 +3,7 @@ description: El Explorador de tableros también le permite realizar búsquedas p
 title: Búsqueda dentro del explorador del panel
 uuid: b11b024e-3876-48f2-85e2-a4af047e4985
 exl-id: f6dd923c-f98b-4ca0-a109-88b3988b9c95
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 4%
@@ -12,9 +12,11 @@ ht-degree: 4%
 
 # Búsqueda dentro del explorador del panel{#searching-within-the-dashboard-browser}
 
+{{eol}}
+
 El Explorador de tableros también le permite realizar búsquedas para encontrar los tableros existentes.
 
-Para realizar una búsqueda, utilice el cuadro de búsqueda de la barra de herramientas del Explorador de paneles. Los resultados de búsqueda aparecerán en el Explorador del panel mientras escribe. Puede borrar una búsqueda en cualquier momento eliminando el texto de la búsqueda o haciendo clic en el icono **[!UICONTROL X]** en el cuadro de búsqueda.
+Para realizar una búsqueda, utilice el cuadro de búsqueda de la barra de herramientas del Explorador de paneles. Los resultados de búsqueda aparecerán en el Explorador del panel mientras escribe. Puede borrar una búsqueda en cualquier momento eliminando el texto de la búsqueda o haciendo clic en el botón **[!UICONTROL X]** en el cuadro de búsqueda.
 
 ![](assets/search.png)
 
@@ -22,7 +24,7 @@ También puede ordenar los resultados utilizando las funciones de ordenación en
 
 ![](assets/sorting.png)
 
-Este menú **[!UICONTROL Columns]** también le permite modificar las columnas visibles en la vista de lista del panel. Aquí puede alternar la visibilidad de las columnas seleccionando o anulando la selección de las columnas que desee.
+Esta **[!UICONTROL Columns]** también le permite modificar columnas visibles en la vista de lista del panel. Aquí puede alternar la visibilidad de las columnas seleccionando o anulando la selección de las columnas que desee.
 
 ![](assets/sorting_columns.png)
 

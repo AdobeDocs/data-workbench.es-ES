@@ -3,7 +3,7 @@ description: Puede personalizar los espacios de trabajo existentes añadiendo o 
 title: Creación de un espacio de trabajo
 uuid: 8669b70f-5ddf-4424-9269-0e4860eac498
 exl-id: 9c1fb9e6-6cc8-4894-800b-187b047c41d2
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Creación de un espacio de trabajo{#create-a-workspace}
+
+{{eol}}
 
 Puede personalizar los espacios de trabajo existentes añadiendo o modificando visualizaciones existentes o creando nuevos espacios de trabajo.
 
@@ -26,11 +28,11 @@ Esta sección describe las siguientes tareas:
 
 ## Adición de nuevos espacios de trabajo {#section-4236ae30e2884ea08f0885bf329f0778}
 
-En la ficha [!DNL Worktop] que desee, haga clic con el botón derecho en un área en blanco dentro de la pestaña y haga clic en una de las siguientes opciones:
+En el [!DNL Worktop] , haga clic con el botón derecho en un área en blanco dentro de la pestaña y, a continuación, haga clic en una de las siguientes opciones:
 
 * **[!UICONTROL New]** > **[!UICONTROL Blank Workspace]**. Esta opción muestra un espacio de trabajo en blanco de tamaño estándar.
 
-* **[!UICONTROL New]** >  **[!UICONTROL Report Template]**. Esta opción muestra una plantilla de tamaño estándar que puede usar para crear informes.
+* **[!UICONTROL New]** > **[!UICONTROL Report Template]**. Esta opción muestra una plantilla de tamaño estándar que puede usar para crear informes.
 
 ![](assets/mnu_workspaceManager.png)
 
@@ -48,11 +50,11 @@ Puede copiar y pegar un espacio de trabajo existente en cualquier otro espacio d
 
 **Copiar y pegar un espacio de trabajo existente**
 
-1. En la ficha [!DNL Worktop] que desee, haga clic con el botón derecho en el espacio de trabajo que desee copiar y haga clic en **[!UICONTROL Copy]**.
+1. En el [!DNL Worktop] , haga clic con el botón derecho en el espacio de trabajo que desee copiar y haga clic en **[!UICONTROL Copy]**.
 
    ![](assets/mnu_workspaceManager_Copywksp.png)
 
-1. Vaya a la ficha en la que desea pegar el espacio de trabajo, haga clic con el botón secundario en un área en blanco dentro de la pestaña y, a continuación, haga clic en **[!UICONTROL Paste]**.
+1. Vaya a la ficha en la que desea pegar el espacio de trabajo, haga clic con el botón derecho en un área en blanco de la ficha y, a continuación, haga clic en **[!UICONTROL Paste]**.
 
    El siguiente ejemplo es un espacio de trabajo pegado en una ficha de espacio de trabajo que contiene una versión de servidor:
 
@@ -66,7 +68,7 @@ El siguiente ejemplo es un espacio de trabajo pegado en una ficha de espacio de 
 
 **Cambio del nombre de un espacio de trabajo**
 
-1. En la ficha [!DNL Worktop] que desee, haga clic en la miniatura del espacio de trabajo que desee mostrar.
+1. En el [!DNL Worktop] , haga clic en la miniatura del espacio de trabajo que desea mostrar.
 1. En el espacio de trabajo, haga clic en el texto del título en la barra de título y escriba el nuevo título, como se muestra en el siguiente ejemplo:
 
    ![](assets/wsp_changeTitle.png)

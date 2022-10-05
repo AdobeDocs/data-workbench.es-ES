@@ -3,7 +3,7 @@ description: Información sobre cómo añadir una llamada a un mapa de proceso 2
 title: Añadir una llamada
 uuid: 5302e914-5382-4a35-b4c8-a9ad42859a3e
 exl-id: acb0cdae-80eb-48ee-aeb5-87e7ba557aa8
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 11%
@@ -11,6 +11,8 @@ ht-degree: 11%
 ---
 
 # Añadir una llamada{#add-a-callout}
+
+{{eol}}
 
 Información sobre cómo añadir una llamada a un mapa de proceso 2D.
 

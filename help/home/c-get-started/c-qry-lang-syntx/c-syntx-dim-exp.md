@@ -3,7 +3,7 @@ description: Las expresiones de Dimension nunca se utilizan solas, pero pueden u
 title: Sintaxis para expresiones de dimensión
 uuid: c437cc52-4eb3-4202-a0b4-e23889f9c8a2
 exl-id: 58609e31-8ad8-418b-9a9f-40462d6443f7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 0%
@@ -12,19 +12,21 @@ ht-degree: 0%
 
 # Sintaxis para expresiones de dimensión{#syntax-for-dimension-expressions}
 
+{{eol}}
+
 Las expresiones de Dimension nunca se utilizan solas, pero pueden utilizarse en cualquier lugar en el que se llame a una dimensión en una métrica o expresión de filtro.
 
 1. Las palabras subrayadas deben introducirse literalmente en el texto de la expresión.
 1. El formulario `{TEXT}?` representa texto opcional.
 1. El formulario `{TEXT}*` representa el texto que puede aparecer cero o más veces.
-1. El formulario `{A | B | C |...}` representa texto que consta exactamente de una de las opciones dadas, como A, B o C....
-1. El formulario `[A,B)` representa un rango de números, desde A hasta B, pero no lo incluye.
+1. El formulario `{A | B | C |...}` representa el texto que consta exactamente de una de las opciones dadas, como A, B o C....
+1. El formulario `[A,B)` representa un rango de números, desde A hasta B, pero no incluye B.
 
 <table id="table_2D9AE1E2397843C284E838330370A1EE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Identificador </p> </td> 
-   <td colname="col2"> <p>Un identificador hace referencia a una dimensión con nombre. Para las reglas que rigen los identificadores legales, consulte Sintaxis <a href="../../../home/c-get-started/c-qry-lang-syntx/c-syntx-id.md#concept-735fa36fc49643269b3646aaaa8f2fa8"> para identificadores </a>. </p> <p>Ejemplo: Sessions[ Session_Number = "1" ] es el número de sesiones que tuvieron un número de sesión de "1". Número de sesión es una dimensión con nombre a la que hace referencia el identificador. </p> </td> 
+   <td colname="col2"> <p>Un identificador hace referencia a una dimensión con nombre. Para ver las reglas que rigen los identificadores legales, consulte <a href="../../../home/c-get-started/c-qry-lang-syntx/c-syntx-id.md#concept-735fa36fc49643269b3646aaaa8f2fa8"> Sintaxis para identificadores </a>. </p> <p>Ejemplo: Sessions[ Session_Number = "1" ] es el número de sesiones que tuvieron un número de sesión de "1". Número de sesión es una dimensión con nombre a la que hace referencia el identificador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>(Dimensión) </p> </td> 

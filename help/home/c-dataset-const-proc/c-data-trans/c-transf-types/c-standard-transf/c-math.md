@@ -3,14 +3,16 @@ description: La transformación Math permite el uso de operaciones aritméticas 
 title: Math
 uuid: 9e1a5950-8fb2-48e9-b9a1-82c5165fba10
 exl-id: d8b9cacd-67d1-447c-94dd-7028aa371dfa
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # Matemáticas{#math}
+
+{{eol}}
 
 La transformación Math permite el uso de operaciones aritméticas en campos dentro de las entradas de registro.
 
@@ -45,7 +47,7 @@ Las operaciones pueden incluir enteros decimales y constantes de coma flotante.
    <td colname="col2"> <p>Expresión aritmética que describe el cálculo que se va a realizar. </p> <p> Puede utilizar cualquiera de las operaciones y funciones enumeradas a continuación y puede incorporar nombres de campo en la expresión: </p> <p> Operaciones 
      <ul id="ul_DB5915FADA0A41A3B11F1F48615F40A9">
       <li id="li_CA9EA97243F04760A81313C17EE057B3"> Adición (+) </li>
-      <li id="li_908A272EBA2340098C20F22AA8D9ED26"> Resta (-) </li>
+      <li id="li_908A272EBA2340098C20F22AA8D9ED26"> Sustracción (-) </li>
       <li id="li_C62257FF3AAB436D9148BBEA441621D7"> Multiplicación (*) </li>
       <li id="li_B5A9EAB3E49D4CB9A297172199F23542"> División (/) </li>
       <li id="li_D2D2B51DB2C8412A9B6F9D5F3CC03F8A"> Resto (%) </li>
@@ -63,7 +65,7 @@ Las operaciones pueden incluir enteros decimales y constantes de coma flotante.
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Salida </td> 
+   <td colname="col1"> Output </td> 
    <td colname="col2"> Nombre del campo que contiene el resultado de la operación aritmética. </td> 
    <td colname="col3"></td> 
   </tr> 
@@ -74,4 +76,4 @@ En este ejemplo, que utiliza campos de datos recopilados del tráfico del sitio 
 
 ![](assets/cfg_TransformationType_Math.png)
 
-Para obtener información sobre la condición [!DNL Not Empty], consulte [Condiciones](../../../../../home/c-dataset-const-proc/c-conditions/c-abt-cond.md).
+Para obtener información sobre la variable [!DNL Not Empty] condición, consulte [Condiciones](../../../../../home/c-dataset-const-proc/c-conditions/c-abt-cond.md).

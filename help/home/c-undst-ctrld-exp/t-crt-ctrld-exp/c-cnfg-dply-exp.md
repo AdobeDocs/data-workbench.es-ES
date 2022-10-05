@@ -4,7 +4,7 @@ solution: Analytics
 title: Configuración e implementación del experimento
 uuid: 460d3ea4-a6c8-4ac4-9a3f-eab71f65b096
 exl-id: 957c2ea2-72a5-4bb2-af1d-65187613c26d
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # Configuración e implementación del experimento{#configuring-and-deploying-the-experiment}
+
+{{eol}}
 
 Después de definir el objetivo, la hipótesis y los detalles del experimento, así como de crear el contenido de la prueba, debe configurar el sensor para implementar el experimento controlado.
 

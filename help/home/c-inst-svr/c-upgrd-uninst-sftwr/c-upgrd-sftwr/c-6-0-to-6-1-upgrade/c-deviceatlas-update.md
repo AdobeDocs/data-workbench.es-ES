@@ -3,7 +3,7 @@ description: El archivo JSON de DeviceAtlas ahora se distribuirá en un archivo 
 title: Distribución de DeviceAtlas
 uuid: 1eb76c61-6696-4e6c-a3fd-61c00cc17b0a
 exl-id: e9671810-d32c-4ec4-a1cb-54b71c6f101c,333507bb-3e8b-4da1-8218-b35fcf8d5f80,aa811c7b-ef80-4f23-b395-0cbb7d2677a9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Distribución de DeviceAtlas{#deviceatlas-distribution}
+
+{{eol}}
 
 El archivo JSON de DeviceAtlas ahora se distribuirá en un archivo .bundle (cuyo nombre ha cambiado a .tar.gz) junto con los archivos DeviceAtlas.dll y DeviceAtlas64.dll.
 
@@ -58,7 +60,7 @@ User Agent = string: x-ua
 
 ## Modificación del archivo DeviceAtlas.cfg {#section-10b43705a6c846fd9ec54ea6be249f88}
 
-Este es un ejemplo del argumento [!DNL component] requerido en el archivo DeviceAtlas.cfg .
+Este es un ejemplo de [!DNL component] en el archivo DeviceAtlas.cfg.
 
 ```
 component = DeviceAtlasComponent: 
@@ -78,8 +80,8 @@ La configuración adecuada supone una gran diferencia en el tiempo necesario par
 
 Ejecute las transformaciones dos veces.
 
-1. Busque solo el campo [!DNL mobile id] y, a continuación,
-1. Cree condiciones para ignorar [!DNL mobile id] y luego busque el resto de campos.
+1. Busque solo el [!DNL mobile id] , luego
+1. Cree condiciones para ignorar el [!DNL mobile id] y luego busque el resto de los campos.
 
 **Si se implementa mediante Transformation.cfg**:
 

@@ -3,7 +3,7 @@ description: Una dimensión numérica consta de elementos numéricos ordenados y
 title: Dimensiones numéricas
 uuid: 19fab770-1535-41b2-bad1-811eba5f3575
 exl-id: 69a4dfa6-8402-4c2b-8b04-e6e1a0fd5ccb
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Dimensiones numéricas{#numeric-dimensions}
+
+{{eol}}
 
 Una dimensión numérica consta de elementos numéricos ordenados y tiene una relación &quot;uno a varios&quot; con su dimensión contable principal.
 
@@ -85,14 +87,14 @@ Las dimensiones numéricas se definen mediante los siguientes parámetros:
    <td colname="col1"> Operación </td> 
    <td colname="col2"> <p>Las operaciones disponibles son las siguientes: </p> <p> 
      <ul id="ul_E04733E5E8824A2BAAB90D9356078D99"> 
-      <li id="li_CAEE9167D45540BEAC538345F250B509"> RECUENTO: Se utiliza el número total de valores no vacíos en el campo <span class="wintitle"> Entrada</span> de todas las entradas de registro que cumplen la condición de la dimensión. Si el campo <span class="wintitle"> Entrada</span> es un campo vectorial, se cuenta el número total de valores no vacíos en cada entrada de registro. </li> 
-      <li id="li_64A4D671E78642BD9A9334F8098450B9"> PRIMER NO EN BLANCO: Se utiliza el primer valor de entrada no vacío, independientemente de si procede de la primera entrada de registro. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si el valor no es un número, no se utiliza ningún valor. </li> 
-      <li id="li_C967964729BD4A638FF78D8883CE513F"> PRIMERA FILA: Se utiliza el valor de la primera entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
-      <li id="li_74171B17F480478B8547E1A361B22DA4"> ÚLTIMO NO EN BLANCO: Se utiliza el último valor de entrada que no esté en blanco, independientemente de si procede de la última entrada de registro. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si el valor no es un número, no se utiliza ningún valor. </li> 
-      <li id="li_1253ECF507BD4BBF97CBB2FA12915045"> ÚLTIMA FILA: Se utiliza el valor de la última entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. Si <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
-      <li id="li_20819E3944544F98853D6A02814F47B2"> SUMA: Se utiliza el total de todos los valores numéricos del campo <span class="wintitle"> Input</span> en todas las entradas de registro que cumplen la condición de la dimensión. Si no se encuentran estas entradas de registro o no se encuentran valores numéricos, se utiliza el valor numérico 0. </li> 
-      <li id="li_086C2E57604B4645A9203A984C6F9A04">MIN o MAX: Se utiliza el valor numérico mínimo o máximo que se encuentra en el campo <span class="wintitle"> Input</span> en todas las entradas de registro que cumplen la condición de la dimensión. Si no hay tales entradas de registro o no hay valores numéricos, no se utiliza ningún valor. </li> 
-     </ul> </p> <p> <p>Nota:  Debe especificar una operación para asegurarse de que la dimensión se define como está previsto. </p> </p> </td> 
+      <li id="li_CAEE9167D45540BEAC538345F250B509"> RECUENTO: El número total de valores que no están en blanco en la variable <span class="wintitle"> Entrada</span> en todas las entradas de registro que cumplen la condición de la dimensión se utilizan. Si la variable <span class="wintitle"> Entrada</span> es un campo vectorial; se cuenta el número total de valores no vacíos de cada entrada de registro. </li> 
+      <li id="li_64A4D671E78642BD9A9334F8098450B9"> PRIMER NO EN BLANCO: Se utiliza el primer valor de entrada no vacío, independientemente de si procede de la primera entrada de registro. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si el valor no es un número, no se utiliza ningún valor. </li> 
+      <li id="li_C967964729BD4A638FF78D8883CE513F"> PRIMERA FILA: Se utiliza el valor de la primera entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
+      <li id="li_74171B17F480478B8547E1A361B22DA4"> ÚLTIMO NO EN BLANCO: Se utiliza el último valor de entrada que no esté en blanco, independientemente de si procede de la última entrada de registro. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si el valor no es un número, no se utiliza ningún valor. </li> 
+      <li id="li_1253ECF507BD4BBF97CBB2FA12915045"> ÚLTIMA FILA: Se utiliza el valor de la última entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. If <span class="wintitle"> Entrada</span> es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
+      <li id="li_20819E3944544F98853D6A02814F47B2"> SUMA: El total de todos los valores numéricos de la variable <span class="wintitle"> Entrada</span> en todas las entradas de registro que cumplen la condición de la dimensión se utilizan. Si no se encuentran estas entradas de registro o no se encuentran valores numéricos, se utiliza el valor numérico 0. </li> 
+      <li id="li_086C2E57604B4645A9203A984C6F9A04">MIN o MAX: El valor numérico mínimo o máximo que se encuentra en la variable <span class="wintitle"> Entrada</span> en todas las entradas de registro que cumplen la condición de la dimensión se utilizan. Si no hay tales entradas de registro o no hay valores numéricos, no se utiliza ningún valor. </li> 
+     </ul> </p> <p> <p>Nota: Debe especificar una operación para asegurarse de que la dimensión se define como está previsto. </p> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -110,8 +112,8 @@ Las dimensiones numéricas se definen mediante los siguientes parámetros:
 
 >[!NOTE]
 >
->Si [!DNL Operation] no genera ningún valor o [!DNL Clip Values] es falso y el valor no está entre [!DNL Min] y [!DNL Max], ningún elemento de la dimensión numérica está relacionado con el elemento de la dimensión principal.
+>If [!DNL Operation] no genera ningún valor, o [!DNL Clip Values] es false y el valor no está entre [!DNL Min] y [!DNL Max], ningún elemento de la dimensión numérica está relacionado con el elemento de la dimensión principal.
 
-Este ejemplo ilustra la definición de una dimensión numérica mediante los datos de evento recopilados del tráfico del sitio web. Esta dimensión numérica, denominada &quot;Contador de vista de anuncio&quot;, cuenta la cantidad de veces que el visitante ve un anuncio durante una sesión determinada. Se supone que todos los recursos de publicidad se solicitan al servidor web con ad= como parte de la consulta cs-uri. En el ejemplo, el número de veces (COUNT) que se presenta al visitante con un anuncio es el valor del interés, no el valor real del campo.
+Este ejemplo ilustra la definición de una dimensión numérica mediante los datos de evento recopilados a partir del tráfico del sitio web. Esta dimensión numérica, denominada &quot;Contador de vista de anuncio&quot;, cuenta la cantidad de veces que el visitante ve un anuncio durante una sesión determinada. Se supone que todos los recursos de publicidad se solicitan al servidor web con ad= como parte de la consulta cs-uri. En el ejemplo, el número de veces (COUNT) que se presenta al visitante con un anuncio es el valor del interés, no el valor real del campo.
 
 ![](assets/cfg_Transformation_Dim_Numeric.png)

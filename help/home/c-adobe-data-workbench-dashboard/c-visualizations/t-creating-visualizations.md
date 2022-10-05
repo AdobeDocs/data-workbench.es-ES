@@ -3,7 +3,7 @@ description: Pasos para agregar una visualización al lienzo del tablero.
 title: Creación de visualizaciones
 uuid: d8eb60ac-cc99-4af3-b9c4-946b0a7274ca
 exl-id: 139e24ed-5b22-4d52-8e0a-cef0fe523a49
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 4%
@@ -12,9 +12,11 @@ ht-degree: 4%
 
 # Creación de visualizaciones{#creating-visualizations}
 
+{{eol}}
+
 Pasos para agregar una visualización al lienzo del tablero.
 
-1. Vaya al menú **[!UICONTROL Add Visualization]** en la parte superior de la interfaz del panel. Verá una lista de las visualizaciones disponibles que se pueden crear.
+1. Vaya a la **[!UICONTROL Add Visualization]** en la parte superior de la interfaz del panel. Verá una lista de las visualizaciones disponibles que se pueden crear.
 
    ![](assets/create_visualization1.png)
 

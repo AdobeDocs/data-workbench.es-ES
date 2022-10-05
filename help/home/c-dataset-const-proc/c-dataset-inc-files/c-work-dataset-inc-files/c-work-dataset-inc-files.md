@@ -3,7 +3,7 @@ description: Los archivos de inclusión de conjunto de datos proporcionan una ma
 title: Uso de archivos de inclusión de conjunto de datos
 uuid: 258226c4-22e5-4d9d-9044-8312709e0460
 exl-id: 94044c85-030c-4912-9546-d4a34b4115e0
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Uso de archivos de inclusión de conjunto de datos{#working-with-dataset-include-files}
+
+{{eol}}
 
 Los archivos de inclusión de conjunto de datos proporcionan una manera flexible de configurar el conjunto de datos.
 

@@ -3,7 +3,7 @@ description: Una vez que un explorador solicita el HTML de una página, el explo
 title: Adquisición de solicitudes de objetos incrustados (etiquetas de página)
 uuid: 7fe561d1-aa5a-4ac9-82ba-aa27c7d208dd
 exl-id: 593e49bc-9619-4e85-8ce3-2e9d23d175c9
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 4%
@@ -12,15 +12,17 @@ ht-degree: 4%
 
 # Adquisición de solicitudes de objetos incrustados (etiquetas de página){#acquiring-embedded-object-requests-page-tags}
 
+{{eol}}
+
 Una vez que un explorador solicita el HTML de una página, el explorador solicita los objetos incrustados a los que se hace referencia en el HTML de esa página desde un servidor web para rellenar la página mostrada por el explorador.
 
 Estas solicitudes de objetos incrustados suelen ser solicitudes de archivos de imagen o archivos JavaScript, aunque hay cientos o tal vez miles de tipos de objetos incrustados que se utilizan actualmente en Internet. Muchas de estas solicitudes de objetos incrustados no suelen ser útiles para analizar la actividad comercial de un sitio de Internet ni para generar informes al respecto; por lo tanto, muchas de estas solicitudes no son deseables para la adquisición a menos que tengan un propósito comercial específico, como presentar un anuncio o realizar otra medición de la actividad del sitio.
 
-Por ejemplo, una imagen puede ser un anuncio y es posible que desee saber que el anuncio fue impresionado por un visitante. Puede que se esté utilizando un fragmento de JavaScript para medir que el navegador concreto tiene una determinada característica y pasarla a [!DNL Sensor] para la adquisición. Cada página de un sitio puede tener entre 10 y 100 solicitudes de objetos incrustados. Si un sitio almacena la información de registro para cada una de estas solicitudes, la cantidad de almacenamiento de datos necesario para mantener los datos de registro disponibles para análisis futuros se multiplica por el número de solicitudes de objeto incorporadas para cada página solicitada. Por este motivo, [!DNL Site] permite mantener las solicitudes que son importantes para el análisis y descartar otras antes de incurrir en costos de almacenamiento innecesarios.
+Por ejemplo, una imagen puede ser un anuncio y es posible que desee saber que el anuncio fue impresionado por un visitante. Puede que se esté utilizando un fragmento de JavaScript para medir que el explorador en particular tiene una característica determinada y pasarla de nuevo a una [!DNL Sensor] para adquisición. Cada página de un sitio puede tener entre 10 y 100 solicitudes de objetos incrustados. Si un sitio almacena la información de registro para cada una de estas solicitudes, la cantidad de almacenamiento de datos necesario para mantener los datos de registro disponibles para análisis futuros se multiplica por el número de solicitudes de objeto incorporadas para cada página solicitada. Por este motivo, [!DNL Site] permite mantener las solicitudes que son importantes para el análisis y descartar otras antes de incurrir en costes de almacenamiento innecesarios.
 
-Al utilizar la función de anulación proporcionada en las capacidades de filtrado de tipo de contenido de [!DNL Sensor] (anexando &quot;Log=1&quot; a la cadena de consulta de una URL de solicitud de objeto incrustado), esa solicitud de objeto incrustado en particular y los datos de medición relacionados se pueden adquirir sin requerir que el administrador del sitio almacene todas las solicitudes de ese tipo (por ejemplo, todas `<image>` solicitudes).
+Mediante la función de anulación proporcionada en las capacidades de filtrado de tipo de contenido de [!DNL Sensor] (anexando &quot;Log=1&quot; a la cadena de consulta de una URL de solicitud de objeto incrustado), esa solicitud de objeto incrustado en particular y los datos de medición relacionados se pueden adquirir sin requerir que el administrador del sitio almacene todas las solicitudes de ese tipo (por ejemplo, todas las `<image>` solicitudes).
 
-[!DNL Sensor] recopila los datos de medición en la tabla siguiente para cada solicitud de objeto incrustado realizada del servidor web, suponiendo que no  [!DNL Sensor] esté configurado para filtrarlo o que el filtro se haya anulado. La información recopilada está relacionada con el visitante y la sesión y las sesiones posteriores a través de las entradas del campo de registro x-trackingid o cs(cookie) .
+[!DNL Sensor] recopila los datos de medición en la siguiente tabla para cada solicitud de objeto incrustado realizada del servidor web, suponiendo que [!DNL Sensor] no está configurado para filtrarlo o se ha anulado el filtro. La información recopilada está relacionada con el visitante y la sesión y las sesiones posteriores a través de las entradas del campo de registro x-trackingid o cs(cookie) .
 
 <table id="table_11BE08A798E743EC8E76F738F0CE5884">
  <thead>
@@ -35,14 +37,14 @@ Al utilizar la función de anulación proporcionada en las capacidades de filtra
   <tr>
    <td colname="col1"> x-trackingid </td>
    <td colname="col2"> Identificador de seguimiento (visitante único) </td>
-   <td colname="col3"> Identificador leído desde una cookie colocada en el explorador del usuario por el <span class="wintitle"> Sensor </span> en la solicitud inicial </td>
+   <td colname="col3"> Identificador leído desde una cookie ubicada en el explorador del usuario por <span class="wintitle"> Sensor </span> en la solicitud inicial </td>
    <td colname="col4"> V1st=3C94007B4E01F9C2 </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Fecha </p> <p>Fecha </p> </td>
    <td colname="col2"> Marca de tiempo </td>
    <td colname="col3"> Hora a la que el servidor procesó la solicitud (con una precisión de 100 ns; la precisión depende del entorno del servidor y de NTP) </td>
-   <td colname="col4"> 2002-11-21 17:21:45.123 </td>
+   <td colname="col4"> 2002-11-21 17:21:45 123 </td>
   </tr>
   <tr>
    <td colname="col1"> sc(content-Type) </td>
@@ -72,13 +74,13 @@ Al utilizar la función de anulación proporcionada en las capacidades de filtra
    <td colname="col1"> s-dns </td>
    <td colname="col2"> Nombre de dominio del servidor </td>
    <td colname="col3"> Nombre de dominio del servidor web que procesa la solicitud </td>
-   <td colname="col4"> <span class="filepath"> www.domain.com  </span> </td>
+   <td colname="col4"> <span class="filepath"> www.domain.com </span> </td>
   </tr>
   <tr>
    <td colname="col1"> cs(referrer) </td>
    <td colname="col2"> Dirección URL de referencia </td>
    <td colname="col3"> Contenido del campo de referente HTTP enviado por el cliente </td>
-   <td colname="col4"> <span class="filepath"> https://www.referringsite.com  </span> </td>
+   <td colname="col4"> <span class="filepath"> https://www.referringsite.com </span> </td>
   </tr>
   <tr>
    <td colname="col1"> cs(user-agent) </td>

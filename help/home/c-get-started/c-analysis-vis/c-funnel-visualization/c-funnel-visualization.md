@@ -3,7 +3,7 @@ description: La visualización Embudo permite identificar dónde abandonan los c
 title: Visualización de embudo
 uuid: 7973a7a9-ed17-4d3d-be14-37b3c17fa371
 exl-id: 2fc261fa-7c93-4de1-af32-ae5b9cbcdc0e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -12,11 +12,13 @@ ht-degree: 1%
 
 # Visualización de embudo{#funnel-visualization}
 
+{{eol}}
+
 La visualización Embudo permite identificar dónde abandonan los clientes una campaña de marketing o dónde se desvían de una ruta de conversión definida mientras interactúan con su sitio web o campaña multicanal.
 
 La visualización del canal identifica la conversión de vistas de página a compras y le permite ver dónde se encuentran los clientes fuera del proceso. El aumento de la visibilidad de las decisiones de los clientes en cada paso le permite comprender dónde se disuaden, qué ruta suelen seguir y cuándo abandonan el sitio y hacia dónde van.
 
-Una comprensión adecuada de la navegación de los clientes permite a los arquitectos diseñar y dirigir páginas web en función de las tendencias y permite a los especialistas en marketing interpretar mejor las acciones e interacciones de los clientes en relación con campañas específicas.
+Una comprensión adecuada de la navegación de los clientes permite a los arquitectos diseñar y dirigir páginas web en función de las tendencias de interés, y permite a los especialistas en marketing interpretar mejor las acciones e interacciones de los clientes en relación con campañas específicas.
 
 ## Acerca del canal {#section-bf0ee36bb8ce47ec910ca23629e7c53a}
 
@@ -30,7 +32,7 @@ La visualización Embudo proporciona varios niveles de datos:
 
 * **[!UICONTROL Funnel by Visit]**. Este canal se basa en una interacción &quot;por visita&quot;.
 * **[!UICONTROL Funnel by Visitor]**. Este canal se basa en una interacción &quot;por visitante&quot;. Esta vista muestra los datos en función de la visita organizada por el visitante.
-* Dimensión **Clip** y **Nivel**. Las dimensiones del canal se pueden modificar seleccionando las dimensiones Pulsación, Visita individual, Producto, Visita o Nivel de visitante .
+* La variable **Clip** dimensión y **Nivel** dimensión. Las dimensiones del canal se pueden modificar seleccionando las dimensiones Pulsación, Visita individual, Producto, Visita o Nivel de visitante .
 
 * **Métricas**. Puede cambiar las métricas de canal subyacentes de Visitas utilizadas para generar el canal a cualquier métrica de su perfil. La visualización de canal le permite explorar en profundidad los datos y analizar los patrones de visitantes con varias métricas de línea de base.
 

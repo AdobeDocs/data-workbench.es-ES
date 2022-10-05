@@ -3,7 +3,7 @@ description: Data Workbench proporciona un conjunto de transformaciones que perm
 title: Integración de datos de búsqueda
 uuid: 35fd48f7-c0c4-4a83-919d-c15902f27495
 exl-id: 150d3aae-4431-488f-8f19-b522637ee935
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Integración de datos de búsqueda{#integrating-lookup-data}
+
+{{eol}}
 
 Data Workbench proporciona un conjunto de transformaciones que permiten al servidor de Data Workbench incorporar datos de búsqueda en el conjunto de datos.
 
@@ -31,4 +33,4 @@ Para incorporar datos de búsqueda, primero debe generar un archivo de búsqueda
 
 >[!NOTE]
 >
->Tenga en cuenta que la transformación [!DNL ODBCLookup] solo funciona cuando se define en el archivo [!DNL Transformation.cfg] o en un archivo [!DNL Transformation Dataset Include].
+>Tenga en cuenta que [!DNL ODBCLookup] la transformación solo funciona cuando se define en la variable [!DNL Transformation.cfg] o en un [!DNL Transformation Dataset Include] archivo.

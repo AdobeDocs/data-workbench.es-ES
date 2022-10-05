@@ -3,14 +3,16 @@ description: Las métricas, dimensiones y filtros proporcionan un marco en el cu
 title: Métricas, dimensiones y filtros de Data Workbench
 uuid: 3c0300a0-ae19-4817-aab8-7294e0eabdd9
 exl-id: 687d9695-e70c-49ff-ac11-1537e6309e16
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 87%
 
 ---
 
-# Métricas, dimensiones y filtros de Data Workbench {#data-workbench-metrics-dimensions-and-filters}
+# Métricas, dimensiones y filtros de Data Workbench{#data-workbench-metrics-dimensions-and-filters}
+
+{{eol}}
 
 Las métricas, dimensiones y filtros proporcionan un marco en el cual se realizan cálculos sobre los datos procesados en un conjunto de datos de Data Workbench.
 
@@ -45,10 +47,10 @@ En general, la evaluación de una métrica sobre una dimensión hace que esa mé
 Es importante tener en cuenta que, cuando evalúe una métrica sobre una dimensión, recibirá el mismo resultado numérico para un elemento de dimensión específico independientemente de si evalúa esa métrica para toda la dimensión o define un filtro que corresponda a ese elemento de dimensión específico. En el ejemplo anterior, al buscar la edad media de las personas en Suecia, cualquiera de los siguientes métodos daría resultados idénticos:
 
 * Evalúe la métrica Edad promedio en la dimensión País y luego observe el número del elemento de dimensión Suecia.
-* Evalúe la métrica Edad promedio con un filtro de “personas en Suecia” (expresado como [!DNL Average_Age[Country=&#39;Sweden&#39;]]).
+* Evalúe la métrica Edad promedio con un filtro de &quot;personas en Suecia&quot; (expresado como [!DNL Average_Age[Country='Sweden']]).
 
 Los Filtros son expresiones sintácticas que hacen referencia a una o varias dimensiones y elementos de dimensión. Como se ha visto en el ejemplo anterior, el uso de la expresión [!DNL [dimension=element]] es una forma sencilla de especificar un filtro.
 
-Es igual de fácil aplicar este filtro para definir una nueva métrica mediante una expresión como [!DNL New_Metric=Metric[Filter]]. Este filtro se puede utilizar para definir una nueva métrica basada en un elemento de dimensión específico. Para utilizar el ejemplo anterior, [!DNL Average_Age[Country=&#39;Sweden&#39;]] especifica una métrica para la edad promedio de las personas en Suecia. Si se le diera un nombre a esta métrica, como Swedish_Average_Age, se podría usar en otros cálculos como métrica. Por ejemplo, la evaluación [!DNL Swedish_Average_Age/Average_Age] resultaría en un solo número: la relación entre la edad media de las personas en Suecia y la de las personas en el resto del mundo.
+Es igual de fácil aplicar este filtro para definir una nueva métrica mediante una expresión como [!DNL New_Metric=Metric[Filter]]. Este filtro se puede utilizar para definir una nueva métrica basada en un elemento de dimensión específico. Para utilizar el ejemplo anterior, [!DNL Average_Age[Country='Sweden']]especifica una métrica para la edad promedio de las personas en Suecia. Si se le diera un nombre a esta métrica, como Swedish_Average_Age, se podría usar en otros cálculos como métrica. Por ejemplo, la evaluación [!DNL Swedish_Average_Age/Average_Age] resultaría en un solo número: la relación entre la edad media de las personas en Suecia y la de las personas en el resto del mundo.
 
-Si el conjunto de datos con información sobre todas las personas del mundo también incluye una dimensión Color de ojo, la expresión [!DNL Swedish_Average_Age[Eye_Color=&#39;green&#39;]] resultaría en la edad promedio de los suecos con ojos verdes. También puede obtener el mismo resultado sin usar una definición de métrica intermedia aplicando un filtro diferente: [!DNL Average_Age[Country=&#39;Sweden&#39; AND Eye_Color=&#39;green&#39;]]. En este caso, el operador [!DNL AND] especifica una expresión de filtro utilizando otras dos expresiones de filtro básicas.
+Si el conjunto de datos con información sobre todas las personas del mundo también incluye una dimensión Color de ojo, la expresión [!DNL Swedish_Average_Age[Eye_Color='green']] resultaría en la edad promedio de los suecos con ojos verdes. También puede obtener el mismo resultado sin usar una definición de métrica intermedia aplicando un filtro diferente: [!DNL Average_Age[Country='Sweden' AND Eye_Color='green']]. En este caso, el operador [!DNL AND] especifica una expresión de filtro utilizando otras dos expresiones de filtro básicas.

@@ -3,7 +3,7 @@ description: Las métricas se pueden editar con el Editor de métricas y guardar
 title: Sintaxis de las expresiones de métricas
 uuid: 801e265d-d7e4-4f0f-9698-d0b50dd00995
 exl-id: 27d86fea-6500-4608-aadb-f39058fd3a6e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Sintaxis de las expresiones de métricas{#syntax-for-metric-expressions}
+
+{{eol}}
 
 Las métricas se pueden editar con el Editor de métricas y guardar en el directorio Métricas de un perfil.
 
@@ -21,14 +23,14 @@ Notas:
 1. Las palabras subrayadas deben introducirse literalmente en el texto de la expresión.
 1. El formulario `{TEXT}?` representa texto opcional.
 1. El formulario `{TEXT}*` representa el texto que puede aparecer cero o más veces.
-1. El formulario `{A | B | C |...}` representa texto que consta exactamente de una de las opciones dadas, como A, B o C....
-1. El formulario `[A,B)` representa un rango de números, desde A hasta B, pero no lo incluye.
+1. El formulario `{A | B | C |...}` representa el texto que consta exactamente de una de las opciones dadas, como A, B o C....
+1. El formulario `[A,B)` representa un rango de números, desde A hasta B, pero no incluye B.
 
 <table id="table_A6CA9C9F396448209398AA2A369E63FA"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Identificador </p> </td> 
-   <td colname="col2"> <p>Un identificador hace referencia a una métrica con nombre. Para las reglas que rigen los identificadores legales, consulte Sintaxis <a href="../../../home/c-get-started/c-qry-lang-syntx/c-syntx-id.md#concept-735fa36fc49643269b3646aaaa8f2fa8"> para identificadores </a>. </p> <p>Ejemplo: Ingresos = Total_Price </p> </td> 
+   <td colname="col2"> <p>Un identificador hace referencia a una métrica con nombre. Para ver las reglas que rigen los identificadores legales, consulte <a href="../../../home/c-get-started/c-qry-lang-syntx/c-syntx-id.md#concept-735fa36fc49643269b3646aaaa8f2fa8"> Sintaxis para identificadores </a>. </p> <p>Ejemplo: Ingresos = Total_Price </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>(Métrica) </p> </td> 
@@ -56,7 +58,7 @@ Notas:
   </tr> 
   <tr> 
    <td colname="col1"> <p>confianza(métrica) </p> </td> 
-   <td colname="col2"> <p>Una estimación de la desviación estándar de la métrica. Esto se calcula utilizando una técnica de muestreo conocida como jackfing. </p> <p>Esta métrica consume mucha memoria y no debe utilizarse en tablas grandes. </p> <p>Para utilizar esta sintaxis, debe tener una dimensión de cuchillo (denominada "jackcuchillo") con las propiedades adecuadas. Para obtener más información, póngase en contacto con los servicios de consultoría de Adobe. </p> <p>Ejemplo: trust(Average_Score) </p> <p> <p>Nota:  Los tipos de métricas de confianza, incluidas confianza (métrica) y confianza (métrica, jacknife), son especialmente útiles cuando se utiliza la funcionalidad de experimentación controlada de Adobe. Si una métrica subió del 12 % al 16 % durante un experimento controlado, puede utilizar una llamada de confianza para calcular las probabilidades de que el salto se deba a variaciones aleatorias. Esto puede ayudarle a evitar sacar conclusiones equivocadas de pruebas limitadas y, a la inversa, puede garantizar que un cambio cuestionable sea real. </p> </p> </td> 
+   <td colname="col2"> <p>Una estimación de la desviación estándar de la métrica. Esto se calcula utilizando una técnica de muestreo conocida como jackfing. </p> <p>Esta métrica consume mucha memoria y no debe utilizarse en tablas grandes. </p> <p>Para utilizar esta sintaxis, debe tener una dimensión de cuchillo (denominada "jackcuchillo") con las propiedades adecuadas. Para obtener más información, póngase en contacto con los servicios de consultoría de Adobe. </p> <p>Ejemplo: trust(Average_Score) </p> <p> <p>Nota: Los tipos de métricas de confianza, incluidas confianza (métrica) y confianza (métrica, jacknife), son especialmente útiles cuando se utiliza la funcionalidad de experimentación controlada de Adobe. Si una métrica subió del 12 % al 16 % durante un experimento controlado, puede utilizar una llamada de confianza para calcular las probabilidades de que el salto se deba a variaciones aleatorias. Esto puede ayudarle a evitar sacar conclusiones equivocadas de pruebas limitadas y, a la inversa, puede garantizar que un cambio cuestionable sea real. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>confianza (métrica, jackcuchillo) </p> </td> 

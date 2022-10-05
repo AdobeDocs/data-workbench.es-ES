@@ -3,14 +3,16 @@ description: Una dimensión de tiempo le permite crear un conjunto de dimensione
 title: Dimensiones temporales
 uuid: b633cf4f-0db4-4378-9e59-43b6ad8f772d
 exl-id: f9534b24-3a16-4220-bac2-bc541e121005
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
 # Dimensiones temporales{#time-dimensions}
+
+{{eol}}
 
 Una dimensión de tiempo le permite crear un conjunto de dimensiones de tiempo locales periódicas o absolutas (como día, día de la semana, hora del día, hora de reserva, etc.) en función de cualquier campo de marca de tiempo que especifique para el parámetro Tiempo de entrada (1970 epoch).
 
@@ -57,7 +59,7 @@ Las dimensiones de tiempo se definen mediante los siguientes parámetros:
   </tr> 
   <tr> 
    <td colname="col1"> Tiempo de entrada (1970 epoch) </td> 
-   <td colname="col2"> <p>Nombre del campo de marca de tiempo que se utilizará como entrada. </p> <p> <p>Nota:  Los valores del campo deben representar el número de segundos transcurridos desde el 1 de enero de 1970 a las 00:00:01 horas. Si el tiempo de entrada no es válido (de 1970 a 2037), el proceso de transformación fallará y el servidor de Data Workbench generará un error. </p> </p> </td> 
+   <td colname="col2"> <p>Nombre del campo de marca de tiempo que se utilizará como entrada. </p> <p> <p>Nota: Los valores del campo deben representar el número de segundos desde el 1 de enero de 1970, en 00:00:01. Si el tiempo de entrada no es válido (de 1970 a 2037), el proceso de transformación fallará y el servidor de Data Workbench generará un error. </p> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

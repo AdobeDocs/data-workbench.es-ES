@@ -3,7 +3,7 @@ description: La transformación Formato toma un conjunto de entradas y las da fo
 title: Formato
 uuid: c596902e-21bc-4ce6-9ca4-7ca86dfc0a6c
 exl-id: 842b502e-cd16-45b3-ada8-6f2d899f1d54
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Formato{#format}
+
+{{eol}}
 
 La transformación Formato toma un conjunto de entradas y las da formato para crear una salida que coincida con la estructura dada.
 
@@ -47,11 +49,11 @@ La transformación funciona tanto en cadenas simples como en vectores de cadenas
   </tr> 
   <tr> 
    <td colname="col1"> Entradas </td> 
-   <td colname="col2"> <p>Campos que contienen cadenas simples o vectores de cadenas. En el caso de los vectores de cadena como entradas, la salida también será un vector de cadena resultante de la aplicación del parámetro <span class="wintitle"> Format</span> a cada conjunto de valores de entrada. </p> <p> <p>Nota:  La numeración de las entradas comienza en 0, pero la numeración de los valores de sustitución de formato comienza en %1%. </p> </p> </td> 
+   <td colname="col2"> <p>Campos que contienen cadenas simples o vectores de cadenas. En el caso de los vectores de cadena como entradas, la salida también será un vector de cadena resultante de la aplicación de la variable <span class="wintitle"> Formato</span> a cada conjunto de valores de entrada. </p> <p> <p>Nota: La numeración de las entradas comienza en 0, pero la numeración de los valores de sustitución de formato comienza en %1%. </p> </p> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Salida </td> 
+   <td colname="col1"> Output </td> 
    <td colname="col2"> Nombre del campo creado para contener los resultados de la transformación. Si las entradas son vectores de cadena, la longitud del vector de cadena de salida será la longitud del vector de entrada más largo. Si algunos de los vectores de cadena de entrada tienen una longitud menor, se utilizan cadenas vacías para su posición en la cadena de formato hasta que se alcance la longitud del vector de salida. </td> 
    <td colname="col3"></td> 
   </tr> 

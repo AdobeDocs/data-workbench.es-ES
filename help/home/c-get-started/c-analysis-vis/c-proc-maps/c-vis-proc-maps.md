@@ -1,16 +1,18 @@
 ---
 description: Puede crear otras visualizaciones a partir de un mapa de procesos.
-title: Creación de una visualización a partir de un mapa de procesos
+title: Creación de una visualización a partir de un mapa del proceso
 uuid: b4a86c96-3082-4802-9929-6aafa33fcb8c
 exl-id: 3194a81f-4b25-4fb2-bee4-28c2bd401664
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 18%
 
 ---
 
-# Creación de una visualización a partir de un mapa de procesos{#create-a-visualization-from-a-process-map}
+# Creación de una visualización a partir de un mapa del proceso{#create-a-visualization-from-a-process-map}
+
+{{eol}}
 
 Puede crear otras visualizaciones a partir de un mapa de procesos.
 

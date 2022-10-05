@@ -3,7 +3,7 @@ description: Se debe realizar un backup diario de los datos de evento utilizando
 title: Copia de seguridad de datos de evento
 uuid: 1b9e5dfe-0bf2-4ee9-bf70-1dd320a678d6
 exl-id: 5afeb3a2-a2e7-4155-8fb9-1abc9c22c3c6
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 5%
@@ -11,6 +11,8 @@ ht-degree: 5%
 ---
 
 # Copia de seguridad de datos de evento{#backing-up-event-data}
+
+{{eol}}
 
 Se debe realizar un backup diario de los datos de evento utilizando los sistemas de backup normales de su empresa y los procedimientos de recuperación ante desastres.
 

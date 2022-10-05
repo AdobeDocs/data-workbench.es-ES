@@ -3,7 +3,7 @@ description: Al seleccionar elementos dentro de una visualización, se filtra di
 title: Realización de selecciones en visualizaciones
 uuid: 3900354f-826b-41e8-9bc2-e4856928bad5
 exl-id: bb1dd7e4-a9f8-48b5-a12d-433c601b455b
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 3%
@@ -12,11 +12,13 @@ ht-degree: 3%
 
 # Realización de selecciones en visualizaciones{#make-selections-in-visualizations}
 
+{{eol}}
+
 Al seleccionar elementos dentro de una visualización, se filtra dinámicamente el conjunto de datos.
 
 Cuando realiza una selección en una visualización, todas las demás visualizaciones del espacio de trabajo se actualizan automáticamente para reflejar los datos asociados únicamente con los elementos que haya seleccionado.
 
-El siguiente espacio de trabajo muestra una tabla de película en la que la película *Cocktail* está seleccionada. En el espacio de trabajo, la tabla Puntuación y la leyenda de la métrica filtran automáticamente sus visualizaciones para el elemento seleccionado (es decir, sus visualizaciones reflejan los datos de la película *Cocktail*).
+El siguiente espacio de trabajo muestra una tabla Película en la que la película *Cóctel* está seleccionado. En el espacio de trabajo, la tabla Puntuación y la leyenda de la métrica filtran automáticamente sus visualizaciones para el elemento seleccionado (es decir, sus visualizaciones reflejan los datos de la película *Cóctel*).
 
 ![](assets/wsp_selection_Basic.png)
 

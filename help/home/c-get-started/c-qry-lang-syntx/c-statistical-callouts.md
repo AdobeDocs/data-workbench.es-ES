@@ -3,14 +3,16 @@ description: Las llamadas estadísticas miden las relaciones significativas para
 title: Llamadas estadísticas
 uuid: 04911ac4-bc3f-4813-800b-087d9668a782
 exl-id: d4ed540e-f837-4db9-a81e-b8a30c15f270
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
 # Llamadas estadísticas{#statistical-callouts}
+
+{{eol}}
 
 Las llamadas estadísticas miden las relaciones significativas para identificar oportunidades ocultas y variables de interés para capacidades de minería de datos más avanzadas en agrupación de audiencias y puntuación de respuestas de visitantes.
 
@@ -19,7 +21,7 @@ Las llamadas estadísticas amplían los algoritmos para que se puedan correlacio
 Para agregar llamadas estadísticas:
 
 1. En una tabla, haga clic con el botón derecho en el encabezado de métrica.
-1. Seleccione **[!UICONTROL Statistics]** y, a continuación, seleccione o borre las marcas de verificación para cada configuración necesaria. Todos los elementos de la llamada de visualización están seleccionados como la configuración predeterminada.
+1. Select **[!UICONTROL Statistics]** y, a continuación, seleccione o borre las marcas de verificación para cada configuración necesaria. Todos los elementos de la llamada de visualización están seleccionados como la configuración predeterminada.
 
    ![](assets/statistical_callouts.png)
 
@@ -58,7 +60,7 @@ La llamada puede devolver valores estadísticos incluidos en las columnas del co
    <td colname="col2"><p> Devuelve la suma total de los valores de Métrica. </p></td>
   </tr>
   <tr>
-   <td colname="col1"> Variación </td>
+   <td colname="col1"> Varianza </td>
    <td colname="col2"><p> Medición de la varianza de los valores de la métrica respecto a la media de la métrica para esa dimensión. Es igual al cuadrado de la desviación estándar. </p></td>
   </tr>
  </tbody>

@@ -3,14 +3,16 @@ description: Información conceptual sobre las expresiones de hojas de cálculo 
 title: Expresiones de hojas de cálculo
 uuid: be57d6bd-3e13-4c90-9034-8e0f2b8315aa
 exl-id: 1ff3ec24-0363-4b6c-8c91-31e49ed0f7c4
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '539'
 ht-degree: 2%
 
 ---
 
 # Expresiones de hojas de cálculo{#worksheet-expressions}
+
+{{eol}}
 
 Información conceptual sobre las expresiones de hojas de cálculo y el uso de referencias de celdas.
 
@@ -45,19 +47,19 @@ La siguiente tabla proporciona fórmulas de ejemplo para la hoja de cálculo del
   </tr> 
   <tr> 
    <td colname="col1"> <p>B4 </p> <p>Visitantes referidos desde el referente A que vieron la página Aplicar ahora </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> =Visitantes_referidos[Página="/applynow/default.asp"  </span> </p> <p> Y <span class="filepath"> Referente="Ref A"]</span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> =Visitantes_referidos[Página="/applynow/default.asp" </span> </p> <p> Y <span class="filepath"> Referrer="Ref A"]</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C2 </p> <p>Visitantes que vieron la página Aplicar ahora y la página Asistente para aplicaciones </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> =Visitantes[Página="/applynow/default.asp"  </span> </p> <p> Y <span class="filepath"> Página="/applynow/appwizard.asp"]</span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> =Visitantes[Página="/applynow/default.asp" </span> </p> <p> Y <span class="filepath"> Page="/applynow/appwizard.asp"]</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C3 </p> <p>Visitantes referidos que vieron la página Aplicar ahora y la página Asistente para aplicaciones </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> =Visitantes_referidos[Página="/applynow/default.asp"  </span> </p> <p> Y <span class="filepath"> Página="/applynow/appwizard.asp"]</span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> =Visitantes_referidos[Página="/applynow/default.asp" </span> </p> <p> Y <span class="filepath"> Page="/applynow/appwizard.asp"]</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C4 </p> <p>Visitantes de referencia del referente A que vieron la página Aplicar ahora y la página Asistente para aplicaciones </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> =Visitantes_referidos[Página="/applynow/default.asp"</span> </p> <p> Y <span class="filepath"> Página="/applynow/appwizard.asp"</span> </p> <p> Y <span class="filepath"> Referente="Ref A"]</span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> =Visitantes_referidos[Página="/applynow/default.asp"</span> </p> <p> Y <span class="filepath"> Page="/applynow/appwizard.asp"</span> </p> <p> Y <span class="filepath"> Referrer="Ref A"]</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D2 </p> <p>Porcentaje de visitantes que vieron la página Aplicar ahora y la página Asistente para aplicaciones </p> </td> 
@@ -80,12 +82,12 @@ En el siguiente ejemplo de datos web, se han seleccionado varios días de datos 
 
 ![](assets/client-exp.png)
 
-## Uso de referencias de celda {#section-0004e315c9c94d359b1a8a39794ba555}
+## Uso de referencias de celdas {#section-0004e315c9c94d359b1a8a39794ba555}
 
 Puede sustituir cualquier cadena, ya sea por sí sola o dentro de otra expresión de la hoja de cálculo, por una referencia de celda.
 
-* **Referencia de celda simple:** la celda A2 contiene el texto Visitantes, que se utiliza como encabezado. La celda B2 contiene [!DNL eval(A1)], que se evalúa como [!DNL =Visitors].
+* **Referencia de celda simple:** La celda A2 contiene el texto Visitantes , que se utiliza como encabezado. La celda B2 contiene [!DNL eval(A1)], que evalúa como [!DNL =Visitors].
 
-* **Referencia de celda de filtro:** la celda A5 contiene la fecha de ayer. La celda B5 contiene [!DNL Visitors[ Day=A5 ]], que se evalúa como el número de visitantes de ayer.
+* **Referencia de celda de filtro:** La celda A5 contiene la fecha de ayer. La celda B5 contiene [!DNL Visitors[ Day=A5 ]], que se evalúa como el número de visitantes ayer.
 
-* **Referencia de celda concatenada:** la celda A5 contiene la fecha de hoy y la celda A6 contiene el período de tiempo de una hora de 08:00 a 08:59. La celda B6 contiene [!DNL Visitors[ Hour=A5+&quot;+A6 ]], que se evalúa como el número de visitantes de hoy entre las 8:00 AM y las 9:00 AM.
+* **Referencia de celda concatenada:** La celda A5 contiene la fecha de hoy y la celda A6 contiene el período de tiempo de una hora de 08:00 a 08:59. La celda B6 contiene [!DNL Visitors[ Hour=A5+” ”+A6 ]], que se evalúa como el número de visitantes de hoy entre las 8:00 AM y las 9:00 AM.

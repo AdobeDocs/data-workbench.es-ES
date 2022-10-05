@@ -1,16 +1,18 @@
 ---
 description: Una dimensión "varios a varios" tiene una relación "varios a varios" con su dimensión contable principal.
-title: Dimensión “varios a varios”
+title: Dimensiones “varios a varios”
 uuid: 42c909e8-1228-4210-9406-ffc0d92372fa
 exl-id: 02d1a21c-a5b4-4b58-8089-9b9c68a7b1d1
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
 
 ---
 
-# Dimensión “varios a varios”{#many-to-many-dimensions}
+# Dimensiones “varios a varios”{#many-to-many-dimensions}
+
+{{eol}}
 
 Una dimensión &quot;varios a varios&quot; tiene una relación &quot;varios a varios&quot; con su dimensión contable principal.
 
@@ -49,7 +51,7 @@ Las dimensiones &quot;varios a varios&quot; se definen mediante los siguientes p
   </tr> 
   <tr> 
    <td colname="col1"> Entrada </td> 
-   <td colname="col2"> <p>El valor relacionado con la dimensión principal (Principal). Si este campo es un vector de cadenas, cada elemento del vector tiene su propia relación con el elemento principal. </p> <p> <p>Nota:  Si el valor de entrada de cada entrada de registro de un elemento de la dimensión principal está vacío, ningún elemento de la dimensión "varios a varios" se relacionará con ese elemento de la dimensión principal. </p> </p> </td> 
+   <td colname="col2"> <p>El valor relacionado con la dimensión principal (Principal). Si este campo es un vector de cadenas, cada elemento del vector tiene su propia relación con el elemento principal. </p> <p> <p>Nota: Si el valor de entrada de cada entrada de registro de un elemento de la dimensión principal está vacío, ningún elemento de la dimensión "varios a varios" se relacionará con ese elemento de la dimensión principal. </p> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

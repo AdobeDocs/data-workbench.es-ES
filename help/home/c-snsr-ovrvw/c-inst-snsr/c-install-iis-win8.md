@@ -3,7 +3,7 @@ description: Instale y configure Sensor para Microsoft IIS 7.x u 8.x que se ejec
 title: Microsoft IIS en Windows Server 2008 o posterior
 uuid: 7fd8da68-1553-4395-b13e-b08a6ee1948e
 exl-id: cc909daa-60c0-4188-8e90-035c41bf3105
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Microsoft IIS en Windows Server 2008 o posterior{#microsoft-iis-on-windows-server-or-later}
+
+{{eol}}
 
 Instale y configure Sensor para Microsoft IIS 7.x u 8.x que se ejecute en Microsoft Windows Server 2008 o posterior.
 
@@ -83,20 +85,20 @@ El archivo txlogd.conf contiene los parámetros de configuración para Sensor.
 
 Debe editar el archivo para especificar, entre otras cosas, el tamaño de la cola de disco, la dirección de Insight Server y el ID que se adjuntará a los datos producidos por este sensor. El archivo de configuración contiene los parámetros necesarios y los parámetros opcionales.
 
-* **Los** parámetros requeridos son configuraciones que debe especificar al instalar Sensor. Sin estos ajustes, el sensor no se ejecuta correctamente.
-* **Los** parámetros opcionales son configuraciones que se establecen de forma predeterminada en valores predefinidos (que puede modificar) o que habilitan funciones opcionales.
+* **Parámetros necesarios** son ajustes que debe especificar al instalar Sensor. Sin estos ajustes, el sensor no se ejecuta correctamente.
+* **Parámetros opcionales** son configuraciones que se establecen de forma predeterminada en valores predefinidos (que puede modificar) o habilitar funciones opcionales.
 
 **Para editar el archivo de configuración del sensor**
 
-1. Abra el archivo `<SensorDirectory>/txlogd.conf` en un editor de texto y establezca los parámetros necesarios, así como los parámetros opcionales que desee.
+1. Abra el `<SensorDirectory>/txlogd.conf` en un editor de texto y establezca los parámetros necesarios, así como los parámetros opcionales que desee.
 
-   Para obtener descripciones de los parámetros [!DNL txlogd.conf], consulte [Parámetros de archivo Txlogd.conf del sensor](../../../home/c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md#concept-4bb629f058894b4abc65a31eb02eebed).
+   Para obtener descripciones de [!DNL txlogd.conf] parámetros, consulte [Parámetros del archivo Txlogd.conf del sensor](../../../home/c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md#concept-4bb629f058894b4abc65a31eb02eebed).
 
 1. Guarde y cierre el archivo.
 
 ## Inicie el transmisor y cree la cola de discos {#section-2b8dfd06996d4ab49998eeb99bd9f5f0}
 
-Después de configurar el archivo [!DNL txlogd.conf]puede iniciar el programa del transmisor, registrarlo como un servicio de Windows y crear la cola de discos.
+Después de configurar la variable [!DNL txlogd.conf], puede iniciar el programa transmisor, registrarlo como un servicio de Windows y crear la cola de discos.
 
 1. En el menú Inicio de Windows, seleccione Accesorios > Símbolo del sistema.
 1. En la ventana del símbolo del sistema, vaya al directorio en el que instaló Sensor y ejecute el siguiente comando:
@@ -148,14 +150,14 @@ El transmisor está diseñado para funcionar continuamente. Si reinicia la máqu
 Para IIS, el recolector es un filtro ISAPI que se agrega al servidor web en IIS.
 
 1. Abra el Administrador de IIS mediante **Inicio > Herramientas administrativas > Administrador de Internet Information Services (IIS)**.
-1. Expanda los nodos **Equipo local** y **Sitios**.
+1. Expanda el **Equipo local** y **Sitios** nodos.
 1. Seleccione el sitio web y, en el panel derecho, haga doble clic en **Filtros ISAPI**.
-1. En el panel **Acciones**, haga clic en **Agregar**.
+1. En el **Acciones** panel, haga clic en **Agregar**.
 
-1. En el campo **Filter Name**, introduzca un nombre para mostrar para el filtro. El nombre de filtro sugerido es &quot;Sensor&quot;.
-1. Haga clic en **Browse**, seleccione el archivo qlog.dll (ubicado en el directorio donde instaló Sensor) y haga clic en **OK**.
+1. En el **Nombre del filtro** , introduzca un nombre para mostrar para el filtro. El nombre de filtro sugerido es &quot;Sensor&quot;.
+1. Haga clic en **Examinar**, seleccione el archivo qlog.dll (ubicado en el directorio donde instaló Sensor) y haga clic en **OK**.
 
-1. Haga clic en **OK** para agregar el filtro.
+1. Haga clic en **OK** para añadir el filtro.
 
    Después de agregar el filtro, el recolector funciona inmediatamente y está listo para recopilar datos.
 
@@ -167,9 +169,9 @@ Si la flecha verde no aparece después de que el tráfico fluya al recolector, c
    >
    >Esta secuencia de comandos puede variar en función de la versión de Windows que utilice.
 
-1. En el panel izquierdo de la ventana Visor de eventos, seleccione el registro **Application**.
-1. En el panel derecho, busque eventos con &quot;Adobe&quot; en la columna **Origen**.
-1. Si encuentra un error, haga doble clic en el error para mostrar la ventana **Propiedades del evento**.
+1. En el panel izquierdo de la ventana Visor de eventos , seleccione la opción **Aplicación** log.
+1. En el panel derecho, busque eventos con &quot;Adobe&quot; en la **Fuente** para abrir el Navegador.
+1. Si encuentra un error, haga doble clic en el error para mostrar la variable **Propiedades del evento** ventana.
 
 ## Capturar datos adicionales {#section-98db9625efdc4b60bfd76f7adf4af74d}
 

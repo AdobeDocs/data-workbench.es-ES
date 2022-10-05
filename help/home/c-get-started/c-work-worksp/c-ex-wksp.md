@@ -3,7 +3,7 @@ description: Puede exportar un espacio de trabajo como archivo de imagen .png o 
 title: Exportación de un espacio de trabajo
 uuid: 59ea6e46-d2e9-41f9-9c8f-e3071eb65424
 exl-id: 87416ddf-2ac0-4f95-ae8e-71051061c757
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 1%
@@ -12,14 +12,16 @@ ht-degree: 1%
 
 # Exportación de un espacio de trabajo{#export-a-workspace}
 
+{{eol}}
+
 Puede exportar un espacio de trabajo como archivo de imagen .png o exportar los datos de ciertas ventanas a un archivo de Excel (.xls o .xlsx).
 
 ## Exportación de espacios de trabajo como archivos PNG {#section-f9fbe0f0a1c341e2b063cce106cac35e}
 
 Puede guardar una instantánea de un espacio de trabajo en formato de gráfico de red portátil (`.png` archivos). Las siguientes opciones de color están disponibles al guardar espacios de trabajo como `.png` archivos:
 
-* **El** fondo negro copia el espacio de trabajo como se muestra.
-* **El fondo blanco** copia los elementos del espacio de trabajo en color y los muestra en un fondo blanco.
+* **Fondo negro** copia el espacio de trabajo como se muestra.
+* **Fondo blanco** copia los elementos del espacio de trabajo en color y los muestra en un fondo blanco.
 * **Fondo blanco (B&amp;W)** copia los elementos del espacio de trabajo en escala de grises y los muestra en un fondo blanco.
 
 **Exportación de un espacio de trabajo como archivo .png**
@@ -50,33 +52,33 @@ Si se cumplen estos requisitos, la Data Workbench inicia automáticamente Micros
 
 ## Aplicar títulos personalizados {#section-a332e157554546cb8e88922a8d7a4fa2}
 
-A menos que haya especificado un título Personalizado para la ventana del menú [!UICONTROL Export], el [!UICONTROL Export title] enumerado (por ejemplo, Tabla de ciudad) se usa como nombre de hoja de cálculo.
+A menos que haya especificado un título personalizado para la ventana de la [!UICONTROL Export] , el [!UICONTROL Export title] La lista (por ejemplo, Tabla de ciudad) se utiliza como nombre de hoja de cálculo.
 
-1. Haga clic con el botón derecho en el borde superior de la ventana y haga clic en el campo **[!UICONTROL Custom title]** .
+1. Haga clic con el botón derecho en el borde superior de la ventana y, a continuación, haga clic en **[!UICONTROL Custom title]** campo .
 1. Escriba el título que desea aplicar a la ventana.
 
    ![](assets/mnu_window_TitleBar_Export.png)
 
 >[!NOTE]
 >
->Si introduce un guión (-) en el campo [!UICONTROL Custom title], esta visualización no se exporta con el espacio de trabajo.
+>Si introduce un guión (-) en la variable [!UICONTROL Custom title] , esta visualización no se exporta con el espacio de trabajo.
 
-Al exportar el espacio de trabajo a Excel, la hoja de cálculo que contiene los datos de esta ventana recibe un nombre usando el título especificado en lugar del título en el campo [!UICONTROL Export title].
+Cuando exporta el espacio de trabajo a Excel, la hoja de cálculo que contiene los datos de esta ventana recibe un nombre usando el título especificado en lugar del título en la variable [!UICONTROL Export title] campo .
 
 ## Exportación de un espacio de trabajo o una barra lateral a Excel {#section-360438b66d5f4734826ab463b4a01a75}
 
-**Para exportar datos de espacio de trabajo a un nuevo  [!DNL .xls] archivo o  [!DNL .xlsx] archivo**
+**Para exportar datos de Workspace a una nueva [!DNL .xls] o [!DNL .xlsx] file**
 
 1. En la barra de título del espacio de trabajo, haga clic en **[!UICONTROL Export]** > **[!UICONTROL Export]**.
 1. Especifique si desea exportar el espacio de trabajo, la barra lateral o ambos.
 
 ## Exportación a un archivo de Excel de plantilla {#section-814772929ca64cf6b92b89d3fdd02302}
 
-Puede exportar datos del espacio de trabajo a un archivo de Excel de plantilla (`.xls` o `.xlsx`). El uso de un archivo de plantilla puede reducir la cantidad de tiempo que se invierte en dar formato a los datos cada vez que se exporta el espacio de trabajo.
+Puede exportar datos en el espacio de trabajo a una plantilla Archivo Excel (`.xls` o `.xlsx`). El uso de un archivo de plantilla puede reducir la cantidad de tiempo que se invierte en dar formato a los datos cada vez que se exporta el espacio de trabajo.
 
 >[!NOTE]
 >
->Este archivo de plantilla debe ser un archivo `.xls` o `.xlsx`, no un archivo `.xlt`.
+>Este archivo de plantilla debe ser `.xls` o `.xlsx` archivo, no un `.xlt` archivo.
 
 Cuando se exportan los datos, las fichas existentes en la plantilla (cada una de las cuales representa una visualización) se rellenan con los datos más recientes del espacio de trabajo, mientras que las ventanas nuevas que no están presentes en la plantilla como hojas de cálculo se ignoran. Las demás hojas con pestañas del archivo de plantilla no cambian.
 
@@ -84,23 +86,23 @@ Además, si tiene una macro definida en la plantilla del archivo de Excel que de
 
 Supongamos que desea utilizar datos de campaña exportados desde una visualización de tabla en un gráfico circular de otra hoja con pestañas en un archivo de Excel y desea actualizar esta información cada semana. Puede utilizar una plantilla para no tener que volver a crear las referencias de la hoja con fichas de la tabla a la hoja con fichas del gráfico circular cada vez que desee actualizar los datos. Los datos de la tabla se actualizan tras la exportación, lo que actualiza automáticamente el gráfico circular.
 
-**Para exportar datos de espacio de trabajo a una plantilla  [!DNL .xls] o  [!DNL .xlsx] archivo**
+**Para exportar datos de Workspace a una plantilla [!DNL .xls] o [!DNL .xlsx] file**
 
 1. Haga clic con el botón derecho en la barra de título del espacio de trabajo y haga clic en **[!UICONTROL Export]** > **[!UICONTROL Export to Excel from Template]**.
 1. Especifique si desea exportar un espacio de trabajo, una barra lateral o ambos.
 
-   Se abre el cuadro de diálogo [!UICONTROL Select a template worksheet].
+   La variable [!UICONTROL Select a template worksheet] se abre.
 
 1. Complete uno de los siguientes pasos según corresponda:
 
-   * Si utiliza un archivo de plantilla `.xls`:
+   * Si está utilizando un `.xls` archivo de plantilla:
 
-      1. Busque y seleccione el archivo de plantilla `.xls` .
+      1. Buscar y seleccionar la plantilla `.xls` archivo.
       1. Haga clic en **[!UICONTROL Open]**.
-   * Si utiliza un archivo de plantilla `.xlsx`:
+   * Si está utilizando un `.xlsx` archivo de plantilla:
 
-      1. Vaya a la ubicación del archivo de plantilla. No se muestra el nombre del archivo `.xlsx`.
-      1. En el campo [!UICONTROL File name], escriba `.xlsx` y haga clic en **[!UICONTROL Open]**. Todos los nombres de archivo `.xlsx` se muestran en la lista de archivos.
+      1. Vaya a la ubicación del archivo de plantilla. La variable `.xlsx` no se muestra el nombre del archivo.
+      1. En el [!UICONTROL File name] campo, tipo `.xlsx` y haga clic en **[!UICONTROL Open]**. Todo `.xlsx` los nombres de archivo se muestran en la lista de archivos.
 
-      1. Seleccione el archivo de plantilla `.xlsx`.
+      1. Seleccione la plantilla `.xlsx` archivo.
       1. Haga clic en **[!UICONTROL Open]**.

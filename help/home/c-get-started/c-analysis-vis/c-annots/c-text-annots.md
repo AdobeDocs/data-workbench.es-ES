@@ -3,7 +3,7 @@ description: Las anotaciones de texto son ventanas en las que se puede introduci
 title: Anotaciones de texto
 uuid: 08dd7f57-ccab-430a-b2a3-469f86b86dd2
 exl-id: 6915b341-d7a0-4e17-a260-223c0cb26422
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -12,11 +12,13 @@ ht-degree: 2%
 
 # Anotaciones de texto{#text-annotations}
 
+{{eol}}
+
 Las anotaciones de texto son ventanas en las que se puede introducir texto arbitrario para añadir información o comentarios descriptivos a un espacio de trabajo.
 
-Las anotaciones de texto se mueven o manipulan dentro de un espacio de trabajo del mismo modo que otros tipos de visualizaciones. También puede dar formato al aspecto del texto, así como nombrar, editar o guardar cualquier anotación de texto que agregue a un espacio de trabajo. Las anotaciones de texto también se pueden exportar a Microsoft Excel y generar y distribuir mediante [!DNL Report].
+Las anotaciones de texto se mueven o manipulan dentro de un espacio de trabajo del mismo modo que otros tipos de visualizaciones. También puede dar formato al aspecto del texto, así como nombrar, editar o guardar cualquier anotación de texto que agregue a un espacio de trabajo. Las anotaciones de texto también se pueden exportar a Microsoft Excel y generar y distribuir por [!DNL Report].
 
-Para obtener más información sobre [!DNL Reports], consulte la *Guía de informes de perspectiva*.
+Para obtener más información, consulte [!DNL Reports], consulte la *Guía de informes de Insight*.
 
 ## Agregar o editar texto {#section-8ecc44e0eeb24c5990050102013c0aed}
 
@@ -26,7 +28,7 @@ Para obtener más información sobre [!DNL Reports], consulte la *Guía de infor
    >
    >Las anotaciones de texto admiten funciones de edición básicas, como cortar (Ctrl+x), copiar (Ctrl+c), pegar (Ctrl+v), deshacer (Ctrl+z), rehacer (Ctrl+Mayús+z), seleccionar sección (clic+arrastrar) y seleccionar todo (Ctrl+a). Consulte [Trabajo con texto en Windows](../../../../home/c-get-started/c-wk-win-wksp/c-work-text-win.md#concept-f1222434bf954767808e94b955945c8d).
 
-## Aplicar formato a los párrafos {#section-27744c1589134aa3918aa8787429c0dc}
+## Aplicar formato a párrafos {#section-27744c1589134aa3918aa8787429c0dc}
 
 1. Dentro del cuerpo del texto, haga clic con el botón derecho en el párrafo al que desee dar formato.
 1. Haga clic **[!UICONTROL Change Paragraph Style]** > *&lt;**[!UICONTROL text style]**>*.
@@ -44,11 +46,11 @@ Para obtener más información sobre [!DNL Reports], consulte la *Guía de infor
 
 Esta opción controla si el texto de la anotación se ajusta alrededor de las visualizaciones del espacio de trabajo y cómo hacerlo.
 
-* Haga clic con el botón derecho dentro del cuerpo del texto, haga clic en **[!UICONTROL Options]** > **[!UICONTROL Word Wrap]** y, a continuación, haga clic en la opción que desee:
+* Haga clic con el botón derecho en el cuerpo del texto y haga clic en **[!UICONTROL Options]** > **[!UICONTROL Word Wrap]** y, a continuación, haga clic en la opción que desee:
 
-   * **Ninguno:** esta opción elimina el ajuste de palabras de esta anotación.
-   * **Ambos lados:** esta opción permite que el texto de la anotación se ajuste a ambos lados de las visualizaciones del espacio de trabajo.
-   * **Mejor cara:** esta opción permite que el texto de la anotación se ajuste solo a un lado de las visualizaciones del espacio de trabajo.
+   * **Ninguno:** Esta opción elimina el ajuste de palabras de esta anotación.
+   * **Ambos lados:** Esta opción permite que el texto de la anotación se ajuste a ambos lados de las visualizaciones en el espacio de trabajo.
+   * **Mejor cara:** Esta opción permite que el texto de la anotación se ajuste solo a un lado de las visualizaciones del espacio de trabajo.
 
 ![](assets/mnu_Text_OptionsWrap.png)
 
@@ -56,9 +58,9 @@ Esta opción controla si el texto de la anotación se ajusta alrededor de las vi
 
 Esta opción controla el número de columnas en las que se muestra el texto en la anotación.
 
-* Haga clic con el botón derecho dentro del cuerpo del texto, haga clic en **[!UICONTROL Options]** > **[!UICONTROL Columns]** y, a continuación, haga clic en la opción que desee:
+* Haga clic con el botón derecho en el cuerpo del texto y haga clic en **[!UICONTROL Options]** > **[!UICONTROL Columns]** y, a continuación, haga clic en la opción que desee:
 
-   * **Automático:** esta opción selecciona el diseño de columna más adecuado para el ancho y la longitud del texto.
+   * **Automático:** Esta opción selecciona el diseño de columna más adecuado para el ancho y la longitud del texto.
    * **1-4:** Estas opciones permiten mostrar el texto en una, dos, tres o cuatro columnas.
 
 ![](assets/mnu_Text_OptionsColumns.png)

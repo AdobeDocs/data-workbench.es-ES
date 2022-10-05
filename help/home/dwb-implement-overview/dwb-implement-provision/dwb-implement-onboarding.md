@@ -3,7 +3,7 @@ description: Siga estos pasos para iniciar el proceso de incorporación para la 
 title: Instrucciones básicas de integración para los servicios administrados de DWB
 uuid: ad44a4eb-00ea-49c7-8401-58976d8fe39e
 exl-id: 49fb6afe-b417-4554-9238-fd6381c00029
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Instrucciones básicas de integración para los servicios administrados de DWB{#basic-onboarding-instructions-for-dwb-managed-services}
+
+{{eol}}
 
 Siga estos pasos para iniciar el proceso de incorporación para la Data Workbench de Adobe (DWB), un componente de Adobe Analytics Premium (AAP).
 
@@ -60,9 +62,9 @@ Recibirá estos archivos de configuración del Servicio de atención al cliente 
 1. Después de recibir y descargar archivos del Servicio de atención al cliente de Adobe, ejecute el Asistente para configuración de DWB para instalar el software de la estación de trabajo en el equipo cliente.
 
 >[!NOTE]
-El Asistente de configuración de DWB lo guiará a través de la instalación de la estación de trabajo cliente de DWB y le ayudará a localizar los archivos Insight.cfg y `<PrimaryUser>`.pem que desea colocar en las carpetas requeridas. El archivo Insight.cfg reside con el archivo Insight.exe en la estación de trabajo cliente instalada. El archivo `<PrimaryUser>`.pem reside en la carpeta Certificados con el archivo trust_ca_cert.pem. Todos los archivos de certificado y configuración deben estar presentes para que DWB funcione.
+El Asistente de configuración de DWB lo guiará a través de la instalación de la estación de trabajo cliente de DWB y ayudará a localizar Insight.cfg y `<PrimaryUser>`archivos .pem para colocarlos en las carpetas requeridas. El archivo Insight.cfg reside con el archivo Insight.exe en la estación de trabajo cliente instalada. La variable `<PrimaryUser>`El archivo .pem reside en la carpeta Certificados con el archivo trust_ca_cert.pem. Todos los archivos de certificado y configuración deben estar presentes para que DWB funcione.
 
-Para obtener más información, consulte el [Asistente para configuración de DWB](https://experienceleague.adobe.com/docs/data-workbench/using/install/workstation-setup/install-setup.html).
+Para obtener más información, consulte la [Asistente de configuración de DWB](https://experienceleague.adobe.com/docs/data-workbench/using/install/workstation-setup/install-setup.html).
 
 ## Conexión a los servidores DWB {#section-8e79c4e07c2a4342a5bb8af6ee7be3c9}
 
@@ -83,4 +85,4 @@ En el espacio de trabajo Configuración de Workstation en la estación de trabaj
 
 ・ Adobe TechOps configurará el clúster de producción principal para que contenga tres meses de datos móviles que se restablecerán y reprocesarán mensualmente. Las actualizaciones de las búsquedas (Geografía, DeviceAtlas, Clasificaciones estándar) también se producirán como parte de la tarea de reprocesamiento. De forma predeterminada, la tarea se ejecuta el primer viernes de cada mes. Si es necesario, el Servicio de atención al cliente puede modificar la programación.
 
-Para obtener más información, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).
+Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).

@@ -3,7 +3,7 @@ description: El explorador de tableros facilita la navegación, la búsqueda y l
 title: Explorador del panel
 uuid: ab4f81dc-c32e-408b-bcfd-3531766c9054
 exl-id: 02ee7120-2d94-4033-afce-9556383d1eba
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Explorador del panel{#dashboard-browser}
+
+{{eol}}
 
 El explorador de tableros facilita la navegación, la búsqueda y la apertura de tableros que usted y otros miembros de su organización han creado y guardado.
 

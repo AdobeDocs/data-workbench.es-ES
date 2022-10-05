@@ -3,7 +3,7 @@ description: Desde la visualización de canal, puede abrir un explorador de ruta
 title: Añadir un explorador de rutas
 uuid: 6b6879bf-81e5-4c6f-a4a6-eecac1ab0a29
 exl-id: d9ecb982-3b9d-497f-9cae-5c4220a5204f
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Añadir un explorador de rutas{#adding-a-path-browser}
+
+{{eol}}
 
 Desde la visualización de canal, puede abrir un explorador de rutas para identificar visitas en el orden previsto de visitantes adicionales detalladas y visitas en el orden previsto de visitantes a través de rutas.
 
@@ -29,6 +31,6 @@ Puede identificar dónde &quot;abandonan&quot; los visitantes (que abandonaron l
    En la visualización del explorador de rutas, la anchura de las líneas que entran y salen de la dimensión seleccionada identifica el volumen de tráfico. Por ejemplo, antes de visitar la página de hombres, algunos visitantes entraron por otras rutas, pero la mayoría entró por la página de inicio. Cuando se fue, la mayoría fue a la página Hombres Surfing.
 
 1. Abra el explorador de rutas para los visitantes de &quot;visita en orden previsto&quot;. Haga clic con el botón derecho en el cono del canal para identificar la ruta de los visitantes que pasaron por el canal o pasaron al siguiente paso.
-1. Haga clic en el botón **Más** en la parte inferior de la visualización del explorador de rutas para abrir una tabla con todas las visitas enumeradas en una vista tabular de las visitas anteriores y actuales.
+1. Haga clic en el **Más** en la parte inferior de la visualización del explorador de rutas para abrir una tabla con todas las visitas enumeradas en una vista tabular de las visitas anteriores y actuales.
 
    ![](assets/path_browser_more.png)

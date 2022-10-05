@@ -3,7 +3,7 @@ description: Información sobre cómo trabajar con condiciones de filtro, inclui
 title: Trabajo con condiciones de filtro
 uuid: a75fcb21-be5c-452a-8632-86cd78db15cb
 exl-id: 15745b0c-2754-4f8b-acfd-a6bd5886ecf8
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 1%
@@ -12,13 +12,15 @@ ht-degree: 1%
 
 # Trabajo con condiciones de filtro{#working-with-filter-conditions}
 
+{{eol}}
+
 Información sobre cómo trabajar con condiciones de filtro, incluida la creación de un nuevo filtro y la adición de una condición a un nuevo filtro.
 
-## Crear un filtro {#section-70ba51ae625e493fa3ca70b93ffba406}
+## Creación de un filtro {#section-70ba51ae625e493fa3ca70b93ffba406}
 
-* Abra un editor de filtros en el espacio de trabajo haciendo clic con el botón derecho en **[!UICONTROL Add Visualization]** > **[!UICONTROL Filter Editor]**.
+* Abra un editor de filtros en el espacio de trabajo haciendo clic con el botón derecho **[!UICONTROL Add Visualization]** > **[!UICONTROL Filter Editor]**.
 
-   -O bien-
+   -o-
 
 * Si ya tiene un editor de filtros abierto y un filtro cargado, haga clic con el botón derecho en el nombre del filtro actual y haga clic en **[!UICONTROL New Blank Filter]**.
 
@@ -48,7 +50,7 @@ Información sobre cómo trabajar con condiciones de filtro, incluida la creaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p>al menos una </p> </td> 
-   <td colname="col2">Define una condición de filtro basada en la existencia de al menos un elemento (cualquiera) de una dimensión que elija. Para editar la condición, haga clic con el botón derecho en la condición y haga clic en <span class="uicontrol"> Cambiar</span> condición a. Haga clic en una de las dimensiones disponibles. </td> 
+   <td colname="col2">Define una condición de filtro basada en la existencia de al menos un elemento (cualquiera) de una dimensión que elija. Para editar la condición, haga clic con el botón derecho en la condición y haga clic en <span class="uicontrol"> Cambiar</span> a. Haga clic en una de las dimensiones disponibles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>fórmula </p> </td> 
@@ -58,19 +60,19 @@ Información sobre cómo trabajar con condiciones de filtro, incluida la creaci�
    <td colname="col1"> <p>valor de métrica </p> </td> 
    <td colname="col2"> <p>Define una condición de filtro basada en un valor de métrica que especifique. </p> <p>Para definir la condición, siga estos pasos: 
      <ul id="ul_B69D31258A36460E94535709239CD165"> 
-      <li id="li_51317A681E654DD7A9D997DF9F2F22BA">Haga clic con el botón derecho <span class="uicontrol"> [elija nivel]</span> &gt; <span class="uicontrol"> Cambiar nivel</span> para seleccionar el nivel y la métrica de una lista de dimensiones en el conjunto de datos. </li> 
-      <li id="li_975E56C335824FDCB988344952DE2E9F">Haga clic con el botón derecho <span class="uicontrol"> [elija la métrica]</span> &gt; <span class="uicontrol"> Cambiar métrica</span> para seleccionar la métrica de una lista de métricas de su conjunto de datos. </li> 
-      <li id="li_D00B3AF3D8DE472C9D0E9EABBBCAAF61">Haga clic con el botón derecho en menos que y haga clic en <span class="uicontrol"> Cambiar comparación</span> para seleccionar una de las condiciones de comparación disponibles (menor que, mayor que, exactamente, al menos o como máximo). </li> 
+      <li id="li_51317A681E654DD7A9D997DF9F2F22BA">Clic con el botón derecho <span class="uicontrol"> [elija el nivel]</span> &gt; <span class="uicontrol"> Cambiar nivel</span> para seleccionar el nivel y la métrica de una lista de dimensiones de su conjunto de datos. </li> 
+      <li id="li_975E56C335824FDCB988344952DE2E9F">Clic con el botón derecho <span class="uicontrol"> [elegir métrica]</span> &gt; <span class="uicontrol"> Cambiar métrica</span> para seleccionar la métrica de una lista de métricas de su conjunto de datos. </li> 
+      <li id="li_D00B3AF3D8DE472C9D0E9EABBBCAAF61">Haga clic con el botón derecho en menor que y, a continuación, haga clic en <span class="uicontrol"> Cambiar comparación</span> para seleccionar una de las condiciones de comparación disponibles (menor que, mayor que, exactamente, al menos o como máximo). </li> 
       <li id="li_3334CE0A0950448590E5442AB243F46B">Escriba el valor que desee para la métrica. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>primer/último </p> </td> 
-   <td colname="col2"> <p>Define un filtro que permite incluir o excluir un nivel con una dimensión específica. Por ejemplo, puede especificar un primer/último filtro para incluir (o excluir): </p> <p>Sesiones cuya última Vista de página tiene una Página de <span class="filepath"> /hme/rts/Our Rates</span>. </p> <p>Para definir una primera/última condición: 
+   <td colname="col2"> <p>Define un filtro que permite incluir o excluir un nivel con una dimensión específica. Por ejemplo, puede especificar un primer/último filtro para incluir (o excluir): </p> <p>Sesiones cuya última vista de página tiene una página de <span class="filepath"> /hme/rts/Our Rates</span>. </p> <p>Para definir una primera/última condición: 
      <ul id="ul_5AD916DA093844B8AC70127B1EB9BFC8"> 
-      <li id="li_AB9FF22ADC8843A79856FED60B9478FA">Elija <span class="uicontrol"> Incluir grupo con</span> o <span class="uicontrol"> Excluir grupo con</span> &gt; <span class="uicontrol"> primero/último</span> como una nueva condición en el Editor de filtros. </li> 
-      <li id="li_92F536FCC2A74DDE97F66C6C45ACC3DC">Haga clic con el botón derecho en <span class="uicontrol"> [elija contenedor]</span> &gt; <span class="uicontrol"> Cambiar contenedor</span> para seleccionar el contenedor. </li> 
-      <li id="li_1E5DBE04ABC74D84B7C0EF6886CDB5DC">Haga clic con el botón derecho en <span class="uicontrol"> first</span> o <span class="uicontrol"> last</span> para especificar el nivel. </li> 
+      <li id="li_AB9FF22ADC8843A79856FED60B9478FA">Choose <span class="uicontrol"> Incluir grupo con</span> o <span class="uicontrol"> Excluir grupo con</span> &gt; <span class="uicontrol"> primer/último</span> como una nueva condición en el Editor de filtros. </li> 
+      <li id="li_92F536FCC2A74DDE97F66C6C45ACC3DC">Clic con el botón derecho <span class="uicontrol"> [elegir contenedor]</span> &gt; <span class="uicontrol"> Cambiar contenedor</span> para seleccionar el contenedor. </li> 
+      <li id="li_1E5DBE04ABC74D84B7C0EF6886CDB5DC">Clic con el botón derecho <span class="uicontrol"> first</span> o <span class="uicontrol"> last</span> para especificar el nivel. </li> 
       <li id="li_8B73EBF5D06E4513B5F0376EB2805D1C">Haga clic con el botón derecho para especificar una dimensión y, a continuación, escriba un valor en el campo disponible. </li> 
       <li id="li_A9E02EF6C6004DDF9B00EB853B6E54EE">Haga clic en <span class="uicontrol">Aplicar</span>. </li> 
      </ul> </p> </td> 
@@ -90,18 +92,18 @@ El filtro de este ejemplo define un primer/último filtro para los usuarios cuya
 
 El filtro de este ejemplo define un subconjunto de datos formado por espectadores de películas (usuarios) que clasificaron muchas películas pero no dieron a ninguna película una puntuación alta (4 o 5). Este filtro (correctamente denominado Muy difícil de Por favor) consiste en dos condiciones:
 
-* **Una condición de valor de métrica:**  la condición incluye a los usuarios que han clasificado al menos 500 películas.
-* **Una condición de selección de espacio de trabajo:** la condición excluye a los usuarios que hayan concedido a una película una puntuación de 4 o 5. La llamada le indica que 4 y 5 eran los elementos seleccionados de la dimensión Puntuación .
+* **Una condición de valor de métrica:** La condición incluye a los usuarios que han clasificado al menos 500 películas.
+* **Una condición de selección de espacio de trabajo:** La condición excluye a los usuarios que hayan dado a una película una puntuación de 4 o 5. La llamada le indica que 4 y 5 eran los elementos seleccionados de la dimensión Puntuación .
 
 ![](assets/vis_FilterEditor_ExampleMovies.png)
 
-## Eliminar una condición de filtro {#section-3092e0d7ac624885b8fe24616279de13}
+## Eliminación de una condición de filtro {#section-3092e0d7ac624885b8fe24616279de13}
 
 >[!NOTE]
 >
 >Las condiciones solo se pueden eliminar cuando se trabaja en el modo Filtro de diseño. Si ha aplicado un filtro al espacio de trabajo, debe hacer clic en Filtro de diseño para volver al modo Filtro de diseño antes de poder eliminar una o más condiciones del filtro.
 
-* Haga clic en **x** a la izquierda de la condición para eliminarla.
+* Haga clic en el **x** a la izquierda de la condición para eliminarla.
 
 ## Editar una descripción de condición {#section-5015fd2c88ed4b6a95be7f0d53be2db0}
 
@@ -113,7 +115,7 @@ Puede agregar descripciones a cada una de las condiciones que agregue a un filtr
 
 * Haga clic con el botón derecho en la condición y haga clic en **[!UICONTROL Edit description]**.
 
-   * Para añadir o editar una descripción, escriba la descripción en el campo [!DNL Edit condition description]. La descripción aparece entre comillas sobre la condición en la ventana del editor de filtros.
+   * Para añadir o editar una descripción, escriba la descripción en la sección [!DNL Edit condition description] campo . La descripción aparece entre comillas sobre la condición en la ventana del editor de filtros.
 
       ![](assets/vis_FilterEditor_ConditionDescription.png)
 

@@ -2,51 +2,55 @@
 description: Configure el archivo insight.zbin para establecer el idioma de la aplicación cliente.
 title: Configuración de idiomas localizados
 uuid: 97baf281-32fd-4df0-81a6-c2c7126b053c
-translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+exl-id: 29624b3a-e26a-48a9-9dcc-21ba829c34d4
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 1%
 
 ---
 
-
 # Configuración de idiomas localizados{#setting-up-localized-languages}
+
+{{eol}}
 
 Configure el archivo insight.zbin para establecer el idioma de la aplicación cliente.
 
-## Actualizar los componentes del servidor del área de trabajo de datos {#section-5d07a081befc4eaa8fdf7fea904e0d48}
+## Actualización de los componentes del servidor de Data Workbench {#section-5d07a081befc4eaa8fdf7fea904e0d48}
 
-El administrador debe completar primero estas tareas para actualizar estos componentes del servidor:
+El administrador debe completar primero estas tareas para actualizar estos componentes de servidor:
 
-1. **Actualización al servidor del área de trabajo de datos 6.x.** Debe actualizar el servidor del área de trabajo de datos para la localización mediante la actualización del [!DNL base\localization\*.zbin] archivo. Este [!DNL insight.zbin] archivo se copiará en el cliente.
+1. **Actualización al servidor de Data Workbench 6.x.** Debe actualizar el servidor de Data Workbench para la localización mediante la actualización de la variable [!DNL base\localization\*.zbin] archivo. Esta [!DNL insight.zbin] a continuación, se copiará al cliente.
 
-   Se incluye un [!DNL insight.zbin] archivo en la carpeta de instalación junto al [!DNL insight.exe] archivo. Si se conecta a un servidor que no le proporciona [!DNL .zbin] archivos específicos de idioma, el área de trabajo de datos procederá a utilizar este archivo.
+   Un [!DNL insight.zbin] se incluye en la carpeta de instalación junto a la [!DNL insight.exe] archivo. Si se conecta a un servidor que no le proporcione un idioma específico [!DNL .zbin] archivos, el área de trabajo de datos procederá a utilizar este archivo.
 
-   El [!DNL insight.zbin] archivo de copia de seguridad se puede proporcionar en cualquier idioma. Como resultado, si utiliza el área de trabajo de datos en chino y se conecta a un servidor que no admite este idioma, el cliente del área de trabajo de datos seguirá estando en chino, incluso si el servidor cambia el perfil base y elimina [!DNL .zbin] los archivos de la [!DNL Base/Localization] carpeta.
+   La copia de seguridad [!DNL insight.zbin] puede proporcionarse en cualquier idioma. Como resultado, si utiliza Data Workbench en chino y se conecta a un servidor que no admite este idioma, el cliente de Data Workbench seguirá en chino, aunque el servidor cambie su perfil base y elimine el [!DNL .zbin] los archivos de [!DNL Base/Localization] carpeta.
 
-1. **Actualice el servidor de informes del área de trabajo de datos.** La carpeta raíz [!DNL insight.zbin] del servidor de informes del área de trabajo de datos estará en inglés de forma predeterminada. Como administrador, se le solicitará que seleccione y copie el [!DNL .zbin] archivo del paquete actualizado del servidor de informes y lo coloque en el directorio raíz del servidor de informes del área de trabajo de datos. Al igual que el cliente, el servidor de informes también requiere los argumentos adecuados para el idioma seleccionado, como [!DNL Insight.exe -zh-cn]
+1. **Actualice el servidor de informes de Data Workbench.** La variable [!DNL insight.zbin] en la carpeta raíz del servidor de informes de data workbench estará en inglés de forma predeterminada. Como administrador, debe seleccionar y copiar el [!DNL .zbin] del paquete de servidor de informes actualizado y colóquelo en el directorio raíz del servidor de informes de Data Workbench. Al igual que el cliente, el servidor de informes también requiere los argumentos adecuados para el idioma seleccionado, como [!DNL Insight.exe -zh-cn]
 
    1. Detenga los servicios del servidor de informes.
-   1. Copie la [!DNL Localization] carpeta del nuevo paquete del servidor de informes.
-   1. Desde la [!DNL Localization] carpeta, copie el [!DNL Insight.zbin] archivo y colóquelo en el directorio raíz del servidor de informes en el que [!DNL Insight.exe] se encuentra.
+   1. Copie el [!DNL Localization] del nuevo paquete del servidor de informes.
+   1. En el [!DNL Localization] carpeta, copie la [!DNL Insight.zbin] y colóquelo en el directorio raíz del servidor de informes donde [!DNL Insight.exe] está localizado.
 
-   1. Agregue los argumentos necesarios, como [!DNL insight.exe -zh-cn]
+   1. Añada los argumentos necesarios, como [!DNL insight.exe -zh-cn]
    1. Reinicie el servidor de informes.
 
-## Actualizar el cliente del área de trabajo de datos {#section-9653d3fcaf2a4337a97b685857e7aeac}
+## Actualizar el cliente de Data Workbench {#section-9653d3fcaf2a4337a97b685857e7aeac}
 
 Después de actualizar el servidor, siga estos pasos para actualizar cada cliente.
 
-1. Para asegurarse de que el cliente no se actualiza desde el servidor durante esta actualización, establezca su [!DNL Insight.cfg] argumento en False.
+1. Para asegurarse de que el cliente no se actualiza desde el servidor durante esta actualización, configure su [!DNL Insight.cfg] como False.
 
    ```
    Update Software = bool: false
    ```
 
 1. Reinicie el cliente.
-1. Vaya al perfil Software y Docs (perfil SoftDocs) y descargue el archivo requerido **[!UICONTROL insight.zbin]** del paquete de cliente: [!DNL Software\Insight Client\Insight_6.1.zip]
+1. Vaya al perfil Software y Docs (perfil SoftDocs) y descargue el **[!UICONTROL insight.zbin]** del paquete cliente: [!DNL Software\Insight Client\Insight_6.1.zip]
 
-1. Mueva el [!DNL insight.zbin] archivo a la carpeta en la que [!DNL insight.exe] se encuentra.
+1. Mover el [!DNL insight.zbin] a la carpeta donde [!DNL insight.exe] está localizado.
 
-1. Para asegurarse de que los archivos cliente se actualizan desde el servidor, cambie el argumento del [!DNL Insight.cfg] archivo a True:
+1. Para asegurarse de que los archivos cliente ahora se actualizan desde el servidor, cambie la variable [!DNL Insight.cfg] argumento de archivo en True:
 
    ```
    Update Software = bool: true
@@ -56,11 +60,11 @@ Después de actualizar el servidor, siga estos pasos para actualizar cada client
 
    >[!NOTE]
    >
-   >Su cliente se sincronizará con el servidor y verá un mensaje que indica que se está actualizando. Al finalizar la descarga, recibirá un mensaje preguntándole si desea reiniciar su cliente.
+   >Su cliente se sincronizará con el servidor y verá un mensaje que indica que se está actualizando. Al final de la descarga, recibirá un mensaje en el que se le preguntará si desea reiniciar el cliente.
 
-1. Haga clic en **Aceptar** para reiniciar el cliente.
+1. Haga clic en **OK** para reiniciar el cliente.
 
-Si recibe el siguiente mensaje, significa que el [!DNL zbin] archivo no se colocó en la misma ubicación que el [!DNL Insight.exe].
+Si recibe el siguiente mensaje, significa que [!DNL zbin] no se colocó en la misma ubicación que el [!DNL Insight.exe].
 
 ```
 Insight Terminated: The backup dictionary file insight.zbin 
@@ -69,12 +73,11 @@ is missing.
 
 **Pantallas de bienvenida localizadas**
 
-El área de trabajo de datos busca los siguientes archivos de pantalla de bienvenida:
+Data Workbench busca los siguientes archivos de pantalla de inicio:
 
 * Inglés (predeterminado): [!DNL Base/Images/<version_product> Splash.png]
-* Chino (cuando comenzó con -zh-cn): [!DNL Base/Images/<version_product> Splash zh-cn.png].
+* Chino (cuando se inicia con -zh-cn): [!DNL Base/Images/<version_product> Splash zh-cn.png].
 
-Si se solicita una pantalla de bienvenida pero falta, el área de trabajo de datos accederá a la pantalla de bienvenida en inglés de forma predeterminada.
+Si se solicita una pantalla de inicio pero falta, Data Workbench accederá a la pantalla de inicio en inglés de forma predeterminada.
 
 <!-- <a id="section_91AE5EF234C14652A7B04082A22629AB"></a> -->
-

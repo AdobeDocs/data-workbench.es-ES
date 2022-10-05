@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo instalar y configurar Sensor para Servici
 title: Microsoft IIS en Windows Server 2000 o posterior
 uuid: 26da0638-82c8-424f-9f00-aab3a940e5a9
 exl-id: e4b5ac44-b0ac-43be-9b9c-180a64354081
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Microsoft IIS en Windows Server 2000 o posterior{#microsoft-iis-on-windows-server-or-later}
+
+{{eol}}
 
 Instrucciones sobre cómo instalar y configurar Sensor para Servicios de Internet Information Server (IIS) 5.x o 6.x que se ejecutan en Microsoft Windows Server 2000 o posterior.
 
@@ -79,12 +81,12 @@ El archivo txlogd.conf contiene los parámetros de configuración para Sensor.
 
 Debe editar el archivo para especificar, entre otras cosas, el tamaño de la cola de disco, la dirección de Insight Server y el ID que se adjuntará a los datos producidos por este sensor. El archivo de configuración contiene los parámetros necesarios y los parámetros opcionales.
 
-* **Los** parámetros requeridos son configuraciones que debe especificar al instalar Sensor. Sin estos ajustes, el sensor no se ejecuta correctamente.
-* **Los** parámetros opcionales son configuraciones que se establecen de forma predeterminada en valores predefinidos (que puede modificar) o que habilitan funciones opcionales.
+* **Parámetros necesarios** son ajustes que debe especificar al instalar Sensor. Sin estos ajustes, el sensor no se ejecuta correctamente.
+* **Parámetros opcionales** son configuraciones que se establecen de forma predeterminada en valores predefinidos (que puede modificar) o habilitar funciones opcionales.
 
 **Para editar el archivo de configuración del sensor**
 
-1. Abra el archivo `<SensorDirectory>/txlogd.conf` en un editor de texto y establezca los parámetros necesarios, así como los parámetros opcionales que desee.
+1. Abra el `<SensorDirectory>/txlogd.conf` en un editor de texto y establezca los parámetros necesarios, así como los parámetros opcionales que desee.
 
    Para obtener descripciones de los parámetros txlogd.conf, consulte Parámetros del archivo Txlogd.conf del sensor.
 

@@ -3,7 +3,7 @@ description: Captura de la actividad en vínculos de sitios web de terceros para
 title: Seguimiento de salidas a vínculos externos
 uuid: 523f5b4c-4600-4d44-82e7-4a8b2db2d266
 exl-id: fd7434e9-cd66-408e-baa9-6a0df4039786
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 6%
@@ -11,6 +11,8 @@ ht-degree: 6%
 ---
 
 # Seguimiento de salidas a vínculos externos{#tracking-exits-to-external-links}
+
+{{eol}}
 
 Captura de la actividad en vínculos de sitios web de terceros para habilitar el análisis de salida de Target.
 
@@ -20,7 +22,7 @@ Las páginas web pueden contener vínculos a sitios web de terceros, y se puede 
 <A HREF=”https://www.myserver.com/PageExit.htm?v_eurl=https://www.othersite.com”>
 ```
 
-El archivo [!DNL PageExit.htm] al que se hace referencia debe crearse y estructurarse para que contenga la siguiente secuencia de comandos:
+Se hace referencia a [!DNL PageExit.htm] debe crearse y estructurarse para que contenga la siguiente secuencia de comandos:
 
 ```
 <html>
@@ -51,7 +53,7 @@ location.replace(getExitURLQuery("v_eurl"));
 </html>
 ```
 
-Al realizar la solicitud del archivo [!DNL PageExit.htm] , el valor v_eurl se recopila con fines de análisis. Además, cuando se carga [!DNL PageExit.htm], redirige inmediatamente a la ubicación de destino de v_eurl especificada.
+Al realizar la solicitud de [!DNL PageExit.htm] , el valor v_eurl se recopila para fines de análisis. Además, cuando [!DNL PageExit.htm] se carga, redirige inmediatamente a la ubicación de destino de v_eurl especificada.
 
 | Datos recopilados | Explicación | Ejemplo |
 |---|---|---|

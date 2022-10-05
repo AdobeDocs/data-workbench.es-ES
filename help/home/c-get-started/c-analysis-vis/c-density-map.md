@@ -3,14 +3,16 @@ description: La visualización del mapa de densidad muestra los elementos como r
 title: Mapa de densidad
 uuid: c13cecee-f322-4757-aa90-12039173ff9f
 exl-id: da37d954-cadb-42a6-a44b-9b38c0354a5d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Mapa de densidad{#density-map}
+
+{{eol}}
 
 La visualización del mapa de densidad muestra los elementos como rectángulos sombreados dentro de un mapa cuadrado.
 
@@ -25,7 +27,7 @@ Para crear un mapa de densidad:
    Después de abrir un nuevo espacio de trabajo, es posible que tenga que hacer clic en **Agregar** > **Desbloquear temporalmente**.
 1. Haga clic **[!UICONTROL Visualization]** > **[!UICONTROL Density Map]**.
 
-1. Seleccione un **[!UICONTROL Dimension]** en el menú.
+1. Seleccione un **[!UICONTROL Dimension]** del menú .
 
    Por ejemplo, seleccione **[!UICONTROL Time]** > **[!UICONTROL Days]**.
 
@@ -35,14 +37,14 @@ Para crear un mapa de densidad:
    >
    >Elija una dimensión con varios elementos según sus necesidades. El límite actual es de 200 de los elementos más grandes para cada dimensión.
 
-1. Para cambiar las vistas de dimensión, abra **[!UICONTROL Visualization]** > **[!UICONTROL Table]** y seleccione entre los elementos de la tabla que desea mostrar en el mapa.
+1. Para cambiar las vistas de dimensión, abra **[!UICONTROL Visualization]** > **[!UICONTROL Table]** y seleccionar entre elementos de la tabla para mostrarlos en el mapa.
 
    ![](assets/density_map_day_selections.png)
 
    El mapa responderá a las selecciones de la tabla.
 
 1. Al pasar el ratón por encima de los elementos pequeños se mostrarán su nombre y valor en el texto que aparece cerca del cursor del ratón.
-1. Enmascara los elementos haciendo clic con el botón derecho y seleccionando **[!UICONTROL Mask]**, luego elija una opción.
+1. Enmascarar elementos haciendo clic con el botón derecho y seleccionando **[!UICONTROL Mask]** y, a continuación, elija una opción.
 
    ![](assets/density_map_day_mask.png)
 
@@ -84,16 +86,16 @@ Haga clic con el botón derecho en el Mapa de densidad para abrir un menú con e
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Agregue Llamada </td> 
+   <td colname="col1"> Agregar Llamada </td> 
    <td colname="col2">Agregue un texto o gráfico como una llamada en la visualización para identificar o describir aún más un elemento. <p>También puede seleccionar una Leyenda de métrica, una Tabla, un Gráfico de líneas o un Diagrama de puntos en blanco en función del elemento seleccionado en el Mapa de densidad. A continuación, puede agregar métricas y dimensiones a estas visualizaciones en blanco según sea necesario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Máscara </td> 
-   <td colname="col2">Las opciones de enmascaramiento permiten ocultar elementos seleccionados. Haga clic con el botón derecho para mostrar las opciones de Máscara. <p><span class="uicontrol"> Ocultar este elemento</span>: elija esta opción para enmascarar un solo elemento que haya seleccionado. </p> <p><span class="uicontrol"> Ocultar seleccionado</span>: elija esta opción para enmascarar varios elementos que haya seleccionado. </p> <p><span class="uicontrol"> Mostrar superior</span>: elija esta opción para mostrar solo los primeros 100, 50, 25 o 10 elementos principales según los valores del mapa de densidad. </p> <p><span class="uicontrol"> Mostrar abajo</span>: elija esta opción para mostrar solo los 100, 50, 25 o 10 elementos superiores inferiores según los valores del mapa de densidad. </p> </td> 
+   <td colname="col2">Las opciones de enmascaramiento permiten ocultar elementos seleccionados. Haga clic con el botón derecho para mostrar las opciones de Máscara. <p><span class="uicontrol"> Ocultar este elemento</span>: elija esta opción para enmascarar un solo elemento que haya seleccionado. </p> <p><span class="uicontrol"> Ocultar seleccionado</span>: elija esta opción para enmascarar varios elementos que haya seleccionado. </p> <p><span class="uicontrol"> Mostrar superior</span>— Elija esta opción para mostrar solo los primeros 100, 50, 25 o 10 elementos principales según los valores del mapa de densidad. </p> <p><span class="uicontrol"> Mostrar abajo</span>: elija esta opción para mostrar solo los 100, 50, 25 o 10 elementos principales inferiores basados en los valores del mapa de densidad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Elementos destacados </td> 
-   <td colname="col2"> El resaltado permite resaltar y atenuar elementos en un rango. Haga clic con el botón derecho para abrir un menú de opciones. <p><span class="uicontrol"> Mostrar superior</span>: elija esta opción para resaltar solo los primeros 100, 50, 25 o 10 elementos principales según los valores del mapa de densidad. </p> <p><span class="uicontrol"> Mostrar abajo</span>: elija esta opción para resaltar solo los 100, 50, 25 o 10 elementos superiores inferiores basados en los valores del mapa de densidad. </p> </td> 
+   <td colname="col2"> El resaltado permite resaltar y atenuar elementos en un rango. Haga clic con el botón derecho para abrir un menú de opciones. <p><span class="uicontrol"> Mostrar superior</span>— Elija esta opción para resaltar solo los primeros 100, 50, 25 o 10 elementos principales según los valores del mapa de densidad. </p> <p><span class="uicontrol"> Mostrar abajo</span>: elija esta opción para resaltar solo los 100, 50, 25 o 10 elementos principales inferiores basados en los valores del mapa de densidad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anular selección </p> <p>Anular todas las selecciones </p> </td> 

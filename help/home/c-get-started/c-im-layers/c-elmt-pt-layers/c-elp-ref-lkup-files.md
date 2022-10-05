@@ -3,7 +3,7 @@ description: Al crear una capa de punto de elemento que haga referencia a un arc
 title: Definición de capas de puntos de elementos que hacen referencia a archivos de búsqueda
 uuid: 32c8de7a-4316-4f91-9810-7f584bc7fb0b
 exl-id: 2275fa8e-82fe-49e4-ab3e-91ec6ecb6233
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # Definición de capas de puntos de elementos que hacen referencia a archivos de búsqueda{#define-element-point-layers-referencing-lookup-files}
+
+{{eol}}
 
 Al crear una capa de punto de elemento que haga referencia a un archivo de búsqueda para obtener datos de latitud y longitud, la ubicación del punto se obtiene recuperando cada elemento y su latitud y longitud asociadas del archivo de búsqueda.
 
@@ -20,29 +22,29 @@ Al crear una capa de punto de elemento que haga referencia a un archivo de búsq
 
 Para definir una capa de punto de elemento que haga referencia a un archivo de búsqueda, debe crear o tener ya disponible lo siguiente:
 
-* **Una** dimensión definida en  [!DNL Transformation.cfg file] o un  [!DNL transformation dataset include] archivo. Para obtener información sobre los archivos de configuración de transformación, consulte la *Guía de configuración de conjuntos de datos*.
+* **Una dimensión** definida en la variable [!DNL Transformation.cfg file] o [!DNL transformation dataset include] archivo. Para obtener información sobre los archivos de configuración de transformación, consulte la *Guía de configuración de conjuntos de datos*.
 
-* **Un** archivo de búsqueda que contiene los datos utilizados para trazar cada punto de datos. Este archivo debe contener al menos tres columnas de datos por cada punto de datos: la clave, la longitud y la latitud. Para obtener más información sobre el formato requerido del archivo de búsqueda, consulte [Formato del archivo de capa de punto de elemento](../../../../home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elp-ref-lkup-files.md#section-52d7e92be8354d979af9e7a2210b76f2).
+* **Un archivo de búsqueda** que contienen los datos utilizados para trazar cada punto de datos. Este archivo debe contener al menos tres columnas de datos por cada punto de datos: la clave, la longitud y la latitud. Para obtener más información sobre el formato requerido del archivo de búsqueda, consulte [Formato de archivo de capa de punto de elemento](../../../../home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elp-ref-lkup-files.md#section-52d7e92be8354d979af9e7a2210b76f2).
 
-* **Un** archivo de capa que especifica la ubicación del archivo de búsqueda e identifica la dimensión y métrica relacionadas, así como los nombres de columna de clave, longitud y latitud en el archivo de búsqueda. Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato del archivo de capa de punto de elemento](../../../../home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elp-ref-lkup-files.md#section-52d7e92be8354d979af9e7a2210b76f2).
+* **Un archivo de capa** que especifica la ubicación del archivo de búsqueda e identifica la dimensión y métrica relacionadas, así como los nombres de columna de clave, longitud y latitud en el archivo de búsqueda. Para obtener más información sobre el formato requerido del archivo de capa, consulte [Formato de archivo de capa de punto de elemento](../../../../home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elp-ref-lkup-files.md#section-52d7e92be8354d979af9e7a2210b76f2).
 
    >[!NOTE]
    >
-   >El archivo [!DNL Zip Points.layer], proporcionado con el perfil [!DNL Geography], es una capa de punto de elemento que identifica el archivo [!DNL Zipcode.dim], el archivo [!DNL Sessions.metric], el archivo de búsqueda [!DNL Zip Points.txt] y los nombres de las columnas de clave, longitud, latitud y nombre del archivo de búsqueda.
+   >La variable [!DNL Zip Points.layer] , que se proporciona con la variable [!DNL Geography] perfil, es una capa de punto de elemento que identifica el [!DNL Zipcode.dim] archivo, la variable [!DNL Sessions.metric] archivo, la variable [!DNL Zip Points.txt] archivo de búsqueda y nombres de las columnas clave, longitud, latitud y nombre del archivo de búsqueda.
 
 ## Formato del archivo de búsqueda de puntos de elemento {#section-0bc8c652c1bd40eb84078f2af71a5c06}
 
 El archivo de búsqueda de capas de punto de elemento debe contener al menos las tres columnas siguientes:
 
-* **[!DNL Key]columna:** Esta columna debe contener datos de clave comunes, lo que permite al servidor de Data Workbench conectar los datos del archivo de búsqueda con los del conjunto de datos. La columna [!DNL key] debe ser la primera columna del archivo de búsqueda. Cada fila de esta columna identifica un elemento de la dimensión.
+* **[!DNL Key]columna:** Esta columna debe contener datos de claves comunes, lo que permite al servidor de Data Workbench conectar los datos del archivo de búsqueda con los del conjunto de datos. La variable [!DNL key] debe ser la primera columna del archivo de búsqueda. Cada fila de esta columna identifica un elemento de la dimensión.
 
-* **[!DNL Longitude]columna:** Esta columna debe contener la longitud de cada punto de datos de la  [!DNL Key] columna.
+* **[!DNL Longitude]columna:** Esta columna debe contener la longitud de cada punto de datos del [!DNL Key] para abrir el Navegador.
 
-* **[!DNL Latitude]columna:** Esta columna debe contener la latitud de cada punto de datos de la  [!DNL Key] columna.
+* **[!DNL Latitude]columna:** Esta columna debe contener la latitud de cada punto de datos del [!DNL Key] para abrir el Navegador.
 
-* **[!DNL Name]columna (Opcional):** si desea especificar un nombre para que se muestre en el mapa para cada punto de datos, puede incluir una  [!DNL Name] columna en el archivo de búsqueda.
+* **[!DNL Name](opcional):** Si desea especificar un nombre que se mostrará en el mapa para cada punto de datos, puede incluir un [!DNL Name] en el archivo de búsqueda.
 
-Cada fila del archivo de búsqueda [!DNL Zip Points.txt] contiene un código postal en la primera columna seguido de la longitud, la latitud y el nombre de ciudad asociado.
+Cada fila de la [!DNL Zip Points.txt] el archivo de búsqueda contiene un código postal en la primera columna seguido de longitud, latitud y nombre de ciudad asociado.
 
 ```
 tude, and associated city name.
@@ -54,7 +56,7 @@ ZIP_CODE LATITUDE LONGITUDE NAME
 
 ## Formato de archivo de capa de punto de elemento {#section-52d7e92be8354d979af9e7a2210b76f2}
 
-Cada archivo de capa de punto de elemento [!DNL .layer] que hace referencia a un archivo de búsqueda debe tener el formato siguiente:
+Cada capa de punto de elemento [!DNL .layer] El archivo que hace referencia a un archivo de búsqueda debe tener el formato siguiente:
 
 ```
 Layer = ElementPointLayer:
@@ -97,11 +99,11 @@ Layer = ElementPointLayer:
   </tr> 
   <tr> 
    <td colname="col1"> Columna clave </td> 
-   <td colname="col2"> <p>Nombre de la columna del archivo de búsqueda que contiene los datos de clave comunes, lo que permite al servidor de Data Workbench integrar los datos en el archivo de búsqueda en el conjunto de datos. Debe ser la primera columna del archivo de búsqueda. </p> <p>Cada fila de esta columna es un elemento de una dimensión. Esta dimensión debe definirse en el archivo <span class="filepath"> Transformation.cfg</span> o en un archivo <span class="wintitle"> conjunto de datos de transformación include</span> y especificarse en el parámetro de Dimension de este archivo. Para obtener más información sobre los archivos de configuración de transformación, consulte la <i>Guía de configuración de conjuntos de datos</i>. </p> </td> 
+   <td colname="col2"> <p>Nombre de la columna del archivo de búsqueda que contiene los datos de clave comunes, lo que permite al servidor de Data Workbench integrar los datos en el archivo de búsqueda en el conjunto de datos. Debe ser la primera columna del archivo de búsqueda. </p> <p>Cada fila de esta columna es un elemento de una dimensión. Esta dimensión debe definirse en la variable <span class="filepath"> Transformation.cfg</span> archivo o <span class="wintitle"> incluir conjunto de datos de transformación</span> y se especifica en el parámetro de Dimension de este archivo. Para obtener más información sobre los archivos de configuración de transformación, consulte la <i>Guía de configuración de conjuntos de datos</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dimensión </td> 
-   <td colname="col2">Nombre de la dimensión (definida en un archivo de configuración de transformación) que contiene elementos que corresponden a las filas de datos de la columna <span class="wintitle"> Clave</span>. </td> 
+   <td colname="col2">El nombre de la dimensión (definida en un archivo de configuración de transformación) que contiene elementos que se corresponden con las filas de datos del <span class="wintitle"> Clave</span> para abrir el Navegador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Métrica </td> 
@@ -127,7 +129,7 @@ Layer = ElementPointLayer:
  </tbody> 
 </table>
 
-El archivo [!DNL Zip Points.layer] tiene el formato siguiente:
+La variable [!DNL Zip Points.layer] tiene el formato siguiente:
 
 ```
 Layer = ElementPointLayer:

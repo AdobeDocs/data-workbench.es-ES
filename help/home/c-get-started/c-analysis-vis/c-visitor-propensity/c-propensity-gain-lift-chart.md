@@ -3,7 +3,7 @@ description: Los gráficos Alza y Ganancia ofrecen visualizaciones para evaluar 
 title: Gráficos de alza y ganancia de tendencia
 uuid: 4f08277e-deea-48d3-ab15-214c43ad6664
 exl-id: 5ac08512-ac9c-4e85-a4f9-ea6d819095d8
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 
 # Gráficos de alza y ganancia de tendencia{#propensity-gain-and-lift-charts}
 
+{{eol}}
+
 Los gráficos Alza y Ganancia ofrecen visualizaciones para evaluar el rendimiento potencial de un modelo puntuado para evaluar el rendimiento en partes definidas de la audiencia.
 
 Los gráficos de ganancia y alza son visualizaciones creadas para evaluar el rendimiento potencial del modelo marcado. Estos gráficos evalúan el rendimiento en cada parte de la población.
@@ -19,18 +21,18 @@ Los gráficos de ganancia y alza son visualizaciones creadas para evaluar el ren
 **Apertura de un gráfico de alza o ganancia**
 
 1. Seleccione [!DNL Add Visualization > Predictive Analytics > Scoring] .
-1. Pase el ratón sobre **[!UICONTROL Model Complete]** de una puntuación guardada.
+1. Pase el ratón **[!UICONTROL Model Complete]** de una puntuación guardada.
 
 ![](assets/propensity_lift_gain_1.png)
 
 **Acerca de los gráficos de alza y ganancia**
 
-Los gráficos de alza y ganancia son herramientas visuales útiles para medir el valor de un modelo predictivo. Ambos gráficos constan de una curva de alza (verde) y una línea base (rosa). Para el **Gráfico de ganancia**, la distancia entre la curva de alza y la línea de base representa cuánto puede mejorar el rendimiento en las respuestas (o la &quot;ganancia&quot;) al usar el modo predictivo. La ganancia se obtiene priorizando y segmentando los clientes potenciales (clientes/visitantes) que tienen más probabilidades de convertir, en lugar de dirigir marketing a clientes/visitantes al azar. De este modo, puede cuantificar el valor esperado de utilizar el modelo predictivo para elegir qué posibles clientes ponerse en contacto.
+Los gráficos de alza y ganancia son herramientas visuales útiles para medir el valor de un modelo predictivo. Ambos gráficos constan de una curva de alza (verde) y una línea base (rosa). Para la variable **Gráfico de ganancias**, la distancia entre la curva de alza y la línea de base representa cuánto puede mejorar el rendimiento en las respuestas (o la &quot;ganancia&quot;) desde el uso del modo predictivo. La ganancia se obtiene priorizando y segmentando los clientes potenciales (clientes/visitantes) que tienen más probabilidades de convertir, en lugar de dirigir marketing a clientes/visitantes al azar. De este modo, puede cuantificar el valor esperado de utilizar el modelo predictivo para elegir qué posibles clientes ponerse en contacto.
 
-Al igual que el gráfico de ganancia, el **gráfico de alza** muestra la probabilidad de recibir respuestas positivas en comparación con los posibles clientes contactados al azar. Desea que la distancia entre la curva de alza y la línea de base sea lo más grande posible, lo que representa mayores ganancias esperadas al usar el modelo predictivo para contactar con los clientes. Matemáticamente, los gráficos de alza y ganancia se definen de la siguiente manera:
+Similar al gráfico de ganancia, la variable **Gráfico de alza** muestra la probabilidad de recibir respuestas positivas que tiene de ponerse en contacto aleatoriamente con posibles clientes. Desea que la distancia entre la curva de alza y la línea de base sea lo más grande posible, lo que representa mayores ganancias esperadas al usar el modelo predictivo para contactar con los clientes. Matemáticamente, los gráficos de alza y ganancia se definen de la siguiente manera:
 
-* **Ganancia**  = (Respuesta esperada mediante el modelo predictivo para contactar con los posibles clientes) / (Respuesta esperada desde los posibles contactos aleatorios)
-* **Alza**  = (respuesta esperada entre un tamaño de grupo específico de posibles clientes identificado mediante el modelo predictivo) / (respuesta esperada entre el mismo tamaño de grupo específico de posibles clientes identificado aleatoriamente)
+* **Ganancia** = (Respuesta esperada utilizando el modelo predictivo para contactar con los posibles clientes) / (Respuesta esperada de los prospectos de contacto aleatorio)
+* **Alza** = (Respuesta esperada entre un tamaño de grupo específico de perspectivas identificado mediante el modelo predictivo) / (Respuesta esperada entre el mismo tamaño de grupo específico de perspectivas identificado aleatoriamente)
 
 **Ejemplo de gráficos de alza y ganancia**
 

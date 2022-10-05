@@ -3,7 +3,7 @@ description: Los valores introducidos en un formulario en una página web se pue
 title: Información general
 uuid: 401816a5-1d95-48e6-bedf-ee2a5dbd2d50
 exl-id: 9effc72b-e75f-423c-87ec-6ac25edee8d6
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 7%
@@ -11,6 +11,8 @@ ht-degree: 7%
 ---
 
 # Información general{#general-information}
+
+{{eol}}
 
 Los valores introducidos en un formulario en una página web se pueden recopilar y anexar en la cadena de consulta de la página solicitada posteriormente (al enviar el formulario) mediante el uso de JavaScript.
 

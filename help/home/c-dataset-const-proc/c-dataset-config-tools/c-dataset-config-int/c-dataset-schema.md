@@ -3,7 +3,7 @@ description: La interfaz Esquema de conjunto de datos muestra las dimensiones ex
 title: Esquema del conjunto de datos
 uuid: 4ef5f14b-dc19-4118-a2f2-d680ded8092c
 exl-id: b80e6e8e-9147-46ec-8602-2d7e5d33f077
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 3%
@@ -12,9 +12,11 @@ ht-degree: 3%
 
 # Esquema del conjunto de datos{#dataset-schema}
 
+{{eol}}
+
 La interfaz Esquema de conjunto de datos muestra las dimensiones extendidas (contables, simples, &quot;varios a varios&quot;, numéricas, denormales y temporales) definidas en cualquier archivo de Configuración de conjunto de datos de transformación y las relaciones entre esas dimensiones.
 
-Además, la interfaz [!DNL Dataset Schema] muestra todas las dimensiones derivadas que haya definido, así como cualquier dimensión ampliada que esté configurada para ocultarse.
+Además, la variable [!DNL Dataset Schema] la interfaz muestra las dimensiones derivadas que ha definido, así como cualquier dimensión ampliada que esté configurada para ocultarse.
 
 ![](assets/vis_DatasetSchema_Example.png)
 
@@ -26,7 +28,7 @@ Esta sección trata los siguientes temas:
 
 ## Interpretación del tipo de Dimension mediante la interfaz de esquema del conjunto de datos {#section-16a0a12b11334c07bec558c0b7d260b1}
 
-En la tabla siguiente se enumeran los tipos de dimensiones y los colores en los que aparecen sus nombres en la interfaz [!DNL Dataset Schema]. También se indican los padres para las dimensiones de muestra (del ejemplo anterior).
+La tabla siguiente muestra los tipos de dimensiones y los colores en los que aparecen sus nombres en la [!DNL Dataset Schema] interfaz. También se indican los padres para las dimensiones de muestra (del ejemplo anterior).
 
 <table id="table_20D1A9EAAED247338476C475C63255F5"> 
  <thead> 
@@ -58,7 +60,7 @@ En la tabla siguiente se enumeran los tipos de dimensiones y los colores en los 
    <td colname="col3"> Término de búsqueda: el principal es Sesión. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Numéricos </td> 
+   <td colname="col1"> Ocultar grupos de informes </td> 
    <td colname="col2"> Verde </td> 
    <td colname="col3"> Duración exacta de la página: el elemento principal es Vista de página En este ejemplo, Duración exacta de la página es una dimensión numérica oculta. Consulte el tipo de dimensión Oculto en esta tabla. </td> 
   </tr> 
@@ -80,14 +82,14 @@ En la tabla siguiente se enumeran los tipos de dimensiones y los colores en los 
  </tbody> 
 </table>
 
-## Para mostrar la visualización predeterminada de un Dimension {#section-1bbb73a5cbb34ffb844eb1932db85318}
+## Visualización de la visualización predeterminada de un Dimension {#section-1bbb73a5cbb34ffb844eb1932db85318}
 
-* En la interfaz [!DNL Dataset Schema] , haga clic en la dimensión deseada. Se muestra la visualización predeterminada. Por ejemplo, si la visualización predeterminada es una tabla que muestra Sesiones y la dimensión seleccionada y hace clic en la dimensión URI, Data Workbench muestra una tabla con URI por Sesiones.
+* En el [!DNL Dataset Schema] , haga clic en la dimensión que desee. Se muestra la visualización predeterminada. Por ejemplo, si la visualización predeterminada es una tabla que muestra Sesiones y la dimensión seleccionada y hace clic en la dimensión URI, Data Workbench muestra una tabla con URI por Sesiones.
 
 >[!NOTE]
 >
->Si desea cambiar la visualización predeterminada que se muestra, consulte el capítulo Configuración de interfaz y características de análisis en la *Guía del usuario de Data Workbench*.
+>Si desea cambiar la visualización predeterminada que se muestra, consulte el capítulo Configuración de interfaz y características de análisis en la sección *Guía del usuario de Data Workbench*.
 
 ## Visualización de una visualización específica para un Dimension {#section-d46626df90bc4c44ae60c4b71eaeac7f}
 
-* En la interfaz [!DNL Dataset Schema], haga clic con el botón derecho en la dimensión deseada y haga clic en **[!UICONTROL Add Visualization]** > *&lt;**[!UICONTROL visualization type]**>*.
+* En el [!DNL Dataset Schema] , haga clic con el botón derecho en la dimensión deseada y haga clic en **[!UICONTROL Add Visualization]** > *&lt;**[!UICONTROL visualization type]**>*.

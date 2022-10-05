@@ -3,7 +3,7 @@ description: Al configurar el conjunto de datos, puede definir variables, referi
 title: Definición de parámetros en archivos de inclusión de conjuntos de datos
 uuid: 1eb7d48c-a107-4b32-abca-55d30586813f
 exl-id: 80bb77e1-a157-4e16-9519-6d0e2ce17fe1
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 3%
@@ -12,9 +12,11 @@ ht-degree: 3%
 
 # Definición de parámetros en archivos de inclusión de conjuntos de datos{#defining-parameters-in-dataset-include-files}
 
+{{eol}}
+
 Al configurar el conjunto de datos, puede definir variables, referidas como parámetros, para representar valores significativos.
 
-Para asignar un valor a un parámetro (es decir, para definir el parámetro), agregue el nombre y el valor del parámetro al vector Parameters en un archivo de procesamiento de registros o [!DNL Transformation Dataset Include]. Después de definir parámetros, puede hacer referencia a ellos en los archivos de configuración del perfil del conjunto de datos. La definición y referencia de estos parámetros se denomina sustitución de parámetros. El uso de la sustitución de parámetros al configurar el conjunto de datos permite crear una ubicación centralizada para las definiciones de parámetros. Cuando necesite actualizar un parámetro al que se hace referencia varias veces o en varios archivos, debe realizar el cambio solo una vez.
+Para asignar un valor a un parámetro (es decir, para definir el parámetro), agregue el nombre y el valor del parámetro al vector Parameters en un procesamiento de registro o [!DNL Transformation Dataset Include] archivo. Después de definir parámetros, puede hacer referencia a ellos en los archivos de configuración del perfil del conjunto de datos. La definición y referencia de estos parámetros se denomina sustitución de parámetros. El uso de la sustitución de parámetros al configurar el conjunto de datos permite crear una ubicación centralizada para las definiciones de parámetros. Cuando necesite actualizar un parámetro al que se hace referencia varias veces o en varios archivos, debe realizar el cambio solo una vez.
 
 >[!NOTE]
 >
@@ -23,19 +25,19 @@ Para asignar un valor a un parámetro (es decir, para definir el parámetro), ag
 Al definir un parámetro, debe tener en cuenta los siguientes puntos:
 
 * Un parámetro debe definirse exactamente una vez. Por lo tanto, no puede definir la misma variable en varios archivos de inclusión de conjuntos de datos.
-* Cualquier parámetro que defina es local para las fases de procesamiento de registros o de transformación, pero es global en varios archivos de configuración de conjuntos de datos para esa fase. Por ejemplo, si define un parámetro en un archivo [!DNL Transformation Dataset Include] , el parámetro se define para toda la fase de transformación y puede hacer referencia a él en el archivo [!DNL Transformation.cfg] y en todos los demás archivos [!DNL Transformation Dataset Include] para los perfiles heredados. El parámetro no se definiría para el procesamiento de registros; por lo tanto, cualquier referencia al parámetro en el archivo [!DNL Log Processing.cfg] o en un archivo [!DNL Log Processing Dataset Include] generaría un error de procesamiento.
+* Cualquier parámetro que defina es local para las fases de procesamiento de registros o de transformación, pero es global en varios archivos de configuración de conjuntos de datos para esa fase. Por ejemplo, si define un parámetro en una [!DNL Transformation Dataset Include] , el parámetro se define para toda la fase de transformación y puede hacer referencia a él en la [!DNL Transformation.cfg] y todos los demás [!DNL Transformation Dataset Include] para los perfiles heredados. El parámetro no se definiría para el procesamiento de registros; por lo tanto, cualquier referencia al parámetro en la variable [!DNL Log Processing.cfg] archivo o [!DNL Log Processing Dataset Include] generaría un error de procesamiento.
 
 **Definición de un parámetro**
 
-Puede definir parámetros de cadena, numéricos y vectoriales en archivos [!DNL Log Processing] y [!DNL Transformation Include].
+Puede definir parámetros de cadena, numéricos y vectoriales en [!DNL Log Processing] y [!DNL Transformation Include] archivos.
 
-1. En la ventana del área de trabajo de datos para el archivo [!DNL Log Processing] o [!DNL Transformation Dataset Include], haga clic con el botón secundario en **[!UICONTROL Parameters]** y, a continuación, haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Parameter]**.
+1. En la ventana del área de trabajo de datos para [!DNL Log Processing] o [!DNL Transformation Dataset Include] archivo, clic con el botón derecho **[!UICONTROL Parameters]** y haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Parameter]**.
 
-1. Seleccione **[!UICONTROL String Parameter]**, **[!UICONTROL Numeric Parameter]** o **[!UICONTROL Vector Parameter]** y complete los parámetros Nombre y Valor como se describe en las secciones siguientes.
+1. Select **[!UICONTROL String Parameter]**, **[!UICONTROL Numeric Parameter]** o **[!UICONTROL Vector Parameter]** y complete los parámetros Nombre y Valor como se describe en las secciones siguientes.
 
-1. Para guardar el archivo de inclusión del conjunto de datos en el que ha definido el parámetro, haga clic con el botón derecho en **[!UICONTROL (modified)]** en la parte superior de la ventana y haga clic en **[!UICONTROL Save]**.
+1. Para guardar el archivo de inclusión del conjunto de datos en el que ha definido el parámetro, haga clic con el botón derecho **[!UICONTROL (modified)]** en la parte superior de la ventana y haga clic en **[!UICONTROL Save]**.
 
-1. Para que los cambios realizados localmente surtan efecto, en [!DNL Profile Manager], haga clic con el botón derecho en la marca de verificación del archivo en la columna [!DNL User] y, a continuación, haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL profile name]**>*, donde el nombre del perfil es el nombre del perfil del conjunto de datos o del perfil heredado al que pertenece el archivo de inclusión del conjunto de datos.
+1. Para que los cambios realizados localmente tengan efecto, en la variable [!DNL Profile Manager], haga clic con el botón derecho en la marca de verificación del archivo en la variable [!DNL User] y, a continuación, haga clic en **[!UICONTROL Save to]** > *&lt;**[!UICONTROL profile name]**>*, donde nombre de perfil es el nombre del perfil del conjunto de datos o el perfil heredado al que pertenece el archivo de inclusión del conjunto de datos.
 
 >[!NOTE]
 >

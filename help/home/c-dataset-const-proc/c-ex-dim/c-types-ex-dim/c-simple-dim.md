@@ -3,7 +3,7 @@ description: Una dimensión simple tiene una relación "uno a varios" con su dim
 title: Dimensiones simples
 uuid: 3bca2354-02c4-4739-a7da-acccdb0efdfd
 exl-id: 2acad750-7c48-40f1-8130-ab056ac8bf0d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Dimensiones simples{#simple-dimensions}
+
+{{eol}}
 
 Una dimensión simple tiene una relación &quot;uno a varios&quot; con su dimensión contable principal.
 
@@ -69,7 +71,7 @@ Las dimensiones simples se definen mediante los siguientes parámetros:
       <li id="li_0FBE7F0B7B9744D994ECEDAA08F0045C"> PRIMERA FILA: Se utiliza el valor de la primera entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. Si Input es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
       <li id="li_C17190BC699D4A099DC5326C07D1044D"> ÚLTIMO NO EN BLANCO: Se utiliza el último valor de entrada que no esté en blanco, independientemente de si procede de la última entrada de registro. Si Input es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. </li> 
       <li id="li_00BAE86F12004C098F6A455908DB7062"> ÚLTIMA FILA: Se utiliza el valor de la última entrada de registro relacionada con el elemento de dimensión principal, aunque la entrada esté en blanco. Si Input es un campo vectorial, se utiliza la primera fila del vector para la entrada de registro correspondiente. Si este valor está vacío o no es un número, o si la entrada de registro correspondiente no cumple la condición de la dimensión, no se utiliza ningún valor. </li> 
-     </ul> </p> <p> <p>Nota:  Si Operation no genera ningún valor o un valor en blanco para una entrada de registro en particular, el elemento correspondiente de la dimensión principal se relaciona con el elemento "None" de la dimensión simple. </p> </p> <p> Debe especificar una operación para asegurarse de que la dimensión se define como está previsto. </p> </td> 
+     </ul> </p> <p> <p>Nota: Si Operation no genera ningún valor o un valor en blanco para una entrada de registro en particular, el elemento correspondiente de la dimensión principal se relaciona con el elemento "None" de la dimensión simple. </p> </p> <p> Debe especificar una operación para asegurarse de que la dimensión se define como está previsto. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -84,7 +86,7 @@ Este ejemplo ilustra la definición de una dimensión simple mediante datos de e
 
 Consideremos el ejemplo de una encuesta de las cookies favoritas de Girl Scout de los visitantes del sitio. Una página web captura este voto y lo devuelve al servidor web en la cookie favoritecookie del par nombre-valor. Solo se cuenta un voto por visitante, pero los visitantes pueden cambiar de opinión y votar de nuevo si lo desean. Esta es una relación uno a varios: un visitante puede tener muchos votos, pero cada voto está asociado con un solo visitante. Por lo tanto, el elemento principal de la dimensión son los visitantes (solo un voto por visitante) y la operación es ÚLTIMA FILA (para que puedan cambiar de opinión y votar de nuevo).
 
-Los marcadores de posición deben existir para todos los tipos de cookies, de modo que se muestren los tipos de cookies que no reciben votos en Data Workbench. Por estos motivos, se ha definido un archivo de carga que contiene la lista de tipos de cookies que se pueden seleccionar. El contenido de este archivo, guardado en un archivo llamado [!DNL cookietypes.txt], tiene un aspecto similar al siguiente:
+Los marcadores de posición deben existir para todos los tipos de cookies, de modo que se muestren los tipos de cookies que no reciben votos en Data Workbench. Por estos motivos, se ha definido un archivo de carga que contiene la lista de tipos de cookies que se pueden seleccionar. El contenido de este archivo, guardado en un archivo denominado [!DNL cookietypes.txt], tiene un aspecto similar al siguiente:
 
 Tesoros animales
 

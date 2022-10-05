@@ -3,7 +3,7 @@ description: Muestra cómo configurar Título, Perfil, Dimension, Métrica, Filt
 title: Configuración de visualizaciones
 uuid: aca77188-8f28-4554-8913-412b252f688c
 exl-id: 153adf94-5689-4917-9d71-625caef49903
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Configuración de visualizaciones{#configuring-visualizations}
+
+{{eol}}
 
 Muestra cómo configurar Título, Perfil, Dimension, Métrica, Filtro, Mostrar arriba, Ordenar por y Periodo de tiempo.
 
@@ -22,7 +24,7 @@ Cada visualización del lienzo del tablero tiene su propia configuración. Cuand
 
 ## Título de visualización {#section-0414844283d745ae912e85f8ea14a51d}
 
-Este campo le permite personalizar el título que se muestra en la parte superior de la visualización. De forma predeterminada, el título se establece en **[!UICONTROL Automatic Title]**, que generará automáticamente un título para la ventana de visualización. Al borrar el botón **[!UICONTROL Automatic Title]**, puede colocar cualquier título en este campo. (Este campo se aplica a todas las visualizaciones).
+Este campo le permite personalizar el título que se muestra en la parte superior de la visualización. De forma predeterminada, el título está establecido en **[!UICONTROL Automatic Title]**, que generará automáticamente un título para la ventana de visualización. Al borrar la variable **[!UICONTROL Automatic Title]** , puede colocar cualquier título en este campo. (Este campo se aplica a todas las visualizaciones).
 
 ![](assets/title.png)
 
@@ -60,7 +62,7 @@ Las visualizaciones multimétricas tienen una ventana de selección multimétric
 
 La lista se rellena a partir de la lista de métricas disponibles en el perfil seleccionado en el campo Perfil .
 
-Haga clic en las métricas deseadas y luego haga clic en **[!UICONTROL Select]**. (Este campo no se aplica a las visualizaciones de texto enriquecido).
+Haga clic en las métricas que desee y luego haga clic en **[!UICONTROL Select]**. (Este campo no se aplica a las visualizaciones de texto enriquecido).
 
 ## Filtros {#section-f8619ae2f8e54735a2c1b0fbb8bb1281}
 
@@ -94,9 +96,9 @@ Esto le permite especificar cómo se deben ordenar los datos cuando se muestran 
 
 Esta visualización le permite especificar la fecha de inicio o finalización deseada de los datos para mostrarlos en la visualización.
 
-Al seleccionar **[!UICONTROL All Dates]**, se muestra todo el intervalo de fechas disponible en el perfil.
+Selección **[!UICONTROL All Dates]**muestra el intervalo de fechas completo disponible en el perfil.
 
-Al seleccionar **[!UICONTROL Range]** solo se muestran los datos que se encuentran dentro de un intervalo especificado. Para introducir el intervalo de fechas, puede escribir la fecha de inicio y/o final, o utilizar una entrada de calendario seleccionando el icono de calendario.
+Selección **[!UICONTROL Range]** muestra únicamente los datos que se encuentran dentro de un intervalo especificado. Para introducir el intervalo de fechas, puede escribir la fecha de inicio y/o final, o utilizar una entrada de calendario seleccionando el icono de calendario.
 
 (Este campo no se aplica a las visualizaciones de texto enriquecido).
 

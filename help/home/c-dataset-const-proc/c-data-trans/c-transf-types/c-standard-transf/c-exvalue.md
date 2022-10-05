@@ -3,7 +3,7 @@ description: Si trabaja con datos web, puede utilizar la transformación Extract
 title: ExtractValue
 uuid: 305827a2-04e6-421f-82cb-923d62b02e70
 exl-id: 5bafe64f-081a-49ec-997e-68e8f6915a71
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # ExtractValue{#extractvalue}
+
+{{eol}}
 
 Si trabaja con datos web, puede utilizar la transformación ExtractValue para extraer un valor de una cadena de consulta, cookie o campo codificado de forma similar en los datos del sitio web.
 
@@ -42,7 +44,7 @@ Tenga en cuenta que los nombres correspondientes al valor que se va a extraer pu
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de entrada </td> 
-   <td colname="col2"> <p>Los nombres de los campos que se extraerán de la consulta de entrada. </p> <p> <p>Nota:  Si el Nombre de entrada es un vector (es decir, hay varios nombres presentes), solo se extrae un valor. </p> </p> </td> 
+   <td colname="col2"> <p>Los nombres de los campos que se extraerán de la consulta de entrada. </p> <p> <p>Nota: Si el Nombre de entrada es un vector (es decir, hay varios nombres presentes), solo se extrae un valor. </p> </p> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -58,8 +60,8 @@ Tenga en cuenta que los nombres correspondientes al valor que se va a extraer pu
  </tbody> 
 </table>
 
-Si desea extraer una frase de búsqueda, puede extraer la frase completa y, si lo desea, dividirla en términos de búsqueda mediante una transformación [!DNL Tokenize]. Para obtener información sobre la transformación [!DNL Tokenize], consulte [Tokenize](../../../../../home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-tokenize.md#concept-f460aa5df3a7476e971af29cf5d9b32c).
+Si desea extraer una frase de búsqueda, puede extraer la frase completa y, si lo desea, dividirla en términos de búsqueda utilizando una [!DNL Tokenize] transformación. Para obtener información sobre la variable [!DNL Tokenize] transformación, consulte [Tokenize](../../../../../home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-tokenize.md#concept-f460aa5df3a7476e971af29cf5d9b32c).
 
-En este ejemplo se configura una transformación [!DNL ExtractValue] para extraer valores del campo x-v-search-querynames de cs(referrer-query) y almacenarlos en el campo x-search-rase-rase.
+Este ejemplo configura un [!DNL ExtractValue] transformación para extraer valores del campo x-v-search-querynames de cs(referrer-query) y almacenarlos en el campo x-search-rase.
 
 ![](assets/cfg_TransformationType_ExtractValue.png)

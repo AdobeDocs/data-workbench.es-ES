@@ -3,7 +3,7 @@ description: Las llamadas son ventanas que se agregan a un espacio de trabajo pa
 title: Añadir llamadas a un espacio de trabajo
 uuid: fb3dd74d-da20-40cb-bc96-e56d25003e48
 exl-id: fcdb9231-d44a-4287-b799-6a66f7f79432
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Añadir llamadas a un espacio de trabajo{#adding-callouts-to-a-workspace}
+
+{{eol}}
 
 Las llamadas son ventanas que se agregan a un espacio de trabajo para llamar la atención sobre un elemento de dimensión en particular mediante la creación de una nueva visualización con una selección virtual de ese elemento.
 
@@ -29,11 +31,11 @@ De forma predeterminada, la Data Workbench proporciona las siguientes llamadas:
 >
 >Las llamadas no funcionan como selecciones (es decir, no afectan a otras visualizaciones dentro del espacio de trabajo) a menos que realice una selección dentro de la llamada.
 
-Puede añadir o editar las definiciones de llamada configurando los archivos de llamada almacenados en la carpeta de instalación *nombre de perfil*\Context\Callout folder of the [!DNL Server]. Consulte [Configuración de llamadas](../../../home/c-get-started/c-intf-anlys-ftrs/c-config-callouts.md#concept-f6e91e172f5e4c009245c9c549beb76a).
+Puede añadir o editar las definiciones de llamada configurando los archivos de llamada almacenados en la variable *nombre de perfil*\Context\Callout carpeta de [!DNL Server] carpeta de instalación. Consulte [Configuración de llamadas](../../../home/c-get-started/c-intf-anlys-ftrs/c-config-callouts.md#concept-f6e91e172f5e4c009245c9c549beb76a).
 
-## Para agregar una llamada de anotación a una visualización {#section-7b6742160b3f4aed872a09c8c023f90d}
+## Adición de una llamada de anotación a una visualización {#section-7b6742160b3f4aed872a09c8c023f90d}
 
-1. Haga clic con el botón derecho en el elemento para el que desea crear una llamada de y, a continuación, haga clic en **[!UICONTROL Add Callout]** > **[!UICONTROL Annotation]** > **[!UICONTROL Image]** o **[!UICONTROL Add Callout]** > **[!UICONTROL Annotation]** > **[!UICONTROL Text]**. Aparece una ventana en blanco con una conexión visible a ese elemento.
+1. Haga clic con el botón derecho en el elemento para el que desee crear una llamada y, a continuación, haga clic en **[!UICONTROL Add Callout]** > **[!UICONTROL Annotation]** > **[!UICONTROL Image]** o **[!UICONTROL Add Callout]** > **[!UICONTROL Annotation]** > **[!UICONTROL Text]**. Aparece una ventana en blanco con una conexión visible a ese elemento.
 
    ![](assets/client-call.png)
 
@@ -46,31 +48,31 @@ Puede añadir o editar las definiciones de llamada configurando los archivos de 
    * Para una anotación de texto, escriba o pegue el texto deseado en la llamada y, a continuación, dé formato al texto según corresponda. Consulte [Uso de anotaciones de texto](../../../home/c-get-started/c-analysis-vis/c-annots/c-text-annots.md#concept-55b4aa3e0c58470b8e3c9d452e12a777).
    * Para una anotación de imagen, pegue la imagen deseada en la llamada copiando la imagen y haciendo clic con el botón derecho en la llamada. Haga clic en **[!UICONTROL Paste image]**. Consulte [Uso de anotaciones de imagen](../../../home/c-get-started/c-analysis-vis/c-annots/c-image-annots.md#concept-02081ed7d91c4fdcb8fc863f2a51c962).
 
-## Agregar una tabla, un gráfico de líneas o una llamada de diagrama de puntos en blanco a una visualización {#section-5dcc0504bdb64ed4976f880e2f7b277f}
+## Agregar una tabla, un gráfico de líneas o una llamada de diagrama de puntos a una visualización en blanco {#section-5dcc0504bdb64ed4976f880e2f7b277f}
 
-1. Haga clic con el botón derecho en el elemento para el que desea crear una llamada de y haga clic en **[!UICONTROL Add Callout]** > *&lt;**[!UICONTROL callout type]**>*.
+1. Haga clic con el botón derecho en el elemento para el que desee crear una llamada y, a continuación, haga clic en **[!UICONTROL Add Callout]** > *&lt;**[!UICONTROL callout type]**>*.
 
    En el siguiente ejemplo se muestra una llamada Tabla en blanco .
 
    ![](assets/vis_callout_blank_bar_graph.png)
 
-1. Para seleccionar una dimensión, haga clic con el botón derecho en **[!UICONTROL None]** y haga clic en **[!UICONTROL Change Dimension]** > *&lt;**[!UICONTROL dimension name]**>*.
+1. Para seleccionar una dimensión, haga clic con el botón derecho **[!UICONTROL None]** y haga clic en **[!UICONTROL Change Dimension]** > *&lt;**[!UICONTROL dimension name]**>*.
 
    >[!NOTE]
    >
    >Si cambia la dimensión dentro de una visualización que tiene una llamada de , la llamada cambia de estar conectada al elemento de la dimensión original a estar conectada a toda la visualización.
 
-## Para agregar una llamada de leyenda de confianza a una visualización {#section-386d1293ddc24a0c9cccb332e20db791}
+## Adición de una llamada de leyenda de confianza a una visualización {#section-386d1293ddc24a0c9cccb332e20db791}
 
 1. Haga clic con el botón derecho en el elemento para el cual desee crear la llamada y haga clic en **[!UICONTROL Add Callout]** > **[!UICONTROL Confidence Legend]**.
 
    ![](assets/vis_callout_confidenceLegend.png)
 
-1. Si lo desea, cambie el campo [!DNL Metric or Formula].
+1. Si lo desea, cambie la [!DNL Metric or Formula] campo .
 
 Para ver las reglas de sintaxis de expresión, consulte [Sintaxis del idioma de consulta](../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f). Consulte [Leyendas de confianza](../../../home/c-get-started/c-analysis-vis/c-legends/c-conf-leg.md#concept-73db81c2c218427786c04068aa778efd).
 
-## Para agregar una llamada de leyenda de métrica a una visualización {#section-daa6d372c22246d9827880a9d6e804d8}
+## Adición de una llamada de leyenda de métrica a una visualización {#section-daa6d372c22246d9827880a9d6e804d8}
 
 1. Haga clic con el botón derecho en el elemento para el cual desee crear la llamada y haga clic en **[!UICONTROL Add Callout]** > **[!UICONTROL Metric Legend]**.
 

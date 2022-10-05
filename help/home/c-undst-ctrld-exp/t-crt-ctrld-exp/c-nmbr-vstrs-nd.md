@@ -4,7 +4,7 @@ solution: Analytics
 title: Determinación del número de visitantes necesarios
 uuid: 07fca0aa-031a-4335-bba4-fb00cb90e29d
 exl-id: c23f4c21-21e5-4694-a500-efe1369cd4bf
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 6%
@@ -12,6 +12,8 @@ ht-degree: 6%
 ---
 
 # Determinación del número de visitantes necesarios{#determining-the-number-of-visitors-needed}
+
+{{eol}}
 
 Para crear un experimento estadísticamente relevante, debe determinar cuánto tiempo necesita ejecutar el experimento para incluir suficientes visitantes para evaluar de forma eficaz los resultados de los cambios en el sitio web.
 

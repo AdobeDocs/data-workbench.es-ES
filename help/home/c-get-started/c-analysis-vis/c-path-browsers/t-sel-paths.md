@@ -3,7 +3,7 @@ description: Puede seleccionar una ruta dentro de un navegador de rutas para cre
 title: Selección de una ruta
 uuid: 3131df2f-674f-44b8-9006-d8cb1ecf3874
 exl-id: c560dfd0-ccaf-4a60-88a1-29a33f8aa014
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Selección de una ruta{#select-a-path}
+
+{{eol}}
 
 Puede seleccionar una ruta dentro de un navegador de rutas para crear filtros que incluyan datos asociados con los elementos de la ruta.
 

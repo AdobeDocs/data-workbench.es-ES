@@ -3,7 +3,7 @@ description: Una guía rápida sobre los distintos métodos de transferencia de 
 title: Administración de transferencia de archivos
 uuid: a3e19f8a-1cc4-437c-9661-408f675109c0
 exl-id: a0ecd8e1-6d6f-4811-9869-092837dc9e55
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Administración de transferencia de archivos{#file-transfer-governance}
+
+{{eol}}
 
 Una guía rápida sobre los distintos métodos de transferencia de archivos en DWB.
 
@@ -56,7 +58,7 @@ Administración de transferencia de archivos es un proceso estándar para transf
       >Si la carpeta del repositorio no está disponible, consulte [Reprocesamiento semanal](../../../home/dwb-implement-overview/dwb-implement-configure/dwb-implement-reprocess-scripting.md#concept-60529e12d6d94386a02c1c6fdedf0295) para descargar la carpeta.
 
    1. Programe la secuencia de comandos en función de la disponibilidad de los archivos en ftp_address.
-   1. La convención de nomenclatura del archivo debe ser YYYMMDD-&lt;offline_feed_name>-00.*
+   1. La convención de nomenclatura del archivo debe ser AAAAMMDD-&lt;offline_feed_name>-00.&#42;
 
 1. Transfiera archivos del directorio NAS al servidor FTP.
 
@@ -228,7 +230,7 @@ Administración de transferencia de archivos es un proceso estándar para transf
       ```
 
    1. Programe la secuencia de comandos en función de la disponibilidad de los archivos en ftp_address.
-   1. La convención de nomenclatura del archivo debe ser YYYMMDD-&lt;offline_feed_name>-00.*
+   1. La convención de nomenclatura del archivo debe ser AAAAMMDD-&lt;offline_feed_name>-00.&#42;
 
 1. Transfiera Archivos de un directorio NAS a otro directorio NAS.
 

@@ -2,31 +2,35 @@
 description: Configure las dimensiones de tiempo para que se muestren correctamente en la configuración regional.
 title: Localización de dimensiones de tiempo
 uuid: a2098522-bf05-4680-9b78-6fb284695a0a
-translation-type: tm+mt
-source-git-commit: 25366087936dfa5e31c5921aac400535ec259f2e
+exl-id: 950fe70b-a687-4b9c-b29f-555139740809
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
-
 # Localización de dimensiones de tiempo{#localizing-time-dimensions}
+
+{{eol}}
 
 Configure las dimensiones de tiempo para que se muestren correctamente en la configuración regional.
 
-Puede configurar el formato mostrado de las dimensiones de tiempo en función de la configuración regional en el **[!DNL Standard Time Dimensions.cfg]** archivo (ubicado de forma predeterminada en **[!DNL Server/Profiles/`<my profile>`/Dataset/Transformation/Time/Standard Time Dimensions.cfg]**).
+Puede configurar el formato mostrado de las dimensiones de tiempo en función de la configuración regional en la variable **[!DNL Standard Time Dimensions.cfg]** archivo (ubicado de forma predeterminada en **[!DNL Server/Profiles/`<my profile>`/Dataset/Transformation/Time/Standard Time Dimension.cfg]**).
 
-Por ejemplo, en Norteamérica puede expresar la fecha 3 de mayo de 2015 como 5/3/15 o **`%m/%d/%y`**. Sin embargo, en otras partes del mundo esto podría interpretarse como `%d/%m/%y`, o el 5 de marzo de 2015, debido a una ambigüedad en los valores. Para evitar esta situación, es posible que un administrador desee cambiar el formato mostrado para que coincida con las expectativas de los usuarios de una configuración regional.
+Por ejemplo, en Norteamérica puede expresar la fecha del 3 de mayo de 2015 como 15/5 o **`%m/%d/%y`**. Sin embargo, en otras partes del mundo esto podría interpretarse como `%d/%m/%y`, o 5 de marzo de 2015 debido a una ambigüedad en los valores. Para evitar esta situación, es posible que un administrador desee cambiar el formato mostrado para que coincida con las expectativas de los usuarios en una configuración regional.
 
-## 1. Omitir dimensiones de tiempo predeterminadas en dimensiones de tiempo estándar.cfg {#section-7d0b24657bef4b15abb3cbea66cb617f}
+## 1. Anular los Dimension de tiempo predeterminados en Standard Time Dimension.cfg {#section-7d0b24657bef4b15abb3cbea66cb617f}
 
-Para habilitar esta función, el administrador debe anular los valores predeterminados editando las dimensiones de tiempo existentes o creando nuevas dimensiones de tiempo con parámetros adicionales.
+Para habilitar esta función, el administrador debe anular los valores predeterminados editando las dimensiones temporales existentes o creando nuevas dimensiones temporales con parámetros adicionales.
 
-A continuación se muestra un ejemplo de una dimensión de tiempo modificada.
+A continuación se muestra un ejemplo de dimensión de tiempo modificada.
 
-Los valores de **Formato** para Semana, Hora, Día, Mes y Hora del Día se establecen en los valores predeterminados del ejemplo.
+La variable **Formato** los valores de semana, hora, día, mes y hora del día se establecen como predeterminados en el ejemplo.
 
 >[!NOTE]
 >
->Si se omiten estas líneas, el comportamiento del área de trabajo de datos no cambiará y la dimensión se compilará con los valores predeterminados.
+>Si se omiten estas líneas, el comportamiento de la Data Workbench no cambia y la dimensión se compila con los valores predeterminados.
 
 ```
 Transformation Include = TransformationInclude:  
@@ -62,9 +66,9 @@ Transformation Include = TransformationInclude:
 
 ## 2. Configurar el archivo meta.cfg {#section-5e077d3298dd48fda7f7bb16af9ea00c}
 
-Además, es necesario que el administrador del paquete agregue estos parámetros y sus valores predeterminados al **[!DNL meta.cfg]** archivo del perfil. Esto permite la edición desde la estación de trabajo.
+Además, es necesario que el administrador del paquete añada estos parámetros y sus valores predeterminados a la **[!DNL meta.cfg]** archivo. Esto permite la edición desde la estación de trabajo.
 
-Aquí hay un extracto de un **[!DNL meta.cfg]** archivo configurado.
+Aquí hay un extracto de un **[!DNL meta.cfg]** archivo.
 
 ```
 dimensions = vector: 6 items 
@@ -95,8 +99,8 @@ dimensions = vector: 6 items
         Month = string: Month
 ```
 
-A continuación se muestra un ejemplo de un **[!DNL meta.cfg]** archivo en la estación de trabajo:
+Este es un ejemplo de **[!DNL meta.cfg]** en la estación de trabajo:
 
 ![](assets/dwb_time_format.png)
 
-A continuación, el administrador puede entrar en el Administrador **de** archivos, abrir los archivos donde se configuran las dimensiones de tiempo (por ejemplo, **[!DNL Standard Time Dimensions.cfg]**) y editarlos en la estación de trabajo.
+A continuación, el administrador puede entrar en el **Administrador de archivos**, abra los archivos en los que están configuradas las dimensiones temporales (p. ej., **[!DNL Standard Time Dimensions.cfg]**) y edítelos utilizando en la estación de trabajo.

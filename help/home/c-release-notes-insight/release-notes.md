@@ -2,7 +2,7 @@
 title: Información general sobre las notas de la versión de Data Workbench
 description: Novedades de la Data Workbench de Adobe Analytics
 exl-id: 2b4a20ce-fb27-4343-8f5a-412c25aab028
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 87%
@@ -10,6 +10,8 @@ ht-degree: 87%
 ---
 
 # Descripción general de las notas de la versión
+
+{{eol}}
 
 * [Notas de la versión de Data Workbench 6.74](/help/home/c-release-notes-insight/dwb-6-74-release-notes.md)
 * [Notas de la versión de Data Workbench 6.73](/help/home/c-release-notes-insight/dwb-6-73-release-notes.md)

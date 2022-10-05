@@ -3,7 +3,7 @@ description: Las páginas web suelen estructurarse con un lenguaje de programaci
 title: Información específica de ASP
 uuid: 552288cb-b775-4121-8869-322f2a26932b
 exl-id: f73235e1-d44a-4056-b1f4-a86879c19483
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Información específica de ASP{#asp-specific-information}
+
+{{eol}}
 
 Las páginas web suelen estructurarse con un lenguaje de programación ASP (páginas de Active Server).
 
@@ -32,7 +34,7 @@ Response.AppendToLog("&v_3=" +  sState);
 Response.AppendToLog("&v_4=" +  sZip);
 ```
 
-Este proceso anexaría los valores del formulario tal como se definen en los datos de solicitud de la página [!DNL Form Processing]. Dentro de los datos de registro, los valores añadidos estarían disponibles como cadenas de consulta de la página [!DNL Form Processing] como se ilustra a continuación. Por ejemplo, v_1, v_2, v_3 y v_4 ahora serían cadenas de consulta que contengan los datos introducidos en los campos de formulario correspondientes. La sintaxis descrita en el ejemplo anterior se puede duplicar para cualquier campo de formulario adicional y valor que desee capturar.
+Este proceso anexaría los valores del formulario tal como se definen en los datos de solicitud para la variable [!DNL Form Processing] página. Dentro de los datos de registro, los valores añadidos estarían disponibles como cadenas de consulta de la variable [!DNL Form Processing] como se ilustra a continuación. Por ejemplo, v_1, v_2, v_3 y v_4 ahora serían cadenas de consulta que contengan los datos introducidos en los campos de formulario correspondientes. La sintaxis descrita en el ejemplo anterior se puede duplicar para cualquier campo de formulario adicional y valor que desee capturar.
 
 ```
 https://www.myserver.com/path/to/formprocessingpage.asp?v_1=John+Smith&v_2=Los+Angeles&v_3=California&v_4=90210
@@ -45,7 +47,7 @@ var formvalues = Response.Form;
 Response.AppendToLog(formvalues);
 ```
 
-En este ejemplo se tomarían todos los campos de formulario presentes en el HTML junto con sus valores respectivos y se adjuntarían como cadenas de consulta a la entrada de registro de la página [!DNL Form Processing]. Cabe señalar que esto incluiría cualquier campo oculto presente en el formulario.
+En este ejemplo se tomarían todos los campos de formulario presentes en el HTML junto con sus valores respectivos y se adjuntarían como cadenas de consulta a la entrada de registro para la variable [!DNL Form Processing] página. Cabe señalar que esto incluiría cualquier campo oculto presente en el formulario.
 
 Los datos de registro se aumentarían como se detalla en la siguiente tabla:
 

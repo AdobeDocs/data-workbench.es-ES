@@ -3,14 +3,16 @@ description: Con una anotación de imagen, puede copiar una imagen de cualquier 
 title: Anotaciones de imagen
 uuid: 62a655f6-120b-4cf4-adaa-aa04f721a7dc
 exl-id: 905d3e9e-0d24-456e-af45-c29f12ed986d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 # Anotaciones de imagen{#image-annotations}
+
+{{eol}}
 
 Con una anotación de imagen, puede copiar una imagen de cualquier origen y pegarla directamente en un espacio de trabajo.
 
@@ -47,6 +49,6 @@ A continuación, puede cambiar el tamaño, invertir el esquema de colores o aten
 
 **Para activar o desactivar la opción Ajustar a ventana**
 
-La opción [!DNL Fit to Window], cuando está seleccionada, permite que la anotación se amplíe o reduzca automáticamente para ajustarse al tamaño de la imagen. La opción [!DNL Fit to Window] está activada de forma predeterminada.
+La variable [!DNL Fit to Window] , cuando está seleccionada, permite que la anotación se amplíe o reduzca automáticamente para ajustarse al tamaño de la imagen. La opción [!DNL Fit to Window] está activada de forma predeterminada.
 
-* Haga clic con el botón derecho en la anotación y haga clic en **[!UICONTROL Fit to Window]**. Cuando está habilitada, aparece una X a la izquierda de [!DNL Fit to Window].
+* Clic con el botón derecho dentro del clic en la anotación **[!UICONTROL Fit to Window]**. Cuando está habilitada, aparece una X a la izquierda de [!DNL Fit to Window].

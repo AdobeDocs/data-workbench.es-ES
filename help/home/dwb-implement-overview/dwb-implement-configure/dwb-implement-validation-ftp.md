@@ -3,7 +3,7 @@ description: Esta es una guía rápida que le proporciona los pasos mínimos nec
 title: Validación de servidores FTP internos y externos
 uuid: bc381c1d-df27-4009-920b-1a804b36c204
 exl-id: 8eecfda7-ffa0-458c-a518-434758344bfe
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 9%
@@ -11,6 +11,8 @@ ht-degree: 9%
 ---
 
 # Validación de servidores FTP internos y externos{#validation-of-internal-and-external-ftp-servers}
+
+{{eol}}
 
 Esta es una guía rápida que le proporciona los pasos mínimos necesarios para validar la configuración de FTP interno y externo.
 

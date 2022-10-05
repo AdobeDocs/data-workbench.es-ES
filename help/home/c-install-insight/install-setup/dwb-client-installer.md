@@ -1,45 +1,46 @@
 ---
 description: Data Workbench proporciona un asistente de configuración para instalar la aplicación de estación de trabajo (cliente).
-title: Asistente de configuración para estaciones de trabajo
+title: Asistente de configuración de Workstation
 uuid: e2bf6606-e7ba-439f-b50c-118706ab5b7d
-translation-type: tm+mt
-source-git-commit: 8f5c69541bdd97aefbad3840f75f06846615f222
+exl-id: bfd9f2ad-282a-4be8-9f66-53e045648ef1
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 1%
 
 ---
 
+# Asistente de configuración de Workstation{#workstation-setup-wizard}
 
-# Asistente de configuración para estaciones de trabajo{#workstation-setup-wizard}
+{{eol}}
 
 Data Workbench proporciona un asistente de configuración para instalar la aplicación de estación de trabajo (cliente).
 
-## Instalación de la estación de trabajo mediante el Asistente para instalación {#section-58da9bb6196c46eab3b54146913fdcb8}
+## Instalación de la estación de trabajo mediante el Asistente para configuración {#section-58da9bb6196c46eab3b54146913fdcb8}
 
-Inicie el archivo ejecutable del asistente de instalación y siga cada paso para instalar el programa de cliente de la estación de trabajo. Tras la instalación de la estación de trabajo, puede conectarse a servidores y perfiles.
+Inicie el ejecutable del asistente de instalación y siga cada paso para instalar el programa cliente de la estación de trabajo. Después de la instalación de la estación de trabajo, puede conectarse a servidores y perfiles.
 
-1. Haga clic con el doble en el archivo ejecutable del instalador de la estación de trabajo.
+1. Haga doble clic en el ejecutable del instalador de la estación de trabajo.
 1. Haga clic en **Sí** para permitir que el programa se instale en Windows.
-1. Seleccione un **idioma** para el asistente de configuración.
+1. Seleccione un **Idioma** para el asistente de configuración.
 
    Se abrirá el asistente:
 
    ![](assets/6_4_workstation_wizard.png)
 
-1. Haga clic en **Siguiente** en el cuadro de diálogo Asistente para **la configuración de** bienvenida a la Data Workbench.
+1. Haga clic en **Siguiente** en el **Asistente para la configuración de Datas Workbench** diálogo.
 
-1. Seleccione para instalar una **nueva instalación** o para **actualizar o reparar** una instalación existente.
+1. Seleccione para instalar un **Nueva instalación** o **Actualizar o reparar** una instalación existente.
 
-   **La nueva instalación** sobrescribe los archivos instalados anteriormente.
+   **Nueva instalación** sobrescribe los archivos instalados anteriormente.
 
-   **La actualización** actualiza la estación de trabajo a la versión más reciente o le permite reparar una instalación existente. Data Workbench comparará los archivos **Insight.exe** instalados y ejecutará el Asistente para la instalación de estaciones de trabajo si hay una versión más reciente del cliente disponible.
+   **Actualización** actualiza la estación de trabajo a la versión más reciente o le permite reparar una instalación existente. Data Workbench se comparará instalada **Insight.exe** y ejecute el Asistente para configuración de Workstation si hay disponible una versión más reciente del cliente.
 
-1. Seleccionar ubicación de instalación:
+1. Seleccione la ubicación de instalación:
 
-   **Normalmente** se instala en una carpeta y una ubicación predeterminadas.
+   **Típico** se instala en una carpeta y una ubicación predeterminadas.
 
-   * Los archivos programa se guardan de forma predeterminada en:
+   * Los archivos de programa se guardan de forma predeterminada en:
 
       ```
       C:\Program Files\Adobe\Adobe Analytics\Data Workbench
@@ -53,48 +54,48 @@ Inicie el archivo ejecutable del asistente de instalación y siga cada paso para
 
       >[!IMPORTANT]
       >
-      >Inicialmente se instalará un archivo ***Insight.cfg*** genérico sin detalles del servidor. Se recomienda utilizar el archivo ***Insight.cfg*** recién instalado y personalizarlo en lugar de mover un archivo de una instalación anterior. Debido a que la ruta de instalación de la estación de trabajo ha cambiado, se recomienda la adición de fuentes, la eliminación de la carpeta *de* usuario y la eliminación de *TraceFileComponent *.
+      >Un genérico ***Insight.cfg*** archivo sin detalles del servidor se instalará inicialmente. Se recomienda utilizar el ***Insight.cfg*** y personalícelo en lugar de mover un archivo desde una instalación anterior. Debido a que la ruta para instalar la estación de trabajo ha cambiado, la adición de fuentes, la eliminación del *Carpeta de usuario*, y se recomienda eliminar *TraceFileComponent *.
 
 1. (opcional) Seleccione **Personalizado** para elegir el paquete de idioma y la ubicación del programa y los archivos de datos.
-1. Seleccione la ubicación de **los accesos directos en el menú** Inicio.
+1. Seleccionar ubicación para **accesos directos en el menú Inicio**.
 
    ![](assets/6_4_workstation_wizard_folder.png)
 
-   Haga clic en **No crear una carpeta** de menú Inicio para no instalar un acceso directo en el menú Inicio de Windows.
+   Haga clic en **No crear una carpeta del menú Inicio** para no instalar un acceso directo en el menú de inicio de Windows.
 
 1. Haga clic en **Siguiente.** Se mostrará un resumen de las rutas y los idiomas de ubicación de archivos seleccionados. Haga clic en **Instalar.**
 
-1. Busque el certificado **de** Data Workbench.
+1. Busque la variable **Certificado de Data Workbench**.
 
-   Si el asistente de configuración no encuentra el certificado de Data Workbench durante la instalación, abrirá un cuadro de diálogo para buscar la ubicación del certificado (un archivo **.pem** ubicado de forma predeterminada en la carpeta **Certificados** del cliente) o haga clic en **Omitir** para buscar el certificado después de la instalación.
+   Si el asistente de configuración no encuentra el certificado de Data Workbench durante la instalación, abrirá un cuadro de diálogo para buscar la ubicación del certificado (una **.pem** archivo ubicado de forma predeterminada en el cliente **Certificados** carpeta) o haga clic en **Omitir** para buscar el certificado después de la instalación.
 
    Haga clic en **Instalar** después de localizar el certificado.
 
-1. Una vez que se haya completado el asistente de instalación y se haya instalado la Data Workbench, haga clic en **Finalizar** para completar la instalación.
+1. Una vez que se haya completado el asistente de configuración y haya instalado la Data Workbench, haga clic en **Finalizar** para completar la configuración.
 
    >[!NOTE]
    >
-   >Ubicación de registro predeterminada para el Asistente para configuración de estaciones de trabajo en `C:\Users\<userName>\AppData\Local\Temp`.
+   >La ubicación de registro predeterminada para el Asistente para configuración de la estación de trabajo en  `C:\Users\<userName>\AppData\Local\Temp`.
 
-   Seleccione la casilla de verificación **Iniciar aplicación** para abrir el área de trabajo después de la configuración.
+   Seleccione el **Aplicación de inicio** para abrir el área de trabajo después de la configuración.
 
-1. **Configurar conexiones** a servidores en **[!DNL Insight.cfg]** archivos.
+1. **Configuración de conexiones** a servidores en **[!DNL Insight.cfg]** archivo.
 
-   Tras la instalación de la estación de trabajo, se abrirá el espacio de trabajo Experiencia de configuración de estación de trabajo mejorada con información adicional sobre la [introducción de información](/help/home/c-get-started/c-insght-config-param.md) de conexión del servidor en el archivo *Insight.cfg* y una opción para seleccionar un perfil en la lista desplegable. También puede vista el estado de la conexión a los servidores.
+   Después de la instalación de la estación de trabajo, se abrirá el espacio de trabajo Experiencia de configuración de la estación de trabajo mejorada con información adicional sobre [introducción de información de conexión del servidor](/help/home/c-get-started/c-insght-config-param.md) en el *Insight.cfg* y una opción para seleccionar un perfil en la lista desplegable. También puede ver el estado de conexión a los servidores.
 
    ![](assets/6_4_workstation_install_conf_conn.png)
 
 ## Carpetas de instalación {#section-b5ea5a3b3ecb4622aef713972f3f8ebd}
 
-La estructura de Datas Workbench tiene dos ubicaciones de instalación:
+La estructura de carpetas de Data Workbench tiene dos ubicaciones de instalación:
 
-* **Archivos** de programa El archivo **Insight.exe** y los archivos de cliente compatibles (**Insight.ini**) se encuentran ahora de forma predeterminada en
+* **Archivos de programa** La variable **Insight.exe** y archivos de cliente compatibles (**Insight.ini**) ahora se encuentra de forma predeterminada en
 
    ```
    C:\Program Files\Adobe\Analytics\DataWorkbench
    ```
 
-* Carpeta **Appdata** .
+* La variable **Appdata** carpeta.
 
    **Insight.cfg**, perfiles, certificados, registros de seguimiento y archivos de usuario se encuentran ahora de forma predeterminada en
 
@@ -102,7 +103,7 @@ La estructura de Datas Workbench tiene dos ubicaciones de instalación:
    C:\Users\<Winuser>\AppData\Adobe\Analytics\DataWorkbench\ 
    ```
 
-   Puede definir la ruta de la carpeta **Appdata** en el `Insight.ini` archivo:
+   Puede establecer la ruta para la variable **Appdata** en la carpeta `Insight.ini` archivo:
 
    ```
    [InitialSettings] 
@@ -112,10 +113,10 @@ La estructura de Datas Workbench tiene dos ubicaciones de instalación:
 
 ## Desinstalación de la estación de trabajo {#section-5ce2e233fe4348469ef1b3c451dd5b70}
 
-Data Workbench ahora incluye un ejecutable para desinstalar la estación de trabajo (ubicada de forma predeterminada en **`Program Files\Adobe\Adobe Analytics\Data Workbench\ unins000.exe`**).
+La Data Workbench ahora incluye un ejecutable para desinstalar la estación de trabajo (ubicada de forma predeterminada en **`Program Files\Adobe\Adobe Analytics\Data Workbench\ unins000.exe`**).
 
 Inicie y siga los pasos para eliminar los archivos de la estación de trabajo de Data Workbench de su disco duro.
 
 >[!NOTE]
 >
->Puede iniciar el ejecutable **unins000.exe** desde la carpeta, utilizando el método abreviado de Data Workbench **de** Desinstalación desde el menú Inicio o desde **[!UICONTROL Control Panel]** > **[!UICONTROL Program and Features]**.
+>Puede iniciar el **unins000.exe** del archivo ejecutable de la carpeta, utilizando el **Desinstalar Data Workbench** acceso directo desde el menú Inicio o desde **[!UICONTROL Control Panel]** > **[!UICONTROL Program and Features]**.

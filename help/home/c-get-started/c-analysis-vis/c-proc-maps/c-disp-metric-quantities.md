@@ -3,7 +3,7 @@ description: Un mapa de procesos 2D puede mostrar las cantidades de métricas qu
 title: Mostrar una cantidad de métrica
 uuid: ec336af1-ff5b-4c0a-86a5-8186d76cdf07
 exl-id: fbe40dfa-0597-4d78-8673-4e9b63581c47
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Mostrar una cantidad de métrica{#display-a-metric-quantity}
+
+{{eol}}
 
 Un mapa de procesos 2D puede mostrar las cantidades de métricas que representan la cantidad de actividad desde o hacia un nodo del mapa.
 

@@ -3,7 +3,7 @@ description: Tablas
 title: Tablas
 uuid: 3bfb5be4-5510-456b-8b3d-6e57cb93949e
 exl-id: 215ad990-92af-4c36-9946-89dbe36bbb8c
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Tablas{#tables}
+
+{{eol}}
 
 Las tablas son las visualizaciones más detalladas disponibles en la aplicación de panel. Las tablas permiten visualizar datos de métricas y dimensiones con cada elemento de datos representado como una fila en una tabla. Una columna contiene los valores de dimensión, mientras que las otras columnas contienen los valores de métrica correspondientes. Se pueden mostrar varias métricas y no hay restricciones en el número de valores de dimensión que se pueden mostrar en una tabla. Todos los valores de una dimensión seleccionada que existan en los datos de Data Workbench se muestran en la tabla .
 

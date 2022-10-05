@@ -3,7 +3,7 @@ description: El paso final es ejecutar el tablero por primera vez para permitirl
 title: Inicialización del panel
 uuid: 847ba63e-29d8-4950-aa74-22d825388e2b
 exl-id: 47098d73-d8c4-4d14-964f-108a731d3733
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # Inicialización del panel{#initializing-the-dashboard}
+
+{{eol}}
 
 El paso final es ejecutar el tablero por primera vez para permitirle que se inicialice.
 
@@ -27,12 +29,12 @@ La instalación del panel ya ha finalizado. Si aún no lo ha hecho, utilice las 
 
 >[!NOTE]
 >
->Los registros de error y auditoría del panel se encuentran en el directorio [!DNL logs] dentro de la ruta de instalación.
+>Los registros de error y auditoría del panel se encuentran en la [!DNL logs] dentro de la ruta de instalación.
 
 >[!NOTE]
 >
->Si necesita cambiar la identidad del grupo de aplicaciones a una cuenta diferente, asegúrese de conceder acceso a la base de datos y dar a la identidad acceso de lectura y escritura a la carpeta [!DNL logs] en la ruta de instalación.
+>Si necesita cambiar la identidad del grupo de aplicaciones a una cuenta diferente, asegúrese de conceder acceso a la base de datos y dar a la identidad acceso de lectura y escritura a la [!DNL logs] en la ruta de instalación.
 
 >[!NOTE]
 >
->Si alguna vez necesita cambiar la cadena de conexión para la base de datos, simplemente edite el valor utilizando el **[!UICONTROL IIS Management Console]**.
+>Si alguna vez necesita cambiar la cadena de conexión de la base de datos, edite el valor utilizando la variable **[!UICONTROL IIS Management Console]**.

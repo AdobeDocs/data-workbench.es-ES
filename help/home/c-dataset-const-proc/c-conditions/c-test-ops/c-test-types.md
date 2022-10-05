@@ -3,18 +3,20 @@ description: La condición Compare y la condición Range requieren que especifiq
 title: Tipos de pruebas para operaciones de prueba
 uuid: dc0433dd-a35e-472e-8975-f58347512c11
 exl-id: 8abed46e-e76d-47c0-bbe9-cf98cf2d61e8
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
 
 # Tipos de pruebas para operaciones de prueba{#test-types-for-test-operations}
 
+{{eol}}
+
 La condición Compare y la condición Range requieren que especifique el tipo de comparación que se debe realizar para la condición.
 
-En la tabla siguiente se describen los tipos disponibles ( [!DNL LEXICAL], [!DNL NUMERIC] y [!DNL DATETIME]).
+La tabla siguiente describe los tipos disponibles ( [!DNL LEXICAL], [!DNL NUMERIC]y [!DNL DATETIME]).
 
 <table id="table_1B3AD8BDF0414D0AB8EE0E6D1B53E2CE"> 
  <thead> 
@@ -33,10 +35,10 @@ En la tabla siguiente se describen los tipos disponibles ( [!DNL LEXICAL], [!DNL
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> DATETIME</span> </p> </td> 
    <td colname="col2"> <p>Primero convierte el campo de entrada en una fecha. Si el campo de entrada no se puede convertir en una fecha válida, la prueba de condición devuelve el valor "False". Si el campo se puede convertir en una fecha, la prueba devuelve el valor "True" solo si la fecha de entrada se encuentra en la fecha mínima especificada o después de ella y en o antes de la fecha máxima especificada. </p> </td> 
-   <td colname="col3"> <p>Si las fechas mínima y máxima no son válidas, el conjunto de datos no se construye. </p> <p> Si no se suministran las fechas mínima o máxima, el sistema sustituye adecuadamente la fecha mínima (1 de enero de 1600) o la fecha máxima (en algún momento del siglo 24). </p> <p> Adobe recomienda usar uno de los siguientes formatos para <span class="wintitle"> DATETIME</span>: </p> 
+   <td colname="col3"> <p>Si las fechas mínima y máxima no son válidas, el conjunto de datos no se construye. </p> <p> Si no se suministran las fechas mínima o máxima, el sistema sustituye adecuadamente la fecha mínima (1 de enero de 1600) o la fecha máxima (en algún momento del siglo 24). </p> <p> Adobe recomienda utilizar uno de los siguientes formatos para <span class="wintitle"> DATETIME</span>: </p> 
     <ul id="ul_44F469CC5D974382AF70D7B1975CF077"> 
-     <li id="li_DB5FD4AFD6B34436ACD7C13282F64956"> 1 de enero de 2013 HH:MM:SS EDT </li> 
-     <li id="li_307580C3F97D495BB16F1212DB38CE37"> 1 de enero de 2013 HH:MM:SS GMT </li> 
+     <li id="li_DB5FD4AFD6B34436ACD7C13282F64956"> 1 de enero de 2013 HH:MM:SED EDT </li> 
+     <li id="li_307580C3F97D495BB16F1212DB38CE37"> 1 de Enero del 2013 HH:MM:SS GMT </li> 
     </ul> <p> Si no se especifica nada, la zona horaria toma el valor predeterminado GMT. </p> </td> 
   </tr> 
   <tr> 

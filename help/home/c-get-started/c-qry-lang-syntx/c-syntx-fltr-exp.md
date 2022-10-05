@@ -3,7 +3,7 @@ description: Un filtro es una expresión que define un subconjunto de los datos 
 title: Sintaxis para expresiones de filtro
 uuid: faeb6847-3295-48ab-9d1c-db00f57647ba
 exl-id: 515c1645-69c8-4990-a913-d2d505c6fe51
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -12,13 +12,15 @@ ht-degree: 1%
 
 # Sintaxis para expresiones de filtro{#syntax-for-filter-expressions}
 
+{{eol}}
+
 Un filtro es una expresión que define un subconjunto de los datos de un conjunto de datos.
 
 Un filtro admite o rechaza cada elemento de cada dimensión según las relaciones entre dimensiones.
 
-Los filtros se pueden editar con [!DNL Filter Editor]. Consulte [Editores de filtro](../../../home/c-get-started/c-analysis-vis/c-filter-editors/c-filter-editors.md#concept-2f343ecbed8240f18b0c1f1eccef11e3).
+Los filtros se pueden editar con la variable [!DNL Filter Editor]. Consulte [Editores de filtros](../../../home/c-get-started/c-analysis-vis/c-filter-editors/c-filter-editors.md#concept-2f343ecbed8240f18b0c1f1eccef11e3).
 
-En la tabla siguiente, cada descripción de sintaxis incluye un ejemplo de una expresión de métrica que utiliza ese filtro. Por ejemplo, Sessions[True] es una métrica definida con el filtro &quot;True&quot;. La métrica Sesiones[Verdadero] es la misma que la métrica Sesiones porque el filtro Verdadero admite cada elemento de la dimensión Sesión.
+En la tabla siguiente, cada descripción de sintaxis incluye un ejemplo de una expresión de métrica que utiliza ese filtro. Por ejemplo, Sesiones[True] es una métrica definida con el filtro &quot;Verdadero&quot;. Las sesiones[True] es la misma que la métrica Sesiones porque el filtro Verdadero admite todos los elementos de la dimensión Sesión .
 
 <table id="table_5D66E6C11B384460BAAA7A6130214594"> 
  <tbody> 

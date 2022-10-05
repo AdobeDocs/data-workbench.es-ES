@@ -3,7 +3,7 @@ description: Las leyendas de confianza le ayudan a determinar la probabilidad de
 title: Leyendas de confianza
 uuid: 2559ff7c-6060-4fee-b509-9ae0c3912016
 exl-id: 9aab169a-98b8-4e71-b74d-28e385c5c424
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Leyendas de confianza{#confidence-legends}
+
+{{eol}}
 
 Las leyendas de confianza le ayudan a determinar la probabilidad de que los números que ve se deban a casualidades y a comprender las posibles desviaciones de los datos.
 
@@ -54,14 +56,12 @@ La siguiente leyenda de confianza muestra detalles de confianza sobre la métric
 >Al analizar los resultados de cualquier cálculo, debe tener en cuenta las siguientes advertencias:
 >* Las cifras son estimaciones. Si repetiera los mismos cálculos con un conjunto de datos diferente, obtendría un resultado diferente. Esto se conoce como variación aleatoria.
 >* Las extrapolaciones a probabilidades más altas dependen de una suposición de normalidad que no es correcta para todas las métricas. Por lo tanto, los valores de la probabilidad del 99 % son menos fiables que los valores de la probabilidad del 90 %.
-
 >
->
-Si necesita números más exactos, consulte con un experto en estadísticas.
+>Si necesita números más exactos, consulte con un experto en estadísticas.
 
 ## Cambiar métricas o fórmulas {#section-7f09ff84c3514f26b78d29294e1f03d9}
 
-* En la leyenda de confianza, haga clic en el campo **[!UICONTROL Metric or Formula]** y escriba la métrica o expresión que desee. Para ver las reglas de sintaxis de expresión, consulte [Sintaxis del idioma de consulta](../../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f).
+* En la leyenda de confianza, haga clic en la **[!UICONTROL Metric or Formula]** y escriba la métrica o expresión que desee. Para ver las reglas de sintaxis de expresión, consulte [Sintaxis del idioma de consulta](../../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f).
 
 ## Exportación a Microsoft Excel {#section-f36e2db7273740b7af278f8a2b79d564}
 

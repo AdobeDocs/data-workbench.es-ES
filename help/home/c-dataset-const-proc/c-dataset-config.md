@@ -3,7 +3,7 @@ description: La configuración del conjunto de datos hace referencia al proceso 
 title: Explicación de la configuración del conjunto de datos
 uuid: 813933d1-f52d-4584-8edd-ce9cd4aed74a
 exl-id: 1358d08e-d81c-453d-a3a3-c1f279f38192
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 7%
@@ -12,9 +12,11 @@ ht-degree: 7%
 
 # Explicación de la configuración del conjunto de datos{#understanding-dataset-configuration}
 
+{{eol}}
+
 La configuración del conjunto de datos hace referencia al proceso de edición de los archivos de configuración cuyos parámetros proporcionan las reglas para la construcción del conjunto de datos.
 
-El conjunto de datos construido reside físicamente en el archivo [!DNL temp.db] almacenado en el equipo servidor de Data Workbench, pero los archivos de configuración del conjunto de datos residen en un directorio para un perfil. Un perfil contiene un conjunto de archivos de configuración que construyen un conjunto de datos (incluidas sus dimensiones ampliadas) para un propósito de análisis específico. Además, un perfil contiene las definiciones de entidades como métricas, dimensiones derivadas, espacios de trabajo, informes y visualizaciones que permiten a los analistas interactuar con el conjunto de datos y obtener información de él.
+El conjunto de datos construido reside físicamente en la variable [!DNL temp.db] archivo almacenado en el equipo servidor de Data Workbench, pero los archivos de configuración del conjunto de datos residen en un directorio para un perfil. Un perfil contiene un conjunto de archivos de configuración que construyen un conjunto de datos (incluidas sus dimensiones ampliadas) para un propósito de análisis específico. Además, un perfil contiene las definiciones de entidades como métricas, dimensiones derivadas, espacios de trabajo, informes y visualizaciones que permiten a los analistas interactuar con el conjunto de datos y obtener información de él.
 
 El perfil cuyos archivos de configuración de conjuntos de datos está editando se denomina perfil de conjuntos de datos. Un perfil de conjunto de datos hace referencia a varios perfiles heredados, que pueden ser cualquier perfil que cree y mantenga para que pueda configurar la aplicación de Adobe para que se ajuste mejor a sus necesidades de análisis. Un perfil de conjunto de datos también puede hacer referencia a perfiles internos que se proporcionan con la aplicación de Adobe para formar la base de toda la funcionalidad disponible en la aplicación.
 
@@ -26,19 +28,19 @@ c_req_config_files.xml
 
 Un perfil de conjunto de datos para cualquier aplicación de Adobe debe contener los siguientes archivos de configuración en el equipo de Insight Server:
 
-* **Profile.cfg:** enumera los perfiles heredados y los servidores de procesamiento del perfil. Los servidores de procesamiento son las DPU de Insight Server que procesan los datos del perfil. Si ha instalado un clúster de Insight Server, puede especificar varios equipos de Insight Server para ejecutar un único perfil.
+* **Profile.cfg:** Muestra los perfiles heredados y los servidores de procesamiento del perfil. Los servidores de procesamiento son las DPU de Insight Server que procesan los datos del perfil. Si ha instalado un clúster de Insight Server, puede especificar varios equipos de Insight Server para ejecutar un único perfil.
 
-   Para obtener instrucciones para agregar perfiles heredados al archivo [!DNL Profile.cfg] de un perfil de conjunto de datos, consulte la *Guía de instalación y administración de productos de servidor*. Para obtener información sobre la instalación de un clúster de Insight Server o la configuración de un perfil de conjunto de datos para que se ejecute en un clúster de Insight Server, consulte la *Guía de instalación y administración de productos de servidor*.
+   Para obtener instrucciones sobre cómo agregar perfiles heredados a un perfil de conjunto de datos [!DNL Profile.cfg] consulte la *Guía de instalación y administración de productos para servidor*. Para obtener información sobre la instalación de un clúster de Insight Server o la configuración de un perfil de conjunto de datos para que se ejecute en un clúster de Insight Server, consulte la *Guía de instalación y administración de productos para servidor*.
 
-* **Dataset\Log Processing.cfg:** controla la fase de procesamiento de registros del proceso de construcción del conjunto de datos. Consulte [Procesamiento de registros](../../home/c-dataset-const-proc/c-dataset-constr.md#concept-8a63892878004dc389c7dad784fcb061). Para obtener más información sobre el archivo [!DNL Log Processing.cfg], consulte [Archivo de configuración de procesamiento de registros](../../home/c-dataset-const-proc/c-log-proc-config-file/c-abt-log-proc-config-file.md).
+* **Conjunto de datos\Log Processing.cfg:** Controla la fase de procesamiento de registros del proceso de construcción del conjunto de datos. Consulte [Procesamiento de registros](../../home/c-dataset-const-proc/c-dataset-constr.md#concept-8a63892878004dc389c7dad784fcb061). Para obtener más información sobre la variable [!DNL Log Processing.cfg] archivo, consulte [Archivo de configuración de procesamiento de registros](../../home/c-dataset-const-proc/c-log-proc-config-file/c-abt-log-proc-config-file.md).
 
-* **Dataset\Transformation.cfg:** controla la fase de transformación del proceso de construcción del conjunto de datos. Consulte [Transformation](../../home/c-dataset-const-proc/c-dataset-constr.md#concept-88f72e0897a744b5bc03df5039264dda). El archivo [!DNL Transformation.cfg] suele configurar el conjunto de datos para un análisis específico del perfil. Para obtener más información sobre el archivo [!DNL Transformation.cfg], consulte [Archivo de configuración de transformación](../../home/c-dataset-const-proc/c-trans-config-file/c-abt-trans-config-file.md).
+* **Dataset\Transformation.cfg:** Controla la fase de transformación del proceso de construcción del conjunto de datos. Consulte [Transformación](../../home/c-dataset-const-proc/c-dataset-constr.md#concept-88f72e0897a744b5bc03df5039264dda). La variable [!DNL Transformation.cfg] normalmente configura el conjunto de datos para un análisis específico del perfil. Para obtener más información sobre la variable [!DNL Transformation.cfg] archivo, consulte [Archivo de configuración de transformación](../../home/c-dataset-const-proc/c-trans-config-file/c-abt-trans-config-file.md).
 
-* **Archivos de inclusión de conjunto de datos:** un  [!DNL dataset include] archivo contiene un subconjunto de los parámetros contenidos en el  [!DNL Log Processing.cfg] archivo  [!DNL Transformation.cfg] o para el perfil del conjunto de datos, pero se almacena y administra dentro de un perfil heredado. [!DNL Dataset include] los archivos complementan los archivos de configuración del conjunto de datos principal. Para obtener más información, consulte [Archivos de inclusión de conjunto de datos](../../home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md).
+* **Archivos de inclusión de conjunto de datos:** A [!DNL dataset include] contiene un subconjunto de los parámetros contenidos en la variable [!DNL Log Processing.cfg] o [!DNL Transformation.cfg] para el perfil del conjunto de datos, pero se almacena y administra dentro de un perfil heredado. [!DNL Dataset include] los archivos complementan los archivos de configuración del conjunto de datos principal. Para obtener más información, consulte [Archivos de inclusión de conjunto de datos](../../home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md).
 
-El perfil del conjunto de datos que se le proporcionó durante la implementación de la aplicación de Adobe contiene un conjunto de archivos de configuración de conjuntos de datos que puede abrir, editar y guardar con [!DNL Profile Manager].
+El perfil del conjunto de datos que se le proporcionó durante la implementación de la aplicación de Adobe contiene un conjunto de archivos de configuración del conjunto de datos que puede abrir, editar y guardar con el [!DNL Profile Manager].
 
-Para obtener más información sobre [!DNL Profile Manager], consulte la *Guía del usuario de Insight*.
+Para obtener información sobre la variable [!DNL Profile Manager], consulte la *Guía del usuario de Insight*.
 
 <!--
 c_addl_config_files.xml
@@ -46,11 +48,11 @@ c_addl_config_files.xml
 
 Aunque no es necesario para todos los conjuntos de datos, estos archivos permiten controlar otros aspectos del proceso de construcción del conjunto de datos:
 
-* **Log Processing Mode.cfg:** el  [!DNL Log Processing Mode.cfg] archivo permite pausar el procesamiento de datos en un conjunto de datos, especificar fuentes sin conexión o especificar la frecuencia con la que el servidor de Data Workbench guarda sus archivos de estado. Consulte [Archivos de configuración adicionales](../../home/c-dataset-const-proc/c-add-config-files/c-add-config-files.md#concept-1afef4f88f1e467ab4326875fd1d3004).
+* **Log Processing Mode.cfg:** La variable [!DNL Log Processing Mode.cfg] permite pausar el procesamiento de datos en un conjunto de datos, especificar fuentes sin conexión o especificar la frecuencia con la que el servidor de Data Workbench guarda sus archivos de estado. Consulte [Archivos de configuración adicionales](../../home/c-dataset-const-proc/c-add-config-files/c-add-config-files.md#concept-1afef4f88f1e467ab4326875fd1d3004).
 
-* **Server.cfg:** el  [!DNL Server.cfg] archivo especifica el tamaño predeterminado de la caché de datos (en bytes) para los equipos de Data Workbench que se conectan al servidor de Data Workbench. Consulte [Archivos de configuración adicionales](../../home/c-dataset-const-proc/c-add-config-files/c-add-config-files.md#concept-1afef4f88f1e467ab4326875fd1d3004).
+* **Server.cfg:** La variable [!DNL Server.cfg] especifica el tamaño predeterminado de la caché de datos (en bytes) para los equipos de Data Workbench que se conectan al servidor de Data Workbench. Consulte [Archivos de configuración adicionales](../../home/c-dataset-const-proc/c-add-config-files/c-add-config-files.md#concept-1afef4f88f1e467ab4326875fd1d3004).
 
-* **Transform.cfg y Transform Mode.cfg:**  estos archivos solo están disponibles si dispone de licencia para la funcionalidad de transformación de datos que se utiliza con la aplicación Adobe. El archivo [!DNL Transform.cfg] contiene los parámetros que definen las fuentes de registro y las transformaciones de datos para la funcionalidad de transformación. Las transformaciones que defina manipularán los datos de origen y los generarán en un formato que especifique. El archivo [!DNL Insight Transform Mode.cfg] permite pausar el procesamiento de datos en un conjunto de datos, especificar fuentes sin conexión o especificar la frecuencia con la que el servidor de Insight que ejecuta la funcionalidad de transformación guarda sus archivos de estado. Consulte [Funcionalidad de transformación](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/transform/t-config-tfm.html).
+* **Transform.cfg y Transform Mode.cfg:** Estos archivos solo están disponibles si dispone de una licencia para la funcionalidad de transformación de datos que se utilizará con la aplicación de Adobe. La variable [!DNL Transform.cfg] contiene los parámetros que definen las fuentes de registro y las transformaciones de datos para la funcionalidad de transformación. Las transformaciones que defina manipularán los datos de origen y los generarán en un formato que especifique. La variable [!DNL Insight Transform Mode.cfg] permite pausar el procesamiento de datos en un conjunto de datos, especificar fuentes sin conexión o especificar la frecuencia con la que el servidor de Insight que ejecuta la funcionalidad de transformación guarda sus archivos de estado. Consulte [Funcionalidad de transformación](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/transform/t-config-tfm.html).
 
 <!--
 c_next_steps.xml
@@ -80,11 +82,11 @@ Para obtener información sobre tareas específicas de configuración de conjunt
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuración de un servidor de Insight para que se ejecute como una unidad de servidor de archivos </p> </td> 
-   <td colname="col2"> <p><a href="../../home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md#concept-995abff3fce34e439fb3f7f47191c80d"> Configuración de una unidad de servidor de archivos de Insight Server  </a> </p> </td> 
+   <td colname="col2"> <p><a href="../../home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md#concept-995abff3fce34e439fb3f7f47191c80d"> Configuración de una unidad de servidor de archivos de Insight Server </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuración de un servidor de Insight para que se ejecute como servidor de normalización centralizado </p> </td> 
-   <td colname="col2"> <p><a href="../../home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md#concept-995abff3fce34e439fb3f7f47191c80d"> Configuración de una unidad de servidor de archivos de Insight Server  </a> </p> </td> 
+   <td colname="col2"> <p><a href="../../home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md#concept-995abff3fce34e439fb3f7f47191c80d"> Configuración de una unidad de servidor de archivos de Insight Server </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Establezca la zona horaria que se utilizará para crear dimensiones horarias y realizar conversiones horarias </p> </td> 

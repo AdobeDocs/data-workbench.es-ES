@@ -4,7 +4,7 @@ solution: Analytics
 title: Formación de una hipótesis
 uuid: 3973060a-f49e-44e1-aa49-25059cb33783
 exl-id: d7e77d85-4655-49c5-adeb-15402e48dd7b
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -12,6 +12,8 @@ ht-degree: 3%
 ---
 
 # Formación de una hipótesis{#forming-a-hypothesis}
+
+{{eol}}
 
 Una hipótesis es una suposición, que se puede considerar verdadera a los efectos del argumento, que proporciona una explicación tentativa que se puede probar con una investigación más profunda.
 

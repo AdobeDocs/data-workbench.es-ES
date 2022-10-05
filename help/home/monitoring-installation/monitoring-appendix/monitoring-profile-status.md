@@ -3,7 +3,7 @@ description: Las siguientes dimensiones están disponibles para su uso en el per
 title: Dimensiones en el perfil de estado del perfil de Data Workbench
 uuid: bd84a3e5-d1ea-4768-9dac-62f5dfbad49a
 exl-id: 57b3ff16-26db-4292-819b-f6cd8e024c2a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Dimensiones en el perfil de estado del perfil de Data Workbench{#dimensions-in-the-data-workbench-profile-status-profile}
+
+{{eol}}
 
 Las siguientes dimensiones están disponibles para su uso en el perfil de estado del perfil de Data Workbench.
 
@@ -30,15 +32,15 @@ Las siguientes dimensiones están disponibles para su uso en el perfil de estado
   </tr> 
   <tr> 
    <td colname="col1"> <b>MegaBytes de entrada rápida por minuto</b> </td> 
-   <td colname="col2"> El valor cs-uri-query(bj) se utiliza para esta dimensión. La última fila de un bloque se utiliza como valor de la dimensión. Si el conjunto de datos está en Entrada rápida, el valor de este Dimension numérico mostrará los MB por minuto a los que el sistema está ingresando datos. <p>Nota:  Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
+   <td colname="col2"> El valor cs-uri-query(bj) se utiliza para esta dimensión. La última fila de un bloque se utiliza como valor de la dimensión. Si el conjunto de datos está en Entrada rápida, el valor de este Dimension numérico mostrará los MB por minuto a los que el sistema está ingresando datos. <p>Nota: Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>MegaBytes de fusión rápida por minuto</b> </td> 
-   <td colname="col2">El valor cs-uri-query(bk) se utiliza para esta dimensión. La última fila de un bloque se utiliza como valor de la dimensión. Si el conjunto de datos está en Fusión rápida, el valor de este Dimension numérico mostrará los MB por minuto en los que se está fusionando el sistema. <p>Nota:  Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
+   <td colname="col2">El valor cs-uri-query(bk) se utiliza para esta dimensión. La última fila de un bloque se utiliza como valor de la dimensión. Si el conjunto de datos está en Fusión rápida, el valor de este Dimension numérico mostrará los MB por minuto en los que se está fusionando el sistema. <p>Nota: Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Field GigaBytes</b> </td> 
-   <td colname="col2"> El valor cs-uri-query(bg) se utiliza para esta dimensión. El valor se divide entre 1000 y se redondea al número entero más cercano. El valor de este Dimension numérico mostrará la cantidad de espacio que están utilizando los campos en el conjunto de datos. <p>Nota:  Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
+   <td colname="col2"> El valor cs-uri-query(bg) se utiliza para esta dimensión. El valor se divide entre 1000 y se redondea al número entero más cercano. El valor de este Dimension numérico mostrará la cantidad de espacio que están utilizando los campos en el conjunto de datos. <p>Nota: Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Host</b> </td> 
@@ -46,19 +48,19 @@ Las siguientes dimensiones están disponibles para su uso en el perfil de estado
   </tr> 
   <tr> 
    <td colname="col1"> <b>Último ping</b> </td> 
-   <td colname="col2">x-last-ping es x-unixtime dividido por 10 (para admitir restricciones de tamaño de dimensiones numéricas). Último ping es la última fila de un bloque determinado y representa la última vez que el agente de supervisión registró el estado del sistema. <p>Nota:  Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
+   <td colname="col2">x-last-ping es x-unixtime dividido por 10 (para admitir restricciones de tamaño de dimensiones numéricas). Último ping es la última fila de un bloque determinado y representa la última vez que el agente de supervisión registró el estado del sistema. <p>Nota: Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Porcentaje de lectura de registros</b> </td> 
-   <td colname="col2">el valor cs-uri-query(be) se utiliza para esta dimensión numérica. Es la última fila de un bloque determinado. Esta dimensión se utiliza para calcular el porcentaje de registros que se están leyendo. <p>Nota:  Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
+   <td colname="col2">el valor cs-uri-query(be) se utiliza para esta dimensión numérica. Es la última fila de un bloque determinado. Esta dimensión se utiliza para calcular el porcentaje de registros que se están leyendo. <p>Nota: Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID del modo de procesamiento</b> </td> 
-   <td colname="col2"> El valor cs-uri-query(bb) se utiliza para este Dimension simple. Es la última fila de un bloque determinado. El ID del modo de procesamiento permite ver en qué modo de procesamiento se encuentra el sistema (Entrada rápida, Fusión rápida, Tiempo real). <p>Nota:  Esta dimensión se oculta y se vuelve a exponer con valores prácticos en el modo de procesamiento de la dimensión del lado del cliente. </p></td> 
+   <td colname="col2"> El valor cs-uri-query(bb) se utiliza para este Dimension simple. Es la última fila de un bloque determinado. El ID del modo de procesamiento permite ver en qué modo de procesamiento se encuentra el sistema (Entrada rápida, Fusión rápida, Tiempo real). <p>Nota: Esta dimensión se oculta y se vuelve a exponer con valores prácticos en el modo de procesamiento de la dimensión del lado del cliente. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Procesamiento demorado</b> </td> 
-   <td colname="col2"> El campo x-processing-stalled se crea mediante varias condiciones para indicar si el perfil se está ejecutando o no. Es una dimensión simple. <p>Nota:  Esta dimensión funciona mejor cuando hay un gran número de registros de entrada para distribuirlos equitativamente entre las DPU. Si hay, por ejemplo, un solo archivo grande cargado por día, Data Workbench puede parecer que está "paralizado" durante una hora o más, lo que resulta en una lectura de falso positivo de esta dimensión. </p></td> 
+   <td colname="col2"> El campo x-processing-stalled se crea mediante varias condiciones para indicar si el perfil se está ejecutando o no. Es una dimensión simple. <p>Nota: Esta dimensión funciona mejor cuando hay un gran número de registros de entrada para distribuirlos equitativamente entre las DPU. Si hay, por ejemplo, un solo archivo grande cargado por día, Data Workbench puede parecer que está "paralizado" durante una hora o más, lo que resulta en una lectura de falso positivo de esta dimensión. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Perfil</b> </td> 
@@ -70,7 +72,7 @@ Las siguientes dimensiones están disponibles para su uso en el perfil de estado
   </tr> 
   <tr> 
    <td colname="col1"> <b>Porcentaje de transformación</b> </td> 
-   <td colname="col2"> el valor cs-uri-query(bf) se utiliza para esta dimensión numérica. Es la última fila de un bloque determinado. Esta dimensión se utiliza para calcular el porcentaje de transformación de datos completa. <p>Nota:  Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
+   <td colname="col2"> el valor cs-uri-query(bf) se utiliza para esta dimensión numérica. Es la última fila de un bloque determinado. Esta dimensión se utiliza para calcular el porcentaje de transformación de datos completa. <p>Nota: Esta dimensión está oculta porque solo es útil cuando se promedia en una métrica. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensiones temporales</b> </td> 

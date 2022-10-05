@@ -3,7 +3,7 @@ description: Para poder generar informes y alertas, debe configurar el servidor 
 title: Configuración de la conexión con el servidor de Insight
 uuid: 2018b67e-90a6-41d7-b628-4b463869df6e
 exl-id: a398a665-fe09-448a-977c-b0f9de4add09
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -11,6 +11,8 @@ ht-degree: 7%
 ---
 
 # Configuración de la conexión con el servidor de Insight{#configuring-the-connection-to-the-insight-server}
+
+{{eol}}
 
 Para poder generar informes y alertas, debe configurar el servidor de informes para especificar la dirección del servidor de Insight e identificar los perfiles con los que desea que informe.
 
@@ -21,9 +23,9 @@ Para poder generar informes y alertas, debe configurar el servidor de informes p
 **Para configurar el servidor de informes**
 
 1. Con el Explorador de Windows, vaya al directorio donde instaló el Servidor de informes.
-1. Abra el archivo [!DNL ReportServer.cfg] en el Bloc de notas y modifique el archivo como desee.
+1. Abra el [!DNL ReportServer.cfg] en el Bloc de notas y modifique el archivo como desee.
 
-   El siguiente ejemplo [!DNL Report Server.cfg] contiene solo los parámetros incluidos en el archivo [!DNL Report Server.cfg] de forma predeterminada (y resalta la configuración de parámetro necesaria). Si se pone en contacto con el servidor de licencias de Adobe a través de un servidor proxy, debe agregar el vector de licencias y sus parámetros. Consulte [Parámetros de Report Server.cfg](../../../home/c-rpt-oview/c-rpt-param-ref/c-rpt-svr-param.md#concept-53359b328fd140d593c3f2fc0031be06) para obtener una descripción detallada.
+   El siguiente ejemplo [!DNL Report Server.cfg] contiene solo los parámetros incluidos en la variable [!DNL Report Server.cfg] de forma predeterminada (y resalta la configuración de parámetro necesaria). Si se pone en contacto con el servidor de licencias de Adobe a través de un servidor proxy, debe agregar el vector de licencias y sus parámetros. Consulte [Parámetros de Report Server.cfg](../../../home/c-rpt-oview/c-rpt-param-ref/c-rpt-svr-param.md#concept-53359b328fd140d593c3f2fc0031be06) para obtener una descripción detallada.
 
    ```
    Fonts = vector: 0 items

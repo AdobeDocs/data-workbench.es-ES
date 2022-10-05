@@ -4,7 +4,7 @@ solution: Analytics
 title: Creación del contenido de la prueba
 uuid: d7996522-38a6-4bb8-9736-d71157c17b45
 exl-id: fd46c6af-37e8-452a-880d-147b7d0cfe21
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 4%
@@ -12,6 +12,8 @@ ht-degree: 4%
 ---
 
 # Creación del contenido de la prueba{#creating-the-test-content}
+
+{{eol}}
 
 Antes de configurar el experimento, debe crear el contenido alternativo que desee utilizar en él.
 

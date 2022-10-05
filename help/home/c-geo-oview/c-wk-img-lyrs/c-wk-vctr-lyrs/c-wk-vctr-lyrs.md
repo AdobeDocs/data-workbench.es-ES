@@ -3,7 +3,7 @@ description: En Data Workbench, una capa vectorial muestra datos vectoriales est
 title: Uso de capas vectoriales
 uuid: db104a91-05b3-4db7-ba1c-6e4afc01893b
 exl-id: 668ce90c-e9e0-4e7c-98e5-0e5bf2a87a8e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 13%
@@ -11,6 +11,8 @@ ht-degree: 13%
 ---
 
 # Uso de capas vectoriales{#working-with-vector-layers}
+
+{{eol}}
 
 En Data Workbench, una capa vectorial muestra datos vectoriales estáticos (arte lineal) en el globo.
 

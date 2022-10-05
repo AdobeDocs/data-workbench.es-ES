@@ -3,7 +3,7 @@ description: Los menús a los que se accede haciendo clic con el botón derecho 
 title: Menús de métricas y dimensiones
 uuid: 0dfae2bd-6c33-4496-83ea-f7f6de960259
 exl-id: 59bed6c1-74b2-49e2-ac68-f22c8bed668a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 3%
@@ -12,9 +12,11 @@ ht-degree: 3%
 
 # Menús de métricas y dimensiones{#metric-and-dimension-menus}
 
+{{eol}}
+
 Los menús a los que se accede haciendo clic con el botón derecho en la métrica o el área de dimensión de una visualización proporcionan acceso a las acciones relacionadas con la métrica o la dimensión en esa visualización.
 
-Para obtener más información sobre el uso de estas opciones de menú con un tipo concreto de visualización, consulte la sección de visualización adecuada dentro de [Visualizaciones de análisis](../../../home/c-get-started/c-analysis-vis/c-analysis-vis.md).
+Para obtener más información sobre el uso de estas opciones de menú con un tipo de visualización particular, consulte la sección de visualización adecuada dentro de [Visualizaciones de análisis](../../../home/c-get-started/c-analysis-vis/c-analysis-vis.md).
 
 ## Menú Métrica {#section-115db63a26f04b57ac954a69972c6291}
 
@@ -38,11 +40,11 @@ Este menú le ofrece diferentes opciones en función del tipo de visualización 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ampliar a todo </p> </td> 
-   <td colname="col2"> <p>Devuelve a una visualización de todos los datos dentro del gráfico. Consulte <a href="../../../home/c-get-started/c-vis/c-zoom-vis.md#concept-7e33670bb5344f78a316f1a84cc20530"> Ampliación en Visualizaciones</a>. </p> </td> 
+   <td colname="col2"> <p>Devuelve a una visualización de todos los datos dentro del gráfico. Consulte <a href="../../../home/c-get-started/c-vis/c-zoom-vis.md#concept-7e33670bb5344f78a316f1a84cc20530"> Ampliación de las visualizaciones</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ampliar a selección </p> </td> 
-   <td colname="col2"> <p>Amplía un subconjunto seleccionado de datos en un gráfico de líneas. Consulte <a href="../../../home/c-get-started/c-vis/c-zoom-vis.md#concept-7e33670bb5344f78a316f1a84cc20530"> Ampliación en Visualizaciones</a>. Para obtener más información sobre las selecciones, consulte <a href="../../../home/c-get-started/c-vis/c-sel-vis/c-sel-vis.md#concept-012870ec22c7476e9afbf3b8b2515746"> Realización de selecciones en visualizaciones</a>. </p> </td> 
+   <td colname="col2"> <p>Amplía un subconjunto seleccionado de datos en un gráfico de líneas. Consulte <a href="../../../home/c-get-started/c-vis/c-zoom-vis.md#concept-7e33670bb5344f78a316f1a84cc20530"> Ampliación de las visualizaciones</a>. Para obtener más información sobre las selecciones, consulte <a href="../../../home/c-get-started/c-vis/c-sel-vis/c-sel-vis.md#concept-012870ec22c7476e9afbf3b8b2515746"> Realización de selecciones en visualizaciones</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editor de métricas </p> </td> 
@@ -79,7 +81,7 @@ Este menú le ofrece diferentes opciones en función del tipo de visualización 
  </tbody> 
 </table>
 
-## Utilice el menú de dimensión {#section-e09de0aa6b74459a957b627ff7d07979}
+## Uso del menú de dimensión {#section-e09de0aa6b74459a957b627ff7d07979}
 
 Para acceder al menú de dimensión, haga clic con el botón derecho en cualquier área relacionada con dimensiones dentro de una visualización.
 
@@ -96,7 +98,7 @@ Este menú le ofrece diferentes opciones en función del tipo de visualización 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Agregue Llamada </p> </td> 
+   <td colname="col1"> <p>Agregar Llamada </p> </td> 
    <td colname="col2"> <p>Agrega una llamada para el elemento seleccionado, lo que llama la atención sobre ese elemento. Consulte <a href="../../../home/c-get-started/c-vis/c-call-wkspc.md#concept-212b09e763044d938987b4a9c658adc0"> Adición de llamadas a un espacio de trabajo</a>. </p> </td> 
   </tr> 
   <tr> 

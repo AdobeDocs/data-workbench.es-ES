@@ -1,22 +1,26 @@
 ---
-description: Archivos incluidos en el paquete de instalación de Área de trabajo de datos.
+description: Archivos incluidos en el paquete de instalación de la Data Workbench.
 title: Archivos incluidos en el paquete de instalación
 uuid: 46cda536-ea71-4840-bd7f-3fe9e0242c33
-translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+exl-id: 086fb49c-d492-4670-938b-7ede70a7cd16
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 5%
 
 ---
 
-
 # Archivos incluidos en el paquete de instalación{#files-included-in-the-installation-package}
 
-Archivos incluidos en el paquete de instalación de Área de trabajo de datos.
+{{eol}}
 
-Los siguientes directorios se incluyen en el paquete de Insight.
+Archivos incluidos en el paquete de instalación de la Data Workbench.
+
+Los siguientes directorios están incluidos en el paquete Insight .
 
 ## Archivos de programa {#section-ddb14bf42cdd4dc7a6b4310a5b4388e4}
 
-El ejecutable (**[!DNL Insight.exe]**) de Workstation y los archivos de soporte se instalan de forma predeterminada en esta carpeta.
+El ejecutable de Workstation (**[!DNL Insight.exe]**) y los archivos de soporte están instalados de forma predeterminada en esta carpeta.
 
 ```
 C:\Program Files\Adobe\Adobe Analytics\Data Workbench
@@ -31,27 +35,27 @@ C:\Program Files\Adobe\Adobe Analytics\Data Workbench
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <span class="filepath"> Insight.exe </span></b> </td> 
-   <td colname="col2"> El ejecutable del cliente de Área de trabajo de datos. </td> 
+   <td colname="col1"> <b> <span class="filepath"> Insight.exe </span> </b> </td> 
+   <td colname="col2"> El ejecutable del cliente de Data Workbench. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <span class="filepath"> insight.ini </span></b> </td> 
-   <td colname="col2"> Defina el idioma y la ruta de la <span class="filepath"> carpeta Appdata </span> . </td> 
+   <td colname="col1"> <b> <span class="filepath"> insight.ini </span> </b> </td> 
+   <td colname="col2"> Defina el idioma y la ruta para la variable <span class="filepath"> Appdata </span> carpeta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <span class="filepath"> Insight.zbin </span></b> </td> 
-   <td colname="col2"> <p>El área de trabajo de datos ahora admite un Editor de métodos de entrada (IME) como proceso de entrada de texto secundario que permite introducir caracteres internacionales desde el teclado mediante un cuadro de texto flotante. El área de trabajo de datos admitirá el inglés de forma predeterminada, pero también le permite cargar otros archivos para admitir idiomas internacionales, como un teclado chino virtual (Pinyin IME). </p> <p>La aplicación cliente necesita un nuevo archivo de diccionario <span class="filepath"> (Insight.zbin </span>) para admitir el IME. </p> </td> 
+   <td colname="col1"> <b> <span class="filepath"> Insight.zbin </span> </b> </td> 
+   <td colname="col2"> <p>Ahora, Data Workbench admite un Editor de métodos de entrada (IME) como proceso de entrada de texto secundario que le permite introducir caracteres internacionales desde el teclado mediante un cuadro de texto flotante. Data Workbench admitirá el inglés de forma predeterminada, pero también le permite cargar otros archivos para admitir idiomas internacionales, como un teclado chino virtual (Pinyin IME). </p> <p>Un nuevo archivo de diccionario <span class="filepath"> (Insight.zbin </span>) es necesario para que la aplicación cliente admita el IME. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <span class="filepath"> unins000.exe </span></b> </td> 
-   <td colname="col2"> Ejecutable para desinstalar Workstation y eliminar archivos. </td> 
+   <td colname="col2"> Ejecutable para desinstalar la estación de trabajo y eliminar archivos. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Archivos AppData {#section-afddeedf8d29451f996fa46b2dfe932c}
 
-Los archivos de datos (**[!DNL Insight.cfg]**, perfiles, certificados, registros de seguimiento y archivos de usuario) se guardan de forma predeterminada en:
+Archivos de datos (**[!DNL Insight.cfg]**, Perfiles, Certificados, registros de seguimiento y archivos de usuario) se guardan de forma predeterminada en:
 
 ```
 <filepath>
@@ -68,16 +72,16 @@ Los archivos de datos (**[!DNL Insight.cfg]**, perfiles, certificados, registros
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <span class="filepath"> Insight.cfg </span></b> </td> 
-   <td colname="col2"> El archivo de configuración de Área de trabajo de datos. Define los parámetros dentro de los cuales funciona el área de trabajo de datos. Consulte <a href="../../../home/c-install-insight/install-setup/c-conn-isvr.md#concept-9f47b2cd7c12492693a2cf810cfc1d9e"> Configuración de la conexión con Insight Server </a>. </td> 
+   <td colname="col1"> <b> <span class="filepath"> Insight.cfg </span> </b> </td> 
+   <td colname="col2"> El archivo de configuración de la Data Workbench. Define los parámetros dentro de los cuales funciona la Data Workbench. Consulte <a href="../../../home/c-install-insight/install-setup/c-conn-isvr.md#concept-9f47b2cd7c12492693a2cf810cfc1d9e"> Configuración de la conexión con el servidor de Insight </a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <span class="filepath"> Base </span></b> </td> 
-   <td colname="col2"> <p>Contiene los archivos de programa para Área de trabajo de datos. </p> <p> <p>Nota:  No debe eliminar ni alterar ninguno de estos archivos. </p> </p> </td> 
+   <td colname="col1"> <b> <span class="filepath"> Base </span> </b> </td> 
+   <td colname="col2"> <p>Contiene los archivos de programa para su Data Workbench. </p> <p> <p>Nota: No debe quitar ni modificar ninguno de estos archivos. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <span class="filepath"> Certificados </span></b> </td> 
-   <td colname="col2"> Contiene el archivo de certificado, <span class="filepath"> trust_ca_cert.pem </span>, y el certificado digital de usuario con nombre para Área de trabajo de datos. Consulte <a href="../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#concept-4c6a900074d4464fb6ec7862f7e54f10"> Descarga e instalación del certificado digital </a>. </td> 
+   <td colname="col1"> <b> <span class="filepath"> Certificados </span> </b> </td> 
+   <td colname="col2"> Contiene el archivo de certificado, <span class="filepath"> trust_ca_cert.pem </span>y el certificado digital del usuario con nombre para la Data Workbench. Consulte <a href="../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#concept-4c6a900074d4464fb6ec7862f7e54f10"> Descarga e instalación del certificado digital </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <span class="filepath"> Configuración </span> </b> </td> 
@@ -97,8 +101,7 @@ Los archivos de datos (**[!DNL Insight.cfg]**, perfiles, certificados, registros
   </tr> 
   <tr> 
    <td colname="col1"> <b> <span class="filepath"> InsightSetup.exe </span></b> </td> 
-   <td colname="col2"> Asistente de configuración para instalar equipos cliente adicionales en la <b> carpeta Software/ <span class="filepath"> Insight </span></b> . </td> 
+   <td colname="col2"> Asistente de configuración para instalar equipos cliente adicionales en <b> <span class="filepath"> Software/Insight </span></b> carpeta. </td> 
   </tr> 
  </tbody> 
 </table>
-

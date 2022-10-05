@@ -3,7 +3,7 @@ description: Las expresiones regulares se utilizan en todos los campos de búsqu
 title: Expresiones regulares
 uuid: f3a0119d-6fac-4f63-8dca-4db32d2a737a
 exl-id: 75841a70-e78a-429b-b00d-ac107b7a87aa
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Expresiones regulares{#regular-expressions}
+
+{{eol}}
 
 Las expresiones regulares se utilizan en todos los campos de búsqueda de Data Workbench, incluidos los paneles de entidades de consulta.
 
@@ -26,15 +28,15 @@ Una expresión regular es un patrón de texto, que consiste en una combinación 
 
 Para identificar y extraer patrones de cadena complejos, el servidor de Data Workbench utiliza expresiones regulares en algunas de las transformaciones y condiciones. A continuación se ofrece una breve guía sobre las expresiones regulares.
 
-Este apéndice no es una introducción completa de las expresiones regulares. Una referencia particularmente buena es la publicación de O&#39;Reilly *Mastering Regular Expressions, 2nd Edition* de Jeffrey E. F. Friedl.
+Este apéndice no es una introducción completa de las expresiones regulares. Una referencia particularmente buena es la publicación de O&#39;Reilly *Dominación de las expresiones regulares, segunda edición* por Jeffrey E. F. Friedl.
 
 ## Terminología de expresión regular {#section-80b0d54f731e448391532ab3eb3c525c}
 
 | Término | Definición |
 |---|---|
-| Literal | Un literal es un carácter que utilizamos en una expresión regular para localizar una secuencia específica de caracteres. Por ejemplo, para encontrar el producto en [!DNL shop/products.html], el producto de la cadena es un literal o lo que literalmente estamos buscando en la cadena. |
+| Literal | Un literal es un carácter que utilizamos en una expresión regular para localizar una secuencia específica de caracteres. Por ejemplo, para buscar el producto en [!DNL shop/products.html], el producto de cadena es un literal o lo que estamos buscando literalmente en la cadena. |
 | Metacaracteres | Un metacaractero es un carácter especial que tiene una interpretación única en el contexto de las expresiones regulares. Por ejemplo, el punto (.) es un metacarácter que se utiliza para hacer coincidir cualquier carácter. |
-| Secuencia de escape | Una secuencia de escape es simplemente una manera de decirle al motor de expresión regular que nos gustaría usar uno de los metacaracteres como literal. Las secuencias de escape siempre comienzan con el carácter de barra invertida (`\`). Al colocar la barra invertida (que también es un metacaractero) delante de un metacaractero, el motor de expresión regular interpreta el metacaractero escapado como literal. Por ejemplo, si desea hacer coincidir el punto del metacaractero (`.`), debe utilizar una secuencia de escape. Sin embargo, para hacer coincidir uno de los puntos de la cadena 168.196.0.11, puede utilizar la expresión regular que consiste en una barra invertida y un punto (`\.`). |
+| Secuencia de escape | Una secuencia de escape es simplemente una manera de decirle al motor de expresión regular que nos gustaría usar uno de los metacaracteres como literal. Las secuencias de escape siempre comienzan con el carácter de barra invertida (`\`). Al colocar la barra invertida (que también es un metacaractero) delante de un metacaractero, el motor de expresión regular interpreta el metacaractero escapado como literal. Por ejemplo, si desea que coincida con el punto del metacaractero (`.`), debe utilizar una secuencia de escape. Sin embargo, para hacer coincidir uno de los puntos de la cadena 168.196.0.11, puede utilizar la expresión regular que consiste en una barra invertida y un punto (`\.`). |
 | Patrón | Es una terminología taquigráfica para la expresión regular. En esencia, una expresión regular es un patrón que está intentando hacer coincidir con la cadena de destino. |
 | Cadena de destino | Este término hace referencia a la cadena en la que estamos buscando para localizar el patrón deseado. |
 
@@ -88,7 +90,7 @@ La coincidencia literal permite buscar una sola cadena, pero los corchetes, guio
   </tr>
   <tr>
    <td colname="col1"> Guión (-) </td>
-   <td colname="col2"> <p>Coincide con un rango de caracteres. Por lo tanto, en lugar de escribir [0123456789] simplemente podríamos escribir [0-9]. </p> <p> Esto se puede ampliar a rangos de caracteres y a varios rangos dentro de un conjunto de corchetes. Por ejemplo, [0-9A-C] coincide con los caracteres de 0 a 9 y de A a C. </p> <p> <p>Nota:  Para probar un guión (-) como un literal dentro de los corchetes, debe aparecer primero o último. Por ejemplo, pruebas [-0-9] para - y de 0 a 9. </p> </p> </td>
+   <td colname="col2"> <p>Coincide con un rango de caracteres. Por lo tanto, en lugar de escribir [0123456789] simplemente podríamos escribir [0-9]. </p> <p> Esto se puede ampliar a rangos de caracteres y a varios rangos dentro de un conjunto de corchetes. Por ejemplo, [0-9A-C] coincide con los caracteres de 0 a 9 y de A a C. </p> <p> <p>Nota: Para probar un guión (-) como un literal dentro de los corchetes, debe aparecer primero o último. Por ejemplo, pruebas [-0-9] para - y de 0 a 9. </p> </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Barra vertical (|) </td>
@@ -108,7 +110,7 @@ Veamos los siguientes ejemplos:
 
 **Negación**
 
-La negación es una forma de decir que le gustaría hacer coincidir cualquier cosa excepto los caracteres dados. El metacaractero de negación, el circunflejo o acento circunflejo (`^`), se usa como primer carácter entre corchetes para indicar que le gustaría que la coincidencia fuera cualquier carácter excepto los demás caracteres entre corchetes. Por ejemplo, para que coincida con cualquier carácter que no sea un punto y coma (`;`), debe escribir
+La negación es una forma de decir que le gustaría hacer coincidir cualquier cosa excepto los caracteres dados. El metacaractero de negación, el circunflejo o el acento circunflejo (`^`), se utiliza como el primer carácter entre corchetes para indicar que desea que la coincidencia sea cualquier cosa excepto los caracteres restantes entre corchetes. Por ejemplo, para que coincida con cualquier carácter que no sea un punto y coma (`;`), escribiría
 
 [`^;`]
 
@@ -120,8 +122,8 @@ Para forzar una coincidencia al principio o al final de una cadena de destino, s
 
 | Para este metacaractero... | El procesador de expresiones regulares... |
 |---|---|
-| Circumflex o Acento circunflejo (`^`) | Coincide con el principio de la cadena. Por ejemplo, ^`[Tt]`coincidiría con la cadena de destino &quot;The Beginning&quot;, pero no coincidiría con &quot;This is the start&quot;. |
-| Símbolo del dólar (`$`) | Coincide con el final de la cadena. Por ejemplo, `[Ee]`nd$ coincidiría con &quot;Este es el final&quot;, pero no coincidiría con &quot;El final es una hora especial&quot;. |
+| Circumflex o Acento circunflejo (`^`) | Coincide con el principio de la cadena. Por ejemplo, ^`[Tt]`coincidiría con la cadena de destino &quot;El principio&quot;, pero no coincidiría con &quot;Este es el principio&quot;. |
+| Símbolo del dólar (`$`) | Coincide con el final de la cadena. Por ejemplo, `[Ee]`nd$ coincidiría con &quot;Este es el final&quot; pero no coincidiría con &quot;El final es un momento especial&quot;. |
 
 >[!NOTE]
 >
@@ -168,7 +170,7 @@ Los metacaracteres de iteración le permiten hacer coincidir un patrón más de 
 
 ## Extracción de patrones {#section-4389779653b64f6cb7c47615b25c1a79}
 
-La coincidencia de patrones es solo parte de la potencia de las expresiones regulares. Las expresiones regulares también proporcionan un mecanismo para extraer partes clave de una cadena de destino. Esto se realiza mediante el uso del paréntesis izquierdo y derecho. Estas extracciones se utilizan normalmente como entrada en otro proceso y se accede a ellas mediante el uso de *%position%*, donde position es un número entero que hace referencia al número de paréntesis coincidente.
+La coincidencia de patrones es solo parte de la potencia de las expresiones regulares. Las expresiones regulares también proporcionan un mecanismo para extraer partes clave de una cadena de destino. Esto se realiza mediante el uso del paréntesis izquierdo y derecho. Estas extracciones suelen utilizarse como entrada en otro proceso y se accede a ellas mediante el uso de *%position%*, donde position es un número entero que hace referencia al número de paréntesis que coinciden.
 
 Veamos los siguientes ejemplos de extracción de patrones:
 

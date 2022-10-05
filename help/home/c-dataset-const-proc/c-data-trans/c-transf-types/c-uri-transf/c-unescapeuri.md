@@ -3,14 +3,16 @@ description: La transformación URI Unescape evita cualquier carácter de una ca
 title: UnescapeURI
 uuid: 25e87cc7-812d-4d77-be94-16093e8955fe
 exl-id: abf20906-5052-4bbe-9ffb-522b850669a6
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # UnescapeURI{#unescapeuri}
+
+{{eol}}
 
 La transformación URI Unescape evita cualquier carácter de una cadena que se haya escapado.
 
@@ -25,7 +27,7 @@ La transformación URI Unescape evita cualquier carácter de una cadena que se h
 | Condición | Condiciones en las que se aplica esta transformación. |  |
 | Predeterminado | El valor predeterminado que se debe utilizar si se cumple la condición y el valor de entrada no está disponible. |  |
 | Entrada | La cadena de URI que se va a omitir. |  |
-| Salida | Nombre del campo en el que se almacenará la cadena sin escape. |  |
+| Output | Nombre del campo en el que se almacenará la cadena sin escape. |  |
 
 La siguiente transformación evita el escape del valor docname en un campo de encabezado HTTP y almacena el resultado en el campo x-docname-unescaped:
 

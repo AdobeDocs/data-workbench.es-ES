@@ -3,7 +3,7 @@ description: Al igual que otras transformaciones, la transformación CrossRows s
 title: CrossRows
 uuid: 5910c150-6bec-4d98-b116-9b382fd54d3c
 exl-id: 321f986e-44a9-454c-9311-0ae37a11a088
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -12,15 +12,17 @@ ht-degree: 1%
 
 # CrossRows{#crossrows}
 
+{{eol}}
+
 Al igual que otras transformaciones, la transformación CrossRows se aplica a las filas de datos (entradas de registro) de los orígenes de registro.
 
-Para cada fila de datos, la transformación toma el valor del campo de entrada especificado, realiza un conjunto de pasos de procesamiento y registra el resultado en el campo de salida especificado. Sin embargo, cuando la transformación [!DNL CrossRows] funciona en una fila de datos (esta fila se denomina fila de salida), tiene en cuenta esa fila más una o más filas de datos (estas filas se denominan filas de entrada) que están asociadas con el mismo ID de seguimiento. Por lo tanto, para un ID de seguimiento determinado, el valor del campo de salida para cada fila de salida se basa en los valores del campo de entrada para una o más filas de entrada.
+Para cada fila de datos, la transformación toma el valor del campo de entrada especificado, realiza un conjunto de pasos de procesamiento y registra el resultado en el campo de salida especificado. Sin embargo, cuando la variable [!DNL CrossRows] la transformación funciona en una fila de datos (esta fila se denomina fila de salida), tiene en cuenta esa fila más una o más filas de datos (estas filas se denominan filas de entrada) que están asociadas al mismo ID de seguimiento. Por lo tanto, para un ID de seguimiento determinado, el valor del campo de salida para cada fila de salida se basa en los valores del campo de entrada para una o más filas de entrada.
 
-La transformación proporciona varias condiciones y restricciones que permiten limitar las filas de entrada para la transformación. Puede expresar estos límites en términos de las condiciones del servidor de Data Workbench (consulte [Conditions](../../../../../home/c-dataset-const-proc/c-conditions/c-abt-cond.md)), un rango de filas de entrada relativas a la fila de salida o un intervalo de veces relativo al tiempo de la fila de salida. Para las filas de entrada que cumplan las condiciones y restricciones de la transformación, puede aplicar una operación (como SUM) que determine el valor del campo de salida.
+La transformación proporciona varias condiciones y restricciones que permiten limitar las filas de entrada para la transformación. Puede expresar estos límites en términos de las condiciones del servidor de Data Workbench (consulte [Condiciones](../../../../../home/c-dataset-const-proc/c-conditions/c-abt-cond.md)), un rango de filas de entrada relativas a la fila de salida o un intervalo de veces relativo al tiempo de la fila de salida. Para las filas de entrada que cumplan las condiciones y restricciones de la transformación, puede aplicar una operación (como SUM) que determine el valor del campo de salida.
 
 >[!NOTE]
 >
->Para que funcione, la transformación [!DNL CrossRows] requiere que los datos se ordenen a tiempo y se agrupen por el ID de seguimiento en los datos de origen. Por lo tanto, [!DNL CrossRows] solo funciona cuando se define en el archivo [!DNL Transformation.cfg] o en un archivo [!DNL Transformation Dataset Include].
+>Para trabajar, el [!DNL CrossRows] la transformación requiere que los datos se ordenen a tiempo y se agrupen por el ID de seguimiento en los datos de origen. Por lo tanto, [!DNL CrossRows] solo funciona cuando se define en la variable [!DNL Transformation.cfg] o en un [!DNL Transformation Dataset Include] archivo.
 
 Al revisar las descripciones de los parámetros en la siguiente tabla, recuerde lo siguiente:
 
@@ -63,7 +65,7 @@ Al revisar las descripciones de los parámetros en la siguiente tabla, recuerde 
   </tr> 
   <tr> 
    <td colname="col1"> Clave </td> 
-   <td colname="col2"> <p>Opcional. Nombre del campo que se va a utilizar como clave. </p> <p> Si se especifica una clave, las filas de entrada de una fila de salida determinada se limitan al bloque contiguo de filas que tienen el mismo valor de clave que la fila de salida. Esta restricción se suma a todas las demás limitaciones colocadas en las filas de entrada por otros parámetros de la transformación <span class="wintitle"> CrossRows</span>. </p> <p> Por ejemplo, si trabaja con datos web y convierte el campo x-session-key (que tiene un valor único para cada sesión) en la clave, las filas de entrada para la transformación se limitan a aquellas filas que tienen el mismo valor x-session-key que la fila de salida. Por lo tanto, solo está considerando las filas de entrada que representan vistas de página que se producen durante la misma sesión que la fila de salida. </p> </td> 
+   <td colname="col2"> <p>Opcional. Nombre del campo que se va a utilizar como clave. </p> <p> Si se especifica una clave, las filas de entrada de una fila de salida determinada se limitan al bloque contiguo de filas que tienen el mismo valor de clave que la fila de salida. Esta restricción se suma a todas las demás limitaciones colocadas en las filas de entrada por otros parámetros de la variable <span class="wintitle"> CrossRows</span> transformación. </p> <p> Por ejemplo, si trabaja con datos web y convierte el campo x-session-key (que tiene un valor único para cada sesión) en la clave, las filas de entrada para la transformación se limitan a aquellas filas que tienen el mismo valor x-session-key que la fila de salida. Por lo tanto, solo está considerando las filas de entrada que representan vistas de página que se producen durante la misma sesión que la fila de salida. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -78,7 +80,7 @@ Al revisar las descripciones de los parámetros en la siguiente tabla, recuerde 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Salida </td> 
+   <td colname="col1"> Output </td> 
    <td colname="col2"> Nombre del campo de salida. </td> 
    <td colname="col3"> </td> 
   </tr> 
@@ -103,9 +105,9 @@ Al revisar las descripciones de los parámetros en la siguiente tabla, recuerde 
  </tbody> 
 </table>
 
-La transformación [!DNL CrossRows] de este ejemplo se aplica a filas de datos web para encontrar para cada vista de página la hora de la siguiente vista de página. Como sabemos que [!DNL CrossRows] solo se aplica durante la fase de transformación del proceso de construcción del conjunto de datos, las filas de datos se ordenan por visitante (cada visitante tiene un ID de seguimiento único) y por hora.
+La variable [!DNL CrossRows] en este ejemplo, la transformación se aplica a filas de datos web para buscar para cada vista de página la hora de la siguiente vista de página. Porque sabemos que [!DNL CrossRows] solo se aplica durante la fase de transformación del proceso de construcción del conjunto de datos, las filas de datos se ordenan por visitante (cada visitante tiene un ID de seguimiento único) y tiempo.
 
-El campo de entrada, x-timestamp, solo se considera para aquellas filas de entrada en las que se rellena el campo x-is-page-view (indicando que la fila de datos representa una vista de página). El campo x-session-key (que tiene un valor único para cada sesión) se especifica para el parámetro Key . Por lo tanto, las filas de entrada (entradas de registro) para la transformación se limitan al bloque contiguo de filas que tienen el mismo valor de x-session-key que la fila de salida. En otras palabras, para que se considere la transformación, una fila de entrada debe representar una vista de página que se produzca durante la misma sesión que la vista de página en la fila de salida. La primera operación de fila toma el valor del campo de salida de la primera fila de entrada que cumple la condición [!DNL Input] y tiene el mismo valor de clave de sesión x que la fila de salida.
+El campo de entrada, x-timestamp, solo se considera para aquellas filas de entrada en las que se rellena el campo x-is-page-view (indicando que la fila de datos representa una vista de página). El campo x-session-key (que tiene un valor único para cada sesión) se especifica para el parámetro Key . Por lo tanto, las filas de entrada (entradas de registro) para la transformación se limitan al bloque contiguo de filas que tienen el mismo valor de x-session-key que la fila de salida. En otras palabras, para que se considere la transformación, una fila de entrada debe representar una vista de página que se produzca durante la misma sesión que la vista de página en la fila de salida. La operación de la primera fila toma el valor del campo de salida de la primera fila de entrada que satisface la variable [!DNL Input] Condición y teniendo el mismo valor de clave de sesión x que la fila de salida.
 
 ![](assets/cfg_TransformationType_CrossRows.png)
 
