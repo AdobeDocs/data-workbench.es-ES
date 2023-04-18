@@ -5,10 +5,10 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
-source-git-commit: c08189cf57f08fc5be4bc24ec06d9b9a865a53c8
+source-git-commit: 0cd0a201aa10e519fa9760a64ab95fa1a10a3799
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -117,13 +117,9 @@ Highlighting should start after this paragraph.
 
 Start of DIV.
 
->[!NOTE]
->
->This is a note.
->
->I have a request to highlight the note's background.
+This is a new paragraph, then an image
 
-![image](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/assets/add-admin-1.png)
+![image](/help/home/assets/analytics-icon-24.png)
 
 Last highlighted item.
 
@@ -140,11 +136,7 @@ El resaltado debe comenzar después de este párrafo.
 
 Inicio de DIV.
 
->[!NOTE]
->
->Esta es una nota.
->
->Tengo una solicitud para resaltar los antecedentes de la nota.
+Se trata de un párrafo nuevo y, a continuación, una imagen
 
 ![image](/help/home/assets/analytics-icon-24.png)
 
