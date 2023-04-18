@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
-source-git-commit: fd815415e55e72ab01a1beee9b7ebed0432eded9
+source-git-commit: 3c3a0289ae50d407a83ca8878af59ecde5e86e8d
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -24,8 +24,6 @@ Existen dos tipos de distintivos, cada uno con una sintaxis diferente:
 
 * **Metadatos** - Muestra el distintivo cerca de la parte superior de una página
 * **En línea** - Muestra el distintivo donde se encuentra la sintaxis
-
-![ejemplos de distintivo](assets/badge-examples.png "Ejemplos de distintivos"){width="200" zoomable="yes"}
 
 ### Distintivos de metadatos
 
