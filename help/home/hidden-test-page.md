@@ -5,10 +5,10 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
-source-git-commit: 3c3a0289ae50d407a83ca8878af59ecde5e86e8d
+source-git-commit: c92c1e5688ca867caf1f3d4a6a3e44dafb5b3734
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,7 +98,7 @@ Ejemplos de sintaxis
 
 El equipo de Workfront ha solicitado poder utilizar el resaltado amarillo para indicar la vista previa de las próximas funciones. Así es como funciona.
 
-Ejemplo:
+Ejemplo 1:
 
 ```
 This entire paragraph should NOT be highlighted. <span class="preview"> This word is **bold** inside a highlighted sentence.</span> And this is just the last sentence.
@@ -107,6 +107,42 @@ This entire paragraph should NOT be highlighted. <span class="preview"> This wor
 Procesado:
 
 Todo este párrafo NO debe destacarse. <span class="preview"> Esta palabra es **bold** dentro de una frase resaltada.</span> Y esta es sólo la última frase.
+
+Ejemplo 2:
+
+```
+Highlighting should start after this paragraph.
+
+<div class="preview">
+
+**This is a test**
+
+>[!TIP]
+>
+>Drink 6 cups of water a day.
+
+Last highlighted paragraph
+
+<\div>
+
+Not highlighted
+```
+
+Procesado: El resaltado debe comenzar después de este párrafo.
+
+<div class="preview">
+
+**Esta es una prueba**
+
+>[!TIP]
+>
+>Beba 6 tazas de agua al día.
+
+Último párrafo resaltado
+
+&lt;\div>
+
+No resaltado
 
 Como regla general, utilice `<span class="preview">` para resaltar un párrafo o texto dentro de un párrafo, y utilice `<div class="preview">` para varios párrafos y componentes.
 
