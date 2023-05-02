@@ -6,10 +6,10 @@ hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
 exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: 7f138d3a9372bc6662d1d54a2d026474a5eb8446
+source-git-commit: a3625867de6b7b8f8b7f71b3b124f028356dabad
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 3%
+source-wordcount: '749'
+ht-degree: 4%
 
 ---
 
@@ -43,10 +43,6 @@ Todos los tipos de notas admitidos.
 >[!ADMIN]
 >
 >Esta es una nota del administrador. Solo EXL.
-
->[!ADMINISTRATION]
->
->Esta es una nota de administración. Solo EXL.
 
 >[!AVAILABILITY]
 >
