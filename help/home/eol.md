@@ -1,44 +1,44 @@
 ---
 title: Preguntas frecuentes sobre el final de vida útil de Data Workbench
-description: Obtenga más información sobre el anuncio de fin de vida útil de la Data Workbench.
-source-git-commit: 4f591a65d4cfbb69b3e5397cf27a9ed3ee498a30
-workflow-type: tm+mt
+description: Obtenga más información acerca del anuncio de final de la vida útil de Data Workbench.
+exl-id: 0abb72f1-b68b-48cc-829c-cac7bd21a6de
+source-git-commit: 020a39b7f22d08b76e641e437c1ecaaf26f1b50a
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Preguntas frecuentes sobre el final de vida útil de Data Workbench
 
-La fecha de finalización de la vida útil de la Data Workbench es **31 de diciembre de 2023**.
+La fecha de final de la vida útil de Data Workbench es el **31 de diciembre de 2023**.
 
 ## ¿Qué se incluye?
 
-Este anuncio afecta a todas las soluciones que dependen de la Data Workbench, incluidas las soluciones de software de Managed Services y On-Premise. Esta caducidad solo afecta a la Data Workbench; no afecta a otras funciones ni componentes de Adobe Analytics.
+Este anuncio afecta a todas las soluciones que dependen de Data Workbench, incluidas las soluciones de software de Managed Services y On-Premise. Este final de la vida útil solo afecta a Data Workbench, no influye en otras funciones o componentes de Adobe Analytics.
 
-## ¿Por qué se retira la Data Workbench?
+## ¿Por qué se retira Data Workbench?
 
-Con el lanzamiento y la mejora continua de Adobe Experience Platform, los clientes pueden combinar datos entre canales y usarlos en varias soluciones de Adobe. Específicamente, el Customer Journey Analytics le permite tomar datos de canales cruzados para realizar análisis avanzados de esos datos.
+Con el lanzamiento y la mejora continua de Adobe Experience Platform, los clientes pueden combinar datos de varios canales y utilizarlos en múltiples soluciones de Adobe. En concreto, Customer Journey Analytics le permite obtener datos multicanal para efectuar análisis avanzado.
 
-La mayoría de las funciones y casos de uso disponibles actualmente en Data Workbench están disponibles actualmente en las soluciones de Adobe Experience Platform. Sin embargo, hay casos limitados en los que la funcionalidad de Data Workbench no se replica con una solución de Adobe Experience Platform respectiva. Póngase en contacto con el administrador de cuentas de Adobe de su organización para analizar áreas específicas de características o compatibilidad de casos de uso.
+La mayoría de las funciones y casos de uso disponibles actualmente en Data Workbench están disponibles en las soluciones de Adobe Experience Platform. Sin embargo, existen casos limitados en los que la funcionalidad de Data Workbench no se replica con una solución correspondiente de Adobe Experience Platform. Póngase en contacto con el Administrador de cuentas de Adobe de su organización para tratar áreas específicas de compatibilidad de funciones o casos de uso.
 
-## ¿Cuáles son las directrices del Adobe para las implementaciones locales?
+## ¿Cuál es la guía de Adobe para implementaciones On-Premise?
 
-Se recomienda a los clientes pasar a las soluciones de Adobe actuales para análisis avanzados. Los clientes de licencias perpetuas heredadas pueden decidir seguir utilizando la Data Workbench. Sin embargo, Adobe no tiene planes de admitir o actualizar el producto, incluidos errores críticos o vulnerabilidades de seguridad. El uso continuo de implementaciones locales de Data Workbench más allá de su fecha de finalización se realiza bajo el propio riesgo de su organización.
+Se recomienda a los clientes pasar a las soluciones de Adobe actuales para obtener análisis avanzados. Los clientes con licencia vitalicia heredada pueden decidir continuar utilizando Data Workbench. Sin embargo, Adobe no tiene planes para ofrecer soporte o actualizar el producto, incluidos errores críticos o vulnerabilidades de seguridad. Seguir empleando las implementaciones On-Premise de Data Workbench después de su fecha de final de la vida útil corre por cuenta y riesgo de su organización.
 
-## ¿Puedo adquirir servicios de consultoría para ayudar con la Data Workbench?
+## ¿Puedo adquirir servicios de consultoría que me ayuden con Data Workbench?
 
-Puede comprar Adobe Professional Services hasta la fecha de finalización de su vida útil. Después de esta fecha, no hay Adobe Professional Services disponible. Algunos socios externos podrían optar por seguir ofreciendo servicios para la Data Workbench. Si lo hacen, lo hace exclusivamente ese socio externo sin ningún respaldo por Adobe.
+Puede comprar Adobe Professional Services hasta la fecha de final de la vida útil. Después, Adobe Professional Services no estará disponible. Algunos socios externos pueden optar por continuar ofreciendo servicios de Data Workbench. Si lo hacen, es sin ningún respaldo por parte de Adobe.
 
-## ¿A qué soluciones o productos recomienda el Adobe avanzar?
+## ¿A qué soluciones o productos recomienda pasar Adobe?
 
-Actualmente, Adobe ofrece las siguientes soluciones de Adobe Experience Platform que satisfacen necesidades similares a las de la Data Workbench:
+Actualmente, Adobe ofrece las siguientes soluciones de Adobe Experience Platform, que satisfacen necesidades similares a las de Data Workbench:
 
-* [**Customer Journey Analytics**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=es): Utilice técnicas de análisis avanzado como atribución, filtros, flujo y abandonos en los datos de varios canales de Adobe Experience Platform.
-* [**Servicio de consultas**](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es): Realizar consultas SQL con datos de Adobe Experience Platform.
-* [**Preparación de datos**](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es): Asigne, transforme y valide datos para un uso más eficaz en otras soluciones de Adobe Experience Platform.
+* [**Customer Journey Analytics**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=es): utilice técnicas de análisis avanzado como atribución, filtros, flujo y visitas en orden previsto en datos multicanal de Adobe Experience Platform.
+* [**Servicio de consultas**](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es): realice consultas SQL en datos de Adobe Experience Platform.
+* [**Preparación de datos**](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es): asigne, transforme y valide datos para un uso más eficaz en otras soluciones de Adobe Experience Platform.
 
 ## ¿Dónde puedo obtener más información?
 
-Póngase en contacto con el administrador de cuentas de Adobe de su organización para obtener más detalles o preguntas acerca de este anuncio de fin de vida útil.
+Póngase en contacto con el Administrador de cuentas de Adobe de su organización para cualquier detalle o pregunta relacionados con este anuncio de final de la vida útil.
