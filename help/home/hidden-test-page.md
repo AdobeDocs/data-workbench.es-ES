@@ -3,17 +3,23 @@ title: Página de prueba oculta
 description: Esta página no se puede buscar ni consultar en la tabla de contenido
 hide: true
 hidefromtoc: true
-badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
-badgeExam: label="Exam ADO-E903" type="neutral"
+badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Descargar Premium"
+badgeExam: label="Examen ADO-E903" type="neutral"
 exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: 62b03629815f33344189c2562bc486301878a146
+source-git-commit: 3480cc9b82a5561a364a88f3d09c14cca56a0c7a
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 3%
+source-wordcount: '796'
+ht-degree: 4%
 
 ---
 
 # Página de prueba oculta
+
+## Previsualizar problema
+
+El siguiente párrafo no se representa correctamente en la vista previa de VSC. No estoy seguro de por qué.
+
+Si administra la contraseña [!DNL Adobe], puede [cambiar la contraseña en su cuenta de Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
 ## Tipos de notas
 
