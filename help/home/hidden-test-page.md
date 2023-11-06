@@ -5,17 +5,17 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Descargar Premium"
 badgeExam: label="Examen ADO-E903" type="neutral"
-exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: 51cc5fb0196d1bc34325e65c2715eaeab5590938
+exl-id: 02245655-511e-4e89-8846-dac85681ea91
+source-git-commit: 6df7ed2c80f04416a48db8d4bc52ede2e87bf372
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 4%
 
 ---
 
 # Página de prueba oculta
 
-Activar?
+Activar? Repito, ¿se activó automáticamente a las 11:30 a.m. PT?
 
 ## Previsualizar problema
 
@@ -82,7 +82,7 @@ Un distintivo es una etiqueta de color que se utiliza como indicador de contenid
 
 [!BADGE Ejemplo de insignia]
 
-Existen dos tipos de distintivos, cada uno con una sintaxis diferente:
+Existen dos tipos of insignias, cada una con una sintaxis diferente:
 
 * **Metadatos** - Muestra el distintivo cerca de la parte superior de una página
 * **En línea** - Muestra el distintivo donde se encuentra la sintaxis
