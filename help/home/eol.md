@@ -2,10 +2,10 @@
 title: Preguntas frecuentes sobre el final de vida útil de Data Workbench
 description: Obtenga más información acerca del anuncio de final de la vida útil de Data Workbench.
 exl-id: 0abb72f1-b68b-48cc-829c-cac7bd21a6de
-source-git-commit: 020a39b7f22d08b76e641e437c1ecaaf26f1b50a
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: 9097a4ac8dc4339193d745c54c94129470a7c11f
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Este anuncio afecta a todas las soluciones que dependen de Data Workbench, inclu
 
 ## ¿Por qué se retira Data Workbench?
 
-Con el lanzamiento y la mejora continua de Adobe Experience Platform, los clientes pueden combinar datos de varios canales y utilizarlos en múltiples soluciones de Adobe. En concreto, Customer Journey Analytics le permite obtener datos multicanal para efectuar análisis avanzado.
+Con el lanzamiento y la mejora continua de Adobe Experience Platform, los clientes pueden combinar datos de varios canales y utilizarlos en múltiples soluciones de Adobe. Específicamente, [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=es) le permite tomar datos de canales cruzados para realizar análisis avanzados de esos datos.
 
 La mayoría de las funciones y casos de uso disponibles actualmente en Data Workbench están disponibles en las soluciones de Adobe Experience Platform. Sin embargo, existen casos limitados en los que la funcionalidad de Data Workbench no se replica con una solución correspondiente de Adobe Experience Platform. Póngase en contacto con el Administrador de cuentas de Adobe de su organización para tratar áreas específicas de compatibilidad de funciones o casos de uso.
 
